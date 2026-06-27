@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Local Winds",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-local-winds-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

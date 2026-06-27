@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Types of Satellites",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-types-of-satellites-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

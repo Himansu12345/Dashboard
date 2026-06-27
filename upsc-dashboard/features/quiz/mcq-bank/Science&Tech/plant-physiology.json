@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Plant Physiology",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-plant-physiology-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

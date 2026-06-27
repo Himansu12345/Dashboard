@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Shishunaga Dynasty",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-shishunaga-dynasty-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Indirect Taxes",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-indirect-taxes-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

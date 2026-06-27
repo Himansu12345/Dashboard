@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "World Trade Organization (WTO)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-world-trade-organization-wto-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

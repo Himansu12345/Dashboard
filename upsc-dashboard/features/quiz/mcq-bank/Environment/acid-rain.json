@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Acid Rain",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-acid-rain-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

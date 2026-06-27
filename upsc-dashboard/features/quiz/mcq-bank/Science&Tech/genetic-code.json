@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Genetic Code",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-genetic-code-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

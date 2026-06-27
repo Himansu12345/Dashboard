@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Chandragupta Maurya",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-chandragupta-maurya-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

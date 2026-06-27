@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Inclusive Growth",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-inclusive-growth-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Manipuri",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-manipuri-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

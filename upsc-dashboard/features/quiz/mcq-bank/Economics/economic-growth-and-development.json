@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Economic Growth and Development",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "economics-economic-growth-and-development-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

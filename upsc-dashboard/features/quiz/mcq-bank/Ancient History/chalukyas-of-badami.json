@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Chalukyas of Badami",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-chalukyas-of-badami-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

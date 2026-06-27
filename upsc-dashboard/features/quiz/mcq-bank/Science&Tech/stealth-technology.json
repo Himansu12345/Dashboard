@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Stealth Technology",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-stealth-technology-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

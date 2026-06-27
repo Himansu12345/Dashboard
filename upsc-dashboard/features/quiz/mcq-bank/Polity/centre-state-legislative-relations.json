@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Centre-State Legislative Relations",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-centre-state-legislative-relations-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

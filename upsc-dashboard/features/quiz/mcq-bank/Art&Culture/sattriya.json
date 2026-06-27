@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Sattriya",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-sattriya-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

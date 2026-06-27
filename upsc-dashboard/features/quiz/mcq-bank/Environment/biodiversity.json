@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Biodiversity",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-biodiversity-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

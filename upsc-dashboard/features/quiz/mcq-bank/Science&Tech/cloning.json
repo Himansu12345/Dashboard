@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Cloning",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-cloning-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

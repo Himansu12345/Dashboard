@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Early Vedic Period",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-early-vedic-period-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

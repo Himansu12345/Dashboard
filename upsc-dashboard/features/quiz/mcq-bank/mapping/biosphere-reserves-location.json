@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Biosphere Reserves (Location)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-biosphere-reserves-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Human Skeletal System",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-human-skeletal-system-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

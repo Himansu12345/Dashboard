@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Buddhism",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-buddhism-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

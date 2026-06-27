@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Jainism",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-jainism-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

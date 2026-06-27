@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Mathura School of Art",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-mathura-school-of-art-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

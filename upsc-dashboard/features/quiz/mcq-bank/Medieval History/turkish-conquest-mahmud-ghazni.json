@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Turkish Conquest (Mahmud Ghazni)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-turkish-conquest-mahmud-ghazni-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Biomes",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-biomes-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

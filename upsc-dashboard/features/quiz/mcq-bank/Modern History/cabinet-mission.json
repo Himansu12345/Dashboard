@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Cabinet Mission",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-cabinet-mission-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Plastic Pollution",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-plastic-pollution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

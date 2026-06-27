@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Micro, Small and Medium Enterprises (MSMEs)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-micro-small-and-medium-enterprises-msmes-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

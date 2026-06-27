@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Tribal Uprisings",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-tribal-uprisings-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

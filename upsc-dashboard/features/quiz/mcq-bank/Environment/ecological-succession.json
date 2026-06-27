@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Ecological Succession",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-ecological-succession-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

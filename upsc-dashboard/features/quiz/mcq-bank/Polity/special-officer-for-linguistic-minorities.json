@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Special Officer for Linguistic Minorities",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-special-officer-for-linguistic-minorities-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

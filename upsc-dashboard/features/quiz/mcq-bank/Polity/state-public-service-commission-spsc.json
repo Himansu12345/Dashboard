@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "State Public Service Commission (SPSC)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-state-public-service-commission-spsc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Major Deserts of the World",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-major-deserts-of-the-world-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

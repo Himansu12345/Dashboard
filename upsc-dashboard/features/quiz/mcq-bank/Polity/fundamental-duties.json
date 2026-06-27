@@ -1,0 +1,343 @@
+{
+  "subject": "Polity",
+  "topic": "Fundamental Duties (Part IV-A, Article 51A) – High-Yield Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "fd-hy-001",
+      "q": "Fundamental Duties under Article 51A are applicable to:",
+      "options": {
+        "A": "All citizens of India only",
+        "B": "All persons within the territory of India",
+        "C": "Both citizens and non‑citizens alike",
+        "D": "Only those citizens who are registered voters"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-002",
+      "q": "The concept of Fundamental Duties in the Indian Constitution was borrowed from the Constitution of:",
+      "options": {
+        "A": "United States of America",
+        "B": "Ireland",
+        "C": "USSR (former Soviet Union)",
+        "D": "Australia"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-003",
+      "q": "Which of the following statements regarding the Swaran Singh Committee is/are correct? 1. It recommended the inclusion of a separate chapter on Fundamental Duties. 2. It suggested that failure to comply with duties should be made an offence. 3. It recommended only eight Fundamental Duties.",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-004",
+      "q": "Which of the following Fundamental Duties was recommended by the Swaran Singh Committee but was NOT incorporated by the 42nd Amendment?",
+      "options": {
+        "A": "Duty to pay taxes",
+        "B": "Duty to defend the country",
+        "C": "Duty to uphold the sovereignty and integrity of India",
+        "D": "Duty to render national service when called upon"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-005",
+      "q": "Which of the following duties is NOT explicitly mentioned in Article 51A?",
+      "options": {
+        "A": "To value and preserve the rich heritage of our composite culture",
+        "B": "To develop the scientific temper, humanism and the spirit of inquiry and reform",
+        "C": "To pay taxes honestly and regularly",
+        "D": "To safeguard public property and to abjure violence"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-006",
+      "q": "Consider the following pairs (Fundamental Duty : Related Legislation/Policy): 1. To protect and improve the natural environment : Wildlife Protection Act, 1972 2. To develop scientific temper : National Scientific Temper Day 3. To safeguard public property : Prevention of Damage to Public Property Act, 1984. Which of the above is/are correctly matched?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-007",
+      "q": "The Supreme Court in the AIIMS Students’ Union case (2001) held that Fundamental Duties:",
+      "options": {
+        "A": "Can be enforced through writs in the same manner as Fundamental Rights",
+        "B": "Are not enforceable in any manner",
+        "C": "Serve as a guide to the interpretation of constitutional provisions and are equally important as Fundamental Rights",
+        "D": "Override Fundamental Rights in the event of a conflict"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-008",
+      "q": "The duty 'to provide opportunities for education to his child or ward between the age of six and fourteen years' was added by:",
+      "options": {
+        "A": "42nd Amendment Act, 1976",
+        "B": "44th Amendment Act, 1978",
+        "C": "86th Amendment Act, 2002",
+        "D": "93rd Amendment Act, 2005"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-009",
+      "q": "Which of the following statements is correct regarding the relationship between Fundamental Duties and the National Flag/National Anthem?",
+      "options": {
+        "A": "The Constitution only requires citizens to respect the National Flag and National Anthem; there is no specific law for enforcement.",
+        "B": "The Prevention of Insults to National Honour Act, 1971 was enacted to give effect to the duty to respect the National Flag and the National Anthem.",
+        "C": "The duty to respect the National Flag and National Anthem is only moral and has no statutory backing.",
+        "D": "The duty applies only to natural‑born citizens and not to naturalised citizens."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-010",
+      "q": "The Supreme Court in the MC Mehta vs. Union of India (1983) case linked which Fundamental Duty with the right to life under Article 21?",
+      "options": {
+        "A": "To abide by the Constitution and respect its ideals",
+        "B": "To protect and improve the natural environment",
+        "C": "To develop scientific temper",
+        "D": "To safeguard public property and abjure violence"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-011",
+      "q": "Which of the following statements is INCORRECT about Fundamental Duties?",
+      "options": {
+        "A": "They are confined to citizens only.",
+        "B": "Like the Directive Principles, they are non‑justiciable.",
+        "C": "They are enumerated in Part IV‑A of the Constitution.",
+        "D": "There is a specific provision in the Constitution making their violation punishable."
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-012",
+      "q": "The Verma Committee on Fundamental Duties (1999) recommended that:",
+      "options": {
+        "A": "Fundamental Duties should be made justiciable.",
+        "B": "A separate chapter on Fundamental Duties should be added to the Penal Code.",
+        "C": "The State should create awareness and operationalise Fundamental Duties through various measures, including school curriculum.",
+        "D": "Fundamental Duties should be abolished as they are redundant."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-013",
+      "q": "Which of the following Fundamental Duties is specifically directed towards women?",
+      "options": {
+        "A": "To promote harmony and the spirit of common brotherhood",
+        "B": "To renounce practices derogatory to the dignity of women",
+        "C": "To provide opportunities for education to children",
+        "D": "To protect and improve the natural environment"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-014",
+      "q": "Consider the following statements regarding the enforcement of Fundamental Duties: 1. The courts can use Fundamental Duties to interpret ambiguous statutes. 2. Fundamental Duties can be enforced by issuing writs. 3. Parliament can enact legislation to enforce a Fundamental Duty. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-015",
+      "q": "The duty to 'cherish and follow the noble ideals which inspired our national struggle for freedom' is mentioned under:",
+      "options": {
+        "A": "Article 51A(a)",
+        "B": "Article 51A(b)",
+        "C": "Article 51A(c)",
+        "D": "Article 51A(d)"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-016",
+      "q": "Which of the following is/are correct regarding the Fundamental Duty to 'defend the country and render national service when called upon'? 1. It is based on a similar duty in the USSR Constitution. 2. It empowers the state to call upon citizens for national service during natural calamities. 3. The National Service Scheme (NSS) operationalises this duty partially.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-017",
+      "q": "The Supreme Court in which case observed that the distinction between Fundamental Rights and Fundamental Duties is that while the former are justiciable, the latter are not, but both are equally important?",
+      "options": {
+        "A": "Kesavananda Bharati vs. State of Kerala",
+        "B": "Minerva Mills vs. Union of India",
+        "C": "AIIMS Students’ Union vs. AIIMS (2001)",
+        "D": "Vishaka vs. State of Rajasthan"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-018",
+      "q": "The duty 'to strive towards excellence in all spheres of individual and collective activity so that the nation constantly rises to higher levels of endeavour and achievement' is:",
+      "options": {
+        "A": "A directive to the state to create conditions for excellence",
+        "B": "A duty imposed on every citizen under Article 51A(j)",
+        "C": "A fundamental right of every citizen",
+        "D": "Part of the Preamble to the Constitution"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-019",
+      "q": "Consider the following statements about Fundamental Duties: 1. They are absolute and cannot be subjected to any reasonable restrictions. 2. They help the courts in examining the reasonableness of a legislative restriction on a Fundamental Right. 3. They are modelled on the Universal Declaration of Human Duties. Which of the above is/are correct?",
+      "options": {
+        "A": "2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-020",
+      "q": "Which of the following duties is NOT part of the original ten Fundamental Duties added by the 42nd Amendment?",
+      "options": {
+        "A": "To uphold and protect the sovereignty, unity and integrity of India",
+        "B": "To value and preserve the rich heritage of our composite culture",
+        "C": "To provide opportunities for education to children",
+        "D": "To develop the scientific temper, humanism and the spirit of inquiry and reform"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-021",
+      "q": "The Supreme Court in the Bijoe Emmanuel vs. State of Kerala (National Anthem) case (1986) held that:",
+      "options": {
+        "A": "Singing the National Anthem is a mandatory Fundamental Duty.",
+        "B": "Respecting the National Anthem is a Fundamental Duty, but compelling a person to sing it against his religious faith violates Articles 19(1)(a) and 25.",
+        "C": "Fundamental Duties override Fundamental Rights in cases of national importance.",
+        "D": "The State can punish a person who does not sing the National Anthem."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fd-hy-022",
+      "q": "The phrase 'composite culture' in Article 51A(f) implies:",
+      "options": {
+        "A": "The culture of the majority community only",
+        "B": "A blend of various cultural strands that have evolved in India over centuries",
+        "C": "Only the ancient Vedic culture",
+        "D": "The culture adopted after Independence"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-023",
+      "q": "Which of the following is a duty that explicitly mentions women?",
+      "options": {
+        "A": "To promote harmony and the spirit of common brotherhood amongst all the people of India",
+        "B": "To renounce practices derogatory to the dignity of women",
+        "C": "To value and preserve the rich heritage of our composite culture",
+        "D": "To protect and improve the natural environment"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-024",
+      "q": "The Fundamental Duties do NOT include the duty to:",
+      "options": {
+        "A": "Safeguard public property",
+        "B": "Abjure violence",
+        "C": "Cast vote in elections",
+        "D": "Develop scientific temper"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-025",
+      "q": "In the context of Fundamental Duties, which of the following statements reflects the view of the Supreme Court?",
+      "options": {
+        "A": "Fundamental Duties are merely decorative and have no legal value.",
+        "B": "Fundamental Duties can be a reference point for understanding the scope of Fundamental Rights and for upholding the constitutionality of laws.",
+        "C": "Fundamental Duties can be enforced through writ petitions in the High Courts.",
+        "D": "A citizen can be directly punished for violating any Fundamental Duty even in the absence of a specific law."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-026",
+      "q": "The duty to 'abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem' is contained in:",
+      "options": {
+        "A": "Article 51A(a)",
+        "B": "Article 51A(b)",
+        "C": "Article 51A(c)",
+        "D": "Article 51A(d)"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fd-hy-027",
+      "q": "Consider the following: 1. Fundamental Duties are a constant reminder of the duties that citizens owe to the nation. 2. They help in promoting a sense of discipline and commitment towards the nation. 3. They are a check on the arbitrary exercise of Fundamental Rights. Which of the above is/are correct regarding the significance of Fundamental Duties?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fd-hy-028",
+      "q": "The Justice J.S. Verma Committee (1999) on Fundamental Duties identified which of the following as an existing law that already enforces a Fundamental Duty?",
+      "options": {
+        "A": "The Protection of Civil Rights Act, 1955",
+        "B": "The Prevention of Insults to National Honour Act, 1971",
+        "C": "The Right to Information Act, 2005",
+        "D": "The National Food Security Act, 2013"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

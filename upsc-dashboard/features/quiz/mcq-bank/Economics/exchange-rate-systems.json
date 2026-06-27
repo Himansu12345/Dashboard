@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Exchange Rate Systems",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-exchange-rate-systems-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

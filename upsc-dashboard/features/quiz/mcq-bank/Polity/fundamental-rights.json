@@ -1,0 +1,1197 @@
+{
+  "subject": "Polity",
+  "topic": "Fundamental Rights – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "fr-final-001",
+      "q": "Consider the following postulates regarding Article 12: 1. It establishes the definitional parameters of 'State' specifically for the operationalization of Fundamental Rights. 2. Jurisprudential evolution dictates that 'local authorities' inherently encompass self-government institutions like municipalities and panchayats. 3. The doctrine of ejusdem generis restricts 'other authorities' solely to sovereign statutory bodies, explicitly exempting state-funded non-statutory societies. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-002",
+      "q": "Applying the 'instrumentality or agency' test enunciated in the Ajay Hasia case, which of the following entities falls OUTSIDE the constitutional purview of 'State' under Article 12?",
+      "options": { "A": "A government corporation executing sovereign public functions under a state monopoly", "B": "A privately administered, unaided educational institution strictly adhering to standard board curriculum regulations", "C": "A municipal corporation exercising delegated taxing authority", "D": "A statutory public sector undertaking substantially financed by the Union exchequer" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-003",
+      "q": "In the context of Article 13, which of the following best encapsulates the juridical application of the 'doctrine of severability'?",
+      "options": { "A": "The entire statute is rendered void ab initio if any substantive provision violates Part III, irrespective of legislative intent.", "B": "The unconstitutional provision is amputated, allowing the residuary valid portion to remain operative, provided it can function as an independent legislative scheme.", "C": "The impugned legislation is merely eclipsed and becomes ipso facto enforceable upon a subsequent constitutional amendment.", "D": "The judiciary is empowered to reconstruct or read down the offending provision to completely alter its legislative intent." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-004",
+      "q": "Regarding the application of the 'doctrine of eclipse' to pre-constitutional laws, which of the following assertions is legally accurate?",
+      "options": { "A": "A pre-constitutional law inconsistent with Part III is rendered void ab initio and erased from the statute book entirely.", "B": "The legislation is eclipsed and rendered dormant against citizens, but can be reactivated seamlessly if a constitutional amendment removes the Fundamental Right inconsistency.", "C": "The doctrine is strictly confined to post-constitutional laws enacted under Article 13(2).", "D": "The eclipse operates universally, rendering the law completely unenforceable against non-citizens and corporate entities as well." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-005",
+      "q": "Which of the following liberties enumerated under Article 19 are constitutionally reserved EXCLUSIVELY for Indian citizens, barring alien entities? 1. Freedom to propagate political views through speech and expression. 2. Freedom to convene peaceful assemblies devoid of arms. 3. Freedom to establish residence in any geographical extremity of India. 4. Freedom to operationalize any commercial enterprise or professional trade.",
+      "options": { "A": "1, 3 and 4 only", "B": "2, 3 and 4 only", "C": "1, 2, 3 and 4", "D": "3 and 4 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-006",
+      "q": "The fundamental right to freedom of speech and expression [Article 19(1)(a)] can be subjected to 'reasonable restrictions' strictly on which of the following enumerated grounds? 1. Imperiling the security of the State. 2. Disruption of public order. 3. Violation of decency or morality. 4. Protection of the general public's health and hygiene.",
+      "options": { "A": "1, 2 and 3 only", "B": "1, 2 and 4 only", "C": "1, 2, 3 and 4", "D": "1 and 2 only" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-007",
+      "q": "Consider the following statements concerning the right to assemble under Article 19(1)(b): 1. It implicitly encompasses the right to organize public meetings and peaceful processions. 2. The constitutional protection is strictly contingent upon the assembly being both peaceful and unarmed. 3. The State is empowered to impose reasonable restrictions explicitly on the grounds of India's sovereignty, integrity, and public order. Which are correct?",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-008",
+      "q": "Analyze the scope of Article 19(1)(c) governing the right to form associations or unions: 1. It structurally guarantees the right to constitute political outfits and corporate entities. 2. It implicitly elevates the right to declare a strike to the status of a fundamental right. 3. The liberty is circumscribed by reasonable restrictions based on sovereignty, public order, and morality. Which of the assertions is/are accurate?",
+      "options": { "A": "1 and 3 only", "B": "1 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-009",
+      "q": "The constitutional guarantee to move freely throughout the territory of India [Article 19(1)(d)] is not absolute. The State may curtail this liberty strictly in the interest of:",
+      "options": { "A": "The general public and the protection of the distinct culture and interests of any Scheduled Tribe", "B": "Preservation of public order and morality exclusively", "C": "Facilitating equitable economic development in backward regions", "D": "National security imperatives and conservation of ecologically fragile forest zones" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-010",
+      "q": "Article 19(1)(g) allows citizens to practice any profession. Which of the following is legally NOT a permissible constitutional restriction on this right?",
+      "options": { "A": "Mandating specialized technical or professional qualifications for specific trades", "B": "The State creating a partial or complete monopoly in a particular commercial sector", "C": "Absolute prohibition of trades involving inherent moral turpitude or extreme public hazard", "D": "Imposition of an arbitrary ban on an occupation without demonstrating a proximate nexus to public interest" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-011",
+      "q": "Article 14 establishes twin principles of equality. Which of the following statements demonstrates a correct jurisprudential understanding?",
+      "options": { "A": "'Equality before the law' is a positive directive, whereas 'equal protection of the laws' acts as a negative restraint on the State.", "B": "The concept of 'equal protection of the laws' is intellectually sourced from the framework of the American Constitution.", "C": "Article 14 establishes a rigid universal equality that strictly prohibits any form of legislative classification.", "D": "The protections of Article 14 operate horizontally, being equally enforceable against arbitrary actions of private citizens." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-012",
+      "q": "The landmark Maneka Gandhi vs. Union of India judgment fundamentally altered the interpretation of Article 14. What was the core implication of this shift?",
+      "options": { "A": "It established that Article 14 strikes at the root of arbitrariness in State action, ensuring fairness over mere classification.", "B": "It restricted the violation of Article 14 exclusively to acts demonstrating blatant legislative discrimination.", "C": "It confined the protective umbrella of Article 14 to Indian citizens, excluding foreign nationals.", "D": "It immunized executive actions from Article 14 scrutiny, focusing solely on legislative competence." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-013",
+      "q": "While Article 15(1) generally prohibits discrimination on specific grounds, the Constitution provides explicit structural exceptions. Which of the following is NOT an enumerated exception?",
+      "options": { "A": "Affirmative action provisions specifically empowering women and children under Article 15(3)", "B": "Special provisions aimed at the socio-economic advancement of SCs and STs under Article 15(4)", "C": "Reservations concerning the admission of Socially and Educationally Backward Classes (SEBCs) under Article 15(5)", "D": "Targeted special provisions exclusively designed for the proselytization or promotion of specific religious demographics" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-014",
+      "q": "Article 15(5), incorporated via the 93rd Constitutional Amendment, empowers the State to enact special provisions for SCs, STs, and SEBCs. What is the precise operational scope of this clause regarding educational institutions?",
+      "options": { "A": "It mandates applicability across both State-run and private educational institutions, explicitly exempting minority educational institutions under Article 30(1).", "B": "Its ambit is strictly localized to government-funded institutions, leaving private unaided entities untouched.", "C": "It exerts a universal mandate applicable to all educational institutions, encompassing minority institutions without prejudice.", "D": "It functions as a specialized directive applicable solely to institutions conferring higher technical education." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-015",
+      "q": "Article 16 mandates equality of opportunity in public employment. Which of the following is strictly NOT an exception rooted in the representation-inadequacy principle of Article 16(4)?",
+      "options": { "A": "Statutory provisions enabling reservation of appointments for backward classes inadequately represented", "B": "Provisions facilitating reservation in matters of promotion for Scheduled Castes and Scheduled Tribes", "C": "The mechanism to segregate unfilled reserved vacancies as a distinct class for subsequent recruitment years", "D": "Reservation quotas for Economically Weaker Sections (EWS) introduced via Article 16(6)" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-016",
+      "q": "The 103rd Constitutional Amendment fundamentally altered the affirmative action landscape by introducing a 10% quota for EWS. Which specific articles were amended to facilitate this?",
+      "options": { "A": "Articles 15 and 16", "B": "Articles 14 and 19", "C": "Articles 29 and 30", "D": "Articles 17 and 18" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-017",
+      "q": "Evaluate the following propositions derived from the landmark Indra Sawhney vs. Union of India (1992) judgment: 1. Reservation quotas must strictly not breach the 50% ceiling, barring extraordinary localized circumstances. 2. The 'creamy layer' exclusion principle is constitutionally mandated for Other Backward Classes (OBCs). 3. The mechanism of providing reservations explicitly within the sphere of promotions is constitutionally invalid. Which are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-018",
+      "q": "Within the jurisprudential framework of Indian affirmative action, the 'creamy layer' doctrine specifically designates:",
+      "options": { "A": "The comparatively affluent and educated demographic strata exclusively within Scheduled Caste communities.", "B": "The socially and economically advanced individuals within the OBC categorization who are consequently disqualified from reservation benefits.", "C": "The entirety of the bureaucratic class occupying Group A and Group B public employment positions.", "D": "The socially dominant upper-caste populace existing entirely outside the reservation matrix." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-019",
+      "q": "Article 17 categorically abolishes 'Untouchability' and forbids its practice in any form. Which of the following constitutional interpretations is fundamentally correct?",
+      "options": { "A": "It serves merely as a non-justiciable directive requiring statutory backing to possess any legal efficacy.", "B": "It is an absolute fundamental right, devoid of exceptions, operating horizontally against both state instrumentalities and private individuals.", "C": "Its protective ambit is explicitly and strictly confined to discriminatory practices arising within the Hindu varna hierarchy.", "D": "It operates purely as a negative obligation, lacking the constitutional mandate to compel punitive legislative measures." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-020",
+      "q": "While Article 18 enforces the abolition of titles to maintain social parity, it carves out specific constitutional exceptions. Which of the following legitimately escapes the prohibition?",
+      "options": { "A": "Civilian state awards such as the Bharat Ratna and Padma Vibhushan", "B": "Distinctions conferred strictly for military valor or academic excellence", "C": "Hereditary honorifics retained by descendants of former princely states", "D": "Honorary state titles conferred upon Indian citizens by allied foreign nations" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-021",
+      "q": "Article 20 establishes critical safeguards against arbitrary conviction. Which of the following procedural protections falls OUTSIDE the explicit scope of Article 20?",
+      "options": { "A": "Immunity against the retrospective application of substantive criminal laws (Ex post facto)", "B": "Protection against being prosecuted and punished twice for the identical offence (Double jeopardy)", "C": "The fundamental right of an accused to refuse to be a witness against themselves (Self-incrimination)", "D": "The absolute guarantee against arbitrary arrest and the right to expedited judicial production" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-022",
+      "q": "The constitutional shield of 'double jeopardy' enshrined in Article 20(2) is legally operative solely under which of the following conditions?",
+      "options": { "A": "The individual must have been successfully prosecuted and subjected to penal punishment for the exact same offence by a competent judicial court.", "B": "The individual must have faced consecutive arrests by law enforcement for the identical FIR.", "C": "A subsequent appellate proceeding has been initiated by the State to enhance an existing sentence.", "D": "The individual has faced internal departmental disciplinary action preceding a formal criminal trial." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-023",
+      "q": "The jurisprudence surrounding the right against self-incrimination under Article 20(3) dictates that:",
+      "options": { "A": "Investigating agencies are absolutely barred from extracting physical biometric evidence, including thumb impressions or DNA samples.", "B": "No individual formally accused of an offence can be coercively compelled to provide testimonial evidence against their own interests.", "C": "The burden of proof shifts, mandating the accused to affirmatively testify in open court to establish innocence.", "D": "Confessions extracted through narco-analysis are admissible provided they are administered by licensed medical practitioners." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-024",
+      "q": "In the seminal judgment of A.K. Gopalan vs. State of Madras (1950), the Supreme Court adopted a strict textualist approach regarding Article 21. Which assertion aligns with the ratio decidendi of this case?",
+      "options": { "A": "The Court read the American doctrine of 'due process' into Article 21, demanding fairness in legislative enactments.", "B": "The Court established a symbiotic, interwoven relationship between the liberties of Article 19 and Article 21.", "C": "The phrase 'procedure established by law' was interpreted literally as any enacted state law, shielding arbitrary legislative action from Article 21 scrutiny.", "D": "The Court expansively defined 'personal liberty' to implicitly include the fundamental right to travel abroad." },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-025",
+      "q": "The restrictive, siloed interpretation of fundamental rights established in A.K. Gopalan was definitively dismantled, ushering in an era of substantive due process, in which landmark verdict?",
+      "options": { "A": "Kesavananda Bharati vs. State of Kerala", "B": "Maneka Gandhi vs. Union of India (1978)", "C": "I.C. Golaknath vs. State of Punjab", "D": "ADM Jabalpur vs. Shivakant Shukla" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-026",
+      "q": "The Maneka Gandhi judgment revolutionized Article 21 by mandating that the 'procedure established by law' depriving one of personal liberty must inherently be:",
+      "options": { "A": "Strictly codified within a parliamentary statute, immune to judicial questioning.", "B": "Substantively just, fair, and reasonable, entirely devoid of executive or legislative arbitrariness.", "C": "Derived directly from delegated executive rules to ensure rapid administrative compliance.", "D": "Subject to the prior discretionary approval of the President in all cases of foreign travel." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-027",
+      "q": "A critical jurisprudential leap in Maneka Gandhi was the recognition of the 'Golden Triangle' of the Constitution. This established that:",
+      "options": { "A": "Articles 14, 19, and 21 operate as water-tight, mutually exclusive compartments of liberty.", "B": "Articles 14, 19, and 21 are organically interconnected; any law depriving liberty under Article 21 must also satisfy the tests of Articles 14 and 19.", "C": "The overarching powers of the State are entirely independent of these three articles during an Emergency.", "D": "Only the freedoms of Article 19 are structurally subordinate to the guarantees of Article 21." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-028",
+      "q": "Through progressive judicial activism, the Supreme Court has expansively read multiple implied rights into the textual framework of Article 21. Which of the following are included? 1. Right to livelihood. 2. Right to a pollution-free environment. 3. Right to informational privacy. 4. Right to free education up to 14 years (prior to the 86th Amendment).",
+      "options": { "A": "1, 2 and 3 only", "B": "2, 3 and 4 only", "C": "1, 2, 3 and 4", "D": "1 and 3 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-029",
+      "q": "While the right to move freely within the territory of India is guaranteed under Article 19(1)(d), the specific right to travel abroad is constitutionally anchored in:",
+      "options": { "A": "The expansive interpretation of freedom of speech under Article 19(1)(a)", "B": "The broad interpretation of 'personal liberty' under Article 21", "C": "The right to reside anywhere in India under Article 19(1)(e)", "D": "The guarantee against arbitrary classification under Article 14" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-030",
+      "q": "The Supreme Court unequivocally elevated the Right to Privacy to the status of an intrinsic part of life and personal liberty under Article 21, thereby overruling precedent, in:",
+      "options": { "A": "Kharak Singh vs. State of U.P.", "B": "Justice K.S. Puttaswamy (Retd.) vs. Union of India (2017)", "C": "M.P. Sharma vs. Satish Chandra", "D": "Govind vs. State of M.P." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-031",
+      "q": "Despite the vast expansion of Article 21, the Supreme Court has drawn definitive boundaries. Which of the following is legally NOT recognized as a facet of the right to life?",
+      "options": { "A": "The fundamental right to die, thereby legalizing active euthanasia and suicide", "B": "The right to a dignified livelihood preventing destitution", "C": "The right to an ecologically balanced and healthy environment", "D": "The right to undisturbed sleep as a component of physiological survival" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-032",
+      "q": "Article 21A, an insertion via the 86th Constitutional Amendment Act, explicitly elevates which of the following to a Fundamental Right?",
+      "options": { "A": "The State's absolute mandate to provide free and compulsory education to all children in the 6 to 14 age demographic", "B": "The universal right to gainful employment for the adult population", "C": "The right to universal healthcare coverage provided by state infrastructure", "D": "The right to nutritional food security for individuals below the poverty line" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-033",
+      "q": "The Right of Children to Free and Compulsory Education (RTE) Act, 2009, serves as the statutory scaffolding specifically enacted to operationalize which constitutional mandate?",
+      "options": { "A": "The original Directive Principle enshrined in Article 45", "B": "The Fundamental Right guaranteed under Article 21A", "C": "The protection of minority educational rights under Article 30", "D": "The prohibition of child labor under Article 24" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-034",
+      "q": "Article 22 delineates safeguards against arbitrary arrest and detention. However, which of the following standard protections is explicitly DENIED to an individual incarcerated under a preventive detention statute?",
+      "options": { "A": "The right to receive communication regarding the specific grounds of their detention", "B": "The right to seek representation and consult a legal practitioner of their choice", "C": "The non-derogable right to be physically produced before a judicial magistrate within 24 hours of arrest", "D": "The right to formally challenge the detention order before an advisory board" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-035",
+      "q": "Under the operative framework of Article 22, the maximum permissible duration for which an individual can be held under preventive detention without the authorizing report of an Advisory Board is:",
+      "options": { "A": "One calendar month", "B": "Three calendar months", "C": "Six calendar months", "D": "Twelve calendar months" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-036",
+      "q": "The 44th Constitutional Amendment attempted to restrict preventive detention abuse by mandating that an Advisory Board must approve detentions exceeding the specified limit. The prescribed composition of this Board is:",
+      "options": { "A": "Individuals who are, have been, or are qualified to be appointed as Judges of a High Court", "B": "A cross-party committee consisting exclusively of sitting Members of Parliament", "C": "Senior executive bureaucrats not below the rank of Joint Secretary", "D": "A panel of retired Supreme Court justices nominated by the President" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-037",
+      "q": "Analyze the constitutional prohibition against human trafficking and forced labor under Article 23: 1. Its protective ambit is restricted strictly to Indian citizens. 2. It unequivocally criminalizes 'begar' (compulsory labor without remuneration). 3. It serves as a horizontal right, legally enforceable against private citizens and corporations alike. Which are accurate?",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-038",
+      "q": "The constitutional prohibition on child labor detailed in Article 24 specifically dictates that:",
+      "options": { "A": "Children below the age of 14 years are absolutely banned from engagement in any occupation whatsoever.", "B": "Children below the age of 14 years shall not be employed to work in any factory, mine, or engaged in any other hazardous employment.", "C": "Individuals below the age of 18 years are strictly prohibited from participating in heavy industrial work.", "D": "The State must eradicate all forms of child labor through immediate punitive measures without exceptions." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-039",
+      "q": "The right to freedom of religion (Articles 25–28) encompasses several facets. Consider the following: 1. Unfettered freedom of conscience. 2. The right to freely profess, practice, and propagate religion. 3. The constitutional right to convert individuals via systematic inducement or coercion. Which of these are recognized Fundamental Rights?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-040",
+      "q": "While religion is protected, the State retains the constitutional authority to regulate or strictly restrict any economic, financial, political, or other secular activity associated with religious practice. This power is drawn from:",
+      "options": { "A": "Article 25(1)", "B": "Article 25(2)(a)", "C": "Article 26", "D": "Article 27" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-041",
+      "q": "Under Article 26, subject to public order, morality, and health, every established religious denomination possesses the fundamental right:",
+      "options": { "A": "To establish and maintain institutions primarily for religious and charitable objectives", "B": "To autonomously manage its internal affairs strictly in matters of religion", "C": "To lawfully own and acquire both movable and immovable property", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-042",
+      "q": "Article 27 institutes a prohibition against compelling the payment of taxes for the promotion of any particular religion. The exact juridical implication of this is:",
+      "options": { "A": "Religious institutions enjoy absolute, blanket immunity from all forms of state taxation.", "B": "The State is barred from appropriating general tax revenues to exclusively patronize or promote one specific religion.", "C": "Religious denominations are legally restrained from levying mandatory fees on their followers.", "D": "The prohibition is strictly applicable to direct taxes, allowing leeway for indirect taxation benefits." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-043",
+      "q": "Regarding the dissemination of religious instruction in educational institutions under Article 28, which of the following is constitutionally accurate?",
+      "options": { "A": "An absolute embargo exists on providing religious instruction in any institution wholly maintained out of State funds.", "B": "Institutions receiving state aid are permitted to impart religious instruction, and attendance for the same is universally compulsory.", "C": "Institutions established under religious endowments but administered by the State are strictly prohibited from imparting religious teachings.", "D": "State-recognized institutions must impart comparative religious education to foster secularism." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-044",
+      "q": "Evaluate the following postulates concerning the Cultural and Educational Rights enshrined in Articles 29 and 30: 1. Article 29 guarantees any section of citizens residing in India the right to conserve its distinct language, script, or culture. 2. Article 30 empowers all minorities, whether defined by religion or language, to establish and administer educational institutions. 3. The protective ambit of Article 30 extends uniformly to non-citizens establishing institutions in India. Which are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-045",
+      "q": "In the complex adjudication of T.M.A. Pai Foundation vs. State of Karnataka, the Supreme Court clarified the extent of State control over minority educational institutions, holding that:",
+      "options": { "A": "Such institutions enjoy absolute, unbridled autonomy, completely immunized from all state regulatory frameworks.", "B": "The State can impose reasonable regulations ensuring academic excellence and administrative efficiency, provided the institution's minority character is not annihilated.", "C": "These institutions are legally bound to admit students strictly and exclusively from their own specific minority community.", "D": "The acceptance of any financial aid from the State immediately strips the institution of its minority protections." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-046",
+      "q": "Article 32 guarantees the right to move the Supreme Court for the enforcement of Part III rights. Which of the following judicial remedies is NOT explicitly enumerated as a writ in the constitutional text?",
+      "options": { "A": "Habeas Corpus", "B": "Mandamus", "C": "Injunction", "D": "Certiorari" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-047",
+      "q": "The prerogative writ of Habeas Corpus operates as the ultimate constitutional bulwark against:",
+      "options": { "A": "Arbitrary and illegal detention of an individual without lawful justification", "B": "The deliberate non-performance of a statutory duty by a public official", "C": "The unauthorized usurpation of a substantive public office", "D": "An inferior tribunal acting in flagrant excess of its prescribed jurisdiction" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-048",
+      "q": "The writ of Mandamus functions as a judicial command. Against which of the following entities can it be validly issued?",
+      "options": { "A": "The President of India, compelling the exercise of highly discretionary executive powers", "B": "A public official, statutory body, or lower court to compel the performance of a mandatory legal or public duty", "C": "A private individual or corporate entity to enforce a purely contractual obligation", "D": "The Supreme Court of India, by the Parliament, to expedite a constitutional bench hearing" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-049",
+      "q": "The specific jurisdictional purpose of the writ of Prohibition is to:",
+      "options": { "A": "Prevent an inferior court or quasi-judicial tribunal from proceeding with a case that exceeds its jurisdictional competence", "B": "Quash a final judgment or order already delivered by a lower court that suffers from an error apparent on the face of the record", "C": "Compel a reluctant executive authority to enforce a dormant fundamental right", "D": "Demand the production of official records to verify the legality of a legislative act" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-050",
+      "q": "While both Certiorari and Prohibition target jurisdictional overreach by lower courts, their fundamental operational difference is that:",
+      "options": { "A": "Certiorari is issued proactively before proceedings conclude, whereas Prohibition is issued retrospectively.", "B": "Certiorari serves a curative function to quash an order already passed, whereas Prohibition serves a preventive function to halt ongoing, ultra vires proceedings.", "C": "The two writs are jurisprudentially identical and interchangeable in modern constitutional practice.", "D": "Prohibition is an extraordinary remedy available strictly against the Supreme Court's own benches." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-051",
+      "q": "The writ of Quo-Warranto is uniquely designed to act as a judicial inquiry into:",
+      "options": { "A": "The legal validity of a person’s claim or title to hold a substantive public office", "B": "The failure of a citizen to perform their fundamental duties under Article 51A", "C": "The refusal of a public authority to release crucial information under the RTI Act", "D": "The physical production of an individual held in secret executive custody" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-052",
+      "q": "The fundamental right to approach the Supreme Court directly under Article 32 is subject to constitutional suspension. Such suspension can legally occur ONLY during:",
+      "options": { "A": "The operational period of a Proclamation of National Emergency under Article 352", "B": "The imposition of a Financial Emergency under Article 360", "C": "The invocation of President’s Rule within a specific state under Article 356", "D": "Any period where parliamentary legislation expressly restricts judicial review" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-053",
+      "q": "Regarding the complex mechanics of suspending Fundamental Rights during a National Emergency, which assertion is legally accurate post the 44th Amendment?",
+      "options": { "A": "Article 358 automatically and universally suspends Article 19 whenever an Emergency is declared, regardless of the grounds.", "B": "The President is empowered under Article 359 to suspend the enforcement of all Fundamental Rights, unequivocally including Articles 20 and 21.", "C": "The enforcement of Articles 20 and 21 is absolutely immune from suspension under Article 359, even during wartime.", "D": "Both A and C represent correct interpretations." },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-054",
+      "q": "The 44th Constitutional Amendment introduced a critical safeguard modifying the automatic suspension of Article 19 (via Article 358). What was this pivotal change?",
+      "options": { "A": "Article 19 is suspended ipso facto ONLY when the Emergency is predicated on 'war or external aggression', expressly excluding 'armed rebellion'.", "B": "The amendment completely immunized Article 19 from suspension under any category of National Emergency.", "C": "Article 19's suspension was decoupled from Article 358 and made reliant strictly on an explicit Presidential order under Article 359.", "D": "The suspension of Article 19 now requires concurrent ratification by a two-thirds majority of the respective State Legislatures." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-055",
+      "q": "Article 33 of the Constitution grants absolute authority to the Parliament to restrict or abrogate the Fundamental Rights of specific demographics. This power specifically targets:",
+      "options": { "A": "The entire citizenry during periods of severe internal disturbance", "B": "Members of the armed forces, paramilitary forces, and police organizations, strictly to ensure discipline and the proper discharge of their duties", "C": "Higher-ranking civil servants operating in sensitive ministries involving national security", "D": "Justices of the Supreme Court and High Courts to prevent conflicts of interest" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-056",
+      "q": "Article 34 provides for structural restrictions on Fundamental Rights while 'martial law' is in force in any area. Which of the following represents a correct understanding of this provision?",
+      "options": { "A": "The precise operational definition of 'martial law' is exhaustively detailed in Article 366 of the Constitution.", "B": "Parliament is empowered to pass an Act of Indemnity to protect government servants for acts done to restore order during the martial law period.", "C": "The invocation of martial law is jurisprudentially identical to the proclamation of a National Emergency under Article 352.", "D": "Martial law can only be enacted following a prior, unanimous resolution passed by the Lok Sabha." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-057",
+      "q": "Article 35 consolidates specific legislative domains, granting EXCLUSIVE power to the Parliament (denying it to State Legislatures). Which of the following falls strictly within this exclusive purview?",
+      "options": { "A": "Prescribing uniform punitive measures for the practice of untouchability (Article 17)", "B": "Enacting laws establishing specific residence requirements for classes of public employment (Article 16)", "C": "Delineating the procedural framework for preventive detention exceeding the standard three-month limit", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-058",
+      "q": "The fundamental right to property, once a highly litigated subject under Part III, was decisively excised from the list of Fundamental Rights by the:",
+      "options": { "A": "24th Constitutional Amendment Act", "B": "42nd Constitutional Amendment Act (The 'Mini-Constitution')", "C": "44th Constitutional Amendment Act", "D": "86th Constitutional Amendment Act" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-059",
+      "q": "Following its removal from Part III via the 44th Amendment, the right to property underwent a jurisprudential shift. What is its current constitutional status?",
+      "options": { "A": "It has been reclassified as a heavily qualified Fundamental Right under Article 31.", "B": "It functions as a constitutional right or legal right strictly governed by Article 300A.", "C": "It was completely downgraded to a non-justiciable Directive Principle of State Policy.", "D": "It has been repurposed as a Fundamental Duty of the State to protect individual holdings." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-060",
+      "q": "Article 31A acts as a specific shield against constitutional challenges based on Articles 14 and 19. It primarily immunizes state laws concerned with:",
+      "options": { "A": "The acquisition of estates and related agrarian land reforms", "B": "The assumption of the management of properties by the State for a limited duration", "C": "The amalgamation of distinct corporations into a single entity in the public interest", "D": "All of the above-mentioned socio-economic interventions" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-061",
+      "q": "In a bid to safeguard progressive agrarian reform legislation from judicial invalidation, the innovative mechanism of Article 31B and the Ninth Schedule was introduced through the:",
+      "options": { "A": "1st Constitutional Amendment Act (1951)", "B": "24th Constitutional Amendment Act (1971)", "C": "42nd Constitutional Amendment Act (1976)", "D": "44th Constitutional Amendment Act (1978)" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-062",
+      "q": "Historically, the Ninth Schedule provided blanket immunity. However, the landmark I.R. Coelho vs. State of Tamil Nadu (2007) judgment altered this dynamic by ruling that:",
+      "options": { "A": "The immunity offered by the Ninth Schedule remains absolute and impenetrable for all included laws, past and present.", "B": "Laws inserted into the Ninth Schedule after April 24, 1973, are open to judicial review if they violate the 'basic structure' of the Constitution.", "C": "The Ninth Schedule mechanism is fundamentally unconstitutional and all laws therein are immediately subject to review.", "D": "Only laws enacted by State legislatures are susceptible to review; Parliamentary acts retain absolute immunity." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-063",
+      "q": "In its original iteration (inserted by the 25th Amendment), Article 31C was designed to shield laws from challenges under Articles 14 and 19, provided those laws were enacted to give effect to which specific Directive Principles?",
+      "options": { "A": "The overarching mandates of socio-economic justice under Articles 38 and 39", "B": "The specific directives preventing the concentration of wealth and material resources under Articles 39(b) and (c)", "C": "The entirety of the Directive Principles enumerated in Part IV of the Constitution", "D": "The directives mandating village panchayats and the right to work under Articles 40 and 41" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-064",
+      "q": "The 42nd Amendment aggressively expanded the protective umbrella of Article 31C to encompass all Directive Principles in Part IV. This sweeping expansion was subsequently struck down as unconstitutional in:",
+      "options": { "A": "Kesavananda Bharati vs. State of Kerala", "B": "Minerva Mills vs. Union of India", "C": "I.C. Golaknath vs. State of Punjab", "D": "Waman Rao vs. Union of India" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-065",
+      "q": "The Supreme Court emphatically rejected the 'doctrine of waiver' concerning Fundamental Rights, establishing that an individual cannot voluntarily relinquish their Part III guarantees, in the case of:",
+      "options": { "A": "I.C. Golaknath vs. State of Punjab", "B": "Basheshar Nath vs. Commissioner of Income Tax", "C": "Maneka Gandhi vs. Union of India", "D": "Kesavananda Bharati vs. State of Kerala" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-066",
+      "q": "While certain constitutional guarantees possess universal applicability, others are strictly exclusionary. Which of the following Fundamental Rights is legally UNAVAILABLE to foreign nationals residing in India?",
+      "options": { "A": "Article 15 – The prohibition of state discrimination on specific grounds like race or religion", "B": "Article 21 – The overarching protection of life and personal liberty", "C": "Article 20 – Procedural protections concerning convictions for offences", "D": "Article 14 – The general guarantee of equality before the law" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-067",
+      "q": "To nullify the judicial prohibition against reservations in promotions established in Indra Sawhney, the Parliament introduced Article 16(4A) via the:",
+      "options": { "A": "77th Constitutional Amendment Act", "B": "81st Constitutional Amendment Act", "C": "85th Constitutional Amendment Act", "D": "76th Constitutional Amendment Act" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-068",
+      "q": "The insertion of Article 16(4B) through the 81st Amendment served a highly specific administrative purpose regarding affirmative action. Its primary objective was to:",
+      "options": { "A": "Empower the State to carry forward unfilled reserved vacancies as a distinct class, effectively exempting them from the 50% ceiling in subsequent years.", "B": "Establish a constitutional mandate for reservation in matters of promotion specifically for OBCs.", "C": "Extend the benefits of reservation to private, unaided educational institutions.", "D": "Abolish the 'creamy layer' doctrine entirely for all backward classes." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-069",
+      "q": "The 85th Amendment introduced the contentious principle of 'consequential seniority' in promotions for SC/ST employees. The Supreme Court upheld the constitutional validity of this amendment, albeit subject to specific quantifiable data requirements, in:",
+      "options": { "A": "M. Nagaraj vs. Union of India", "B": "Indra Sawhney vs. Union of India", "C": "Ashok Kumar Thakur vs. Union of India", "D": "Janhit Abhiyan vs. Union of India" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-070",
+      "q": "Through evolving constitutional jurisprudence, the Right to Information (RTI) has been recognized not merely as a statutory right, but as intrinsically derived from:",
+      "options": { "A": "The structural fusion of Article 19(1)(a) (freedom of speech) and Article 21 (right to life)", "B": "The solitary and exhaustive provisions of Article 19(1)(a)", "C": "The broad interpretation of 'personal liberty' strictly under Article 21", "D": "The foundational principle of equality under Article 14" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-071",
+      "q": "The formation and functioning of co-operative societies was elevated to the status of a fundamental constitutional right by the enactment of the:",
+      "options": { "A": "86th Constitutional Amendment Act", "B": "97th Constitutional Amendment Act", "C": "73rd Constitutional Amendment Act", "D": "42nd Constitutional Amendment Act" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-072",
+      "q": "To operationalize the fundamental right regarding co-operative societies, the 97th Amendment specifically inserted which provision directly into Part III?",
+      "options": { "A": "An amendment to Article 19(1)(c), explicitly adding the phrase 'or co-operative societies'", "B": "The insertion of Article 21A outlining associative rights", "C": "The introduction of Article 43B outlining state obligations toward co-operatives", "D": "An expansion of Article 15(6) to allow financial reservations for such societies" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-073",
+      "q": "Unlike the US Constitution, the Indian Constitution does not explicitly mention the freedom of the press. However, the Supreme Court has consistently ruled that it is implicitly guaranteed within:",
+      "options": { "A": "The broader ambit of freedom of speech and expression under Article 19(1)(a)", "B": "The right to practice any profession or carry on trade under Article 19(1)(g)", "C": "The protective umbrella of personal liberty under Article 21", "D": "The guarantee against arbitrary state action under Article 14" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-074",
+      "q": "The fundamental protection against self-incrimination [Article 20(3)] is subject to strict judicial delineations. To which of the following does this protection legally NOT extend?",
+      "options": { "A": "The compulsion to provide physical evidence, including thumb impressions, blood samples, or handwriting specimens", "B": "The coercive extraction of oral testimony during intensive police interrogation", "C": "The forced production of personal, private documents that possess an inherent incriminatory nature", "D": "Confessions extracted under the duress of prolonged solitary confinement" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-075",
+      "q": "The jurisprudence that an indigent accused possesses a fundamental right to free legal aid, seamlessly read into the fabric of Article 21, was pioneered through the pronouncements in:",
+      "options": { "A": "Hussainara Khatoon vs. Home Secretary, State of Bihar", "B": "M.H. Hoskot vs. State of Maharashtra", "C": "Both A and B, functioning collectively to cement this right", "D": "Maneka Gandhi vs. Union of India" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-076",
+      "q": "In a landmark interpretation bridging socio-economic realities with Part III, the Supreme Court ruled that the 'right to life' intrinsically encompasses the 'right to livelihood' in the case of:",
+      "options": { "A": "Olga Tellis vs. Bombay Municipal Corporation", "B": "Maneka Gandhi vs. Union of India", "C": "Kesavananda Bharati vs. State of Kerala", "D": "State of Madras vs. Champakam Dorairajan" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-077",
+      "q": "Expanding the horizons of Article 21 further, the Supreme Court explicitly affirmed that the right to adequate shelter is an indispensable component of the right to life in:",
+      "options": { "A": "Chameli Singh vs. State of U.P.", "B": "Gauri Shankar vs. Union of India", "C": "Olga Tellis vs. Bombay Municipal Corporation", "D": "Maneka Gandhi vs. Union of India" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-078",
+      "q": "The judicial recognition of the right to health under Article 21 culminated in directives mandating that medical professionals extend immediate emergency treatment without awaiting legal formalities. This was established in:",
+      "options": { "A": "Paschim Banga Khet Mazdoor Samity vs. State of West Bengal", "B": "Parmanand Katara vs. Union of India", "C": "Both A and B", "D": "Vishaka vs. State of Rajasthan" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-079",
+      "q": "The fundamental right to a clean and pollution-free environment under Article 21 was significantly strengthened when the Supreme Court explicitly adopted the 'precautionary principle' and the 'polluter pays principle' in:",
+      "options": { "A": "Vellore Citizens’ Welfare Forum vs. Union of India", "B": "M.C. Mehta vs. Union of India (The Ganga Pollution Case)", "C": "Both A and B", "D": "Narmada Bachao Andolan vs. Union of India" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-080",
+      "q": "Demonstrating the absolute micro-level reach of Article 21, the Supreme Court recognized the fundamental human right to undisturbed sleep as an essential component of the right to life in the:",
+      "options": { "A": "Ram Lila Maidan Incident Case (In Re)", "B": "Maneka Gandhi vs. Union of India", "C": "Olga Tellis vs. Bombay Municipal Corporation", "D": "Hussainara Khatoon vs. State of Bihar" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-081",
+      "q": "In the backdrop of honor killings, the Supreme Court in Shakti Vahini vs. Union of India reinforced a critical dimension of Article 21, asserting that:",
+      "options": { "A": "The right of an adult individual to choose their life partner is a fundamental right immune from familial or societal coercion.", "B": "The institution of marriage remains purely a religious sacrament, subject strictly to personal laws.", "C": "The State possesses the parens patriae authority to regulate and restrict inter-caste marriages to maintain public order.", "D": "Fundamental rights do not penetrate the private sphere of matrimonial choices." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-082",
+      "q": "The judicial stance that the right to life incorporates the right to be free from the physiological and psychological hazards of noise pollution was firmly established in:",
+      "options": { "A": "In Re: Noise Pollution Case", "B": "Church of God (Full Gospel) in India vs. KKR Majestic Colony Welfare Association", "C": "Both A and B", "D": "M.C. Mehta vs. Union of India" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-083",
+      "q": "The jurisprudential trajectory of Article 21 has led to the recognition that access to basic utilities is vital for a dignified life. The right to an electricity connection was affirmed in:",
+      "options": { "A": "Chameli Singh vs. State of U.P.", "B": "Consumer Education & Research Centre vs. Union of India", "C": "Ashok Kumar Thakur vs. Union of India", "D": "Both A and B (indirectly through the expansion of livelihood and shelter rights, though lower courts have ruled directly on electricity)" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-084",
+      "q": "The proposition that citizens possess a fundamental right to know about government decisions and operations, flowing from the freedom of speech under Article 19(1)(a), was originally anchored in:",
+      "options": { "A": "State of U.P. vs. Raj Narain (1975)", "B": "S.P. Gupta vs. Union of India (1981 - The First Judges Case)", "C": "Both A and B", "D": "Union of India vs. Association for Democratic Reforms" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-085",
+      "q": "Despite its fundamental importance in a democracy, the right to vote in India is jurisprudentially classified as:",
+      "options": { "A": "An absolute Fundamental Right guaranteed under the expansive interpretation of Article 19", "B": "A constitutional right explicitly derived from the mandate of universal adult suffrage under Article 326", "C": "A purely statutory legal right susceptible to arbitrary executive suspension", "D": "A Fundamental Duty outlined in Part IVA" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-086",
+      "q": "Similarly, regarding the right to contest elections to legislative bodies, the Supreme Court has consistently held that it is:",
+      "options": { "A": "A protected Fundamental Right essential to political expression", "B": "A common law right inherited from British parliamentary traditions", "C": "An inherent constitutional right emanating from the preamble's democratic ideals", "D": "Neither a fundamental nor a constitutional right; it is strictly a statutory right governed by the Representation of the People Act" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-087",
+      "q": "The critical mandate empowering voters with the fundamental right to know the criminal antecedents, educational qualifications, and assets of electoral candidates was laid down in:",
+      "options": { "A": "Union of India vs. Association for Democratic Reforms (2002)", "B": "Lily Thomas vs. Union of India", "C": "Kihoto Hollohan vs. Zachillhu", "D": "S.R. Bommai vs. Union of India" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-088",
+      "q": "Addressing the modern digital reality, the Supreme Court recognized that the right to access the internet acts as an enabler for Article 19(1)(a) and Article 19(1)(g) liberties in the case of:",
+      "options": { "A": "Anuradha Bhasin vs. Union of India (2020)", "B": "Justice K.S. Puttaswamy vs. Union of India", "C": "Navtej Singh Johar vs. Union of India", "D": "Shreya Singhal vs. Union of India" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-089",
+      "q": "The fundamental right to protest peacefully against State policies is not expressly mentioned but is constitutionally deduced from a combined reading of:",
+      "options": { "A": "Article 19(1)(a) (freedom of speech) and Article 19(1)(b) (peaceful assembly)", "B": "Article 21 (right to life) and Article 14 (equality)", "C": "Article 14 (equality before law) exclusively", "D": "Article 25 (freedom of conscience) as an act of moral dissent" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-090",
+      "q": "The Supreme Court recognized the 'right to remain silent' as a protected facet of freedom of speech and expression (in a case involving refusal to sing the National Anthem on religious grounds) in:",
+      "options": { "A": "Bijoe Emmanuel vs. State of Kerala", "B": "Maneka Gandhi vs. Union of India", "C": "Kesavananda Bharati vs. State of Kerala", "D": "I.C. Golaknath vs. State of Punjab" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-091",
+      "q": "While industrial action is a tool for labor, the right to strike in India is legally classified as:",
+      "options": { "A": "An implicit fundamental right intricately tied to the freedom of association under Article 19(1)(c)", "B": "A conditional legal right derived from labor statutes, entirely devoid of fundamental right status", "C": "An absolute constitutional right protected under the Directive Principles (Article 43)", "D": "An activity prohibited entirely across all sectors by constitutional mandate" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-092",
+      "q": "The fundamental right to form a trade union [Article 19(1)(c)] guarantees the right to associate. However, the Supreme Court has clarified that this constitutional guarantee strictly entails:",
+      "options": { "A": "An implicit, concomitant right to compel the management into collective bargaining", "B": "The fundamental right to initiate strikes without statutory repercussions", "C": "The right to form the union only, without guaranteeing that the union achieves its objectives or gains management recognition", "D": "Both A and B as natural extensions of the right to associate" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-093",
+      "q": "The constitutional shield against 'double jeopardy' under Article 20(2) is strictly confined in its application. It applies exclusively to:",
+      "options": { "A": "Proceedings before a court of law or judicial tribunal leading to criminal prosecution and punishment", "B": "Internal departmental proceedings or disciplinary inquiries conducted by employers", "C": "Fact-finding proceedings before administrative tribunals without penal authority", "D": "All types of proceedings, effectively barring any civil action following a criminal acquittal" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-094",
+      "q": "The prohibition against 'ex post facto' legislation under Article 20(1) establishes that:",
+      "options": { "A": "An individual cannot be convicted for an act that was perfectly lawful at the exact time of its commission, nor subjected to a penalty greater than what existed then.", "B": "The legislature is absolutely stripped of the power to pass retrospective laws affecting civil tax liabilities.", "C": "A criminal law can be enacted with retrospective effect provided it aims to curb severe economic offences.", "D": "Procedural changes in criminal trials cannot be applied retrospectively under any circumstances." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-095",
+      "q": "The indispensable right of an arrested individual to consult and be defended by a legal practitioner of their choice is explicitly embedded in:",
+      "options": { "A": "Article 22(1)", "B": "The expansive judicial interpretation of Article 21 alone", "C": "The protection against self-incrimination under Article 20(3)", "D": "The procedural safeguards detailed in Article 22(2)" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-096",
+      "q": "Even under the draconian framework of preventive detention, the detaining authority is constitutionally obligated to communicate the grounds of detention to the detenu. This mandate arises from:",
+      "options": { "A": "Article 22(5)", "B": "Article 22(4)", "C": "Article 22(1)", "D": "The overarching principles of natural justice within Article 21" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-097",
+      "q": "The 44th Constitutional Amendment sought to tighten the leash on preventive detention by stipulating that detention beyond a specific period is unconstitutional unless approved by an Advisory Board. What is this critical condition?",
+      "options": { "A": "The Board, strictly constituted of judges or persons qualified to be High Court judges, must report sufficient cause before the expiration of the period.", "B": "The President must personally issue an executive order affirming the necessity of continued detention.", "C": "The Parliament must pass a specific resolution approving the extension in national interest.", "D": "The detaining authority must secure the explicit approval of the Prime Minister's Office." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-098",
+      "q": "The freedom of conscience and the right to freely profess, practice, and propagate religion under Article 25 are explicitly subjugated to which overriding constitutional considerations?",
+      "options": { "A": "Public order, morality, health, and crucially, all other provisions of Part III (Fundamental Rights)", "B": "Only the maintenance of public order and national security", "C": "Strictly to the boundaries of societal morality as determined by legislative majority", "D": "They are absolute rights, immune from State interference unless a national emergency is declared" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-099",
+      "q": "While Article 25 grants the right to 'propagate' religion, the Supreme Court (in cases like Rev. Stainislaus vs. State of M.P.) has held that the State can validly restrict conversions if they are engineered through:",
+      "options": { "A": "The application of physical force or systemic fraud", "B": "The offering of material or psychological allurement (inducement)", "C": "Both A and B, as they vitiate the freedom of conscience", "D": "None; the right to propagate inherently includes the absolute right to secure conversions by any non-violent means" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-100",
+      "q": "In the highly contested Sabarimala verdict (Indian Young Lawyers Association vs. State of Kerala), the Supreme Court majority struck down the exclusionary rule, holding that the ban on women of menstruating age violated:",
+      "options": { "A": "The foundational guarantees of equality and non-discrimination under Articles 14, 15, and the right to worship under Article 25(1)", "B": "Strictly the right to personal liberty under Article 21", "C": "The denominational rights guaranteed under Article 26", "D": "Exclusively the mandate of equality before the law under Article 14" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-101",
+      "q": "The collective rights of a religious denomination to manage its own affairs under Article 26 are NOT absolute. They are explicitly circumscribed by the necessities of:",
+      "options": { "A": "Public order, morality, and health", "B": "Public order and national security strictly", "C": "No constitutional restrictions; they enjoy total autonomy", "D": "Unrestricted executive discretion in times of communal tension" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-102",
+      "q": "In the landmark Shayara Bano case adjudicating the validity of 'Talaq-e-Biddat' (triple talaq), the Supreme Court majority concluded that the practice was:",
+      "options": { "A": "Manifestly arbitrary, thus violative of Article 14, and unconstitutional", "B": "An 'essential religious practice' firmly protected under the canopy of Article 25", "C": "A valid, protected customary law immune from Part III scrutiny under Article 13", "D": "A purely legislative matter requiring parliamentary intervention without judicial invalidation" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-103",
+      "q": "Article 29(1) confers the right to conserve a distinct language, script, or culture. A critical, often misunderstood facet of this provision is that it is available to:",
+      "options": { "A": "Any section of citizens residing in the territory of India", "B": "Exclusively to communities officially notified as 'minorities' by the Central Government", "C": "Strictly to minorities defined solely on the basis of religion", "D": "Strictly to minorities defined solely on the basis of linguistic demographics" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-104",
+      "q": "The constitutional mandate of Article 30(1), empowering the establishment and administration of educational institutions, is specifically directed towards safeguarding:",
+      "options": { "A": "All minorities, whether defined by their adherence to a religion or their spoken language", "B": "Exclusively religious minorities, excluding linguistic criteria", "C": "Exclusively linguistic minorities, excluding religious criteria", "D": "All citizens universally, without reference to minority status" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-105",
+      "q": "Article 30(2) restrains the State's discretionary power when distributing educational grants. It explicitly dictates that:",
+      "options": { "A": "The State possesses the prerogative to impose stringent operational conditions exclusively on minority institutions receiving aid.", "B": "The State is constitutionally barred from discriminating against any educational institution on the ground that it is under minority management.", "C": "Minority educational institutions are legally disqualified from receiving financial aid from the State exchequer.", "D": "The State can lawfully deny financial assistance based on the religious affiliation of the institution's management." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-106",
+      "q": "The 'Essential Religious Practice' (ERP) doctrine is a judicial innovation crafted by the Supreme Court primarily to:",
+      "options": { "A": "Sift through complex religious claims to determine which core practices genuinely warrant constitutional protection under Article 25", "B": "Systematically dilute and ultimately abolish orthodox religious practices conflicting with modern secularism", "C": "Provide blanket, uncritical primacy to all claims made by religious leaders regardless of their nature", "D": "Empower the executive to restrict all religious manifestations in public spaces" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-107",
+      "q": "To invalidate the practice of triple talaq in the Shayara Bano judgment, the Supreme Court boldly applied the test of 'manifest arbitrariness'. This test is fundamentally rooted in the jurisprudence of:",
+      "options": { "A": "Article 14 (Equality before the law)", "B": "Article 15 (Prohibition of discrimination)", "C": "Article 25 (Freedom of religion)", "D": "Article 21 (Protection of life and personal liberty)" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-108",
+      "q": "The right to constitutional remedies under Article 32 is a powerful mechanism. Who possesses the locus standi to invoke this provision?",
+      "options": { "A": "Strictly Indian citizens whose fundamental rights have been violated", "B": "Any person, including non-citizens and corporate entities, asserting the infringement of a fundamental right applicable to them", "C": "Only natural, living persons, excluding legally recognized artificial entities", "D": "Exclusively legal persons (corporations) defending their commercial fundamental rights" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-109",
+      "q": "The original jurisdiction of the Supreme Court under Article 32 is highly specific. It can be invoked, and writs issued, strictly for the enforcement of:",
+      "options": { "A": "Fundamental Rights enshrined in Part III exclusively", "B": "Both Fundamental Rights and ordinary legal rights, provided the latter involves a substantial question of constitutional law", "C": "Any legal, constitutional, or statutory right requiring urgent judicial intervention", "D": "Rights violated strictly by the Union Government, excluding State authorities" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-110",
+      "q": "Contrasting with the Supreme Court, the writ jurisdiction of the High Courts under Article 226 is notably broader because it allows the issuance of writs for the enforcement of:",
+      "options": { "A": "Fundamental Rights exclusively, acting as a parallel forum to the Supreme Court", "B": "Fundamental Rights and 'for any other purpose', thereby encompassing the enforcement of ordinary legal rights", "C": "Rights violated exclusively by authorities within the territorial jurisdiction of the respective State", "D": "Statutory rights only, deferring all Fundamental Right violations to the Supreme Court" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-111",
+      "q": "The strict rule of locus standi is relaxed in the case of the writ of Habeas Corpus. Consequently, a petition seeking this writ can be validly filed by:",
+      "options": { "A": "Exclusively the individual who has been subjected to the illegal detention", "B": "The detained individual or, given their incapacitation, any interested person (friend, relative, or public-spirited citizen) acting on their behalf", "C": "Strictly a registered legal practitioner possessing a power of attorney", "D": "Exclusively state human rights commissions acting suo motu" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-112",
+      "q": "While Mandamus is a powerful tool to compel public duty, constitutional and jurisprudential limitations apply. Against which of the following can a writ of Mandamus NOT be issued?",
+      "options": { "A": "The President of India or State Governors for the exercise of their personal duties and constitutional discretionary powers", "B": "A designated public official refusing to enforce a mandatory statutory duty", "C": "An inferior judicial court failing to exercise jurisdiction vested in it by law", "D": "An administrative tribunal delaying the adjudication of a service dispute" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-113",
+      "q": "The writ of Certiorari is an extraordinary remedy serving a corrective function. It lies specifically against:",
+      "options": { "A": "Lower courts, tribunals, and authorities exercising judicial or quasi-judicial functions", "B": "Private individuals or unregistered entities committing tortious acts", "C": "The legislature, attempting to prevent the passage of an unconstitutional bill", "D": "The executive branch, explicitly to challenge broad policy decisions devoid of adjudicatory elements" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-114",
+      "q": "The writ of Quo-Warranto investigates the legality of a claim to a public office. Regarding locus standi for this specific writ:",
+      "options": { "A": "It can be sought by any private person, regardless of whether their fundamental or legal rights are personally infringed by the usurper.", "B": "It is strictly available only to a person aggrieved by the wrongful appointment.", "C": "It can only be initiated by the Attorney General or Advocate General of the State.", "D": "It requires the applicant to be a competing candidate for the disputed office." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-115",
+      "q": "Recognizing its indispensable nature as the ultimate guarantor of Part III rights, Article 32 was famously described as the 'heart and soul' of the Constitution by:",
+      "options": { "A": "Dr. B.R. Ambedkar", "B": "Jawaharlal Nehru", "C": "Mahatma Gandhi", "D": "Dr. Rajendra Prasad" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-116",
+      "q": "The robust guarantee under Article 32 to move the Supreme Court is not absolute. The Constitution permits its suspension exclusively during the operation of:",
+      "options": { "A": "A Proclamation of National Emergency enacted under Article 352", "B": "A declaration of Financial Emergency under Article 360", "C": "The imposition of President's Rule (State Emergency) under Article 356", "D": "Any period dictated by an executive ordinance promulgated by the President" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-117",
+      "q": "The 44th Constitutional Amendment installed a formidable barrier against executive overreach during an Emergency. It mandated that the right to move any court for the enforcement of which specific rights CANNOT be suspended under Article 359?",
+      "options": { "A": "The protections against arbitrary conviction (Article 20) and the overarching right to life and personal liberty (Article 21)", "B": "The right to equality (Article 14) and freedom of expression (Article 19)", "C": "The protections against state discrimination (Articles 15 and 16)", "D": "The entirety of the Fundamental Rights enshrined in Part III" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-118",
+      "q": "Article 358 governs the automatic suspension of the six freedoms under Article 19 during a National Emergency predicated on war or external aggression. Which statement accurately reflects its mechanics?",
+      "options": { "A": "The suspension is strictly co-terminus with the duration of the Emergency and applies solely to the geographical territory where the Emergency is operational.", "B": "Article 19 suffers automatic suspension even if the Emergency is proclaimed on the subjective ground of 'armed rebellion'.", "C": "The fundamental freedoms of Article 19 have been entirely immunized from suspension by subsequent amendments.", "D": "The suspension under Article 358 is not automatic; it necessitates an explicit, separate notification by the President." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-119",
+      "q": "While Article 359 authorizes the President to suspend the enforcement mechanism for Fundamental Rights, the 44th Amendment heavily curtailed this power. Consequently, the President is now constitutionally barred from suspending:",
+      "options": { "A": "The right to petition the judiciary for the enforcement of Articles 20 and 21", "B": "The enforcement of the six liberties exclusively housed within Article 19", "C": "The enforcement of any Fundamental Right, rendering Article 359 effectively dormant", "D": "The structural existence of Article 32 itself, though individual rights can be bypassed" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-120",
+      "q": "The 'doctrine of eclipse' provides a nuanced approach to laws conflicting with Part III. Which of the following assertions regarding this doctrine is legally INCORRECT?",
+      "options": { "A": "A pre-constitutional law inconsistent with a Fundamental Right is not wiped out completely; it is merely overshadowed or eclipsed by the fundamental right.", "B": "The eclipsed law remains dormant but can become actively operative for citizens if a subsequent constitutional amendment eliminates the inconsistency.", "C": "The Supreme Court has unequivocally established that the doctrine of eclipse applies with equal force to post-constitutional laws enacted in defiance of Article 13(2).", "D": "An eclipsed law, while unenforceable against citizens, may continue to legally operate against non-citizens or corporate entities not protected by the specific Fundamental Right." },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-121",
+      "q": "The 'doctrine of severability' acts as a surgical tool for judicial review under Article 13. To which category of legislation does this doctrine apply?",
+      "options": { "A": "It is universally applicable to both pre-constitutional legacy laws and post-constitutional legislative enactments.", "B": "Its application is strictly confined to pre-constitutional laws predating the Republic.", "C": "It acts exclusively upon post-constitutional laws enacted by the sovereign Parliament.", "D": "It is irrelevant to Article 13, being a doctrine derived solely from administrative law." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-122",
+      "q": "Through expansive judicial interpretation, the Supreme Court has broadened Article 21 beyond mere physical existence. Which of the following, while NOT explicitly mentioned in the constitutional text, is now an established fundamental right under Article 21?",
+      "options": { "A": "The right to travel abroad without arbitrary executive denial", "B": "The fundamental right to informational and spatial privacy", "C": "The right to reside in a clean, ecologically balanced environment", "D": "All of the above have been firmly read into the architecture of Article 21" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-123",
+      "q": "The controversial dictum in ADM Jabalpur vs. Shivakant Shukla (1976), which held that the locus standi to move any court for the enforcement of Article 21 remains suspended during an Emergency, was ultimately neutralized by:",
+      "options": { "A": "A legislative validation act passed during the Janata Party regime affirming the judgment", "B": "The explicit constitutional safeguard introduced via the 44th Amendment Act, coupled with its formal judicial overruling in the 2017 Puttaswamy judgment", "C": "It remains good law, acting as a binding precedent during extreme national crises", "D": "It was tacitly endorsed and reinforced by the basic structure doctrine in Kesavananda Bharati" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-124",
+      "q": "Discarding the narrow textualism of the past, the Supreme Court in the Maneka Gandhi case firmly established that the 'procedure established by law' capable of depriving a person of life or liberty must strictly be:",
+      "options": { "A": "Inherently just, fair, and reasonable, eliminating all vestiges of legislative or executive arbitrariness", "B": "Subject solely to the sovereign will of the legislature, regardless of how draconian or arbitrary the procedure may be", "C": "Derived exclusively from executive guidelines to ensure rapid administrative compliance", "D": "Immune from judicial review provided the law was passed by a competent legislative authority" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-125",
+      "q": "In the realm of Indian constitutional jurisprudence, the 'golden triangle'—representing the interconnected, foundational pillars of liberty—is composed of:",
+      "options": { "A": "Articles 14 (Equality), 19 (Freedoms), and 21 (Life and Liberty)", "B": "Articles 15 (Non-discrimination), 16 (Public Employment), and 17 (Untouchability)", "C": "Articles 25, 26, and 27 (The collective freedoms of religion)", "D": "Articles 29, 30 (Cultural/Educational Rights), and 32 (Constitutional Remedies)" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-126",
+      "q": "In a unanimous 9-judge bench decision in Justice K.S. Puttaswamy vs. Union of India (2017), the Supreme Court fundamentally altered the rights landscape by declaring that the right to privacy is:",
+      "options": { "A": "An intrinsic, protected facet of the right to life and personal liberty guaranteed under Article 21", "B": "A sociological concept that, while important, lacks the rigid protection of a Fundamental Right", "C": "A derivative common law right subject to broad legislative override without constitutional scrutiny", "D": "A purely statutory right created by and dependent upon legislative enactments like the IT Act" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-127",
+      "q": "The fundamental right to live with dignity inevitably intersects with the right to reputation. The Supreme Court has repeatedly affirmed that reputation is an inseparable component of Article 21, notably in:",
+      "options": { "A": "Board of Control for Cricket in India vs. Cricket Association of Bihar (and various defamation jurisprudence)", "B": "Kishore Samrite vs. State of U.P.", "C": "D.K. Basu vs. State of West Bengal", "D": "The jurisprudential ratio extends across multiple cases, affirming reputation as a core Article 21 right" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-128",
+      "q": "The highly sensitive issue of the right to die with dignity (passive euthanasia) was formally recognized and incorporated into the protective sphere of Article 21, subject to stringent 'living will' guidelines, in:",
+      "options": { "A": "Common Cause (A Regd. Society) vs. Union of India (2018)", "B": "Aruna Ramchandra Shanbaug vs. Union of India", "C": "Gian Kaur vs. State of Punjab", "D": "Both A and B established and refined the parameters of this right" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-129",
+      "q": "While Article 21 guarantees the right to life, the Supreme Court, in the seminal case of Gian Kaur vs. State of Punjab (1996), explicitly clarified the constitutional boundaries by holding that Article 21 does NOT encompass:",
+      "options": { "A": "The right to die, thereby upholding the constitutional validity of laws penalizing attempted suicide", "B": "The right to pursue an honest livelihood free from arbitrary state interference", "C": "The right to demand an environment free from hazardous industrial pollution", "D": "The foundational right to spatial and decisional privacy" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-130",
+      "q": "Article 15(6), incorporated into the constitutional fabric via the 103rd Amendment, structurally alters the affirmative action framework by authorizing:",
+      "options": { "A": "A specialized reservation quota of up to 10% specifically for Economically Weaker Sections (EWS) in educational institutions", "B": "The introduction of consequential seniority for SC/ST candidates in matters of departmental promotion", "C": "A horizontal reservation framework explicitly mandating quotas for women in higher education", "D": "None of the above; it addresses reservations strictly in legislative assemblies" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-131",
+      "q": "The 10% EWS quota introduced by the 103rd Constitutional Amendment is a dual-pronged mechanism. It legally applies to:",
+      "options": { "A": "Both admissions to public and private educational institutions (Article 15) and matters of initial public employment (Article 16)", "B": "Exclusively to admissions within state-funded educational institutions", "C": "Strictly to initial recruitment within Group C and Group D public employment sectors", "D": "Only to government educational institutions, explicitly exempting all private unaided colleges" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-132",
+      "q": "In the intensely debated Janhit Abhiyan vs. Union of India case, the Supreme Court scrutinized the basic structure validity of the 103rd Amendment (EWS reservation) and upheld it via a:",
+      "options": { "A": "3:2 majority, determining that economic criteria alone do not violate the basic structure", "B": "Unanimous 5:0 decision, permanently settling the jurisprudence on economic reservations", "C": "4:1 majority, with the sole dissent focusing on the exclusion of existing backward classes", "D": "2:1 majority, remanding specific procedural questions to a larger bench" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-133",
+      "q": "Article 21A fundamentally transforms elementary education from a directive to a justiciable right. It compels the State to provide free and compulsory education precisely for children within the age bracket of:",
+      "options": { "A": "6 to 14 years", "B": "Birth to 6 years (Early childhood care)", "C": "14 to 18 years (Secondary education)", "D": "6 to 18 years (Universal primary and secondary education)" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-134",
+      "q": "The RTE Act of 2009 imposes a 25% admission quota for disadvantaged groups in private, unaided schools. However, constitutional jurisprudence has explicitly exempted which specific category of educational institutions from this mandate?",
+      "options": { "A": "Minority educational institutions, both aided and unaided, protected under Article 30(1)", "B": "All privately administered schools that receive substantial state grants-in-aid", "C": "State-run government schools demonstrating severe infrastructure deficits", "D": "Elite private institutions charging tuition fees above a legally defined threshold" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-135",
+      "q": "Before being elevated to the status of a Fundamental Right under Article 21A, the State's obligation to provide free and compulsory education for children was enshrined as a non-justiciable objective within the Directive Principles under:",
+      "options": { "A": "Strictly Article 45", "B": "Strictly Article 41 (Right to work, to education)", "C": "A combined reading of the original mandates of Article 45 and Article 41", "D": "Article 46 (Promotion of educational interests of weaker sections)" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-136",
+      "q": "In Society for Unaided Private Schools of Rajasthan vs. Union of India (2012), the Supreme Court upheld the constitutionality of the RTE Act imposing obligations on private actors, but carved out a critical exception, holding that the Act:",
+      "options": { "A": "Is legally inapplicable to unaided minority educational institutions, preserving their Article 30 autonomy", "B": "Applies universally to all educational establishments, superseding Article 30 protections in the interest of children", "C": "Is fundamentally ultra vires the Constitution as it forces private entities to perform sovereign state functions", "D": "Applies strictly to government schools, effectively nullifying the 25% quota for private institutions" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-137",
+      "q": "While several mechanisms exist to protect human rights, not all possess a constitutional pedigree. Which of the following is NOT a constitutional body or mechanism designed for the enforcement of Fundamental Rights?",
+      "options": { "A": "The National Human Rights Commission (NHRC), which is a purely statutory body", "B": "The Supreme Court of India exercising its original writ jurisdiction under Article 32", "C": "The High Courts exercising their expansive writ jurisdiction under Article 226", "D": "None of the above; all listed entities derive their primary enforcement powers directly from constitutional text" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-138",
+      "q": "Article 16(4) utilizes the broad phrasing 'any backward class of citizens'. In the seminal Indra Sawhney judgment, the Supreme Court clarified that this constitutional terminology encompasses:",
+      "options": { "A": "A comprehensive amalgamation of Scheduled Castes (SCs), Scheduled Tribes (STs), and Other Backward Classes (OBCs)", "B": "Strictly Scheduled Castes and Scheduled Tribes, based on historical untouchability and isolation", "C": "Exclusively Other Backward Classes, as SCs and STs are addressed via separate constitutional provisions", "D": "Any demographic group demonstrating pure economic destitution, irrespective of caste dynamics" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-139",
+      "q": "The rigid jurisprudential ceiling establishing that total reservations in public employment should generally not exceed 50% of the available vacancies was definitively articulated in:",
+      "options": { "A": "Indra Sawhney vs. Union of India (The Mandal Commission Case)", "B": "M. Nagaraj vs. Union of India", "C": "Ashok Kumar Thakur vs. Union of India", "D": "Janhit Abhiyan vs. Union of India" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-140",
+      "q": "While Indra Sawhney established the 'creamy layer' principle for OBCs, the Supreme Court later expanded this doctrine's application. In Jarnail Singh vs. Lachhmi Narain Gupta (2018), the Court ruled that:",
+      "options": { "A": "The principle of creamy layer exclusion is constitutionally applicable to SCs and STs specifically in matters of reservation in promotion.", "B": "The creamy layer concept is fundamentally incompatible with the extreme historical disadvantages faced by SCs and STs under any circumstance.", "C": "The entire conceptual framework of the creamy layer is ultra vires the equality code and must be abandoned.", "D": "Reservation in promotion for any category inherently violates Article 16 and is thus abolished." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-141",
+      "q": "The 1st Constitutional Amendment Act (1951) was an immediate legislative response designed to circumvent specific judicial pronouncements that hindered state socio-economic policies. Which landmark cases directly necessitated this amendment?",
+      "options": { "A": "State of Madras vs. Champakam Dorairajan (invalidating communal quotas)", "B": "Kameshwar Singh vs. State of Bihar (impeding agrarian land reforms)", "C": "Both A and B", "D": "I.C. Golaknath vs. State of Punjab" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-142",
+      "q": "The 24th Constitutional Amendment (1971) was a direct assertion of Parliamentary supremacy, enacted specifically to nullify the restrictive effect of which monumental Supreme Court judgment?",
+      "options": { "A": "I.C. Golaknath vs. State of Punjab (which barred Parliament from amending Fundamental Rights)", "B": "Kesavananda Bharati vs. State of Kerala (concerning the basic structure doctrine)", "C": "Shankari Prasad vs. Union of India (affirming broad amendability)", "D": "Sajjan Singh vs. State of Rajasthan" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-143",
+      "q": "To aggressively pursue socialist economic policies, the 25th Constitutional Amendment (1971) inserted Article 31C, intentionally shielding laws from Part III scrutiny if they were enacted to give effect to:",
+      "options": { "A": "The entirety of the Directive Principles outlined in Part IV", "B": "Strictly the directives aimed at equitable distribution of material resources and preventing wealth concentration under Articles 39(b) and (c)", "C": "The mandate to organize village panchayats under Article 40", "D": "The objective of securing a Uniform Civil Code under Article 44" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-144",
+      "q": "The 42nd Amendment's attempt to grant absolute primacy to all Directive Principles over Fundamental Rights by expanding Article 31C was famously struck down as destroying the Constitution's essential balance in:",
+      "options": { "A": "Minerva Mills vs. Union of India", "B": "Kesavananda Bharati vs. State of Kerala", "C": "I.C. Golaknath vs. State of Punjab", "D": "I.R. Coelho vs. State of Tamil Nadu" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-145",
+      "q": "The 86th Constitutional Amendment Act (2002) enacted a comprehensive overhaul regarding education. Aside from inserting Article 21A, it concurrently amended:",
+      "options": { "A": "Article 45, altering its focus to early childhood care and education for children below six years", "B": "Article 51A, inserting clause (k) to establish a fundamental duty for parents/guardians to provide educational opportunities", "C": "Both A and B, creating a holistic triad of educational rights, directives, and duties", "D": "Only Article 21A; it left the existing text of Parts IV and IVA completely untouched" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-146",
+      "q": "The 93rd Constitutional Amendment Act (2005) inserted Article 15(5). This provision explicitly armed the State with the power to enforce reservations for Socially and Educationally Backward Classes (SEBCs) in:",
+      "options": { "A": "Private, unaided educational institutions, whilst maintaining an explicit exemption for minority educational institutions", "B": "Direct recruitment processes for Group A government services", "C": "Political representation within municipal corporations and local panchayats", "D": "All tiers of educational institutions without any exceptions whatsoever" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-147",
+      "q": "The 97th Constitutional Amendment Act (2011) significantly expanded the ambit of Part III by elevating the formation of which entities to the status of a protected fundamental right?",
+      "options": { "A": "Co-operative societies, recognizing their role in economic democracy", "B": "The universal right to elementary education", "C": "The fundamental right to demand and receive government information", "D": "The institutional framework for the Goods and Services Tax (GST) council" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-148",
+      "q": "The crucial constitutional shield against self-incrimination embedded in Article 20(3) is legally available to:",
+      "options": { "A": "Any individual formally accused of an offence, encompassing both citizens and foreign nationals", "B": "Strictly Indian citizens, denying the protection to alien entities", "C": "Individuals facing prosecution strictly for severe cognizable offences carrying sentences exceeding seven years", "D": "Individuals exclusively during the formal trial phase, offering no protection during police interrogations" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-149",
+      "q": "Analyze the scope of the right to practice any profession or carry on any trade under Article 19(1)(g). Which of the following assertions is constitutionally valid?",
+      "options": { "A": "The State possesses the explicit constitutional authority to create a partial or complete monopoly in any trade or business, excluding citizens from it.", "B": "The constitutional right is absolute, prohibiting the State from imposing technical or professional qualifications.", "C": "The right immunizes commercial businesses from state regulation, even if their operations conflict with public interest.", "D": "The State is completely barred from restricting commercial activities, including those inherently dangerous to public health." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-150",
+      "q": "The Constitution does not explicitly define the term 'minority' as utilized in Article 30. Through judicial interpretation (notably in TMA Pai), the Supreme Court has established that minority status must be determined:",
+      "options": { "A": "Strictly on the basis of the demographic population of the concerned individual State, not the entire nation", "B": "Exclusively at the macro national level, relying on pan-India census data", "C": "Solely on the basis of religious affiliation, rendering linguistic demographics irrelevant", "D": "Exclusively by parliamentary statute, precluding judicial intervention in demographic classification" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-151",
+      "q": "To prevent the State from bypassing fundamental rights by acting through corporate veils, the Supreme Court laid down the definitive six-point test to determine if a body is an 'instrumentality or agency of the State' under Article 12 in the landmark case of:",
+      "options": { "A": "Ajay Hasia vs. Khalid Mujib Sehravardi", "B": "Sabhajit Tewary vs. Union of India", "C": "Naresh Shridhar Mirajkar vs. State of Maharashtra", "D": "Ujjambai vs. State of U.P." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-152",
+      "q": "Demonstrating the dynamic nature of constitutional interpretation, the Supreme Court overruled its previous stance in Sabhajit Tewary, ultimately holding that the Council of Scientific and Industrial Research (CSIR) qualifies as 'State' under Article 12 in the case of:",
+      "options": { "A": "Pradeep Kumar Biswas vs. Indian Institute of Chemical Biology", "B": "Zee Telefilms Ltd. vs. Union of India", "C": "R.D. Shetty vs. International Airport Authority", "D": "Sukhdev Singh vs. Bhagatram" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-153",
+      "q": "Regarding the complex constitutional status of the Board of Control for Cricket in India (BCCI) as adjudicated by the Supreme Court (Zee Telefilms case), which statement accurately reflects its position?",
+      "options": { "A": "It is definitively classified as 'State' under Article 12, making it directly subject to writ petitions under Article 32.", "B": "It is not 'State' under Article 12; however, because it discharges vital public functions, it is amenable to the broader writ jurisdiction of High Courts under Article 226.", "C": "It is recognized as a purely private, autonomous body entirely immune from both Article 32 and Article 226 scrutiny.", "D": "It is a statutory body explicitly created by an Act of Parliament and therefore implicitly bound by Part III." },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-154",
+      "q": "For a legislative classification to survive the rigorous scrutiny of Article 14, constitutional jurisprudence dictates it must cumulatively satisfy twin tests. These foundational tests are:",
+      "options": { "A": "The classification must be founded on an 'intelligible differentia', and this differentia must possess a 'rational nexus' to the object sought to be achieved by the statute.", "B": "The classification must demonstrate mathematical exactness and strict geographical separation.", "C": "The law must be free of manifest arbitrariness and possess historical precedence in common law.", "D": "The legislation must strictly demonstrate absolute legislative competence and receive prior presidential assent." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-155",
+      "q": "The doctrine of 'Manifest Arbitrariness' has evolved into a potent judicial weapon to strike down legislation under Article 14. This doctrine was pivotally utilized to invalidate laws in which of the following landmark cases?",
+      "options": { "A": "Shayara Bano vs. Union of India (Invalidation of Triple Talaq)", "B": "Joseph Shine vs. Union of India (Decriminalization of Adultery)", "C": "Navtej Singh Johar vs. Union of India (Reading down of Section 377)", "D": "All of the above landmark judgments relied heavily on this doctrine" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-156",
+      "q": "In the foundational Romesh Thappar vs. State of Madras (1950) judgment, the Supreme Court struck down a state ban on the circulation of a magazine. The Court established a high threshold, ruling that freedom of speech could NOT be restricted merely for 'public order', but only for:",
+      "options": { "A": "General disruption of localized public peace", "B": "Aggravated threats severely imperiling the 'Security of the State' or tending to overthrow it", "C": "Acts prejudicing friendly relations with foreign states", "D": "Statements amounting to criminal contempt of court" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-157",
+      "q": "The Supreme Court aggressively protected press freedom by striking down the Newsprint Control Order, which arbitrarily fixed the maximum page limit for newspapers, holding it an unconstitutional infringement of Article 19(1)(a) in:",
+      "options": { "A": "Sakal Papers (P) Ltd. vs. Union of India", "B": "Bennett Coleman & Co. vs. Union of India", "C": "Express Newspapers vs. Union of India", "D": "Brij Bhushan vs. State of Delhi" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-158",
+      "q": "Citing its vague phrasing and massive 'chilling effect' on free speech in cyberspace, the Supreme Court declared Section 66A of the Information Technology Act entirely unconstitutional and violative of Article 19(1)(a) in the landmark case of:",
+      "options": { "A": "Shreya Singhal vs. Union of India", "B": "Justice K.S. Puttaswamy vs. Union of India", "C": "Anuradha Bhasin vs. Union of India", "D": "PUCL vs. Union of India" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fr-final-159",
+      "q": "Expanding the protective ambit of free speech, the Supreme Court ruled that 'commercial speech' (including corporate advertisements) is a constitutionally protected derivative of Article 19(1)(a) in the case of:",
+      "options": { "A": "Hamdard Dawakhana vs. Union of India", "B": "Tata Press Ltd. vs. MTNL", "C": "Indian Express Newspapers vs. Union of India", "D": "LIC vs. Manubhai D. Shah" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-160",
+      "q": "While upholding the constitutional validity of Section 124A of the IPC (Sedition), the Supreme Court strictly circumscribed its application, stating it applies ONLY to acts involving intention or tendency to create public disorder or incitement to violence. This defining standard was set in:",
+      "options": { "A": "Kedar Nath Singh vs. State of Bihar", "B": "S.G. Vombatkere vs. Union of India", "C": "Balwant Singh vs. State of Punjab", "D": "Tara Singh Gopi Chand vs. State" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-161",
+      "q": "Adjudicating the legality of sweeping internet shutdowns in Jammu & Kashmir (Anuradha Bhasin vs. Union of India, 2020), the Supreme Court laid down that:",
+      "options": { "A": "The fundamental right to access the internet is absolute, rendering any state-mandated suspension inherently unconstitutional.", "B": "Indefinite suspension of internet services is unconstitutional; any restriction must satisfy the rigorous test of proportionality and be subject to periodic review.", "C": "Internet suspension is purely an executive policy decision concerning national security, completely immunized from judicial review.", "D": "Access to high-speed (4G) internet is not a fundamental right, thereby allowing the State unfettered discretion to throttle bandwidth indefinitely." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-162",
+      "q": "Which monumental judgment effectively buried the 'Mutual Exclusivity' theory propagated in A.K. Gopalan, establishing instead that Articles 14, 19, and 31 (then existing) are not isolated silos but form an interconnected, synthesized constitutional code?",
+      "options": { "A": "R.C. Cooper vs. Union of India (The Bank Nationalisation Case)", "B": "Kesavananda Bharati vs. State of Kerala", "C": "Minerva Mills vs. Union of India", "D": "I.R. Coelho vs. State of Tamil Nadu" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-163",
+      "q": "Operating in a legislative vacuum, the Supreme Court in Vishaka vs. State of Rajasthan laid down binding guidelines against sexual harassment at the workplace, observing that such harassment constitutes a direct violation of which specific Fundamental Rights?",
+      "options": { "A": "Articles 14 (Equality), 15 (Non-discrimination), and 21 (Life and Liberty)", "B": "Strictly Articles 19 (Freedom of profession) and 25 (Freedom of religion)", "C": "Articles 23 (Prohibition of trafficking) and 24 (Prohibition of child labor)", "D": "Articles 15, 16 (Equality in employment), and 17 (Abolition of untouchability)" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-164",
+      "q": "In the complex adjudication of Olga Tellis vs. Bombay Municipal Corporation (1985), while the Court famously recognized the 'right to livelihood', what was its ultimate procedural ruling regarding the eviction of pavement dwellers?",
+      "options": { "A": "It ruled that pavement dwellers possess an absolute, non-derogable right to occupy public spaces for their livelihood.", "B": "Eviction was declared constitutionally valid only if the State first provided permanent alternative accommodation to every displaced individual.", "C": "It upheld the evictions but mandated that the procedure for eviction must be just, fair, and reasonable, incorporating the principles of natural justice (right to be heard).", "D": "It ruled that the State possesses the unbridled, arbitrary power to evict trespassers on public property without notice." },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-165",
+      "q": "The Supreme Court extensively analyzed the scope of preventive detention, the rights of the detenu, and upheld the overarching constitutional validity of the National Security Act (NSA) in the landmark judgment of:",
+      "options": { "A": "A.K. Roy vs. Union of India", "B": "Sunil Batra vs. Delhi Administration", "C": "Babu Singh vs. State of U.P.", "D": "Charles Sobhraj vs. Superintendent, Central Jail" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-166",
+      "q": "To combat the systemic menace of custodial torture and deaths, the Supreme Court issued a comprehensive set of mandatory procedural guidelines to be adhered to by police personnel during arrest, detention, and interrogation in the case of:",
+      "options": { "A": "D.K. Basu vs. State of West Bengal", "B": "Nilabati Behera vs. State of Orissa", "C": "Joginder Kumar vs. State of U.P.", "D": "Rudul Sah vs. State of Bihar" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-167",
+      "q": "Elevating the discourse on human rights, the Supreme Court explicitly declared that 'the right to life includes the right to live with human dignity and all that goes along with it', forcefully rejecting the notion that life is mere animal existence, in:",
+      "options": { "A": "Francis Coralie Mullin vs. Administrator, Union Territory of Delhi", "B": "Kharak Singh vs. State of U.P.", "C": "Unni Krishnan vs. State of A.P.", "D": "Prem Shankar Shukla vs. Delhi Administration" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-168",
+      "q": "The harrowing reality of undertrial prisoners languishing in jails led the Supreme Court to recognize the 'right to a speedy trial' as an implicit, unalienable guarantee flowing from Article 21 in the foundational case of:",
+      "options": { "A": "Hussainara Khatoon vs. Home Secretary, State of Bihar", "B": "M.H. Hoskot vs. State of Maharashtra", "C": "Sheela Barse vs. State of Maharashtra", "D": "Khatri vs. State of Bihar" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fr-final-169",
+      "q": "Prioritizing human life over bureaucratic procedure, the Supreme Court held that every medical practitioner, across government and private sectors, has a binding professional obligation to provide immediate assistance in medico-legal cases without awaiting police formalities. This paradigm shift occurred in:",
+      "options": { "A": "Parmanand Katara vs. Union of India", "B": "Paschim Banga Khet Mazdoor Samity vs. State of West Bengal", "C": "Consumer Education & Research Centre vs. Union of India", "D": "Vincent Panikurlangara vs. Union of India" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fr-final-170",
+      "q": "Reinforcing the integrity of the criminal justice system, the Supreme Court emphasized that Article 21 encompasses the right to a 'fair trial', detailing that this requires an unbiased judge, a competent prosecutor, and an atmosphere totally free from intimidation, in the Best Bakery case officially known as:",
+      "options": { "A": "Zahira Habibullah Sheikh vs. State of Gujarat", "B": "Sushila Aggarwal vs. State (NCT of Delhi)", "C": "Siddhartha Vashisht @ Manu Sharma vs. State (NCT of Delhi)", "D": "Mohd. Ajmal Amir Kasab vs. State of Maharashtra" },
+      "answer": "A",
+      "difficulty": "hard"
+    }
+  ]
+}

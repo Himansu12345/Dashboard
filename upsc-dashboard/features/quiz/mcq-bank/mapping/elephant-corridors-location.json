@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Elephant Corridors (Location)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-elephant-corridors-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

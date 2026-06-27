@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "INS Systems (Naval)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-ins-systems-naval-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

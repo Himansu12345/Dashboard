@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Kathak",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-kathak-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

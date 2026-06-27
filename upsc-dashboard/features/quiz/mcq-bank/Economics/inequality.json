@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Inequality",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-inequality-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

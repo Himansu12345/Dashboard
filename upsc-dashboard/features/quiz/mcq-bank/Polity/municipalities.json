@@ -1,0 +1,667 @@
+{
+  "subject": "Polity",
+  "topic": "Municipalities – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "mun-final-001",
+      "q": "The 74th Constitutional Amendment Act, 1992, gave constitutional status to municipalities and added which Part and Schedule to the Constitution?",
+      "options": {
+        "A": "Part IX and Eleventh Schedule",
+        "B": "Part IXA and Twelfth Schedule",
+        "C": "Part X and Twelfth Schedule",
+        "D": "Part IXA and Eleventh Schedule"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-002",
+      "q": "Which of the following types of urban local bodies is mentioned in Article 243Q of the Constitution?",
+      "options": {
+        "A": "Nagar Panchayat, Municipal Council, and Municipal Corporation",
+        "B": "Town Panchayat, City Council, and Metropolitan Council",
+        "C": "Gram Panchayat, Panchayat Samiti, and Zila Parishad",
+        "D": "Cantonment Board, Town Area Committee, and Notified Area Committee"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-003",
+      "q": "Consider the following statements regarding the constitution of Municipalities: 1. A Nagar Panchayat is for a transitional area, i.e., an area in transition from a rural area to an urban area. 2. A Municipal Council is for a larger urban area. 3. A Municipal Corporation is for a smaller urban area. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-004",
+      "q": "The composition of a Municipality includes:",
+      "options": {
+        "A": "Only directly elected members",
+        "B": "Directly elected members and persons having special knowledge or experience in municipal administration without voting rights",
+        "C": "Only nominated members",
+        "D": "Members elected by the Gram Sabha"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-005",
+      "q": "Which of the following categories of persons can be given representation in a Municipality without the right to vote? 1. Members of Parliament and State Legislature representing the area. 2. The Chairpersons of committees other than ward committees. 3. Persons having special knowledge or experience in municipal administration.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-006",
+      "q": "The election of the Chairperson of a Municipality is:",
+      "options": {
+        "A": "Always by direct election by the people",
+        "B": "Always by the elected members from amongst themselves",
+        "C": "As provided by the State Legislature by law, which may be by direct election or by election from amongst the elected members",
+        "D": "By the Governor of the state"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-007",
+      "q": "The reservation of seats for SCs and STs in a Municipality is based on:",
+      "options": {
+        "A": "Their proportion to the total population of the state",
+        "B": "Their proportion to the population of the municipal area",
+        "C": "A fixed constitutional percentage of 22.5%",
+        "D": "As recommended by the State Election Commission"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-008",
+      "q": "What is the minimum reservation of seats for women in a Municipality under Article 243T?",
+      "options": {
+        "A": "One‑half of the total number of seats",
+        "B": "One‑third of the total number of seats",
+        "C": "One‑fourth of the total number of seats",
+        "D": "No reservation is mandated"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-009",
+      "q": "Consider the following statements regarding the reservation of offices of Chairpersons in Municipalities: 1. The State Legislature may by law provide for the reservation of offices of Chairpersons for SCs, STs, and women. 2. Reservation for women in the offices of Chairpersons shall be not less than one‑third of the total number of such offices. 3. The reservation of seats for SC/ST in the offices of Chairpersons is in proportion to their population in the state. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-010",
+      "q": "The duration of a Municipality is:",
+      "options": {
+        "A": "Five years from the date of its first meeting",
+        "B": "Five years from the date of its election",
+        "C": "Six years from the date of its first meeting",
+        "D": "Four years from the date of its election"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-011",
+      "q": "If a Municipality is dissolved before completing its term, elections must be held within:",
+      "options": {
+        "A": "Three months",
+        "B": "Six months",
+        "C": "One year",
+        "D": "Six weeks"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-012",
+      "q": "Consider the following statements regarding the dissolution of a Municipality: 1. A Municipality constituted after dissolution serves only the remainder of the term of the dissolved Municipality. 2. The State Government can dissolve a Municipality in accordance with law. 3. The dissolved Municipality can be revived by a court order. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-013",
+      "q": "Which Article deals with the constitution of Wards Committees within a Municipality?",
+      "options": {
+        "A": "Article 243S",
+        "B": "Article 243T",
+        "C": "Article 243U",
+        "D": "Article 243V"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-014",
+      "q": "The power of a Municipality to levy, collect, and appropriate taxes is derived from:",
+      "options": {
+        "A": "The Constitution directly",
+        "B": "State law enacted under Article 243X",
+        "C": "The Twelfth Schedule",
+        "D": "Central legislation"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-015",
+      "q": "The State Finance Commission is constituted to review the financial position of Municipalities. This is under:",
+      "options": {
+        "A": "Article 243I",
+        "B": "Article 243Y",
+        "C": "Article 243Z",
+        "D": "Article 280"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-016",
+      "q": "The recommendations of the State Finance Commission for Municipalities are laid before:",
+      "options": {
+        "A": "The State Legislature",
+        "B": "The Parliament",
+        "C": "The Governor",
+        "D": "The Chief Minister"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-017",
+      "q": "Which Schedule of the Constitution lists the functional items that may be assigned to Municipalities?",
+      "options": {
+        "A": "Eleventh Schedule",
+        "B": "Twelfth Schedule",
+        "C": "Tenth Schedule",
+        "D": "Ninth Schedule"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-018",
+      "q": "The Twelfth Schedule contains how many items?",
+      "options": {
+        "A": "18 items",
+        "B": "29 items",
+        "C": "33 items",
+        "D": "12 items"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-019",
+      "q": "Which of the following is NOT included in the Twelfth Schedule?",
+      "options": {
+        "A": "Urban planning including town planning",
+        "B": "Regulation of land‑use and construction of buildings",
+        "C": "Minor irrigation, water management and watershed development",
+        "D": "Safeguarding the interests of weaker sections of society, including the handicapped and mentally retarded"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-020",
+      "q": "The elections to Municipalities are conducted by:",
+      "options": {
+        "A": "The Union Election Commission",
+        "B": "The State Election Commission appointed by the Governor",
+        "C": "The District Collector",
+        "D": "The Home Ministry"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-021",
+      "q": "The State Election Commissioner for conducting Municipal elections can be removed only:",
+      "options": {
+        "A": "By the Governor at his pleasure",
+        "B": "In like manner and on the like grounds as a judge of a High Court",
+        "C": "By a resolution of the State Legislature",
+        "D": "By the President on the advice of the Governor"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-022",
+      "q": "Which of the following states are exempted from the application of Part IXA (Municipalities) of the Constitution? 1. Nagaland 2. Meghalaya 3. Mizoram 4. Tripura",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1, 2 and 3 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-023",
+      "q": "The District Planning Committee consolidates plans prepared by Panchayats and Municipalities in the district. It is provided under:",
+      "options": {
+        "A": "Article 243ZD",
+        "B": "Article 243ZE",
+        "C": "Article 243Z",
+        "D": "Article 243S"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-024",
+      "q": "The Metropolitan Planning Committee is constituted in every Metropolitan area with a population of:",
+      "options": {
+        "A": "Five lakh or more",
+        "B": "Ten lakh or more",
+        "C": "One million or more",
+        "D": "Twenty lakh or more"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-025",
+      "q": "Which of the following provisions regarding the District Planning Committee is correct?",
+      "options": {
+        "A": "All its members are elected by direct election.",
+        "B": "Not less than four‑fifths of its members are elected by elected members of Panchayats and Municipalities in the district.",
+        "C": "The Chairperson is always the District Collector.",
+        "D": "It is a purely advisory body with no role in planning."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-026",
+      "q": "Consider the following statements regarding the Metropolitan Planning Committee: 1. It prepares a draft development plan for the entire Metropolitan area. 2. The Chairperson is elected by the members of the Committee. 3. The Committee shall consist of persons representing the Union Government, State Government, and local bodies. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-027",
+      "q": "The audit of accounts of Municipalities is done by:",
+      "options": {
+        "A": "The Comptroller and Auditor General of India",
+        "B": "The State Finance Commission",
+        "C": "Such authority as the State Legislature may by law provide",
+        "D": "The Union Finance Ministry"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-028",
+      "q": "Article 243ZG bars the courts from interfering in electoral matters of Municipalities. This is similar to:",
+      "options": {
+        "A": "Article 324",
+        "B": "Article 329",
+        "C": "Article 136",
+        "D": "Article 32"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-029",
+      "q": "Which of the following statements is correct about the reservation of seats for backward classes in Municipalities?",
+      "options": {
+        "A": "It is mandatory under Article 243T.",
+        "B": "The State Legislature may by law provide for reservation of seats for backward classes.",
+        "C": "No reservation is allowed for backward classes.",
+        "D": "Backward classes reservation is provided only in Gram Panchayats."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-030",
+      "q": "The 74th Amendment Act provides for reservation of seats for women in Municipalities. This reservation is:",
+      "options": {
+        "A": "A minimum of one‑third and states can provide more",
+        "B": "Fixed at one‑third and cannot be exceeded",
+        "C": "Only for SC/ST women",
+        "D": "One‑half as per the constitutional amendment"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-031",
+      "q": "Which of the following is a 'compulsory provision' under the 74th Amendment?",
+      "options": {
+        "A": "Constitution of Wards Committees",
+        "B": "Constitution of a District Planning Committee",
+        "C": "Reservation of seats for women",
+        "D": "Giving representation to members of Parliament and State Legislature in Municipalities"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-032",
+      "q": "Consider the following pairs (Article – Provision): 1. Article 243Q – Constitution of Municipalities. 2. Article 243R – Composition of Municipalities. 3. Article 243S – Constitution of Wards Committees. 4. Article 243T – Reservation of seats. Which of the pairs given above are correctly matched?",
+      "options": {
+        "A": "1, 2 and 3 only",
+        "B": "1, 3 and 4 only",
+        "C": "2, 3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-033",
+      "q": "Which of the following statements about the Municipality Chairperson is correct?",
+      "options": {
+        "A": "The Chairperson is always directly elected by the people.",
+        "B": "The Chairperson is elected by members from amongst themselves.",
+        "C": "The mode of election is determined by the State Legislature.",
+        "D": "The Chairperson is appointed by the Governor."
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-034",
+      "q": "The disqualification for membership of a Municipality includes: 1. Being of unsound mind. 2. Holding an office of profit under the Municipality. 3. Being disqualified under any law made by the State Legislature. Select the correct answer:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-035",
+      "q": "Which Article provides that the State Legislature may, by law, authorise a Municipality to levy, collect, and appropriate taxes?",
+      "options": {
+        "A": "Article 243W",
+        "B": "Article 243X",
+        "C": "Article 243Y",
+        "D": "Article 243Z"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-036",
+      "q": "The State Finance Commission for Municipalities makes recommendations on: 1. Distribution of net proceeds of taxes, duties, tolls and fees between the State and Municipalities. 2. Grants‑in‑aid to Municipalities from the Consolidated Fund of the State. 3. Measures needed to improve the financial position of Municipalities. Select the correct answer:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-037",
+      "q": "The term 'Municipal area' under Part IXA includes:",
+      "options": {
+        "A": "Only the territorial area of a Municipal Corporation",
+        "B": "The territorial area of a Municipality as notified by the Governor",
+        "C": "Any area designated by the Parliament",
+        "D": "Only urban areas with a population of more than one lakh"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-038",
+      "q": "Which of the following is a discretionary provision under the 74th Amendment?",
+      "options": {
+        "A": "Giving voting rights to members of Parliament in Municipal meetings",
+        "B": "Providing reservation for SCs and STs",
+        "C": "Constitution of a State Election Commission",
+        "D": "Establishment of a three‑tier municipal system"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-039",
+      "q": "Consider the following statements regarding the composition of the District Planning Committee (DPC): 1. Not less than four‑fifths of its members are elected from Panchayats and Municipalities. 2. The Chairperson of the DPC is the Chief Minister of the State. 3. The DPC consolidates the plans prepared by Panchayats and Municipalities. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-040",
+      "q": "Which of the following statements correctly differentiates the 73rd and 74th Amendments?",
+      "options": {
+        "A": "The 73rd Amendment added the Twelfth Schedule, while the 74th added the Eleventh Schedule.",
+        "B": "The 73rd Amendment deals with Municipalities, while the 74th deals with Panchayats.",
+        "C": "The 73rd Amendment provides for a three‑tier structure with exceptions for small states, while the 74th provides for three types of urban local bodies depending on the nature of the area.",
+        "D": "Both provide for direct election of the Chairperson."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-041",
+      "q": "The 74th Amendment Act, 1992, was enacted to give effect to which of the following Directive Principles?",
+      "options": {
+        "A": "Article 38 – State to secure a social order",
+        "B": "Article 40 – Organisation of village panchayats",
+        "C": "Article 44 – Uniform Civil Code",
+        "D": "There is no specific Directive Principle for Municipalities; it was based on the need for strengthening urban local governance."
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-042",
+      "q": "Which of the following is a subject included in the Twelfth Schedule?",
+      "options": {
+        "A": "Roads and bridges",
+        "B": "Water supply for domestic, industrial and commercial purposes",
+        "C": "Minor forest produce",
+        "D": "Land improvement and soil conservation"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-043",
+      "q": "The 74th Amendment Act provides for the reservation of seats for SCs and STs in every Municipality. This reservation is:",
+      "options": {
+        "A": "Based on their proportion to the total population of the state.",
+        "B": "Based on their proportion to the population of the municipal area.",
+        "C": "A fixed 22.5% across all Municipalities.",
+        "D": "Only for SCs, not STs."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-044",
+      "q": "Which Article provides that there shall be constituted a Municipality for every transitional area, a Municipal Council for a smaller urban area, and a Municipal Corporation for a larger urban area?",
+      "options": {
+        "A": "Article 243Q",
+        "B": "Article 243R",
+        "C": "Article 243S",
+        "D": "Article 243P"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-045",
+      "q": "The Governor may specify a transitional area based on the population, density of population, revenue generated for local administration, percentage of employment in non‑agricultural activities, and other factors. A Nagar Panchayat is constituted for such an area. This is in accordance with:",
+      "options": {
+        "A": "Article 243Q(1)",
+        "B": "Article 243Q(2)",
+        "C": "Article 243R",
+        "D": "Article 243P"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-046",
+      "q": "Consider the following statements: 1. The 74th Amendment provides for a uniform three‑tier municipal structure across all states. 2. The composition of a Municipality includes persons having special knowledge or experience in municipal administration without the right to vote. 3. The Chairperson of a Municipality shall be elected in the manner provided by the State Legislature. Which of the above is/are correct?",
+      "options": {
+        "A": "2 and 3 only",
+        "B": "1 and 2 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-047",
+      "q": "Which of the following areas are NOT covered by Part IXA? 1. Scheduled Areas referred to in clause (1) of Article 244. 2. Tribal Areas in Assam, Meghalaya, Tripura, and Mizoram. 3. The hill areas of Manipur for which a District Council exists.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-048",
+      "q": "The State Finance Commission for Panchayats and Municipalities is constituted by the:",
+      "options": {
+        "A": "President",
+        "B": "Governor",
+        "C": "Chief Minister",
+        "D": "State Legislature"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "mun-final-049",
+      "q": "Which of the following statements about the 74th Amendment is correct?",
+      "options": {
+        "A": "It mandates the constitution of a State Finance Commission every six years.",
+        "B": "It provides for reservation of seats for backward classes in all Municipalities.",
+        "C": "It provides for the reservation of offices of Chairpersons for women, not less than one‑third.",
+        "D": "It applies uniformly to all states and Union Territories without any exception."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-050",
+      "q": "The Twelfth Schedule includes which of the following? 1. Urban poverty alleviation. 2. Provision of urban amenities and facilities such as parks, gardens, playgrounds. 3. Promotion of cultural, educational and aesthetic aspects. 4. Cattle pounds; prevention of cruelty to animals. Select the correct answer:",
+      "options": {
+        "A": "1, 2 and 3 only",
+        "B": "1, 2 and 4 only",
+        "C": "2, 3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-051",
+      "q": "The 74th Amendment Act provides for the constitution of a Wards Committee in Municipalities with a population of:",
+      "options": {
+        "A": "Three lakh or more",
+        "B": "One lakh or more",
+        "C": "Ten lakh or more",
+        "D": "Five lakh or more"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-052",
+      "q": "The Committee on the Implementation of the Constitutional Provisions for Panchayati Raj and Urban Local Bodies is often associated with which report?",
+      "options": {
+        "A": "Balwant Rai Mehta Committee",
+        "B": "Ashok Mehta Committee",
+        "C": "GVK Rao Committee",
+        "D": "There is no specific single report; various committees recommended reforms leading to the 74th Amendment, like the National Commission on Urbanisation."
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "mun-final-053",
+      "q": "Which of the following statements is INCORRECT regarding the 74th Amendment?",
+      "options": {
+        "A": "It provides for a uniform structure of urban local bodies across states.",
+        "B": "It provides for reservation of seats for SC/ST and women.",
+        "C": "It provides for the constitution of a State Election Commission for municipal elections.",
+        "D": "It provides for a State Finance Commission to review the finances of Municipalities."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-054",
+      "q": "Consider the following: 1. Municipalities have a five‑year term. 2. Elections to a newly constituted Municipality after dissolution must be held within six months. 3. The dissolved Municipality serves a full five‑year term after reconstitution. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "mun-final-055",
+      "q": "The power of a Municipality to impose taxes is subject to:",
+      "options": {
+        "A": "The Constitution of India",
+        "B": "The limits prescribed by the State Legislature",
+        "C": "The approval of the Union Government",
+        "D": "The recommendation of the Finance Commission"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    }
+  ]
+}

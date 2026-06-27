@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Union Territories",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-union-territories-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

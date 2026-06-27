@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Wetlands",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-wetlands-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

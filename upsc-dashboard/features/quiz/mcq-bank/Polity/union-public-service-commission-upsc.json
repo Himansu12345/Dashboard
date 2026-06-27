@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Union Public Service Commission (UPSC)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-union-public-service-commission-upsc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

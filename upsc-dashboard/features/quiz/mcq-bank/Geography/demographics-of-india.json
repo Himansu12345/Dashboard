@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Demographics of India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-demographics-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

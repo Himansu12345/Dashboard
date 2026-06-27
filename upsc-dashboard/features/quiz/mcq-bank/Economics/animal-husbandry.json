@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Animal Husbandry",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-animal-husbandry-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Rocks and Rock Cycle",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-rocks-and-rock-cycle-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Judicial Overreach",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-judicial-overreach-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

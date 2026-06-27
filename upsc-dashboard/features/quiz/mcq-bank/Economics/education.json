@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Education",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-education-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Inscriptions and Epigraphy",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-inscriptions-and-epigraphy-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Water Resources",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-water-resources-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

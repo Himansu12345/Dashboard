@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Indus River System",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-indus-river-system-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

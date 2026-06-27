@@ -1,0 +1,50 @@
+{
+  "name": "upsc-dashboard",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.0",
+    "@tanstack/react-query": "^5.90.10",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.34.3",
+    "idb": "^8.0.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-redux": "^9.2.0",
+    "reactflow": "^11.11.4",
+    "recharts": "^3.7.0"
+  },
+  "devDependencies": {
+    "@emnapi/runtime": "^1.8.1",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.56.0",
+    "@typescript-eslint/parser": "^8.56.0",
+    "autoprefixer": "^10.4.22",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.0",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^17.3.0",
+    "postcss": "^8.5.15",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.3",
+    "uuid": "^9.0.1"
+  },
+  "overrides": {
+    "minimatch": "^10.2.1",
+    "postcss": "^8.5.15"
+  }
+}

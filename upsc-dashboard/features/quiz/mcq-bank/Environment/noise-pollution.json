@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Noise Pollution",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-noise-pollution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

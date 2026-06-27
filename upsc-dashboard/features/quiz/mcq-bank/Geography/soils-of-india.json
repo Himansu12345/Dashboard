@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Soils of India",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-soils-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

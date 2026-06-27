@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "External Sector",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-external-sector-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

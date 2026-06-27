@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Places in News (Current Affairs Mapping)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-places-in-news-current-affairs-mapping-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Disaster Management and Environment",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-disaster-management-and-environment-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Mauryan Economy",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-mauryan-economy-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

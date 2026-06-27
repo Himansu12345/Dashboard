@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Solar Energy",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-solar-energy-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

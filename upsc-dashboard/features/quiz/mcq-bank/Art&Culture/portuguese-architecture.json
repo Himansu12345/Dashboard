@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Portuguese Architecture",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-portuguese-architecture-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

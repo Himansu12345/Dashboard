@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Temple Towns of India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-temple-towns-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

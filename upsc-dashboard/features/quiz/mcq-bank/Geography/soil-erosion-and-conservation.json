@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Soil Erosion and Conservation",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-soil-erosion-and-conservation-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

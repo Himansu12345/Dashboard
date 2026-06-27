@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Natural Vegetation of India",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-natural-vegetation-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

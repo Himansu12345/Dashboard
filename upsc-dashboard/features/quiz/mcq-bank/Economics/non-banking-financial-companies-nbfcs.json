@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Non-Banking Financial Companies (NBFCs)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-non-banking-financial-companies-nbfcs-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

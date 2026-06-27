@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Major Mountain Ranges of the World",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-major-mountain-ranges-of-the-world-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

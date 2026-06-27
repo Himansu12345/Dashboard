@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Land Resources",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-land-resources-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

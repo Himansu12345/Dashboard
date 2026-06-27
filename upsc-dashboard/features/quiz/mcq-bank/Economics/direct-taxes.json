@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Direct Taxes",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-direct-taxes-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

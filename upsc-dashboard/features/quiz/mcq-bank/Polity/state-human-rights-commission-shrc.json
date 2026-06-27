@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "State Human Rights Commission (SHRC)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-state-human-rights-commission-shrc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

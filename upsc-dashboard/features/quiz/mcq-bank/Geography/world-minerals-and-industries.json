@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "World Minerals and Industries",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-world-minerals-and-industries-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

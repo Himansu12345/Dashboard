@@ -1,0 +1,367 @@
+{
+  "subject": "Polity",
+  "topic": "Anti-Defection Law (Tenth Schedule) – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "adl-001",
+      "q": "The Tenth Schedule of the Indian Constitution, popularly known as the Anti-Defection Law, was added by which Amendment Act?",
+      "options": {
+        "A": "42nd Amendment Act, 1976",
+        "B": "51st Amendment Act, 1984",
+        "C": "52nd Amendment Act, 1985",
+        "D": "91st Amendment Act, 2003"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-002",
+      "q": "Consider the grounds for disqualification under the Anti-Defection Law: 1. If an elected member of a House voluntarily gives up his membership of such political party. 2. If a nominated member joins any political party after the expiry of six months from the date on which he takes his seat. 3. If an independent member joins a political party at any time. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-003",
+      "q": "In the context of the Anti-Defection Law, a member is liable to be disqualified if he/she votes or abstains from voting in the House contrary to any direction issued by his political party without obtaining prior permission. This direction is technically known as:",
+      "options": {
+        "A": "A Mandate",
+        "B": "A Whip",
+        "C": "A Decree",
+        "D": "An Order"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-004",
+      "q": "Regarding the disqualification of a 'nominated member', consider the following: 1. He can join a political party within 6 months of taking his seat. 2. If he joins a party after 6 months, he is disqualified. 3. He can become a minister during the first 6 months. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-005",
+      "q": "Under the 91st Amendment Act, 2003, what fraction of the members of a political party must defect to constitute a valid 'merger' to be exempt from disqualification?",
+      "options": {
+        "A": "One-third",
+        "B": "One-half",
+        "C": "Two-thirds",
+        "D": "Three-fourths"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-006",
+      "q": "Who is the final authority to decide on the disqualification of a member on the ground of defection?",
+      "options": {
+        "A": "The President of India",
+        "B": "The Election Commission of India",
+        "C": "The Presiding Officer of the House",
+        "D": "The Supreme Court of India"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-007",
+      "q": "Consider the following statements regarding the role of the Presiding Officer under the Tenth Schedule: 1. His decision is final and no court can interfere. 2. His decision is subject to judicial review. 3. There is a fixed time limit of 3 months for the Presiding Officer to decide a defection case. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "1 and 3 only",
+        "D": "2 and 3 only"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-008",
+      "q": "Which landmark judgment of the Supreme Court held that the decision of the Presiding Officer under the Tenth Schedule is subject to judicial review?",
+      "options": {
+        "A": "Kesavananda Bharati case",
+        "B": "Kihoto Hollohan case",
+        "C": "Minerva Mills case",
+        "D": "Indira Gandhi v. Raj Narain case"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-009",
+      "q": "Can the Presiding Officer's decision be challenged in the court *before* he/she passes the final order?",
+      "options": {
+        "A": "Yes, always.",
+        "B": "No, the Supreme Court held that judicial review cannot be exercised *before* the order is passed.",
+        "C": "Only if the President allows.",
+        "D": "Yes, if the Election Commission recommends."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-010",
+      "q": "Does the Anti-Defection Law apply to the Presiding Officer (Speaker/Chairman) if he/she resigns from their party to maintain neutrality?",
+      "options": {
+        "A": "Yes, they are disqualified.",
+        "B": "No, they are exempted if they voluntarily give up their party membership to perform their duties.",
+        "C": "Only if they join another party.",
+        "D": "Only if the House passes a motion."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-011",
+      "q": "Consider: 1. If a member is expelled from his party, he still remains a member of the House. 2. However, if he joins another party, he will be disqualified. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-012",
+      "q": "What is the status of an 'Independent Member' if they join a political party after being elected?",
+      "options": {
+        "A": "They are exempt.",
+        "B": "They are disqualified.",
+        "C": "They can join if 2/3rds of independents agree.",
+        "D": "They can join after 6 months."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-013",
+      "q": "Does the Tenth Schedule apply to the Election of the Presiding Officer?",
+      "options": {
+        "A": "Yes, voting for the Speaker is subject to the whip.",
+        "B": "No, the voting for the Presiding Officer is generally exempt from the whip requirements in practice.",
+        "C": "Only in Rajya Sabha.",
+        "D": "Only if the party is in a coalition."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-014",
+      "q": "Which of the following is true about the Anti-Defection Law's application?",
+      "options": {
+        "A": "It applies to all legislative bodies including local government.",
+        "B": "It applies to both Houses of Parliament and State Legislatures.",
+        "C": "It applies only to the Lok Sabha.",
+        "D": "It applies to the Council of Ministers only."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-015",
+      "q": "If a political party merges with another, the members of the original party do not face disqualification if:",
+      "options": {
+        "A": "At least 1/3rd of the members agree to the merger.",
+        "B": "At least 2/3rds of the members agree to the merger.",
+        "C": "The party president resigns.",
+        "D": "The Speaker allows it at his discretion."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-016",
+      "q": "The Anti-Defection Law was passed in 1985 to curb the 'Aya Ram Gaya Ram' syndrome. Which Prime Minister was in office during this time?",
+      "options": {
+        "A": "Indira Gandhi",
+        "B": "Rajiv Gandhi",
+        "C": "V.P. Singh",
+        "D": "Morarji Desai"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-017",
+      "q": "Consider: 1. The decision of the Presiding Officer is subject to judicial review on the grounds of perversity, malafides, and violation of constitutional mandate. 2. The Supreme Court has the power to interfere in the Speaker's decision *before* the case is decided. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-018",
+      "q": "Can a member who has been disqualified under the Tenth Schedule stand for election again in the future?",
+      "options": {
+        "A": "No, he is permanently barred.",
+        "B": "Yes, he can contest elections after the expiry of the current House term.",
+        "C": "Yes, he can contest immediately.",
+        "D": "Only if the Speaker allows."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-019",
+      "q": "Under the Tenth Schedule, the 'voluntary giving up of membership' includes:",
+      "options": {
+        "A": "Only formal resignation.",
+        "B": "Resignation and also conduct that shows the member has ceased to be a member of the party.",
+        "C": "Only voting against the party.",
+        "D": "Only joining another party."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-020",
+      "q": "Is the Presiding Officer's power to decide on defection cases derived from the Constitution?",
+      "options": {
+        "A": "Yes, it is derived from the Tenth Schedule itself.",
+        "B": "No, it is derived from the Rules of Procedure.",
+        "C": "No, it is a discretionary power of the Speaker.",
+        "D": "Yes, it is derived from Article 105."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-021",
+      "q": "Consider: 1. The Anti-Defection Law applies to both elected and nominated members. 2. The Anti-Defection Law applies to independent members. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-022",
+      "q": "What is the primary objective of the 91st Amendment Act, 2003, concerning Anti-Defection?",
+      "options": {
+        "A": "To limit the size of the Council of Ministers.",
+        "B": "To delete the exemption for 'split'.",
+        "C": "Both A and B.",
+        "D": "To increase the number of members in the House."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-023",
+      "q": "Does the Speaker have the power to take *suo motu* cognizance of a defection?",
+      "options": {
+        "A": "Yes, based on reliable information.",
+        "B": "No, a petition must be filed by a member.",
+        "C": "Only if the Election Commission requests.",
+        "D": "Only if the President requests."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-024",
+      "q": "Is a member disqualified if they abstain from voting despite a whip?",
+      "options": {
+        "A": "No, only if they vote against the whip.",
+        "B": "Yes, unless they get prior permission or condonation within 15 days.",
+        "C": "Only in Rajya Sabha.",
+        "D": "No, abstention is allowed."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-025",
+      "q": "The Tenth Schedule is:",
+      "options": {
+        "A": "A law of the Parliament.",
+        "B": "An integral part of the Constitution.",
+        "C": "A set of rules passed by the Lok Sabha.",
+        "D": "An ordinance."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-026",
+      "q": "What is the role of the Election Commission in anti-defection cases?",
+      "options": {
+        "A": "The ECI is the final authority.",
+        "B": "The ECI has no role in the Tenth Schedule matters.",
+        "C": "The ECI advises the Speaker.",
+        "D": "The ECI must approve the Speaker's decision."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "adl-027",
+      "q": "Consider: 1. Disqualification on grounds of defection can be challenged in the Supreme Court. 2. Judicial review is limited to the procedural aspects only. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "adl-028",
+      "q": "Under the Anti-Defection Law, if a party merges with another, the members are:",
+      "options": {
+        "A": "Disqualified.",
+        "B": "Exempted from disqualification.",
+        "C": "Required to resign.",
+        "D": "Required to seek re-election."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-029",
+      "q": "The Tenth Schedule aims to:",
+      "options": {
+        "A": "Promote multi-party democracy.",
+        "B": "Ensure stability of the government by curbing defection.",
+        "C": "Encourage independent candidates.",
+        "D": "Limit the number of political parties."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "adl-030",
+      "q": "Consider: 1. A member elected as a Speaker can join his party again after stepping down. 2. A nominated member joining a party after 6 months is disqualified. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    }
+  ]
+}

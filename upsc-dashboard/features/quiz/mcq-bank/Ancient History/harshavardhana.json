@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Harshavardhana",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-harshavardhana-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

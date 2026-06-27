@@ -1,0 +1,77 @@
+{
+  "subject": "Polity",
+  "topic": "Cooperative Societies – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "coop-final-001",
+      "q": "Consider the following statements regarding the 97th Constitutional Amendment Act of 2011: 1. It elevated the right to form cooperative societies to the status of a Fundamental Right under Article 19. 2. It introduced a new Directive Principle of State Policy (Article 43B) to promote the voluntary formation and democratic control of cooperative societies. 3. It added a new Part IX-B to the Constitution to strictly regulate the incorporation, elections, and boards of cooperative societies. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "coop-final-002",
+      "q": "Consider the following statements regarding the 2021 Supreme Court judgment (Union of India v. Rajendra N. Shah) on the 97th Amendment: 1. The Supreme Court struck down the entire 97th Constitutional Amendment Act, declaring it null and void. 2. Part IXB of the Constitution was struck down specifically in its application to intra-state cooperative societies because the amendment lacked the mandatory ratification by half the State legislatures. 3. Part IXB remains legally valid and operational for Multi-State Cooperative Societies and cooperative societies situated in Union Territories. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "coop-final-003",
+      "q": "Consider the following statements regarding the composition of the board of a cooperative society as per Part IXB: 1. The maximum number of directors of a cooperative society is constitutionally capped at twenty-one. 2. The State legislature is mandated to provide for the reservation of exactly one seat for Scheduled Castes or Scheduled Tribes on the board of every cooperative society. 3. The State legislature is mandated to reserve exactly two seats for women on the board of every cooperative society consisting of individuals as members. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "coop-final-004",
+      "q": "Consider the following statements regarding the co-option of members to the board of a cooperative society: 1. The board may co-opt a maximum of two persons having specialized experience in banking, management, finance, or specialization in any other related field. 2. These co-opted members must be counted within the constitutional upper limit of twenty-one directors. 3. The co-opted members enjoy full voting rights, including the right to vote in the election of the chairperson of the cooperative society. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "coop-final-005",
+      "q": "Consider the following statements regarding the supersession or suspension of the board of a cooperative society: 1. Generally, a board can be kept under supersession or suspension for a maximum period of six months. 2. If the cooperative society is carrying on the business of banking, the maximum period of supersession can extend to one year. 3. In the case of a cooperative bank, the supersession of the board must be done after mandatory consultation with the Reserve Bank of India (RBI). How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "coop-final-006",
+      "q": "Under Part IXB, the board of a cooperative society can be superseded on grounds of persistent default, negligence, or committing acts prejudicial to the interests of the society. However, the board CANNOT be superseded or kept under suspension if:",
+      "options": { "A": "The society is registered as a Multi-State Cooperative Society.", "B": "There is no government shareholding or loan, financial assistance, or guarantee by the Government in that society.", "C": "The board has completely fulfilled its quota of SC/ST and women reservations.", "D": "The society has an annual turnover of less than ₹50 Lakhs." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "coop-final-007",
+      "q": "Consider the following statements regarding the conduct of elections to a cooperative society under Part IXB: 1. The term of office of elected members of the board and its office bearers is constitutionally fixed at five years from the date of election. 2. The superintendence, direction, and control of the preparation of electoral rolls and the conduct of elections unconditionally vest in the State Election Commission. 3. Elections to a board must be conducted before the expiry of the term of the board so as to ensure that newly elected members assume office immediately on the expiry of the incumbent's term. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "coop-final-008",
+      "q": "Consider the following statements regarding the auditing of accounts of cooperative societies: 1. The accounts of every cooperative society must be audited within six months of the close of the financial year. 2. The audit of all apex cooperative societies is constitutionally required to be conducted by the Comptroller and Auditor General (CAG) of India. 3. The minimum qualifications and experience of auditors and auditing firms for cooperative societies are laid down by the State legislature. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "coop-final-009",
+      "q": "Consider the following statements regarding the filing of returns by cooperative societies: 1. Every cooperative society must file its annual returns within three months of the close of the financial year to the authority designated by the State Government. 2. The annual returns must include a comprehensive report on the activities of the society and its audited statement of accounts. 3. The Constitution explicitly guarantees every member of a cooperative society the right of access to the books, information, and accounts of the society. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "coop-final-010",
+      "q": "Consider the following statements regarding the application of Part IXB to Multi-State Cooperative Societies: 1. For Multi-State Cooperative Societies, any reference to the 'State Legislature' in Part IXB shall be construed as a reference to 'Parliament'. 2. For Multi-State Cooperative Societies, any reference to the 'State Government' shall be construed as a reference to the 'Central Government'. 3. Following the 2021 Supreme Court judgment, Parliament no longer possesses the legislative competence to regulate the boards of Multi-State Cooperative Societies. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

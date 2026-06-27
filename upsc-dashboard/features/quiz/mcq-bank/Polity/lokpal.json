@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Lokpal",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-lokpal-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

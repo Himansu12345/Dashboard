@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Volcanism",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-volcanism-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

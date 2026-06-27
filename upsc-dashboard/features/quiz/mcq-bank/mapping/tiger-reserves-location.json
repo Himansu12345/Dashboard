@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Tiger Reserves (Location)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-tiger-reserves-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

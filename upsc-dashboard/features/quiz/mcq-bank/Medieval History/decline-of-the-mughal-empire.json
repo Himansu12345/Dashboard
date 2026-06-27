@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Decline of the Mughal Empire",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-decline-of-the-mughal-empire-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

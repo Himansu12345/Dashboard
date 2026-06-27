@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Money Market",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-money-market-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

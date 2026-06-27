@@ -1,0 +1,112 @@
+{
+  "subject": "Polity",
+  "topic": "Chief Minister – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "cm-final-001",
+      "q": "Consider the following statements regarding the constitutional mandate under Article 164 for a Minister in charge of Tribal Welfare: 1. The Constitution mandates this specific portfolio in the states of Chhattisgarh, Jharkhand, Madhya Pradesh, and Odisha. 2. Bihar was originally included in this mandate but was exempted by the 94th Constitutional Amendment Act, 2006. 3. Assam and Meghalaya are also covered under this specific mandate due to their large tribal populations. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cm-final-002",
+      "q": "Consider the following statements comparing the discretionary powers of the President (Article 74) and the Governor (Article 163): 1. The Constitution explicitly grants discretionary powers to the Governor, whereas the President has only situational discretion. 2. Unlike the President, the Governor has no explicit constitutional power to return the advice of the Council of Ministers for reconsideration. 3. If a question arises whether a matter falls within the Governor's constitutional discretion, the decision of the High Court of that state is final. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cm-final-003",
+      "q": "Consider the following statements regarding the Chief Minister's duties towards the Governor under Article 167: 1. The CM is constitutionally bound to communicate all decisions of the Council of Ministers relating to state administration to the Governor. 2. The Governor can require the CM to submit for the consideration of the Council of Ministers any matter on which a decision has been taken by a single minister. 3. The CM must furnish information relating to proposals for legislation only if the Governor specifically calls for it. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cm-final-004",
+      "q": "Consider the following statements regarding the Chief Minister's role in the Zonal Councils: 1. The Chief Minister of a state acts as the Chairman of the respective Zonal Council on a rotational basis. 2. The Chief Minister holds office in the Zonal Council for a period of one year at a time. 3. Zonal Councils are constitutional bodies formed under Article 263 to foster cooperation among the states. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cm-final-005",
+      "q": "Consider the following statements regarding the size of the State Council of Ministers: 1. The total number of ministers, including the Chief Minister, shall not exceed 15% of the total strength of the State Legislative Assembly. 2. The total number of ministers, including the Chief Minister, shall not be less than 12 in any state. 3. While the 15% upper limit applies to both the Union and State Councils, the minimum limit of 12 applies exclusively to the States. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cm-final-006",
+      "q": "Consider the following statements regarding appointments made on the advice of the Chief Minister: 1. The CM advises the Governor on the appointment of the Chairman of the State Public Service Commission. 2. The CM can advise the Governor to remove the Chairman of the State Public Service Commission on grounds of proved misbehaviour. 3. The State Election Commissioner is appointed by the Governor on the CM's advice, but the CM cannot advise his removal. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cm-final-007",
+      "q": "Consider the following statements regarding the membership of the Chief Minister in the State Legislature: 1. A person who is not a member of either House can be appointed as Chief Minister for a maximum of six consecutive months. 2. A Chief Minister who belongs to the State Legislative Council cannot vote in a no-confidence motion against his own government. 3. The Constitution mandates that a non-member CM must be elected specifically to the State Legislative Assembly, not the Council, within six months. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cm-final-008",
+      "q": "Consider the following statements regarding the relationship between the Chief Minister and the Governor: 1. The Chief Minister holds office during the pleasure of the Governor. 2. The Governor can dismiss the Chief Minister at any time if the Governor subjectively feels the CM has lost the confidence of the people. 3. The question whether any, and if so what, advice was tendered by the CM to the Governor cannot be inquired into in any court. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cm-final-009",
+      "q": "Consider the following bodies: 1. Inter-State Council 2. Governing Council of NITI Aayog 3. National Integration Council. In how many of the above bodies does the Chief Minister of a state serve as a member?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cm-final-010",
+      "q": "If the Chief Minister of a State dies in office and there is no obvious successor, what is the constitutional position of the Governor?",
+      "options": { "A": "The Governor must immediately dissolve the State Legislative Assembly.", "B": "The Governor can exercise situational discretion in the appointment of a new Chief Minister.", "C": "The Governor must impose President's Rule under Article 356 until the ruling party elects a new leader.", "D": "The senior-most minister automatically becomes the Chief Minister without the Governor's intervention." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cm-final-011",
+      "q": "Consider the following statements regarding the resignation of the Chief Minister: 1. The resignation of the Chief Minister automatically results in the resignation of the entire Council of Ministers. 2. When a CM resigns, the Governor is constitutionally bound to dissolve the Legislative Assembly. 3. A caretaker Chief Minister appointed by the Governor retains full constitutional powers to take major policy decisions. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cm-final-012",
+      "q": "Consider the following statements regarding the Advocate General of the State: 1. The Chief Minister advises the Governor on the appointment of the Advocate General. 2. The Advocate General holds office during the pleasure of the Chief Minister. 3. The remuneration of the Advocate General is determined by the State Legislature on the recommendation of the Chief Minister. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cm-final-013",
+      "q": "Consider the following statements regarding the Chief Minister's role in the State Legislature: 1. The Chief Minister advises the Governor with regard to summoning and proroguing the sessions of the State Legislature. 2. The Chief Minister can recommend the dissolution of the Legislative Assembly to the Governor at any time. 3. The Chief Minister is the principal channel of communication between the Governor and the State Legislature. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cm-final-014",
+      "q": "The salary and allowances of the Chief Minister are determined by:",
+      "options": { "A": "The Parliament of India", "B": "The State Legislature", "C": "The Governor of the State", "D": "The President of India on the advice of the Finance Commission" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cm-final-015",
+      "q": "Consider the following statements: 1. The Chief Minister swears an oath of office and secrecy, which is administered by the Chief Justice of the respective High Court. 2. The oath of secrecy taken by the Chief Minister is identical to the oath of secrecy taken by a Union Cabinet Minister. 3. The Governor cannot administer the oath to the Chief Minister if the Governor is functioning in an acting capacity. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    }
+  ]
+}

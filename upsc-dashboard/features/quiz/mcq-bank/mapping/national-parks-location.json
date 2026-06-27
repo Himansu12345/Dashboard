@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "National Parks (Location)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-national-parks-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

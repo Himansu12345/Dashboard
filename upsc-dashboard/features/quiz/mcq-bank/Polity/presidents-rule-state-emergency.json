@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "President\u0027s Rule (State Emergency)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-presidents-rule-state-emergency-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

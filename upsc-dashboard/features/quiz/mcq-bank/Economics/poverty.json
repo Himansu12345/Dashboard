@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Poverty",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-poverty-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

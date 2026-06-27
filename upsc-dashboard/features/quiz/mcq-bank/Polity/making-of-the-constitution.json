@@ -1,0 +1,462 @@
+{
+  "subject": "Polity",
+  "topic": "Making of the Constitution – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "moc-final-001",
+      "q": "Who among the following first put forward the idea of a Constituent Assembly for India?",
+      "options": { "A": "M.N. Roy", "B": "Jawaharlal Nehru", "C": "Mahatma Gandhi", "D": "B.R. Ambedkar" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-002",
+      "q": "The Indian National Congress officially demanded a Constituent Assembly for the first time in which year?",
+      "options": { "A": "1934", "B": "1935", "C": "1942", "D": "1946" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-003",
+      "q": "The British government accepted the demand for a Constituent Assembly for the first time through:",
+      "options": { "A": "Cripps Mission (1942)", "B": "August Offer (1940)", "C": "Cabinet Mission Plan (1946)", "D": "Wavell Plan (1945)" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-004",
+      "q": "The Constituent Assembly was constituted under the scheme formulated by:",
+      "options": { "A": "Cripps Mission", "B": "Cabinet Mission", "C": "Simon Commission", "D": "Mountbatten Plan" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-005",
+      "q": "As per the Cabinet Mission Plan, the total strength of the Constituent Assembly was to be:",
+      "options": { "A": "389", "B": "299", "C": "296", "D": "545" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-006",
+      "q": "Out of the 389 seats originally planned, how many were allotted to the provinces of British India?",
+      "options": { "A": "296", "B": "292", "C": "93", "D": "389" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-007",
+      "q": "The princely states were allotted how many seats in the original scheme of the Constituent Assembly?",
+      "options": { "A": "70", "B": "93", "C": "296", "D": "389" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-008",
+      "q": "Consider the following statements regarding the election to the Constituent Assembly: 1. Members from British Indian provinces were elected by the provincial legislative assemblies. 2. The system of election was proportional representation by single transferable vote. 3. The princely states' representatives were to be elected by the people of the states.",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-009",
+      "q": "After the partition of India, the strength of the Constituent Assembly was reduced to:",
+      "options": { "A": "389", "B": "299", "C": "296", "D": "284" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-010",
+      "q": "After partition, the number of seats allocated to Indian provinces in the Constituent Assembly became:",
+      "options": { "A": "296", "B": "229", "C": "70", "D": "299" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-011",
+      "q": "The first meeting of the Constituent Assembly took place on:",
+      "options": { "A": "9 December 1946", "B": "13 December 1946", "C": "26 November 1949", "D": "26 January 1950" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-012",
+      "q": "Who presided over the first meeting of the Constituent Assembly as the temporary Chairman?",
+      "options": { "A": "Dr. Rajendra Prasad", "B": "Dr. Sachchidananda Sinha", "C": "Jawaharlal Nehru", "D": "B.R. Ambedkar" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-013",
+      "q": "The permanent Chairman of the Constituent Assembly was elected on:",
+      "options": { "A": "9 December 1946", "B": "11 December 1946", "C": "13 December 1946", "D": "22 January 1947" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-014",
+      "q": "Who was elected as the permanent Chairman of the Constituent Assembly?",
+      "options": { "A": "Sachchidananda Sinha", "B": "Rajendra Prasad", "C": "Jawaharlal Nehru", "D": "H.C. Mookerjee" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-015",
+      "q": "The 'Objective Resolution' was moved in the Constituent Assembly on 13 December 1946 by:",
+      "options": { "A": "Dr. Rajendra Prasad", "B": "Jawaharlal Nehru", "C": "B.R. Ambedkar", "D": "Sardar Patel" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-016",
+      "q": "The Objective Resolution was adopted by the Constituent Assembly on:",
+      "options": { "A": "13 December 1946", "B": "22 January 1947", "C": "15 August 1947", "D": "26 November 1949" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-017",
+      "q": "The Objective Resolution later became the basis of the:",
+      "options": { "A": "Fundamental Rights", "B": "Directive Principles of State Policy", "C": "Preamble to the Constitution", "D": "First Schedule" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-018",
+      "q": "The national flag of India was adopted by the Constituent Assembly on:",
+      "options": { "A": "15 August 1947", "B": "22 July 1947", "C": "26 November 1949", "D": "24 January 1950" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-019",
+      "q": "The national anthem and the national song were adopted by the Constituent Assembly on:",
+      "options": { "A": "15 August 1947", "B": "26 November 1949", "C": "24 January 1950", "D": "22 July 1947" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-020",
+      "q": "On 24 January 1950, the Constituent Assembly performed which of the following functions? 1. Elected Dr. Rajendra Prasad as the first President of India. 2. Adopted the national anthem and national song. 3. The members signed the final copies of the Constitution.",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-021",
+      "q": "The Drafting Committee of the Constituent Assembly was set up on:",
+      "options": { "A": "29 August 1947", "B": "15 August 1947", "C": "26 January 1948", "D": "9 December 1946" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-022",
+      "q": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+      "options": { "A": "Jawaharlal Nehru", "B": "Dr. B.R. Ambedkar", "C": "Dr. Rajendra Prasad", "D": "Alladi Krishnaswamy Ayyar" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-023",
+      "q": "Which of the following was NOT a member of the Drafting Committee?",
+      "options": { "A": "N. Gopalaswamy Ayyangar", "B": "K.M. Munshi", "C": "Sardar Vallabhbhai Patel", "D": "Alladi Krishnaswamy Ayyar" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-024",
+      "q": "The first draft of the Constitution prepared by the Drafting Committee was published in:",
+      "options": { "A": "October 1947", "B": "February 1948", "C": "August 1948", "D": "November 1948" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-025",
+      "q": "The Constitution of India was adopted by the Constituent Assembly on:",
+      "options": { "A": "26 January 1950", "B": "15 August 1947", "C": "26 November 1949", "D": "24 January 1950" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-026",
+      "q": "The Constitution came into full force on:",
+      "options": { "A": "26 November 1949", "B": "26 January 1950", "C": "15 August 1947", "D": "24 January 1950" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-027",
+      "q": "Which provisions of the Constitution came into force on 26 November 1949 itself?",
+      "options": { "A": "Provisions relating to citizenship, elections, provisional Parliament, and temporary provisions", "B": "The entire Constitution", "C": "Only the Preamble", "D": "Fundamental Rights and Directive Principles" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-028",
+      "q": "The total time taken by the Constituent Assembly to frame the Constitution was:",
+      "options": { "A": "2 years, 11 months, 17 days", "B": "2 years, 11 months, 18 days", "C": "3 years exactly", "D": "2 years, 6 months, 10 days" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-029",
+      "q": "The Constituent Assembly held how many sessions while framing the Constitution?",
+      "options": { "A": "9", "B": "10", "C": "11", "D": "12" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-030",
+      "q": "The number of actual working days of the Constituent Assembly for framing the Constitution was:",
+      "options": { "A": "114", "B": "165", "C": "200", "D": "295" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-031",
+      "q": "How many members signed the final document of the Indian Constitution on 24 January 1950?",
+      "options": { "A": "389", "B": "299", "C": "284", "D": "296" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-032",
+      "q": "The Constituent Assembly also functioned as the provisional Parliament of the Indian Dominion. Who was its Speaker?",
+      "options": { "A": "Dr. Rajendra Prasad", "B": "G.V. Mavalankar", "C": "H.V. Kamath", "D": "Jawaharlal Nehru" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-033",
+      "q": "Who served as the Constitutional Advisor to the Constituent Assembly?",
+      "options": { "A": "B.R. Ambedkar", "B": "S.N. Mukherjee", "C": "B.N. Rau", "D": "Rajendra Prasad" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-034",
+      "q": "The Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas was chaired by:",
+      "options": { "A": "B.R. Ambedkar", "B": "Jawaharlal Nehru", "C": "Sardar Vallabhbhai Patel", "D": "Rajendra Prasad" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-035",
+      "q": "Consider the following pairs (Committee – Chairman): 1. Union Constitution Committee – Jawaharlal Nehru  2. Provincial Constitution Committee – Sardar Patel  3. Fundamental Rights Sub-Committee – B.R. Ambedkar. Which of the pairs is/are correctly matched?",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-036",
+      "q": "The Fundamental Rights Sub-Committee was actually chaired by:",
+      "options": { "A": "B.R. Ambedkar", "B": "J.B. Kripalani", "C": "Sardar Patel", "D": "Jawaharlal Nehru" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-037",
+      "q": "How many women members were there in the Constituent Assembly?",
+      "options": { "A": "10", "B": "15", "C": "20", "D": "8" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-038",
+      "q": "The Constituent Assembly was declared a fully sovereign body by:",
+      "options": { "A": "Cabinet Mission Plan", "B": "Mountbatten Plan", "C": "Indian Independence Act, 1947", "D": "Objective Resolution" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-039",
+      "q": "The Indian Independence Act, 1947, gave the Constituent Assembly which of the following powers? 1. The power to frame the Constitution. 2. The power to repeal or amend any Act of the British Parliament relating to India. 3. Full legislative power for the Dominion.",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-040",
+      "q": "The date 26 January was chosen as the date of commencement of the Constitution because:",
+      "options": { "A": "The Constituent Assembly first met on that day", "B": "It commemorated the Purna Swaraj resolution of the Lahore Session (1930)", "C": "It was the Independence Day declared in 1947", "D": "It was the birthday of Mahatma Gandhi" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-041",
+      "q": "The Purna Swaraj resolution was passed by the Indian National Congress in 1929 at Lahore under the presidency of:",
+      "options": { "A": "Mahatma Gandhi", "B": "Jawaharlal Nehru", "C": "Subhas Chandra Bose", "D": "Sardar Patel" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-042",
+      "q": "The Constituent Assembly adopted the Constitution on 26 November 1949. This day is celebrated as:",
+      "options": { "A": "Republic Day", "B": "Independence Day", "C": "Constitution Day (Samvidhan Divas)", "D": "Law Day" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-043",
+      "q": "The original Constitution as adopted in 1949 contained:",
+      "options": { "A": "395 Articles, 8 Schedules", "B": "448 Articles, 12 Schedules", "C": "395 Articles, 10 Schedules", "D": "390 Articles, 8 Schedules" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-044",
+      "q": "Which of the following statements about the Constituent Assembly is INCORRECT?",
+      "options": { "A": "It first met on 9 December 1946.", "B": "The Muslim League participated in its first meeting.", "C": "It adopted the national flag on 22 July 1947.", "D": "Dr. Rajendra Prasad was elected permanent Chairman on 11 December 1946." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-045",
+      "q": "The Drafting Committee originally had 7 members. Who among the following was NOT an original member but joined later?",
+      "options": { "A": "B.R. Ambedkar", "B": "Alladi Krishnaswamy Ayyar", "C": "T.T. Krishnamachari", "D": "K.M. Munshi" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-046",
+      "q": "T.T. Krishnamachari joined the Drafting Committee after the death of:",
+      "options": { "A": "B.L. Mitter", "B": "D.P. Khaitan", "C": "N. Madhava Rao", "D": "Syed Mohammad Saadullah" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-047",
+      "q": "N. Madhava Rao joined the Drafting Committee after the resignation of:",
+      "options": { "A": "D.P. Khaitan", "B": "B.L. Mitter", "C": "Alladi Krishnaswamy Ayyar", "D": "K.M. Munshi" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-048",
+      "q": "The Constituent Assembly's resolution on 22 January 1947 adopting the Objective Resolution declared India as:",
+      "options": { "A": "A dominion", "B": "An independent sovereign republic", "C": "A federation under the Crown", "D": "A democratic monarchy" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-049",
+      "q": "The Constituent Assembly ceased to exist as the provisional Parliament after:",
+      "options": { "A": "26 January 1950", "B": "24 January 1950", "C": "The first general elections (1951-52)", "D": "15 August 1947" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-050",
+      "q": "The first Speaker of the Lok Sabha after the first general elections was:",
+      "options": { "A": "G.V. Mavalankar", "B": "H.V. Kamath", "C": "Rajendra Prasad", "D": "Ananthasayanam Ayyangar" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-051",
+      "q": "The Constituent Assembly's records and debates are published and known as:",
+      "options": { "A": "Constituent Assembly Debates", "B": "Constitutional History of India", "C": "Framing of India's Constitution", "D": "The Making of the Constitution" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-052",
+      "q": "The method of election to the Constituent Assembly from the provinces (by provincial assemblies through proportional representation) was recommended by:",
+      "options": { "A": "Cabinet Mission Plan", "B": "Cripps Mission", "C": "Wavell Plan", "D": "Mountbatten Plan" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-053",
+      "q": "The number of amendments tabled during the clause-by-clause discussion of the Draft Constitution was approximately:",
+      "options": { "A": "1,500", "B": "2,473", "C": "7,635", "D": "1,000" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-054",
+      "q": "The Preamble of the Constitution was adopted by the Constituent Assembly:",
+      "options": { "A": "Before the rest of the Constitution", "B": "After the entire Constitution was adopted, to ensure it reflected the final document", "C": "On 26 November 1949 simultaneously with the rest", "D": "On 24 January 1950" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-055",
+      "q": "The Constituent Assembly was influenced by the principles laid down in the Objective Resolution. Which of the following is NOT a feature of the Objective Resolution?",
+      "options": { "A": "India shall be an independent sovereign republic", "B": "All power and authority of the Union and the States are derived from the people", "C": "The Constitution shall guarantee Fundamental Rights to all citizens", "D": "India shall be a federation with a strong centre" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-056",
+      "q": "The Constituent Assembly was not a fully sovereign body at its inception. It acquired full sovereignty after:",
+      "options": { "A": "The Objective Resolution was adopted", "B": "The Indian Independence Act, 1947", "C": "The Mountbatten Plan", "D": "The first meeting on 9 December 1946" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-057",
+      "q": "The Congress party won how many seats from the provinces in the 1946 Constituent Assembly elections (out of 296)?",
+      "options": { "A": "208", "B": "199", "C": "73", "D": "292" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-058",
+      "q": "The Muslim League won how many seats in the 1946 Constituent Assembly elections?",
+      "options": { "A": "73", "B": "80", "C": "93", "D": "208" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-059",
+      "q": "The first meeting of the Constituent Assembly was boycotted by the Muslim League because:",
+      "options": { "A": "The League demanded a separate Constituent Assembly for Pakistan", "B": "The League wanted more seats for Muslims", "C": "The League wanted Jinnah as the President", "D": "The League opposed the Objective Resolution" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "moc-final-060",
+      "q": "After the 3 June Plan (Mountbatten Plan) and the Indian Independence Act, the Muslim League members who had boycotted the Assembly:",
+      "options": { "A": "Joined the Indian Constituent Assembly", "B": "Became members of the Constituent Assembly of Pakistan", "C": "Continued to boycott the Indian Assembly", "D": "Were expelled from the Assembly" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-061",
+      "q": "The Constituent Assembly acted as the provisional Parliament of India from:",
+      "options": { "A": "15 August 1947 to 26 January 1950", "B": "26 November 1949 to 26 January 1950", "C": "9 December 1946 to 15 August 1947", "D": "15 August 1947 to the first general elections" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "moc-final-062",
+      "q": "The Constituent Assembly's Committee on the Functions of the Constituent Assembly was chaired by:",
+      "options": { "A": "G.V. Mavalankar", "B": "Rajendra Prasad", "C": "Jawaharlal Nehru", "D": "B.R. Ambedkar" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-063",
+      "q": "The States Committee (for negotiating with princely states) was chaired by:",
+      "options": { "A": "Sardar Patel", "B": "Jawaharlal Nehru", "C": "Rajendra Prasad", "D": "V.T. Krishnamachari" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-064",
+      "q": "The Chief Draftsman of the Constitution, who was not a member of the Assembly but prepared the final draft, was:",
+      "options": { "A": "S.N. Mukherjee", "B": "B.N. Rau", "C": "K.M. Munshi", "D": "Alladi Krishnaswamy Ayyar" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "moc-final-065",
+      "q": "The original handwritten Constitution of India was illuminated by artists from:",
+      "options": { "A": "Santiniketan", "B": "Jaipur", "C": "Banaras", "D": "Delhi" },
+      "answer": "A",
+      "difficulty": "hard"
+    }
+  ]
+}

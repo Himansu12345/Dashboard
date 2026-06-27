@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Migration in India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-migration-in-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Doctrine of Lapse",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-doctrine-of-lapse-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

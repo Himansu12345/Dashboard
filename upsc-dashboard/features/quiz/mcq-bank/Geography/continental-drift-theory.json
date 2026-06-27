@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Continental Drift Theory",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-continental-drift-theory-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

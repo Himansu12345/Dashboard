@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Electoral Reforms",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-electoral-reforms-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

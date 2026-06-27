@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Public Interest Litigation (PIL)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-public-interest-litigation-pil-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

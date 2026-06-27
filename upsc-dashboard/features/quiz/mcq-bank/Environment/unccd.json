@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "UNCCD",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-unccd-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

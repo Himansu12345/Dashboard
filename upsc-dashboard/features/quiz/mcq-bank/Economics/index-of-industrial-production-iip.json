@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Index of Industrial Production (IIP)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-index-of-industrial-production-iip-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

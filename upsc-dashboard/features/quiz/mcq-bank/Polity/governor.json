@@ -1,0 +1,392 @@
+{
+  "subject": "Polity",
+  "topic": "Governor – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "gov-final-001",
+      "q": "Consider the following statements regarding the Governor of a State: 1. The Governor is the constitutional head of the State. 2. All executive actions of the State are taken in the name of the Governor. 3. The Governor holds office during the pleasure of the President. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-002",
+      "q": "The Governor of a State is appointed by the:",
+      "options": { "A": "Prime Minister", "B": "President", "C": "Chief Justice of India", "D": "Union Public Service Commission" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-003",
+      "q": "Which of the following qualifications is NOT required for appointment as Governor?",
+      "options": { "A": "Must be a citizen of India", "B": "Must have completed 35 years of age", "C": "Must not hold any office of profit", "D": "Must be qualified to be a member of the Lok Sabha" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-004",
+      "q": "The Governor holds office for a term of:",
+      "options": { "A": "Five years from the date of appointment", "B": "Five years from the date of entering upon office", "C": "During the pleasure of the President", "D": "Six years" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-005",
+      "q": "The Governor can resign from office by writing to the:",
+      "options": { "A": "Chief Minister", "B": "President", "C": "Chief Justice of the High Court", "D": "Speaker of the State Legislative Assembly" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-006",
+      "q": "Consider the following statements regarding the removal of the Governor: 1. The Governor can be removed by the President at any time. 2. The Constitution does not specify any grounds for removal. 3. The Governor's removal is subject to judicial review on limited grounds. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-007",
+      "q": "The Supreme Court in B.P. Singhal vs. Union of India (2010) held that:",
+      "options": { "A": "The Governor can be removed at the pleasure of the President without any reason.", "B": "The Governor cannot be removed arbitrarily; removal must be for valid reasons, and the power is subject to judicial review.", "C": "The Governor has a fixed term of five years.", "D": "The Governor can be removed only by impeachment." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-008",
+      "q": "Which of the following statements about the Governor's executive powers is correct?",
+      "options": { "A": "The Governor appoints the Chief Minister and other ministers on the advice of the Prime Minister.", "B": "The Governor appoints the Advocate General of the State and holds office during the pleasure of the Governor.", "C": "The Governor can declare war.", "D": "The Governor is the commander-in-chief of the state armed forces." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-009",
+      "q": "The Governor is the ex-officio Chancellor of:",
+      "options": { "A": "All central universities in the state", "B": "State universities as provided by the respective Acts", "C": "Only Banaras Hindu University", "D": "Delhi University" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-010",
+      "q": "The Governor can issue ordinances under which Article?",
+      "options": { "A": "Article 123", "B": "Article 213", "C": "Article 200", "D": "Article 201" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-011",
+      "q": "Consider the following statements regarding the ordinance-making power of the Governor: 1. He can promulgate ordinances only when the State Legislature is not in session. 2. He can promulgate an ordinance only on subjects in the State List and Concurrent List. 3. His ordinance-making power is co-extensive with the legislative power of the State Legislature. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-012",
+      "q": "The Governor cannot promulgate an ordinance without prior instructions from the President if:",
+      "options": { "A": "The ordinance contains provisions which would require the President's previous sanction under the Constitution for introducing a similar bill in the State Legislature.", "B": "The ordinance relates to a money bill.", "C": "The ordinance relates to any subject in the State List.", "D": "The ordinance is promulgated during a National Emergency." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gov-final-013",
+      "q": "Which of the following bills can be reserved by the Governor for the consideration of the President?",
+      "options": { "A": "Any bill passed by the State Legislature", "B": "Only money bills", "C": "Only constitutional amendment bills", "D": "Only bills relating to the State List" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-014",
+      "q": "Consider the following statements: 1. The Governor must reserve for the consideration of the President any bill that, in his opinion, would derogate from the powers of the High Court. 2. The Governor has discretion in reserving bills for the President's consideration. 3. Once a bill is reserved by the Governor, the President may give or withhold his assent, or return the bill for reconsideration. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-015",
+      "q": "The Governor has the power to grant pardons, reprieves, respites, or remissions of punishment under:",
+      "options": { "A": "Article 72", "B": "Article 161", "C": "Article 213", "D": "Article 200" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-016",
+      "q": "Which of the following statements about the Governor's pardoning power is correct?",
+      "options": { "A": "The Governor can grant pardon in cases of court-martial.", "B": "The Governor can grant pardon in cases involving death sentences only with the concurrence of the President.", "C": "The Governor's power to grant pardon is co-extensive with that of the President.", "D": "The Governor cannot suspend a sentence." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-017",
+      "q": "The Governor appoints the Chief Minister. In doing so, he normally follows the convention of inviting the leader of the party or coalition commanding a majority in the:",
+      "options": { "A": "Legislative Council", "B": "Legislative Assembly", "C": "Rajya Sabha", "D": "Lok Sabha" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-018",
+      "q": "Consider the following statements regarding the Governor's discretion: 1. The Governor can act in his discretion in certain matters specified in the Constitution. 2. The discretion is exercised without the aid and advice of the Council of Ministers. 3. The Constitution provides an exhaustive list of discretionary powers. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-019",
+      "q": "Which of the following is an example of the Governor's discretionary power?",
+      "options": { "A": "Appointing the Chief Minister when no party has a clear majority", "B": "Signing all bills passed by the State Legislature", "C": "Appointing ministers on the advice of the Chief Minister", "D": "Summoning the State Legislature" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-020",
+      "q": "The Governor nominates one member to the State Legislative Assembly from the Anglo-Indian community. This provision was:",
+      "options": { "A": "Retained indefinitely", "B": "Abolished by the 104th Amendment, 2020", "C": "Extended till 2030", "D": "Never existed" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-021",
+      "q": "The Governor can nominate how many members to the State Legislative Council from persons having special knowledge or practical experience in literature, science, art, cooperative movement, and social service?",
+      "options": { "A": "One-sixth of the total members", "B": "One-third of the total members", "C": "12 members", "D": "Two members" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-022",
+      "q": "The Governor can dissolve the State Legislative Assembly on the advice of the:",
+      "options": { "A": "President", "B": "Chief Minister", "C": "Prime Minister", "D": "Council of Ministers" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-023",
+      "q": "Consider the following statements regarding the Governor's role in the state budget: 1. The annual financial statement (budget) is laid before the State Legislature on the authority of the Governor. 2. Money bills can be introduced only with the Governor's prior recommendation. 3. The Governor can authorise advances from the Contingency Fund of the State. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-024",
+      "q": "The Governor can reserve a money bill for the consideration of the President. This is:",
+      "options": { "A": "Mandatory for all money bills", "B": "Not permissible; money bills cannot be reserved", "C": "Permissible under Article 200, but the President must give or withhold assent", "D": "Only possible with the consent of the Speaker" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-025",
+      "q": "The Governor can make a report to the President regarding the failure of constitutional machinery in the state, leading to the imposition of President's Rule under:",
+      "options": { "A": "Article 352", "B": "Article 356", "C": "Article 360", "D": "Article 365" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-026",
+      "q": "Which Article of the Constitution provides that the Governor shall be assisted by a Council of Ministers headed by the Chief Minister?",
+      "options": { "A": "Article 163", "B": "Article 164", "C": "Article 165", "D": "Article 166" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-027",
+      "q": "Consider the following statements: 1. The Governor can seek information from the Chief Minister regarding the administration of the affairs of the State. 2. The Governor can refer any matter on which a decision has been taken by a minister but not considered by the Council of Ministers for its consideration. 3. The Governor's power to seek information is absolute and cannot be limited by the Council of Ministers. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-028",
+      "q": "The Governor can summon, prorogue, and dissolve the State Legislative Assembly. This power is exercised:",
+      "options": { "A": "At his discretion", "B": "On the aid and advice of the Chief Minister and the Council of Ministers", "C": "On the direction of the President", "D": "On the recommendation of the Speaker" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-029",
+      "q": "The Governor addresses the State Legislature at the commencement of the first session of each year. This address outlines:",
+      "options": { "A": "The Governor's personal views", "B": "The policy and legislative agenda of the state government", "C": "The President's directives", "D": "The judiciary's recommendations" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-030",
+      "q": "The Governor of a State is the ex-officio Chairman of which of the following?",
+      "options": { "A": "State Planning Board", "B": "None; the Governor is not the Chairman of any statutory body, but may be the Chancellor of universities and head of the State Red Cross Society, etc., by convention or statute.", "C": "State Finance Commission", "D": "State Election Commission" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gov-final-031",
+      "q": "The Governor can be appointed for two or more states. This is provided under:",
+      "options": { "A": "Article 153", "B": "Article 154", "C": "Article 155", "D": "Article 156" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-032",
+      "q": "Which of the following statements about the Governor's legislative powers is correct?",
+      "options": { "A": "The Governor can promulgate ordinances only on subjects in the State List.", "B": "The Governor can withhold assent to a bill, return it for reconsideration, or reserve it for the President's consideration.", "C": "The Governor cannot return a money bill for reconsideration.", "D": "Both B and C." },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-033",
+      "q": "The Governor reserves a bill for the consideration of the President under Article 200. The President may:",
+      "options": { "A": "Give or withhold his assent, or return the bill for reconsideration (except a money bill)", "B": "Only give assent", "C": "Only withhold assent", "D": "Amend the bill and then give assent" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-034",
+      "q": "The Governor's power to grant pardon under Article 161 is subject to:",
+      "options": { "A": "The advice of the Union Government", "B": "The advice of the State Council of Ministers", "C": "The approval of the President", "D": "The approval of the Supreme Court" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-035",
+      "q": "Consider the following statements regarding the Governor's role in the appointment of the Chief Minister: 1. The Governor has discretion when no single party commands a clear majority. 2. The Governor must invite the leader of the single largest party to form the government in all circumstances. 3. The Governor's discretion in appointing the Chief Minister is subject to judicial review on limited grounds. Which of the above is/are correct?",
+      "options": { "A": "1 and 3 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-036",
+      "q": "The Governor can recommend the imposition of President's Rule in the State under Article 356. This power is exercised:",
+      "options": { "A": "At his own discretion", "B": "On the aid and advice of the Council of Ministers, or in his discretion if the situation so demands", "C": "Only with the prior approval of the President", "D": "Only on the direction of the Prime Minister" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gov-final-037",
+      "q": "The Governor of a State has the power to make rules for the more convenient transaction of the business of the State Government under:",
+      "options": { "A": "Article 166", "B": "Article 167", "C": "Article 168", "D": "Article 169" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gov-final-038",
+      "q": "Which of the following statements about the Governor's oath is correct?",
+      "options": { "A": "The Governor takes an oath to preserve, protect, and defend the Constitution and the law.", "B": "The oath is administered by the President.", "C": "The Governor takes an oath to faithfully discharge the functions of the President.", "D": "The Governor does not take any oath." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-039",
+      "q": "The Governor's oath is administered by:",
+      "options": { "A": "The President", "B": "The Chief Justice of India", "C": "The Chief Justice of the High Court of the concerned state, or in his absence the senior‑most judge of that High Court", "D": "The Prime Minister" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-040",
+      "q": "The Governor can direct that any particular act of the State Legislature or any other authority does not apply to a Scheduled Area, or applies with modifications. This power is derived from:",
+      "options": { "A": "Fifth Schedule", "B": "Sixth Schedule", "C": "Article 371", "D": "Article 356" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-041",
+      "q": "Which of the following statements about the Governor's discretionary powers is NOT correct?",
+      "options": { "A": "The Governor can exercise discretion in matters where the Constitution expressly provides.", "B": "The Governor's discretion is always exercised on the aid and advice of the Council of Ministers.", "C": "The Governor can act in his discretion when he is required to exercise his own judgment, such as in appointing a Chief Minister in a hung assembly.", "D": "The validity of anything done by the Governor in his discretion cannot be called into question on the ground that he ought not to have acted in his discretion." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-042",
+      "q": "Consider the following statements regarding the Governor's power to summon the State Legislature: 1. The Governor can summon each House of the State Legislature at such time and place as he thinks fit. 2. Six months must not intervene between the last sitting of one session and the first sitting of the next session. 3. The Governor can dissolve the Legislative Assembly but not the Legislative Council. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-043",
+      "q": "The Governor can grant pardons, reprieves, respites, or remissions in cases involving:",
+      "options": { "A": "Offences against laws made by Parliament", "B": "Offences against laws relating to matters to which the executive power of the State extends", "C": "Court-martial cases", "D": "All offences" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-044",
+      "q": "The Governor's power to grant pardon in death sentence cases:",
+      "options": { "A": "Is absolute and cannot be questioned.", "B": "Is subject to the concurrence of the President.", "C": "Can be exercised without any restriction.", "D": "Is exercised on the advice of the Chief Minister." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-045",
+      "q": "The Governor can be removed from office by the President. The Supreme Court in B.P. Singhal held that the removal must be:",
+      "options": { "A": "For reasons that are justifiable and not arbitrary, and it is subject to judicial review", "B": "At the complete discretion of the President", "C": "Only on the ground of proved misbehaviour", "D": "With the consent of the State Legislature" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-046",
+      "q": "Which of the following is a correct statement about the Governor's role in the State Finance Commission?",
+      "options": { "A": "The Governor constitutes the State Finance Commission every five years.", "B": "The Governor is the Chairman of the State Finance Commission.", "C": "The Governor can reject the recommendations of the State Finance Commission.", "D": "The Governor has no role in the State Finance Commission." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-047",
+      "q": "Consider the following statements: 1. The Governor can withhold assent to a bill passed by the State Legislature. 2. The Governor can return a non-money bill for reconsideration. 3. If the bill is passed again by the State Legislature, the Governor must give his assent. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-048",
+      "q": "The Governor of a State is also the Administrator of a Union Territory in some cases. For example, the Governor of Punjab is the Administrator of:",
+      "options": { "A": "Chandigarh", "B": "Delhi", "C": "Puducherry", "D": "Lakshadweep" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-049",
+      "q": "Which of the following Articles provides that the Governor may require the Council of Ministers to reconsider its advice?",
+      "options": { "A": "Article 163(2)", "B": "Article 164(1)", "C": "Article 165", "D": "Article 167" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "gov-final-050",
+      "q": "The Governor can be appointed for more than one state. The salary and allowances of the Governor in such case are:",
+      "options": { "A": "Determined by Parliament and borne by the state in which he is working at a given time", "B": "Shared equally by all the states concerned as the President may determine", "C": "Paid by the Union Government", "D": "Paid by the first state to which he was appointed" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-051",
+      "q": "The Governor of a State is not responsible to:",
+      "options": { "A": "The President", "B": "The State Legislature", "C": "The Prime Minister", "D": "Both B and C" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-052",
+      "q": "The Constitution provides that the Governor shall not hold any other office of profit. This means the Governor cannot:",
+      "options": { "A": "Be a member of Parliament or the State Legislature", "B": "Hold any other constitutional office", "C": "Be the Chancellor of a university", "D": "Both A and B" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-053",
+      "q": "Consider the following statements about the Governor: 1. He is the chief executive head of the State. 2. He is a mere figurehead like the President. 3. He has some discretionary powers. Which of the above is/are correct?",
+      "options": { "A": "1 and 3 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "gov-final-054",
+      "q": "The Governor's power to nominate members to the Legislative Council from the Anglo-Indian community was:",
+      "options": { "A": "Abolished by the 104th Amendment", "B": "Retained", "C": "Modified", "D": "Never existed" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "gov-final-055",
+      "q": "Which of the following is a correct statement regarding the Governor's assent to bills?",
+      "options": { "A": "The Governor can give assent, withhold assent, or reserve the bill for the consideration of the President.", "B": "The Governor must give assent to all bills passed by the State Legislature.", "C": "The Governor can amend the bill before giving assent.", "D": "The Governor's assent is not required for money bills." },
+      "answer": "A",
+      "difficulty": "easy"
+    }
+  ]
+}

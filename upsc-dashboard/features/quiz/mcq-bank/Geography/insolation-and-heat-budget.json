@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Insolation and Heat Budget",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-insolation-and-heat-budget-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

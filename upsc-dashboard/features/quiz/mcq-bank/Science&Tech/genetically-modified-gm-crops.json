@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Genetically Modified (GM) Crops",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-genetically-modified-gm-crops-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

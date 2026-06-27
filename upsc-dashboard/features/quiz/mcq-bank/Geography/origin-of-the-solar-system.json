@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Origin of the Solar System",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-origin-of-the-solar-system-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

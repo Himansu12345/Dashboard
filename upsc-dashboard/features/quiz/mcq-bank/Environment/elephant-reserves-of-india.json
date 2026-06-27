@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Elephant Reserves of India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-elephant-reserves-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

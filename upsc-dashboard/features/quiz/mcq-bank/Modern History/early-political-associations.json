@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Early Political Associations",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-early-political-associations-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

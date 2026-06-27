@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Himalayan Mountain Ranges",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-himalayan-mountain-ranges-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

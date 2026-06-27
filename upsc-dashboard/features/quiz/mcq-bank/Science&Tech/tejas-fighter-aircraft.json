@@ -1,0 +1,18 @@
+{
+    "subject":  "Science\u0026Tech",
+    "topic":  "Tejas Fighter Aircraft",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "science-and-tech-tejas-fighter-aircraft-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

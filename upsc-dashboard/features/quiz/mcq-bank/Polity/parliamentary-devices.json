@@ -1,0 +1,607 @@
+{
+  "subject": "Polity",
+  "topic": "Parliamentary Devices – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "parl-dev-001",
+      "q": "Consider the following statements regarding the Question Hour: 1. It is mentioned in the Rules of Procedure of the Houses. 2. It is usually the first hour of every parliamentary sitting. 3. Starred questions require oral answers, and supplementary questions can follow. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-002",
+      "q": "Regarding Unstarred Questions in the Parliament, consider the following: 1. They require a written answer. 2. Supplementary questions can be asked on the floor of the House. 3. They are distinguished by an asterisk (*) mark. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "None of the above"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-003",
+      "q": "A Short Notice Question is one that is asked by giving a notice of less than:",
+      "options": {
+        "A": "7 days",
+        "B": "10 days",
+        "C": "14 days",
+        "D": "21 days"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-004",
+      "q": "Zero Hour is an Indian innovation in the parliamentary procedure. Consider the following: 1. It is mentioned in the Rules of Procedure. 2. It starts immediately after the Question Hour. 3. It allows members to raise matters without any prior notice. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-005",
+      "q": "The Adjournment Motion is introduced in the Parliament to draw the attention of the House to a definite matter of urgent public importance. Consider the following: 1. It needs the support of 50 members to be admitted. 2. It involves an element of censure against the government. 3. It can be moved in both Houses of Parliament. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-006",
+      "q": "Which of the following motions does NOT require the support of a specific number of members for its admission in the Lok Sabha?",
+      "options": {
+        "A": "No-Confidence Motion",
+        "B": "Adjournment Motion",
+        "C": "Censure Motion",
+        "D": "All the above require a minimum number of members"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-007",
+      "q": "Consider the differences between a No-Confidence Motion and a Censure Motion: 1. A No-Confidence Motion needs to specify the reasons for its adoption, while a Censure Motion does not. 2. A No-Confidence Motion can be moved against the entire Council of Ministers, while a Censure Motion can be moved against an individual minister or group of ministers. 3. If a No-Confidence Motion is passed, the Council of Ministers must resign. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-008",
+      "q": "What is the primary purpose of a 'Motion of Thanks'?",
+      "options": {
+        "A": "To thank the Speaker for conducting the session.",
+        "B": "To discuss the President's address to the joint sitting of Parliament at the commencement of the first session of each year.",
+        "C": "To express gratitude to the Prime Minister for the government's achievements.",
+        "D": "To ratify the passing of a budget."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-009",
+      "q": "If the Motion of Thanks is defeated in the Lok Sabha, it leads to:",
+      "options": {
+        "A": "The resignation of the government.",
+        "B": "The prorogation of the House.",
+        "C": "No specific consequence.",
+        "D": "A joint sitting of Parliament."
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-010",
+      "q": "Which closure motion implies that the debate on a bill is stopped and the matter is put to vote immediately?",
+      "options": {
+        "A": "Simple Closure",
+        "B": "Closure by Compartment",
+        "C": "Kangaroo Closure",
+        "D": "Guillotine"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-011",
+      "q": "In which type of closure does the Speaker select only the important clauses of a bill for debate and voting, while the remaining clauses are put to vote together?",
+      "options": {
+        "A": "Simple Closure",
+        "B": "Closure by Compartment",
+        "C": "Kangaroo Closure",
+        "D": "Guillotine"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-012",
+      "q": "A 'Calling Attention Motion' is introduced in the Parliament by a member to call the attention of a Minister to a matter of urgent public importance. Consider the following: 1. It is an Indian innovation. 2. It is mentioned in the Rules of Procedure. 3. It can be moved in the Rajya Sabha. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-013",
+      "q": "Which device is used when a member feels that the rules of procedure of the House are being breached?",
+      "options": {
+        "A": "Point of Order",
+        "B": "Half-an-hour Discussion",
+        "C": "Short Duration Discussion",
+        "D": "Adjournment Motion"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-014",
+      "q": "Consider the following regarding a 'Point of Order': 1. It can be raised by any member. 2. It must relate to the interpretation or enforcement of the rules of the House. 3. Debate is allowed on a Point of Order. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-015",
+      "q": "A 'Half-an-hour discussion' is meant for discussing a matter of sufficient public importance which has been the subject of a recent question. The notice for such a discussion must be given:",
+      "options": {
+        "A": "Three days in advance",
+        "B": "At least 5 days in advance",
+        "C": "At least 7 days in advance",
+        "D": "Immediately before the sitting"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-016",
+      "q": "Which motion is moved to discuss a matter of urgent public importance but does NOT involve a formal vote at the end?",
+      "options": {
+        "A": "Short Duration Discussion",
+        "B": "No-Confidence Motion",
+        "C": "Adjournment Motion",
+        "D": "Censure Motion"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-017",
+      "q": "What is the primary difference between a 'Special Mention' in the Rajya Sabha and a 'Matter of Urgent Public Importance' raised in the Lok Sabha?",
+      "options": {
+        "A": "Special Mention is only for the Rajya Sabha and not mentioned in the Rules of Procedure.",
+        "B": "There is no functional difference; they are the same.",
+        "C": "Special Mention is allowed in the Rajya Sabha to raise matters that are not points of order or questions, while Lok Sabha has specific devices like Zero Hour.",
+        "D": "Special Mention requires the approval of the President."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-018",
+      "q": "Consider the following statements regarding the 'Privilege Motion': 1. It is moved by a member when he feels that a minister has committed a breach of privilege of the House or one or more of its members. 2. Its purpose is to censure the concerned minister. 3. It can be moved in both Houses of Parliament. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-019",
+      "q": "The term 'Presidential Address' refers to:",
+      "options": {
+        "A": "The speech given by the President to the nation on Republic Day.",
+        "B": "The speech given by the President at the first session of each year and after every general election, which outlines the government's policy.",
+        "C": "The President's address to the UN General Assembly.",
+        "D": "The President's address during a Joint Sitting called for a deadlocked bill."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-020",
+      "q": "Consider the following about the 'Committee on Subordinate Legislation': 1. It is a parliamentary device to control delegated legislation. 2. It exists in both Houses. 3. It has the power to strike down executive regulations without parliamentary approval. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-021",
+      "q": "The 'Guillotine' is applied to:",
+      "options": {
+        "A": "Pending bills in a House.",
+        "B": "Demands for grants that have not been discussed in the Lok Sabha on the last day allocated for the budget.",
+        "C": "The removal of the Speaker.",
+        "D": "The suspension of a member."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-022",
+      "q": "Which of the following is NOT a form of 'Closure Motion'?",
+      "options": {
+        "A": "Simple Closure",
+        "B": "Closure by Compartment",
+        "C": "Kangaroo Closure",
+        "D": "Censure Closure"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-023",
+      "q": "Consider the statements regarding 'Prorogation': 1. It is done by the President. 2. It terminates the sitting of a House. 3. It terminates a session of the House. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-024",
+      "q": "Adjournment sine die means:",
+      "options": {
+        "A": "Terminating a session of Parliament.",
+        "B": "Terminating a sitting of Parliament for an indefinite period.",
+        "C": "Dissolving the Lok Sabha.",
+        "D": "Suspending the work of a committee."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-025",
+      "q": "Consider the following statements regarding the 'Lame Duck Session': 1. It is the last session of the existing Lok Sabha before a new Lok Sabha is constituted. 2. Members who have not been re-elected to the new Lok Sabha are called 'lame ducks'. 3. This session has the same legislative powers as any other session. Which of the above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-026",
+      "q": "Who decides the admissibility of an Adjournment Motion?",
+      "options": {
+        "A": "The President",
+        "B": "The Speaker",
+        "C": "The Leader of the House",
+        "D": "The Secretary-General"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-027",
+      "q": "A member can raise a 'Point of Order' only when:",
+      "options": {
+        "A": "The House is in session.",
+        "B": "The question hour is in progress.",
+        "C": "The Speaker is not presiding.",
+        "D": "There is a debate on a money bill."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-028",
+      "q": "Consider the statements about the 'Budgetary Devices' in Parliament: 1. A 'Cut Motion' is a device to reduce the amount of a demand for grant. 2. A 'Policy Cut' motion seeks to reduce the demand to zero. 3. An 'Economy Cut' motion seeks to reduce the demand by a specific amount to effect economy. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-029",
+      "q": "Which motion is moved to reduce the demand for grant to Re. 1?",
+      "options": {
+        "A": "Policy Cut Motion",
+        "B": "Economy Cut Motion",
+        "C": "Token Cut Motion",
+        "D": "Guillotine Motion"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-030",
+      "q": "Regarding the 'Token Cut Motion', consider: 1. It seeks a reduction of Rs. 100. 2. Its purpose is to ventilate a specific grievance. 3. It is rarely passed in practice. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-031",
+      "q": "The 'Vote on Account' is passed to:",
+      "options": {
+        "A": "Grant advance money to the executive.",
+        "B": "Approve the budget as a whole.",
+        "C": "Dismiss the government.",
+        "D": "Declare a financial emergency."
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-032",
+      "q": "Consider the statements about 'Summoning of Parliament': 1. The President summons each House of Parliament at such time and place as he thinks fit. 2. The maximum gap between two sessions should not be more than six months. 3. The President can summon the House more than twice a year. Which of the above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-033",
+      "q": "A 'Joint Sitting' of Parliament is provided for:",
+      "options": {
+        "A": "Ordinary bills and financial bills.",
+        "B": "Constitution Amendment Bills.",
+        "C": "Money bills.",
+        "D": "All of the above."
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-034",
+      "q": "Who presides over a joint sitting of Parliament?",
+      "options": {
+        "A": "The President.",
+        "B": "The Speaker of Lok Sabha.",
+        "C": "The Chairman of Rajya Sabha.",
+        "D": "The Deputy Chairman of Rajya Sabha."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-035",
+      "q": "Consider the statements about the Speaker's role in a Joint Sitting: 1. The Speaker presides. 2. If the Speaker is absent, the Deputy Speaker presides. 3. If both are absent, the Chairman of the Rajya Sabha presides. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-036",
+      "q": "A member can be suspended from the House by:",
+      "options": {
+        "A": "The Speaker/Chairman.",
+        "B": "The President.",
+        "C": "The Prime Minister.",
+        "D": "The Chief Justice of India."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-037",
+      "q": "The 'Whip' is a device to:",
+      "options": {
+        "A": "Control the opposition.",
+        "B": "Ensure party discipline and voting as per party line.",
+        "C": "Conduct the business of the House.",
+        "D": "Draft bills."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-038",
+      "q": "Which of the following is NOT a parliamentary device used by the opposition to check the executive?",
+      "options": {
+        "A": "No-Confidence Motion",
+        "B": "Censure Motion",
+        "C": "Motion of Thanks",
+        "D": "Calling Attention Motion"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-039",
+      "q": "Consider the statements regarding 'Short Duration Discussion': 1. It is also known as a two-hour discussion. 2. It allows members to raise matters of urgent public importance. 3. It is held in both Houses. Which of the above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-040",
+      "q": "Which of the following is the 'process of termination' of a sitting of the House?",
+      "options": {
+        "A": "Adjournment",
+        "B": "Prorogation",
+        "C": "Dissolution",
+        "D": "All the above"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-dev-041",
+      "q": "Adjournment versus Prorogation: 1. Adjournment terminates a sitting, Prorogation terminates a session. 2. Adjournment is done by the Presiding Officer, Prorogation by the President. 3. Prorogation does not affect the bills pending in the House. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-042",
+      "q": "Dissolution of Lok Sabha vs. Rajya Sabha: 1. Lok Sabha is subject to dissolution, Rajya Sabha is not. 2. Dissolution of Lok Sabha renders all pending bills to lapse. 3. Rajya Sabha is a permanent body. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-043",
+      "q": "Which of the following is NOT correct about the No-Confidence Motion?",
+      "options": {
+        "A": "It can be moved only in the Lok Sabha.",
+        "B": "It needs the support of 50 members for admission.",
+        "C": "It needs to state the reasons for its adoption.",
+        "D": "If passed, the government must resign."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-044",
+      "q": "Consider the statements regarding 'Question Hour' vs 'Zero Hour': 1. Question Hour is the first hour, Zero Hour follows it. 2. Question Hour allows for supplementary questions; Zero Hour does not. 3. Both are mentioned in the Rules of Procedure. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-045",
+      "q": "The Speaker of the Lok Sabha is the final authority to decide on:",
+      "options": {
+        "A": "The adjournment of the House.",
+        "B": "The admissibility of an Adjournment Motion.",
+        "C": "The interpretation of the Rules of Procedure.",
+        "D": "All the above."
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-046",
+      "q": "Consider the statements regarding 'Parliamentary Privileges': 1. They are special rights, immunities, and exemptions enjoyed by the two Houses and their members. 2. They are mentioned in Article 105. 3. They are codified by a comprehensive law of Parliament. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-047",
+      "q": "Which motion is passed to discuss a bill that has been delayed by the House?",
+      "options": {
+        "A": "Closure Motion",
+        "B": "No-Confidence Motion",
+        "C": "Dilatory Motion",
+        "D": "Censure Motion"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-dev-048",
+      "q": "The 'Motion of Thanks' is voted upon:",
+      "options": {
+        "A": "In both Houses separately.",
+        "B": "Only in the Lok Sabha.",
+        "C": "Only in the Rajya Sabha.",
+        "D": "In a Joint Sitting."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-049",
+      "q": "The President's address to the Parliament is prepared by:",
+      "options": {
+        "A": "The President's office.",
+        "B": "The Cabinet.",
+        "C": "The Speaker.",
+        "D": "The Secretary-General."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-dev-050",
+      "q": "What happens if a No-Confidence Motion is passed in the Lok Sabha?",
+      "options": {
+        "A": "The Prime Minister must resign.",
+        "B": "The entire Council of Ministers must resign.",
+        "C": "The President can dissolve the Lok Sabha.",
+        "D": "All the above are potential outcomes."
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Seasons of India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-seasons-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

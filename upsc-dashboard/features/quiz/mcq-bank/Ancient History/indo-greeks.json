@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Indo-Greeks",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-indo-greeks-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

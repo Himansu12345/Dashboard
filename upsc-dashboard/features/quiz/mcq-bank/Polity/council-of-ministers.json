@@ -1,0 +1,112 @@
+{
+  "subject": "Polity",
+  "topic": "Council of Ministers – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "com-final-001",
+      "q": "Consider the following statements regarding the 'Legal Responsibility' of a Minister in India vs. Britain: 1. Unlike Britain, the Indian Constitution does not provide for a system of legal responsibility of a minister. 2. In India, an order of the President for a public act must be countersigned by a minister to be legally valid. 3. Indian courts are constitutionally barred from inquiring into the nature of advice tendered by ministers to the President. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "com-final-002",
+      "q": "Consider the following statements regarding the size of the Council of Ministers as established by the 91st Constitutional Amendment Act, 2003: 1. The total number of ministers, including the Prime Minister, cannot exceed 15% of the total strength of Parliament (both houses combined). 2. For state governments, the total number of ministers, including the Chief Minister, cannot exceed 15% of the total strength of the State Legislative Assembly. 3. The Constitution explicitly prescribes a minimum strength of 12 ministers for both the Union Council of Ministers and the State Council of Ministers. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "com-final-003",
+      "q": "Consider the following statements regarding the 'Individual Responsibility' of ministers: 1. The principle of individual responsibility is enshrined in Article 75, which states that ministers hold office during the pleasure of the Prime Minister. 2. A minister can be removed by the President on the advice of the Prime Minister even if the Council of Ministers enjoys the confidence of the Lok Sabha. 3. If a minister disagrees with a Cabinet decision, they must either accept it publicly or resign from the Council of Ministers. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-004",
+      "q": "Based on the landmark 1971 Supreme Court judgment regarding the 'Caretaker Government' paradox, consider the following statements: 1. Article 74 is mandatory, meaning the President cannot exercise executive power without the aid and advice of the Council of Ministers under any circumstances. 2. When the Lok Sabha is dissolved, the Council of Ministers automatically ceases to exist, and the President assumes direct executive control. 3. Any advice tendered by a caretaker government to the President post-dissolution of the Lok Sabha is legally non-binding. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "com-final-005",
+      "q": "Consider the following statements regarding the constitutional position of the 'Cabinet': 1. The word 'Cabinet' was present in the original text of the Constitution under Article 74. 2. The term 'Cabinet' was inserted into the Constitution by the 44th Constitutional Amendment Act of 1978. 3. The Constitution currently defines the exact powers, functions, and collective decision-making procedures of the Cabinet in detail. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-006",
+      "q": "Consider the following statements regarding the mechanics of Collective Responsibility: 1. The Council of Ministers is collectively responsible to the Parliament of India as a whole. 2. If a no-confidence motion is passed against a single Cabinet minister in the Lok Sabha, the entire Council of Ministers must resign. 3. When the Prime Minister resigns or dies, the Council of Ministers automatically dissolves. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-007",
+      "q": "Consider the following statements regarding the appointment and rights of Ministers: 1. A minister has the right to speak and take part in the proceedings of both Houses of Parliament. 2. A minister has the constitutional right to vote in both Houses of Parliament regardless of which House they are a member of. 3. A person who is not a member of either House can be appointed as a minister, but only for a maximum of six consecutive months. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "com-final-008",
+      "q": "Consider the following statements regarding the disqualification of a minister under the 91st Constitutional Amendment Act, 2003: 1. A member of either House of Parliament disqualified on the ground of defection (Tenth Schedule) is automatically disqualified from being appointed as a minister. 2. This disqualification remains active until they win a fresh election or their remaining legislative term expires, whichever is earlier. 3. This specific anti-defection disqualification rule applies strictly to the Union Council of Ministers and not to the State Councils. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-009",
+      "q": "Consider the following statements regarding the categories of Ministers: 1. The Constitution explicitly classifies the Council of Ministers into three categories: Cabinet Ministers, Ministers of State, and Deputy Ministers. 2. Ministers of State holding independent charge can attend Cabinet meetings automatically without a special invitation. 3. The term 'Council of Ministers' is a constitutional body, whereas the 'Cabinet' is a smaller core body whose existence is primarily based on parliamentary convention. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "com-final-010",
+      "q": "Consider the following statements regarding Article 74 (Advice of Ministers): 1. The President may require the Council of Ministers to reconsider its advice, either generally or otherwise. 2. The President is not constitutionally bound by the advice tendered by the Council after such reconsideration. 3. The advice tendered by the Council of Ministers to the President must be backed by a written resolution signed by the Prime Minister. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-011",
+      "q": "Consider the following statements regarding the transaction of Government business (Article 77): 1. All executive action of the Government of India shall be expressed to be taken in the name of the Prime Minister. 2. The President makes rules for the more convenient transaction of the business of the Government of India. 3. The President allocates portfolios among the ministers based exclusively on his own constitutional discretion. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "com-final-012",
+      "q": "Consider the following statements comparing the 'Council of Ministers' and the 'Cabinet': 1. The Council of Ministers comprises 60 to 70 ministers, whereas the Cabinet is a smaller body consisting of 15 to 20 top-level ministers. 2. The Constitution formally vests the executive power of the Union in the Cabinet, not the Council of Ministers. 3. The Cabinet meets as a body frequently to shape government policies, whereas the entire Council of Ministers rarely meets as a whole body. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-013",
+      "q": "Consider the following statements regarding salaries, oaths, and appointments: 1. The oath of office and secrecy to a Union Minister is administered directly by the Prime Minister. 2. The salaries and allowances of ministers are determined by the President on the recommendation of the Finance Commission. 3. The President is bound by the Prime Minister's advice regarding the appointment of a specific individual as a minister. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "com-final-014",
+      "q": "Consider the following statements regarding informal cabinet structures: 1. A 'Shadow Cabinet' is an informal institution formed by the ruling party to shadow the opposition's policies. 2. An 'Inner Cabinet' or 'Kitchen Cabinet' consists purely of cabinet ministers and constitutionally prohibits the inclusion of outsiders like friends or family members. 3. The phenomenon of a 'Kitchen Cabinet' is unique to India and does not exist in the United States or Britain. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "com-final-015",
+      "q": "The concept of 'Collective Responsibility' implies that the Council of Ministers is jointly responsible to the Lok Sabha. In this context, consider the following: 1. It means that all ministers own joint responsibility to the Lok Sabha for all their acts of omission and commission. 2. When the Lok Sabha passes a no-confidence motion against the Council of Ministers, all ministers must resign, including those ministers who are from the Rajya Sabha. 3. The President can dissolve the Lok Sabha on the advice of a Council of Ministers that has lost its majority. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

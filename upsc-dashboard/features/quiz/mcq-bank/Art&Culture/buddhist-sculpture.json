@@ -1,0 +1,18 @@
+{
+    "subject":  "Art\u0026Culture",
+    "topic":  "Buddhist Sculpture",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "art-and-culture-buddhist-sculpture-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

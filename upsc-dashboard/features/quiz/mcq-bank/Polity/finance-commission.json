@@ -1,0 +1,91 @@
+{
+  "subject": "Polity",
+  "topic": "Finance Commission – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "fc-final-001",
+      "q": "Consider the following statements regarding the qualifications of the Chairman and members of the Finance Commission: 1. The Constitution explicitly prescribes that the Chairman of the Commission shall be a person having experience in public affairs. 2. The Constitution empowers Parliament to determine the qualifications requisite for appointment as members of the Commission and the manner in which they shall be selected. 3. Members of the Finance Commission are legally eligible for reappointment after completing their tenure. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fc-final-002",
+      "q": "Consider the following statements regarding the advisory nature of the Finance Commission's recommendations: 1. The recommendations of the Finance Commission are legally binding on the Government of India once accepted by the President. 2. The Constitution does not grant the States a legally enforceable right to receive funds in accordance with the Commission's recommendations. 3. The President is constitutionally bound to lay before each House of Parliament the recommendations of the Commission along with an explanatory memorandum on the action taken. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fc-final-003",
+      "q": "Consider the following statements regarding the Finance Commission’s role in augmenting local body resources: 1. The Central Finance Commission recommends measures to augment the Consolidated Fund of a State to supplement the resources of Panchayats and Municipalities. 2. It is constitutionally bound to make these recommendations exclusively on the basis of the recommendations made by the Finance Commission of the respective State. 3. The Central Finance Commission has the power to unilaterally dictate the exact financial allocations for specific village panchayats. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fc-final-004",
+      "q": "Consider the following statements regarding the criteria used by the 15th Finance Commission for the horizontal devolution of taxes: 1. The commission completely dropped the use of the 1971 Census data for population, relying entirely on the 2011 Census. 2. To reward states that successfully controlled their population growth, it introduced a new criterion called 'Demographic Performance'. 3. 'Income Distance' was assigned the highest weightage among all the criteria used by the commission. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fc-final-005",
+      "q": "Consider the following statements regarding the grants-in-aid recommended by the Finance Commission: 1. The Finance Commission recommends the principles that should govern the grants-in-aid to the states under Article 275. 2. These statutory grants are charged on the Consolidated Fund of India and are given to states that are in need of financial assistance. 3. The Finance Commission is also constitutionally mandated to recommend the allocation of discretionary grants under Article 282. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fc-final-006",
+      "q": "Consider the following statements regarding the tenure and composition of the Finance Commission: 1. The Commission consists of a chairman and four other members appointed directly by the President of India. 2. The members hold office for a fixed constitutional tenure of exactly five years. 3. Under the Finance Commission Act, 1951, a person is disqualified from being a member if they have a financial interest likely to prejudicially affect their functions. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fc-final-007",
+      "q": "Consider the following statements regarding the 'Net Proceeds' of taxes: 1. The 'net proceeds' of any tax to be shared between the Centre and States are ascertained and certified by the Finance Commission. 2. Surcharges levied by the Union government under Article 271 are strictly excluded from the divisible pool of taxes. 3. Any cess levied for specific purposes is automatically included in the divisible pool unless Parliament specifically votes to exclude it. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fc-final-008",
+      "q": "Based on the Finance Commission (Miscellaneous Provisions) Act, 1951, consider the following qualifications for members: 1. One member must be a person who is, or has been, or is qualified to be appointed as a Judge of a High Court. 2. One member must be a person who has special knowledge of the finances and accounts of the Government. 3. The Chairman must be a retired Judge of the Supreme Court of India. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fc-final-009",
+      "q": "Consider the following statements regarding the recently constituted 16th Finance Commission: 1. It was constituted under the chairmanship of Dr. Arvind Panagariya. 2. Its terms of reference mandate it to review the current arrangements for financing Disaster Management initiatives under the Disaster Management Act, 2005. 3. The recommendations of the 16th Finance Commission will cover a period of five years commencing on April 1, 2026. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fc-final-010",
+      "q": "Consider the following statements regarding the Finance Commission's powers and procedures: 1. The Finance Commission is vested with the powers of a civil court under the Code of Civil Procedure in respect of summoning and enforcing the attendance of witnesses. 2. The President of India can refer any other matter to the Finance Commission in the interests of sound finance. 3. The Commission determines its own procedure for conducting business and holds its meetings entirely at its own discretion. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fc-final-011",
+      "q": "Consider the following statements regarding the timing and formation of the Finance Commission: 1. The Constitution mandates that the President constitute a Finance Commission at the expiration of every fifth year or at such earlier time as he considers necessary. 2. The establishment of the Finance Commission requires the prior legislative approval of the Parliament. 3. The very first Finance Commission of India was constituted in 1951 under the chairmanship of K.C. Neogy. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fc-final-012",
+      "q": "Consider the following statements regarding the distribution of revenues during Emergencies: 1. During a National Emergency (Article 352), the President can modify the constitutional distribution of revenues between the Union and the States. 2. Such a Presidential order modifying the revenue distribution ceases to operate at the end of the financial year in which the emergency ceases to operate. 3. The President is constitutionally required to consult the Finance Commission before issuing an order modifying the revenue distribution during a National Emergency. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Lokayuktas",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-lokayuktas-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

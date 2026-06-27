@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Interior of the Earth",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-interior-of-the-earth-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

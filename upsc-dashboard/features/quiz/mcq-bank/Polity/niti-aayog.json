@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "NITI Aayog",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-niti-aayog-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

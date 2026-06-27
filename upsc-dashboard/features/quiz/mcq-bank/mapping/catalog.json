@@ -1,0 +1,4166 @@
+[
+    {
+        "subject":  "Polity",
+        "topic":  "Historical Background of the Constitution",
+        "difficultyTag":  "M",
+        "file":  "Polity/historical-background-of-the-constitution.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Regulating Acts",
+        "difficultyTag":  "H",
+        "file":  "Polity/regulating-acts.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Constituent Assembly",
+        "difficultyTag":  "M",
+        "file":  "Polity/constituent-assembly.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Making of the Constitution",
+        "difficultyTag":  "M",
+        "file":  "Polity/making-of-the-constitution.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Enforcement of the Constitution",
+        "difficultyTag":  "L",
+        "file":  "Polity/enforcement-of-the-constitution.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Salient Features of the Constitution",
+        "difficultyTag":  "H",
+        "file":  "Polity/salient-features-of-the-constitution.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "The Preamble",
+        "difficultyTag":  "H",
+        "file":  "Polity/the-preamble.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Union and its Territory",
+        "difficultyTag":  "M",
+        "file":  "Polity/union-and-its-territory.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Citizenship",
+        "difficultyTag":  "H",
+        "file":  "Polity/citizenship.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Fundamental Rights",
+        "difficultyTag":  "H",
+        "file":  "Polity/fundamental-rights.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Directive Principles of State Policy",
+        "difficultyTag":  "H",
+        "file":  "Polity/directive-principles-of-state-policy.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Fundamental Duties",
+        "difficultyTag":  "M",
+        "file":  "Polity/fundamental-duties.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Amendment of the Constitution",
+        "difficultyTag":  "H",
+        "file":  "Polity/amendment-of-the-constitution.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Basic Structure Doctrine",
+        "difficultyTag":  "H",
+        "file":  "Polity/basic-structure-doctrine.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "President",
+        "difficultyTag":  "H",
+        "file":  "Polity/president.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Vice-President",
+        "difficultyTag":  "M",
+        "file":  "Polity/vice-president.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Prime Minister",
+        "difficultyTag":  "H",
+        "file":  "Polity/prime-minister.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Council of Ministers",
+        "difficultyTag":  "H",
+        "file":  "Polity/council-of-ministers.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Attorney General",
+        "difficultyTag":  "M",
+        "file":  "Polity/attorney-general.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Parliament - Organisation",
+        "difficultyTag":  "H",
+        "file":  "Polity/parliament-organisation.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Parliament - Legislative Procedure",
+        "difficultyTag":  "H",
+        "file":  "Polity/parliament-legislative-procedure.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Parliament - Budget Procedure",
+        "difficultyTag":  "H",
+        "file":  "Polity/parliament-budget-procedure.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Parliamentary Devices",
+        "difficultyTag":  "H",
+        "file":  "Polity/parliamentary-devices.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Parliamentary Committees",
+        "difficultyTag":  "H",
+        "file":  "Polity/parliamentary-committees.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Parliamentary Privileges",
+        "difficultyTag":  "L",
+        "file":  "Polity/parliamentary-privileges.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Governor",
+        "difficultyTag":  "H",
+        "file":  "Polity/governor.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Chief Minister",
+        "difficultyTag":  "M",
+        "file":  "Polity/chief-minister.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "State Council of Ministers",
+        "difficultyTag":  "M",
+        "file":  "Polity/state-council-of-ministers.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Advocate General",
+        "difficultyTag":  "L",
+        "file":  "Polity/advocate-general.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "State Legislature - Organisation",
+        "difficultyTag":  "M",
+        "file":  "Polity/state-legislature-organisation.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "State Legislature - Legislative Procedure",
+        "difficultyTag":  "M",
+        "file":  "Polity/state-legislature-legislative-procedure.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Union Territories",
+        "difficultyTag":  "M",
+        "file":  "Polity/union-territories.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Scheduled and Tribal Areas (Fifth Schedule)",
+        "difficultyTag":  "H",
+        "file":  "Polity/scheduled-and-tribal-areas-fifth-schedule.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Administration of Tribal Areas (Sixth Schedule)",
+        "difficultyTag":  "H",
+        "file":  "Polity/administration-of-tribal-areas-sixth-schedule.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Special Provisions under Article 371",
+        "difficultyTag":  "M",
+        "file":  "Polity/special-provisions-under-article-371.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Jammu \u0026 Kashmir Reorganisation",
+        "difficultyTag":  "H",
+        "file":  "Polity/jammu-and-kashmir-reorganisation.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Supreme Court",
+        "difficultyTag":  "H",
+        "file":  "Polity/supreme-court.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "High Courts",
+        "difficultyTag":  "M",
+        "file":  "Polity/high-courts.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Subordinate Courts",
+        "difficultyTag":  "L",
+        "file":  "Polity/subordinate-courts.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Tribunals",
+        "difficultyTag":  "H",
+        "file":  "Polity/tribunals.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Centre-State Legislative Relations",
+        "difficultyTag":  "H",
+        "file":  "Polity/centre-state-legislative-relations.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Centre-State Administrative Relations",
+        "difficultyTag":  "M",
+        "file":  "Polity/centre-state-administrative-relations.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Centre-State Financial Relations",
+        "difficultyTag":  "M",
+        "file":  "Polity/centre-state-financial-relations.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Inter-State Relations",
+        "difficultyTag":  "M",
+        "file":  "Polity/inter-state-relations.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Inter-State Water Disputes",
+        "difficultyTag":  "H",
+        "file":  "Polity/inter-state-water-disputes.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "National Emergency",
+        "difficultyTag":  "H",
+        "file":  "Polity/national-emergency.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "President\u0027s Rule (State Emergency)",
+        "difficultyTag":  "H",
+        "file":  "Polity/presidents-rule-state-emergency.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Financial Emergency",
+        "difficultyTag":  "L",
+        "file":  "Polity/financial-emergency.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Election Commission",
+        "difficultyTag":  "H",
+        "file":  "Polity/election-commission.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Union Public Service Commission (UPSC)",
+        "difficultyTag":  "M",
+        "file":  "Polity/union-public-service-commission-upsc.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "State Public Service Commission (SPSC)",
+        "difficultyTag":  "M",
+        "file":  "Polity/state-public-service-commission-spsc.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Finance Commission",
+        "difficultyTag":  "H",
+        "file":  "Polity/finance-commission.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Comptroller and Auditor General (CAG)",
+        "difficultyTag":  "H",
+        "file":  "Polity/comptroller-and-auditor-general-cag.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "National Commission for Scheduled Castes",
+        "difficultyTag":  "M",
+        "file":  "Polity/national-commission-for-scheduled-castes.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "National Commission for Scheduled Tribes",
+        "difficultyTag":  "M",
+        "file":  "Polity/national-commission-for-scheduled-tribes.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "National Commission for Backward Classes",
+        "difficultyTag":  "M",
+        "file":  "Polity/national-commission-for-backward-classes.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Special Officer for Linguistic Minorities",
+        "difficultyTag":  "L",
+        "file":  "Polity/special-officer-for-linguistic-minorities.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "NITI Aayog",
+        "difficultyTag":  "H",
+        "file":  "Polity/niti-aayog.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "National Human Rights Commission (NHRC)",
+        "difficultyTag":  "H",
+        "file":  "Polity/national-human-rights-commission-nhrc.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "State Human Rights Commission (SHRC)",
+        "difficultyTag":  "M",
+        "file":  "Polity/state-human-rights-commission-shrc.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Central Information Commission (CIC)",
+        "difficultyTag":  "M",
+        "file":  "Polity/central-information-commission-cic.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Central Vigilance Commission (CVC)",
+        "difficultyTag":  "M",
+        "file":  "Polity/central-vigilance-commission-cvc.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Central Bureau of Investigation (CBI)",
+        "difficultyTag":  "L",
+        "file":  "Polity/central-bureau-of-investigation-cbi.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Lokpal",
+        "difficultyTag":  "H",
+        "file":  "Polity/lokpal.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Lokayuktas",
+        "difficultyTag":  "M",
+        "file":  "Polity/lokayuktas.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "National Development Council (NDC)",
+        "difficultyTag":  "L",
+        "file":  "Polity/national-development-council-ndc.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Panchayati Raj",
+        "difficultyTag":  "H",
+        "file":  "Polity/panchayati-raj.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Municipalities",
+        "difficultyTag":  "H",
+        "file":  "Polity/municipalities.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Cooperative Societies",
+        "difficultyTag":  "L",
+        "file":  "Polity/cooperative-societies.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Anti-Defection Law",
+        "difficultyTag":  "H",
+        "file":  "Polity/anti-defection-law.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Political Parties",
+        "difficultyTag":  "M",
+        "file":  "Polity/political-parties.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Pressure Groups",
+        "difficultyTag":  "L",
+        "file":  "Polity/pressure-groups.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Electoral Reforms",
+        "difficultyTag":  "M",
+        "file":  "Polity/electoral-reforms.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "E-Governance",
+        "difficultyTag":  "M",
+        "file":  "Polity/e-governance.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Citizen\u0027s Charter",
+        "difficultyTag":  "L",
+        "file":  "Polity/citizens-charter.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Right to Information (RTI)",
+        "difficultyTag":  "H",
+        "file":  "Polity/right-to-information-rti.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Public Interest Litigation (PIL)",
+        "difficultyTag":  "M",
+        "file":  "Polity/public-interest-litigation-pil.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Judicial Activism",
+        "difficultyTag":  "M",
+        "file":  "Polity/judicial-activism.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Judicial Overreach",
+        "difficultyTag":  "M",
+        "file":  "Polity/judicial-overreach.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Official Language",
+        "difficultyTag":  "L",
+        "file":  "Polity/official-language.json"
+    },
+    {
+        "subject":  "Polity",
+        "topic":  "Public Policy",
+        "difficultyTag":  "L",
+        "file":  "Polity/public-policy.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Origin of the Universe",
+        "difficultyTag":  "L",
+        "file":  "Geography/origin-of-the-universe.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Origin of the Solar System",
+        "difficultyTag":  "L",
+        "file":  "Geography/origin-of-the-solar-system.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Interior of the Earth",
+        "difficultyTag":  "M",
+        "file":  "Geography/interior-of-the-earth.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Continental Drift Theory",
+        "difficultyTag":  "M",
+        "file":  "Geography/continental-drift-theory.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Sea Floor Spreading",
+        "difficultyTag":  "M",
+        "file":  "Geography/sea-floor-spreading.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Plate Tectonics",
+        "difficultyTag":  "H",
+        "file":  "Geography/plate-tectonics.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Earthquakes",
+        "difficultyTag":  "H",
+        "file":  "Geography/earthquakes.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Volcanism",
+        "difficultyTag":  "H",
+        "file":  "Geography/volcanism.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Rocks and Rock Cycle",
+        "difficultyTag":  "M",
+        "file":  "Geography/rocks-and-rock-cycle.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Weathering and Mass Wasting",
+        "difficultyTag":  "L",
+        "file":  "Geography/weathering-and-mass-wasting.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Fluvial Landforms",
+        "difficultyTag":  "M",
+        "file":  "Geography/fluvial-landforms.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Glacial Landforms",
+        "difficultyTag":  "L",
+        "file":  "Geography/glacial-landforms.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Aeolian Landforms",
+        "difficultyTag":  "L",
+        "file":  "Geography/aeolian-landforms.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Karst Landforms",
+        "difficultyTag":  "L",
+        "file":  "Geography/karst-landforms.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Coastal Landforms",
+        "difficultyTag":  "M",
+        "file":  "Geography/coastal-landforms.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Composition of the Atmosphere",
+        "difficultyTag":  "M",
+        "file":  "Geography/composition-of-the-atmosphere.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Structure of the Atmosphere",
+        "difficultyTag":  "M",
+        "file":  "Geography/structure-of-the-atmosphere.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Insolation and Heat Budget",
+        "difficultyTag":  "M",
+        "file":  "Geography/insolation-and-heat-budget.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Temperature Distribution",
+        "difficultyTag":  "M",
+        "file":  "Geography/temperature-distribution.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Atmospheric Pressure",
+        "difficultyTag":  "M",
+        "file":  "Geography/atmospheric-pressure.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Planetary Winds",
+        "difficultyTag":  "H",
+        "file":  "Geography/planetary-winds.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Local Winds",
+        "difficultyTag":  "M",
+        "file":  "Geography/local-winds.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Jet Streams",
+        "difficultyTag":  "H",
+        "file":  "Geography/jet-streams.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Precipitation",
+        "difficultyTag":  "M",
+        "file":  "Geography/precipitation.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Clouds",
+        "difficultyTag":  "L",
+        "file":  "Geography/clouds.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Tropical Cyclones",
+        "difficultyTag":  "H",
+        "file":  "Geography/tropical-cyclones.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Temperate Cyclones",
+        "difficultyTag":  "M",
+        "file":  "Geography/temperate-cyclones.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Climatic Regions of the World",
+        "difficultyTag":  "M",
+        "file":  "Geography/climatic-regions-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Ocean Bottom Relief",
+        "difficultyTag":  "L",
+        "file":  "Geography/ocean-bottom-relief.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Ocean Temperature",
+        "difficultyTag":  "M",
+        "file":  "Geography/ocean-temperature.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Ocean Salinity",
+        "difficultyTag":  "M",
+        "file":  "Geography/ocean-salinity.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Waves",
+        "difficultyTag":  "L",
+        "file":  "Geography/waves.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Tides",
+        "difficultyTag":  "M",
+        "file":  "Geography/tides.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Ocean Currents",
+        "difficultyTag":  "H",
+        "file":  "Geography/ocean-currents.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Coral Reefs",
+        "difficultyTag":  "H",
+        "file":  "Geography/coral-reefs.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Marine Resources",
+        "difficultyTag":  "L",
+        "file":  "Geography/marine-resources.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Soils of the World",
+        "difficultyTag":  "L",
+        "file":  "Geography/soils-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Soils of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/soils-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Soil Erosion and Conservation",
+        "difficultyTag":  "M",
+        "file":  "Geography/soil-erosion-and-conservation.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Biomes",
+        "difficultyTag":  "M",
+        "file":  "Geography/biomes.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Ecosystems and Ecology",
+        "difficultyTag":  "H",
+        "file":  "Geography/ecosystems-and-ecology.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Geological History of India",
+        "difficultyTag":  "L",
+        "file":  "Geography/geological-history-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "The Himalayas",
+        "difficultyTag":  "H",
+        "file":  "Geography/the-himalayas.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "The Northern Plains",
+        "difficultyTag":  "H",
+        "file":  "Geography/the-northern-plains.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "The Peninsular Plateau",
+        "difficultyTag":  "H",
+        "file":  "Geography/the-peninsular-plateau.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "The Indian Desert",
+        "difficultyTag":  "M",
+        "file":  "Geography/the-indian-desert.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "The Coastal Plains",
+        "difficultyTag":  "M",
+        "file":  "Geography/the-coastal-plains.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "The Islands of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/the-islands-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Indian Monsoon",
+        "difficultyTag":  "H",
+        "file":  "Geography/indian-monsoon.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Seasons of India",
+        "difficultyTag":  "M",
+        "file":  "Geography/seasons-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Climate of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/climate-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Natural Vegetation of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/natural-vegetation-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Forest Types of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/forest-types-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Drainage System - Himalayan Rivers",
+        "difficultyTag":  "H",
+        "file":  "Geography/drainage-system-himalayan-rivers.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Drainage System - Peninsular Rivers",
+        "difficultyTag":  "H",
+        "file":  "Geography/drainage-system-peninsular-rivers.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Indus River System",
+        "difficultyTag":  "H",
+        "file":  "Geography/indus-river-system.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Ganga River System",
+        "difficultyTag":  "H",
+        "file":  "Geography/ganga-river-system.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Brahmaputra River System",
+        "difficultyTag":  "H",
+        "file":  "Geography/brahmaputra-river-system.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "East Flowing Rivers",
+        "difficultyTag":  "H",
+        "file":  "Geography/east-flowing-rivers.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "West Flowing Rivers",
+        "difficultyTag":  "H",
+        "file":  "Geography/west-flowing-rivers.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Lakes of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/lakes-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Waterfalls of India",
+        "difficultyTag":  "M",
+        "file":  "Geography/waterfalls-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Population of India",
+        "difficultyTag":  "M",
+        "file":  "Geography/population-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Migration in India",
+        "difficultyTag":  "M",
+        "file":  "Geography/migration-in-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Human Settlements in India",
+        "difficultyTag":  "L",
+        "file":  "Geography/human-settlements-in-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Urbanisation in India",
+        "difficultyTag":  "M",
+        "file":  "Geography/urbanisation-in-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Demographics of India",
+        "difficultyTag":  "M",
+        "file":  "Geography/demographics-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Agriculture and Cropping Patterns",
+        "difficultyTag":  "H",
+        "file":  "Geography/agriculture-and-cropping-patterns.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Land Resources",
+        "difficultyTag":  "M",
+        "file":  "Geography/land-resources.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Water Resources",
+        "difficultyTag":  "H",
+        "file":  "Geography/water-resources.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Mineral Resources of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/mineral-resources-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Energy Resources of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/energy-resources-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Industries of India",
+        "difficultyTag":  "H",
+        "file":  "Geography/industries-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Transport and Communication in India",
+        "difficultyTag":  "H",
+        "file":  "Geography/transport-and-communication-in-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Trade of India",
+        "difficultyTag":  "M",
+        "file":  "Geography/trade-of-india.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Major Mountain Ranges of the World",
+        "difficultyTag":  "M",
+        "file":  "Geography/major-mountain-ranges-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Major Deserts of the World",
+        "difficultyTag":  "M",
+        "file":  "Geography/major-deserts-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Major Rivers of the World",
+        "difficultyTag":  "M",
+        "file":  "Geography/major-rivers-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Major Lakes of the World",
+        "difficultyTag":  "M",
+        "file":  "Geography/major-lakes-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "World Population",
+        "difficultyTag":  "L",
+        "file":  "Geography/world-population.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "Major Tribes of the World",
+        "difficultyTag":  "M",
+        "file":  "Geography/major-tribes-of-the-world.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "World Agriculture",
+        "difficultyTag":  "M",
+        "file":  "Geography/world-agriculture.json"
+    },
+    {
+        "subject":  "Geography",
+        "topic":  "World Minerals and Industries",
+        "difficultyTag":  "M",
+        "file":  "Geography/world-minerals-and-industries.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "National Income Accounting",
+        "difficultyTag":  "M",
+        "file":  "Economics/national-income-accounting.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Economic Growth and Development",
+        "difficultyTag":  "L",
+        "file":  "Economics/economic-growth-and-development.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Gross Domestic Product (GDP)",
+        "difficultyTag":  "H",
+        "file":  "Economics/gross-domestic-product-gdp.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Gross National Product (GNP)",
+        "difficultyTag":  "M",
+        "file":  "Economics/gross-national-product-gnp.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Consumer Price Index (CPI)",
+        "difficultyTag":  "H",
+        "file":  "Economics/consumer-price-index-cpi.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Wholesale Price Index (WPI)",
+        "difficultyTag":  "H",
+        "file":  "Economics/wholesale-price-index-wpi.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Index of Industrial Production (IIP)",
+        "difficultyTag":  "M",
+        "file":  "Economics/index-of-industrial-production-iip.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Purchasing Power Parity (PPP)",
+        "difficultyTag":  "M",
+        "file":  "Economics/purchasing-power-parity-ppp.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Money and Banking",
+        "difficultyTag":  "H",
+        "file":  "Economics/money-and-banking.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Functions of the Reserve Bank of India",
+        "difficultyTag":  "H",
+        "file":  "Economics/functions-of-the-reserve-bank-of-india.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Monetary Policy Tools",
+        "difficultyTag":  "H",
+        "file":  "Economics/monetary-policy-tools.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Inflation",
+        "difficultyTag":  "H",
+        "file":  "Economics/inflation.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Money Market",
+        "difficultyTag":  "M",
+        "file":  "Economics/money-market.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Capital Market",
+        "difficultyTag":  "M",
+        "file":  "Economics/capital-market.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Non-Banking Financial Companies (NBFCs)",
+        "difficultyTag":  "M",
+        "file":  "Economics/non-banking-financial-companies-nbfcs.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Digital Banking and Financial Inclusion",
+        "difficultyTag":  "M",
+        "file":  "Economics/digital-banking-and-financial-inclusion.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Fiscal Policy",
+        "difficultyTag":  "H",
+        "file":  "Economics/fiscal-policy.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Budget",
+        "difficultyTag":  "H",
+        "file":  "Economics/budget.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Revenue Receipts",
+        "difficultyTag":  "M",
+        "file":  "Economics/revenue-receipts.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Capital Receipts",
+        "difficultyTag":  "M",
+        "file":  "Economics/capital-receipts.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Revenue Expenditure",
+        "difficultyTag":  "M",
+        "file":  "Economics/revenue-expenditure.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Capital Expenditure",
+        "difficultyTag":  "M",
+        "file":  "Economics/capital-expenditure.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Deficits",
+        "difficultyTag":  "H",
+        "file":  "Economics/deficits.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "FRBM Act",
+        "difficultyTag":  "H",
+        "file":  "Economics/frbm-act.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Direct Taxes",
+        "difficultyTag":  "H",
+        "file":  "Economics/direct-taxes.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Indirect Taxes",
+        "difficultyTag":  "H",
+        "file":  "Economics/indirect-taxes.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Goods and Services Tax (GST)",
+        "difficultyTag":  "H",
+        "file":  "Economics/goods-and-services-tax-gst.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Planning in India",
+        "difficultyTag":  "M",
+        "file":  "Economics/planning-in-india.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "NITI Aayog and Cooperative Federalism",
+        "difficultyTag":  "H",
+        "file":  "Economics/niti-aayog-and-cooperative-federalism.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Poverty",
+        "difficultyTag":  "H",
+        "file":  "Economics/poverty.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Unemployment",
+        "difficultyTag":  "H",
+        "file":  "Economics/unemployment.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Inequality",
+        "difficultyTag":  "M",
+        "file":  "Economics/inequality.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Inclusive Growth",
+        "difficultyTag":  "M",
+        "file":  "Economics/inclusive-growth.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Agriculture",
+        "difficultyTag":  "H",
+        "file":  "Economics/agriculture.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Cropping Patterns",
+        "difficultyTag":  "H",
+        "file":  "Economics/cropping-patterns.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Agricultural Marketing",
+        "difficultyTag":  "H",
+        "file":  "Economics/agricultural-marketing.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Minimum Support Price (MSP)",
+        "difficultyTag":  "H",
+        "file":  "Economics/minimum-support-price-msp.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Agricultural Subsidies",
+        "difficultyTag":  "M",
+        "file":  "Economics/agricultural-subsidies.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Farm Bills",
+        "difficultyTag":  "H",
+        "file":  "Economics/farm-bills.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Animal Husbandry",
+        "difficultyTag":  "M",
+        "file":  "Economics/animal-husbandry.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Fisheries",
+        "difficultyTag":  "M",
+        "file":  "Economics/fisheries.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Industry",
+        "difficultyTag":  "H",
+        "file":  "Economics/industry.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Micro, Small and Medium Enterprises (MSMEs)",
+        "difficultyTag":  "H",
+        "file":  "Economics/micro-small-and-medium-enterprises-msmes.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Disinvestment",
+        "difficultyTag":  "M",
+        "file":  "Economics/disinvestment.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Logistics and Supply Chain",
+        "difficultyTag":  "L",
+        "file":  "Economics/logistics-and-supply-chain.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Energy Sector",
+        "difficultyTag":  "H",
+        "file":  "Economics/energy-sector.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Transport Sector",
+        "difficultyTag":  "M",
+        "file":  "Economics/transport-sector.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Services Sector",
+        "difficultyTag":  "M",
+        "file":  "Economics/services-sector.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "External Sector",
+        "difficultyTag":  "H",
+        "file":  "Economics/external-sector.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Balance of Payments",
+        "difficultyTag":  "H",
+        "file":  "Economics/balance-of-payments.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Current Account",
+        "difficultyTag":  "H",
+        "file":  "Economics/current-account.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Capital Account",
+        "difficultyTag":  "H",
+        "file":  "Economics/capital-account.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Foreign Direct Investment (FDI)",
+        "difficultyTag":  "H",
+        "file":  "Economics/foreign-direct-investment-fdi.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Foreign Institutional Investment (FII)",
+        "difficultyTag":  "M",
+        "file":  "Economics/foreign-institutional-investment-fii.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Foreign Exchange Reserves",
+        "difficultyTag":  "H",
+        "file":  "Economics/foreign-exchange-reserves.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Exchange Rate Systems",
+        "difficultyTag":  "H",
+        "file":  "Economics/exchange-rate-systems.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "World Trade Organization (WTO)",
+        "difficultyTag":  "H",
+        "file":  "Economics/world-trade-organization-wto.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Trade Agreements",
+        "difficultyTag":  "H",
+        "file":  "Economics/trade-agreements.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Securities and Exchange Board of India (SEBI)",
+        "difficultyTag":  "M",
+        "file":  "Economics/securities-and-exchange-board-of-india-sebi.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Insurance Regulatory and Development Authority (IRDAI)",
+        "difficultyTag":  "L",
+        "file":  "Economics/insurance-regulatory-and-development-authority-irdai.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Pension Fund Regulatory and Development Authority (PFRDA)",
+        "difficultyTag":  "L",
+        "file":  "Economics/pension-fund-regulatory-and-development-authority-pfrda.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Insolvency and Bankruptcy Board of India (IBBI)",
+        "difficultyTag":  "M",
+        "file":  "Economics/insolvency-and-bankruptcy-board-of-india-ibbi.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "World Bank",
+        "difficultyTag":  "H",
+        "file":  "Economics/world-bank.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "International Monetary Fund (IMF)",
+        "difficultyTag":  "H",
+        "file":  "Economics/international-monetary-fund-imf.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Asian Development Bank (ADB)",
+        "difficultyTag":  "M",
+        "file":  "Economics/asian-development-bank-adb.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Asian Infrastructure Investment Bank (AIIB)",
+        "difficultyTag":  "M",
+        "file":  "Economics/asian-infrastructure-investment-bank-aiib.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Health",
+        "difficultyTag":  "H",
+        "file":  "Economics/health.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Education",
+        "difficultyTag":  "M",
+        "file":  "Economics/education.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Skill Development",
+        "difficultyTag":  "M",
+        "file":  "Economics/skill-development.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Human Development Index (HDI)",
+        "difficultyTag":  "M",
+        "file":  "Economics/human-development-index-hdi.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Demographics and Demographic Dividend",
+        "difficultyTag":  "H",
+        "file":  "Economics/demographics-and-demographic-dividend.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Sustainable Development Goals (SDGs)",
+        "difficultyTag":  "H",
+        "file":  "Economics/sustainable-development-goals-sdgs.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Climate Finance and Green Bonds",
+        "difficultyTag":  "M",
+        "file":  "Economics/climate-finance-and-green-bonds.json"
+    },
+    {
+        "subject":  "Economics",
+        "topic":  "Indian Economy on the Eve of Independence",
+        "difficultyTag":  "L",
+        "file":  "Economics/indian-economy-on-the-eve-of-independence.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Palaeolithic Age",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/palaeolithic-age.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Mesolithic Age",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/mesolithic-age.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Neolithic Age",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/neolithic-age.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chalcolithic Age",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/chalcolithic-age.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Indus Valley Civilisation - Town Planning",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/indus-valley-civilisation-town-planning.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Indus Valley Civilisation - Society and Economy",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/indus-valley-civilisation-society-and-economy.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Indus Valley Civilisation - Religion and Decline",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/indus-valley-civilisation-religion-and-decline.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Early Vedic Period",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/early-vedic-period.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Later Vedic Period",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/later-vedic-period.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Mahajanapadas",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/mahajanapadas.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Rise of Magadha - Haryanka Dynasty",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/rise-of-magadha-haryanka-dynasty.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Shishunaga Dynasty",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/shishunaga-dynasty.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Nanda Dynasty",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/nanda-dynasty.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Jainism",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/jainism.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Buddhism",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/buddhism.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chandragupta Maurya",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/chandragupta-maurya.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Bindusara",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/bindusara.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Ashoka",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/ashoka.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Ashoka\u0027s Dhamma",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/ashokas-dhamma.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Mauryan Administration",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/mauryan-administration.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Mauryan Economy",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/mauryan-economy.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Mauryan Art and Architecture",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/mauryan-art-and-architecture.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Decline of the Mauryan Empire",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/decline-of-the-mauryan-empire.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Sunga Dynasty",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/sunga-dynasty.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Kanva Dynasty",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/kanva-dynasty.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Satavahanas",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/satavahanas.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Indo-Greeks",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/indo-greeks.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Shakas",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/shakas.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Parthians",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/parthians.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Kushanas (Kanishka)",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/kushanas-kanishka.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Gandhara Art",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/gandhara-art.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Mathura Art",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/mathura-art.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Sangam Age - Literature",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/sangam-age-literature.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Sangam Age - Economy and Society",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/sangam-age-economy-and-society.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chera Kingdom",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/chera-kingdom.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chola Kingdom (Sangam)",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/chola-kingdom-sangam.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Pandya Kingdom (Sangam)",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/pandya-kingdom-sangam.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chandragupta I",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/chandragupta-i.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Samudragupta",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/samudragupta.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chandragupta II (Vikramaditya)",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/chandragupta-ii-vikramaditya.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Gupta Administration",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/gupta-administration.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Gupta Society and Economy",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/gupta-society-and-economy.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Gupta Literature and Science",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/gupta-literature-and-science.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Gupta Art and Architecture",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/gupta-art-and-architecture.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Decline of the Gupta Empire",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/decline-of-the-gupta-empire.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Harshavardhana",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/harshavardhana.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Chalukyas of Badami",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/chalukyas-of-badami.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Pallavas",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/pallavas.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Rashtrakutas",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/rashtrakutas.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Imperial Cholas (Later Cholas)",
+        "difficultyTag":  "H",
+        "file":  "Ancient History/imperial-cholas-later-cholas.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Rajput States",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/rajput-states.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Position of Women in Ancient India",
+        "difficultyTag":  "L",
+        "file":  "Ancient History/position-of-women-in-ancient-india.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Education in Ancient India",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/education-in-ancient-india.json"
+    },
+    {
+        "subject":  "Ancient History",
+        "topic":  "Literature in Ancient India",
+        "difficultyTag":  "M",
+        "file":  "Ancient History/literature-in-ancient-india.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Early Medieval India",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/early-medieval-india.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Tripartite Struggle",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/tripartite-struggle.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Arab Invasion of Sindh",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/arab-invasion-of-sindh.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Turkish Conquest (Mahmud Ghazni)",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/turkish-conquest-mahmud-ghazni.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Muhammad Ghori",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/muhammad-ghori.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Delhi Sultanate - Slave Dynasty",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/delhi-sultanate-slave-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Delhi Sultanate - Khalji Dynasty",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/delhi-sultanate-khalji-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Delhi Sultanate - Tughlaq Dynasty",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/delhi-sultanate-tughlaq-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Delhi Sultanate - Sayyid Dynasty",
+        "difficultyTag":  "L",
+        "file":  "Medieval History/delhi-sultanate-sayyid-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Delhi Sultanate - Lodi Dynasty",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/delhi-sultanate-lodi-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Administration under Delhi Sultanate (Iqta System)",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/administration-under-delhi-sultanate-iqta-system.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Economy and Society under Delhi Sultanate",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/economy-and-society-under-delhi-sultanate.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Art and Architecture of Delhi Sultanate",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/art-and-architecture-of-delhi-sultanate.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Vijayanagara Empire - Sangama Dynasty",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/vijayanagara-empire-sangama-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Vijayanagara Empire - Saluva Dynasty",
+        "difficultyTag":  "L",
+        "file":  "Medieval History/vijayanagara-empire-saluva-dynasty.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Vijayanagara Empire - Tuluva Dynasty (Krishnadevaraya)",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/vijayanagara-empire-tuluva-dynasty-krishnadevaraya.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Vijayanagara Administration",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/vijayanagara-administration.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Vijayanagara Art and Architecture",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/vijayanagara-art-and-architecture.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Battle of Talikota",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/battle-of-talikota.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Bahmani Kingdom",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/bahmani-kingdom.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Deccan Sultanates",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/deccan-sultanates.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Bhakti Movement - Alvars and Nayanars",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/bhakti-movement-alvars-and-nayanars.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Bhakti Movement - Saints of North India",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/bhakti-movement-saints-of-north-india.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Sufi Movement - Chishti Silsilah",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/sufi-movement-chishti-silsilah.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Sufi Movement - Suhrawardi and Other Silsilahs",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/sufi-movement-suhrawardi-and-other-silsilahs.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mughal Empire - Babur",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/mughal-empire-babur.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mughal Empire - Humayun",
+        "difficultyTag":  "L",
+        "file":  "Medieval History/mughal-empire-humayun.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Sur Empire (Sher Shah Suri)",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/sur-empire-sher-shah-suri.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mughal Empire - Akbar",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/mughal-empire-akbar.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Rajput Policy of Akbar",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/rajput-policy-of-akbar.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mansabdari System",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/mansabdari-system.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Jagirdari System",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/jagirdari-system.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Land Revenue under Mughals",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/land-revenue-under-mughals.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mughal Empire - Jahangir",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/mughal-empire-jahangir.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mughal Empire - Shah Jahan",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/mughal-empire-shah-jahan.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Mughal Empire - Aurangzeb",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/mughal-empire-aurangzeb.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Religious Policy of Aurangzeb",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/religious-policy-of-aurangzeb.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Deccan Policy of the Mughals",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/deccan-policy-of-the-mughals.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Decline of the Mughal Empire",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/decline-of-the-mughal-empire.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Maratha Confederacy - Shivaji",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/maratha-confederacy-shivaji.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Maratha Administration (Ashtapradhan)",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/maratha-administration-ashtapradhan.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "The Peshwas",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/the-peshwas.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Regional Kingdom - Awadh",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/regional-kingdom-awadh.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Regional Kingdom - Bengal",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/regional-kingdom-bengal.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Regional Kingdom - Hyderabad",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/regional-kingdom-hyderabad.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Regional Kingdom - Mysore",
+        "difficultyTag":  "H",
+        "file":  "Medieval History/regional-kingdom-mysore.json"
+    },
+    {
+        "subject":  "Medieval History",
+        "topic":  "Sikh Empire (Ranjit Singh)",
+        "difficultyTag":  "M",
+        "file":  "Medieval History/sikh-empire-ranjit-singh.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Decline of the Mughal Empire",
+        "difficultyTag":  "L",
+        "file":  "Modern History/decline-of-the-mughal-empire.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Rise of Regional Powers",
+        "difficultyTag":  "M",
+        "file":  "Modern History/rise-of-regional-powers.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Advent of Europeans - Portuguese",
+        "difficultyTag":  "M",
+        "file":  "Modern History/advent-of-europeans-portuguese.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Advent of Europeans - Dutch",
+        "difficultyTag":  "L",
+        "file":  "Modern History/advent-of-europeans-dutch.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Advent of Europeans - English",
+        "difficultyTag":  "H",
+        "file":  "Modern History/advent-of-europeans-english.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Advent of Europeans - French",
+        "difficultyTag":  "M",
+        "file":  "Modern History/advent-of-europeans-french.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Anglo-French Rivalry (Carnatic Wars)",
+        "difficultyTag":  "H",
+        "file":  "Modern History/anglo-french-rivalry-carnatic-wars.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Battle of Plassey",
+        "difficultyTag":  "H",
+        "file":  "Modern History/battle-of-plassey.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Battle of Buxar",
+        "difficultyTag":  "H",
+        "file":  "Modern History/battle-of-buxar.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Diwani Rights",
+        "difficultyTag":  "H",
+        "file":  "Modern History/diwani-rights.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Subsidiary Alliance",
+        "difficultyTag":  "H",
+        "file":  "Modern History/subsidiary-alliance.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Doctrine of Lapse",
+        "difficultyTag":  "H",
+        "file":  "Modern History/doctrine-of-lapse.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Anglo-Mysore Wars",
+        "difficultyTag":  "H",
+        "file":  "Modern History/anglo-mysore-wars.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Anglo-Maratha Wars",
+        "difficultyTag":  "H",
+        "file":  "Modern History/anglo-maratha-wars.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Anglo-Sikh Wars",
+        "difficultyTag":  "H",
+        "file":  "Modern History/anglo-sikh-wars.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Permanent Settlement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/permanent-settlement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Ryotwari System",
+        "difficultyTag":  "H",
+        "file":  "Modern History/ryotwari-system.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Mahalwari System",
+        "difficultyTag":  "H",
+        "file":  "Modern History/mahalwari-system.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Drain of Wealth",
+        "difficultyTag":  "M",
+        "file":  "Modern History/drain-of-wealth.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Deindustrialisation",
+        "difficultyTag":  "M",
+        "file":  "Modern History/deindustrialisation.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Commercialisation of Agriculture",
+        "difficultyTag":  "M",
+        "file":  "Modern History/commercialisation-of-agriculture.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Famine Policy of British India",
+        "difficultyTag":  "M",
+        "file":  "Modern History/famine-policy-of-british-india.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Revolt of 1857 - Causes",
+        "difficultyTag":  "H",
+        "file":  "Modern History/revolt-of-1857-causes.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Revolt of 1857 - Nature and Spread",
+        "difficultyTag":  "H",
+        "file":  "Modern History/revolt-of-1857-nature-and-spread.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Aftermath of 1857 - Queen\u0027s Proclamation",
+        "difficultyTag":  "H",
+        "file":  "Modern History/aftermath-of-1857-queens-proclamation.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Reorganisation of Army after 1857",
+        "difficultyTag":  "M",
+        "file":  "Modern History/reorganisation-of-army-after-1857.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Brahmo Samaj",
+        "difficultyTag":  "H",
+        "file":  "Modern History/brahmo-samaj.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Arya Samaj",
+        "difficultyTag":  "H",
+        "file":  "Modern History/arya-samaj.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Ramakrishna Mission",
+        "difficultyTag":  "H",
+        "file":  "Modern History/ramakrishna-mission.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Theosophical Society",
+        "difficultyTag":  "H",
+        "file":  "Modern History/theosophical-society.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Aligarh Movement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/aligarh-movement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Sikh Reform Movements",
+        "difficultyTag":  "M",
+        "file":  "Modern History/sikh-reform-movements.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Dalit Movements",
+        "difficultyTag":  "H",
+        "file":  "Modern History/dalit-movements.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Women\u0027s Emancipation in British India",
+        "difficultyTag":  "M",
+        "file":  "Modern History/womens-emancipation-in-british-india.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Tribal Uprisings",
+        "difficultyTag":  "H",
+        "file":  "Modern History/tribal-uprisings.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Peasant Uprisings",
+        "difficultyTag":  "H",
+        "file":  "Modern History/peasant-uprisings.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Early Political Associations",
+        "difficultyTag":  "M",
+        "file":  "Modern History/early-political-associations.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Indian National Congress - Moderate Phase",
+        "difficultyTag":  "H",
+        "file":  "Modern History/indian-national-congress-moderate-phase.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Extremist Phase",
+        "difficultyTag":  "H",
+        "file":  "Modern History/extremist-phase.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Partition of Bengal (1905)",
+        "difficultyTag":  "H",
+        "file":  "Modern History/partition-of-bengal-1905.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Swadeshi Movement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/swadeshi-movement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Surat Split",
+        "difficultyTag":  "H",
+        "file":  "Modern History/surat-split.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Revolutionary Terrorism (Early Phase)",
+        "difficultyTag":  "H",
+        "file":  "Modern History/revolutionary-terrorism-early-phase.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Morley-Minto Reforms",
+        "difficultyTag":  "H",
+        "file":  "Modern History/morley-minto-reforms.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Home Rule League",
+        "difficultyTag":  "H",
+        "file":  "Modern History/home-rule-league.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Lucknow Pact",
+        "difficultyTag":  "H",
+        "file":  "Modern History/lucknow-pact.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Montagu-Chelmsford Reforms",
+        "difficultyTag":  "H",
+        "file":  "Modern History/montagu-chelmsford-reforms.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Rowlatt Act",
+        "difficultyTag":  "H",
+        "file":  "Modern History/rowlatt-act.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Jallianwala Bagh Massacre",
+        "difficultyTag":  "H",
+        "file":  "Modern History/jallianwala-bagh-massacre.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Khilafat Movement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/khilafat-movement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Non-Cooperation Movement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/non-cooperation-movement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Simon Commission",
+        "difficultyTag":  "H",
+        "file":  "Modern History/simon-commission.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Nehru Report",
+        "difficultyTag":  "H",
+        "file":  "Modern History/nehru-report.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Lahore Session (1929)",
+        "difficultyTag":  "H",
+        "file":  "Modern History/lahore-session-1929.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Civil Disobedience Movement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/civil-disobedience-movement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Round Table Conferences",
+        "difficultyTag":  "H",
+        "file":  "Modern History/round-table-conferences.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Government of India Act 1935",
+        "difficultyTag":  "H",
+        "file":  "Modern History/government-of-india-act-1935.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Provincial Elections 1937",
+        "difficultyTag":  "M",
+        "file":  "Modern History/provincial-elections-1937.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Second World War and Congress Resignation",
+        "difficultyTag":  "M",
+        "file":  "Modern History/second-world-war-and-congress-resignation.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "August Offer",
+        "difficultyTag":  "H",
+        "file":  "Modern History/august-offer.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Cripps Mission",
+        "difficultyTag":  "H",
+        "file":  "Modern History/cripps-mission.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Quit India Movement",
+        "difficultyTag":  "H",
+        "file":  "Modern History/quit-india-movement.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Indian National Army (INA)",
+        "difficultyTag":  "H",
+        "file":  "Modern History/indian-national-army-ina.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Naval Mutiny of 1946",
+        "difficultyTag":  "M",
+        "file":  "Modern History/naval-mutiny-of-1946.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Cabinet Mission",
+        "difficultyTag":  "H",
+        "file":  "Modern History/cabinet-mission.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Mountbatten Plan",
+        "difficultyTag":  "H",
+        "file":  "Modern History/mountbatten-plan.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Indian Independence Act 1947",
+        "difficultyTag":  "H",
+        "file":  "Modern History/indian-independence-act-1947.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Partition of India",
+        "difficultyTag":  "M",
+        "file":  "Modern History/partition-of-india.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Constitutional Development under British Rule",
+        "difficultyTag":  "H",
+        "file":  "Modern History/constitutional-development-under-british-rule.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Development of Education under British Rule",
+        "difficultyTag":  "M",
+        "file":  "Modern History/development-of-education-under-british-rule.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Development of Press under British Rule",
+        "difficultyTag":  "M",
+        "file":  "Modern History/development-of-press-under-british-rule.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Leftist Movements",
+        "difficultyTag":  "M",
+        "file":  "Modern History/leftist-movements.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Peasant Movements (Kisan Sabha)",
+        "difficultyTag":  "H",
+        "file":  "Modern History/peasant-movements-kisan-sabha.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Trade Union Movements",
+        "difficultyTag":  "M",
+        "file":  "Modern History/trade-union-movements.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Mahatma Gandhi - Ideology and Methods",
+        "difficultyTag":  "H",
+        "file":  "Modern History/mahatma-gandhi-ideology-and-methods.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Jawaharlal Nehru",
+        "difficultyTag":  "M",
+        "file":  "Modern History/jawaharlal-nehru.json"
+    },
+    {
+        "subject":  "Modern History",
+        "topic":  "Subhas Chandra Bose",
+        "difficultyTag":  "H",
+        "file":  "Modern History/subhas-chandra-bose.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Indus Valley Art and Architecture",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/indus-valley-art-and-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Mauryan Art (Pillars, Stupas, Caves)",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/mauryan-art-pillars-stupas-caves.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Post-Mauryan Art (Bharhut, Sanchi)",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/post-mauryan-art-bharhut-sanchi.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Gandhara School of Art",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/gandhara-school-of-art.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Mathura School of Art",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/mathura-school-of-art.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Amaravati School of Art",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/amaravati-school-of-art.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Temple Architecture - Nagara Style",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/temple-architecture-nagara-style.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Temple Architecture - Dravida Style",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/temple-architecture-dravida-style.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Temple Architecture - Vesara Style",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/temple-architecture-vesara-style.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Khajuraho Temples",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/khajuraho-temples.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Chola Temple Architecture",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/chola-temple-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Hoysala Architecture",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/hoysala-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Pallava Architecture",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/pallava-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Indo-Islamic Architecture - Delhi Sultanate",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/indo-islamic-architecture-delhi-sultanate.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Mughal Architecture",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/mughal-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Regional Islamic Architecture (Mandu, Bijapur, Bengal)",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/regional-islamic-architecture-mandu-bijapur-bengal.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Portuguese Architecture",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/portuguese-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "British Architecture (Indo-Saracenic)",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/british-architecture-indo-saracenic.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Modern Architecture",
+        "difficultyTag":  "L",
+        "file":  "Art\u0026Culture/modern-architecture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Buddhist Sculpture",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/buddhist-sculpture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Hindu Iconography",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/hindu-iconography.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Nataraja Bronze Sculpture",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/nataraja-bronze-sculpture.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Mural Paintings - Ajanta",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/mural-paintings-ajanta.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Ellora Murals",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/ellora-murals.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Bagh Caves Paintings",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/bagh-caves-paintings.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Sittanavasal Paintings",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/sittanavasal-paintings.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Mughal Miniature Painting",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/mughal-miniature-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Rajput Miniature Painting",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/rajput-miniature-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Pahari Miniature Painting",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/pahari-miniature-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Deccani Miniature Painting",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/deccani-miniature-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Bengal School of Art (Modern Painting)",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/bengal-school-of-art-modern-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Madhubani Painting",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/madhubani-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Warli Painting",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/warli-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Pattachitra Painting",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/pattachitra-painting.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Bharatanatyam",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/bharatanatyam.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Kathak",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/kathak.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Kathakali",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/kathakali.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Kuchipudi",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/kuchipudi.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Manipuri",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/manipuri.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Odissi",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/odissi.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Sattriya",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/sattriya.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Mohiniyattam",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/mohiniyattam.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Folk Dances of India",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/folk-dances-of-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Folk Theatre Forms",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/folk-theatre-forms.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Hindustani Classical Music",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/hindustani-classical-music.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Carnatic Classical Music",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/carnatic-classical-music.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Gharanas of Hindustani Music",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/gharanas-of-hindustani-music.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Musical Instruments of India",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/musical-instruments-of-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Folk Music of India",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/folk-music-of-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "String Puppets",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/string-puppets.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Shadow Puppets",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/shadow-puppets.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Rod Puppets",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/rod-puppets.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Glove Puppets",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/glove-puppets.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Vedic Literature",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/vedic-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Buddhist Literature",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/buddhist-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Jain Literature",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/jain-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Sangam Literature",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/sangam-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Sanskrit Literature",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/sanskrit-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Pali and Prakrit Literature",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/pali-and-prakrit-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Persian Literature in India",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/persian-literature-in-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Hindi Literature",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/hindi-literature.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Regional Literature of India",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/regional-literature-of-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Hinduism - Core Tenets",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/hinduism-core-tenets.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Buddhism - Tenets and Sects",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/buddhism-tenets-and-sects.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Jainism - Tenets and Sects",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/jainism-tenets-and-sects.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Sikhism",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/sikhism.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Bhakti Saints and Their Works",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/bhakti-saints-and-their-works.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Sufi Saints and Their Orders",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/sufi-saints-and-their-orders.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Coins in Ancient and Medieval India",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/coins-in-ancient-and-medieval-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Pottery Traditions",
+        "difficultyTag":  "L",
+        "file":  "Art\u0026Culture/pottery-traditions.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Inscriptions and Epigraphy",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/inscriptions-and-epigraphy.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Cultural Institutions (Sangeet Natak Akademi, etc.)",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/cultural-institutions-sangeet-natak-akademi-etc.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "UNESCO Intangible Cultural Heritage from India",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/unesco-intangible-cultural-heritage-from-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Major Fairs and Festivals of India",
+        "difficultyTag":  "H",
+        "file":  "Art\u0026Culture/major-fairs-and-festivals-of-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Martial Arts of India",
+        "difficultyTag":  "M",
+        "file":  "Art\u0026Culture/martial-arts-of-india.json"
+    },
+    {
+        "subject":  "Art\u0026Culture",
+        "topic":  "Indian Cinema",
+        "difficultyTag":  "L",
+        "file":  "Art\u0026Culture/indian-cinema.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Ecology and Ecosystem - Functions",
+        "difficultyTag":  "H",
+        "file":  "Environment/ecology-and-ecosystem-functions.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Energy Flow in Ecosystem",
+        "difficultyTag":  "M",
+        "file":  "Environment/energy-flow-in-ecosystem.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Nutrient Cycles",
+        "difficultyTag":  "M",
+        "file":  "Environment/nutrient-cycles.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Biomes",
+        "difficultyTag":  "M",
+        "file":  "Environment/biomes.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Ecological Succession",
+        "difficultyTag":  "M",
+        "file":  "Environment/ecological-succession.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Biodiversity",
+        "difficultyTag":  "H",
+        "file":  "Environment/biodiversity.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Megadiverse Countries",
+        "difficultyTag":  "M",
+        "file":  "Environment/megadiverse-countries.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Biodiversity Hotspots",
+        "difficultyTag":  "H",
+        "file":  "Environment/biodiversity-hotspots.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "IUCN Red List Categories",
+        "difficultyTag":  "H",
+        "file":  "Environment/iucn-red-list-categories.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Endemic Species",
+        "difficultyTag":  "H",
+        "file":  "Environment/endemic-species.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Exotic and Invasive Species",
+        "difficultyTag":  "H",
+        "file":  "Environment/exotic-and-invasive-species.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "National Parks of India",
+        "difficultyTag":  "H",
+        "file":  "Environment/national-parks-of-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Wildlife Sanctuaries of India",
+        "difficultyTag":  "H",
+        "file":  "Environment/wildlife-sanctuaries-of-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Biosphere Reserves of India",
+        "difficultyTag":  "H",
+        "file":  "Environment/biosphere-reserves-of-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Tiger Reserves of India",
+        "difficultyTag":  "H",
+        "file":  "Environment/tiger-reserves-of-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Elephant Reserves of India",
+        "difficultyTag":  "M",
+        "file":  "Environment/elephant-reserves-of-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Project Tiger",
+        "difficultyTag":  "H",
+        "file":  "Environment/project-tiger.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Project Elephant",
+        "difficultyTag":  "M",
+        "file":  "Environment/project-elephant.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Vulture Conservation",
+        "difficultyTag":  "H",
+        "file":  "Environment/vulture-conservation.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Ganges Dolphin Conservation",
+        "difficultyTag":  "M",
+        "file":  "Environment/ganges-dolphin-conservation.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Forest Types of India",
+        "difficultyTag":  "H",
+        "file":  "Environment/forest-types-of-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Joint Forest Management",
+        "difficultyTag":  "M",
+        "file":  "Environment/joint-forest-management.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Forest Rights Act 2006",
+        "difficultyTag":  "H",
+        "file":  "Environment/forest-rights-act-2006.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Wetlands",
+        "difficultyTag":  "H",
+        "file":  "Environment/wetlands.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Ramsar Sites in India",
+        "difficultyTag":  "H",
+        "file":  "Environment/ramsar-sites-in-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Mangroves",
+        "difficultyTag":  "H",
+        "file":  "Environment/mangroves.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Coral Reefs in India",
+        "difficultyTag":  "H",
+        "file":  "Environment/coral-reefs-in-india.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Air Pollution",
+        "difficultyTag":  "H",
+        "file":  "Environment/air-pollution.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Water Pollution",
+        "difficultyTag":  "H",
+        "file":  "Environment/water-pollution.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Soil Pollution",
+        "difficultyTag":  "M",
+        "file":  "Environment/soil-pollution.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Noise Pollution",
+        "difficultyTag":  "M",
+        "file":  "Environment/noise-pollution.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Radioactive Pollution",
+        "difficultyTag":  "L",
+        "file":  "Environment/radioactive-pollution.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "E-waste",
+        "difficultyTag":  "H",
+        "file":  "Environment/e-waste.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Plastic Pollution",
+        "difficultyTag":  "H",
+        "file":  "Environment/plastic-pollution.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Climate Change",
+        "difficultyTag":  "H",
+        "file":  "Environment/climate-change.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Global Warming",
+        "difficultyTag":  "H",
+        "file":  "Environment/global-warming.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Ozone Depletion",
+        "difficultyTag":  "M",
+        "file":  "Environment/ozone-depletion.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Acid Rain",
+        "difficultyTag":  "M",
+        "file":  "Environment/acid-rain.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "El Nino",
+        "difficultyTag":  "H",
+        "file":  "Environment/el-nino.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "La Nina",
+        "difficultyTag":  "H",
+        "file":  "Environment/la-nina.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Carbon Credits",
+        "difficultyTag":  "M",
+        "file":  "Environment/carbon-credits.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Solar Energy",
+        "difficultyTag":  "M",
+        "file":  "Environment/solar-energy.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Wind Energy",
+        "difficultyTag":  "M",
+        "file":  "Environment/wind-energy.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Biofuels",
+        "difficultyTag":  "H",
+        "file":  "Environment/biofuels.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Hydrogen Mission",
+        "difficultyTag":  "H",
+        "file":  "Environment/hydrogen-mission.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Environment Protection Act 1986",
+        "difficultyTag":  "H",
+        "file":  "Environment/environment-protection-act-1986.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Wildlife Protection Act 1972",
+        "difficultyTag":  "H",
+        "file":  "Environment/wildlife-protection-act-1972.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Forest Conservation Act 1980",
+        "difficultyTag":  "H",
+        "file":  "Environment/forest-conservation-act-1980.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Biological Diversity Act 2002",
+        "difficultyTag":  "H",
+        "file":  "Environment/biological-diversity-act-2002.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "CAMPA",
+        "difficultyTag":  "M",
+        "file":  "Environment/campa.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "National Green Tribunal (NGT)",
+        "difficultyTag":  "H",
+        "file":  "Environment/national-green-tribunal-ngt.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Environmental Impact Assessment (EIA)",
+        "difficultyTag":  "H",
+        "file":  "Environment/environmental-impact-assessment-eia.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "UNFCCC",
+        "difficultyTag":  "H",
+        "file":  "Environment/unfccc.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Convention on Biological Diversity (CBD)",
+        "difficultyTag":  "H",
+        "file":  "Environment/convention-on-biological-diversity-cbd.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "UNCCD",
+        "difficultyTag":  "M",
+        "file":  "Environment/unccd.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "CITES",
+        "difficultyTag":  "H",
+        "file":  "Environment/cites.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Convention on Migratory Species (CMS)",
+        "difficultyTag":  "M",
+        "file":  "Environment/convention-on-migratory-species-cms.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Ramsar Convention",
+        "difficultyTag":  "H",
+        "file":  "Environment/ramsar-convention.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Stockholm Conference 1972",
+        "difficultyTag":  "M",
+        "file":  "Environment/stockholm-conference-1972.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Rio Earth Summit 1992",
+        "difficultyTag":  "H",
+        "file":  "Environment/rio-earth-summit-1992.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "IPCC",
+        "difficultyTag":  "H",
+        "file":  "Environment/ipcc.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "National Action Plan on Climate Change (NAPCC)",
+        "difficultyTag":  "H",
+        "file":  "Environment/national-action-plan-on-climate-change-napcc.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "State Action Plans on Climate Change",
+        "difficultyTag":  "M",
+        "file":  "Environment/state-action-plans-on-climate-change.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Sustainable Development Goals (SDGs)",
+        "difficultyTag":  "H",
+        "file":  "Environment/sustainable-development-goals-sdgs.json"
+    },
+    {
+        "subject":  "Environment",
+        "topic":  "Disaster Management and Environment",
+        "difficultyTag":  "M",
+        "file":  "Environment/disaster-management-and-environment.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Mechanics (Basics)",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/mechanics-basics.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Sound",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/sound.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Light",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/light.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Electricity and Magnetism",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/electricity-and-magnetism.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Modern Physics - Lasers",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/modern-physics-lasers.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Semiconductors",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/semiconductors.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Periodic Table",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/periodic-table.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Chemical Bonding",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/chemical-bonding.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Acids and Bases",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/acids-and-bases.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Organic Chemistry in Everyday Life",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/organic-chemistry-in-everyday-life.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Polymers",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/polymers.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Drugs and Pharmaceuticals",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/drugs-and-pharmaceuticals.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Cell Structure",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/cell-structure.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Cell Organelles",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/cell-organelles.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Cell Division - Mitosis",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/cell-division-mitosis.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Meiosis",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/meiosis.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "DNA and RNA",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/dna-and-rna.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Genetic Code",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/genetic-code.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Heredity",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/heredity.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Evolution",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/evolution.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Digestive System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-digestive-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Circulatory System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-circulatory-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Nervous System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-nervous-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Endocrine System",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/human-endocrine-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Reproductive System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-reproductive-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Excretory System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-excretory-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Respiratory System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-respiratory-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Human Skeletal System",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/human-skeletal-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Plant Physiology",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/plant-physiology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Communicable Diseases",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/communicable-diseases.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Non-Communicable Diseases",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/non-communicable-diseases.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Vaccines and Immunisation",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/vaccines-and-immunisation.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Antimicrobial Resistance",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/antimicrobial-resistance.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Vector-Borne Diseases",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/vector-borne-diseases.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Genetic Engineering",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/genetic-engineering.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Genetically Modified (GM) Crops",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/genetically-modified-gm-crops.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "CRISPR Technology",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/crispr-technology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Gene Therapy",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/gene-therapy.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Cloning",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/cloning.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Stem Cells",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/stem-cells.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Biotechnology Regulations in India",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/biotechnology-regulations-in-india.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Types of Satellites",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/types-of-satellites.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Launch Vehicles of India",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/launch-vehicles-of-india.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Gaganyaan Mission",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/gaganyaan-mission.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Chandrayaan Missions",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/chandrayaan-missions.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Mangalyaan (Mars Orbiter Mission)",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/mangalyaan-mars-orbiter-mission.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Earth Observation Satellites",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/earth-observation-satellites.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "NAVIC (Navigation System)",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/navic-navigation-system.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Artificial Intelligence",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/artificial-intelligence.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Machine Learning",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/machine-learning.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Big Data",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/big-data.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Blockchain",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/blockchain.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Internet of Things",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/internet-of-things.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "5G and 6G Technology",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/5g-and-6g-technology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Supercomputers",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/supercomputers.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Cyber Security",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/cyber-security.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Missile Systems - Ballistic Missiles",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/missile-systems-ballistic-missiles.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Cruise Missiles",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/cruise-missiles.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Integrated Guided Missile Programme (IGMDP)",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/integrated-guided-missile-programme-igmdp.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Tejas Fighter Aircraft",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/tejas-fighter-aircraft.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "INS Systems (Naval)",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/ins-systems-naval.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "RADAR Technology",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/radar-technology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Stealth Technology",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/stealth-technology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Drones",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/drones.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Nuclear Fission and Fusion",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/nuclear-fission-and-fusion.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Nuclear Reactor Types",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/nuclear-reactor-types.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Nuclear Fuel Cycle",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/nuclear-fuel-cycle.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "India\u0027s Three-Stage Nuclear Programme",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/indias-three-stage-nuclear-programme.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Thorium-based Nuclear Energy",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/thorium-based-nuclear-energy.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Nanotechnology",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/nanotechnology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Ocean Technology",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/ocean-technology.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Robotics",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/robotics.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "3D Printing",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/3d-printing.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Patents",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/patents.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Geographical Indications (GI Tags)",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/geographical-indications-gi-tags.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Copyright",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/copyright.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Trademarks",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/trademarks.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Lithium-ion Batteries",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/lithium-ion-batteries.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Hydrogen Fuel Cells",
+        "difficultyTag":  "H",
+        "file":  "Science\u0026Tech/hydrogen-fuel-cells.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Smart Grid",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/smart-grid.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Digital India Programme",
+        "difficultyTag":  "M",
+        "file":  "Science\u0026Tech/digital-india-programme.json"
+    },
+    {
+        "subject":  "Science\u0026Tech",
+        "topic":  "Atal Innovation Mission",
+        "difficultyTag":  "L",
+        "file":  "Science\u0026Tech/atal-innovation-mission.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "India Political Map - States",
+        "difficultyTag":  "H",
+        "file":  "mapping/india-political-map-states.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "India Political Map - Union Territories",
+        "difficultyTag":  "H",
+        "file":  "mapping/india-political-map-union-territories.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "State Capitals",
+        "difficultyTag":  "H",
+        "file":  "mapping/state-capitals.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Neighbouring Countries of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/neighbouring-countries-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Boundary Lines",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-boundary-lines.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Himalayan Mountain Ranges",
+        "difficultyTag":  "H",
+        "file":  "mapping/himalayan-mountain-ranges.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Trans-Himalayan Ranges",
+        "difficultyTag":  "H",
+        "file":  "mapping/trans-himalayan-ranges.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Mountain Passes of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-mountain-passes-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Peaks of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-peaks-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Peninsular Plateau of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/peninsular-plateau-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Thar Desert",
+        "difficultyTag":  "H",
+        "file":  "mapping/thar-desert.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Western Coastal Plains",
+        "difficultyTag":  "H",
+        "file":  "mapping/western-coastal-plains.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Eastern Coastal Plains",
+        "difficultyTag":  "H",
+        "file":  "mapping/eastern-coastal-plains.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Andaman and Nicobar Islands",
+        "difficultyTag":  "H",
+        "file":  "mapping/andaman-and-nicobar-islands.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Lakshadweep Islands",
+        "difficultyTag":  "H",
+        "file":  "mapping/lakshadweep-islands.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Himalayan Rivers - Indus System",
+        "difficultyTag":  "H",
+        "file":  "mapping/himalayan-rivers-indus-system.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Himalayan Rivers - Ganga System",
+        "difficultyTag":  "H",
+        "file":  "mapping/himalayan-rivers-ganga-system.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Himalayan Rivers - Brahmaputra System",
+        "difficultyTag":  "H",
+        "file":  "mapping/himalayan-rivers-brahmaputra-system.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Peninsular Rivers - East Flowing",
+        "difficultyTag":  "H",
+        "file":  "mapping/peninsular-rivers-east-flowing.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Peninsular Rivers - West Flowing",
+        "difficultyTag":  "H",
+        "file":  "mapping/peninsular-rivers-west-flowing.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Tributaries of Indian Rivers",
+        "difficultyTag":  "H",
+        "file":  "mapping/major-tributaries-of-indian-rivers.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Dams of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/major-dams-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Lakes of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/major-lakes-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Waterfalls of India",
+        "difficultyTag":  "M",
+        "file":  "mapping/major-waterfalls-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Biosphere Reserves (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/biosphere-reserves-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "National Parks (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/national-parks-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Tiger Reserves (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/tiger-reserves-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Elephant Corridors (Location)",
+        "difficultyTag":  "M",
+        "file":  "mapping/elephant-corridors-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Ramsar Sites (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/ramsar-sites-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Mangroves (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/mangroves-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Mineral Belts of India",
+        "difficultyTag":  "M",
+        "file":  "mapping/mineral-belts-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Coal Fields of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/coal-fields-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Oil and Gas Fields of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/oil-and-gas-fields-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Industrial Corridors of India",
+        "difficultyTag":  "M",
+        "file":  "mapping/industrial-corridors-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Ports of India",
+        "difficultyTag":  "H",
+        "file":  "mapping/major-ports-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Airports of India",
+        "difficultyTag":  "M",
+        "file":  "mapping/major-airports-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important National Highways",
+        "difficultyTag":  "M",
+        "file":  "mapping/important-national-highways.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Special Economic Zones (SEZs) (Location)",
+        "difficultyTag":  "L",
+        "file":  "mapping/special-economic-zones-sezs-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "UNESCO World Heritage Sites in India (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/unesco-world-heritage-sites-in-india-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Ancient Monuments (Location)",
+        "difficultyTag":  "H",
+        "file":  "mapping/ancient-monuments-location.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Temple Towns of India",
+        "difficultyTag":  "M",
+        "file":  "mapping/temple-towns-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Tribal Regions of India",
+        "difficultyTag":  "M",
+        "file":  "mapping/tribal-regions-of-india.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Continents of the World",
+        "difficultyTag":  "M",
+        "file":  "mapping/continents-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Oceans of the World",
+        "difficultyTag":  "M",
+        "file":  "mapping/oceans-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Latitudes and Longitudes",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-latitudes-and-longitudes.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Mountain Ranges of the World",
+        "difficultyTag":  "H",
+        "file":  "mapping/major-mountain-ranges-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Deserts of the World",
+        "difficultyTag":  "M",
+        "file":  "mapping/major-deserts-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Rivers of the World",
+        "difficultyTag":  "H",
+        "file":  "mapping/major-rivers-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Lakes of the World",
+        "difficultyTag":  "M",
+        "file":  "mapping/major-lakes-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Major Waterfalls of the World",
+        "difficultyTag":  "M",
+        "file":  "mapping/major-waterfalls-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Straits of the World",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-straits-of-the-world.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Bays and Gulfs",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-bays-and-gulfs.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Important Canals",
+        "difficultyTag":  "H",
+        "file":  "mapping/important-canals.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Countries and Capitals (All UN Members)",
+        "difficultyTag":  "H",
+        "file":  "mapping/countries-and-capitals-all-un-members.json"
+    },
+    {
+        "subject":  "mapping",
+        "topic":  "Places in News (Current Affairs Mapping)",
+        "difficultyTag":  "H",
+        "file":  "mapping/places-in-news-current-affairs-mapping.json"
+    }
+]

@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Mahalwari System",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-mahalwari-system-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

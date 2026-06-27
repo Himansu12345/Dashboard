@@ -1,0 +1,91 @@
+{
+  "subject": "Polity",
+  "topic": "Comptroller and Auditor General (CAG) – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "cag-final-001",
+      "q": "Consider the following statements regarding the 'Comptroller' aspect of the CAG's office: 1. The CAG of India has the constitutional power to authorize the withdrawal of money from the Consolidated Fund of India. 2. Unlike the British CAG, the Indian CAG has no control over the issue of money from the exchequer. 3. The Indian CAG conducts the audit strictly after the expenditure has already taken place. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cag-final-002",
+      "q": "Consider the following statements comparing the Regulatory Audit and Propriety Audit conducted by the CAG: 1. The Regulatory Audit, which checks whether expenditure was legally authorized, is constitutionally and legally obligatory. 2. The Propriety Audit, which questions the 'wisdom, faithfulness, and economy' of government expenditure, is purely discretionary. 3. If the CAG finds an expenditure to be legally valid but economically unwise during a Propriety Audit, the executive is legally bound to recover the funds. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cag-final-003",
+      "q": "Consider the following statements regarding the CAG's power to audit public corporations and entities: 1. The Damodar Valley Corporation and the Oil and Natural Gas Commission (ONGC) are audited directly and totally by the CAG. 2. The audit of the Life Insurance Corporation of India (LIC), State Bank of India (SBI), and Reserve Bank of India (RBI) is done exclusively by private professional auditors without any role for the CAG. 3. For all government companies (where the government holds 51% or more share capital), the CAG appoints the statutory auditor and retains the right to conduct a supplementary audit. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cag-final-004",
+      "q": "Consider the following statements regarding limitations on the CAG's auditing powers: 1. The CAG cannot demand detailed vouchers for Secret Service Expenditure and must accept a certificate from the competent administrative authority as final proof. 2. The CAG is constitutionally prohibited from auditing the accounts of Panchayati Raj Institutions under any circumstances. 3. The CAG has no jurisdiction to audit non-governmental organizations (NGOs) even if they are substantially financed by Central or State revenues. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cag-final-005",
+      "q": "Consider the following statements regarding the separation of accounting and auditing functions: 1. In 1976, the CAG was relieved of the responsibility of compiling and maintaining the accounts of the Central Government. 2. Due to the 1976 amendment, the CAG has also been completely relieved of compiling and maintaining the accounts of all State Governments. 3. The specific form in which the accounts of the Centre and the States are kept is prescribed directly by the CAG under Article 150. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cag-final-006",
+      "q": "Consider the following statements ensuring the independence of the CAG: 1. The CAG is strictly barred from holding any further office under the Government of India or any State government after ceasing to hold office. 2. The salary and other conditions of service of the CAG are determined by the President and cannot be altered to his disadvantage. 3. The administrative expenses of the office of the CAG are charged upon the Consolidated Fund of India and are not subject to the vote of Parliament. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cag-final-007",
+      "q": "Consider the following statements regarding the reports submitted by the CAG: 1. The CAG submits exactly three audit reports to the President: on appropriation accounts, on finance accounts, and on public undertakings. 2. The President is constitutionally bound to lay these reports before both the Houses of Parliament. 3. Upon being laid in Parliament, these reports are exclusively examined by the Estimates Committee, with the CAG acting as its 'guide, friend, and philosopher'. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cag-final-008",
+      "q": "Consider the following statements regarding the constitutional position of the CAG: 1. The Constitution of India under Article 148 explicitly fixes the tenure of the CAG at 6 years or until the age of 65 years, whichever is earlier. 2. The CAG is appointed by the President by a warrant under his hand and seal. 3. The CAG can only be removed by the President on the basis of a resolution passed to that effect by both the Houses of Parliament with a special majority. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "cag-final-009",
+      "q": "Under Article 279 of the Constitution, the CAG plays a crucial role in Centre-State financial relations. Consider the following statements: 1. The CAG ascertains and certifies the 'net proceeds' of any tax or duty. 2. 'Net proceeds' means the total yield of the tax minus the cost of its collection. 3. The certificate of the CAG regarding these net proceeds is final and binding. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cag-final-010",
+      "q": "Consider the following statements regarding the administration of the Indian Audit and Accounts Department: 1. The conditions of service of persons serving in the Indian Audit and Accounts Department are prescribed by the CAG directly. 2. No minister can represent the CAG in Parliament (both Houses) during debates on audit reports. 3. No minister can be called upon to take any responsibility for any actions done by the CAG. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "cag-final-011",
+      "q": "The CAG audits all transactions of the Central and state governments related to debt, deposits, funds, and advances. Which of the following funds does the CAG NOT audit by default, unless requested specifically?",
+      "options": { "A": "Consolidated Fund of India", "B": "Contingency Fund of each State", "C": "Public Account of India", "D": "Private accounts of Members of Parliament" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "cag-final-012",
+      "q": "Consider the following statement: 'The CAG shall perform such duties and exercise such powers in relation to the accounts of the Union and of the States as may be prescribed by or under any law made by Parliament.' Which specific legislation was enacted by Parliament to give effect to this constitutional provision?",
+      "options": { "A": "The Comptroller and Auditor General (Duties, Powers and Conditions of Service) Act, 1971", "B": "The Public Financial Management Act, 1976", "C": "The Audit and Accounts Regulation Act, 1956", "D": "The Central Vigilance and Audit Act, 1964" },
+      "answer": "A",
+      "difficulty": "mid"
+    }
+  ]
+}

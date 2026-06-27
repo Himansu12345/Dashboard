@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Aligarh Movement",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-aligarh-movement-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

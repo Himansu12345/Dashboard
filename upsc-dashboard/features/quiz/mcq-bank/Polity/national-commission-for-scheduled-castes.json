@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "National Commission for Scheduled Castes",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-national-commission-for-scheduled-castes-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

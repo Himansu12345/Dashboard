@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Capital Account",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-capital-account-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

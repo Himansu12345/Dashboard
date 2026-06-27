@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Capital Market",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-capital-market-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

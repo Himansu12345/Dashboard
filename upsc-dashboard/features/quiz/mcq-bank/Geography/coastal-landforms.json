@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Coastal Landforms",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-coastal-landforms-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

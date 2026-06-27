@@ -1,0 +1,392 @@
+{
+  "subject": "Polity",
+  "topic": "Tribunals – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "trib-final-001",
+      "q": "Consider the following statements regarding tribunals in India: 1. Article 323A empowers Parliament to provide for the establishment of administrative tribunals. 2. Article 323B empowers the appropriate legislature to provide for tribunals for certain other matters. 3. Article 323A tribunals are exclusive, i.e., they can exclude the jurisdiction of all courts except the Supreme Court under Article 136. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-002",
+      "q": "Under Article 323A, Parliament has established the Central Administrative Tribunal (CAT). Which of the following matters falls within the jurisdiction of CAT?",
+      "options": { "A": "Disputes relating to recruitment and service conditions of public servants", "B": "Criminal cases against public servants", "C": "Election disputes", "D": "Tax disputes" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-003",
+      "q": "Article 323B allows the appropriate legislature to establish tribunals for which of the following matters? 1. Industrial disputes 2. Land reforms 3. Elections to Parliament and State Legislatures 4. Foodstuffs. Select the correct answer:",
+      "options": { "A": "1, 2 and 3 only", "B": "1, 3 and 4 only", "C": "2, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-004",
+      "q": "What is the key difference between tribunals under Article 323A and Article 323B?",
+      "options": { "A": "Only Article 323A tribunals can exclude the jurisdiction of all courts except the Supreme Court; Article 323B tribunals cannot.", "B": "Article 323A tribunals can be established by Parliament alone, while Article 323B tribunals can be established by Parliament and State Legislatures.", "C": "Article 323A deals with service matters; Article 323B deals with criminal matters.", "D": "Article 323A tribunals are subordinate to High Courts; Article 323B tribunals are not." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-005",
+      "q": "The Supreme Court in L. Chandra Kumar vs. Union of India (1997) held that:",
+      "options": { "A": "Tribunals created under Articles 323A and 323B cannot exclude the jurisdiction of High Courts under Articles 226/227, as that would violate the basic structure.", "B": "Tribunals are completely independent of High Courts.", "C": "Appeals from tribunals lie directly to the Supreme Court.", "D": "The power of judicial review by High Courts is not a basic feature." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-006",
+      "q": "After the L. Chandra Kumar judgment, which of the following is the correct hierarchy for appeal from a decision of the Central Administrative Tribunal (CAT)?",
+      "options": { "A": "CAT → High Court (Division Bench) → Supreme Court", "B": "CAT → Supreme Court directly", "C": "CAT → High Court (Single Judge) → Supreme Court", "D": "CAT → President → Supreme Court" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-007",
+      "q": "Which of the following tribunals was established under Article 323A?",
+      "options": { "A": "National Green Tribunal", "B": "Armed Forces Tribunal", "C": "Central Administrative Tribunal", "D": "Income Tax Appellate Tribunal" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-008",
+      "q": "The Chairman and members of the Central Administrative Tribunal are appointed by:",
+      "options": { "A": "The President", "B": "The Prime Minister", "C": "The Chief Justice of India", "D": "The Union Public Service Commission" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-009",
+      "q": "The tenure of the Chairman and members of the CAT is:",
+      "options": { "A": "5 years or until the age of 65, whichever is earlier", "B": "4 years or until the age of 67, whichever is earlier", "C": "5 years or until the age of 70, whichever is earlier", "D": "3 years or until the age of 65, whichever is earlier" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-010",
+      "q": "The Armed Forces Tribunal was established under which Article?",
+      "options": { "A": "Article 323A", "B": "Article 323B", "C": "Article 136", "D": "Article 32" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-011",
+      "q": "The National Green Tribunal (NGT) was established under which statute?",
+      "options": { "A": "The Environment Protection Act, 1986", "B": "The National Green Tribunal Act, 2010", "C": "The Water (Prevention and Control of Pollution) Act, 1974", "D": "The Forest Conservation Act, 1980" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-012",
+      "q": "The NGT is mandated to dispose of cases within how many months of filing?",
+      "options": { "A": "3 months", "B": "6 months", "C": "9 months", "D": "12 months" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-013",
+      "q": "Consider the following statements about the National Green Tribunal: 1. It is a statutory body. 2. It has original jurisdiction over all civil cases involving a substantial question relating to the environment. 3. It follows the principles of natural justice but is not bound by the Civil Procedure Code. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-014",
+      "q": "The Tribunal Reforms Act, 2021 abolished certain tribunals and transferred their jurisdiction to existing courts. Which of the following tribunals was NOT abolished by the Act?",
+      "options": { "A": "Film Certification Appellate Tribunal", "B": "Airport Economic Regulatory Authority Appellate Tribunal", "C": "National Green Tribunal", "D": "Copyright Board" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-015",
+      "q": "The Tribunal Reforms Act, 2021, gives the Central Government the power to make rules regarding the qualifications, appointment, terms, and conditions of service of tribunal members. This was criticized on the ground that:",
+      "options": { "A": "It vests excessive control over tribunals with the executive, potentially affecting their independence.", "B": "It reduces the number of tribunals.", "C": "It enhances judicial independence.", "D": "It abolishes all tribunals." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-016",
+      "q": "Which Article of the Constitution gives the Supreme Court the power to hear appeals from tribunals?",
+      "options": { "A": "Article 32", "B": "Article 136", "C": "Article 226", "D": "Article 143" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-017",
+      "q": "The Supreme Court can transfer cases from one tribunal to another in the interest of justice under:",
+      "options": { "A": "Article 136", "B": "Article 139A", "C": "Article 142", "D": "Article 32" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-018",
+      "q": "Consider the following statements regarding tribunals: 1. They are not bound by the strict rules of evidence as per the Indian Evidence Act. 2. They follow the principles of natural justice. 3. Their decisions are final and cannot be appealed. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-019",
+      "q": "The concept of tribunals was inserted into the Constitution by which Amendment?",
+      "options": { "A": "42nd Amendment, 1976", "B": "44th Amendment, 1978", "C": "1st Amendment, 1951", "D": "24th Amendment, 1971" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-020",
+      "q": "Which of the following tribunals was established to deal with disputes relating to the recovery of debts due to banks and financial institutions?",
+      "options": { "A": "National Green Tribunal", "B": "Debts Recovery Tribunal", "C": "Central Administrative Tribunal", "D": "Securities Appellate Tribunal" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-021",
+      "q": "The Securities Appellate Tribunal (SAT) hears appeals against the orders of:",
+      "options": { "A": "SEBI", "B": "RBI", "C": "IRDAI", "D": "PFRDA" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-022",
+      "q": "The Telecom Disputes Settlement and Appellate Tribunal (TDSAT) was established to adjudicate disputes between:",
+      "options": { "A": "Telecom service providers and consumers", "B": "The government and telecom operators", "C": "Telecom operators inter se and between operators and the government", "D": "Broadcasters only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-023",
+      "q": "Which of the following is correct regarding the composition of the Central Administrative Tribunal?",
+      "options": { "A": "It consists only of judicial members.", "B": "It consists of both judicial and administrative members.", "C": "It consists only of administrative members.", "D": "It is composed of retired judges of the Supreme Court only." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-024",
+      "q": "The power of judicial review by High Courts over tribunals is part of the basic structure. This was established in:",
+      "options": { "A": "S.P. Sampath Kumar vs. Union of India", "B": "L. Chandra Kumar vs. Union of India", "C": "R.K. Jain vs. Union of India", "D": "Union of India vs. R. Gandhi" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-025",
+      "q": "In which of the following cases did the Supreme Court hold that tribunals can be a substitute for High Courts but must have the same independence and efficacy?",
+      "options": { "A": "S.P. Sampath Kumar vs. Union of India", "B": "L. Chandra Kumar vs. Union of India", "C": "Madras Bar Association vs. Union of India (2015)", "D": "Both A and C" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-026",
+      "q": "The Tribunal Reforms Act, 2021, provides that the term of office of Chairperson and members of tribunals shall be:",
+      "options": { "A": "5 years or until the age of 70, whichever is earlier", "B": "4 years or until the age of 67, whichever is earlier", "C": "3 years or until the age of 65, whichever is earlier", "D": "5 years or until the age of 65, whichever is earlier" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-027",
+      "q": "Which of the following tribunals was the first to be established in India under Article 323A?",
+      "options": { "A": "Central Administrative Tribunal (1985)", "B": "Income Tax Appellate Tribunal", "C": "Customs, Excise and Service Tax Appellate Tribunal", "D": "Industrial Tribunal" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-028",
+      "q": "Consider the following statements: 1. The jurisdiction of the Supreme Court under Article 32 cannot be excluded by any tribunal. 2. The jurisdiction of High Courts under Article 226 can be excluded by tribunals under Article 323A. 3. After L. Chandra Kumar, the exclusion of High Courts' jurisdiction under Article 226/227 is unconstitutional. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-029",
+      "q": "The qualifications for appointment as a member of the National Green Tribunal include:",
+      "options": { "A": "A person who is or has been a judge of the Supreme Court or a High Court, or a person with specialized knowledge and experience in environmental matters.", "B": "Only a sitting judge of the Supreme Court.", "C": "Any advocate with 10 years of practice.", "D": "Only retired Supreme Court judges." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-030",
+      "q": "Which of the following tribunals is NOT created under an Act of Parliament?",
+      "options": { "A": "Income Tax Appellate Tribunal", "B": "National Green Tribunal", "C": "Lok Adalat under the Legal Services Authorities Act, 1987", "D": "Armed Forces Tribunal" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-031",
+      "q": "The power of Parliament to establish tribunals for matters other than those specified in Article 323B is derived from:",
+      "options": { "A": "Article 248 (residuary powers) read with Entry 97 of the Union List", "B": "Article 323A", "C": "Article 136", "D": "Article 142" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-032",
+      "q": "Which of the following is true regarding the procedure followed by tribunals?",
+      "options": { "A": "They are strictly bound by the Code of Civil Procedure, 1908.", "B": "They follow their own procedure based on principles of natural justice, subject to statutory rules.", "C": "They follow the Criminal Procedure Code.", "D": "They cannot frame their own rules." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-033",
+      "q": "The decision of the Central Administrative Tribunal can be challenged in the High Court under Article 226/227. The writ jurisdiction of the High Court in such cases is part of:",
+      "options": { "A": "The ordinary law", "B": "The basic structure of the Constitution", "C": "The Directive Principles", "D": "The statutory powers" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-034",
+      "q": "In the Union of India vs. R. Gandhi (2010), the Supreme Court held that the National Company Law Tribunal (NCLT) must have:",
+      "options": { "A": "Only technical members", "B": "A mix of judicial and technical members, with judicial members having a significant role", "C": "Only judicial members", "D": "No members; judges alone" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-035",
+      "q": "The Tribunal Reforms Act, 2021, sought to abolish the Film Certification Appellate Tribunal (FCAT) and transfer its jurisdiction to:",
+      "options": { "A": "High Courts", "B": "Supreme Court", "C": "Central Administrative Tribunal", "D": "National Green Tribunal" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-036",
+      "q": "Which of the following is a characteristic of tribunals that distinguishes them from courts?",
+      "options": { "A": "They are bound by the Code of Civil Procedure.", "B": "They have more flexible procedures, including the power to determine their own procedure.", "C": "They can only interpret laws, not decide facts.", "D": "Their decisions cannot be appealed." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-037",
+      "q": "The National Company Law Tribunal (NCLT) was constituted under the Companies Act, 2013, taking over the jurisdiction of:",
+      "options": { "A": "The Company Law Board", "B": "The Board for Industrial and Financial Reconstruction", "C": "Both A and B", "D": "The Securities and Exchange Board of India" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-038",
+      "q": "The Supreme Court in the Madras Bar Association vs. Union of India (2015) struck down certain provisions of the National Tax Tribunal Act on the ground that:",
+      "options": { "A": "The tribunal lacked judicial members and independence, violating the basic structure.", "B": "The tax matters should be decided by High Courts only.", "C": "The Parliament had no power to create such a tribunal.", "D": "The tribunal was not provided for in the Constitution." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-039",
+      "q": "The minimum age for appointment as a member of the Central Administrative Tribunal is:",
+      "options": { "A": "45 years", "B": "50 years", "C": "No minimum age prescribed; the criterion is qualification.", "D": "55 years" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-040",
+      "q": "Which of the following tribunals was set up under the Armed Forces Tribunal Act, 2007?",
+      "options": { "A": "Central Administrative Tribunal", "B": "Armed Forces Tribunal", "C": "National Security Tribunal", "D": "Defence Appellate Tribunal" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-041",
+      "q": "Consider the following statements about the Armed Forces Tribunal: 1. It adjudicates disputes and complaints regarding service matters of armed forces personnel. 2. It has benches across India. 3. Its decisions can be challenged in the Supreme Court under Article 136. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-042",
+      "q": "The concept of tribunals as quasi-judicial bodies is meant to:",
+      "options": { "A": "Replace the regular court system entirely.", "B": "Provide speedy and specialized justice, reducing the burden on regular courts.", "C": "Increase the workload of the Supreme Court.", "D": "Handle only criminal cases." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-043",
+      "q": "The term 'tribunal' as used in Article 136 of the Constitution has been interpreted by the Supreme Court to include:",
+      "options": { "A": "Only statutory tribunals", "B": "Any body exercising judicial or quasi-judicial functions", "C": "Only constitutional courts", "D": "Only administrative authorities" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-044",
+      "q": "Which of the following is a constitutional provision that empowers the President to establish a tribunal for the adjudication of disputes relating to the election of the President and Vice-President?",
+      "options": { "A": "Article 71", "B": "Article 323A", "C": "Article 329", "D": "Article 136" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-045",
+      "q": "The Industrial Tribunal under the Industrial Disputes Act, 1947, is an example of a tribunal under:",
+      "options": { "A": "Article 323A", "B": "Article 323B", "C": "Neither; it is a pre-constitutional tribunal continued under the Act.", "D": "Article 136" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-046",
+      "q": "Which of the following statements about the Debt Recovery Tribunals (DRTs) is/are correct? 1. They were established under the Recovery of Debts and Bankruptcy Act, 1993. 2. They deal with cases of recovery of debts due to banks and financial institutions. 3. Appeals against DRT orders lie before the Debts Recovery Appellate Tribunal (DRAT).",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-047",
+      "q": "The Supreme Court in L. Chandra Kumar directed that tribunals should be subject to the superintendence of:",
+      "options": { "A": "The respective High Courts under Article 227", "B": "The Supreme Court only", "C": "The President", "D": "The Prime Minister's Office" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-048",
+      "q": "Which of the following tribunals was replaced by the National Company Law Tribunal (NCLT)?",
+      "options": { "A": "Company Law Board", "B": "Securities Appellate Tribunal", "C": "Debt Recovery Tribunal", "D": "Telecom Disputes Settlement and Appellate Tribunal" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-049",
+      "q": "The Chairman of the Central Administrative Tribunal must be:",
+      "options": { "A": "A sitting or retired judge of a High Court", "B": "A sitting or retired judge of the Supreme Court, or a Chief Justice of a High Court", "C": "Any senior advocate", "D": "A retired IAS officer" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-050",
+      "q": "The Tribunal Reforms (Rationalisation and Conditions of Service) Ordinance, 2021 (later Act) allowed the government to prescribe qualifications and service conditions of tribunal members. This was challenged as violating the principle of:",
+      "options": { "A": "Separation of powers and independence of tribunals", "B": "Federalism", "C": "Fundamental Duties", "D": "Directive Principles" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "trib-final-051",
+      "q": "Which of the following is NOT a characteristic of a tribunal?",
+      "options": { "A": "It is a quasi-judicial body.", "B": "Its decisions may be binding and enforceable.", "C": "It must strictly follow the Civil Procedure Code.", "D": "It is created by a statute." },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-052",
+      "q": "The Supreme Court in Madras Bar Association vs. Union of India (2021) upheld the Tribunal Reforms Act, 2021, but read down certain provisions to ensure:",
+      "options": { "A": "A fixed term of 5 years for members", "B": "That the term of office cannot be less than 4 years and the age of retirement not less than 65 years for certain categories", "C": "That only judicial members can be appointed", "D": "That tribunals are abolished" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-053",
+      "q": "The jurisdiction of the Supreme Court under Article 32 can never be excluded, even by a constitutional amendment, because it is part of:",
+      "options": { "A": "The Directive Principles", "B": "The basic structure of the Constitution", "C": "The ordinary law", "D": "The Seventh Schedule" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "trib-final-054",
+      "q": "Article 323B(2) lists the matters for which tribunals may be established. Which of the following is NOT one of those matters?",
+      "options": { "A": "Levy, assessment, collection and enforcement of any tax", "B": "Industrial and labour disputes", "C": "Criminal offences", "D": "Elections to Parliament and State Legislatures" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "trib-final-055",
+      "q": "Consider the following statements: 1. The 42nd Amendment added Part XIVA to the Constitution, containing Articles 323A and 323B. 2. Article 323A provides for tribunals for public service matters only. 3. Article 323B provides for tribunals for a wide range of matters. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    }
+  ]
+}

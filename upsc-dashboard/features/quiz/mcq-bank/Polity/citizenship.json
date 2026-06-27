@@ -1,0 +1,112 @@
+{
+  "subject": "Polity",
+  "topic": "Citizenship – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "citizen-final-001",
+      "q": "Consider the following statements regarding the framework of Indian Citizenship: 1. The Constitution of India comprehensively details the mechanisms for the acquisition and loss of citizenship after January 26, 1950. 2. Article 11 empowers Parliament to make any provision with respect to the acquisition and termination of citizenship. 3. The Citizenship Act, 1955, provides for exactly five ways of acquiring citizenship. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-002",
+      "q": "Consider the following rights guaranteed by the Constitution: 1. The right to equality of opportunity in matters of public employment. 2. The right to freedom of speech and expression. 3. The right to protection of life and personal liberty. How many of the above Fundamental Rights are available exclusively to Indian citizens and completely denied to friendly aliens?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-003",
+      "q": "Consider the following statements regarding an Overseas Citizen of India (OCI) cardholder: 1. An OCI cardholder has the constitutional right to register as a voter in India. 2. An OCI cardholder is permitted to purchase agricultural land and plantation properties in India without RBI permission. 3. An OCI cardholder is exempt from registration with the Foreign Regional Registration Officer (FRRO) for any length of stay in India. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-004",
+      "q": "Consider the following statements regarding the geographical exemptions of the Citizenship (Amendment) Act, 2019: 1. The Act exempts all the tribal areas in the North-Eastern region of India unconditionally. 2. It specifically exempts the tribal areas of Assam, Meghalaya, Mizoram, and Tripura as included in the Sixth Schedule of the Constitution. 3. It exempts the areas regulated through the Inner Line Permit (ILP) system. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-005",
+      "q": "Consider the following statements regarding the loss of Indian citizenship: 1. When an Indian citizen voluntarily acquires the citizenship of another country, his Indian citizenship automatically terminates. 2. The Central Government can legally deprive a person of their Indian citizenship if they have shown disloyalty to the Constitution. 3. A person who acquired Indian citizenship by birth can be deprived of it by the Central Government on grounds of fraud. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-006",
+      "q": "Consider the following statements regarding the eligibility and limitations of Overseas Citizens of India (OCI): 1. A foreign national whose parents or grandparents were citizens of Pakistan or Bangladesh is permanently ineligible for OCI status. 2. An OCI cardholder is constitutionally eligible for appointment as a Judge of the Supreme Court of India. 3. Under Article 16, an OCI cardholder is eligible to hold public services and posts in connection with the affairs of the Union. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-007",
+      "q": "Consider the following statements regarding dual citizenship and constitutional provisions: 1. Article 9 of the Constitution strictly prohibits dual citizenship by stating that no person shall be a citizen of India if they voluntarily acquired the citizenship of a foreign state. 2. The Supreme Court of India recognizes the OCI scheme introduced in 2005 as a legal form of dual citizenship. 3. An Indian citizen can hold dual citizenship if the second citizenship is of a country that offers reciprocal dual citizenship to Indians. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-008",
+      "q": "Consider the following statements regarding the acquisition of citizenship by Naturalization and Registration: 1. A person of Indian origin who is ordinarily resident in India for seven years can acquire citizenship by Naturalization. 2. A foreigner (not of Indian origin) who is married to an Indian citizen can acquire Indian citizenship by Naturalization. 3. The Central Government may waive all conditions for naturalization if the person has rendered distinguished service to the cause of science, philosophy, art, literature, world peace, or human progress. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-009",
+      "q": "Consider the following statements regarding Citizenship by Descent: 1. Prior to 1992, a person born outside India was a citizen by descent only if their father was an Indian citizen at the time of birth. 2. The 1992 amendment granted citizenship by descent if either the father or the mother is a citizen of India at the time of birth. 3. Since December 2004, a person born outside India shall not be a citizen by descent unless their birth is registered at an Indian consulate within one year. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-010",
+      "q": "Consider the following statements regarding the renunciation and termination of citizenship during a war in which India is engaged: 1. If an Indian citizen declares renunciation of their citizenship during such a war, the registration of the declaration shall be withheld by the Central Government. 2. The automatic termination of Indian citizenship (upon acquiring a foreign passport) is kept in abeyance during such a war until the Central Government otherwise directs. 3. When a person legally renounces their Indian citizenship, their minor children automatically retain their Indian citizenship unconditionally. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-011",
+      "q": "Consider the following statements regarding Section 6A of the Citizenship Act, 1955 (related to the Assam Accord): 1. It grants immediate citizenship with voting rights to persons of Indian origin who came to Assam from Bangladesh between January 1, 1966, and March 25, 1971. 2. It mandates that those who entered Assam after March 25, 1971, are to be detected and deported in accordance with law. 3. The Supreme Court recently struck down Section 6A, declaring it violative of the fundamental right to equality (Article 14). How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-012",
+      "q": "Consider the following statements regarding aliens in India: 1. Enemy aliens do not enjoy protection against arrest and detention under Article 22 of the Constitution. 2. Friendly aliens enjoy the right to equality before the law and equal protection of the laws under Article 14. 3. Children of foreign diplomats born in India automatically acquire Indian citizenship by birth due to the jus soli principle. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-013",
+      "q": "Consider the following statements regarding the Citizenship (Amendment) Act, 2019: 1. It reduces the residency requirement for naturalization from 11 years to 5 years for specified persecuted minorities. 2. It grants a pathway to citizenship for persecuted minorities from Pakistan, Bangladesh, Afghanistan, and Myanmar. 3. To be eligible, the individual must have entered India on or before December 31, 2014. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "citizen-final-014",
+      "q": "Consider the following statements regarding Citizenship at the commencement of the Constitution (Articles 5-8): 1. Under Article 5, possessing a 'domicile' in the territory of India was an essential condition for acquiring citizenship. 2. A person who migrated to Pakistan from India after March 1, 1947, but returned to India for resettlement under a permit, could never become an Indian citizen. 3. The Constitution defines the term 'domicile' comprehensively under Part II. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "citizen-final-015",
+      "q": "The Central Government has the statutory power to cancel the registration of an Overseas Citizen of India (OCI) cardholder. Which of the following can act as valid grounds for such cancellation? 1. The OCI cardholder has shown disaffection towards the Constitution of India. 2. The OCI cardholder is sentenced to imprisonment for more than two years within five years of their registration. 3. It is necessary in the interest of the sovereignty and integrity of India. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2, and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    }
+  ]
+}

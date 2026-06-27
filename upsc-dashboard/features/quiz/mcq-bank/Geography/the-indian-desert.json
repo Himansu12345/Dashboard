@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "The Indian Desert",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-the-indian-desert-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

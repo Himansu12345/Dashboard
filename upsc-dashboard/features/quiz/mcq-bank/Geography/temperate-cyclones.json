@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Temperate Cyclones",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-temperate-cyclones-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Regulating Acts",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-regulating-acts-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

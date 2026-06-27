@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Central Vigilance Commission (CVC)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-central-vigilance-commission-cvc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

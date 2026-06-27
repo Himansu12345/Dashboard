@@ -1,0 +1,112 @@
+{
+  "subject": "Polity",
+  "topic": "Election Commission – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "ec-final-001",
+      "q": "Consider the following statements regarding the 'Chief Election Commissioner and Other Election Commissioners Act, 2023': 1. The Selection Committee is chaired by the Prime Minister and includes the Chief Justice of India and the Leader of the Opposition in the Lok Sabha. 2. A Search Committee headed by the Cabinet Secretary prepares a panel of five persons for consideration by the Selection Committee. 3. The Selection Committee is legally empowered to consider and appoint any person as CEC or EC, even if their name is not included in the Search Committee’s panel. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-002",
+      "q": "Consider the following statements regarding the constitutional safeguards provided to the members of the Election Commission: 1. The Chief Election Commissioner (CEC) can only be removed from office in the same manner and on the same grounds as a judge of the Supreme Court. 2. Any other Election Commissioner can be removed by the President solely on the recommendation of the CEC. 3. Regional Commissioners appointed to assist the Election Commission hold office during the pleasure of the President and do not require the CEC's recommendation for removal. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-003",
+      "q": "Consider the following statements regarding the Election Commission's role in the disqualification of legislators: 1. On matters of disqualification of a Member of Parliament under Article 102 (e.g., holding an office of profit), the President is constitutionally bound to act according to the EC's opinion. 2. The EC provides binding advice to the Governor of a state regarding the disqualification of a Member of the State Legislative Assembly. 3. If an MP is disqualified under the Tenth Schedule (Anti-Defection Law), the Election Commission acts as the final appellate authority. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-004",
+      "q": "Consider the following statements regarding the registration and deregistration of political parties: 1. The Election Commission of India has the explicit statutory power to register political parties under the Representation of the People Act, 1951. 2. The Election Commission possesses the explicit statutory power to deregister a political party if it violates the Model Code of Conduct. 3. According to Supreme Court judgments, the EC can deregister a party if it obtained its registration by fraud or forgery. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-005",
+      "q": "Consider the following statements regarding the State Election Commission (SEC): 1. The SEC works under the overall supervision and control of the Election Commission of India to ensure uniformity in state-level elections. 2. The Election Commission of India has absolutely no role in the conduct of elections to Panchayats and Municipalities. 3. A State Election Commissioner can only be removed in the same manner and on the same grounds as a Judge of a High Court. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-006",
+      "q": "Consider the following statements regarding the constitutional provisions for the Election Commission under Article 324: 1. The Constitution explicitly prescribes the educational, administrative, and judicial qualifications for the members of the Election Commission. 2. The Constitution specifies the term of the members of the Election Commission as six years or until the age of 65 years. 3. The Constitution explicitly debars retiring Election Commissioners from any further appointment under the Government of India or a State Government. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-007",
+      "q": "Consider the following statements regarding the multi-member structure of the Election Commission: 1. The Constitution mandates that the Election Commission must always be a multi-member body consisting of a CEC and at least two other ECs. 2. When any other Election Commissioner is appointed, the Chief Election Commissioner automatically acts as the Chairman of the Election Commission. 3. In case of a difference of opinion between the CEC and other ECs, the view of the CEC supersedes the others due to their constitutional status. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-008",
+      "q": "Consider the following statements regarding the Model Code of Conduct (MCC): 1. The MCC comes into force immediately the moment the Election Commission announces the schedule of elections. 2. The MCC is a comprehensive statutory document codified entirely under the Representation of the People Act, 1951. 3. The Election Commission can legally ban a political party from contesting elections solely for a severe violation of the MCC. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-009",
+      "q": "Consider the following statements regarding Delimitation and Electoral Rolls: 1. The orders of the Delimitation Commission have the force of law and cannot be challenged in any court. 2. The Election Commission determines the territorial areas of electoral constituencies based on the Delimitation Commission Act. 3. The preparation and revision of electoral rolls for Panchayat elections is the constitutional responsibility of the Election Commission of India. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-010",
+      "q": "Consider the following statements regarding the adjudicatory functions of the Election Commission: 1. The Election Commission acts as a court for settling disputes relating to granting recognition to political parties and allotting election symbols. 2. In the event of a split in a recognised political party, the EC's decision regarding the party symbol is final and binding. 3. The Supreme Court is constitutionally barred from interfering in the EC's symbol allotment decisions. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-011",
+      "q": "Under the new 'Chief Election Commissioner and Other Election Commissioners Act, 2023', the salary, allowances, and service conditions of the CEC and other ECs are equated to that of:",
+      "options": { "A": "A Cabinet Secretary to the Government of India", "B": "A Judge of the Supreme Court of India", "C": "The Comptroller and Auditor General of India", "D": "A Secretary to the Government of India" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ec-final-012",
+      "q": "Consider the following statements regarding the administrative powers of the Election Commission during the election period: 1. The EC has the power to issue binding directions to the central and state governments to transfer administrative and police officials. 2. It is the constitutional duty of the President or the Governor to make available to the EC such staff as may be necessary upon request. 3. The EC can unilaterally impose President's Rule in a state if it determines that free and fair elections are impossible due to widespread violence. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-013",
+      "q": "Consider the following statements regarding voting rights and EVM-VVPAT mechanics: 1. Under the Conduct of Election Rules, in case of a discrepancy between the EVM machine count and the VVPAT slip count, the EVM count prevails as final. 2. A person confined in a prison under a sentence of imprisonment is legally prohibited from voting in an election. 3. Persons subjected to preventive detention are completely barred from casting their vote in any form. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-014",
+      "q": "Consider the following statements regarding the Election Commission's role in Emergency provisions: 1. Under Article 356, President's Rule in a state can be extended beyond one year only if a National Emergency is in operation AND the Election Commission certifies that elections cannot be held. 2. The Election Commission's certification power regarding the impossibility of holding elections also applies to extending a National Emergency (Article 352). 3. The EC has the absolute power to postpone a scheduled election indefinitely if it is not satisfied with the state government's security arrangements. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ec-final-015",
+      "q": "Which of the following elections fall under the exclusive constitutional mandate of the Election Commission of India? 1. Elections to the office of the President. 2. Elections to the office of the Vice-President. 3. Elections to the State Legislative Councils. 4. Elections to the District Planning Committees. Select the correct answer using the code below:",
+      "options": { "A": "1 and 2 only", "B": "1, 2, and 3 only", "C": "1, 2, and 4 only", "D": "1, 2, 3, and 4" },
+      "answer": "B",
+      "difficulty": "easy"
+    }
+  ]
+}

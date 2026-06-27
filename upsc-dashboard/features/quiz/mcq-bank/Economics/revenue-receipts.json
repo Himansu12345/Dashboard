@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Revenue Receipts",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-revenue-receipts-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

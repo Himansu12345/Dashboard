@@ -1,0 +1,182 @@
+{
+  "subject": "Polity",
+  "topic": "Centre-State Financial Relations – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "fin-rel-final-001",
+      "q": "Consider the following statements regarding the Goods and Services Tax (GST) Council under Article 279A: 1. The vote of the Central Government has a weightage of one-third of the total votes cast. 2. The votes of all the State Governments combined have a weightage of two-thirds of the total votes cast. 3. Any decision of the Council requires a majority of not less than three-fourths of the weighted votes of the members present and voting. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-002",
+      "q": "Consider the following statements regarding Surcharges under Article 271: 1. Parliament can at any time increase any of the central taxes or duties by a surcharge for the purposes of the Union. 2. The entire proceeds of any such surcharge go exclusively to the Centre and do not form part of the divisible pool. 3. Parliament is empowered to levy a surcharge on the Goods and Services Tax (GST). How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-003",
+      "q": "Consider the following statements regarding State borrowing powers under Article 293: 1. A State can borrow money from foreign governments or international institutions directly, provided it has the prior consent of the RBI. 2. A State cannot raise any new loan without the consent of the Government of India if any part of a previous loan from the Centre remains outstanding. 3. The Centre can impose conditions while giving consent to a State to raise a new loan. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-004",
+      "q": "Consider the following statements comparing Article 275 and Article 282 of the Constitution: 1. Grants under Article 275 are statutory and given only on the recommendation of the Finance Commission. 2. Grants under Article 282 are discretionary, and the Union is not strictly bound to give them. 3. Only the Union can make grants under Article 282; States do not have the power to make discretionary grants. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-005",
+      "q": "Consider the following statements regarding the mutual tax immunity between the Centre and the States (Articles 285 & 289): 1. The property of the Union is exempt from all taxes imposed by a State or local authority. 2. The property and income of a State are exempt from Union taxation. 3. Parliament can pass a law allowing the Centre to tax the income of a State derived from commercial trade or business. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-006",
+      "q": "Under the 101st Constitutional Amendment Act, Integrated Goods and Services Tax (IGST) is governed by Article 269A. Consider the following statements: 1. IGST is levied and collected solely by the Centre. 2. The proceeds of IGST are apportioned between the Centre and the States on the recommendation of the Finance Commission. 3. The share of IGST apportioned to a State does not form part of the Consolidated Fund of India. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-007",
+      "q": "Consider the following statements regarding the 'Net Proceeds' of taxes: 1. 'Net proceeds' means the total proceeds of a tax minus the cost of its collection. 2. The net proceeds of any tax or duty are ascertained and certified by the Finance Commission. 3. The certificate regarding net proceeds is final and cannot be challenged in a court of law. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-008",
+      "q": "Consider the following statements regarding the Finance Commission (Article 280): 1. The Constitution specifically details the exact qualifications for the members of the Finance Commission. 2. It recommends the measures needed to augment the Consolidated Fund of a State to supplement the resources of Panchayats. 3. Its recommendations are purely advisory and not legally binding on the Government. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-009",
+      "q": "What happens to the constitutional distribution of revenues during a National Emergency (Article 352)?",
+      "options": { "A": "The distribution is automatically suspended, and all revenues flow to the Centre.", "B": "The President can modify the constitutional distribution of revenues by an executive order.", "C": "Parliament must pass a law to alter the revenue sharing mechanism.", "D": "The distribution cannot be altered under any circumstances to preserve federalism." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fin-rel-final-010",
+      "q": "Consider the following statements regarding a Presidential Order modifying the distribution of revenues during a National Emergency: 1. Such an order must be laid before both Houses of Parliament. 2. It ceases to operate immediately when the National Emergency is revoked. 3. It can extend, at maximum, up to the end of the financial year in which the Emergency ceases to operate. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-011",
+      "q": "Consider the following statements regarding taxes levied by the Centre but collected and appropriated by the States (Article 268): 1. Stamp duties on bills of exchange and promissory notes fall under this category. 2. Service tax is currently collected and appropriated by the States under this Article. 3. The proceeds of these taxes form part of the Consolidated Fund of India before being transferred to the States. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-012",
+      "q": "Consider the following statements regarding the 'Divisible Pool' of taxes: 1. Corporation tax is included in the divisible pool to be shared with the States. 2. Any cess levied for specific purposes is excluded from the divisible pool. 3. The surcharge on income tax is shared with the States based on Finance Commission recommendations. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-013",
+      "q": "Under Article 276, the State legislature can impose taxes on professions, trades, callings, and employments. Consider the following statements: 1. The total amount payable by any person cannot exceed Rs. 2,500 per annum. 2. This tax is legally invalid because it constitutes a tax on income, which is exclusively a Union subject. 3. Parliament can increase this Rs. 2,500 limit by a simple law. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-014",
+      "q": "Consider the following statements regarding the taxation of electricity (Articles 287 and 288): 1. A State cannot tax electricity consumed by the Government of India. 2. A State cannot tax electricity consumed in the operation of any railway by a railway company. 3. Parliament can override these exemptions by making a specific law. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-015",
+      "q": "Consider the following restrictions on the State's power to tax the sale or purchase of goods (Article 286): 1. A State cannot tax the supply of goods taking place outside the state. 2. A State cannot tax the supply of goods in the course of import into or export out of India. 3. Only Parliament can formulate principles to determine when a supply of goods takes place in the course of inter-state trade. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fin-rel-final-016",
+      "q": "Consider the following statements regarding the establishment of the GST Council: 1. It was established by an Act of Parliament passed under Article 246A. 2. The President is mandated to constitute the GST Council within 60 days of the commencement of the 101st Amendment Act. 3. The Union Revenue Secretary acts as the ex-officio Secretary to the GST Council. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-017",
+      "q": "Under the 101st Amendment, which of the following items is/are permanently kept OUTSIDE the purview of GST by the Constitution itself? 1. Alcoholic liquor for human consumption 2. Petroleum crude and Motor spirit (Petrol) 3. Aviation turbine fuel. Select the correct answer:",
+      "options": { "A": "1 only", "B": "2 and 3 only", "C": "1, 2, and 3", "D": "None of the above" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-018",
+      "q": "Consider the following statements regarding borrowing by the Centre (Article 292): 1. The executive power of the Union extends to borrowing either within or outside India. 2. The Centre's borrowing is secured upon the Consolidated Fund of India. 3. The Constitution itself fixes an absolute upper limit on the borrowing power of the Centre as a percentage of GDP. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-019",
+      "q": "Which of the following falls under the Exclusive Original Jurisdiction of the Supreme Court under Article 131? 1. A dispute between the Centre and a State regarding the constitutional limits of borrowing. 2. A dispute arising out of any recommendation of the GST Council. 3. A dispute regarding the sharing of waters of an inter-state river. Select the correct answer:",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2, and 3" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-020",
+      "q": "Consider the following statements regarding the GST Compensation Cess: 1. It was introduced to compensate states for the loss of revenue arising on account of the implementation of GST. 2. The proceeds of this cess are first credited to the Consolidated Fund of India and then transferred to the GST Compensation Fund. 3. The cess was constitutionally mandated to be levied for a maximum period of exactly five years, beyond which it cannot be extended under any circumstance. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-021",
+      "q": "Which of the following taxes is/are exclusively assigned to the State Legislature in the State List? 1. Taxes on agricultural income. 2. Taxes on the consumption or sale of electricity. 3. Capitation taxes. How many of the above are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "fin-rel-final-022",
+      "q": "Consider the following statements regarding the mutual exemption of property from taxation: 1. The property of local authorities (municipalities, panchayats) within a State is automatically exempt from Union taxation. 2. The Supreme Court has ruled that the immunity granted to a State in respect of Union taxation extends only to direct taxes, not indirect taxes like customs duties. 3. Parliament can declare any commercial activity of a State to be incidental to the ordinary functions of government, thereby exempting it from Union taxation. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-rel-final-023",
+      "q": "Regarding the quorum and dispute resolution in the GST Council, consider the following: 1. One-half of the total number of Members of the GST Council constitutes the quorum at its meetings. 2. The GST Council is constitutionally required to establish a mechanism to adjudicate any dispute arising out of its recommendations. 3. Only the Supreme Court can act as the adjudicating authority for GST Council disputes. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-024",
+      "q": "The Constitution makes a specific provision under Article 275(1) regarding grants-in-aid for the welfare of Scheduled Tribes. These grants are:",
+      "options": { "A": "Charged on the Consolidated Fund of India.", "B": "Voted upon by Parliament annually as a part of the discretionary budget.", "C": "Paid directly out of the Public Account of India.", "D": "Transferred exclusively via the GST Compensation Fund." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-rel-final-025",
+      "q": "Consider the following statements regarding the Financial Emergency (Article 360) and Centre-State relations: 1. The President can mandate the reduction of salaries of all or any class of persons serving the State. 2. The President can require all money bills passed by the State legislature to be reserved for his consideration. 3. The executive authority of the Union extends to giving directions to the State to observe such canons of financial propriety as specified in the directions. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "easy"
+    }
+  ]
+}

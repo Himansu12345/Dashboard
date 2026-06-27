@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Fluvial Landforms",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-fluvial-landforms-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

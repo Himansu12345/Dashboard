@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "IUCN Red List Categories",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-iucn-red-list-categories-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

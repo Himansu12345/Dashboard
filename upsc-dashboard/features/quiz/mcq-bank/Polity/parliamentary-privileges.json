@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Parliamentary Privileges",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-parliamentary-privileges-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

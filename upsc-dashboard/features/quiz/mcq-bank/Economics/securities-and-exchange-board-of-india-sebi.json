@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Securities and Exchange Board of India (SEBI)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-securities-and-exchange-board-of-india-sebi-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Public Policy",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-public-policy-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

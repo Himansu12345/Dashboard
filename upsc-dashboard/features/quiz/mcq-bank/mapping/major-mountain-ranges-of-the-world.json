@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Major Mountain Ranges of the World",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-major-mountain-ranges-of-the-world-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

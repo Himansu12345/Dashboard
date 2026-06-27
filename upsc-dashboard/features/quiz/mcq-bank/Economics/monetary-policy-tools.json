@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Monetary Policy Tools",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-monetary-policy-tools-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

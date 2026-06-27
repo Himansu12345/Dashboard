@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Geological History of India",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-geological-history-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

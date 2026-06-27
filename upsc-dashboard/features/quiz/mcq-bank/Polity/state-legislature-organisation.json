@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "State Legislature - Organisation",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-state-legislature-organisation-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

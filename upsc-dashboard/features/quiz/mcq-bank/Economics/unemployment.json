@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Unemployment",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-unemployment-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

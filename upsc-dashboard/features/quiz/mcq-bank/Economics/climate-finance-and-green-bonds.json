@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Climate Finance and Green Bonds",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-climate-finance-and-green-bonds-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Budget",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-budget-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

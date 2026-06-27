@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Origin of the Universe",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-origin-of-the-universe-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

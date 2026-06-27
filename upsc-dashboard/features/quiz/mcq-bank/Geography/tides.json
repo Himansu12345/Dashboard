@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Tides",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-tides-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

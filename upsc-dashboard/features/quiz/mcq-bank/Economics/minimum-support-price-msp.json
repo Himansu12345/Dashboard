@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Minimum Support Price (MSP)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-minimum-support-price-msp-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

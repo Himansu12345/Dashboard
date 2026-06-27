@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Waterfalls of India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-waterfalls-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

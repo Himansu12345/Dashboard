@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "The Coastal Plains",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-the-coastal-plains-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

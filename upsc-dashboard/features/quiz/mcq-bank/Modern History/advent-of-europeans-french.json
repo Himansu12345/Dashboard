@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Advent of Europeans - French",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-advent-of-europeans-french-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

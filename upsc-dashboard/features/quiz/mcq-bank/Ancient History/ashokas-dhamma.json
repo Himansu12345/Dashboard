@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Ashoka\u0027s Dhamma",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-ashokas-dhamma-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

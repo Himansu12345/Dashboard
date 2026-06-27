@@ -1,0 +1,247 @@
+{
+  "subject": "Polity",
+  "topic": "Advocate General of the State – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "ag-001",
+      "q": "Consider the following statements regarding the Advocate General of the State: 1. The office is created by Article 165 of the Constitution. 2. He is the highest law officer in the state. 3. He is appointed by the President of India on the advice of the Chief Minister. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-002",
+      "q": "To be appointed as the Advocate General, a person must be qualified to be appointed as a judge of:",
+      "options": {
+        "A": "The Supreme Court",
+        "B": "A High Court",
+        "C": "A District Court",
+        "D": "Any subordinate court"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ag-003",
+      "q": "Consider the tenure of the Advocate General: 1. The Constitution has fixed the term of office for the Advocate General. 2. He holds office during the pleasure of the Governor. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-004",
+      "q": "Regarding the resignation of the Advocate General, he submits his resignation to:",
+      "options": {
+        "A": "The Chief Minister",
+        "B": "The Chief Justice of the High Court",
+        "C": "The Governor",
+        "D": "The Speaker of the Legislative Assembly"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ag-005",
+      "q": "Consider the rights of the Advocate General in the State Legislature: 1. He has the right to speak and take part in the proceedings of both Houses of the State Legislature. 2. He has the right to vote in the proceedings of the House. 3. He enjoys the same privileges and immunities as a member of the State Legislature. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-006",
+      "q": "Who fixes the remuneration of the Advocate General?",
+      "options": {
+        "A": "The State Legislature",
+        "B": "The Governor",
+        "C": "The Chief Minister",
+        "D": "The Law Minister"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-007",
+      "q": "Can the Advocate General defend a person in a criminal case?",
+      "options": {
+        "A": "No, he is strictly prohibited.",
+        "B": "Yes, without any restrictions.",
+        "C": "Yes, but only with the permission of the State Government.",
+        "D": "Only if the person is a government official."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ag-008",
+      "q": "Can the Advocate General advise or hold a brief against the State Government?",
+      "options": {
+        "A": "Yes, in private capacity.",
+        "B": "No, he is prohibited from advising or holding a brief against the State Government.",
+        "C": "Yes, if the Governor permits.",
+        "D": "Yes, provided the case is not in the Supreme Court."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ag-009",
+      "q": "Is the Advocate General a full-time counsel for the Government?",
+      "options": {
+        "A": "Yes, he is a government servant.",
+        "B": "No, he is not a government servant and is allowed to practice privately, subject to restrictions.",
+        "C": "Yes, his entire time must be devoted to government work.",
+        "D": "Only if the state has a high volume of litigation."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-010",
+      "q": "Conventionally, what happens to the Advocate General when the State Council of Ministers resigns or is replaced?",
+      "options": {
+        "A": "He continues in office regardless of the government change.",
+        "B": "He conventionally resigns, as he is appointed on the recommendation of the government of the day.",
+        "C": "He is automatically removed by the President.",
+        "D": "The High Court decides his term."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-011",
+      "q": "The duties of the Advocate General include: 1. To give advice to the Government of the State upon such legal matters as are referred to him by the Governor. 2. To perform such other duties of a legal character that are referred to him by the Governor. 3. To discharge the functions conferred on him by the Constitution or any other law. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-012",
+      "q": "Can the Advocate General participate in the proceedings of a committee of the State Legislature if named as a member?",
+      "options": {
+        "A": "No, he is barred from committee proceedings.",
+        "B": "Yes, he has the right to speak and take part in the proceedings of any committee.",
+        "C": "Only if the Chief Minister permits.",
+        "D": "Only if the Speaker allows."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ag-013",
+      "q": "Which of the following is true about the status of the Advocate General vis-a-vis the State Government?",
+      "options": {
+        "A": "He is a member of the Council of Ministers.",
+        "B": "He is not a member of the Council of Ministers.",
+        "C": "He is the head of the State Law Commission.",
+        "D": "He is the legal advisor to the Governor, not the government."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ag-014",
+      "q": "Does the Advocate General have the right of audience in any court in the state?",
+      "options": {
+        "A": "No, only in the High Court.",
+        "B": "Yes, in the performance of his duties, he has the right of audience in all courts in the territory of the state.",
+        "C": "Only in the Supreme Court.",
+        "D": "Only with the permission of the High Court."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-015",
+      "q": "If the State Government is a party in a case in the High Court, the Advocate General:",
+      "options": {
+        "A": "Must represent the state personally in every case.",
+        "B": "May appear, but he is not legally mandated to appear in every single case personally.",
+        "C": "Is prohibited from appearing in court.",
+        "D": "Delegates all work to the Solicitor General."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "ag-016",
+      "q": "The Attorney General (Union) vs Advocate General (State) comparison: 1. AG is appointed by the President; AG(State) is appointed by the Governor. 2. Both hold office during the pleasure of the respective appointing authorities. 3. Both are members of their respective legislatures. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-017",
+      "q": "The Advocate General's office is: ",
+      "options": {
+        "A": "A Statutory Office.",
+        "B": "A Constitutional Office.",
+        "C": "An Executive Office created by notification.",
+        "D": "A body corporate."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "ag-018",
+      "q": "Is the Advocate General entitled to receive the salary of a Minister?",
+      "options": {
+        "A": "Yes, he is treated as a Minister.",
+        "B": "No, his remuneration is determined by the Governor and is not the same as a Minister's salary.",
+        "C": "Yes, but only if he is a member of the legislature.",
+        "D": "No, he receives a fixed salary determined by the High Court."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-019",
+      "q": "Consider the following statements: 1. The Advocate General can be removed by the Governor at any time. 2. The Advocate General can be removed by the State Legislature via a resolution. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "ag-020",
+      "q": "The Advocate General represents the State in:",
+      "options": {
+        "A": "Supreme Court cases involving the State.",
+        "B": "High Court cases involving the State.",
+        "C": "Any court in the state in which the State Government is a party.",
+        "D": "All of the above."
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    }
+  ]
+}

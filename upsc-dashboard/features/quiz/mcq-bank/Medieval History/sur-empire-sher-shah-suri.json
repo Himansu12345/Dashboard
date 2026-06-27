@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Sur Empire (Sher Shah Suri)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-sur-empire-sher-shah-suri-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

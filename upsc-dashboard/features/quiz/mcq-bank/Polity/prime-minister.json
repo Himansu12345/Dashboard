@@ -1,0 +1,667 @@
+{
+  "subject": "Polity",
+  "topic": "Prime Minister – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "pm-final-001",
+      "q": "The Prime Minister is appointed by the President under Article 75. In making this appointment, the President is normally guided by the convention that:",
+      "options": {
+        "A": "He can appoint any citizen as Prime Minister",
+        "B": "The leader of the party or coalition commanding a majority in the Lok Sabha is appointed",
+        "C": "The outgoing Prime Minister nominates a successor",
+        "D": "The Speaker of the Lok Sabha recommends a name"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-002",
+      "q": "Consider the following statements regarding a person who is not a member of either House of Parliament being appointed as Prime Minister: 1. He can be appointed if he is qualified to be a member of Parliament. 2. He must become a member of either House within six months. 3. He can remain Prime Minister for the full term without becoming a member if the President permits. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 only",
+        "C": "2 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-003",
+      "q": "Which Article provides that the Council of Ministers shall be collectively responsible to the Lok Sabha?",
+      "options": {
+        "A": "Article 74(1)",
+        "B": "Article 75(3)",
+        "C": "Article 77(3)",
+        "D": "Article 78"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-004",
+      "q": "The Prime Minister's position of 'first among equals' implies:",
+      "options": {
+        "A": "He is superior to all ministers in rank and can overrule them",
+        "B": "He is the head of the government but his position is that of a leader of a team, not a dictator",
+        "C": "He has no special powers and is merely a coordinator",
+        "D": "He is subordinate to the Council of Ministers"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-005",
+      "q": "The Prime Minister's duty to communicate to the President all decisions of the Council of Ministers and to furnish information relating to administration is provided under:",
+      "options": {
+        "A": "Article 74",
+        "B": "Article 75",
+        "C": "Article 78",
+        "D": "Article 77"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-006",
+      "q": "If the Prime Minister resigns, the Council of Ministers:",
+      "options": {
+        "A": "Continues until a new Prime Minister is appointed",
+        "B": "Automatically stands dissolved",
+        "C": "Continues as a caretaker government until the President accepts the resignation",
+        "D": "Is taken over by the President"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-007",
+      "q": "Which of the following is NOT a constitutional duty of the Prime Minister?",
+      "options": {
+        "A": "To communicate to the President all decisions of the Council of Ministers",
+        "B": "To furnish information relating to administration of Union affairs as the President may call for",
+        "C": "To preside over joint sittings of Parliament",
+        "D": "To submit for consideration of the Council any matter on which a minister has taken a decision but which has not been considered by the Council, if the President so requires"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-008",
+      "q": "The Prime Minister can be removed from office by:",
+      "options": {
+        "A": "Impeachment by Parliament",
+        "B": "A vote of no-confidence passed by the Lok Sabha",
+        "C": "The President at his discretion",
+        "D": "A resolution passed by the Rajya Sabha"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-009",
+      "q": "Which of the following statements about the Prime Minister's relationship with the President is correct?",
+      "options": {
+        "A": "The President is bound to accept all advice of the Prime Minister",
+        "B": "The President may require the Council of Ministers to reconsider its advice, but must act in accordance with the advice tendered after such reconsideration",
+        "C": "The President can dismiss the Prime Minister at any time",
+        "D": "The Prime Minister need not communicate Cabinet decisions to the President"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-010",
+      "q": "The Prime Minister can ask any minister to resign. If the minister refuses, the Prime Minister can advise the President to dismiss the minister. This power is derived from:",
+      "options": {
+        "A": "Article 75(1)",
+        "B": "Article 75(2)",
+        "C": "Convention",
+        "D": "The Rules of Business"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-011",
+      "q": "The Prime Minister allocates and reshuffles portfolios among ministers. This power:",
+      "options": {
+        "A": "Is explicitly given by the Constitution",
+        "B": "Is derived from the Transaction of Business Rules and conventions",
+        "C": "Is exercised by the President on the advice of the Prime Minister",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-012",
+      "q": "The Prime Minister presides over meetings of the:",
+      "options": {
+        "A": "Council of Ministers",
+        "B": "Cabinet",
+        "C": "Both A and B",
+        "D": "Rajya Sabha"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-013",
+      "q": "The Prime Minister is the ex-officio Chairman of:",
+      "options": {
+        "A": "NITI Aayog",
+        "B": "National Development Council (defunct)",
+        "C": "Both A and B",
+        "D": "Finance Commission"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-014",
+      "q": "Which of the following is the Prime Minister NOT the Chairman of?",
+      "options": {
+        "A": "Inter-State Council",
+        "B": "National Integration Council",
+        "C": "GST Council",
+        "D": "National Board for Wildlife"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-015",
+      "q": "The Prime Minister's Office (PMO) is:",
+      "options": {
+        "A": "A constitutional body created by Article 74",
+        "B": "A statutory body created by an Act of Parliament",
+        "C": "An extra-constitutional and non-statutory body created by the government",
+        "D": "Part of the Cabinet Secretariat"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-016",
+      "q": "The oath of office and secrecy to the Prime Minister is administered by the President. The form of oath is given in:",
+      "options": {
+        "A": "First Schedule",
+        "B": "Second Schedule",
+        "C": "Third Schedule",
+        "D": "Fourth Schedule"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-017",
+      "q": "The Prime Minister holds office during the pleasure of the President. This means:",
+      "options": {
+        "A": "The President can dismiss the Prime Minister at any time without reason",
+        "B": "The Prime Minister enjoys the President's confidence only as long as he enjoys the confidence of the Lok Sabha",
+        "C": "The President can remove the Prime Minister for violation of the Constitution",
+        "D": "The Prime Minister has a fixed term of five years"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-018",
+      "q": "The salary and allowances of the Prime Minister are determined by Parliament by law. They are:",
+      "options": {
+        "A": "Charged on the Consolidated Fund of India",
+        "B": "Voted by Parliament each year",
+        "C": "Paid from the President's salary",
+        "D": "Not taxable"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-019",
+      "q": "Consider the following statements regarding the Prime Minister's role in the appointment of judges: 1. The Prime Minister recommends names to the President. 2. The advice is based on the recommendations of the collegium of judges. 3. The Prime Minister has sole discretion in judicial appointments.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 only",
+        "C": "2 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-020",
+      "q": "The Prime Minister can advise the President to dissolve the Lok Sabha. This advice is:",
+      "options": {
+        "A": "Always binding on the President",
+        "B": "Binding if the Prime Minister enjoys majority support in the Lok Sabha",
+        "C": "Subject to the approval of the Rajya Sabha",
+        "D": "Not binding; the President can refuse in all circumstances"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-021",
+      "q": "Who among the following Prime Ministers was a member of the Rajya Sabha during their entire tenure as Prime Minister?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Indira Gandhi",
+        "C": "Manmohan Singh",
+        "D": "Atal Bihari Vajpayee"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-022",
+      "q": "The Prime Minister is the 'keystone of the cabinet arch'. This phrase was used by:",
+      "options": {
+        "A": "Lord Morley",
+        "B": "Sir Ivor Jennings",
+        "C": "Granville Austin",
+        "D": "Harold Laski"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-023",
+      "q": "The Prime Minister can be removed through a no-confidence motion. The motion must be supported by at least:",
+      "options": {
+        "A": "50 members of the Lok Sabha to be taken up for discussion",
+        "B": "One-tenth of the total membership of the Lok Sabha",
+        "C": "100 members",
+        "D": "No minimum support is required; the Speaker can admit any no-confidence motion"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-024",
+      "q": "The Prime Minister's duty to keep the President informed serves the purpose of:",
+      "options": {
+        "A": "Enabling the President to exercise his discretion",
+        "B": "Allowing the President to be a ceremonial head only",
+        "C": "Enabling the President to be aware of government decisions and offer advice if necessary",
+        "D": "Making the President subordinate to the Prime Minister"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-025",
+      "q": "Which of the following is NOT a power of the Prime Minister?",
+      "options": {
+        "A": "Allocating portfolios to ministers",
+        "B": "Presiding over joint sittings of Parliament",
+        "C": "Advising the President on the dissolution of the Lok Sabha",
+        "D": "Recommending the appointment of the Attorney General"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-026",
+      "q": "The Prime Minister is the Chairman of the:",
+      "options": {
+        "A": "Cabinet Committee on Security",
+        "B": "Cabinet Committee on Economic Affairs",
+        "C": "Both A and B are usually chaired by the Prime Minister",
+        "D": "All cabinet committees are chaired by the Prime Minister"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-027",
+      "q": "The Prime Minister's role in foreign policy is:",
+      "options": {
+        "A": "Advisory; the President conducts foreign policy",
+        "B": "Central and decisive as the head of government",
+        "C": "Limited to economic agreements",
+        "D": "Non-existent"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-028",
+      "q": "Which Article explicitly provides that the Council of Ministers with the Prime Minister at the head shall aid and advise the President?",
+      "options": {
+        "A": "Article 74",
+        "B": "Article 75",
+        "C": "Article 77",
+        "D": "Article 78"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-029",
+      "q": "The Prime Minister can declare an emergency under Article 352 only on the basis of:",
+      "options": {
+        "A": "His own satisfaction",
+        "B": "A written recommendation of the Cabinet",
+        "C": "A resolution of the Lok Sabha",
+        "D": "The advice of the Chief Justice of India"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-030",
+      "q": "The Prime Minister is the head of the Union Council of Ministers, which consists of:",
+      "options": {
+        "A": "Cabinet Ministers, Ministers of State, and Deputy Ministers",
+        "B": "Only Cabinet Ministers",
+        "C": "All Members of Parliament from the ruling party",
+        "D": "Cabinet Ministers and Ministers of State only"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-031",
+      "q": "The Prime Minister's decision to recommend the dissolution of the Lok Sabha before the expiry of its term is:",
+      "options": {
+        "A": "A matter of his personal discretion",
+        "B": "Subject to the approval of the President, who conventionally accepts the advice if the PM has majority support",
+        "C": "Mandatory only during an emergency",
+        "D": "Not permitted under the Constitution"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-032",
+      "q": "Which of the following Prime Ministers headed a minority government that proved its majority later?",
+      "options": {
+        "A": "P.V. Narasimha Rao (1991)",
+        "B": "Atal Bihari Vajpayee (1998)",
+        "C": "Both A and B",
+        "D": "Manmohan Singh (2004)"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-033",
+      "q": "The Prime Minister is the leader of the House of which he is a member. This position is:",
+      "options": {
+        "A": "Constitutional",
+        "B": "Statutory",
+        "C": "Defined in the Rules of Procedure of the respective House",
+        "D": "Conventional"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-034",
+      "q": "The Prime Minister can call for any file or information from any ministry. This power is based on:",
+      "options": {
+        "A": "Article 77",
+        "B": "Article 78",
+        "C": "The Transaction of Business Rules",
+        "D": "A specific parliamentary statute"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-035",
+      "q": "The Prime Minister is often described as the 'real executive' because:",
+      "options": {
+        "A": "The President is the nominal head and the Prime Minister is the actual head of government",
+        "B": "The Prime Minister has absolute powers",
+        "C": "The President has no constitutional role",
+        "D": "The Supreme Court has declared it so"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-036",
+      "q": "The Prime Minister can advise the President to impose President's Rule in a state under Article 356. This advice is based on:",
+      "options": {
+        "A": "His personal assessment",
+        "B": "The report of the Governor or other reliable information",
+        "C": "A recommendation of the state legislature",
+        "D": "A resolution of the Union Cabinet alone"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-037",
+      "q": "The Prime Minister's position is considered central in the parliamentary system because:",
+      "options": {
+        "A": "He is the head of the state",
+        "B": "He is the leader of the majority party and the Council of Ministers",
+        "C": "He has a fixed tenure of five years",
+        "D": "He cannot be removed by Parliament"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-038",
+      "q": "The Prime Minister is the Chairman of the Nuclear Command Authority. This authority is:",
+      "options": {
+        "A": "Constituted by the Constitution",
+        "B": "Created by a statute",
+        "C": "Established by an executive order",
+        "D": "A committee of the Cabinet"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-039",
+      "q": "The Prime Minister can be removed from office only when:",
+      "options": {
+        "A": "The President loses confidence in him",
+        "B": "He loses the confidence of the Lok Sabha",
+        "C": "The Supreme Court orders his removal",
+        "D": "The Rajya Sabha passes a resolution"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-040",
+      "q": "The Prime Minister's role in the budget process is that:",
+      "options": {
+        "A": "He presents the budget himself",
+        "B": "He supervises the preparation of the budget and it is presented on his behalf by the Finance Minister",
+        "C": "He has no role in the budget",
+        "D": "The President prepares the budget"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-041",
+      "q": "Which one of the following Prime Ministers did NOT face a single no-confidence motion during their tenure?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Indira Gandhi",
+        "C": "Morarji Desai",
+        "D": "Atal Bihari Vajpayee"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-042",
+      "q": "The Prime Minister is the Chairman of the National Development Council. This council is:",
+      "options": {
+        "A": "Constitutional",
+        "B": "Statutory",
+        "C": "An executive body (now defunct)",
+        "D": "A part of NITI Aayog"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-043",
+      "q": "The Prime Minister can recommend the imposition of Financial Emergency under Article 360. This proclamation must be approved by Parliament within:",
+      "options": {
+        "A": "One month",
+        "B": "Two months",
+        "C": "Six months",
+        "D": "Three months"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-044",
+      "q": "The Prime Minister's Office (PMO) is headed by a:",
+      "options": {
+        "A": "Cabinet Secretary",
+        "B": "Principal Secretary to the Prime Minister",
+        "C": "Home Secretary",
+        "D": "Defence Secretary"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-045",
+      "q": "The Prime Minister can advise the President to grant pardon under Article 72. This advice:",
+      "options": {
+        "A": "Is binding on the President",
+        "B": "May be rejected by the President if he disagrees",
+        "C": "Is not required; the President acts on his own",
+        "D": "Is subject to judicial review only"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-046",
+      "q": "The Prime Minister is the ex-officio Chairman of the Island Development Agency. This is:",
+      "options": {
+        "A": "A statutory body",
+        "B": "A cabinet committee",
+        "C": "A constitutional body",
+        "D": "An attached office"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-047",
+      "q": "The Prime Minister can announce a general policy on the floor of the House. This is a part of his:",
+      "options": {
+        "A": "Legislative role",
+        "B": "Executive role",
+        "C": "Parliamentary role",
+        "D": "Judicial role"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-048",
+      "q": "The Prime Minister is the chief advisor to the President. The provision that the President may require the Council of Ministers to reconsider its advice is under:",
+      "options": {
+        "A": "Article 74(1) proviso",
+        "B": "Article 75(2)",
+        "C": "Article 78",
+        "D": "Article 111"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-049",
+      "q": "Which Prime Minister launched the 'Green Revolution' in India?",
+      "options": {
+        "A": "Jawaharlal Nehru",
+        "B": "Lal Bahadur Shastri",
+        "C": "Indira Gandhi",
+        "D": "Morarji Desai"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-050",
+      "q": "The Prime Minister is a member of the:",
+      "options": {
+        "A": "Council of Ministers",
+        "B": "Cabinet",
+        "C": "Both A and B",
+        "D": "Neither; he is separate"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-051",
+      "q": "The Prime Minister can be removed by a no-confidence motion passed in the Lok Sabha by:",
+      "options": {
+        "A": "Simple majority of members present and voting",
+        "B": "Absolute majority of total membership",
+        "C": "Two-thirds majority",
+        "D": "Special majority"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pm-final-052",
+      "q": "The Prime Minister is the Chairman of the National Water Resources Council. This council was set up in:",
+      "options": {
+        "A": "1983",
+        "B": "1990",
+        "C": "2000",
+        "D": "1975"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-053",
+      "q": "The Prime Minister is often described as the 'lightning conductor' because:",
+      "options": {
+        "A": "He absorbs all criticism and protects the government",
+        "B": "He is the main target of public dissatisfaction",
+        "C": "Both A and B",
+        "D": "He physically conducts electricity"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pm-final-054",
+      "q": "The Prime Minister's power to require any minister to resign is exercised under:",
+      "options": {
+        "A": "Article 75(2)",
+        "B": "Article 75(1)",
+        "C": "The Rules of Business",
+        "D": "Article 78"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pm-final-055",
+      "q": "Which of the following statements about the Prime Minister is INCORRECT?",
+      "options": {
+        "A": "He is the head of the government",
+        "B": "He can be a member of either House of Parliament",
+        "C": "He presides over joint sittings of Parliament",
+        "D": "He is the chairman of the NITI Aayog"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Human Settlements in India",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-human-settlements-in-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

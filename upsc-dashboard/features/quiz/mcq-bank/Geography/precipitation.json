@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Precipitation",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-precipitation-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

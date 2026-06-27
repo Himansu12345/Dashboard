@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Constituent Assembly",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-constituent-assembly-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

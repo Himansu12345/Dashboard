@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Plate Tectonics",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-plate-tectonics-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

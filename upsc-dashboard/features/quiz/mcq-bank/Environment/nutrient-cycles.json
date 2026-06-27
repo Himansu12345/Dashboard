@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Nutrient Cycles",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-nutrient-cycles-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

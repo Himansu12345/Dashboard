@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Right to Information (RTI)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-right-to-information-rti-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

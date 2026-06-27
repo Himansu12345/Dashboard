@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Atmospheric Pressure",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-atmospheric-pressure-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

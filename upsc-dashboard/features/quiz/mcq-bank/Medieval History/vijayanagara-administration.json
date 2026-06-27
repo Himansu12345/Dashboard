@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Vijayanagara Administration",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-vijayanagara-administration-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

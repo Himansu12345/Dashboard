@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Ganga River System",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-ganga-river-system-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Inflation",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-inflation-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

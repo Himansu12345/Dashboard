@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Andaman and Nicobar Islands",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-andaman-and-nicobar-islands-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

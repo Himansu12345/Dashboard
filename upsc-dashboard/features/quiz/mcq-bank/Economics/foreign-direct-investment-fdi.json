@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Foreign Direct Investment (FDI)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-foreign-direct-investment-fdi-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

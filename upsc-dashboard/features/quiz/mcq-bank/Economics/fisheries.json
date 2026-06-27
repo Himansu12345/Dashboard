@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Fisheries",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-fisheries-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

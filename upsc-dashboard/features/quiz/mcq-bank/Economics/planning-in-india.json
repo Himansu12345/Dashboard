@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Planning in India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-planning-in-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

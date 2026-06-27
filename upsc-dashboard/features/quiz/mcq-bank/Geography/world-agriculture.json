@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "World Agriculture",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-world-agriculture-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

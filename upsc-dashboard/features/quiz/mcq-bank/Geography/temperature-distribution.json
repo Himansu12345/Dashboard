@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Temperature Distribution",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-temperature-distribution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

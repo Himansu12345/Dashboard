@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Industries of India",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-industries-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

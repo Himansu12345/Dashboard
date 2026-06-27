@@ -1,0 +1,427 @@
+{
+  "subject": "Polity",
+  "topic": "Parliament – Budget & Financial Procedure – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "budget-final-001",
+      "q": "Consider the following statements regarding the 'Annual Financial Statement' (Article 112): 1. The Constitution uses the term 'Budget' interchangeably with the Annual Financial Statement. 2. It must show the estimated receipts and expenditure of the Government of India. 3. It must distinguish expenditure on revenue account from other expenditure. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-002",
+      "q": "Which of the following expenditures are 'charged' on the Consolidated Fund of India? 1. Salaries and allowances of Supreme Court Judges. 2. Pensions of Supreme Court Judges. 3. Salaries and allowances of High Court Judges. 4. Pensions of High Court Judges. Select the correct answer using the code below:",
+      "options": {
+        "A": "1, 2 and 4 only",
+        "B": "1, 2 and 3 only",
+        "C": "1 and 2 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-003",
+      "q": "Regarding the expenditure charged on the Consolidated Fund of India, consider the following statements: 1. It is not submitted to the vote of Parliament. 2. It cannot be discussed in either House of Parliament. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-004",
+      "q": "Consider the stages of enactment of the Budget in the Parliament: 1. General Discussion 2. Voting on Demands for Grants 3. Passing of Appropriation Bill 4. Scrutiny by Departmental Committees 5. Passing of Finance Bill. What is the correct chronological sequence?",
+      "options": {
+        "A": "1 - 4 - 2 - 3 - 5",
+        "B": "1 - 2 - 4 - 3 - 5",
+        "C": "4 - 1 - 2 - 3 - 5",
+        "D": "1 - 4 - 2 - 5 - 3"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-005",
+      "q": "During the 'General Discussion' stage of the Budget: 1. The Lok Sabha can vote on Demands for Grants. 2. Cut motions can be moved. 3. The Finance Minister has a general right of reply at the end of the discussion. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "3 only",
+        "C": "2 and 3 only",
+        "D": "None"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-006",
+      "q": "A 'Policy Cut' motion seeks to reduce the amount of the demand to Re. 1. For a cut motion to be admissible, it must strictly adhere to which of the following conditions? 1. It should relate to one demand only. 2. It should not relate to expenditure charged on the Consolidated Fund of India. 3. It can seek to amend an existing law to execute the policy. Select the correct answer using the code below:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-007",
+      "q": "Which cut motion states that the amount of the demand be reduced by a specified lump sum, representing a specific grievance?",
+      "options": {
+        "A": "Policy Cut Motion",
+        "B": "Economy Cut Motion",
+        "C": "Token Cut Motion",
+        "D": "Guillotine Motion"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-008",
+      "q": "The term 'Guillotine' in parliamentary budget procedure refers to:",
+      "options": {
+        "A": "The Speaker putting all the outstanding demands to vote on the last allotted day, whether discussed or not",
+        "B": "The summary rejection of a Money Bill by the Rajya Sabha",
+        "C": "The withdrawal of the Finance Bill by the Government",
+        "D": "The striking down of unconstitutional taxes by the Judiciary"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-009",
+      "q": "Consider the following statements regarding the Appropriation Bill (Article 114): 1. No money can be withdrawn from the Consolidated Fund of India except under appropriation made by law. 2. An amendment can be proposed to the Appropriation Bill in either House varying the amount of any demand. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-010",
+      "q": "According to the Provisional Collection of Taxes Act (1931), the Finance Bill must be enacted (passed by Parliament and assented to by the President) within how many days of its introduction?",
+      "options": {
+        "A": "60 days",
+        "B": "75 days",
+        "C": "90 days",
+        "D": "14 days"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-011",
+      "q": "Vote on Account is passed by the Lok Sabha to:",
+      "options": {
+        "A": "Meet expenses on a special purpose forming no part of current service",
+        "B": "Provide an advance grant to the executive to meet ordinary expenditures until the Appropriation Bill is passed",
+        "C": "Approve expenditure incurred in excess of the amount granted in the previous year",
+        "D": "Fund unexpected demands when the magnitude cannot be stated with details in a budget"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-012",
+      "q": "An 'Excess Grant' is granted when money has been spent on any service during a financial year in excess of the amount granted for that service. Which of the following conditions is mandatory before the demand for an excess grant is submitted to the Lok Sabha for voting?",
+      "options": {
+        "A": "It must be approved by the Estimates Committee",
+        "B": "It must be approved by the Public Accounts Committee",
+        "C": "It must be approved by the Comptroller and Auditor General of India",
+        "D": "It must be approved by the Reserve Bank of India"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-013",
+      "q": "Which grant acts like a 'blank cheque' given to the Executive by the Lok Sabha to meet an unexpected demand upon the resources of India?",
+      "options": {
+        "A": "Exceptional Grant",
+        "B": "Vote of Credit",
+        "C": "Token Grant",
+        "D": "Supplementary Grant"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-014",
+      "q": "A 'Token Grant' is granted when:",
+      "options": {
+        "A": "Additional expenditure is required for a new service not contemplated in the budget, and funds are made available by reappropriation.",
+        "B": "The total budget amount is deemed too large, and a symbolic reduction is made.",
+        "C": "The government faces a temporary cash flow mismatch.",
+        "D": "A policy needs to be heavily criticized by the opposition."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-015",
+      "q": "Consider the following statements regarding tax proposals in the Parliament: 1. An amendment seeking to increase a tax requires the prior recommendation of the President. 2. An amendment seeking to reduce or abolish a tax requires the prior recommendation of the President. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-016",
+      "q": "Which of the following funds does NOT require parliamentary approval for disbursements?",
+      "options": {
+        "A": "Consolidated Fund of India",
+        "B": "Contingency Fund of India",
+        "C": "Public Account of India",
+        "D": "Both B and C"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-017",
+      "q": "The Contingency Fund of India (Article 267) is held on behalf of the President by the:",
+      "options": {
+        "A": "Prime Minister",
+        "B": "Finance Minister",
+        "C": "Finance Secretary",
+        "D": "Comptroller and Auditor General"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-018",
+      "q": "Consider the following entities: 1. Provident fund deposits 2. Savings bank deposits 3. Remittances 4. Loans raised by the Government through treasury bills. Which of the above are credited to the Public Account of India?",
+      "options": {
+        "A": "1, 2 and 3 only",
+        "B": "1 and 2 only",
+        "C": "3 and 4 only",
+        "D": "1, 2, 3 and 4"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-019",
+      "q": "Which division of the Ministry of Finance is the nodal agency responsible for the preparation of the Union Budget?",
+      "options": {
+        "A": "Department of Revenue",
+        "B": "Department of Expenditure",
+        "C": "Department of Economic Affairs",
+        "D": "Department of Financial Services"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-020",
+      "q": "Consider the following statements regarding Financial Bills under Article 117(1) and Article 117(3): 1. Both require the prior recommendation of the President for their introduction. 2. A Financial Bill under Article 117(1) can only be introduced in the Lok Sabha. 3. A Financial Bill under Article 117(3) can be introduced in either House. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-021",
+      "q": "In the context of the Budget, 'Reappropriation' refers to:",
+      "options": {
+        "A": "Transferring funds from the Consolidated Fund to the Contingency Fund",
+        "B": "Transferring funds from one major head of expenditure to another within the same Demand for Grant",
+        "C": "Returning unspent funds to the Consolidated Fund at the end of the financial year",
+        "D": "Appropriating additional funds through a Supplementary Grant"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-022",
+      "q": "The 'Rule of Lapse' ensures parliamentary control over the executive's expenditure. However, there is an exception to this rule. Which of the following funds does NOT lapse at the end of the financial year?",
+      "options": {
+        "A": "Grants to Ministries for administrative expenses",
+        "B": "Capital Budget allocations for Defense procurement",
+        "C": "National Investment Fund (NIF) and Non-Lapsable Central Pool of Resources (NLCPR)",
+        "D": "Subsidies for Food and Fertilizers"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-023",
+      "q": "Under the FRBM Act, 2003, the Government is required to lay certain macro-economic documents before Parliament along with the Budget. Which of the following is NOT one of them?",
+      "options": {
+        "A": "Macro-Economic Framework Statement",
+        "B": "Medium-Term Fiscal Policy Statement",
+        "C": "Fiscal Policy Strategy Statement",
+        "D": "National Infrastructure Pipeline Statement"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-024",
+      "q": "A Money Bill is strictly defined under Article 110. Which of the following matters does NOT make a bill a Money Bill?",
+      "options": {
+        "A": "Imposition, abolition, remission, alteration or regulation of any tax",
+        "B": "Regulation of borrowing of money by the Union government",
+        "C": "Imposition of fines or other pecuniary penalties",
+        "D": "Appropriation of money out of the Consolidated Fund of India"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-025",
+      "q": "Consider the powers of the Rajya Sabha with respect to the enactment of the Budget: 1. It can discuss the Demands for Grants but cannot vote on them. 2. It can amend the Appropriation Bill. 3. It can reject the Finance Bill if it contains only provisions related to Article 110. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "1 and 3 only",
+        "D": "None"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-026",
+      "q": "If the Annual Financial Statement is not passed by the Lok Sabha, the Prime Minister is expected to:",
+      "options": {
+        "A": "Submit the resignation of the Council of Ministers",
+        "B": "Prorogue the Lok Sabha and re-introduce the budget",
+        "C": "Call for a Joint Sitting of Parliament",
+        "D": "Declare a Financial Emergency under Article 360"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-027",
+      "q": "Consider the following regarding the difference between a 'Vote on Account' and an 'Interim Budget': 1. A Vote on Account deals only with the expenditure side, whereas an Interim Budget deals with both receipts and expenditures. 2. A Vote on Account is treated as a formal matter and passed without discussion, whereas an Interim Budget is discussed and passed. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-028",
+      "q": "When a Demand for Grant is presented in the Lok Sabha, the amount demanded is:",
+      "options": {
+        "A": "Only the voted expenditure",
+        "B": "Only the charged expenditure",
+        "C": "Both voted expenditure and charged expenditure, shown separately",
+        "D": "Both voted expenditure and charged expenditure, merged as a single figure"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-029",
+      "q": "Which of the following Constitutional Articles explicitly mandates that 'No tax shall be levied or collected except by authority of law'?",
+      "options": {
+        "A": "Article 112",
+        "B": "Article 114",
+        "C": "Article 265",
+        "D": "Article 266"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-030",
+      "q": "Which mechanism enables the government to incur expenditure out of the Consolidated Fund of India for a period, typically for the first two months of the new financial year, pending the voting of demands and passing of the Appropriation Act?",
+      "options": {
+        "A": "Contingency Fund advance",
+        "B": "Supplementary Grant",
+        "C": "Vote on Account",
+        "D": "Excess Grant"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "budget-final-031",
+      "q": "A Financial Bill (Category I) under Article 117(1) shares a specific similarity with a Money Bill. What is it?",
+      "options": {
+        "A": "Both cannot be amended by the Rajya Sabha.",
+        "B": "Both can only be introduced in the Lok Sabha on the recommendation of the President.",
+        "C": "Both do not have the provision of a Joint Sitting in case of a deadlock.",
+        "D": "Both must be passed within 14 days by the Rajya Sabha."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-032",
+      "q": "With reference to the scrutiny of Demands for Grants by Departmentally Related Standing Committees (DRSCs), consider the following: 1. Parliament adjourns for about three to four weeks for this scrutiny. 2. The DRSCs suggest cuts (Cut Motions) in the demands of the ministries. 3. Their reports are binding on the Parliament. Which of the above is/are INCORRECT?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "budget-final-033",
+      "q": "If the amount authorised by any law made in accordance with the provisions of Article 114 to be expended for a particular service for the current financial year is found to be insufficient, the President shall cause to be laid before Parliament a:",
+      "options": {
+        "A": "Vote of Credit",
+        "B": "Supplementary Estimate",
+        "C": "Exceptional Grant",
+        "D": "Token Grant"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-034",
+      "q": "During the voting on Demands for Grants, a member moves a motion stating 'That the amount of the demand be reduced by Rs. 100'. This implies:",
+      "options": {
+        "A": "The member wants to draw attention to a specific grievance within the sphere of the responsibility of the Government of India.",
+        "B": "The member disapproves of the underlying policy of the demand.",
+        "C": "The member believes that economy can be affected in the proposed expenditure.",
+        "D": "The member wants the demand to be rejected entirely."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "budget-final-035",
+      "q": "Regarding the passage of the Budget, consider the following statements: 1. The Rajya Sabha has no power to vote on the demands for grants. 2. The Appropriation Bill is considered a Money Bill. 3. The Finance Bill is introduced to give effect to the financial proposals of the Government for the following year. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    }
+  ]
+}

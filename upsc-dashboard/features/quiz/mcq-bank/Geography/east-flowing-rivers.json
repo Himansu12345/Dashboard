@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "East Flowing Rivers",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-east-flowing-rivers-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

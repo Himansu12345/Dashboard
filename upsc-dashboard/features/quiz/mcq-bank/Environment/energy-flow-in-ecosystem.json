@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Energy Flow in Ecosystem",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-energy-flow-in-ecosystem-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

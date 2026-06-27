@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Forest Types of India",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-forest-types-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

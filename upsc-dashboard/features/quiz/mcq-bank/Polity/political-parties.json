@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Political Parties",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-political-parties-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

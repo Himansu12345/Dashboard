@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Anglo-Maratha Wars",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-anglo-maratha-wars-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Energy Sector",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-energy-sector-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

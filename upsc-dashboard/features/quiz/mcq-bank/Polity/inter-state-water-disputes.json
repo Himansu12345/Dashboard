@@ -1,0 +1,547 @@
+{
+  "subject": "Polity",
+  "topic": "Inter‑State Water Disputes – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "iswd-final-001",
+      "q": "Article 262 of the Constitution deals with adjudication of disputes relating to waters of inter‑state rivers or river valleys. Which of the following statements is correct?",
+      "options": {
+        "A": "Article 262(1) empowers the Supreme Court to adjudicate such disputes.",
+        "B": "Article 262(2) permits Parliament to exclude the jurisdiction of all courts, including the Supreme Court, in respect of such disputes.",
+        "C": "Parliament has completely excluded the Supreme Court's jurisdiction under Article 136 in inter‑state water disputes.",
+        "D": "Article 262 creates a permanent Inter‑State Water Disputes Tribunal."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-002",
+      "q": "Consider the following statements about the Inter‑State Water Disputes Act, 1956: 1. It was enacted under Article 262(2) of the Constitution. 2. It provides for the constitution of a separate tribunal for each dispute. 3. The decisions of the tribunals are final and binding, but the Supreme Court can hear appeals under Article 136. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-003",
+      "q": "The 2002 amendment to the Inter‑State Water Disputes Act brought which of the following changes? 1. A time limit of 3 years for the tribunal to give its award, extendable by 2 years. 2. Establishment of a Data Bank and Information System. 3. Replacement of all existing tribunals with a single permanent tribunal.",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-004",
+      "q": "The award of an Inter‑State Water Disputes Tribunal, once published in the Official Gazette, has the force of a decree of the Supreme Court. This means:",
+      "options": {
+        "A": "The award cannot be questioned before any court.",
+        "B": "The Supreme Court can entertain appeals under Article 136 in special circumstances.",
+        "C": "The award is automatically executed without any further action.",
+        "D": "Both A and B are correct as per judicial interpretation."
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-005",
+      "q": "Which of the following is NOT a tribunal constituted under the Inter‑State Water Disputes Act, 1956?",
+      "options": {
+        "A": "Cauvery Water Disputes Tribunal",
+        "B": "Krishna Water Disputes Tribunal",
+        "C": "Narmada Water Disputes Tribunal",
+        "D": "Ganga Water Disputes Tribunal"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "iswd-final-006",
+      "q": "The Inter‑State Water Disputes Act, 1956, provides that the decision of the tribunal shall be final and binding. However, the Supreme Court has held that:",
+      "options": {
+        "A": "It can review the tribunal's award if there is a violation of the Constitution or principles of natural justice.",
+        "B": "It cannot entertain any challenge to the tribunal's award under any circumstances.",
+        "C": "Only the President can modify the award.",
+        "D": "The Parliament can overrule the award."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-007",
+      "q": "Consider the following pairs (Tribunal – States involved): 1. Mahadayi Water Disputes Tribunal – Goa, Karnataka, Maharashtra  2. Vansadhara Water Disputes Tribunal – Odisha and Andhra Pradesh  3. Ravi and Beas Waters Tribunal – Punjab, Haryana, Rajasthan. Which of the pairs is/are correctly matched?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-008",
+      "q": "The Inter‑State River Water Disputes (Amendment) Bill, 2021, proposed to:",
+      "options": {
+        "A": "Abolish all existing tribunals and transfer disputes to the Supreme Court",
+        "B": "Set up a single permanent Inter‑State River Water Disputes Tribunal with multiple benches, replacing the need for separate tribunals for each dispute",
+        "C": "Give states the power to directly negotiate water sharing without tribunals",
+        "D": "Exclude the jurisdiction of the Supreme Court completely under Article 262"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-009",
+      "q": "According to the Inter‑State Water Disputes Act, 1956, before referring a dispute to a tribunal, the Centre can try to resolve it through:",
+      "options": {
+        "A": "Directive from the President",
+        "B": "Negotiation or mediation by the Union Government",
+        "C": "A joint sitting of the state legislatures",
+        "D": "A reference to the Inter‑State Council"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-010",
+      "q": "The Mekedatu project dispute between Karnataka and Tamil Nadu relates to which river?",
+      "options": {
+        "A": "Godavari",
+        "B": "Krishna",
+        "C": "Cauvery",
+        "D": "Pennar"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "iswd-final-011",
+      "q": "Consider the following statements: 1. The Inter‑State Water Disputes Act, 1956, provides for the constitution of a separate tribunal for each dispute. 2. The 2021 amendment Bill (now Act?) proposes a permanent single tribunal with multiple benches. 3. The decision of such a tribunal is equivalent to a decree of the Supreme Court. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-012",
+      "q": "The 2002 amendment to the Inter‑State Water Disputes Act provided that the award of a tribunal shall be given within a maximum period of:",
+      "options": {
+        "A": "3 years, extendable by 2 years",
+        "B": "5 years, with no extension",
+        "C": "2 years, extendable by 1 year",
+        "D": "4 years, extendable by 1 year"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-013",
+      "q": "Which of the following statements about the Narmada Water Disputes Tribunal is correct?",
+      "options": {
+        "A": "It adjudicated the dispute between Gujarat, Madhya Pradesh, Maharashtra, and Rajasthan.",
+        "B": "Its award was given in 1979 and led to the construction of the Sardar Sarovar Dam.",
+        "C": "It was the first tribunal to be set up under the Inter‑State Water Disputes Act.",
+        "D": "Both A and B."
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-014",
+      "q": "The Cauvery Water Disputes Tribunal award was notified by the Central Government in 2013. Which of the following statements is correct regarding the finality of this award?",
+      "options": {
+        "A": "It can be challenged in the Supreme Court under Article 32 by any affected party.",
+        "B": "The award is final and cannot be questioned in any court, as per the Act.",
+        "C": "The Supreme Court has held that its special leave jurisdiction under Article 136 can still be invoked in exceptional cases.",
+        "D": "The award can be modified by the Parliament."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-015",
+      "q": "The Inter‑State Water Disputes Act, 1956, provides that when a request for constitution of a tribunal is received from a state, the Central Government:",
+      "options": {
+        "A": "Must constitute a tribunal within one year.",
+        "B": "May first attempt to settle the dispute by negotiation, and if it fails, shall constitute a tribunal.",
+        "C": "Can reject the request if it deems the dispute not genuine.",
+        "D": "Must refer the matter to the Supreme Court."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-016",
+      "q": "Which of the following rivers is the subject of the Krishna Water Disputes Tribunal?",
+      "options": {
+        "A": "Krishna – between Maharashtra, Karnataka, and Andhra Pradesh (now Telangana)",
+        "B": "Krishna – between Tamil Nadu and Karnataka",
+        "C": "Krishna – between Gujarat and Maharashtra",
+        "D": "Krishna – between Odisha and Andhra Pradesh"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-017",
+      "q": "The Polavaram project, declared a national project, is associated with which river and which states?",
+      "options": {
+        "A": "Godavari – Andhra Pradesh, Telangana, Chhattisgarh, Odisha",
+        "B": "Krishna – Andhra Pradesh, Karnataka",
+        "C": "Mahanadi – Chhattisgarh, Odisha",
+        "D": "Cauvery – Karnataka, Tamil Nadu"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-018",
+      "q": "Article 262 of the Constitution enables Parliament to exclude the jurisdiction of the Supreme Court in inter‑state water disputes. However, the Supreme Court has held that its jurisdiction under which of the following articles cannot be excluded?",
+      "options": {
+        "A": "Article 131 – original jurisdiction",
+        "B": "Article 32 – right to move the Supreme Court for enforcement of fundamental rights",
+        "C": "Article 143 – advisory jurisdiction",
+        "D": "Article 226 – writ jurisdiction of High Courts"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-019",
+      "q": "Consider the following about the Inter‑State River Water Disputes (Amendment) Bill, 2019: 1. It proposes a single Inter‑State River Water Disputes Tribunal with multiple benches. 2. It makes it mandatory for the tribunal to give its decision within 2 years, extendable by 1 year. 3. It abolishes the need for negotiation by the Centre before referring a dispute to the tribunal. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-020",
+      "q": "The Ravi and Beas Waters Tribunal was constituted to resolve the dispute between:",
+      "options": {
+        "A": "Punjab, Haryana, and Rajasthan",
+        "B": "Punjab and Himachal Pradesh",
+        "C": "Punjab and Jammu & Kashmir",
+        "D": "Haryana and Rajasthan"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-021",
+      "q": "Which of the following is a correct statement about the Inter‑State Water Disputes Act, 1956?",
+      "options": {
+        "A": "It provides for an appeal to the Supreme Court against the tribunal's award.",
+        "B": "The tribunal's award has the same force as an order of the Supreme Court once published in the Official Gazette.",
+        "C": "The Act does not provide any time limit for the tribunal to give its decision.",
+        "D": "The Act requires the President's assent before the tribunal can give its award."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-022",
+      "q": "The Supreme Court's jurisdiction under Article 136 (special leave) can be invoked against the decision of an Inter‑State Water Disputes Tribunal only:",
+      "options": {
+        "A": "When there is a substantial question of law as to the interpretation of the Constitution",
+        "B": "When the tribunal has acted beyond its jurisdiction or in violation of natural justice",
+        "C": "The Supreme Court has held that Article 136 cannot be invoked against such tribunal's decisions as per Article 262(2)",
+        "D": "Both A and B, as the jurisdiction is not completely excluded"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-023",
+      "q": "The Mahanadi Water Disputes Tribunal was set up to resolve the dispute between:",
+      "options": {
+        "A": "Odisha and Chhattisgarh",
+        "B": "Odisha and Andhra Pradesh",
+        "C": "Chhattisgarh and Madhya Pradesh",
+        "D": "Jharkhand and West Bengal"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-024",
+      "q": "The Central Government notified the Cauvery Water Disputes Tribunal's final award in 2013. Which section of the Inter‑State Water Disputes Act, 1956, provides for the finality of the tribunal's decision?",
+      "options": {
+        "A": "Section 5",
+        "B": "Section 5A",
+        "C": "Section 6",
+        "D": "Section 6A"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-025",
+      "q": "Consider the following statements: 1. The Inter‑State Council under Article 263 can adjudicate inter‑state water disputes. 2. The Inter‑State Water Disputes Act provides that the Union Government may frame a scheme to give effect to the tribunal's decision. 3. The tribunal's decision is final and cannot be challenged in any court. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-026",
+      "q": "The Inter‑State Water Disputes Act, 1956, does NOT provide for:",
+      "options": {
+        "A": "Constitution of a tribunal on the request of a state",
+        "B": "The tribunal having the same powers as a civil court",
+        "C": "Direct reference of the dispute to the Supreme Court",
+        "D": "Publication of the award in the Official Gazette to give it the force of a Supreme Court decree"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-027",
+      "q": "The Godavari Water Disputes Tribunal was constituted to resolve the dispute between:",
+      "options": {
+        "A": "Andhra Pradesh, Maharashtra, Karnataka, Madhya Pradesh, and Odisha",
+        "B": "Andhra Pradesh, Telangana, Karnataka, and Maharashtra",
+        "C": "Maharashtra, Gujarat, and Madhya Pradesh",
+        "D": "Andhra Pradesh, Karnataka, Tamil Nadu"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-028",
+      "q": "The establishment of a Data Bank and Information System for inter‑state rivers was provided by:",
+      "options": {
+        "A": "The original Inter‑State Water Disputes Act, 1956",
+        "B": "The 2002 Amendment to the Act",
+        "C": "The National Water Policy, 2012",
+        "D": "The River Boards Act, 1956"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-029",
+      "q": "Which Article of the Constitution allows Parliament to legislate on inter‑state water disputes even though water is a State subject?",
+      "options": {
+        "A": "Article 249",
+        "B": "Article 252",
+        "C": "Article 262",
+        "D": "Article 263"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "iswd-final-030",
+      "q": "The Inter‑State Water Disputes Act, 1956, empowers the Central Government to frame a scheme to give effect to the tribunal's decision. Such a scheme may:",
+      "options": {
+        "A": "Provide for the establishment of any authority for implementing the decision",
+        "B": "Override any law or executive order",
+        "C": "Be laid before both Houses of Parliament",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-031",
+      "q": "The Vansadhara Water Disputes Tribunal deals with the sharing of water between:",
+      "options": {
+        "A": "Odisha and Andhra Pradesh",
+        "B": "Andhra Pradesh and Telangana",
+        "C": "Maharashtra and Karnataka",
+        "D": "Kerala and Tamil Nadu"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-032",
+      "q": "Consider the following statements: 1. The Supreme Court has original jurisdiction in inter‑state water disputes under Article 131. 2. Parliament can exclude the Supreme Court's jurisdiction in inter‑state water disputes under Article 262. 3. The Inter‑State Water Disputes Act, 1956, does not affect the Supreme Court's jurisdiction under Article 32. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-033",
+      "q": "The time limit for giving the award by a tribunal under the 2002 amendment is:",
+      "options": {
+        "A": "3 years from the date of constitution, extendable by 2 years",
+        "B": "5 years, extendable by 1 year",
+        "C": "4 years, no extension",
+        "D": "2 years, extendable by 1 year"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-034",
+      "q": "The Mahadayi (Mandovi) Water Disputes Tribunal was constituted to resolve a dispute between:",
+      "options": {
+        "A": "Goa, Karnataka, and Maharashtra",
+        "B": "Kerala and Karnataka",
+        "C": "Goa and Maharashtra",
+        "D": "Karnataka, Tamil Nadu, and Kerala"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "iswd-final-035",
+      "q": "Which of the following statements about the 2021 Amendment Bill for Inter‑State River Water Disputes is correct?",
+      "options": {
+        "A": "It proposes to abolish all existing tribunals and replace them with a Dispute Resolution Committee (DRC) and a single permanent tribunal.",
+        "B": "It gives the states the power to appoint the members of the tribunal.",
+        "C": "It removes the requirement for the Central Government to publish the award in the Official Gazette.",
+        "D": "It abolishes the finality of the tribunal's award."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-036",
+      "q": "The Supreme Court in the Cauvery Water Disputes case (2018) held that:",
+      "options": {
+        "A": "The Cauvery tribunal's award is beyond judicial review.",
+        "B": "The Supreme Court can exercise its appellate jurisdiction under Article 136 to modify the award.",
+        "C": "The award is final and cannot be altered by any court.",
+        "D": "Only the President can modify the award."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-037",
+      "q": "The Inter‑State River Water Disputes (Amendment) Bill, 2021, provides for the setting up of a Dispute Resolution Committee (DRC) before referring a dispute to the tribunal. The DRC is to be headed by:",
+      "options": {
+        "A": "A retired Supreme Court judge",
+        "B": "The Union Water Resources Secretary",
+        "C": "A serving judge of the Supreme Court",
+        "D": "The Chairman of the Central Water Commission"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-038",
+      "q": "Under the Inter‑State Water Disputes Act, 1956, the tribunal while investigating a dispute has the powers of:",
+      "options": {
+        "A": "A civil court",
+        "B": "A criminal court",
+        "C": "The Supreme Court",
+        "D": "Only the powers specified by the Central Government"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-039",
+      "q": "Consider the following about the Ravi and Beas Waters Tribunal: 1. It was constituted under the Inter‑State Water Disputes Act, 1956. 2. It deals with the sharing of waters of the Ravi and Beas rivers among Punjab, Haryana, and Rajasthan. 3. Its proceedings are still ongoing. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-040",
+      "q": "The Central Government can frame a scheme for implementation of the tribunal's award under the Inter‑State Water Disputes Act. Such a scheme must be approved by:",
+      "options": {
+        "A": "Parliament within a specified period",
+        "B": "The President alone",
+        "C": "The concerned state legislatures",
+        "D": "No approval is required"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-041",
+      "q": "The Polavaram project, which has inter‑state water implications, is located on the river:",
+      "options": {
+        "A": "Godavari",
+        "B": "Krishna",
+        "C": "Mahanadi",
+        "D": "Cauvery"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "iswd-final-042",
+      "q": "Which of the following is NOT a power of an Inter‑State Water Disputes Tribunal?",
+      "options": {
+        "A": "Summoning and enforcing the attendance of any person",
+        "B": "Requiring the discovery and production of documents",
+        "C": "Punishing for contempt of itself",
+        "D": "Issuing commissions for the examination of witnesses"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "iswd-final-043",
+      "q": "The 1956 Act provides that the decision of the tribunal shall be published in the Official Gazette. After publication, the decision has the same force as:",
+      "options": {
+        "A": "A decree of the Supreme Court",
+        "B": "An act of Parliament",
+        "C": "A Presidential order",
+        "D": "A High Court judgment"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "iswd-final-044",
+      "q": "Consider the following statements: 1. The Inter‑State Water Disputes Act, 1956, does not provide for an appeal to the Supreme Court against the tribunal's award. 2. The Supreme Court can entertain a special leave petition under Article 136 against the award in exceptional cases. 3. The 2002 amendment introduced a strict time limit for the tribunal to give its decision. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "iswd-final-045",
+      "q": "The inter‑state water dispute between Andhra Pradesh and Telangana over the sharing of Krishna and Godavari waters after the bifurcation of the state in 2014 is being handled by:",
+      "options": {
+        "A": "An existing tribunal constituted under the 1956 Act",
+        "B": "The Krishna Water Disputes Tribunal‑II and a separate mechanism for Godavari",
+        "C": "The Central Government has set up a separate tribunal under the 1956 Act for post‑bifurcation sharing",
+        "D": "The Supreme Court directly under Article 131"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

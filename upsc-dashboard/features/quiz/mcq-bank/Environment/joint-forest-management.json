@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Joint Forest Management",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-joint-forest-management-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

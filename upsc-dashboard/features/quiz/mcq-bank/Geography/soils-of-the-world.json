@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Soils of the World",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-soils-of-the-world-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

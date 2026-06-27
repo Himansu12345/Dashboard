@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Imperial Cholas (Later Cholas)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-imperial-cholas-later-cholas-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

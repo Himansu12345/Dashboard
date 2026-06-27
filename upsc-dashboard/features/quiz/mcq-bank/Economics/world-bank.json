@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "World Bank",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-world-bank-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

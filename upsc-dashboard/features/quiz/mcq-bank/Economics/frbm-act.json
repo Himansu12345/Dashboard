@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "FRBM Act",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-frbm-act-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

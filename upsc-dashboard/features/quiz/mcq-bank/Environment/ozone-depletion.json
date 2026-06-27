@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Ozone Depletion",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-ozone-depletion-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

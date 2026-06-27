@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Stockholm Conference 1972",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-stockholm-conference-1972-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

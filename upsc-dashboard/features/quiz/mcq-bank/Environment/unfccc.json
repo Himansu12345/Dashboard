@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "UNFCCC",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-unfccc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

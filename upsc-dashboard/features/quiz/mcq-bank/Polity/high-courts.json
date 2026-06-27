@@ -1,0 +1,357 @@
+{
+  "subject": "Polity",
+  "topic": "High Courts – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "hc-final-001",
+      "q": "Consider the following statements regarding the High Courts in India: 1. The Constitution provides for a High Court for each State, but Parliament may establish a common High Court for two or more States. 2. The High Court is the highest court of appeal in the State. 3. The High Court has the power of superintendence over all courts and tribunals within its territorial jurisdiction. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-002",
+      "q": "The judges of a High Court are appointed by the:",
+      "options": { "A": "President of India", "B": "Governor of the State", "C": "Chief Justice of India", "D": "Union Law Minister" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-003",
+      "q": "Which of the following qualifications is NOT required for appointment as a judge of a High Court?",
+      "options": { "A": "Must be a citizen of India", "B": "Must have held a judicial office in India for at least 10 years", "C": "Must have been an advocate of a High Court for at least 10 years", "D": "Must have attained the age of 45 years" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-004",
+      "q": "The collegium for appointment of High Court judges consists of:",
+      "options": { "A": "The Chief Justice of India and two senior‑most judges of the Supreme Court", "B": "The Chief Justice of India and four senior‑most judges of the Supreme Court", "C": "The Chief Justice of the High Court, the Governor, and the Chief Minister", "D": "The Chief Justice of India, the Chief Justice of the High Court, and the President" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-005",
+      "q": "The age of retirement for a High Court judge is:",
+      "options": { "A": "60 years", "B": "62 years", "C": "65 years", "D": "70 years" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-006",
+      "q": "A High Court judge can resign from office by writing to the:",
+      "options": { "A": "Chief Justice of India", "B": "President", "C": "Governor of the State", "D": "Chief Justice of the High Court" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-007",
+      "q": "A judge of the High Court can be removed from office by the President on the ground of:",
+      "options": { "A": "Proved misbehaviour or incapacity", "B": "Violation of the Constitution", "C": "Inefficiency", "D": "Arbitrary decisions" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-008",
+      "q": "The removal of a High Court judge requires an address passed by Parliament in the same session by:",
+      "options": { "A": "A simple majority in each House", "B": "A majority of the total membership and a majority of two‑thirds of members present and voting in each House", "C": "A two‑thirds majority of members present and voting in each House", "D": "A special majority of two‑thirds of the total membership in each House" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-009",
+      "q": "The power to transfer a High Court judge from one High Court to another is vested in:",
+      "options": { "A": "The Chief Justice of India", "B": "The President in consultation with the Chief Justice of India", "C": "The Governor of the State", "D": "The Parliament" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-010",
+      "q": "The High Court's power of superintendence over subordinate courts and tribunals is derived from:",
+      "options": { "A": "Article 226", "B": "Article 227", "C": "Article 228", "D": "Article 235" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-011",
+      "q": "Which of the following statements regarding the writ jurisdiction of the High Court under Article 226 is correct?",
+      "options": { "A": "It is narrower than the Supreme Court's under Article 32.", "B": "It can be invoked only for enforcement of Fundamental Rights.", "C": "It can be invoked for enforcement of Fundamental Rights and for any other purpose.", "D": "It does not lie against the Union Government." },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-012",
+      "q": "Consider the following statements: 1. The High Court can issue writs for the enforcement of Fundamental Rights only. 2. The writ jurisdiction of the High Court under Article 226 is a discretionary jurisdiction. 3. The power of judicial review of High Courts under Articles 226 and 227 is part of the basic structure. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-013",
+      "q": "Which Article gives the High Court the power to transfer a case from a subordinate court to itself for hearing a substantial question of constitutional law?",
+      "options": { "A": "Article 228", "B": "Article 227", "C": "Article 226", "D": "Article 139A" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hc-final-014",
+      "q": "The High Court is a court of record under:",
+      "options": { "A": "Article 215", "B": "Article 129", "C": "Article 141", "D": "Article 227" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-015",
+      "q": "The power of the High Court to punish for contempt of itself is conferred by:",
+      "options": { "A": "The Contempt of Courts Act, 1971", "B": "Article 215", "C": "Both A and B", "D": "Article 129" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-016",
+      "q": "The control over subordinate courts, including posting, promotion, and leave of persons belonging to the judicial service, is vested in the:",
+      "options": { "A": "Governor", "B": "High Court under Article 235", "C": "State Public Service Commission", "D": "Chief Minister" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-017",
+      "q": "Consider the following statements regarding the appointment of judges of the High Court: 1. The President appoints the Chief Justice of a High Court after consultation with the Chief Justice of India and the Governor of the State. 2. For appointment of other judges, the Chief Justice of the High Court is also consulted. 3. The collegium for High Court appointments is the same as for the Supreme Court. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-018",
+      "q": "The salary and allowances of High Court judges are charged on:",
+      "options": { "A": "The Consolidated Fund of India", "B": "The Consolidated Fund of the State", "C": "The Consolidated Fund of India and the State, as determined by law", "D": "The Public Account of the State" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-019",
+      "q": "The pension of a High Court judge is charged on:",
+      "options": { "A": "The Consolidated Fund of India", "B": "The Consolidated Fund of the State", "C": "The Consolidated Fund of India and the State equally", "D": "The Contingency Fund of India" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hc-final-020",
+      "q": "Which of the following statements about the transfer of High Court judges is correct?",
+      "options": { "A": "A judge can be transferred without his consent.", "B": "A judge can be transferred only with his consent and after consultation with the Chief Justice of India.", "C": "Transfer is done by the President in consultation with the Chief Justice of India; consent is not required but transfer must be in public interest.", "D": "Transfer is done by the Chief Justice of India alone." },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-021",
+      "q": "The Supreme Court in the S.P. Gupta vs. Union of India (First Judges Case) dealt with the:",
+      "options": { "A": "Transfer of High Court judges and the meaning of 'consultation'", "B": "Impeachment of High Court judges", "C": "Jurisdiction of High Courts under Article 226", "D": "Age of retirement of High Court judges" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-022",
+      "q": "The High Court can issue writs to any person, authority, or government not only within its territorial jurisdiction but also outside if the cause of action arises within its territorial jurisdiction. This was held in:",
+      "options": { "A": "Kesavananda Bharati vs. State of Kerala", "B": "Navtej Singh Johar vs. Union of India", "C": "Election Commission vs. Saka Venkata Rao", "D": "K.S. Puttaswamy vs. Union of India" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hc-final-023",
+      "q": "Which of the following High Courts has jurisdiction over more than one state or Union Territory?",
+      "options": { "A": "Bombay High Court (Maharashtra, Goa, Dadra and Nagar Haveli, and Daman and Diu)", "B": "Delhi High Court", "C": "Allahabad High Court", "D": "Calcutta High Court" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-024",
+      "q": "The strength of a High Court (number of judges) is determined by:",
+      "options": { "A": "The Constitution", "B": "The President from time to time", "C": "Parliament by law", "D": "The Governor of the State" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-025",
+      "q": "Consider the following statements regarding the independence of High Courts: 1. The salaries and allowances of judges cannot be varied to their disadvantage after appointment. 2. The conduct of a High Court judge cannot be discussed in Parliament or the State Legislature except during an impeachment motion. 3. After retirement, a High Court judge is prohibited from practising in any court in India. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-026",
+      "q": "A retired High Court judge is prohibited from practising in:",
+      "options": { "A": "All courts in India", "B": "Only the High Court from which he retired and the courts subordinate to it", "C": "The Supreme Court and the High Court from which he retired", "D": "Any High Court" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-027",
+      "q": "The Chief Justice of a High Court is appointed by the President after consultation with:",
+      "options": { "A": "The Governor of the State only", "B": "The Chief Justice of India and the Governor of the State", "C": "The collegium of the Supreme Court", "D": "The Chief Justice of India alone" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-028",
+      "q": "Which of the following matters can be placed before a Division Bench of the High Court under Article 228?",
+      "options": { "A": "Any case pending before a subordinate court involving a substantial question of law as to the interpretation of the Constitution", "B": "Criminal appeals", "C": "Civil suits above a certain value", "D": "All writ petitions" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-029",
+      "q": "Consider the following statements regarding the jurisdiction of the High Court: 1. It has original jurisdiction in civil matters of a certain value as prescribed by the State Legislature. 2. It has appellate jurisdiction in both civil and criminal cases. 3. It has advisory jurisdiction like the Supreme Court. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-030",
+      "q": "The writ of Mandamus can be issued by a High Court to:",
+      "options": { "A": "The President of India", "B": "A public official to compel the performance of a legal duty", "C": "A private individual", "D": "The Supreme Court" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-031",
+      "q": "The power of the High Court to issue writs under Article 226 is wider than that of the Supreme Court under Article 32 because:",
+      "options": { "A": "The High Court can issue writs for the enforcement of ordinary legal rights also, while the Supreme Court can do so only for Fundamental Rights.", "B": "The High Court can issue writs only against the State Government.", "C": "The Supreme Court cannot issue writs against the Union Government.", "D": "The High Court can issue writs for violation of Fundamental Duties." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-032",
+      "q": "Which of the following is correct regarding the power of judicial review of the High Court?",
+      "options": { "A": "It is confined to the interpretation of state laws.", "B": "It extends to both central and state laws, and it is a part of the basic structure.", "C": "It can review constitutional amendments.", "D": "It is limited to post-constitutional laws." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-033",
+      "q": "The High Court can suo motu take cognizance of a matter under Article 226. This power is derived from:",
+      "options": { "A": "The Civil Procedure Code", "B": "The inherent jurisdiction of the High Court", "C": "Article 32", "D": "A Supreme Court direction" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-034",
+      "q": "The first High Court in India was established at:",
+      "options": { "A": "Bombay", "B": "Calcutta", "C": "Madras", "D": "Allahabad" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-035",
+      "q": "Which Article of the Constitution provides that there shall be a High Court for each State?",
+      "options": { "A": "Article 214", "B": "Article 215", "C": "Article 216", "D": "Article 217" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-036",
+      "q": "The power of the High Court to make rules for regulating its practice and proceedings is provided under:",
+      "options": { "A": "Article 225", "B": "Article 226", "C": "Article 227", "D": "Article 228" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hc-final-037",
+      "q": "Which of the following High Courts was the first to be constituted after independence?",
+      "options": { "A": "Gauhati High Court", "B": "Kerala High Court", "C": "High Court of Jammu and Kashmir (now common with Ladakh)", "D": "High Court of Punjab and Haryana" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hc-final-038",
+      "q": "The appointment and transfer of High Court judges is governed by the:",
+      "options": { "A": "Collegium system evolved through judicial pronouncements", "B": "National Judicial Appointments Commission Act", "C": "Union Public Service Commission", "D": "Law Commission's recommendations" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-039",
+      "q": "Consider the following statements: 1. The President can establish a common High Court for two or more States. 2. The President can extend the jurisdiction of a High Court to a Union Territory. 3. The President can exclude the jurisdiction of a High Court from any Union Territory. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-040",
+      "q": "The Supreme Court, in which case, held that the 'consultation' required for the appointment of High Court judges means 'concurrence' with the Chief Justice of India's opinion?",
+      "options": { "A": "Supreme Court Advocates-on-Record Association vs. Union of India (1993)", "B": "S.P. Gupta vs. Union of India (1981)", "C": "In re Presidential Reference (1998)", "D": "L. Chandra Kumar vs. Union of India" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hc-final-041",
+      "q": "Which of the following is a ground for the removal of a High Court judge?",
+      "options": { "A": "Violation of the Constitution", "B": "Proved misbehaviour or incapacity", "C": "Incompetence", "D": "Arbitrariness" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-042",
+      "q": "The procedure for the removal of a High Court judge is the same as that of a Supreme Court judge. This is provided under:",
+      "options": { "A": "Article 124(4) and (5) read with Article 218", "B": "Article 217", "C": "Article 61", "D": "Article 124(4) alone" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-043",
+      "q": "Which of the following statements about the writ of certiorari is correct?",
+      "options": { "A": "It is issued to quash an order passed by a lower court or tribunal.", "B": "It is issued to prevent a lower court from exceeding its jurisdiction before it passes an order.", "C": "It is issued to enforce a Fundamental Right only.", "D": "It is not available against administrative authorities." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-044",
+      "q": "The High Court's power of superintendence under Article 227 extends to:",
+      "options": { "A": "All courts and tribunals within its jurisdiction, except those set up by laws relating to the armed forces", "B": "Only subordinate civil courts", "C": "Only criminal courts", "D": "Only tribunals" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-045",
+      "q": "Which of the following writs can be issued by a High Court to a private individual?",
+      "options": { "A": "Mandamus", "B": "Prohibition", "C": "Habeas Corpus", "D": "Certiorari" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-046",
+      "q": "The High Court can declare a law passed by the State Legislature null and void if it is beyond the legislative competence of the State. This power is under:",
+      "options": { "A": "Article 226", "B": "Article 227", "C": "Article 13 read with Article 226", "D": "Article 32" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-047",
+      "q": "A judge of a High Court can be transferred without his consent. This is permissible:",
+      "options": { "A": "Only if the President is satisfied that it is in public interest", "B": "Only if the judge requests", "C": "Only with the consent of the Chief Justice of the High Court", "D": "It is not permissible" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-048",
+      "q": "Which of the following statements about the jurisdiction of the High Court is correct?",
+      "options": { "A": "The High Court has no original jurisdiction in criminal matters.", "B": "The High Court has appellate jurisdiction in both civil and criminal matters.", "C": "The High Court cannot hear cases involving interpretation of the Constitution.", "D": "The High Court's decisions are final and cannot be appealed in any court." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hc-final-049",
+      "q": "The salaries and allowances of High Court judges are determined by:",
+      "options": { "A": "The Constitution", "B": "Parliament by law, and they cannot be varied to their disadvantage after appointment", "C": "The State Legislature", "D": "The President" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hc-final-050",
+      "q": "Consider the following statements: 1. The High Court is a court of record and has the power to punish for contempt of itself. 2. The High Court's decisions are binding on all subordinate courts in the State. 3. The High Court can review its own judgments. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    }
+  ]
+}

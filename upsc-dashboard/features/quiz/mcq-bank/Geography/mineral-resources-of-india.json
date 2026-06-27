@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Mineral Resources of India",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-mineral-resources-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Mangroves",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-mangroves-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

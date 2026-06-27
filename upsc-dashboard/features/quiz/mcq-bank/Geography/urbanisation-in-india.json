@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Urbanisation in India",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-urbanisation-in-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

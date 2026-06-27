@@ -1,0 +1,567 @@
+{
+  "subject": "Polity",
+  "topic": "Supreme Court – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "sc-final-001",
+      "q": "Consider the following statements regarding the composition of the Supreme Court: 1. The Constitution originally provided for a Chief Justice and 7 other judges. 2. Parliament can increase the number of judges by law. 3. Currently the Supreme Court consists of the Chief Justice of India and 33 other judges. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-002",
+      "q": "Who appoints the judges of the Supreme Court?",
+      "options": { "A": "The Prime Minister", "B": "The President", "C": "The Chief Justice of India", "D": "A collegium of judges" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-003",
+      "q": "Which of the following qualifications is NOT required for appointment as a judge of the Supreme Court?",
+      "options": { "A": "Must be a citizen of India", "B": "Must have been a High Court judge for at least five years", "C": "Must have been an advocate of a High Court for at least 10 years", "D": "Must have attained the age of 45 years" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-004",
+      "q": "The concept of the collegium system for appointment of judges of the Supreme Court and High Courts evolved through judicial pronouncements. Which of the following cases is NOT related to the collegium system?",
+      "options": { "A": "Supreme Court Advocates‑on‑Record Association vs. Union of India (1993 – Second Judges Case)", "B": "In re Presidential Reference (1998 – Third Judges Case)", "C": "Kesavananda Bharati vs. State of Kerala (1973)", "D": "Supreme Court Advocates‑on‑Record Association vs. Union of India (2015 – Fourth Judges Case)" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-005",
+      "q": "The 99th Constitutional Amendment Act, which provided for the National Judicial Appointments Commission (NJAC), was struck down by the Supreme Court on the ground that it violated:",
+      "options": { "A": "The federal structure", "B": "The independence of the judiciary, a basic feature of the Constitution", "C": "Fundamental Rights under Article 14", "D": "The power of the President" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-006",
+      "q": "The collegium for appointment of Supreme Court judges consists of:",
+      "options": { "A": "The Chief Justice of India and two senior‑most judges of the Supreme Court", "B": "The Chief Justice of India and four senior‑most judges of the Supreme Court", "C": "The Chief Justice of India and the President", "D": "The Chief Justice of India, the Prime Minister, and the Law Minister" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-007",
+      "q": "A judge of the Supreme Court holds office until the age of:",
+      "options": { "A": "60 years", "B": "62 years", "C": "65 years", "D": "70 years" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-008",
+      "q": "A judge of the Supreme Court can resign from office by writing to the:",
+      "options": { "A": "Prime Minister", "B": "President", "C": "Chief Justice of India", "D": "Law Minister" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-009",
+      "q": "A judge of the Supreme Court can be removed from office by the President on the ground of:",
+      "options": { "A": "Proved misbehaviour or incapacity", "B": "Violation of the Constitution", "C": "Incompetence", "D": "Arbitrary actions" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-010",
+      "q": "The removal of a Supreme Court judge requires an address passed by Parliament in the same session by:",
+      "options": { "A": "A simple majority", "B": "A majority of the total membership and a majority of two‑thirds of members present and voting in each House", "C": "A two‑thirds majority of members present and voting", "D": "A special majority of two‑thirds of the total membership" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-011",
+      "q": "The procedure for removal of Supreme Court judges is provided under:",
+      "options": { "A": "Article 124(4) and (5)", "B": "Article 217", "C": "Article 218", "D": "Article 61" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-012",
+      "q": "The Supreme Court of India is a court of record. This means:",
+      "options": { "A": "Its judgments are recorded and can be used as precedents", "B": "It has the power to punish for contempt of itself", "C": "Both A and B", "D": "Only its judgments can be recorded" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-013",
+      "q": "The original jurisdiction of the Supreme Court extends to disputes:",
+      "options": { "A": "Between citizens only", "B": "Between the Government of India and a State, or between States inter se", "C": "Between citizens and the state", "D": "Arising out of criminal cases" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-014",
+      "q": "The Supreme Court has exclusive original jurisdiction in disputes between the Union and a State, or between States. However, this jurisdiction does NOT extend to:",
+      "options": { "A": "Disputes arising out of treaties before the Constitution", "B": "Disputes involving Fundamental Rights", "C": "Disputes over the interpretation of the Constitution", "D": "Disputes between the Union and a State involving private citizens" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-015",
+      "q": "The advisory jurisdiction of the Supreme Court is provided under:",
+      "options": { "A": "Article 141", "B": "Article 143", "C": "Article 136", "D": "Article 132" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-016",
+      "q": "The President can refer a question of law or fact to the Supreme Court for its advisory opinion under Article 143. This opinion is:",
+      "options": { "A": "Binding on the President", "B": "Binding on all lower courts", "C": "Not binding, but has great persuasive value", "D": "Equivalent to a decree" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-017",
+      "q": "The Supreme Court’s power to grant special leave to appeal under Article 136 is:",
+      "options": { "A": "Limited to criminal cases", "B": "Available only against High Court judgments", "C": "A discretionary power exercisable against any judgment, decree, determination, sentence, or order in any cause or matter", "D": "Available only in constitutional matters" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-018",
+      "q": "The Supreme Court’s power of judicial review is derived from:",
+      "options": { "A": "Article 32 and Article 13", "B": "Article 141", "C": "Article 143", "D": "A parliamentary statute" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-019",
+      "q": "The Supreme Court can issue writs under Article 32. Which of the following writs is NOT specifically mentioned in the Constitution?",
+      "options": { "A": "Habeas Corpus", "B": "Mandamus", "C": "Injunction", "D": "Certiorari" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-020",
+      "q": "The writ of Habeas Corpus is a remedy against:",
+      "options": { "A": "Illegal detention", "B": "Non‑performance of a public duty", "C": "Usurpation of a public office", "D": "Excess of jurisdiction by a lower court" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-021",
+      "q": "The writ of Certiorari is issued to:",
+      "options": { "A": "Prevent a lower court from exceeding its jurisdiction", "B": "Transfer a case and/or quash an order of a lower court or tribunal", "C": "Compel the performance of a public duty", "D": "Produce a person before the court" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-022",
+      "q": "The doctrine of 'prospective overruling' was first applied by the Supreme Court in:",
+      "options": { "A": "Golaknath vs. State of Punjab", "B": "Kesavananda Bharati vs. State of Kerala", "C": "Minerva Mills vs. Union of India", "D": "I.R. Coelho vs. State of Tamil Nadu" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-023",
+      "q": "The Supreme Court has held that the independence of the judiciary is a basic feature of the Constitution. This includes: 1. Security of tenure for judges. 2. Salaries charged on the Consolidated Fund. 3. A difficult removal procedure. 4. Prohibition of practice after retirement. Select the correct answer:",
+      "options": { "A": "1, 2 and 3 only", "B": "1, 2 and 4 only", "C": "2, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-024",
+      "q": "A retired judge of the Supreme Court can be requested by the Chief Justice of India to sit and act as a judge of the Supreme Court. This is under:",
+      "options": { "A": "Article 128", "B": "Article 124", "C": "Article 127", "D": "Article 129" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-025",
+      "q": "If there is a lack of quorum of permanent judges, the Chief Justice of India may request a High Court judge to sit as an ad hoc judge of the Supreme Court under:",
+      "options": { "A": "Article 127", "B": "Article 128", "C": "Article 126", "D": "Article 130" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-026",
+      "q": "The Supreme Court’s decisions are binding on all courts within the territory of India under:",
+      "options": { "A": "Article 141", "B": "Article 142", "C": "Article 143", "D": "Article 144" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-027",
+      "q": "The Supreme Court may pass such decree or order as is necessary for doing complete justice under:",
+      "options": { "A": "Article 141", "B": "Article 142", "C": "Article 143", "D": "Article 136" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-028",
+      "q": "The power of the Supreme Court to review its own judgments is provided under:",
+      "options": { "A": "Article 137", "B": "Article 138", "C": "Article 141", "D": "Article 142" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-029",
+      "q": "The Supreme Court has the power to punish for contempt of itself. This power is:",
+      "options": { "A": "Conferred by the Contempt of Courts Act, 1971", "B": "Inherent in Article 129 read with Article 215", "C": "Available only to the High Courts", "D": "A statutory right" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-030",
+      "q": "The minimum number of judges required to hear a substantial question of law involving the interpretation of the Constitution is:",
+      "options": { "A": "Three", "B": "Five", "C": "Seven", "D": "Nine" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-031",
+      "q": "The Supreme Court sits in:",
+      "options": { "A": "Mumbai", "B": "Delhi only", "C": "Delhi, and the Chief Justice of India may with the approval of the President appoint other places", "D": "Any High Court" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-032",
+      "q": "The Supreme Court judges are appointed by the President after consultation with such judges of the Supreme Court and High Courts as the President may deem necessary. The Chief Justice of India:",
+      "options": { "A": "Must be consulted in all appointments", "B": "Is consulted only for appointment of judges of the Supreme Court", "C": "Is not consulted", "D": "Is consulted only for appointment of High Court judges" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-033",
+      "q": "Which of the following statements about the Supreme Court’s appellate jurisdiction is correct?",
+      "options": { "A": "The Supreme Court can hear appeals only in constitutional matters.", "B": "The Supreme Court can hear appeals in civil, criminal, and constitutional matters if a certificate is granted by the High Court or under Article 136.", "C": "The Supreme Court cannot hear criminal appeals.", "D": "Only appeals against High Court decisions can be heard." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-034",
+      "q": "The Supreme Court’s jurisdiction under Article 32 is considered the 'heart and soul' of the Constitution. This phrase was used by:",
+      "options": { "A": "Jawaharlal Nehru", "B": "Dr. B.R. Ambedkar", "C": "Mahatma Gandhi", "D": "Rajendra Prasad" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-035",
+      "q": "The Supreme Court can transfer cases from one High Court to another in the interest of justice under:",
+      "options": { "A": "Article 139A", "B": "Article 140", "C": "Article 136", "D": "Article 141" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-036",
+      "q": "The doctrine of 'basic structure' was first articulated in Kesavananda Bharati (1973). The case involved a bench of:",
+      "options": { "A": "11 judges", "B": "13 judges", "C": "9 judges", "D": "7 judges" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-037",
+      "q": "Which of the following judgments expanded the meaning of Article 21 to include the right to a fair, just, and reasonable procedure?",
+      "options": { "A": "A.K. Gopalan vs. State of Madras", "B": "Maneka Gandhi vs. Union of India", "C": "Kesavananda Bharati vs. State of Kerala", "D": "ADM Jabalpur vs. Shivakant Shukla" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-038",
+      "q": "The Supreme Court in the I.R. Coelho case (2007) held that laws placed in the Ninth Schedule after 24 April 1973 can be challenged if they violate:",
+      "options": { "A": "Only Fundamental Rights", "B": "The basic structure of the Constitution", "C": "Directive Principles of State Policy", "D": "Fundamental Duties" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-039",
+      "q": "The Supreme Court’s power under Article 32 can be suspended during:",
+      "options": { "A": "A national emergency under Article 352", "B": "President’s rule in a state", "C": "Financial emergency", "D": "All emergencies" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-040",
+      "q": "The 44th Amendment provided that the right to move the court under Article 32 cannot be suspended for enforcement of which articles?",
+      "options": { "A": "Articles 14 and 15", "B": "Articles 20 and 21", "C": "Articles 25 and 26", "D": "Articles 29 and 30" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-041",
+      "q": "Consider the following statements regarding the Supreme Court’s writ jurisdiction under Article 32 and High Courts’ under Article 226: 1. Article 32 can only be invoked for enforcement of Fundamental Rights. 2. Article 226 can be invoked for Fundamental Rights and for any other purpose. 3. The Supreme Court cannot refuse to entertain a writ petition under Article 32 if Fundamental Rights are violated. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-042",
+      "q": "The Supreme Court can withdraw a case pending before any High Court and deal with it itself under:",
+      "options": { "A": "Article 139A", "B": "Article 136", "C": "Article 142", "D": "Article 143" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-043",
+      "q": "The Chief Justice of India can constitute benches of the Supreme Court. The power to constitute benches is derived from:",
+      "options": { "A": "Article 145", "B": "Article 124", "C": "The Supreme Court Rules", "D": "A and C" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-044",
+      "q": "The Supreme Court’s decisions are binding on all courts, but the Supreme Court is not bound by its own decisions. This principle was affirmed in:",
+      "options": { "A": "Kesavananda Bharati", "B": "Bengal Immunity Co. vs. State of Bihar", "C": "Maneka Gandhi", "D": "Golaknath" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-045",
+      "q": "The Supreme Court can grant special leave to appeal under Article 136 against any judgment of:",
+      "options": { "A": "Only High Courts", "B": "Any court or tribunal in India", "C": "Only courts subordinate to High Courts", "D": "Only criminal courts" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-046",
+      "q": "The Supreme Court’s power to review its own judgments (Article 137) can be exercised:",
+      "options": { "A": "In all cases", "B": "Only in cases involving Fundamental Rights", "C": "Subject to the provisions of any law made by Parliament or rules made under Article 145", "D": "Only in civil cases" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-047",
+      "q": "The Supreme Court has the power to transfer cases, appeals, or other proceedings from any High Court to any other High Court under:",
+      "options": { "A": "Article 139A(2)", "B": "Article 141", "C": "Article 136", "D": "Article 226" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-048",
+      "q": "Which of the following is NOT a feature of the independence of the Supreme Court?",
+      "options": { "A": "Judges hold office during the pleasure of the President", "B": "Salaries are charged on the Consolidated Fund of India", "C": "The removal procedure is difficult", "D": "Judges cannot practice after retirement" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-049",
+      "q": "The salaries, allowances, and pensions of Supreme Court judges are:",
+      "options": { "A": "Determined by Parliament by law and cannot be varied to their disadvantage after appointment", "B": "Fixed by the President", "C": "Specified in the Constitution and charged on the Consolidated Fund", "D": "Both A and C" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-050",
+      "q": "The concept of 'curative petition' was evolved by the Supreme Court in the case of:",
+      "options": { "A": "Rupa Ashok Hurra vs. Ashok Hurra", "B": "Kesavananda Bharati", "C": "I.R. Coelho", "D": "M.C. Mehta" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-051",
+      "q": "A curative petition is the last judicial resort available to a litigant. It can be filed only if:",
+      "options": { "A": "A review petition has been dismissed", "B": "The judgment has violated principles of natural justice or there is a gross miscarriage of justice", "C": "Both A and B", "D": "The Supreme Court grants special leave" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-052",
+      "q": "The Supreme Court’s power of judicial review extends to: 1. Laws made by Parliament. 2. Ordinances. 3. Constitutional amendments. 4. Administrative actions. Select the correct answer:",
+      "options": { "A": "1, 2 and 3 only", "B": "1, 2 and 4 only", "C": "2, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-053",
+      "q": "The Supreme Court in the NJAC judgment (2015) reaffirmed the collegium system. The judgment held that the primacy of the judiciary in appointments is part of:",
+      "options": { "A": "Article 14", "B": "The basic structure", "C": "Directive Principles", "D": "Article 21" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-054",
+      "q": "The Supreme Court’s advisory jurisdiction under Article 143 is not binding. However, which of the following references was considered binding by the Supreme Court itself?",
+      "options": { "A": "Kesavananda Bharati reference", "B": "The Delhi Laws Act case", "C": "In re Berubari Union", "D": "The Ayodhya reference (1993)" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-055",
+      "q": "The Supreme Court can punish for its contempt. This power is also available to the High Courts under Article 215. The contempt jurisdiction is subject to:",
+      "options": { "A": "The Contempt of Courts Act, 1971", "B": "No restrictions", "C": "Only criminal contempt", "D": "Only civil contempt" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-056",
+      "q": "The Supreme Court is the final interpreter of the Constitution. This means its interpretation is:",
+      "options": { "A": "Binding on all other courts", "B": "Persuasive only", "C": "Only valid for the case", "D": "Limited to Fundamental Rights" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-057",
+      "q": "The Supreme Court can order the enforcement of Fundamental Rights under Article 32. This right is:",
+      "options": { "A": "Absolute and cannot be limited", "B": "Can be suspended during a national emergency except for Articles 20 and 21", "C": "Available only against the Union", "D": "Available only to citizens" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-058",
+      "q": "The Supreme Court has the power to review its judgments under Article 137. This power is exercised:",
+      "options": { "A": "Freely in all cases", "B": "Only if there is an error apparent on the face of the record", "C": "Only in Fundamental Rights cases", "D": "Only if the President refers" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-059",
+      "q": "Which of the following jurisdictions is exclusive to the Supreme Court (not shared with High Courts)?",
+      "options": { "A": "Writ jurisdiction", "B": "Original jurisdiction in disputes between the Union and a State", "C": "Appellate jurisdiction in civil matters", "D": "Criminal appellate jurisdiction" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-060",
+      "q": "The Supreme Court can grant special leave to appeal even against decisions of tribunals. This power is under:",
+      "options": { "A": "Article 136", "B": "Article 226", "C": "Article 32", "D": "Article 227" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-061",
+      "q": "A High Court judge can be transferred to the Supreme Court as an ad hoc judge under Article 127. This requires:",
+      "options": { "A": "The consent of the President", "B": "The consent of the Chief Justice of India and the concerned High Court judge", "C": "The consent of the Chief Justice of the High Court", "D": "No consent is needed" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-062",
+      "q": "The Supreme Court judges are prohibited from practising after retirement. This prohibition is:",
+      "options": { "A": "Constitutional under Article 124(7)", "B": "Statutory", "C": "A convention", "D": "Not applicable to retired judges" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-063",
+      "q": "Which of the following statements about the Chief Justice of India is correct?",
+      "options": { "A": "He is appointed by the President on the recommendation of the collegium consisting of the four senior‑most judges of the Supreme Court.", "B": "He is appointed by seniority alone.", "C": "He is elected by all judges of the Supreme Court.", "D": "He is appointed by the Prime Minister." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-064",
+      "q": "The Supreme Court can reconsider its own decisions. In which case did it overrule the 'ADM Jabalpur' judgment, affirming that Article 21 cannot be suspended during an emergency?",
+      "options": { "A": "Kesavananda Bharati", "B": "Maneka Gandhi", "C": "Puttaswamy vs. Union of India", "D": "The ADM Jabalpur judgment was effectively overruled by the 44th Amendment and subsequent judgments, but the case that explicitly called it incorrect was Puttaswamy" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-065",
+      "q": "The Supreme Court in the Puttaswamy case (2017) held that the right to privacy is a fundamental right under:",
+      "options": { "A": "Article 14", "B": "Article 19", "C": "Article 21", "D": "All of the above" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-066",
+      "q": "The Supreme Court's jurisdiction under Article 32 is wider than that under Article 226 because:",
+      "options": { "A": "The Supreme Court can issue writs for enforcement of Fundamental Rights as well as ordinary rights", "B": "Article 32 is a Fundamental Right itself, while Article 226 is a discretionary power", "C": "The Supreme Court can review its own judgments", "D": "Article 226 is not available against the Union" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-067",
+      "q": "The concept of 'public interest litigation' (PIL) was developed by the Supreme Court to:",
+      "options": { "A": "Allow public-spirited persons to approach the court on behalf of the poor and disadvantaged", "B": "Increase the number of cases", "C": "Reduce judicial workload", "D": "Limit access to justice" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-068",
+      "q": "The Supreme Court in the S.P. Gupta case (First Judges Case, 1981) held that in the appointment of judges, the:",
+      "options": { "A": "Chief Justice of India’s opinion is not binding on the President", "B": "President is bound by the advice of the Chief Justice of India", "C": "Collegium system is mandatory", "D": "Judges are appointed by the Prime Minister" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-069",
+      "q": "Which case overruled the S.P. Gupta judgment and established the primacy of the collegium in judicial appointments?",
+      "options": { "A": "Supreme Court Advocates-on-Record Association vs. Union of India (1993)", "B": "In re Presidential Reference (1998)", "C": "Kesavananda Bharati", "D": "Maneka Gandhi" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-070",
+      "q": "The Supreme Court has the power to make rules for regulating generally the practice and procedure of the Court under:",
+      "options": { "A": "Article 145", "B": "Article 124", "C": "Article 141", "D": "Article 32" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-071",
+      "q": "The Chief Justice of India is the 'master of the roster'. This means:",
+      "options": { "A": "He decides which bench will hear which case", "B": "He can appoint any judge to any bench", "C": "Both A and B", "D": "He decides the strength of the Supreme Court" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-072",
+      "q": "The Supreme Court in the Supreme Court Advocates-on-Record Association vs. Union of India (2015) struck down the NJAC. What was the voting pattern of the bench?",
+      "options": { "A": "4:1", "B": "3:2", "C": "Unanimous by a bench of 5 judges", "D": "5:0" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-073",
+      "q": "The Supreme Court can hear appeals against the orders of the National Green Tribunal (NGT) under:",
+      "options": { "A": "Article 136", "B": "Article 226", "C": "The NGT Act itself", "D": "Both A and C" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sc-final-074",
+      "q": "The Supreme Court has the power to declare a law unconstitutional if it violates:",
+      "options": { "A": "Only Fundamental Rights", "B": "Any provision of the Constitution", "C": "Directive Principles", "D": "Fundamental Duties" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-075",
+      "q": "Which of the following statements about the Supreme Court’s original jurisdiction is correct?",
+      "options": { "A": "It extends to disputes between citizens.", "B": "It is exclusive in disputes between the Union and a State, or between States.", "C": "It is not available for disputes involving Fundamental Rights.", "D": "It requires the consent of the President." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sc-final-076",
+      "q": "The Supreme Court can transfer a judge of a High Court to another High Court. This power is exercised by:",
+      "options": { "A": "The President in consultation with the Chief Justice of India", "B": "The Chief Justice of India alone", "C": "The Law Minister", "D": "The collegium of the Supreme Court" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-077",
+      "q": "The Supreme Court in the Vishaka vs. State of Rajasthan case laid down guidelines on sexual harassment at the workplace. This was done under:",
+      "options": { "A": "Article 141", "B": "Article 142", "C": "Article 32 read with Article 141 and 142", "D": "Article 136" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-078",
+      "q": "The Supreme Court can direct the Centre to set up a CBI probe even without the state’s consent. This power is derived from:",
+      "options": { "A": "Article 32", "B": "Article 142", "C": "Both A and B", "D": "Article 136" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-079",
+      "q": "The Supreme Court in the L. Chandra Kumar case (1997) held that the power of judicial review of High Courts under Articles 226 and 227 is:",
+      "options": { "A": "A basic feature of the Constitution", "B": "Not a basic feature", "C": "Limited to Fundamental Rights", "D": "Subject to the jurisdiction of tribunals" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sc-final-080",
+      "q": "The Supreme Court can declare an act of Parliament void if it violates the basic structure. This doctrine was first applied to strike down an amendment in:",
+      "options": { "A": "Kesavananda Bharati", "B": "Indira Nehru Gandhi vs. Raj Narain", "C": "Minerva Mills", "D": "I.R. Coelho" },
+      "answer": "B",
+      "difficulty": "mid"
+    }
+  ]
+}

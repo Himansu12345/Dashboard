@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Gross Domestic Product (GDP)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-gross-domestic-product-gdp-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

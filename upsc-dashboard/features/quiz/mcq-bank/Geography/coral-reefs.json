@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Coral Reefs",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-coral-reefs-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

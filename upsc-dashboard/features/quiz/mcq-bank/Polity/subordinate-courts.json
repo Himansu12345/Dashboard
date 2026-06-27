@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Subordinate Courts",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-subordinate-courts-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

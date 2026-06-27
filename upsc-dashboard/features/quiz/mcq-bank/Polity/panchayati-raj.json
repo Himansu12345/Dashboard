@@ -1,0 +1,672 @@
+{
+  "subject": "Polity",
+  "topic": "Panchayati Raj – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "pr-final-001",
+      "q": "The Panchayati Raj system was given constitutional status by which Amendment Act?",
+      "options": {
+        "A": "73rd Amendment, 1992",
+        "B": "74th Amendment, 1992",
+        "C": "86th Amendment, 2002",
+        "D": "42nd Amendment, 1976"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-002",
+      "q": "Consider the following statements about the 73rd Constitutional Amendment: 1. It added a new Part IX to the Constitution. 2. It inserted a new Eleventh Schedule containing 29 functional items for Panchayats. 3. It made it mandatory for all states to establish a three‑tier Panchayati Raj system. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-003",
+      "q": "Which of the following states is NOT required to establish a three‑tier Panchayati Raj system under the 73rd Amendment?",
+      "options": {
+        "A": "States with a population below 20 lakh",
+        "B": "All Union Territories",
+        "C": "States with a population below 20 lakh may have a two‑tier system if they choose",
+        "D": "Jammu and Kashmir (before reorganisation) was not covered initially, but now it is"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-004",
+      "q": "The reservation of seats for SCs and STs in Panchayati Raj institutions is based on:",
+      "options": {
+        "A": "Proportion to their population in the state",
+        "B": "Proportion to their population in the panchayat area",
+        "C": "Fixed percentage of 22.5%",
+        "D": "As decided by the State Legislature"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-005",
+      "q": "What is the minimum reservation of seats for women in Panchayati Raj institutions under the 73rd Amendment?",
+      "options": {
+        "A": "One‑third of total seats",
+        "B": "One‑half of total seats (after state amendments and recent initiatives, but Constitution provides one‑third)",
+        "C": "No reservation",
+        "D": "One‑fourth"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-006",
+      "q": "Consider the following: 1. Chairpersons of Panchayats at the intermediate and district levels are elected directly by the people. 2. The Governor of a state can reserve certain seats for backward classes in Panchayats. 3. The State Election Commission conducts elections to Panchayats. Which of the above is/are correct?",
+      "options": { "A": "2 and 3 only", "B": "1 and 2 only", "C": "1 and 3 only", "D": "2 only" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-007",
+      "q": "The State Election Commission for conducting elections to Panchayats is appointed by:",
+      "options": {
+        "A": "The President",
+        "B": "The Governor",
+        "C": "The Chief Minister",
+        "D": "The Union Election Commission"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-008",
+      "q": "Which Article deals with the duration of Panchayats?",
+      "options": {
+        "A": "Article 243E",
+        "B": "Article 243F",
+        "C": "Article 243G",
+        "D": "Article 243H"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-009",
+      "q": "A Panchayat continues for:",
+      "options": {
+        "A": "Five years from the date of its first meeting",
+        "B": "Five years from the date of its election",
+        "C": "Until dissolved by the State Government",
+        "D": "No fixed period"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-010",
+      "q": "If a Panchayat is dissolved before completing five years, elections must be held within:",
+      "options": {
+        "A": "Three months",
+        "B": "Six months",
+        "C": "One year",
+        "D": "Six weeks"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-011",
+      "q": "Consider the following statements regarding the dissolution of a Panchayat: 1. It can be dissolved by the State Government in accordance with law. 2. The new Panchayat formed after dissolution serves a full five‑year term. 3. The dissolved Panchayat can be revived by a court order. Which of the above is/are correct?",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "1 and 3 only", "D": "2 and 3 only" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-012",
+      "q": "The State Finance Commission is constituted by the Governor every:",
+      "options": {
+        "A": "Two years",
+        "B": "Three years",
+        "C": "Five years",
+        "D": "At the discretion of the Governor"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-013",
+      "q": "The State Finance Commission recommends the distribution of which of the following to Panchayats? 1. Net proceeds of taxes, duties, tolls and fees of the State. 2. Grants‑in‑aid to Panchayats from the Consolidated Fund of the State. 3. Measures to improve the financial position of Panchayats. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-014",
+      "q": "The Eleventh Schedule of the Constitution lists:",
+      "options": {
+        "A": "18 items",
+        "B": "29 items",
+        "C": "33 items",
+        "D": "22 items"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-015",
+      "q": "Which of the following is NOT a subject included in the Eleventh Schedule?",
+      "options": {
+        "A": "Minor irrigation, water management and watershed development",
+        "B": "Poverty alleviation programme",
+        "C": "Urban planning including town planning",
+        "D": "Health and sanitation, including hospitals, primary health centres and dispensaries"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-016",
+      "q": "The concept of Gram Sabha is provided under:",
+      "options": {
+        "A": "Article 243A",
+        "B": "Article 243B",
+        "C": "Article 243C",
+        "D": "Article 243D"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-017",
+      "q": "Who is responsible for conducting elections to Panchayati Raj institutions?",
+      "options": {
+        "A": "The Union Election Commission",
+        "B": "The State Election Commission appointed by the Governor",
+        "C": "The Chief Electoral Officer of the State",
+        "D": "The District Magistrate"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-018",
+      "q": "The power to levy taxes by Panchayats is derived from:",
+      "options": {
+        "A": "The Constitution directly",
+        "B": "State laws enacted under Article 243H",
+        "C": "The Eleventh Schedule",
+        "D": "Central legislation"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-019",
+      "q": "Which of the following statements about the Panchayat system is correct?",
+      "options": {
+        "A": "The 73rd Amendment applies to all Union Territories without any exception.",
+        "B": "The reservation for women includes the office of Chairperson.",
+        "C": "The State Legislature cannot make any provision for reservation of backward classes in Panchayats.",
+        "D": "The Governor has no role in Panchayat elections."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-020",
+      "q": "The 73rd Amendment mandates that one‑third of the total number of seats in Panchayats, and one‑third of the offices of Chairpersons, shall be reserved for women. This reservation is:",
+      "options": {
+        "A": "A minimum, and states can provide more",
+        "B": "Fixed and cannot be exceeded",
+        "C": "Only for SC/ST women",
+        "D": "Only for OBC women"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-021",
+      "q": "Which of the following Articles deals with the reservation of seats for SCs and STs in Panchayats?",
+      "options": {
+        "A": "Article 243C",
+        "B": "Article 243D",
+        "C": "Article 243E",
+        "D": "Article 243F"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-022",
+      "q": "Consider the following statements regarding the composition of Panchayats: 1. All members of a Panchayat are directly elected by the people. 2. The Chairperson of a Panchayat at the village level is elected by the members of the Panchayat. 3. The mode of election of the Chairperson at the intermediate and district levels is determined by the State Legislature. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-023",
+      "q": "The provisions of the 73rd Amendment regarding the reservation of seats for women and SC/STs in Panchayats apply to:",
+      "options": {
+        "A": "All Panchayats at all levels",
+        "B": "Only Gram Panchayats",
+        "C": "Only at the district level",
+        "D": "Only at the intermediate level"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-024",
+      "q": "A Gram Sabha consists of:",
+      "options": {
+        "A": "All elected members of the Gram Panchayat",
+        "B": "All persons registered in the electoral rolls of a village within a Gram Panchayat area",
+        "C": "All residents of the village including children",
+        "D": "Only the Chairperson and members of the Panchayat"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-025",
+      "q": "The state legislature may, by law, endow Panchayats with the power to levy, collect, and appropriate certain taxes, duties, tolls and fees. This is provided under:",
+      "options": {
+        "A": "Article 243G",
+        "B": "Article 243H",
+        "C": "Article 243I",
+        "D": "Article 243J"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-026",
+      "q": "The District Planning Committee in every state consolidates the plans prepared by Panchayats and Municipalities. This is provided under:",
+      "options": {
+        "A": "Article 243ZD",
+        "B": "Article 243ZE",
+        "C": "Article 243Z",
+        "D": "Article 243S"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-027",
+      "q": "Which of the following is a compulsory provision under the 73rd Amendment?",
+      "options": {
+        "A": "Reservation of seats for women",
+        "B": "Providing financial powers to Panchayats",
+        "C": "Giving Panchayats the power to impose taxes",
+        "D": "Constitution of a State Finance Commission"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-028",
+      "q": "The recommendations of the State Finance Commission are laid before:",
+      "options": {
+        "A": "The State Legislature",
+        "B": "The Parliament",
+        "C": "The Governor",
+        "D": "The Chief Minister"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-029",
+      "q": "Consider the following statements about PESA (Provisions of the Panchayats (Extension to the Scheduled Areas) Act, 1996): 1. It extends Part IX of the Constitution to the Fifth Schedule areas. 2. It gives special powers to the Gram Sabha in these areas. 3. It overrides the Panchayati Raj legislation of the state in case of inconsistency. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-030",
+      "q": "The PESA Act, 1996, was enacted to:",
+      "options": {
+        "A": "Extend the provisions of Part IX to the Sixth Schedule areas",
+        "B": "Extend the provisions of Part IX to the Fifth Schedule areas with certain modifications and exceptions",
+        "C": "Abolish the Panchayati Raj system in tribal areas",
+        "D": "Merge all Panchayats into the state administration"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-031",
+      "q": "Under PESA, the Gram Sabha has the power to:",
+      "options": {
+        "A": "Only approve development plans",
+        "B": "Safeguard and preserve the traditions and customs of the people, and manage community resources",
+        "C": "Collect taxes directly",
+        "D": "Appoint the District Collector"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-032",
+      "q": "Which of the following states is NOT covered by the Fifth Schedule (Scheduled Areas) and therefore PESA does not apply to its entire state?",
+      "options": {
+        "A": "Andhra Pradesh",
+        "B": "Maharashtra",
+        "C": "Rajasthan",
+        "D": "Nagaland"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-033",
+      "q": "The disqualification for membership of a Panchayat includes:",
+      "options": {
+        "A": "Being of unsound mind",
+        "B": "Holding an office of profit under the Panchayat",
+        "C": "Being disqualified under any law made by the State Legislature",
+        "D": "All of the above"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-034",
+      "q": "Which Article provides that the laws relating to the disqualification of members of Panchayats shall be made by the State Legislature?",
+      "options": {
+        "A": "Article 243F",
+        "B": "Article 243G",
+        "C": "Article 243H",
+        "D": "Article 243I"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-035",
+      "q": "Consider the following statements: 1. The Governor can reserve certain seats for backward classes in Panchayats. 2. The reservation of seats for SCs and STs is mandatory, but for backward classes it is discretionary. 3. The total reservation shall not exceed 50 percent. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-036",
+      "q": "The Audit of accounts of Panchayats is done by:",
+      "options": {
+        "A": "The Comptroller and Auditor General of India",
+        "B": "The State Finance Commission",
+        "C": "Such authority as the State Legislature may by law provide",
+        "D": "The Union Finance Ministry"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-037",
+      "q": "Which of the following statements about the State Election Commission is correct?",
+      "options": {
+        "A": "It is appointed by the President.",
+        "B": "It is responsible for the superintendence, direction and control of the preparation of electoral rolls and the conduct of all elections to the Panchayats.",
+        "C": "It is a constitutional body under Article 324.",
+        "D": "It has no role in Panchayat elections."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-038",
+      "q": "The 73rd Amendment Act provided for a 'Gram Sabha' as the foundation of the Panchayati Raj system. Which Article defines Gram Sabha?",
+      "options": {
+        "A": "Article 243(b)",
+        "B": "Article 243A",
+        "C": "Article 243C",
+        "D": "Article 243B"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-039",
+      "q": "The term 'Panchayat' under Article 243(b) includes:",
+      "options": {
+        "A": "Only Gram Panchayat",
+        "B": "Only intermediate and district level Panchayats",
+        "C": "All institutions of self‑government constituted under Article 243B at the village, intermediate, and district levels",
+        "D": "Only traditional Panchayats"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-040",
+      "q": "The 73rd Amendment provides that the State Legislature may authorise a Panchayat to levy, collect, and appropriate taxes. This power is subject to:",
+      "options": {
+        "A": "The Constitution of India",
+        "B": "The limits prescribed by the State Legislature",
+        "C": "The approval of the Union Government",
+        "D": "The Finance Commission's recommendations"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-041",
+      "q": "Which of the following states has a two‑tier Panchayati Raj system (without the intermediate level) due to a small population?",
+      "options": {
+        "A": "Goa",
+        "B": "Kerala",
+        "C": "Punjab",
+        "D": "Haryana"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-042",
+      "q": "The Panchayat (Extension to the Scheduled Areas) Act, 1996 (PESA) was enacted to give effect to which constitutional provision?",
+      "options": {
+        "A": "Article 243M(4)(b)",
+        "B": "Article 244",
+        "C": "Fifth Schedule",
+        "D": "Sixth Schedule"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-043",
+      "q": "Article 243M provides that nothing in Part IX shall apply to the Scheduled Areas. However, Parliament has extended Part IX to these areas with modifications under PESA. Which of the following statements is correct?",
+      "options": {
+        "A": "PESA automatically applies to all Fifth Schedule areas.",
+        "B": "State legislatures have no power to amend PESA.",
+        "C": "State legislatures may make laws for these areas subject to the provisions of PESA.",
+        "D": "PESA replaced the Fifth Schedule."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-044",
+      "q": "Consider the following regarding the financial powers of Panchayats: 1. They may be authorised by State law to levy taxes. 2. The grants‑in‑aid are recommended by the State Finance Commission. 3. The Consolidated Fund of the State provides grants to Panchayats. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-045",
+      "q": "The first State Finance Commission in India was constituted in which state?",
+      "options": {
+        "A": "Kerala",
+        "B": "West Bengal",
+        "C": "Tamil Nadu",
+        "D": "Maharashtra"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-046",
+      "q": "Which of the following is NOT a source of income for Panchayati Raj institutions?",
+      "options": {
+        "A": "State Finance Commission grants",
+        "B": "Taxes collected by the Panchayat as authorised by the state",
+        "C": "Direct allocations from the Consolidated Fund of India",
+        "D": "Grants from the Central Finance Commission for local bodies"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-047",
+      "q": "The 73rd Amendment provided that the superintendence, direction, and control of elections to Panchayats shall be vested in the State Election Commission. This is under:",
+      "options": {
+        "A": "Article 243K",
+        "B": "Article 243L",
+        "C": "Article 324",
+        "D": "Article 243O"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-048",
+      "q": "Article 243O bars the courts from interfering in electoral matters of Panchayats. This is similar to:",
+      "options": {
+        "A": "Article 324",
+        "B": "Article 329",
+        "C": "Article 136",
+        "D": "Article 32"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-049",
+      "q": "Consider the following statements: 1. The 73rd Amendment applies to Jammu and Kashmir after the reorganisation act, but earlier it was excluded. 2. The provisions of Part IX also apply to the Union Territories of Delhi and Puducherry subject to modifications. 3. The Sixth Schedule areas are also governed by Part IX without any modification. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1 only" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pr-final-050",
+      "q": "The Sixth Schedule areas (Tribal Areas in Assam, Meghalaya, Tripura, Mizoram) are NOT covered by Part IX. Instead, these areas have:",
+      "options": {
+        "A": "Autonomous District Councils",
+        "B": "Municipal Corporations",
+        "C": "Gram Panchayats under PESA",
+        "D": "Union Territory administration"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-051",
+      "q": "Which of the following is an example of a 'mandatory' provision under the 73rd Amendment? 1. Reservation of seats for women. 2. Constitution of a State Finance Commission every five years. 3. Reservation of seats for SCs and STs. 4. Establishment of a three‑tier system (subject to population exemption). Select the correct answer:",
+      "options": { "A": "2, 3 and 4 only", "B": "1, 2 and 3 only", "C": "2 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-052",
+      "q": "The Panchayati Raj system is a part of the Directive Principles of State Policy. Which Article originally directed the State to organise village panchayats?",
+      "options": {
+        "A": "Article 38",
+        "B": "Article 40",
+        "C": "Article 44",
+        "D": "Article 48"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-053",
+      "q": "The 73rd Amendment gave constitutional status to the Panchayats, fulfilling the objective of:",
+      "options": {
+        "A": "Article 40 (Directive Principle)",
+        "B": "Article 21 (Right to life)",
+        "C": "Article 19 (Freedom of assembly)",
+        "D": "Article 15 (Prohibition of discrimination)"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-054",
+      "q": "The Governor has the power to reserve certain seats in Panchayats for:",
+      "options": {
+        "A": "Backward classes of citizens",
+        "B": "Women (additional to the constitutional mandate)",
+        "C": "Both A and B",
+        "D": "Only SC/ST"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-055",
+      "q": "Which of the following statements is correct regarding the Panchayati Raj system?",
+      "options": {
+        "A": "All members of Panchayats are directly elected.",
+        "B": "The Chairperson of the Village Panchayat is directly elected by the Gram Sabha.",
+        "C": "The State Legislature can provide for the representation of MPs and MLAs in Panchayats.",
+        "D": "The reservation for SC/ST is based on their population in the entire state."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-056",
+      "q": "Consider the following statements about the Eleventh Schedule: 1. It was added by the 73rd Amendment. 2. It contains 29 functional items. 3. The State Legislature may by law endow Panchayats with powers to implement schemes under these items. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-057",
+      "q": "Which of the following is NOT a part of the three‑tier Panchayati Raj system?",
+      "options": {
+        "A": "Gram Panchayat",
+        "B": "Panchayat Samiti (Intermediate Level)",
+        "C": "Zila Parishad (District Level)",
+        "D": "Nagar Panchayat (Notified Area Council)"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pr-final-058",
+      "q": "The Panchayat elections are conducted under the supervision of the State Election Commission. The State Election Commissioner can be removed only:",
+      "options": {
+        "A": "By the Governor at his pleasure",
+        "B": "In like manner and on the like grounds as a judge of a High Court",
+        "C": "By the President on the advice of the Governor",
+        "D": "By a resolution of the State Legislature"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-059",
+      "q": "The provisions of Part IX (Panchayats) do NOT apply to:",
+      "options": {
+        "A": "Nagaland, Meghalaya, and Mizoram, and certain areas of other states specified in the Constitution.",
+        "B": "All Union Territories",
+        "C": "States without a legislative assembly",
+        "D": "Only Jammu and Kashmir"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pr-final-060",
+      "q": "Which of the following is a correct comparison between the 73rd and 74th Amendment Acts?",
+      "options": {
+        "A": "Both added the same schedule (Eleventh Schedule).",
+        "B": "Both provide for direct election of Chairpersons.",
+        "C": "Both provide for reservation of seats for women and SC/STs.",
+        "D": "Both apply uniformly to all states without any exceptions."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Purchasing Power Parity (PPP)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-purchasing-power-parity-ppp-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

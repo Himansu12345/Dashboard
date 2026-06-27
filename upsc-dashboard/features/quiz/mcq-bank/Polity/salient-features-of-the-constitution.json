@@ -1,0 +1,427 @@
+{
+  "subject": "Polity",
+  "topic": "Salient Features of the Constitution – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "sf-final-001",
+      "q": "Consider the following pairs (Feature – Source): 1. Parliamentary system – Britain  2. Directive Principles of State Policy – Ireland  3. Fundamental Rights – USA  4. Procedure established by law – Japan. Which of the pairs given above are correctly matched?",
+      "options": { "A": "1, 2 and 3 only", "B": "1, 2 and 4 only", "C": "1, 2, 3 and 4", "D": "2, 3 and 4 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-002",
+      "q": "Which of the following is a salient feature of the Indian Constitution that reflects its unitary bias?",
+      "options": { "A": "Division of powers under the Seventh Schedule", "B": "Single Constitution for the Union and the States", "C": "Bicameral legislature at the Centre", "D": "Independent judiciary" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-003",
+      "q": "The Indian Constitution is both rigid and flexible. Which of the following provisions can be amended by a simple majority of Parliament?",
+      "options": { "A": "Fundamental Rights", "B": "Creation of new states under Article 3", "C": "Election of the President", "D": "Distribution of legislative powers" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-004",
+      "q": "Which of the following statements about the Indian Constitution is correct?",
+      "options": { "A": "It provides for dual citizenship like the USA.", "B": "It establishes a federal system with a strong unitary bias.", "C": "It provides for a fixed tenure of the executive.", "D": "It does not allow any amendment to Fundamental Rights." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-005",
+      "q": "The feature of 'single citizenship' in India is borrowed from:",
+      "options": { "A": "USA", "B": "Canada", "C": "Britain", "D": "Australia" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-006",
+      "q": "The concept of 'equal protection of laws' under Article 14 is taken from:",
+      "options": { "A": "British Constitution", "B": "Constitution of the USA", "C": "Constitution of Canada", "D": "Irish Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-007",
+      "q": "The federal system with a strong centre in India is MOST heavily influenced by the:",
+      "options": { "A": "Government of India Act, 1935", "B": "Constitution of the USA", "C": "Constitution of Canada", "D": "Constitution of Australia" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-008",
+      "q": "Which of the following features of the Indian Constitution is NOT borrowed from the Government of India Act, 1935?",
+      "options": { "A": "Office of the Governor", "B": "Public Service Commissions", "C": "Fundamental Rights", "D": "Federal scheme" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-009",
+      "q": "The term 'Socialist' was added to the Preamble by the 42nd Amendment. In the Indian context, it implies:",
+      "options": { "A": "Total state ownership of all means of production", "B": "A mixed economy with social justice and removal of inequalities", "C": "Abolition of private property without compensation", "D": "Absolute equality of income" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-010",
+      "q": "Which of the following is NOT a part of the basic structure of the Constitution?",
+      "options": { "A": "Supremacy of the Constitution", "B": "Parliamentary form of government", "C": "Republican and democratic form of government", "D": "Harmony between Fundamental Rights and Directive Principles" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-011",
+      "q": "India is described as a 'Union of States' rather than a 'Federation of States' because:",
+      "options": { "A": "States have the right to secede", "B": "The Union is not destructible by the states, but the states are not indestructible", "C": "The Constitution is not written", "D": "There is no division of powers" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-012",
+      "q": "Which of the following is a unitary feature of the Indian Constitution? 1. Single citizenship 2. Integrated judiciary 3. All-India Services 4. Emergency provisions converting the federal structure into a unitary one. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1, 2 and 3 only", "C": "1, 2, 3 and 4", "D": "2, 3 and 4 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-013",
+      "q": "The Constitution of India is the lengthiest written constitution in the world primarily because:",
+      "options": { "A": "It includes only fundamental principles", "B": "It contains detailed administrative provisions, schedules, and provisions for diverse areas", "C": "It has a single list of subjects", "D": "It has no schedules" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-014",
+      "q": "The original Constitution (1950) contained how many Articles and Schedules?",
+      "options": { "A": "395 Articles, 8 Schedules", "B": "448 Articles, 12 Schedules", "C": "395 Articles, 10 Schedules", "D": "390 Articles, 8 Schedules" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-015",
+      "q": "The concept of 'procedure established by law' under Article 21 is derived from the Constitution of Japan. The Supreme Court in Maneka Gandhi expanded its meaning to include:",
+      "options": { "A": "Any procedure laid down by the legislature", "B": "Procedure that is just, fair, and reasonable", "C": "Procedure that is arbitrary", "D": "Only procedure prescribed by the executive" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-016",
+      "q": "Which of the following statements about the Indian federal system is correct?",
+      "options": { "A": "It is a result of an agreement between the states", "B": "States have the right to secede", "C": "It is an indestructible union of destructible states", "D": "The Constitution provides for dual citizenship" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-017",
+      "q": "The feature of 'Judicial Review' in India is primarily derived from the:",
+      "options": { "A": "British Constitution", "B": "Constitution of the USA", "C": "Government of India Act, 1935", "D": "Canadian Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-018",
+      "q": "The Supreme Court's power of judicial review of constitutional amendments is a part of the basic structure. This was established in:",
+      "options": { "A": "Golaknath case", "B": "Kesavananda Bharati case", "C": "Minerva Mills case", "D": "Both B and C" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-019",
+      "q": "The Constitution of India establishes a parliamentary system of government. Which of the following is NOT a feature of this system?",
+      "options": { "A": "Collective responsibility of the executive to the legislature", "B": "Separation of powers between the executive and legislature", "C": "Leadership of the Prime Minister", "D": "Dissolution of the lower house" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-020",
+      "q": "The Fundamental Duties were added to the Constitution by the 42nd Amendment on the recommendation of:",
+      "options": { "A": "Sarkaria Commission", "B": "Swaran Singh Committee", "C": "Administrative Reforms Commission", "D": "Law Commission" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-021",
+      "q": "Consider the following statements: 1. The Indian Constitution is a synthesis of parliamentary sovereignty and judicial supremacy. 2. The power of judicial review is absolute and cannot be limited. 3. The doctrine of basic structure limits the amending power of Parliament. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-022",
+      "q": "The Directive Principles of State Policy are 'fundamental in the governance of the country'. This phrase is taken from the:",
+      "options": { "A": "Irish Constitution", "B": "British Parliament", "C": "American Declaration of Independence", "D": "French Constitution" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-023",
+      "q": "The feature of 'Adult Suffrage' in India provides for the right to vote to every citizen who is not less than:",
+      "options": { "A": "21 years of age", "B": "18 years of age", "C": "25 years of age", "D": "20 years of age" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-024",
+      "q": "The voting age was reduced from 21 to 18 years by:",
+      "options": { "A": "42nd Amendment, 1976", "B": "61st Amendment, 1988", "C": "86th Amendment, 2002", "D": "44th Amendment, 1978" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-025",
+      "q": "The Indian Constitution is 'quasi-federal' because:",
+      "options": { "A": "It has a single citizenship", "B": "It contains both federal and unitary features", "C": "States can secede from the Union", "D": "It has no division of powers" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-026",
+      "q": "The provision for a 'Concurrent List' in the Seventh Schedule is borrowed from:",
+      "options": { "A": "Government of India Act, 1935", "B": "Constitution of Australia", "C": "Constitution of Canada", "D": "Constitution of the USA" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-027",
+      "q": "The 'Advisory jurisdiction of the Supreme Court' under Article 143 is borrowed from:",
+      "options": { "A": "USA", "B": "Canada", "C": "Britain", "D": "Ireland" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-028",
+      "q": "The 'Emergency provisions' in the Constitution that can convert the federal structure into a unitary one were borrowed from:",
+      "options": { "A": "The Government of India Act, 1935 and the Weimar Constitution of Germany", "B": "The Constitution of the USA", "C": "The Constitution of Canada", "D": "The Constitution of Ireland" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-029",
+      "q": "The 'single integrated judiciary' in India means:",
+      "options": { "A": "The Supreme Court is at the apex, and the High Courts and subordinate courts are under it in a single hierarchy", "B": "There are separate federal and state courts", "C": "High Courts are final in all matters", "D": "Each state has its own Supreme Court" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-030",
+      "q": "The independence of the judiciary is ensured by: 1. Security of tenure for judges. 2. Salaries charged on the Consolidated Fund. 3. Difficult removal procedure. 4. Prohibition of practice after retirement. Select the correct answer:",
+      "options": { "A": "1, 2 and 3 only", "B": "1 and 2 only", "C": "2, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-031",
+      "q": "The Constitution provides for a 'three-tier government' structure. The third tier was given constitutional status by:",
+      "options": { "A": "The original Constitution", "B": "42nd Amendment, 1976", "C": "73rd and 74th Amendments, 1992", "D": "44th Amendment, 1978" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-032",
+      "q": "The 'Secular' nature of the Indian state implies:",
+      "options": { "A": "The state follows a particular religion", "B": "The state is anti-religious", "C": "The state treats all religions equally and has no official religion", "D": "The state controls all religious institutions" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-033",
+      "q": "The term 'Republic' in the Preamble indicates that the head of the state is:",
+      "options": { "A": "A hereditary monarch", "B": "Elected, directly or indirectly, for a fixed term", "C": "Appointed by the British Crown", "D": "Selected by the judiciary" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-034",
+      "q": "The 'Rule of Law' is a feature borrowed from Britain. In the Indian Constitution, it is reflected in:",
+      "options": { "A": "Article 14", "B": "Article 21", "C": "Both A and B", "D": "Only the Preamble" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-035",
+      "q": "Which of the following is NOT a feature of the parliamentary system in India?",
+      "options": { "A": "Collective responsibility", "B": "Fixed tenure of the executive", "C": "Leadership of the Prime Minister", "D": "Dissolution of the Lok Sabha" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-036",
+      "q": "The concept of 'Residuary powers' being vested in the Centre is taken from:",
+      "options": { "A": "USA", "B": "Canada", "C": "Australia", "D": "Government of India Act, 1935" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-037",
+      "q": "The writs under Articles 32 and 226 for enforcement of Fundamental Rights are borrowed from:",
+      "options": { "A": "British Common Law", "B": "Constitution of the USA", "C": "Irish Constitution", "D": "Canadian Constitution" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-038",
+      "q": "The 'single Constitution' feature means:",
+      "options": { "A": "States have their own separate constitutions", "B": "The Union and the states share a single constitution, with special provisions for some states", "C": "Only the Union has a constitution", "D": "There is no written constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-039",
+      "q": "The Indian Constitution provides for a 'welfare state' rather than a 'police state'. This is evident from:",
+      "options": { "A": "Fundamental Rights", "B": "Directive Principles of State Policy", "C": "Fundamental Duties", "D": "Emergency provisions" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-040",
+      "q": "The provision for 'Impeachment of the President' is borrowed from the:",
+      "options": { "A": "British Constitution", "B": "Constitution of the USA", "C": "Constitution of Canada", "D": "Irish Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-041",
+      "q": "The method of election of the President in India (indirect election by proportional representation) is borrowed from:",
+      "options": { "A": "Britain", "B": "Ireland", "C": "USA", "D": "Australia" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-042",
+      "q": "The 'nominal head of the state' (President) and the 'real head of government' (Prime Minister) is a feature of the:",
+      "options": { "A": "Presidential system", "B": "Parliamentary system", "C": "Both", "D": "None" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-043",
+      "q": "The 'Fundamental Duties' in the Indian Constitution are:",
+      "options": { "A": "Justiciable", "B": "Non-justiciable but can be enforced by law if Parliament provides", "C": "Enforceable like Fundamental Rights", "D": "Not a part of the Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-044",
+      "q": "The 'Right to Education' under Article 21A was originally a Directive Principle under:",
+      "options": { "A": "Article 45", "B": "Article 41", "C": "Both A and B", "D": "Article 46" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-045",
+      "q": "Which of the following is an example of a feature that makes the Constitution rigid?",
+      "options": { "A": "Article 3 – formation of new states", "B": "Article 169 – abolition of legislative councils", "C": "Article 368 – amendment by special majority and ratification by states", "D": "Article 123 – ordinance making power" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-046",
+      "q": "The 'Preamble' of the Constitution is:",
+      "options": { "A": "Not a part of the Constitution", "B": "A part of the Constitution and can be amended", "C": "A schedule", "D": "Enforceable in a court of law" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-047",
+      "q": "The term 'Secular' and 'Socialist' were added to the Preamble by the:",
+      "options": { "A": "24th Amendment", "B": "42nd Amendment", "C": "44th Amendment", "D": "1st Amendment" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-048",
+      "q": "The 'Joint sitting of both Houses of Parliament' to resolve a deadlock on a bill is borrowed from:",
+      "options": { "A": "Britain", "B": "Australia", "C": "Canada", "D": "USA" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-049",
+      "q": "The 'Bicameral Parliament' (Lok Sabha and Rajya Sabha) is borrowed from:",
+      "options": { "A": "USA", "B": "Britain", "C": "Canada", "D": "Australia" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-050",
+      "q": "The 'procedure for amending the Constitution' in India is borrowed from:",
+      "options": { "A": "USA", "B": "South Africa", "C": "Canada", "D": "Australia" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-051",
+      "q": "The 'Constitution of India' is described as a 'bag of borrowings' because:",
+      "options": { "A": "It is entirely original", "B": "It borrows heavily from various other constitutions", "C": "It is based only on British laws", "D": "It has no external influence" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-052",
+      "q": "Which of the following statements about the 'basic structure doctrine' is correct?",
+      "options": { "A": "It is explicitly defined in Article 368", "B": "It limits the Parliament's power to amend the Constitution", "C": "It was first applied in the Golaknath case", "D": "It was rejected by the Supreme Court in Kesavananda Bharati" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-053",
+      "q": "The 'integrated judiciary' in India ensures:",
+      "options": { "A": "Separate systems for Centre and states", "B": "Uniform interpretation of laws across the country", "C": "States have their own final courts", "D": "Judicial fragmentation" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-054",
+      "q": "The feature of 'All-India Services' promotes:",
+      "options": { "A": "Federalism", "B": "Unitary character by creating uniform administrative services across the Union and states", "C": "Separation of powers", "D": "Judicial independence" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "sf-final-055",
+      "q": "The 'special provisions for certain states' (e.g., Article 371) represent:",
+      "options": { "A": "Asymmetrical federalism", "B": "Unitary feature", "C": "Separatist tendencies", "D": "Discrimination" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-056",
+      "q": "The 'Election Commission' as an independent body is a feature that ensures:",
+      "options": { "A": "Parliamentary sovereignty", "B": "Free and fair elections", "C": "Judicial review", "D": "Federal balance" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "sf-final-057",
+      "q": "The 'Comptroller and Auditor General' as an independent body is borrowed from:",
+      "options": { "A": "Britain", "B": "USA", "C": "Government of India Act, 1935", "D": "Canada" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-058",
+      "q": "The 'Fundamental Duties' were inspired by the Constitution of:",
+      "options": { "A": "Japan", "B": "USA", "C": "USSR", "D": "France" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-059",
+      "q": "The 'single citizenship' feature in India, despite a federal structure, is shared by which other federal country?",
+      "options": { "A": "USA", "B": "Australia", "C": "Canada", "D": "Switzerland" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "sf-final-060",
+      "q": "The Constitution is described as a 'living document' because:",
+      "options": { "A": "It cannot be amended", "B": "It evolves through amendments and judicial interpretations to meet changing needs", "C": "It is completely rigid", "D": "It follows only the original intent" },
+      "answer": "B",
+      "difficulty": "easy"
+    }
+  ]
+}

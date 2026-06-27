@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Central Bureau of Investigation (CBI)",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-central-bureau-of-investigation-cbi-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

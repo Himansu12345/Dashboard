@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Tripartite Struggle",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-tripartite-struggle-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

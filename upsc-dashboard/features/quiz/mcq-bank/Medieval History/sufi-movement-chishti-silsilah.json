@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Sufi Movement - Chishti Silsilah",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-sufi-movement-chishti-silsilah-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

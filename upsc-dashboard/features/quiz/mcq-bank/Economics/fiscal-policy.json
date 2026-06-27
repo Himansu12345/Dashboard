@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Fiscal Policy",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-fiscal-policy-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Water Pollution",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-water-pollution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Farm Bills",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-farm-bills-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

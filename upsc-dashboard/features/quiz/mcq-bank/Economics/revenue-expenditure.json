@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Revenue Expenditure",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-revenue-expenditure-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

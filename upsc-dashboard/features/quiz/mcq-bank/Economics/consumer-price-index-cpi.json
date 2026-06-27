@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Consumer Price Index (CPI)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-consumer-price-index-cpi-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

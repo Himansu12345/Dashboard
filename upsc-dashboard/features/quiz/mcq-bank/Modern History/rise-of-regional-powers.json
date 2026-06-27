@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Rise of Regional Powers",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-rise-of-regional-powers-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

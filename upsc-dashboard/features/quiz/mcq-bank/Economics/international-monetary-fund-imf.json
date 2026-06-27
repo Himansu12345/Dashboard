@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "International Monetary Fund (IMF)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-international-monetary-fund-imf-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

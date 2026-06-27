@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "National Development Council (NDC)",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-national-development-council-ndc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

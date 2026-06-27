@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Sea Floor Spreading",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-sea-floor-spreading-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

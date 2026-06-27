@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Agricultural Marketing",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-agricultural-marketing-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

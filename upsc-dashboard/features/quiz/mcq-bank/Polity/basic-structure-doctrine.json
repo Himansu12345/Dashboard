@@ -1,0 +1,357 @@
+{
+  "subject": "Polity",
+  "topic": "Basic Structure Doctrine – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "bs-final-001",
+      "q": "The 'basic structure' doctrine was first propounded in:",
+      "options": { "A": "Golaknath vs. State of Punjab (1967)", "B": "Kesavananda Bharati vs. State of Kerala (1973)", "C": "Shankari Prasad vs. Union of India (1951)", "D": "Minerva Mills vs. Union of India (1980)" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-002",
+      "q": "The basic structure doctrine limits the amending power of Parliament under which Article?",
+      "options": { "A": "Article 352", "B": "Article 368", "C": "Article 13", "D": "Article 356" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-003",
+      "q": "Before Kesavananda Bharati, in which case(s) did the Supreme Court hold that Parliament could amend any part of the Constitution including Fundamental Rights?",
+      "options": { "A": "Shankari Prasad vs. Union of India (1951)", "B": "Sajjan Singh vs. State of Rajasthan (1965)", "C": "Both A and B", "D": "Golaknath vs. State of Punjab (1967)" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-004",
+      "q": "In Golaknath vs. State of Punjab (1967), the Supreme Court held that Parliament:",
+      "options": { "A": "Could amend Fundamental Rights", "B": "Could not amend Fundamental Rights so as to take away or abridge them", "C": "Had unlimited amending power", "D": "Could amend only Directive Principles" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-005",
+      "q": "The 24th Amendment Act, 1971 was passed to nullify the effect of:",
+      "options": { "A": "Shankari Prasad case", "B": "Sajjan Singh case", "C": "Golaknath case", "D": "Kesavananda Bharati case" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-006",
+      "q": "The Kesavananda Bharati judgment was delivered by a bench of how many judges?",
+      "options": { "A": "11", "B": "13", "C": "9", "D": "7" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-007",
+      "q": "The Kesavananda case primarily involved challenges to which amendments?",
+      "options": { "A": "24th, 25th, and 29th Amendments", "B": "42nd and 44th Amendments", "C": "1st and 4th Amendments", "D": "73rd and 74th Amendments" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-008",
+      "q": "In Kesavananda Bharati, the Supreme Court overruled Golaknath and held that Parliament can amend Fundamental Rights but cannot:",
+      "options": { "A": "Amend the Preamble", "B": "Destroy or alter the basic structure of the Constitution", "C": "Amend Directive Principles", "D": "Amend without state ratification" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-009",
+      "q": "The phrase 'basic structure' is not defined in the Constitution. The Supreme Court has identified it:",
+      "options": { "A": "Exhaustively in one list", "B": "Illustratively from time to time through various judgments", "C": "Only in the Kesavananda case", "D": "Only in the Minerva Mills case" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-010",
+      "q": "Which of the following is NOT an element of the basic structure as identified by the Supreme Court?",
+      "options": { "A": "Supremacy of the Constitution", "B": "Republican and democratic form of government", "C": "Parliamentary form of government", "D": "All of the above are basic structure elements" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-011",
+      "q": "The concept of 'secular character' as part of the basic structure was explicitly affirmed in:",
+      "options": { "A": "Kesavananda Bharati", "B": "S.R. Bommai vs. Union of India", "C": "Minerva Mills", "D": "Indira Nehru Gandhi vs. Raj Narain" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-012",
+      "q": "The doctrine of basic structure was first applied to strike down a constitutional amendment in:",
+      "options": { "A": "Kesavananda Bharati (1973)", "B": "Indira Nehru Gandhi vs. Raj Narain (1975)", "C": "Minerva Mills (1980)", "D": "Golaknath (1967)" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-013",
+      "q": "In Indira Gandhi vs. Raj Narain (1975), the Supreme Court struck down which part of the 39th Amendment?",
+      "options": { "A": "Placing the election of the Prime Minister and Speaker beyond judicial review", "B": "Adding Fundamental Duties", "C": "Amending the Preamble", "D": "Restricting the right to property" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-014",
+      "q": "Which basic features did the Supreme Court invoke to strike down the 39th Amendment in the Indira Gandhi case?",
+      "options": { "A": "Free and fair elections, Rule of law, Judicial review", "B": "Secularism and Federalism", "C": "Only Judicial review", "D": "Only the Preamble" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-015",
+      "q": "The 42nd Amendment inserted clauses (4) and (5) in Article 368. What did these clauses provide?",
+      "options": { "A": "That no constitutional amendment could be questioned in any court on any ground", "B": "That Parliament's amending power is unlimited", "C": "Both A and B", "D": "That amendments require state ratification" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-016",
+      "q": "The Supreme Court in Minerva Mills vs. Union of India (1980) struck down which provisions of the 42nd Amendment?",
+      "options": { "A": "Clauses (4) and (5) of Article 368", "B": "The extension of Article 31C to all Directive Principles", "C": "Both A and B", "D": "The entire 42nd Amendment" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-017",
+      "q": "In Minerva Mills, the Supreme Court held that the 'harmony and balance between Fundamental Rights and Directive Principles' is:",
+      "options": { "A": "Not a basic feature", "B": "A basic feature of the Constitution", "C": "Unimportant", "D": "A temporary feature" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-018",
+      "q": "The Supreme Court in Waman Rao vs. Union of India (1981) held that the basic structure doctrine applies:",
+      "options": { "A": "Retrospectively to all amendments since 1950", "B": "Prospectively, from the date of the Kesavananda judgment (24 April 1973)", "C": "Only to amendments after the 42nd Amendment", "D": "Only to the 1st Amendment" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-019",
+      "q": "The cut-off date for applying the basic structure test to Ninth Schedule laws is:",
+      "options": { "A": "26 January 1950", "B": "24 April 1973", "C": "15 August 1947", "D": "26 November 1949" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-020",
+      "q": "In I.R. Coelho vs. State of Tamil Nadu (2007), the Supreme Court held that:",
+      "options": { "A": "All laws in the Ninth Schedule are immune from judicial review", "B": "Laws placed in the Ninth Schedule after 24 April 1973 are open to challenge if they violate the basic structure", "C": "The Ninth Schedule is unconstitutional", "D": "Only Fundamental Rights can be tested against basic structure" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-021",
+      "q": "The basic structure doctrine was used to strike down the 99th Amendment (NJAC) because it violated:",
+      "options": { "A": "Independence of the judiciary", "B": "Federal structure", "C": "Separation of powers", "D": "All of the above" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-022",
+      "q": "The Supreme Court's power of judicial review of constitutional amendments is itself a part of:",
+      "options": { "A": "Directive Principles", "B": "Fundamental Duties", "C": "Basic structure", "D": "Article 368" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-023",
+      "q": "Which of the following is a basic feature according to judicial pronouncements? 1. Rule of law 2. Judicial review 3. Free and fair elections 4. Federal character",
+      "options": { "A": "1, 2 and 3 only", "B": "2 and 4 only", "C": "1, 2, 3 and 4", "D": "1 and 3 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-024",
+      "q": "Any amendment that seeks to destroy or substantially impair judicial review can be struck down because:",
+      "options": { "A": "Judicial review is a basic feature", "B": "It violates Fundamental Rights", "C": "It requires state ratification", "D": "It is against the Preamble" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-025",
+      "q": "The Supreme Court struck down the NJAC Amendment (99th) in Supreme Court Advocates-on-Record Association vs. Union of India (2015) on the ground that it violated:",
+      "options": { "A": "Independence of the judiciary", "B": "Federal principle", "C": "Separation of powers", "D": "All of the above" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-026",
+      "q": "Which of the following amendments was NOT struck down for violating the basic structure?",
+      "options": { "A": "42nd Amendment's clauses giving unlimited amending power", "B": "39th Amendment's clause placing PM's election beyond judicial review", "C": "1st Amendment adding Ninth Schedule", "D": "99th Amendment (NJAC)" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-027",
+      "q": "The basic structure doctrine applies to:",
+      "options": { "A": "Only constitutional amendments", "B": "Only ordinary laws", "C": "Both constitutional amendments and ordinary laws", "D": "Only Ninth Schedule laws" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-028",
+      "q": "In the Kesavananda case, the 'basic structure' was described as:",
+      "options": { "A": "The entire Constitution", "B": "The essential framework and foundational values that cannot be destroyed by amendment", "C": "Only the Preamble", "D": "Only Fundamental Rights" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-029",
+      "q": "Justice H.R. Khanna's opinion in Kesavananda is famous for the observation that:",
+      "options": { "A": "The power to amend does not include the power to destroy", "B": "The Constitution is a sacred document that cannot be changed", "C": "Fundamental Rights are not part of the basic structure", "D": "The Preamble is the entire Constitution" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bs-final-030",
+      "q": "The list of basic features is:",
+      "options": { "A": "Exhaustively listed in Article 368", "B": "Open-ended and has been expanded by the Supreme Court in various cases", "C": "Limited to what was mentioned in Kesavananda", "D": "Fixed by the 42nd Amendment" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-031",
+      "q": "Which of the following is an example of a basic feature related to federal structure?",
+      "options": { "A": "Supremacy of the Constitution", "B": "Distribution of legislative powers between Union and States", "C": "Independent judiciary", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-032",
+      "q": "The Supreme Court in S.R. Bommai vs. Union of India (1994) held that 'secularism' is a basic feature and any state government acting contrary to it can be dismissed under:",
+      "options": { "A": "Article 356", "B": "Article 352", "C": "Article 360", "D": "Article 368" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-033",
+      "q": "In L. Chandra Kumar vs. Union of India (1997), the Supreme Court held that the power of judicial review of High Courts under Articles 226 and 227 is a basic feature and struck down the provision that:",
+      "options": { "A": "Excluded the jurisdiction of High Courts over decisions of tribunals", "B": "Created administrative tribunals", "C": "Made tribunals subordinate to the Supreme Court", "D": "Gave tribunals power to review Supreme Court decisions" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bs-final-034",
+      "q": "The Supreme Court in M. Nagaraj vs. Union of India (2006) upheld reservation in promotions for SCs/STs but required the state to demonstrate:",
+      "options": { "A": "Backwardness, inadequacy of representation, and maintenance of efficiency", "B": "Only inadequacy of representation", "C": "Only backwardness", "D": "No conditions" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bs-final-035",
+      "q": "The basic structure doctrine does NOT apply to:",
+      "options": { "A": "Laws placed in the Ninth Schedule before 24 April 1973", "B": "Constitutional amendments after 1973", "C": "All laws in the Ninth Schedule", "D": "All constitutional amendments" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-036",
+      "q": "Which of the following is NOT a basic feature?",
+      "options": { "A": "Parliamentary system", "B": "Federal character", "C": "Single citizenship", "D": "Secular character" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bs-final-037",
+      "q": "The basic structure doctrine has been criticized because:",
+      "options": { "A": "It gives the judiciary enormous power to veto amendments without a clear textual basis", "B": "It is defined exhaustively in the Constitution", "C": "It has never been used", "D": "It makes amendments impossible" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-038",
+      "q": "The basic structure doctrine is considered essential because it:",
+      "options": { "A": "Prevents the abuse of the amending power to destroy the Constitution", "B": "Gives unlimited power to Parliament", "C": "Eliminates judicial review", "D": "Makes the Constitution rigid" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-039",
+      "q": "In I.R. Coelho, the Supreme Court held that any law included in the Ninth Schedule after 24 April 1973 can be challenged if it violates:",
+      "options": { "A": "Only Fundamental Rights", "B": "Any basic feature, not limited to Fundamental Rights", "C": "Only Directive Principles", "D": "Only the Preamble" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-040",
+      "q": "The basic structure doctrine is often described as the 'safety valve' against:",
+      "options": { "A": "Parliamentary dictatorship", "B": "Judicial activism", "C": "Executive overreach", "D": "International interference" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-041",
+      "q": "The Supreme Court in S.R. Bommai used the basic structure doctrine to limit misuse of Article 356, emphasizing that the power under Article 356 is:",
+      "options": { "A": "Conditional and subject to judicial review", "B": "Absolute", "C": "Not subject to judicial review", "D": "Only available during war" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-042",
+      "q": "The basic structure doctrine is a part of the 'basic structure' itself. This means:",
+      "options": { "A": "The doctrine cannot be abolished by a constitutional amendment", "B": "It can be abolished by a simple majority", "C": "It was added by the 42nd Amendment", "D": "It is not recognized by the Supreme Court" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-043",
+      "q": "The 42nd Amendment's extension of Article 31C to all Directive Principles was struck down because it destroyed:",
+      "options": { "A": "The harmonious balance between Part III and Part IV, a basic feature", "B": "Only Article 14", "C": "Only Article 19", "D": "The Preamble" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-044",
+      "q": "The basic structure doctrine was first conceptualized in the arguments before the Supreme Court in:",
+      "options": { "A": "Golaknath case", "B": "Kesavananda Bharati case", "C": "Minerva Mills case", "D": "Shankari Prasad case" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-045",
+      "q": "Which amendment sought to make Directive Principles superior to Fundamental Rights by amending Article 31C to cover all Directive Principles?",
+      "options": { "A": "25th Amendment", "B": "42nd Amendment", "C": "44th Amendment", "D": "1st Amendment" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-046",
+      "q": "The basic structure doctrine has been applied to:",
+      "options": { "A": "Both Union and State constitutional amendments", "B": "Only Union amendments", "C": "Only state amendments", "D": "Only amendments to the Preamble" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "bs-final-047",
+      "q": "The Supreme Court in the Puttaswamy (Right to Privacy) case held that the right to privacy is a Fundamental Right and forms part of the basic structure as it is intrinsic to:",
+      "options": { "A": "Dignity of the individual and liberty", "B": "Only the right to life", "C": "Only the right to equality", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bs-final-048",
+      "q": "The basic structure doctrine ensures that the Constitution is:",
+      "options": { "A": "Supreme and not at the mercy of the legislature", "B": "Subordinate to Parliament", "C": "Subordinate to the President", "D": "A mere piece of paper" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "bs-final-049",
+      "q": "The Supreme Court's decision in Kesavananda Bharati was a 7:6 verdict. Who among the following delivered the famous dissenting opinion that the amending power is unlimited?",
+      "options": { "A": "Chief Justice S.M. Sikri", "B": "Justice H.R. Khanna", "C": "Justice A.N. Ray", "D": "Justice J.M. Shelat" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "bs-final-050",
+      "q": "The basic structure doctrine is an example of:",
+      "options": { "A": "Judicial innovation to preserve the Constitution's core values", "B": "Legislative supremacy", "C": "Executive overreach", "D": "Constitutional amendment by Parliament" },
+      "answer": "A",
+      "difficulty": "mid"
+    }
+  ]
+}

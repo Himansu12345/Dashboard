@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Soil Pollution",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-soil-pollution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

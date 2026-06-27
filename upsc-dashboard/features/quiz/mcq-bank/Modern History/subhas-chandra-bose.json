@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Subhas Chandra Bose",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-subhas-chandra-bose-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

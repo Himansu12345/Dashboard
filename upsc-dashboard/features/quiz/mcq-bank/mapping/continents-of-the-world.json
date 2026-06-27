@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Continents of the World",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-continents-of-the-world-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

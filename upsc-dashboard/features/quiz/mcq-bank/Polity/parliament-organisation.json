@@ -1,0 +1,487 @@
+{
+  "subject": "Polity",
+  "topic": "Parliament – Organisation – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "parl-org-001",
+      "q": "Consider the following statements regarding the composition of the Rajya Sabha: 1. The Constitution has fixed the maximum strength of the Rajya Sabha at 250. 2. The Fourth Schedule of the Constitution deals with the allocation of seats in the Rajya Sabha to the states and union territories. 3. All Union Territories have representation in the Rajya Sabha. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-002",
+      "q": "Regarding the election to the Rajya Sabha, consider the following statements: 1. The representatives of each state are elected by the elected members of the legislative assembly of the state. 2. The election is held in accordance with the system of proportional representation by means of the single transferable vote. 3. A candidate must be an elector in the same state from where he/she is contesting the election. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-003",
+      "q": "With reference to the delimitation of constituencies, consider the following statements: 1. The 84th Amendment Act of 2001 froze the total number of existing seats in the Lok Sabha on the basis of the 1971 census till the year 2026. 2. The 87th Amendment Act of 2003 provided for the delimitation of territorial constituencies within a state on the basis of the 2001 census. 3. The Delimitation Commission's orders cannot be questioned in any court of law. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-004",
+      "q": "As per Article 84 of the Constitution, to be qualified for election to Parliament, a person must make and subscribe to an oath or affirmation. This oath is administered by:",
+      "options": {
+        "A": "The President of India",
+        "B": "The Chief Justice of India",
+        "C": "A person authorized by the Election Commission of India",
+        "D": "The Returning Officer of the constituency only"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-005",
+      "q": "Under the Representation of the People Act (RPA), 1951, which of the following is NOT a ground for disqualification from being a Member of Parliament?",
+      "options": {
+        "A": "He must not have been found guilty of certain election offences or corrupt practices in the elections.",
+        "B": "He must not have been convicted for any offence resulting in imprisonment for two or more years.",
+        "C": "He must not be a director or managing agent in a corporation in which the government has at least 25 per cent share.",
+        "D": "He must not have failed to lodge an account of his election expenses within the time."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-006",
+      "q": "Consider the following statements regarding the 'Office of Profit' disqualification: 1. The term 'Office of Profit' is clearly defined in Article 102 of the Constitution. 2. Parliament has enacted the Parliament (Prevention of Disqualification) Act, 1959, to exempt certain posts from being offices of profit. 3. The Joint Committee on Offices of Profit determines whether a new committee or body ought to be exempted from the disqualification. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-007",
+      "q": "According to the Supreme Court judgment in Lily Thomas vs. Union of India (2013), consider the following: 1. Section 8(4) of the RPA, 1951, which allowed convicted MPs a 3-month window to appeal without immediate disqualification, was struck down. 2. A sitting MP/MLA convicted of a crime with a minimum 2-year sentence is disqualified with immediate effect. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-008",
+      "q": "Under the 10th Schedule (Anti-Defection Law), a nominated member of a House becomes disqualified for being a member of the House if he/she joins any political party:",
+      "options": {
+        "A": "At any time after taking the oath",
+        "B": "After the expiry of six months from the date on which he takes his seat",
+        "C": "Before the expiry of six months from the date on which he takes his seat",
+        "D": "Nominated members are exempt from the Anti-Defection Law"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-org-009",
+      "q": "The 91st Amendment Act of 2003 made a significant change to the 10th Schedule. It omitted the provision that provided an exception from disqualification in case of a 'split'. What fraction of the legislature party was previously required to constitute a valid 'split'?",
+      "options": {
+        "A": "One-half",
+        "B": "One-third",
+        "C": "Two-thirds",
+        "D": "One-fourth"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-010",
+      "q": "In the Kihoto Hollohan case (1992), the Supreme Court ruled on the Anti-Defection Law. Which of the following was a key outcome? 1. The Speaker/Chairman's decision under the 10th Schedule is subject to judicial review. 2. The Court can intervene before the Speaker/Chairman makes a final decision. 3. The law does not violate the free speech of legislators in the House. Select the correct answer using the code below:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-011",
+      "q": "Regarding the rules of 'Double Membership' under the RPA, 1951, what happens if a person is elected to two seats in the Lok Sabha?",
+      "options": {
+        "A": "He must intimate the Election Commission within 10 days, default of which the older seat becomes vacant.",
+        "B": "He must resign from one seat within 14 days, default of which both seats become vacant.",
+        "C": "The President decides which seat he will retain.",
+        "D": "He automatically loses the seat won with a lower margin of votes."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-012",
+      "q": "If a sitting member of the Lok Sabha is elected to the Rajya Sabha, what is the consequence?",
+      "options": {
+        "A": "His seat in the Lok Sabha becomes vacant automatically.",
+        "B": "His seat in the Rajya Sabha becomes vacant unless he resigns from the Lok Sabha within 10 days.",
+        "C": "He can retain both seats for a maximum of 6 months.",
+        "D": "He must inform the President within 14 days, default of which both seats become vacant."
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-013",
+      "q": "A member of Parliament can resign his seat by writing to the Chairman of Rajya Sabha or Speaker of Lok Sabha. However, the Chairman/Speaker may not accept the resignation if:",
+      "options": {
+        "A": "The political party of the member objects to it.",
+        "B": "He is satisfied that the resignation is not voluntary or genuine.",
+        "C": "A motion of no-confidence is pending in the House.",
+        "D": "The member is currently facing criminal charges."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-014",
+      "q": "A House can declare the seat of a member vacant if he is absent from all its meetings for a period of 60 days without its permission. In computing this period of 60 days, no account shall be taken of any period during which the House was: 1. Prorogued 2. Adjourned for more than four consecutive days 3. Adjourned sine die for two days. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-015",
+      "q": "Consider the following statements regarding the election of the Speaker of the Lok Sabha: 1. The date of election of the Speaker is fixed by the President. 2. Whenever the Lok Sabha is dissolved, the Speaker immediately vacates his office. 3. The Speaker is elected by a special majority of the Lok Sabha. Which of the statements given above is/are INCORRECT?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-016",
+      "q": "Which of the following is the correct majority required to pass a resolution for the removal of the Speaker of the Lok Sabha?",
+      "options": {
+        "A": "A majority of the total membership of the House (Absolute Majority)",
+        "B": "A majority of the all the then members of the House (Effective Majority)",
+        "C": "A majority of the members present and voting (Simple Majority)",
+        "D": "A two-thirds majority of the members present and voting (Special Majority)"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-017",
+      "q": "When a resolution for the removal of the Speaker is under consideration of the House: 1. He cannot preside at the sitting of the House. 2. He does not have the right to speak or take part in the proceedings. 3. He can vote in the first instance, but not in the case of an equality of votes. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "1 and 2 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-018",
+      "q": "Consider the following statements regarding the Deputy Speaker of the Lok Sabha: 1. Like the Speaker, the Deputy Speaker is usually elected in the first meeting of the Lok Sabha. 2. The date of election of the Deputy Speaker is fixed by the Speaker. 3. He is subordinate to the Speaker and is directly responsible to him. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 only",
+        "C": "1 and 3 only",
+        "D": "2 and 3 only"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-019",
+      "q": "The Speaker of the Lok Sabha nominates from amongst the members a panel of not more than ten chairpersons. A member of this panel can preside over the House: 1. When the office of the Speaker is vacant. 2. When the office of the Deputy Speaker is vacant. 3. When both the Speaker and Deputy Speaker are absent from the sitting of the House. Select the correct answer using the code below:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-020",
+      "q": "Which of the following statements about the Pro-tem Speaker is INCORRECT?",
+      "options": {
+        "A": "He is appointed by the President.",
+        "B": "Usually, the senior-most member is selected for this post.",
+        "C": "He administers the oath to the newly elected members of the Lok Sabha.",
+        "D": "His office continues for a full term of five years as an advisory role to the permanent Speaker."
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-org-021",
+      "q": "Consider the following statements regarding the Chairman of the Rajya Sabha: 1. The Vice-President of India is the ex-officio Chairman of the Rajya Sabha. 2. Unlike the Speaker, the Chairman is not a member of the House. 3. The Chairman can be removed from office only if he is removed from the office of the Vice-President. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-022",
+      "q": "While a resolution for the removal of the Vice-President is under consideration, the Chairman of the Rajya Sabha: 1. Cannot preside over the House. 2. Can be present in the House. 3. Can vote in the first instance on the resolution. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-023",
+      "q": "Under Article 98 of the Constitution, each House of Parliament shall have a separate secretarial staff. Consider the following: 1. Parliament may by law regulate the recruitment and conditions of service of persons appointed to the secretarial staff. 2. The secretariat of the Lok Sabha functions under the ultimate guidance and control of the President of India. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-024",
+      "q": "Regarding the Leader of the Opposition (LoP), consider the following statements: 1. The office of the LoP is mentioned in the original Constitution of India. 2. The LoP receives a salary and allowances equivalent to that of a Cabinet Minister. 3. The leader of the largest opposition party having not less than one-tenth seats of the total strength of the House is recognized as the LoP. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-025",
+      "q": "Consider the following statements regarding the office of 'Whip' in the Indian Parliament: 1. The office of Whip is mentioned in the Rules of the House. 2. He is appointed by the political party to serve as an assistant floor leader. 3. Non-compliance with the directives of the Whip can result in disciplinary action against a member. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-026",
+      "q": "The maximum gap between two sessions of Parliament cannot be more than:",
+      "options": {
+        "A": "Three months",
+        "B": "Six months",
+        "C": "Nine months",
+        "D": "One year"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-org-027",
+      "q": "Which of the following actions terminates a 'Session' of a House of Parliament?",
+      "options": {
+        "A": "Adjournment",
+        "B": "Adjournment sine die",
+        "C": "Prorogation",
+        "D": "Suspension"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-028",
+      "q": "Consider the following statements regarding the dissolution of the Lok Sabha: 1. Dissolution ends the very life of the existing House, and a new House is constituted after general elections. 2. The President can dissolve the Lok Sabha only on the advice of the Council of Ministers. 3. The Rajya Sabha is not subject to dissolution. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-029",
+      "q": "When the Lok Sabha is dissolved, which of the following bills does NOT lapse?",
+      "options": {
+        "A": "A bill pending in the Lok Sabha (whether originating there or transmitted by the Rajya Sabha).",
+        "B": "A bill passed by the Lok Sabha but pending in the Rajya Sabha.",
+        "C": "A bill pending in the Rajya Sabha but not passed by the Lok Sabha.",
+        "D": "A bill passed by both Houses but returned by the President for reconsideration."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-030",
+      "q": "A bill passed by both Houses but pending assent of the President at the time of dissolution of the Lok Sabha:",
+      "options": {
+        "A": "Lapses immediately",
+        "B": "Does not lapse",
+        "C": "Lapses if it is a Money Bill",
+        "D": "Must be re-passed by the newly constituted Lok Sabha"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-031",
+      "q": "The term 'Lame-duck session' refers to:",
+      "options": {
+        "A": "A session held during an Emergency when fundamental rights are suspended.",
+        "B": "The last session of the existing Lok Sabha, after a new Lok Sabha has been elected.",
+        "C": "A session convened specifically to pass a vote on account.",
+        "D": "A joint sitting of both Houses that fails to resolve a legislative deadlock."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-032",
+      "q": "Under Article 100, the quorum to constitute a meeting of either House of Parliament is:",
+      "options": {
+        "A": "One-tenth of the total number of members of the House, excluding the presiding officer.",
+        "B": "One-tenth of the total number of members of the House, including the presiding officer.",
+        "C": "Fifty members in Lok Sabha and twenty-five members in Rajya Sabha.",
+        "D": "One-fifth of the members present and voting."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-org-033",
+      "q": "Consider the following regarding the language in Parliament: 1. The Constitution has declared Hindi and English to be the languages for transacting business in the Parliament. 2. The Presiding Officer can permit a member to address the House in his mother tongue. 3. The Official Languages Act (1963) allowed English to be continued along with Hindi for parliamentary purposes. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-034",
+      "q": "According to Article 88, every Minister and the Attorney General of India has the right to speak and take part in the proceedings of: 1. Either House of Parliament. 2. Any joint sitting of the Houses. 3. Any committee of Parliament of which he may be named a member. Which of the above entities grant them the right to vote?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "3 only",
+        "C": "None. Article 88 does not grant the right to vote in these proceedings by virtue of this right alone.",
+        "D": "1, 2, and 3"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-035",
+      "q": "Under the Constitution, the power to decide a question as to whether a Member of Parliament has become subject to any disqualification (other than under the 10th Schedule) rests with:",
+      "options": {
+        "A": "The Presiding Officer of the House",
+        "B": "The President of India",
+        "C": "The Supreme Court of India",
+        "D": "The Election Commission of India"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-036",
+      "q": "In deciding a question of disqualification of an MP under Article 103, the President must obtain the opinion of the Election Commission. This opinion is:",
+      "options": {
+        "A": "Advisory in nature",
+        "B": "Binding on the President",
+        "C": "Subject to the approval of the Council of Ministers",
+        "D": "Subject to judicial review before the President acts on it"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-037",
+      "q": "Which of the following actions requires an absolute majority (majority of the total membership of the house) in the Parliament?",
+      "options": {
+        "A": "Removal of the Vice President in the Rajya Sabha",
+        "B": "Passing a Constitutional Amendment Bill under Article 368 (along with 2/3rd present and voting)",
+        "C": "Removal of the Speaker of the Lok Sabha",
+        "D": "Passing an ordinary bill during a joint sitting"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-org-038",
+      "q": "Consider the following statements regarding a Minister who is not a member of either House of Parliament: 1. He can remain a Minister for six consecutive months. 2. During this period, he cannot participate in the proceedings of either House. 3. If he fails to become a member of either House within six months, he ceases to be a Minister. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-org-039",
+      "q": "Who decides whether a bill is a Money Bill or not?",
+      "options": {
+        "A": "The President of India",
+        "B": "The Finance Minister",
+        "C": "The Speaker of the Lok Sabha",
+        "D": "The Chairman of the Rajya Sabha"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-org-040",
+      "q": "The salaries and allowances of the Speaker and the Deputy Speaker of the Lok Sabha are:",
+      "options": {
+        "A": "Voted annually by the Parliament",
+        "B": "Determined by the President on the advice of the Finance Commission",
+        "C": "Charged on the Consolidated Fund of India",
+        "D": "Subject to variation to their disadvantage during financial emergencies"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    }
+  ]
+}

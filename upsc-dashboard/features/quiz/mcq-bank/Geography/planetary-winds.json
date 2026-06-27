@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Planetary Winds",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-planetary-winds-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

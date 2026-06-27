@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Climatic Regions of the World",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-climatic-regions-of-the-world-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

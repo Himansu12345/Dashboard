@@ -1,0 +1,427 @@
+{
+  "subject": "Polity",
+  "topic": "Amendment of the Constitution – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "amd-001",
+      "q": "Which Article of the Constitution empowers the Parliament to amend the Constitution and its procedure?",
+      "options": {
+        "A": "Article 356",
+        "B": "Article 360",
+        "C": "Article 368",
+        "D": "Article 370"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-002",
+      "q": "Consider the following statements regarding the amendment process: 1. A Constitutional Amendment Bill can be introduced in either House of Parliament. 2. It can be introduced by a Minister or a Private Member. 3. Prior recommendation of the President is required for its introduction. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-003",
+      "q": "If there is a deadlock between the two Houses on a Constitutional Amendment Bill, what is the procedure?",
+      "options": {
+        "A": "The President calls a Joint Sitting.",
+        "B": "The Lok Sabha's decision prevails.",
+        "C": "There is no provision for a Joint Sitting.",
+        "D": "The Rajya Sabha's decision prevails."
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-004",
+      "q": "After the 24th Amendment Act (1971), the President:",
+      "options": {
+        "A": "Can withhold his assent to a Constitutional Amendment Bill.",
+        "B": "Can return the bill for reconsideration.",
+        "C": "Is bound to give his assent to the Constitutional Amendment Bill.",
+        "D": "Can refer it to the Supreme Court for an advisory opinion."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-005",
+      "q": "Which of the following amendments requires ratification by at least half of the state legislatures?",
+      "options": {
+        "A": "Election of the President.",
+        "B": "Representation of States in Parliament.",
+        "C": "Extent of executive power of the Union and the States.",
+        "D": "All of the above."
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-006",
+      "q": "Which type of majority is required for the amendment of provisions mentioned in the proviso to Article 368(2)?",
+      "options": {
+        "A": "Simple Majority",
+        "B": "Special Majority of Parliament + Ratification by half of the states.",
+        "C": "Special Majority of Parliament only.",
+        "D": "Absolute Majority of the total membership."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-007",
+      "q": "Can the Parliament amend the 'Basic Structure' of the Constitution?",
+      "options": {
+        "A": "Yes, under Article 368.",
+        "B": "No, as per the Kesavananda Bharati judgment.",
+        "C": "Only with the approval of the Supreme Court.",
+        "D": "Yes, with a special majority plus state ratification."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-008",
+      "q": "Consider the following statements: 1. Some parts of the Constitution can be amended by a simple majority of Parliament, like an ordinary legislative process. 2. These amendments are NOT deemed to be amendments under Article 368. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-009",
+      "q": "Which of the following can be amended by a simple majority? 1. Admission or establishment of new states. 2. Abolition or creation of legislative councils in states. 3. Quorum in Parliament. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-010",
+      "q": "What is the 'Special Majority' as defined under Article 368?",
+      "options": {
+        "A": "Majority of total membership and a majority of not less than two-thirds of members present and voting.",
+        "B": "Majority of two-thirds of the total membership.",
+        "C": "Majority of 50% of the total membership.",
+        "D": "Majority of total membership and a majority of three-fourths of members present and voting."
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-011",
+      "q": "The provision for the amendment of the Constitution was influenced by the Constitution of:",
+      "options": {
+        "A": "USA",
+        "B": "Canada",
+        "C": "South Africa",
+        "D": "Australia"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-012",
+      "q": "Consider the following regarding the state ratification requirement: 1. The Constitution does not prescribe a time limit for state legislatures to give their ratification. 2. The ratification can be done by a simple majority. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-013",
+      "q": "Which judgment laid down the 'Basic Structure' doctrine?",
+      "options": {
+        "A": "Golaknath case",
+        "B": "Kesavananda Bharati case",
+        "C": "Minerva Mills case",
+        "D": "Waman Rao case"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-014",
+      "q": "The 42nd Amendment Act (1976) attempted to amend Article 368 to:",
+      "options": {
+        "A": "Allow amendment of the Basic Structure.",
+        "B": "Exclude judicial review of constitutional amendments.",
+        "C": "Require ratification by all states.",
+        "D": "Give the President power to veto amendments."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-015",
+      "q": "Which case declared the 42nd Amendment's provision excluding judicial review as unconstitutional?",
+      "options": {
+        "A": "Minerva Mills case (1980)",
+        "B": "Kesavananda Bharati case (1973)",
+        "C": "Shankari Prasad case (1951)",
+        "D": "Indira Gandhi v. Raj Narain case (1975)"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-016",
+      "q": "Can Parliament amend the Fundamental Rights?",
+      "options": {
+        "A": "No, they are immutable.",
+        "B": "Yes, but not so as to alter the basic structure.",
+        "C": "Only if the President allows.",
+        "D": "Only with the unanimous consent of all states."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-017",
+      "q": "A Constitutional Amendment Bill can be initiated by:",
+      "options": {
+        "A": "The President.",
+        "B": "The Council of Ministers.",
+        "C": "A member of either House of Parliament.",
+        "D": "State Legislative Assemblies."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-018",
+      "q": "Are the Fundamental Rights part of the 'Basic Structure'?",
+      "options": {
+        "A": "Not all, but some (like equality, rule of law) are.",
+        "B": "No, they are never considered basic structure.",
+        "C": "Yes, all fundamental rights are part of the basic structure.",
+        "D": "Only those under Article 21."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-019",
+      "q": "Which of the following is an example of an amendment by simple majority? 1. Changes in Second Schedule (Emoluments). 2. Changes in Fifth Schedule. 3. Changes in Seventh Schedule (Lists). Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-020",
+      "q": "In the context of the Basic Structure doctrine, what does judicial review imply?",
+      "options": {
+        "A": "The courts can strike down any amendment that violates the basic structure.",
+        "B": "The courts can rewrite the Constitution.",
+        "C": "The President must seek judicial approval for all bills.",
+        "D": "Parliament's power to amend is superior to the judiciary."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-021",
+      "q": "Can a Bill to amend the Constitution be passed by a simple majority in one House and a special majority in another?",
+      "options": {
+        "A": "No, both Houses must pass it with a special majority.",
+        "B": "Yes, it is allowed.",
+        "C": "No, both must pass it with a simple majority.",
+        "D": "Only the Lok Sabha's majority matters."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-022",
+      "q": "The amending power of Parliament is:",
+      "options": {
+        "A": "Limited.",
+        "B": "Unlimited.",
+        "C": "Subject to the will of the states.",
+        "D": "Subject to the approval of the Supreme Court."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-023",
+      "q": "Which Amendment Act provided that the President cannot refuse to give his assent to a Constitutional Amendment Bill?",
+      "options": {
+        "A": "42nd Amendment",
+        "B": "44th Amendment",
+        "C": "24th Amendment",
+        "D": "26th Amendment"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-024",
+      "q": "Who is the custodian of the Constitution?",
+      "options": {
+        "A": "The Parliament.",
+        "B": "The President.",
+        "C": "The Supreme Court.",
+        "D": "The Speaker."
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-025",
+      "q": "Which article lays down the procedure for amendment?",
+      "options": {
+        "A": "Article 368",
+        "B": "Article 370",
+        "C": "Article 352",
+        "D": "Article 356"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-026",
+      "q": "Consider the following statements regarding the Basic Structure: 1. The term 'Basic Structure' is explicitly mentioned in the Constitution. 2. The Supreme Court evolved the doctrine in the Kesavananda Bharati case. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-027",
+      "q": "Which of the following is NOT part of the Basic Structure?",
+      "options": {
+        "A": "Rule of Law.",
+        "B": "Judicial Review.",
+        "C": "Parliamentary Form of Government.",
+        "D": "Inter-State Water Dispute Tribunal."
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-028",
+      "q": "The amendment process of the Indian Constitution is:",
+      "options": {
+        "A": "Rigid only.",
+        "B": "Flexible only.",
+        "C": "A synthesis of rigidity and flexibility.",
+        "D": "Very simple."
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-029",
+      "q": "Does the state legislature have the power to initiate an amendment bill?",
+      "options": {
+        "A": "Yes, always.",
+        "B": "No.",
+        "C": "Only if it affects the state.",
+        "D": "Only with the President's permission."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-030",
+      "q": "Which majority is required to change the Seventh Schedule (Federal provisions)?",
+      "options": {
+        "A": "Simple Majority.",
+        "B": "Special Majority of Parliament + Ratification by half of the states.",
+        "C": "Special Majority of Parliament only.",
+        "D": "Absolute Majority."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-031",
+      "q": "Can the President return a Constitutional Amendment Bill for reconsideration?",
+      "options": {
+        "A": "Yes.",
+        "B": "No.",
+        "C": "Only once.",
+        "D": "If it affects the federal structure."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "amd-032",
+      "q": "Consider: 1. Amendments to the Constitution are not law within the meaning of Article 13. 2. The 24th Amendment Act made this explicit. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-033",
+      "q": "But what did the Supreme Court hold in the Minerva Mills case regarding Article 13 and Amendments?",
+      "options": {
+        "A": "Amendments are law and can be challenged if they violate the Basic Structure.",
+        "B": "Amendments are not law.",
+        "C": "Parliament can amend anything.",
+        "D": "Basic Structure can be amended."
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "amd-034",
+      "q": "Which Amendment Act introduced the Tenth Schedule (Anti-Defection Law)?",
+      "options": {
+        "A": "51st Amendment.",
+        "B": "52nd Amendment.",
+        "C": "53rd Amendment.",
+        "D": "54th Amendment."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "amd-035",
+      "q": "Consider the following statements: 1. Parliament can amend the Constitution by way of addition, variation, or repeal. 2. The power of amendment is also available to the State Legislatures. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    }
+  ]
+}

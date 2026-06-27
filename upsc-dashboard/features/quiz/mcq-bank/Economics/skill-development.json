@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Skill Development",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-skill-development-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

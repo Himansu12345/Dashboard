@@ -1,0 +1,182 @@
+{
+  "subject": "Polity",
+  "topic": "Centre-State Administrative Relations – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "admin-rel-final-001",
+      "q": "Consider the following statements regarding the executive power of the Union and the States: 1. The executive power of every state must be exercised to ensure compliance with the laws made by Parliament. 2. The Union can give directions to a state regarding the construction and maintenance of means of communication declared to be of national or military importance. 3. The Union can give directions to a state for the protection of railways within the state. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-002",
+      "q": "Consider the following statements regarding Article 365 of the Constitution: 1. It acts as the constitutional trigger for the imposition of President’s Rule under Article 356. 2. It applies when a state fails to comply with or give effect to any direction given by the Union in the exercise of its executive power. 3. Deciding to apply Article 365 is a constitutional discretion of the President. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-003",
+      "q": "Consider the following statements regarding the mutual delegation of executive functions between the Centre and States: 1. The President may entrust Union executive functions to a state government, but only with the consent of that state government. 2. Parliament can enact a law conferring powers on state authorities regarding Union subjects even without the consent of the state. 3. The Governor of a state can entrust state executive functions to the Union government without the consent of the Union government. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-004",
+      "q": "If extra costs are incurred by a state in carrying out the executive functions delegated to it by the Union under Article 258, how is the financial settlement determined?",
+      "options": { "A": "It is decided by the Finance Commission.", "B": "It is paid by the Union as agreed, and in default of an agreement, determined by an arbitrator appointed by the Chief Justice of India.", "C": "The state bears the cost out of its Consolidated Fund as a constitutional duty.", "D": "It is determined by a resolution passed by both Houses of Parliament." },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-005",
+      "q": "Consider the following statements regarding the Zonal Councils: 1. They are constitutional bodies established under Article 263 to promote cooperative federalism. 2. The Prime Minister of India acts as the common chairman of all the Zonal Councils. 3. The Chief Ministers of the states included in each zone act as Vice-Chairmen by rotation. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-006",
+      "q": "Consider the following statements regarding the Inter-State Council (Article 263): 1. It is established by a resolution passed by both Houses of Parliament. 2. Its function to inquire into and advise upon disputes between states is legally binding on the states. 3. It consists of the Prime Minister as Chairman and all Chief Ministers as members. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-007",
+      "q": "Under Article 312, Parliament can create new All-India Services if the Rajya Sabha passes a resolution declaring it is necessary in the national interest. Such a resolution must be supported by:",
+      "options": { "A": "A simple majority of the members present and voting.", "B": "A majority of the total membership of the House and a majority of not less than two-thirds of the members present and voting.", "C": "Not less than two-thirds of the members present and voting.", "D": "An absolute majority of the total membership of the House." },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-008",
+      "q": "Consider the following statements regarding All-India Services: 1. A state government can suspend an officer of an All-India Service. 2. A state government can remove or dismiss an officer of an All-India Service from service. 3. The immediate control over an All-India Service officer lies with the state government, but ultimate control lies with the Central government. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-009",
+      "q": "Consider the following statements regarding Inter-State Water Disputes (Article 262): 1. Parliament may by law provide for the adjudication of any dispute with respect to the use, distribution or control of waters of any inter-state river. 2. Parliament can enact a law barring the Supreme Court and all other courts from exercising jurisdiction in respect of such a dispute. 3. The original jurisdiction of the Supreme Court (Article 131) automatically applies to inter-state water disputes unless explicitly barred by a Parliamentary law. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-010",
+      "q": "The Constitution allows the Centre to give directives to the States on certain matters outside Part XI (Centre-State Relations). Which of the following is/are such matters? 1. The provision of adequate facilities for instruction in the mother-tongue at the primary stage of education to linguistic minority groups. 2. The drawing up and execution of specified schemes for the welfare of Scheduled Tribes in the state. 3. The establishment of military recruitment centers at district levels. Select the correct answer using the code below:",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2, and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-011",
+      "q": "Consider the following statements regarding the 'Full Faith and Credit' clause under Article 261: 1. Full faith and credit shall be given throughout the territory of India to public acts, records, and judicial proceedings of the Union and of every State. 2. Final judgments or orders delivered or passed by civil courts in any part of India are capable of execution anywhere within India. 3. Final judgments of criminal courts are equally capable of automatic execution anywhere within India under this specific clause. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-012",
+      "q": "Article 355 imposes a dual duty on the Union regarding the States. The Union is constitutionally obligated to protect every state against: 1. External aggression. 2. Internal disturbance. 3. Financial instability. How many of the above are explicitly mentioned as the Union's duty under Article 355?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "admin-rel-final-013",
+      "q": "Consider the following statements regarding Joint State Public Service Commissions (JSPSC): 1. A JSPSC is a constitutional body created directly by the President of India. 2. A JSPSC is created by an Act of Parliament on the request of the state legislatures concerned. 3. The chairman and members of a JSPSC are appointed by the President, not the State Governors. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-014",
+      "q": "The North Eastern Council (NEC) is distinctly different from the Zonal Councils. Which of the following statements about the NEC is correct?",
+      "options": { "A": "It was established by the States Reorganisation Act of 1956.", "B": "The Prime Minister serves as the ex-officio Chairman of the NEC.", "C": "It was created by a separate Act of Parliament, the North Eastern Council Act of 1971.", "D": "Sikkim was an original founding member of the NEC." },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-015",
+      "q": "During the operation of a National Emergency (Article 352), the executive power of the Union extends to:",
+      "options": { "A": "Giving directions to any state regarding the execution of laws exclusively in the Concurrent List.", "B": "Directing any state as to the manner in which the executive power thereof is to be exercised on any matter.", "C": "Suspending the state executive entirely and assuming direct control.", "D": "Directing the state only on matters related to national defense." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-016",
+      "q": "Which of the following bodies is/are explicitly mentioned in the Constitution of India for resolving inter-state disputes or fostering cooperation? 1. Inter-State Council 2. Zonal Councils 3. Inter-State Water Dispute Tribunal Select the correct answer:",
+      "options": { "A": "1 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2, and 3" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-017",
+      "q": "Consider the following statements regarding the deployment of Central Armed Police Forces (CAPF) in states: 1. The Union government can deploy CAPF in a state to maintain public order even without the consent of the state government. 2. This unilateral deployment power is derived conceptually from the Union's duty under Article 355. 3. When deployed, these forces operate under the absolute operational command of the State's Director General of Police. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-018",
+      "q": "Consider the following statement: 'The Constitution allows the Governor of a state, with the consent of the Government of India, to entrust to that Government or to its officers functions in relation to any matter to which the executive power of the State extends.' This provision was added to the Constitution by:",
+      "options": { "A": "1st Constitutional Amendment Act, 1951", "B": "7th Constitutional Amendment Act, 1956", "C": "42nd Constitutional Amendment Act, 1976", "D": "44th Constitutional Amendment Act, 1978" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-019",
+      "q": "Assertion (A): Parliament can confer powers and impose duties on state officers regarding a matter in the Union List without the consent of the state government. Reason (R): Article 258(2) empowers Parliament to delegate executive powers to states via legislation, bypassing the executive consent required under Article 258(1).",
+      "options": { "A": "Both A and R are individually true and R is the correct explanation of A.", "B": "Both A and R are individually true but R is NOT the correct explanation of A.", "C": "A is true but R is false.", "D": "A is false but R is true." },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-020",
+      "q": "With reference to the River Boards Act, 1956, and the Inter-State Water Disputes Act, 1956, consider the following statements: 1. Both Acts were enacted by Parliament under the powers granted by Article 262 of the Constitution. 2. The Inter-State Water Disputes Tribunal’s decision is final and binding on the parties. 3. River Boards are established on the request of the state governments concerned to advise them. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-021",
+      "q": "Consider the following extra-constitutional devices for promoting Centre-State coordination: 1. NITI Aayog 2. National Integration Council 3. Central Council of Health and Family Welfare. Which of these are chaired by the Prime Minister of India?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2, and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-022",
+      "q": "Regarding the Inter-State Council formed in 1990 based on the Sarkaria Commission's recommendation, which of the following is NOT a member of the Council?",
+      "options": { "A": "Chief Ministers of all States", "B": "Administrators of Union Territories not having legislative assemblies", "C": "Six Central Cabinet Ministers, including the Home Minister, nominated by the PM", "D": "The Leader of the Opposition in the Lok Sabha" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "admin-rel-final-023",
+      "q": "Consider the following statements regarding the Chairman of a Joint State Public Service Commission (JSPSC): 1. He is appointed by the President of India. 2. He can be suspended by the Governors of the states concerned. 3. He can only be removed from office by the President on the same grounds as the Chairman of the UPSC. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "admin-rel-final-024",
+      "q": "The Constitution empowers Parliament to appoint an appropriate authority for carrying out the purposes of the constitutional provisions relating to the freedom of trade, commerce, and intercourse (Article 307). Which of the following statements is true regarding this?",
+      "options": { "A": "The Inter-State Commerce Commission acts as this authority.", "B": "The Inter-State Council fulfills the duties of this authority.", "C": "The Competition Commission of India acts as this authority.", "D": "No such authority has been appointed by Parliament to date." },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "admin-rel-final-025",
+      "q": "Consider the following statements about Centre's directive powers during emergencies: 1. During a Financial Emergency, the Centre can direct states to observe specified canons of financial propriety. 2. During President’s Rule, the President can issue directions to the state executive, as he completely assumes the executive power of the state. 3. Even during a National Emergency, the state executive power is not suspended, but it is brought under the complete control of the Centre. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    }
+  ]
+}

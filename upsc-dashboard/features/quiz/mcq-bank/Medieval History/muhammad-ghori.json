@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Muhammad Ghori",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-muhammad-ghori-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

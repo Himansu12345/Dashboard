@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Ramsar Sites (Location)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-ramsar-sites-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

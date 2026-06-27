@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Jallianwala Bagh Massacre",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-jallianwala-bagh-massacre-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

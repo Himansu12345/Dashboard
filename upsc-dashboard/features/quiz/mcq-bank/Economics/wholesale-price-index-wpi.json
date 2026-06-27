@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Wholesale Price Index (WPI)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-wholesale-price-index-wpi-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

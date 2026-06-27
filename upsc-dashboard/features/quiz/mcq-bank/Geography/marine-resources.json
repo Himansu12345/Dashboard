@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Marine Resources",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-marine-resources-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

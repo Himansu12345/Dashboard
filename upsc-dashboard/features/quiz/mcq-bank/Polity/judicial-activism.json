@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Judicial Activism",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-judicial-activism-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

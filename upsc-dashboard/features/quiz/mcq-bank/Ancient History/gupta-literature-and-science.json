@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Gupta Literature and Science",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-gupta-literature-and-science-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

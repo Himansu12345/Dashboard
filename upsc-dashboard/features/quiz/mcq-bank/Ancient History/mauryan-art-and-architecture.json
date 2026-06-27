@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Mauryan Art and Architecture",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-mauryan-art-and-architecture-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

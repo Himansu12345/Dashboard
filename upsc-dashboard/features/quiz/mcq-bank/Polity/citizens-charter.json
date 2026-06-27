@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Citizen\u0027s Charter",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-citizens-charter-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

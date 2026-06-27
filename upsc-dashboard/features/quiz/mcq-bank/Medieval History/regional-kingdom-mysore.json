@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Regional Kingdom - Mysore",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-regional-kingdom-mysore-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

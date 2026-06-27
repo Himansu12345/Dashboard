@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "National Human Rights Commission (NHRC)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-national-human-rights-commission-nhrc-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

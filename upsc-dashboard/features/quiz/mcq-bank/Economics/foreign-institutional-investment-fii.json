@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Foreign Institutional Investment (FII)",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-foreign-institutional-investment-fii-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

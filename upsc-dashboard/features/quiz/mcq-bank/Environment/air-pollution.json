@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Air Pollution",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-air-pollution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

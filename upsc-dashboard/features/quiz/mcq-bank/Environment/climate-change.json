@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Climate Change",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-climate-change-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

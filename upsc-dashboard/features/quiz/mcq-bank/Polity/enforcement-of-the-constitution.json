@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Enforcement of the Constitution",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-enforcement-of-the-constitution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

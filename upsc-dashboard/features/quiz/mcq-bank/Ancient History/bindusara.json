@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Bindusara",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-bindusara-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

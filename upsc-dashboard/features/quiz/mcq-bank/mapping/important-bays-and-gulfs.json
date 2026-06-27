@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Important Bays and Gulfs",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-important-bays-and-gulfs-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "E-waste",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-e-waste-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

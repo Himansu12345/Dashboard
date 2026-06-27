@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "El Nino",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-el-nino-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Ocean Temperature",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-ocean-temperature-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

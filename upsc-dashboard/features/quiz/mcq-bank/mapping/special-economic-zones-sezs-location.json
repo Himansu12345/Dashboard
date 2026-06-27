@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Special Economic Zones (SEZs) (Location)",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-special-economic-zones-sezs-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Global Warming",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-global-warming-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

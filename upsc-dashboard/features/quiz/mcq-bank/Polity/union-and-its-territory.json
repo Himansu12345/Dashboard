@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Union and its Territory",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-union-and-its-territory-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

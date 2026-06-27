@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Cropping Patterns",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-cropping-patterns-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

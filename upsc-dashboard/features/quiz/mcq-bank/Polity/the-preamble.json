@@ -1,0 +1,322 @@
+{
+  "subject": "Polity",
+  "topic": "Preamble – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "preamble-final-001",
+      "q": "The Preamble to the Indian Constitution is based on the Objectives Resolution. Who moved this Resolution in the Constituent Assembly?",
+      "options": { "A": "Dr. B.R. Ambedkar", "B": "Jawaharlal Nehru", "C": "Dr. Rajendra Prasad", "D": "Sardar Vallabhbhai Patel" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-002",
+      "q": "The Objectives Resolution was adopted by the Constituent Assembly on:",
+      "options": { "A": "13 December 1946", "B": "22 January 1947", "C": "26 November 1949", "D": "24 January 1950" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-003",
+      "q": "Consider the following statements: 1. The Preamble was the first part of the Constitution to be adopted. 2. It was adopted on 17 October 1949. 3. The date mentioned in the Preamble is 26 November 1949. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "2 only" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-004",
+      "q": "The Preamble declares India to be a 'Sovereign, Socialist, Secular, Democratic Republic'. Which of these words were added by the 42nd Amendment?",
+      "options": { "A": "Sovereign and Socialist", "B": "Socialist and Secular", "C": "Secular and Democratic", "D": "Socialist and Republic" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-005",
+      "q": "In the original Preamble (1950), the description of India was:",
+      "options": { "A": "Sovereign Socialist Secular Democratic Republic", "B": "Sovereign Democratic Republic", "C": "Independent Sovereign Democratic Republic", "D": "Sovereign Socialist Democratic Republic" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-006",
+      "q": "The phrase 'unity of the Nation' in the original Preamble was replaced by 'unity and integrity of the Nation' by the:",
+      "options": { "A": "1st Amendment", "B": "42nd Amendment", "C": "44th Amendment", "D": "86th Amendment" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-007",
+      "q": "According to the Supreme Court, the Preamble is:",
+      "options": { "A": "Not a part of the Constitution (Berubari Union case)", "B": "A part of the Constitution and can be amended (Kesavananda Bharati case)", "C": "A schedule to the Constitution", "D": "Only a moral guideline" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-008",
+      "q": "In which case did the Supreme Court hold that the Preamble is NOT a part of the Constitution?",
+      "options": { "A": "Berubari Union case (1960)", "B": "Kesavananda Bharati case (1973)", "C": "Minerva Mills case (1980)", "D": "SR Bommai case (1994)" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-009",
+      "q": "The Supreme Court held that the Preamble can be amended under Article 368, but the amendment cannot destroy the:",
+      "options": { "A": "Federal structure", "B": "Basic structure of the Constitution", "C": "Parliamentary system", "D": "Fundamental Rights alone" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-010",
+      "q": "Which of the following statements about the Preamble is INCORRECT?",
+      "options": { "A": "It is a part of the Constitution.", "B": "It is enforceable in a court of law.", "C": "It can be amended under Article 368.", "D": "It reflects the philosophy of the Constitution." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-011",
+      "q": "The word 'Socialist' in the Preamble, as interpreted by the Supreme Court, implies:",
+      "options": { "A": "Complete nationalisation of all means of production", "B": "A mixed economy with social justice and removal of inequalities", "C": "Abolition of all private property", "D": "A purely capitalist economy" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-012",
+      "q": "The term 'Secular' in the Preamble means:",
+      "options": { "A": "The state has an official religion", "B": "The state is against all religions", "C": "The state treats all religions equally and has no state religion", "D": "The state controls all religious institutions" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-013",
+      "q": "The concept of 'Republic' in the Preamble means that the head of the state is:",
+      "options": { "A": "A hereditary monarch", "B": "Elected, directly or indirectly, for a fixed term", "C": "Appointed by the British Crown", "D": "Selected by the judiciary" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-014",
+      "q": "The phrase 'We, the people of India' in the Preamble emphasises:",
+      "options": { "A": "The authority of the British Parliament", "B": "The principle of popular sovereignty – the Constitution derives its authority from the people", "C": "The supremacy of the President", "D": "The dominance of the states" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-015",
+      "q": "Consider the following pairs (Preamble ideal – Constitutional provision): 1. Justice – Directive Principles of State Policy  2. Liberty – Article 19  3. Equality – Articles 14-18  4. Fraternity – Single citizenship. Which of the pairs given above are correctly matched?",
+      "options": { "A": "1, 2 and 3 only", "B": "1, 2 and 4 only", "C": "2, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-016",
+      "q": "The Preamble secures 'Justice, social, economic and political'. The provision for 'equal pay for equal work' under Article 39(d) primarily aims at:",
+      "options": { "A": "Social justice", "B": "Economic justice", "C": "Political justice", "D": "All of the above" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-017",
+      "q": "The word 'Fraternity' in the Preamble is intended to:",
+      "options": { "A": "Assure the dignity of the individual and the unity and integrity of the nation", "B": "Promote regional chauvinism", "C": "Create a hierarchy among citizens", "D": "Encourage separatism" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-018",
+      "q": "The Preamble was enacted by the Constituent Assembly:",
+      "options": { "A": "Before the main body of the Constitution", "B": "After the main body, to ensure it accurately reflected the adopted Constitution", "C": "Simultaneously with the rest of the Constitution", "D": "On 26 January 1950" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-019",
+      "q": "The Preamble has been amended only once so far. Which Amendment was it?",
+      "options": { "A": "24th Amendment, 1971", "B": "42nd Amendment, 1976", "C": "44th Amendment, 1978", "D": "86th Amendment, 2002" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-020",
+      "q": "Which of the following is NOT expressly mentioned in the Preamble?",
+      "options": { "A": "Liberty of thought and expression", "B": "Equality of status and opportunity", "C": "Fundamental Duties", "D": "Fraternity assuring dignity of the individual" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-021",
+      "q": "The term 'Sovereign' in the Preamble means:",
+      "options": { "A": "India is a member of the British Commonwealth", "B": "India has its own independent authority and is not subject to the control of any external power", "C": "India can cede its territory to any foreign country by a simple executive order", "D": "The states have independent sovereignty" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-022",
+      "q": "The Supreme Court used the Preamble to interpret 'social justice' in the context of reservations. In which case was the Preamble's goal of equality relied upon to uphold affirmative action?",
+      "options": { "A": "Indra Sawhney vs. Union of India", "B": "Kesavananda Bharati vs. State of Kerala", "C": "Minerva Mills vs. Union of India", "D": "Golaknath vs. State of Punjab" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "preamble-final-023",
+      "q": "The phrase 'IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION' signifies:",
+      "options": { "A": "The British Parliament enacted the Constitution", "B": "The Constituent Assembly, on behalf of the people, adopted and enacted the Constitution", "C": "The President gave the Constitution to the nation", "D": "The Constitution was a gift from the Crown" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-024",
+      "q": "In the SR Bommai case, the Supreme Court relied on the Preamble to hold that:",
+      "options": { "A": "Federalism is a basic feature", "B": "Secularism is a basic feature, and any government acting contrary to it can be dismissed under Article 356", "C": "Judicial review cannot be curtailed", "D": "The Preamble is non-justiciable" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "preamble-final-025",
+      "q": "The Preamble is described as the 'key to the mind of the makers' by:",
+      "options": { "A": "B.R. Ambedkar", "B": "Thakurdas Bhargava", "C": "Granville Austin", "D": "Jawaharlal Nehru" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "preamble-final-026",
+      "q": "The ideals of Liberty, Equality, and Fraternity in the Preamble were borrowed from the:",
+      "options": { "A": "American Constitution", "B": "French Revolution", "C": "British Constitution", "D": "Irish Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-027",
+      "q": "The Preamble is non-justiciable, meaning:",
+      "options": { "A": "It cannot be enforced in a court of law", "B": "It is not a part of the Constitution", "C": "It cannot be used for interpretation", "D": "It has no legal significance" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-028",
+      "q": "Though non-justiciable, the Preamble can be used by courts to:",
+      "options": { "A": "Strike down a law that violates only the Preamble", "B": "Aid in the interpretation of the Constitution when the meaning of provisions is ambiguous", "C": "Issue writs for its enforcement", "D": "Amend the Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-029",
+      "q": "The word 'integrity' was added to the Preamble to specifically:",
+      "options": { "A": "Emphasise territorial unity and psychological oneness of the nation", "B": "Replace the word 'unity'", "C": "Promote federalism", "D": "Allow states to secede" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-030",
+      "q": "Consider the following statements: 1. The Preamble is a part of the Constitution as per Kesavananda Bharati. 2. The Preamble can be amended under Article 368, subject to the basic structure doctrine. 3. The Preamble is a source of legislative power. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-031",
+      "q": "The Preamble's date of adoption, 26 November 1949, is celebrated as:",
+      "options": { "A": "Republic Day", "B": "Constitution Day (Samvidhan Divas)", "C": "Independence Day", "D": "Law Day" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-032",
+      "q": "The Preamble was drafted by the Drafting Committee. Who was the Chairman of this Committee?",
+      "options": { "A": "Jawaharlal Nehru", "B": "Dr. B.R. Ambedkar", "C": "Dr. Rajendra Prasad", "D": "Sardar Patel" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-033",
+      "q": "In the original Preamble, the words 'Sovereign Democratic Republic' were used. The term 'Democratic' implies:",
+      "options": { "A": "Direct democracy", "B": "Representative parliamentary democracy based on universal adult franchise", "C": "Oligarchy", "D": "Theocracy" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-034",
+      "q": "The Preamble's 'Liberty of thought, expression, belief, faith and worship' is operationalised primarily through:",
+      "options": { "A": "Directive Principles", "B": "Fundamental Rights under Articles 19, 25 and 26", "C": "Fundamental Duties", "D": "Only the Preamble" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-035",
+      "q": "The Preamble's commitment to 'dignity of the individual' is reflected in:",
+      "options": { "A": "Abolition of untouchability (Article 17)", "B": "Prohibition of trafficking (Article 23)", "C": "Right to life and personal liberty (Article 21)", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-036",
+      "q": "Which case is authority for the proposition that the Preamble is not a source of power nor a limitation on powers, but is a key to interpretation?",
+      "options": { "A": "Berubari Union case", "B": "Kesavananda Bharati case", "C": "Both A and B", "D": "SR Bommai case" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "preamble-final-037",
+      "q": "The Preamble was inspired by the Preamble of the Constitution of the United States, but the Indian Preamble is more detailed. Which of the following is mentioned in the Indian Preamble but NOT in the US Preamble?",
+      "options": { "A": "Justice", "B": "Liberty", "C": "Socialist and Secular", "D": "We the People" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-038",
+      "q": "The amendment of the Preamble by the 42nd Amendment was upheld because:",
+      "options": { "A": "The Preamble is not a part of the Constitution", "B": "It did not destroy the basic structure of the Constitution", "C": "It was passed by a unanimous vote", "D": "It was only temporary" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-039",
+      "q": "The Preamble secures 'Fraternity' which includes the dignity of the individual and the unity and integrity of the nation. Which of the following constitutional features directly promotes fraternity?",
+      "options": { "A": "Single citizenship", "B": "Common national symbols", "C": "Provisions for communal harmony", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-040",
+      "q": "The Preamble is often described as the 'soul of the Constitution' by:",
+      "options": { "A": "Thakurdas Bhargava", "B": "Jawaharlal Nehru", "C": "K.M. Munshi", "D": "N.A. Palkhivala" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "preamble-final-041",
+      "q": "In the LIC vs. Escorts case (1995), the Supreme Court reaffirmed that:",
+      "options": { "A": "The Preamble is not a part of the Constitution", "B": "The Preamble is a part of the Constitution and can be used for interpretation", "C": "The Preamble is unamendable", "D": "The Preamble overrides all other provisions" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-042",
+      "q": "The Preamble's 'Socialist' principle is primarily given effect through:",
+      "options": { "A": "Fundamental Rights", "B": "Directive Principles of State Policy", "C": "Fundamental Duties", "D": "The amendment procedure" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "preamble-final-043",
+      "q": "The Preamble is an integral part of the Constitution and can be amended under Article 368. However, the amendment cannot alter the:",
+      "options": { "A": "Total number of schedules", "B": "Basic structure of the Constitution", "C": "Number of Fundamental Rights", "D": "Number of Directive Principles" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-044",
+      "q": "The date '26 January 1950' is the date of commencement of the Constitution, but the Preamble mentions '26 November 1949' because:",
+      "options": { "A": "It was the day the Constitution was adopted by the Constituent Assembly", "B": "The Preamble was actually adopted on that day", "C": "It was the day of independence", "D": "It was the birthday of Mahatma Gandhi" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "preamble-final-045",
+      "q": "Which of the following statements about the Preamble is correct?",
+      "options": { "A": "It is a schedule to the Constitution.", "B": "It is a part of the Constitution but is not enforceable by courts.", "C": "It cannot be amended.", "D": "It was adopted on 26 January 1950." },
+      "answer": "B",
+      "difficulty": "mid"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Disinvestment",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-disinvestment-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

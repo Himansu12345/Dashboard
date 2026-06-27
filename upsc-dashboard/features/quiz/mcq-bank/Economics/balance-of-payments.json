@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Balance of Payments",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-balance-of-payments-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

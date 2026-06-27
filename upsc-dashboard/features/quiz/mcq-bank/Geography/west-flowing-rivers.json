@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "West Flowing Rivers",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-west-flowing-rivers-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

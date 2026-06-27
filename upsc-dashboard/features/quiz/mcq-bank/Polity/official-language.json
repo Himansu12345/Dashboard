@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Official Language",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-official-language-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

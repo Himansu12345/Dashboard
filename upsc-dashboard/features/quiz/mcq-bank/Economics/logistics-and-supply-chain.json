@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Logistics and Supply Chain",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "economics-logistics-and-supply-chain-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

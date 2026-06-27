@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Jet Streams",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "geography-jet-streams-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

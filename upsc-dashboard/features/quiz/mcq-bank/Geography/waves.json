@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Waves",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-waves-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

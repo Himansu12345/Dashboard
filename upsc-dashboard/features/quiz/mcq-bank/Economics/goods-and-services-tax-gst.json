@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Goods and Services Tax (GST)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-goods-and-services-tax-gst-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

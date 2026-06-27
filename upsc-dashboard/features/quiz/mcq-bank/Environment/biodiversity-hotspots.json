@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Biodiversity Hotspots",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-biodiversity-hotspots-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

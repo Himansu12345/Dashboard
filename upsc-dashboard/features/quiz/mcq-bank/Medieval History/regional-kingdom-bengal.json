@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Regional Kingdom - Bengal",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-regional-kingdom-bengal-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

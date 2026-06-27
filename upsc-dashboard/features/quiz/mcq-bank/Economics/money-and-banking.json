@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Money and Banking",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-money-and-banking-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

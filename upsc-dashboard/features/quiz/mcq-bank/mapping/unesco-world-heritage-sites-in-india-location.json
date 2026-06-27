@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "UNESCO World Heritage Sites in India (Location)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-unesco-world-heritage-sites-in-india-location-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

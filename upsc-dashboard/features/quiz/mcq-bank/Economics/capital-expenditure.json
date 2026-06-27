@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Capital Expenditure",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-capital-expenditure-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

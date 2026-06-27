@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Current Account",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-current-account-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

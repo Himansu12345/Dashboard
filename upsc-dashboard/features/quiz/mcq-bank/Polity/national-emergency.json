@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "National Emergency",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "polity-national-emergency-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

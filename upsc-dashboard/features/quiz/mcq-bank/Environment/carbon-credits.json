@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Carbon Credits",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-carbon-credits-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

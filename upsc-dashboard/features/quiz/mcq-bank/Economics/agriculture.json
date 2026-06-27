@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Agriculture",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-agriculture-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

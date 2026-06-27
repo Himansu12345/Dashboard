@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "Foreign Exchange Reserves",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "economics-foreign-exchange-reserves-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

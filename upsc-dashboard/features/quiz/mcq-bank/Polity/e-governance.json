@@ -1,0 +1,91 @@
+{
+  "subject": "Polity",
+  "topic": "E-Governance – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "egov-final-001",
+      "q": "Consider the following statements regarding the 'Data Empowerment and Protection Architecture' (DEPA), a key layer of the India Stack: 1. It allows individuals to securely share their personal data across third-party institutions through consent managers. 2. The Account Aggregators (AAs) operating under this framework are permitted to store and read the user data they transfer to facilitate targeted advertising. 3. The framework operates on the strict principle of 'data blindness', ensuring that the aggregators cannot view the actual data payload. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "egov-final-002",
+      "q": "Consider the following statements regarding the Open Network for Digital Commerce (ONDC): 1. ONDC is a government-owned e-commerce application designed to directly compete with private platforms like Amazon and Flipkart. 2. It aims to democratize digital commerce by moving it from a platform-centric model to an open-network model based on open specifications. 3. It has been incorporated as a Section 8 (Non-Profit) Company. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "egov-final-003",
+      "q": "Consider the following statements regarding the PRAGATI (Pro-Active Governance and Timely Implementation) platform: 1. It is a multi-purpose, multi-modal platform aimed at addressing common man's grievances and monitoring major government programmes. 2. The interactive meetings are a three-tier system involving the Prime Minister, Union Cabinet Ministers, and State Chief Ministers. 3. It was designed in-house by the Prime Minister's Office (PMO) in collaboration with the National Informatics Centre (NIC). How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "egov-final-004",
+      "q": "Which of the following Digital Public Infrastructures (DPIs) in India are built on top of open-source digital platforms? 1. Aarogya Setu 2. CoWIN 3. DigiLocker 4. DIKSHA. Select the correct answer using the code below:",
+      "options": { "A": "Only one", "B": "Only two", "C": "Only three", "D": "All four" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "egov-final-005",
+      "q": "Consider the following statements regarding the API Setu platform: 1. It is an Open API platform built to facilitate fast and transparent governance through data sharing across government departments. 2. It restricts access exclusively to government departments and strictly prohibits private sector developers from integrating their applications. 3. It plays a central role in the functioning of DigiLocker by allowing real-time fetching of documents from issuing authorities. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "egov-final-006",
+      "q": "Consider the following statements regarding DigiLocker: 1. Issued documents in DigiLocker are treated at par with original physical documents under the Information Technology Act, 2000. 2. Users are strictly not permitted to manually upload their own scanned documents to the platform; documents must be pushed by issuers. 3. Only government authorities and ministries are permitted to register as 'Issuers' on the DigiLocker platform. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "egov-final-007",
+      "q": "Consider the following statements regarding the UMANG (Unified Mobile Application for New-age Governance) initiative: 1. It is a unified platform that provides access to pan-India e-Gov services ranging from Central to Local Government bodies. 2. The app was developed jointly by the Ministry of Electronics and Information Technology (MeitY) and the National e-Governance Division (NeGD). 3. UMANG services are available strictly through the smartphone application and cannot be accessed via web browsers, SMS, or IVR. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "egov-final-008",
+      "q": "Consider the following statements regarding Identity and Authentication under the India Stack: 1. The Aadhaar Enabled Payment System (AePS) allows interoperable financial transactions at Point of Sale (PoS) using biometric authentication. 2. e-KYC under the India Stack strictly requires biometric authentication (fingerprint or iris) and cannot be legally performed using OTP alone. 3. e-Sign is an online electronic signature service that can be integrated with service delivery applications via an open API. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "egov-final-009",
+      "q": "Consider the following statements regarding 'Bhashini' (National Language Translation Mission): 1. It aims to build a National Public Digital Platform for languages to develop services and products for citizens by leveraging Artificial Intelligence. 2. It is a closed-source initiative where the language datasets and AI models are strictly reserved for use by government security agencies. 3. It relies heavily on crowdsourcing initiatives like 'Bhasha Daan' to build large language datasets for Indian languages. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "egov-final-010",
+      "q": "Consider the following statements regarding Aadhaar and E-Governance legality: 1. Under the Aadhaar Act, 2016, the government can mandate Aadhaar authentication as a prerequisite for receiving subsidies drawn from the Consolidated Fund of India. 2. Private corporate bodies and telecom companies can legally demand Aadhaar authentication for e-KYC if it is backed by a contract with the user. 3. The Unique Identification Authority of India (UIDAI) is a constitutional body established under Article 263. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "egov-final-011",
+      "q": "Consider the following statements regarding the 'MeghRaj' initiative: 1. It is the Government of India's project to map the entire agricultural land of the country using drone technology. 2. It aims to optimize government ICT spending by shifting from a silo-based approach to a shared, centralized cloud computing infrastructure. 3. The National Informatics Centre (NIC) is the nodal agency for providing Cloud services under this initiative. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "egov-final-012",
+      "q": "Consider the following statements regarding the e-Courts Mission Mode Project: 1. It is a Pan-India Project monitored and funded entirely by the Supreme Court of India from its own constitutional budget. 2. It relies heavily on Free and Open Source Software (FOSS) without depending entirely on proprietary software. 3. The Interoperable Criminal Justice System (ICJS) integrates e-Courts directly with the police (CCTNS), e-Prisons, and Forensic Labs. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Clouds",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "geography-clouds-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

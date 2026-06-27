@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "National Parks of India",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-national-parks-of-india-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,462 @@
+{
+  "subject": "Polity",
+  "topic": "Parliament – Legislative Procedure",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "legproc-001",
+      "q": "Which Article of the Constitution defines a Money Bill?",
+      "options": { "A": "Article 109", "B": "Article 110", "C": "Article 111", "D": "Article 117" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-002",
+      "q": "Consider the following statements regarding an Ordinary Bill:\n1. It can be introduced in either House of Parliament.\n2. It requires prior recommendation of the President before introduction.\n3. It is passed by a simple majority.\nWhich of the statements given above is/are correct?",
+      "options": { "A": "1 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-003",
+      "q": "The Speaker of the Lok Sabha certifies a Bill as a Money Bill. This decision is:",
+      "options": { "A": "Final and cannot be questioned in any court", "B": "Subject to judicial review", "C": "Can be overruled by the Rajya Sabha", "D": "Requires the President's concurrence" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-004",
+      "q": "Which of the following is NOT considered a matter that makes a Bill a Money Bill under Article 110?",
+      "options": { "A": "Imposition, abolition, remission, alteration or regulation of any tax", "B": "The regulation of the borrowing of money by the Government of India", "C": "The payment of money into the Consolidated Fund of India", "D": "Imposition of fines or other pecuniary penalties" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-005",
+      "q": "In case of a deadlock between the two Houses on an Ordinary Bill, the President can summon a joint sitting under:",
+      "options": { "A": "Article 108", "B": "Article 109", "C": "Article 110", "D": "Article 111" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-006",
+      "q": "Which of the following bills cannot be referred to a joint sitting of Parliament?",
+      "options": { "A": "Ordinary Bill", "B": "Constitutional Amendment Bill", "C": "Finance Bill", "D": "Financial Bill (Category I)" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-007",
+      "q": "At a joint sitting of both Houses under Article 108, the Presiding Officer is:",
+      "options": { "A": "President of India", "B": "Vice-President of India", "C": "Speaker of Lok Sabha", "D": "Chairman of Rajya Sabha" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-008",
+      "q": "A Money Bill can be introduced only in the Lok Sabha. After it is passed by the Lok Sabha, it is sent to the Rajya Sabha. The Rajya Sabha must return the bill within:",
+      "options": { "A": "14 days", "B": "One month", "C": "Six months", "D": "No time limit" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-009",
+      "q": "If the Rajya Sabha does not return a Money Bill within the stipulated period, it is deemed to have been passed by both Houses. This is provided under:",
+      "options": { "A": "Article 109", "B": "Article 110", "C": "Article 111", "D": "Article 108" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-010",
+      "q": "The Rajya Sabha has which of the following powers regarding a Money Bill?\n1. It can reject a Money Bill.\n2. It can amend a Money Bill.\n3. It can only make recommendations that the Lok Sabha may or may not accept.",
+      "options": { "A": "1 only", "B": "3 only", "C": "2 and 3", "D": "1 and 2" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-011",
+      "q": "The category 'Financial Bill (I)' under Article 117(1) is a bill that contains provisions dealing with matters specified in Article 110 along with other non-money matters. Such a bill:",
+      "options": { "A": "Can be introduced only in the Lok Sabha", "B": "Can be introduced only with the President's prior recommendation", "C": "Can be introduced only in the Rajya Sabha", "D": "Both A and B" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-012",
+      "q": "A bill that merely deals with expenditure from the Consolidated Fund and does not fall under any of the six clauses of Article 110 is a:",
+      "options": { "A": "Money Bill", "B": "Financial Bill (Category II)", "C": "Ordinary Bill", "D": "Constitutional Amendment Bill" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-013",
+      "q": "Which of the following bills requires the prior recommendation of the President before introduction?\n1. A Money Bill\n2. A Financial Bill (Category I)\n3. A bill for the alteration of boundaries of states under Article 3",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1, 2 and 3", "D": "1 and 3 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-014",
+      "q": "When an Ordinary Bill is passed by one House and transmitted to the other House, the second House may:\n1. Pass it as sent\n2. Reject it\n3. Pass it with amendments\n4. Take no action on it for six months",
+      "options": { "A": "1, 2 and 3", "B": "1 and 2 only", "C": "1, 2 and 4", "D": "1, 2, 3 and 4" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-015",
+      "q": "If a bill has been passed by the Lok Sabha but is pending in the Rajya Sabha, and the Lok Sabha is dissolved, what happens to the bill?",
+      "options": { "A": "It lapses", "B": "It does not lapse", "C": "It is sent to the President for assent", "D": "It is reconsidered by the new Lok Sabha" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-016",
+      "q": "Which of the following bills does NOT lapse on dissolution of the Lok Sabha?\n1. A bill that has been passed by the Lok Sabha and is pending in the Rajya Sabha.\n2. A bill that is passed by both Houses but returned by the President for reconsideration.\n3. A bill notified for a joint sitting before dissolution.\n4. A bill originating and pending in the Rajya Sabha.",
+      "options": { "A": "2, 3 and 4", "B": "1, 2 and 3", "C": "3 and 4", "D": "2 and 4" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-017",
+      "q": "A bill pending in the Rajya Sabha which has not been passed by the Lok Sabha:",
+      "options": { "A": "Lapses on dissolution of Lok Sabha", "B": "Does not lapse", "C": "Lapses only if the Rajya Sabha is also dissolved", "D": "Becomes void after six months" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-018",
+      "q": "The President can return a bill passed by Parliament for reconsideration under Article 111. This power does NOT extend to:",
+      "options": { "A": "An Ordinary Bill", "B": "A Money Bill", "C": "A Financial Bill (Category II)", "D": "A Constitution Amendment Bill" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-019",
+      "q": "If Parliament re‑passes an Ordinary Bill (with or without amendments) after the President returns it, the President:",
+      "options": { "A": "Must give his assent", "B": "Can withhold his assent indefinitely", "C": "Can again return the bill", "D": "Can send it to the Supreme Court for an advisory opinion" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-020",
+      "q": "The 'pocket veto' of the President refers to:",
+      "options": { "A": "The President's power to return a bill for reconsideration", "B": "The President's power to withhold assent to a bill indefinitely without returning it", "C": "The President's power to reject a Money Bill", "D": "The President's power to dissolve the Lok Sabha" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-021",
+      "q": "A Constitutional Amendment Bill under Article 368 can be introduced:",
+      "options": { "A": "Only in the Lok Sabha", "B": "Only in the Rajya Sabha", "C": "In either House of Parliament", "D": "Only by the President" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-022",
+      "q": "Which of the following Constitutional Amendment Bills require ratification by at least half of the State Legislatures?\n1. Fundamental Rights\n2. Election of the President\n3. Supreme Court and High Courts\n4. Division of legislative powers between the Union and the States",
+      "options": { "A": "1, 2 and 4", "B": "2 and 4", "C": "2, 3 and 4", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-023",
+      "q": "A Constitutional Amendment Bill is passed by each House by:",
+      "options": { "A": "A simple majority of members present and voting", "B": "A special majority of a majority of the total membership and a majority of not less than two-thirds of members present and voting", "C": "A majority of two-thirds of the total membership", "D": "A simple majority and ratification by half the states" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-024",
+      "q": "There is no provision for a joint sitting for a Constitutional Amendment Bill. This is because:",
+      "options": { "A": "The Constitution explicitly prohibits it in Article 108", "B": "Article 368 requires both Houses to pass the bill separately with a special majority", "C": "The President cannot summon a joint sitting for such a bill", "D": "All of the above" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-025",
+      "q": "The President's prior recommendation is required for the introduction of which of the following bills?\n1. A Money Bill\n2. A bill that provides for the formation of a new State under Article 3\n3. A bill for the amendment of the Constitution that affects the federal structure",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "1, 2 and 3", "D": "2 only" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-026",
+      "q": "A bill that seeks to impose a tax but does not fall under Article 110 is a:",
+      "options": { "A": "Money Bill", "B": "Financial Bill (Category I)", "C": "Financial Bill (Category II)", "D": "Ordinary Bill" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-027",
+      "q": "Which of the following statements about a Private Member's Bill is correct?",
+      "options": { "A": "It requires prior recommendation of the President for introduction", "B": "It cannot be introduced in the Rajya Sabha", "C": "It is introduced by a member who is not a Minister", "D": "It must be certified as a Money Bill by the Speaker" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-028",
+      "q": "The 'first reading' of a bill in Parliament refers to:",
+      "options": { "A": "Clause-by-clause consideration", "B": "Introduction and publication of the bill", "C": "General discussion on the bill", "D": "Final voting on the bill" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-029",
+      "q": "At the 'second reading' stage, a bill can be:\n1. Discussed in principle and then referred to a committee\n2. Taken up for clause-by-clause consideration\n3. Passed finally",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-030",
+      "q": "The 'third reading' of a bill is primarily concerned with:",
+      "options": { "A": "Introduction of the bill", "B": "Clause-by-clause discussion", "C": "Passage or rejection of the bill as a whole", "D": "Reference to a Select Committee" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-031",
+      "q": "Consider the following pairs:\n1. Money Bill – Article 110\n2. Joint Sitting – Article 108\n3. Assent to Bills – Article 111\nWhich of the pairs given above is/are correctly matched?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-032",
+      "q": "If the President returns a Constitutional Amendment Bill for reconsideration, Parliament:",
+      "options": { "A": "Can pass it again with a simple majority", "B": "Cannot reconsider it; the President must give assent", "C": "Can pass it again with the required special majority and the President must then give assent", "D": "Must refer it to the Supreme Court" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-033",
+      "q": "Which of the following bills has the longest prescribed time limit for the Rajya Sabha to act before it is deemed to be passed?",
+      "options": { "A": "Money Bill (14 days)", "B": "Ordinary Bill (6 months)", "C": "Constitutional Amendment Bill (no limit)", "D": "Financial Bill (Category I) (no limit)" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-034",
+      "q": "A joint sitting can be summoned by the President when:\n1. A bill is rejected by the other House.\n2. The Houses disagree on amendments to the bill.\n3. More than six months elapse from the date of reception of the bill by the other House without it being passed.",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-035",
+      "q": "At a joint sitting, the bill is passed by:",
+      "options": { "A": "A simple majority of the total number of members of both Houses present and voting", "B": "A special majority of two-thirds", "C": "A simple majority of the total membership of both Houses", "D": "A majority of the members of the Lok Sabha alone" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-036",
+      "q": "Which of the following provisions regarding Money Bill is part of Article 110?\n1. The custody of the Consolidated Fund or the Contingency Fund of India.\n2. The appropriation of moneys out of the Consolidated Fund of India.\n3. The imposition, abolition, remission, alteration or regulation of any tax.\n4. The receipt of money on account of the Public Account of India.",
+      "options": { "A": "1, 2 and 3", "B": "2 and 3 only", "C": "3 and 4", "D": "1, 2, 3 and 4" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-037",
+      "q": "In the case of the Aadhaar Act being passed as a Money Bill, the Supreme Court upheld the Speaker's certification in the K.S. Puttaswamy (Aadhaar) judgment by a majority. True or False?",
+      "options": { "A": "True", "B": "False, it was struck down as a Money Bill", "C": "False, the issue was not decided", "D": "True, but only partially" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-038",
+      "q": "Which of the following is NOT a stage in the passage of a Bill in Parliament?",
+      "options": { "A": "First Reading", "B": "Second Reading", "C": "Third Reading", "D": "Presidential Reading" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-039",
+      "q": "If a bill is passed by one House and sent to the other House, and the other House rejects it, the bill:",
+      "options": { "A": "Lapses", "B": "Can be sent for joint sitting", "C": "Is sent back for reconsideration", "D": "Is deemed passed after six months" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-040",
+      "q": "The maximum time limit within which the Rajya Sabha must return a Money Bill is 14 days. This period starts from:",
+      "options": { "A": "The date of introduction in the Lok Sabha", "B": "The date it is passed by the Lok Sabha", "C": "The date of receipt by the Rajya Sabha", "D": "The date of the President's recommendation" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-041",
+      "q": "A bill that exclusively deals with the regulation of the borrowing of money by the Government of India is:",
+      "options": { "A": "An Ordinary Bill", "B": "A Money Bill", "C": "A Financial Bill (Category I)", "D": "A Constitutional Amendment Bill" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-042",
+      "q": "Consider the following statements about the lapsing of bills:\n1. A bill originated in the Rajya Sabha and pending there lapses on dissolution of Lok Sabha.\n2. A bill passed by the Lok Sabha and pending in Rajya Sabha lapses.\n3. A bill returned by the President for reconsideration does not lapse if the Lok Sabha is dissolved.\nWhich of the statements given above is/are correct?",
+      "options": { "A": "2 and 3", "B": "1 only", "C": "2 only", "D": "3 only" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-043",
+      "q": "If a bill has been passed by both Houses and sent to the President for assent, and the Lok Sabha is dissolved before the President gives his assent, what happens to the bill?",
+      "options": { "A": "It lapses", "B": "It does not lapse", "C": "It must be re-passed after the new Lok Sabha is formed", "D": "It becomes an Act automatically" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-044",
+      "q": "The President cannot return a Constitution Amendment Bill for reconsideration. This is based on:",
+      "options": { "A": "Article 111", "B": "The 24th Amendment, 1971", "C": "The 42nd Amendment, 1976", "D": "Supreme Court interpretation in Kesavananda Bharati case" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-045",
+      "q": "Which of the following is a feature of a Government Bill?",
+      "options": { "A": "It is introduced by a Minister", "B": "It requires prior notice of one month", "C": "It can only be a Money Bill", "D": "It does not require the President's assent" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-046",
+      "q": "The provision for joint sitting is not applicable to which type of bill?",
+      "options": { "A": "Money Bill", "B": "Constitutional Amendment Bill", "C": "Financial Bill (Category II)", "D": "Ordinary Bill" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-047",
+      "q": "If a bill is pending in a joint sitting of both Houses and the Lok Sabha is dissolved, what happens to the bill?",
+      "options": { "A": "It lapses", "B": "It does not lapse", "C": "It is sent back to the Rajya Sabha", "D": "The President must give assent immediately" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-048",
+      "q": "At which stage can a bill be referred to a Parliamentary Committee for detailed scrutiny?",
+      "options": { "A": "First Reading", "B": "Second Reading", "C": "Third Reading", "D": "After passing" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-049",
+      "q": "Which of the following is a correct difference between a Money Bill and a Financial Bill (Category I)?",
+      "options": { "A": "Financial Bill (I) can be introduced in the Rajya Sabha", "B": "Money Bill deals exclusively with matters in Article 110, while Financial Bill (I) deals with Article 110 matters plus other matters", "C": "Financial Bill (I) can be returned by the President, while Money Bill cannot", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-050",
+      "q": "The Speaker's certificate that a Bill is a Money Bill is issued:",
+      "options": { "A": "After the bill is passed by the Lok Sabha", "B": "Before the bill is introduced", "C": "After the bill is passed by both Houses", "D": "When the bill is sent to the Rajya Sabha" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-051",
+      "q": "A bill deemed to be a Money Bill under Article 110(1) primarily covers matters related to:",
+      "options": { "A": "Borrowing of money", "B": "Taxation, government borrowing, and Consolidated Fund", "C": "Allocation of business among ministers", "D": "Election of the President" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-052",
+      "q": "The 'suspensive veto' power of the President applies to:",
+      "options": { "A": "Money Bills", "B": "Constitutional Amendment Bills", "C": "Ordinary Bills", "D": "Both B and C" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-053",
+      "q": "Which of the following statements about a Private Member's Bill is NOT correct?",
+      "options": { "A": "It cannot be introduced without prior notice", "B": "It can be a Constitution Amendment Bill", "C": "It is always rejected in the first instance", "D": "Its introduction requires a ballot system in case of multiple notices" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-054",
+      "q": "A bill that contains provisions for expenditure from the Consolidated Fund of India but does not fall under Article 110 is a Financial Bill (Category II). Such a bill:",
+      "options": { "A": "Can be introduced in either House", "B": "Requires the President's prior recommendation for consideration but not for introduction", "C": "Is treated as an Ordinary Bill for most procedural aspects", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-055",
+      "q": "The provision for 'previous sanction' of the President for introducing certain bills is intended to:",
+      "options": { "A": "Ensure executive control over financial matters and state boundaries", "B": "Give the President discretionary power to legislate", "C": "Circumvent Parliament", "D": "Protect the interests of the Rajya Sabha" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-056",
+      "q": "If a Money Bill is passed by the Lok Sabha and the Rajya Sabha suggests amendments, what must the Lok Sabha do?",
+      "options": { "A": "Accept the amendments", "B": "Reject the bill", "C": "Accept or reject all or any of the recommendations; it is not bound to accept them", "D": "Send it to a joint sitting" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-057",
+      "q": "A Constitutional Amendment Bill can be initiated by:",
+      "options": { "A": "Only the Prime Minister", "B": "Only a Minister", "C": "Either a Minister or a Private Member", "D": "Only the President" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-058",
+      "q": "Which of the following bills was the first to be passed at a joint sitting of Parliament?",
+      "options": { "A": "Dowry Prohibition Bill, 1961", "B": "Banking Service Commission (Repeal) Bill, 1978", "C": "Prevention of Terrorism Bill, 2002", "D": "Lokpal and Lokayuktas Bill, 2013" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-059",
+      "q": "How many joint sittings have been held in the history of the Indian Parliament so far?",
+      "options": { "A": "3", "B": "4", "C": "5", "D": "6" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-060",
+      "q": "In the case of a bill returned by the President for reconsideration, the Houses must pass it again with:",
+      "options": { "A": "Simple majority", "B": "Special majority", "C": "Two-thirds majority of members present and voting", "D": "The majority that would otherwise be required for that type of bill" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-061",
+      "q": "If a bill is passed by a joint sitting, it is deemed to have been passed by:",
+      "options": { "A": "Lok Sabha only", "B": "Rajya Sabha only", "C": "Both Houses separately", "D": "Both Houses collectively" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "legproc-062",
+      "q": "The President must give his assent to a Constitution Amendment Bill after it is passed. This was made explicit by:",
+      "options": { "A": "24th Amendment Act, 1971", "B": "42nd Amendment Act, 1976", "C": "44th Amendment Act, 1978", "D": "Minerva Mills judgment" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-063",
+      "q": "Which of the following correctly states the timing of the Speaker certifying a Bill as a Money Bill?",
+      "options": { "A": "Immediately after the Bill is introduced in the Lok Sabha", "B": "When the Bill is passed by the Lok Sabha and before it is transmitted to the Rajya Sabha", "C": "When the Bill is sent to the President for assent", "D": "At any time during the Bill's passage in the Lok Sabha" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "legproc-064",
+      "q": "Consider the following statements about the Financial Bill (Category I):\n1. It must be introduced only in the Lok Sabha.\n2. It requires prior recommendation of the President for introduction.\n3. It cannot be referred to a joint sitting.\nWhich of the statements given above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "legproc-065",
+      "q": "Which of the following expenditures, if included in a bill, makes it a Money Bill under Article 110?\n1. Payment of interest on loans taken by the Government of India\n2. Salaries of the judges of the Supreme Court\n3. Grant of money from the Consolidated Fund for a new government scheme",
+      "options": { "A": "1 only", "B": "1 and 3", "C": "2 and 3", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "hard"
+    }
+  ]
+}

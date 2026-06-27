@@ -1,0 +1,787 @@
+{
+  "subject": "Polity",
+  "topic": "Parliamentary Committees – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "parl-com-001",
+      "q": "Consider the following statements regarding the Public Accounts Committee (PAC): 1. It was set up first in 1921 under the provisions of the Government of India Act of 1919. 2. Currently, it consists of 22 members, all elected from the Lok Sabha. 3. A minister cannot be elected as a member of the committee. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-002",
+      "q": "Regarding the Chairman of the Public Accounts Committee (PAC), which of the following is correct?",
+      "options": {
+        "A": "The Chairman is elected by the members of the committee from amongst themselves.",
+        "B": "The Chairman is appointed by the President on the recommendation of the Prime Minister.",
+        "C": "Since 1967, a convention has developed whereby the Chairman of the committee is selected invariably from the Opposition.",
+        "D": "The Speaker of the Lok Sabha is the ex-officio Chairman of the PAC."
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-003",
+      "q": "Which of the following audit reports of the Comptroller and Auditor General (CAG) is NOT examined by the Public Accounts Committee?",
+      "options": {
+        "A": "Audit report on appropriation accounts",
+        "B": "Audit report on finance accounts",
+        "C": "Audit report on public undertakings",
+        "D": "None of the above (PAC examines all three)"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-004",
+      "q": "Consider the limitations of the Public Accounts Committee (PAC): 1. It is not an executive body and hence cannot issue an order. 2. Its recommendations are advisory and not binding on the ministries. 3. It conducts a post-mortem examination of accounts, showing what has already been done. Which of the above statements are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-005",
+      "q": "Which Parliamentary Committee is described as a 'continuous economy committee' and suggests alternative policies in order to bring about efficiency and economy in administration?",
+      "options": {
+        "A": "Public Accounts Committee",
+        "B": "Estimates Committee",
+        "C": "Committee on Public Undertakings",
+        "D": "Departmentally Related Standing Committee on Finance"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-006",
+      "q": "Regarding the composition of the Estimates Committee, consider the following statements: 1. It has 30 members, all from the Lok Sabha. 2. The Rajya Sabha has no representation in this committee. 3. The members are nominated by the Speaker every year. Which of the statements given above is/are INCORRECT?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "3 only",
+        "D": "1 and 3 only"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-007",
+      "q": "The Chairman of the Estimates Committee is appointed by the Speaker from amongst its members. By convention, the Chairman is invariably from:",
+      "options": {
+        "A": "The Ruling Party",
+        "B": "The Principal Opposition Party",
+        "C": "Any party other than the ruling coalition",
+        "D": "The nominated members of the House"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-008",
+      "q": "Which of the following is a key limitation of the Estimates Committee?",
+      "options": {
+        "A": "It cannot question the policy laid down by Parliament.",
+        "B": "It examines the budget estimates only after they have been voted by the Parliament.",
+        "C": "It cannot call for official documents or witness testimonies.",
+        "D": "Both A and B"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-009",
+      "q": "The Committee on Public Undertakings (CoPU) was created in 1964 on the recommendation of which committee?",
+      "options": {
+        "A": "John Mathai Committee",
+        "B": "Krishna Menon Committee",
+        "C": "Santhanam Committee",
+        "D": "Swaran Singh Committee"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-010",
+      "q": "Consider the following statements about the Committee on Public Undertakings (CoPU): 1. It has 22 members (15 from Lok Sabha and 7 from Rajya Sabha). 2. A minister is eligible to be elected as a member of this committee. 3. The Chairman of the committee can be chosen only from amongst the members of the Lok Sabha. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "1 and 3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-011",
+      "q": "Which of the following functions is explicitly EXCLUDED from the purview of the Committee on Public Undertakings (CoPU)?",
+      "options": {
+        "A": "Examining the reports and accounts of public undertakings",
+        "B": "Examining the reports of the CAG on public undertakings",
+        "C": "Examining matters of major government policy as distinct from business or commercial functions",
+        "D": "Examining whether the affairs of public undertakings are being managed in accordance with sound business principles"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-012",
+      "q": "Regarding the Departmentally Related Standing Committees (DRSCs), how many such committees currently exist in the Indian Parliament?",
+      "options": {
+        "A": "17",
+        "B": "22",
+        "C": "24",
+        "D": "30"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-013",
+      "q": "Out of the total Departmentally Related Standing Committees (DRSCs), how are they jurisdictionally divided between the two Houses?",
+      "options": {
+        "A": "12 work under the Lok Sabha and 12 under the Rajya Sabha",
+        "B": "16 work under the Lok Sabha and 8 under the Rajya Sabha",
+        "C": "8 work under the Lok Sabha and 16 under the Rajya Sabha",
+        "D": "20 work under the Lok Sabha and 4 under the Rajya Sabha"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-014",
+      "q": "Consider the composition of a single Departmentally Related Standing Committee (DRSC): 1. It consists of 31 members. 2. 21 members are from Lok Sabha and 10 from Rajya Sabha. 3. The members are elected by proportional representation by means of a single transferable vote. Which of the statements given above is/are INCORRECT?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "3 only",
+        "D": "1 and 2 only"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-015",
+      "q": "Which of the following is NOT a function of the Departmentally Related Standing Committees (DRSCs)?",
+      "options": {
+        "A": "To consider the demands for grants of the concerned ministries",
+        "B": "To examine bills pertaining to the concerned ministries",
+        "C": "To consider annual reports of ministries",
+        "D": "To suggest 'cut motions' during the discussion of the budget"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-016",
+      "q": "Regarding the examination of Bills by DRSCs, consider the following statements: 1. Every bill introduced in Parliament is automatically referred to a DRSC. 2. The report of the DRSC on a bill is binding on the Parliament. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-017",
+      "q": "The term of office of the members of the Departmentally Related Standing Committees is:",
+      "options": {
+        "A": "One year",
+        "B": "Two years",
+        "C": "Co-terminus with the life of the Lok Sabha",
+        "D": "Determined by the Presiding Officer"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-018",
+      "q": "Which of the following committees is chaired by the Speaker of the Lok Sabha as its ex-officio Chairman? 1. Business Advisory Committee 2. Rules Committee 3. General Purposes Committee. Select the correct answer using the code below:",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-019",
+      "q": "The Business Advisory Committee of the Lok Sabha consists of how many members, including the Speaker?",
+      "options": {
+        "A": "11",
+        "B": "15",
+        "C": "22",
+        "D": "30"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-020",
+      "q": "Consider the following statements regarding the Committee on Private Members' Bills and Resolutions: 1. It exists only in the Lok Sabha. 2. It consists of 15 members. 3. The Deputy Speaker is its Chairman. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-021",
+      "q": "How does the Rajya Sabha handle the business related to Private Members' Bills and Resolutions?",
+      "options": {
+        "A": "Through a specially designated committee of 10 members.",
+        "B": "Through the Business Advisory Committee of the Rajya Sabha.",
+        "C": "Through the General Purposes Committee.",
+        "D": "Private Members cannot introduce bills in the Rajya Sabha."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-022",
+      "q": "Which committee is constituted to examine the rules of procedure and conduct of business in the House and to recommend necessary amendments or additions?",
+      "options": {
+        "A": "Committee on Subordinate Legislation",
+        "B": "Rules Committee",
+        "C": "General Purposes Committee",
+        "D": "Committee on Government Assurances"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-023",
+      "q": "The Rules Committee of the Lok Sabha and Rajya Sabha consists of how many members, respectively?",
+      "options": {
+        "A": "15 in LS and 11 in RS",
+        "B": "15 in LS and 16 in RS",
+        "C": "22 in LS and 15 in RS",
+        "D": "30 in LS and 20 in RS"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-024",
+      "q": "The General Purposes Committee considers and advises on matters concerning the affairs of the House, which do not fall within the jurisdiction of any other parliamentary committee. Who among the following is NOT typically a member of this committee?",
+      "options": {
+        "A": "The Presiding Officer of the House",
+        "B": "The Deputy Presiding Officer",
+        "C": "Chairpersons of all Standing Parliamentary Committees of the House",
+        "D": "The Comptroller and Auditor General"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-025",
+      "q": "Consider the following statements regarding the Committee on Subordinate Legislation: 1. It examines whether the powers to make rules, regulations, and bye-laws delegated by the Parliament are being properly exercised by the Executive. 2. Both Houses have separate committees on subordinate legislation, each comprising 15 members. 3. A minister can be nominated as a member of this committee. Which of the statements given above is/are INCORRECT?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "3 only",
+        "D": "2 and 3 only"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-026",
+      "q": "The Committee on Government Assurances was constituted in 1953. What is its primary function?",
+      "options": {
+        "A": "To scrutinize the budget assurances made by the Finance Minister.",
+        "B": "To examine the assurances, promises, and undertakings given by ministers from time to time on the floor of the House and report on the extent to which they have been implemented.",
+        "C": "To ensure that government schemes reach the grassroots level.",
+        "D": "To monitor the fulfillment of election manifestos of the ruling party."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-027",
+      "q": "Consider the composition of the Committee on Government Assurances:",
+      "options": {
+        "A": "It is a joint committee with 22 members (15 LS, 7 RS).",
+        "B": "It exists only in the Lok Sabha with 30 members.",
+        "C": "Both Houses have separate committees; 15 members in LS and 10 members in RS.",
+        "D": "Both Houses have separate committees; 15 members in both LS and RS."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-028",
+      "q": "The Committee on Absence of Members from Sittings of the House exists ONLY in the Lok Sabha. What is its primary role?",
+      "options": {
+        "A": "To penalize members who skip the budget session.",
+        "B": "To consider all applications from members for leave of absence from the sittings of the House.",
+        "C": "To act as a disciplinary committee for unparliamentary conduct.",
+        "D": "To monitor the attendance of ministers during Question Hour."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-029",
+      "q": "If a member of the Lok Sabha is absent for a continuous period without permission, the Committee on Absence of Members recommends the vacation of their seat. What is this continuous period?",
+      "options": {
+        "A": "30 days",
+        "B": "45 days",
+        "C": "60 days",
+        "D": "90 days"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-030",
+      "q": "Consider the following regarding the Committee on Privileges: 1. It is quasi-judicial in nature. 2. It examines cases of breach of privileges of the House and its members. 3. It is a joint committee of both Houses with 22 members. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-031",
+      "q": "What is the membership structure of the Committee on Privileges?",
+      "options": {
+        "A": "15 members in the Lok Sabha and 10 members in the Rajya Sabha.",
+        "B": "15 members in both the Lok Sabha and the Rajya Sabha.",
+        "C": "20 members in the Lok Sabha and 10 members in the Rajya Sabha.",
+        "D": "A joint committee of 30 members."
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-032",
+      "q": "The Ethics Committee was constituted in the Rajya Sabha in 1997 and in the Lok Sabha in 2000. Which of the following is NOT a function of this committee?",
+      "options": {
+        "A": "To oversee the moral and ethical conduct of members.",
+        "B": "To examine cases concerning the alleged breach of privilege by members.",
+        "C": "To examine complaints relating to the unethical conduct of a member.",
+        "D": "To frame rules regarding the code of conduct for members."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-033",
+      "q": "Consider the following statements regarding the Committee on Petitions: 1. It examines petitions on bills and on matters of general public importance. 2. The Lok Sabha committee consists of 15 members, while the Rajya Sabha committee has 10 members. 3. It also entertains representations from individuals and associations on matters concerning Central subjects. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-034",
+      "q": "Which parliamentary committee examines whether the funds assigned to meet educational and cultural needs of SCs and STs are being utilized properly by the Union Government?",
+      "options": {
+        "A": "Committee on Empowerment of Women",
+        "B": "Estimates Committee",
+        "C": "Committee on the Welfare of SCs and STs",
+        "D": "Public Accounts Committee"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-035",
+      "q": "The Committee on the Welfare of SCs and STs consists of how many members?",
+      "options": {
+        "A": "22 (15 LS, 7 RS)",
+        "B": "30 (20 LS, 10 RS)",
+        "C": "31 (21 LS, 10 RS)",
+        "D": "15 (10 LS, 5 RS)"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-036",
+      "q": "Consider the following regarding the Committee on Empowerment of Women: 1. It was constituted in 1997. 2. It consists of 30 members (20 from Lok Sabha and 10 from Rajya Sabha). 3. It considers the reports of the National Commission for Women. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-037",
+      "q": "The Joint Committee on Offices of Profit is constituted to examine the composition and character of committees and other bodies appointed by the Central, State, and UT governments to recommend whether persons holding these offices should be disqualified from being elected as MPs. What is its membership strength?",
+      "options": {
+        "A": "15 members (10 LS, 5 RS)",
+        "B": "22 members (15 LS, 7 RS)",
+        "C": "15 members (15 LS, 0 RS)",
+        "D": "30 members (20 LS, 10 RS)"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-038",
+      "q": "Which committee examines matters related to the provision of accommodation, food, medical aid, and other amenities to Members of Parliament in Delhi?",
+      "options": {
+        "A": "House Committee",
+        "B": "General Purposes Committee",
+        "C": "Committee on the Welfare of Members",
+        "D": "Library Committee"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-039",
+      "q": "The Library Committee assists members of Parliament in fully utilizing the Parliament Library. It consists of:",
+      "options": {
+        "A": "9 members (6 LS, 3 RS)",
+        "B": "15 members (10 LS, 5 RS)",
+        "C": "22 members (15 LS, 7 RS)",
+        "D": "11 members (7 LS, 4 RS)"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-040",
+      "q": "Consider the following differences between a Select Committee and a Joint Committee on Bills: 1. A Select Committee consists of members from one House only, whereas a Joint Committee consists of members from both Houses. 2. Both are ad-hoc committees constituted for a specific bill and cease to exist after submitting their report. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-041",
+      "q": "When a bill is referred to a Joint Committee, what is the usual ratio of members from the Lok Sabha to the Rajya Sabha?",
+      "options": {
+        "A": "Equal representation (1:1)",
+        "B": "2:1 ratio (Two members from LS for every one member from RS)",
+        "C": "3:1 ratio",
+        "D": "It depends entirely on the Speaker's discretion with no fixed ratio"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-042",
+      "q": "Under the Rules of Procedure, the Speaker has the power to issue directions to the Chairman of any parliamentary committee regarding the organization of its work. If any doubt arises on a point of procedure in a committee, whose decision is final?",
+      "options": {
+        "A": "The Chairman of the Committee",
+        "B": "The Speaker of the Lok Sabha",
+        "C": "The Minister of Parliamentary Affairs",
+        "D": "A vote among the committee members"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-043",
+      "q": "Which of the following Parliamentary Committees has the 'Comptroller and Auditor General of India' (CAG) explicitly described as its 'friend, philosopher, and guide'?",
+      "options": {
+        "A": "Estimates Committee",
+        "B": "Public Accounts Committee",
+        "C": "Committee on Public Undertakings",
+        "D": "Both B and C"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-044",
+      "q": "Which of the following is true about the Departmentally Related Standing Committees (DRSCs) introduced in 1993?",
+      "options": {
+        "A": "They replaced the Financial Committees (PAC, Estimates, CoPU).",
+        "B": "They were established primarily to secure more accountability of the Executive to the Parliament, particularly financial accountability.",
+        "C": "Their recommendations are binding on the concerned Ministries.",
+        "D": "They consist entirely of experts nominated from outside the Parliament."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-045",
+      "q": "Consider the following statements regarding the Railway Convention Committee: 1. It is an ad-hoc committee. 2. It is constituted from time to time to review the rate of dividend payable by the Railway undertaking to general revenues. 3. With the merger of the Railway Budget with the General Budget in 2017, the traditional role of this committee has become redundant. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-046",
+      "q": "The Consultative Committees attached to various ministries are NOT parliamentary committees because:",
+      "options": {
+        "A": "They do not consist of MPs.",
+        "B": "They are chaired by the Minister in charge, not appointed by the Presiding Officer.",
+        "C": "They are formed by the President of India.",
+        "D": "They only exist during the Budget Session."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-047",
+      "q": "Who constitutes the Consultative Committees attached to various ministries?",
+      "options": {
+        "A": "The Speaker of the Lok Sabha",
+        "B": "The Ministry of Parliamentary Affairs",
+        "C": "The President of India",
+        "D": "The Cabinet Secretary"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-048",
+      "q": "Which of the following committees functions as an umbrella body overseeing the facilities for MPs regarding salary, allowances, and pensions?",
+      "options": {
+        "A": "Joint Committee on Salaries and Allowances of Members of Parliament",
+        "B": "House Committee",
+        "C": "General Purposes Committee",
+        "D": "Committee on Offices of Profit"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-049",
+      "q": "The Joint Committee on Salaries and Allowances of Members of Parliament was constituted under the Salary, Allowances and Pension of Members of Parliament Act, 1954. It consists of:",
+      "options": {
+        "A": "15 members (10 LS, 5 RS)",
+        "B": "22 members (15 LS, 7 RS)",
+        "C": "30 members (20 LS, 10 RS)",
+        "D": "10 members (5 LS, 5 RS)"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-050",
+      "q": "Regarding the quorum to constitute a sitting of a Parliamentary Committee, the general rule is that the quorum shall be:",
+      "options": {
+        "A": "One-tenth of the total number of members of the committee",
+        "B": "One-third of the total number of members of the committee",
+        "C": "Half of the total number of members of the committee",
+        "D": "Fixed arbitrarily by the Chairman"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-051",
+      "q": "Consider the following statements regarding the sittings of a Parliamentary Committee: 1. Sittings of a committee are generally held in private (in camera). 2. Strangers are generally not allowed to be present during the sittings. 3. Verbatim records of the proceedings are kept and made available to the general public immediately. Which of the statements given above is/are INCORRECT?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "3 only",
+        "C": "2 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-052",
+      "q": "A member of a parliamentary committee may be discharged from the committee by the Speaker/Chairman if:",
+      "options": {
+        "A": "He misses one sitting of the committee.",
+        "B": "He is absent from two or more consecutive sittings of the committee without the permission of the Chairman.",
+        "C": "He belongs to the opposition party.",
+        "D": "He opposes the majority view in the committee's draft report."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-053",
+      "q": "Which of the following DRSCs falls under the jurisdiction of the Rajya Sabha?",
+      "options": {
+        "A": "Committee on Agriculture",
+        "B": "Committee on Home Affairs",
+        "C": "Committee on Finance",
+        "D": "Committee on Defence"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-054",
+      "q": "Which of the following DRSCs falls under the jurisdiction of the Lok Sabha?",
+      "options": {
+        "A": "Committee on Commerce",
+        "B": "Committee on Human Resource Development",
+        "C": "Committee on External Affairs",
+        "D": "Committee on Transport, Tourism and Culture"
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-055",
+      "q": "Consider the following regarding the Estimates Committee: 1. It examines whether the money is well laid out within the limits of the policy implied in the estimates. 2. It can suggest alternative policies. 3. It demands that its approval be taken before any expenditure is incurred. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-056",
+      "q": "With reference to the PAC and Estimates Committee, consider the following: 1. Both are elected by single transferable vote. 2. Both consist only of members from the Lok Sabha. 3. Both scrutinize financial transactions of the government. Which of the above is/are correct?",
+      "options": {
+        "A": "1 and 3 only",
+        "B": "2 and 3 only",
+        "C": "1 and 2 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-057",
+      "q": "Which of the following bodies is NOT scrutinized by the Committee on Public Undertakings?",
+      "options": {
+        "A": "Food Corporation of India",
+        "B": "Damodar Valley Corporation",
+        "C": "Life Insurance Corporation",
+        "D": "Department of Posts"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-058",
+      "q": "Consider the following statements regarding 'Ad-hoc Committees': 1. They are constituted for a specific purpose and cease to exist when they finish the task assigned to them. 2. Inquiry Committees and Advisory Committees are the two main categories of Ad-hoc Committees. 3. The Joint Parliamentary Committee (JPC) on the Bofors contract was a standing committee. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-059",
+      "q": "Who decides whether an MP has breached the Code of Conduct and forwards the matter to the Ethics Committee?",
+      "options": {
+        "A": "The President of India",
+        "B": "The Election Commission",
+        "C": "The Presiding Officer of the House",
+        "D": "The Supreme Court"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-060",
+      "q": "Which of the following is true regarding a Joint Parliamentary Committee (JPC)?",
+      "options": {
+        "A": "It is a permanent standing committee with 30 members.",
+        "B": "It can only be formed to investigate financial scams.",
+        "C": "Its recommendations are completely binding on the government.",
+        "D": "It is an ad-hoc committee formed by a motion passed in one House and agreed to by the other."
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-061",
+      "q": "In the case of the Departmentally Related Standing Committees, what happens to Bills that are referred to them?",
+      "options": {
+        "A": "The Bills are stalled until the committee submits a unanimous report.",
+        "B": "The committee cannot propose any amendments to the Bills; it can only reject or accept them.",
+        "C": "The committee considers the general principles and clauses of the Bills and submits a report, but the report is persuasive, not binding.",
+        "D": "The Bills are sent directly to the President for assent after the committee approves them."
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-062",
+      "q": "Which parliamentary committee has the power to examine whether the Government has laid down adequate safeguards to check corruption in Public Undertakings?",
+      "options": {
+        "A": "Estimates Committee",
+        "B": "Committee on Public Undertakings",
+        "C": "Public Accounts Committee",
+        "D": "Central Vigilance Commission"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "parl-com-063",
+      "q": "Regarding the Committee on Papers Laid on the Table, consider the following: 1. It examines all papers laid on the table of the House by Ministers to see whether they comply with provisions of the Constitution or the relevant Act. 2. It was constituted in 1975. 3. The Lok Sabha committee has 15 members and the Rajya Sabha committee has 10 members. Which of the above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "parl-com-064",
+      "q": "If any question arises as to whether a matter falls within the purview of the Estimates Committee, the Public Accounts Committee, or the Committee on Public Undertakings, the final decision is taken by:",
+      "options": {
+        "A": "The Prime Minister",
+        "B": "The Speaker of the Lok Sabha",
+        "C": "The Chairman of the Rajya Sabha",
+        "D": "The President of India"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "parl-com-065",
+      "q": "Consider the following about the term of members in the three major Financial Committees (PAC, Estimates, CoPU): 1. The term of office is strictly one year. 2. A member who is appointed as a Minister ceases to be a member of the committee from the date of such appointment. 3. Retiring members are eligible for re-election. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    }
+  ]
+}

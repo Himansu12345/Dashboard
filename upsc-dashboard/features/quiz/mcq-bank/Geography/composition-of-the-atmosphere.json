@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Composition of the Atmosphere",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-composition-of-the-atmosphere-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

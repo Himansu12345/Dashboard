@@ -1,0 +1,56 @@
+{
+  "subject": "Polity",
+  "topic": "Financial Emergency – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "fin-emg-final-001",
+      "q": "Consider the following statements regarding the duration and approval of a Financial Emergency under Article 360: 1. A proclamation of Financial Emergency must be approved by both Houses of Parliament within two months from the date of its issue. 2. Once approved by Parliament, it continues for a maximum period of three years, subject to renewal every six months. 3. A resolution approving the proclamation requires a special majority of either House of Parliament. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-emg-final-002",
+      "q": "Consider the following statements regarding the impact of a Financial Emergency on salaries and Fundamental Rights: 1. The President can direct the reduction of salaries and allowances of all or any class of persons serving the Union, excluding the Judges of the Supreme Court and High Courts. 2. The executive authority of the Union extends to directing any State to reduce the salaries and allowances of all or any class of persons serving in connection with the affairs of the State. 3. The President can unilaterally suspend the Fundamental Rights guaranteed under Article 19 to maintain economic stability. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-emg-final-003",
+      "q": "Consider the following statements regarding the legislative and executive impacts of a Financial Emergency on States: 1. The President can require that all Money Bills passed by the State Legislature be reserved for his consideration. 2. Financial Bills passed by the State Legislature can also be mandated to be reserved for the President's consideration. 3. The Union Parliament assumes the constitutional power to directly pass the State Budget on behalf of the State Legislature. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-emg-final-004",
+      "q": "Consider the following statements regarding the revocation and judicial review of a Financial Emergency: 1. The satisfaction of the President declaring a Financial Emergency is absolutely immune from judicial review under any circumstances. 2. A proclamation of Financial Emergency can be revoked by the President at any time by a subsequent proclamation. 3. Such a proclamation of revocation requires the mandatory approval of the Lok Sabha within thirty days. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-emg-final-005",
+      "q": "Consider the following statements comparing a Financial Emergency (Article 360) with a National Emergency (Article 352): 1. Unlike President’s Rule, there is no maximum period prescribed for the operation of a Financial Emergency. 2. Unlike a National Emergency, repeated parliamentary approval is not required for the continuation of a Financial Emergency. 3. To discontinue a Financial Emergency, the Lok Sabha must pass a resolution disapproving its continuation by a simple majority. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "fin-emg-final-006",
+      "q": "If the Lok Sabha is dissolved at the time a Financial Emergency is proclaimed, consider the following constitutional mechanics: 1. The Rajya Sabha must approve the proclamation within the initial two-month period. 2. After reconstitution, the newly elected Lok Sabha must approve the proclamation within 30 days of its first sitting. 3. If the newly reconstituted Lok Sabha fails to approve it within these 30 days, the Financial Emergency immediately ceases to operate. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "fin-emg-final-007",
+      "q": "Consider the following statements regarding the territorial extent and historic application of Financial Emergency in India: 1. The President can declare a Financial Emergency over the entire territory of India or any specific part of it. 2. During a Financial Emergency, the executive authority of the Union extends to giving directions to a State to observe specified canons of financial propriety. 3. A Financial Emergency was declared for the first and only time in India to manage the severe 1991 Balance of Payments crisis. How many of the above statements are correct?",
+      "options": { "A": "Only one", "B": "Only two", "C": "All three", "D": "None" },
+      "answer": "B",
+      "difficulty": "easy"
+    }
+  ]
+}

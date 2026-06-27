@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Megadiverse Countries",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-megadiverse-countries-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

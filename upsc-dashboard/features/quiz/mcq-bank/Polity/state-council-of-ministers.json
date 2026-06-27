@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "State Council of Ministers",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-state-council-of-ministers-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,427 @@
+{
+  "subject": "Polity",
+  "topic": "Administration of Tribal Areas – Sixth Schedule – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "tribal-001",
+      "q": "The Sixth Schedule of the Constitution makes special provisions for the administration of tribal areas in which of the following states?",
+      "options": {
+        "A": "Assam, Manipur, Tripura, and Meghalaya",
+        "B": "Assam, Meghalaya, Tripura, and Mizoram",
+        "C": "Meghalaya, Mizoram, Manipur, and Nagaland",
+        "D": "Assam, Nagaland, Tripura, and Mizoram"
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-002",
+      "q": "Consider the following regarding the Autonomous District Councils (ADCs) under the Sixth Schedule: 1. They consist of 30 members. 2. 4 members are nominated by the Governor, and 26 are elected on the basis of adult franchise. 3. The elected members hold office for a term of 6 years. Which of the statements given above is/are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-003",
+      "q": "Under the Sixth Schedule, who has the power to organize and reorganize the autonomous districts?",
+      "options": {
+        "A": "The President of India",
+        "B": "The Parliament",
+        "C": "The Governor",
+        "D": "The Chief Minister of the state"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-004",
+      "q": "Consider the legislative powers of the ADCs under the Sixth Schedule: 1. They can make laws on land, forests, and canal water. 2. They can make laws on village administration and inheritance of property. 3. All laws made by the ADCs require the assent of the Governor. Which of the statements given above are correct?",
+      "options": {
+        "A": "1 and 2 only",
+        "B": "2 and 3 only",
+        "C": "1 and 3 only",
+        "D": "1, 2 and 3"
+      },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-005",
+      "q": "Which of the following is true regarding the applicability of Central and State laws in the autonomous districts under the Sixth Schedule?",
+      "options": {
+        "A": "They apply automatically unless rejected by the ADCs.",
+        "B": "They do not apply unless the Governor directs so, with or without specified exceptions or modifications.",
+        "C": "They apply only if the President ratifies them.",
+        "D": "They apply to all matters except marriage and inheritance."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-006",
+      "q": "The District and Regional Councils under the Sixth Schedule possess which of the following judicial powers?",
+      "options": {
+        "A": "They can try suits and cases between tribes within the district.",
+        "B": "They can hear appeals from the High Court.",
+        "C": "They can impose capital punishment.",
+        "D": "They have no judicial powers."
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-007",
+      "q": "Consider the following statements regarding the Governor's role under the Sixth Schedule: 1. The Governor acts in his discretion in matters related to the Sixth Schedule. 2. The Governor is bound by the advice of the Council of Ministers in all Sixth Schedule matters. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-008",
+      "q": "The Sixth Schedule is linked to which article of the Constitution regarding the financial assistance to these states by the Union?",
+      "options": {
+        "A": "Article 244(1)",
+        "B": "Article 275(1)",
+        "C": "Article 280",
+        "D": "Article 339"
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-009",
+      "q": "Can the District Councils under the Sixth Schedule impose taxes?",
+      "options": {
+        "A": "No, they only collect land revenue.",
+        "B": "Yes, they can impose certain specified taxes such as taxes on professions, trades, animals, and vehicles.",
+        "C": "Yes, they can impose any tax that the State Legislature can.",
+        "D": "No, they are entirely funded by the Union Government."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-010",
+      "q": "Which of the following is NOT an exception to the legislative powers of the ADCs under the Sixth Schedule?",
+      "options": {
+        "A": "Registration of births and deaths",
+        "B": "Primary education",
+        "C": "Forestry management",
+        "D": "Foreign policy"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-011",
+      "q": "What happens if there are different tribes in an autonomous district?",
+      "options": {
+        "A": "The district is abolished.",
+        "B": "The Governor can divide the area into autonomous regions, each having a Regional Council.",
+        "C": "The President appoints a separate administrator for each tribe.",
+        "D": "Only the largest tribe gets the ADC power."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-012",
+      "q": "The Fifth Schedule deals with Scheduled Areas in states other than AMTM. Who has the power to declare an area as 'Scheduled'?",
+      "options": {
+        "A": "The Governor of the state",
+        "B": "The Parliament",
+        "C": "The President of India",
+        "D": "The Ministry of Tribal Affairs"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-013",
+      "q": "Consider the comparison between the Fifth and Sixth Schedules: 1. Fifth Schedule provides for Tribal Advisory Councils, while Sixth Schedule provides for Autonomous District Councils. 2. Fifth Schedule is applicable to AMTM, whereas Sixth Schedule is not. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-014",
+      "q": "The President can appoint a Commission to report on the administration of Scheduled Areas at any time. This provision is under which Article?",
+      "options": {
+        "A": "Article 244",
+        "B": "Article 339",
+        "C": "Article 371",
+        "D": "Article 340"
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-015",
+      "q": "Under the Sixth Schedule, if a dispute arises between the District Council and the State Legislature, what is the process?",
+      "options": {
+        "A": "The High Court decides.",
+        "B": "The Governor’s decision is final.",
+        "C": "The President decides.",
+        "D": "It goes to a Joint Committee of Parliament."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-016",
+      "q": "Can the Governor suspend any act or resolution of the District/Regional Council?",
+      "options": {
+        "A": "No, they have no such power.",
+        "B": "Yes, if the act/resolution is likely to endanger the safety of India or is prejudicial to public order.",
+        "C": "Only if the Parliament directs.",
+        "D": "Yes, only with the approval of the High Court."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-017",
+      "q": "Consider the following statements regarding the Sixth Schedule: 1. It provides for the administration of tribal areas within the states of Assam, Meghalaya, Tripura, and Mizoram. 2. The Sixth Schedule areas are also known as 'Tribal Areas' under Article 244(2). Which of the above are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-018",
+      "q": "Which state's tribal areas are NOT governed by the Sixth Schedule?",
+      "options": {
+        "A": "Assam",
+        "B": "Meghalaya",
+        "C": "Nagaland",
+        "D": "Mizoram"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-019",
+      "q": "The Governor's regulations for the Sixth Schedule areas:",
+      "options": {
+        "A": "Must be passed by the State Legislature.",
+        "B": "Must be passed by the Parliament.",
+        "C": "Are independent of the State Legislature's approval.",
+        "D": "Are null and void if they contradict tribal customs."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-020",
+      "q": "Under the Sixth Schedule, the 'Village Council' or 'Village Court' handles:",
+      "options": {
+        "A": "Only civil cases.",
+        "B": "Only criminal cases.",
+        "C": "Both civil and criminal cases as specified by the Governor.",
+        "D": "Nothing; these are handled by the State Police."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-021",
+      "q": "Consider the following statements: 1. The Fifth Schedule applies to tribal areas in states other than the 4 AMTM states. 2. The Sixth Schedule creates autonomous bodies with legislative and judicial powers. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-022",
+      "q": "Who is the 'head' of an autonomous district under the Sixth Schedule?",
+      "options": {
+        "A": "District Commissioner",
+        "B": "The Governor",
+        "C": "The District Council",
+        "D": "The President"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-023",
+      "q": "Can the Governor nominate members to the ADC?",
+      "options": {
+        "A": "No, all are elected.",
+        "B": "Yes, up to 4 members.",
+        "C": "Yes, up to 10 members.",
+        "D": "Yes, all 30 members."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-024",
+      "q": "Which of the following is correct about the funds of the District Council?",
+      "options": {
+        "A": "It is a part of the Consolidated Fund of the State.",
+        "B": "It is a part of the Consolidated Fund of India.",
+        "C": "It is a separate 'District Fund'.",
+        "D": "It is a part of the Contingency Fund of the State."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-025",
+      "q": "Consider the following regarding the ADC elections: 1. Elections are held on the basis of adult franchise. 2. They are conducted by the Election Commission of India. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-026",
+      "q": "The Sixth Schedule was added to the Constitution to:",
+      "options": {
+        "A": "Integrate tribal areas into the mainstream politics.",
+        "B": "Provide autonomy to tribal areas to protect their culture and customs.",
+        "C": "Abolish the tribal way of life.",
+        "D": "Centralize the administration of tribal areas."
+      },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-027",
+      "q": "If the State Legislature passes a law regarding a subject on which the ADC has also made a law, which prevails?",
+      "options": {
+        "A": "State Law prevails.",
+        "B": "ADC Law prevails within the district.",
+        "C": "Parliament decides.",
+        "D": "The Supreme Court decides."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-028",
+      "q": "Can the Governor dissolve a District Council?",
+      "options": {
+        "A": "No, it's a constitutional body.",
+        "B": "Yes, on the recommendation of the State Legislature.",
+        "C": "Yes, if he is satisfied that the administration cannot be carried out in accordance with the provisions of the Schedule.",
+        "D": "Yes, only with the permission of the President."
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-029",
+      "q": "Which of the following is the 'Tribal Area' in Meghalaya under the Sixth Schedule?",
+      "options": {
+        "A": "Khasi Hills District",
+        "B": "Jaintia Hills District",
+        "C": "Garo Hills District",
+        "D": "All the above"
+      },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-030",
+      "q": "Regarding the Sixth Schedule, consider the following statements: 1. The Governor can modify the boundaries of the autonomous districts. 2. The Governor can increase or decrease the number of members of the District Council. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-031",
+      "q": "Can a member of the ADC be disqualified?",
+      "options": {
+        "A": "No, they hold office for life.",
+        "B": "Yes, under the law made by the State Legislature.",
+        "C": "Yes, as specified by the Governor.",
+        "D": "Only by the High Court."
+      },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-032",
+      "q": "What is the role of the President in the Sixth Schedule areas?",
+      "options": {
+        "A": "He exercises all the powers of the Governor.",
+        "B": "He can appoint a Commission to report on the administration.",
+        "C": "He manages the District Councils.",
+        "D": "He has no role."
+      },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "tribal-033",
+      "q": "Which of the following matters is NOT under the jurisdiction of the ADC's legislative power?",
+      "options": {
+        "A": "Forests other than reserved forests",
+        "B": "Shifting cultivation",
+        "C": "Banking and Currency",
+        "D": "Village administration"
+      },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "tribal-034",
+      "q": "Are the laws made by the ADCs applicable to non-tribals living in the area?",
+      "options": {
+        "A": "No, they only apply to tribals.",
+        "B": "Yes, they apply to all residents unless exempted by the Governor.",
+        "C": "Only if the State Legislature passes them.",
+        "D": "Only if the Parliament passes them."
+      },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "tribal-035",
+      "q": "Consider: 1. The Sixth Schedule areas enjoy more autonomy than the Fifth Schedule areas. 2. The Fifth Schedule applies to larger tribal populations spread across the country. Which of the above is/are correct?",
+      "options": {
+        "A": "1 only",
+        "B": "2 only",
+        "C": "Both 1 and 2",
+        "D": "Neither 1 nor 2"
+      },
+      "answer": "C",
+      "difficulty": "mid"
+    }
+  ]
+}

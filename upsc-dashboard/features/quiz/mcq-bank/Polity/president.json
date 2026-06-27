@@ -1,0 +1,567 @@
+{
+  "subject": "Polity",
+  "topic": "President – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "pres-final-001",
+      "q": "Consider the following statements regarding the electoral college for the President: 1. It includes elected members of both Houses of Parliament. 2. It includes elected members of State Legislative Assemblies and Union Territories with Legislative Assemblies. 3. Nominated members of Parliament and State Legislatures are not part of it. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-002",
+      "q": "The election of the President is held through proportional representation by means of a single transferable vote. Which of the following is/are features of this system? 1. It ensures representation of minorities. 2. The voter marks preferences among candidates. 3. A candidate must secure a fixed quota of first-preference votes to win.",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-003",
+      "q": "The value of the vote of an MLA in a Presidential election is calculated based on:",
+      "options": { "A": "Population of the state as per the 1971 census divided by the number of elected MLAs, further divided by 1000", "B": "Population of the state as per the latest census divided by the number of MLAs", "C": "Area of the state and number of Lok Sabha seats", "D": "Equal for all MLAs across India" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-004",
+      "q": "Any dispute regarding the election of the President is decided by:",
+      "options": { "A": "Supreme Court, whose decision is final", "B": "Election Commission of India", "C": "Parliament", "D": "Delhi High Court" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-005",
+      "q": "Which of the following qualifications is NOT required for election as President?",
+      "options": { "A": "Must be a citizen of India", "B": "Must have completed 35 years of age", "C": "Must be qualified for election as a member of the Lok Sabha", "D": "Must not hold any office of profit under the Government of India or any State" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-006",
+      "q": "The President takes an oath to preserve, protect and defend the Constitution and the law. The oath is administered by:",
+      "options": { "A": "Chief Justice of India or in his absence, the senior‑most judge of the Supreme Court", "B": "Vice‑President", "C": "Speaker of Lok Sabha", "D": "Prime Minister" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-007",
+      "q": "The President can resign from office by writing to the:",
+      "options": { "A": "Prime Minister", "B": "Vice‑President", "C": "Chief Justice of India", "D": "Speaker of Lok Sabha" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-008",
+      "q": "Consider the following regarding the impeachment of the President: 1. The charge can be initiated in either House of Parliament. 2. A notice by at least one‑fourth of the total membership of the House is required. 3. The resolution must be passed by a majority of two‑thirds of the total membership of that House. 4. The other House investigates the charge. Which of the above are correct?",
+      "options": { "A": "1, 2 and 4 only", "B": "1, 3 and 4 only", "C": "2, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-009",
+      "q": "The President can be impeached only on the ground of:",
+      "options": { "A": "Violation of the Constitution", "B": "Proved misbehaviour", "C": "Incapacity", "D": "Both A and B" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-010",
+      "q": "In the event of a vacancy in the office of the President due to death, resignation or removal, the Vice‑President acts as President. A new President must be elected within:",
+      "options": { "A": "Six months", "B": "Three months", "C": "One year", "D": "Such period as determined by Parliament" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-011",
+      "q": "Who acted as President of India in the absence of both the President and the Vice‑President?",
+      "options": { "A": "Chief Justice of India M. Hidayatullah (in 1969)", "B": "Justice H.R. Khanna", "C": "Justice K. Subba Rao", "D": "Justice M.C. Mahajan" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-012",
+      "q": "The President exercises his executive powers on the aid and advice of the Council of Ministers. This provision was made explicit and binding by:",
+      "options": { "A": "42nd Amendment (Article 74)", "B": "44th Amendment", "C": "26th Amendment", "D": "1st Amendment" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-013",
+      "q": "Under Article 74(1), after the 44th Amendment, the President may require the Council of Ministers to reconsider its advice, but:",
+      "options": { "A": "He must act in accordance with the advice tendered after such reconsideration", "B": "He may reject the advice", "C": "He can refer the matter to the Supreme Court", "D": "He can dissolve the Lok Sabha" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-014",
+      "q": "The President's power to promulgate ordinances is under Article 123. Which of the following is/are correct? 1. It can be exercised only when both Houses are not in session. 2. The President must be satisfied that circumstances exist which render it necessary for him to take immediate action. 3. The ordinance has the same force and effect as an Act of Parliament.",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-015",
+      "q": "An ordinance must be laid before both Houses of Parliament. It ceases to operate at the expiration of:",
+      "options": { "A": "Six weeks from the reassembly of Parliament", "B": "Three months from the date of promulgation", "C": "Six months", "D": "One year" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-016",
+      "q": "The President's satisfaction to promulgate an ordinance can be challenged in a court on the ground of:",
+      "options": { "A": "Malafide or colourable exercise of power", "B": "Non‑existence of circumstances necessitating immediate action", "C": "Both A and B", "D": "It is immune from judicial review" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-017",
+      "q": "The power to grant pardons, reprieves, respites, or remissions of punishment is conferred on the President under Article 72. This power:",
+      "options": { "A": "Is exercised on the aid and advice of the Council of Ministers", "B": "Is a personal discretion of the President", "C": "Is limited to death sentences", "D": "Does not extend to court‑martial cases" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-018",
+      "q": "The President can grant pardon in all cases where the punishment is by a court‑martial. The Governor does not have this power. This is under:",
+      "options": { "A": "Article 72(1)(a)", "B": "Article 72(1)(c)", "C": "Article 161", "D": "Article 72(1)(d)" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-019",
+      "q": "The Supreme Court in Epuru Sudhakar vs. Union of India (2006) held that the President's clemency power is subject to judicial review on grounds of:",
+      "options": { "A": "Malafide, irrelevant considerations, arbitrariness, and non‑application of mind", "B": "Violation of Article 14 only", "C": "Only malafide", "D": "None; it is beyond judicial review" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-020",
+      "q": "The President can issue a proclamation of National Emergency under Article 352 on the grounds of:",
+      "options": { "A": "War, external aggression, or armed rebellion", "B": "Internal disturbance", "C": "Financial instability", "D": "War and external aggression only" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-021",
+      "q": "The 44th Amendment made which important change regarding National Emergency?",
+      "options": { "A": "Replaced 'internal disturbance' with 'armed rebellion'", "B": "Made the President's satisfaction beyond judicial review", "C": "Allowed the Prime Minister alone to advise the President", "D": "Removed the requirement of parliamentary approval" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-022",
+      "q": "A proclamation of National Emergency must be approved by both Houses of Parliament within:",
+      "options": { "A": "One month from the date of its issue", "B": "Two months", "C": "Six months", "D": "Immediately" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-023",
+      "q": "During a National Emergency, the President can modify the distribution of revenues between the Union and the States under:",
+      "options": { "A": "Article 354", "B": "Article 353", "C": "Article 355", "D": "Article 358" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-024",
+      "q": "Article 358 automatically suspends the rights under Article 19 during a National Emergency. After the 44th Amendment, this suspension occurs only when the Emergency is declared on grounds of:",
+      "options": { "A": "War or external aggression", "B": "Armed rebellion", "C": "Both A and B", "D": "Internal disturbance" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-025",
+      "q": "Under Article 359, the President can suspend the right to move any court for enforcement of Fundamental Rights during a National Emergency. After the 44th Amendment, this suspension cannot extend to:",
+      "options": { "A": "Articles 20 and 21", "B": "Article 14", "C": "Article 19", "D": "Articles 25 and 26" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-026",
+      "q": "President's Rule in a state under Article 356 can be imposed on which of the following grounds? 1. Failure of constitutional machinery in the state. 2. State not complying with directions from the Centre under Article 365. 3. Threat to the financial stability of the state.",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-027",
+      "q": "A proclamation under Article 356 must be approved by Parliament within:",
+      "options": { "A": "Two months", "B": "One month", "C": "Six months", "D": "Three months" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-028",
+      "q": "The maximum period for which President's Rule can remain in force with parliamentary approval is:",
+      "options": { "A": "Three years (subject to conditions like National Emergency and EC certification)", "B": "Two years", "C": "One year", "D": "Six months" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-029",
+      "q": "The Supreme Court in S.R. Bommai vs. Union of India (1994) held that the proclamation under Article 356 is:",
+      "options": { "A": "Subject to judicial review on grounds of malafide, irrelevant considerations, or if based on no material", "B": "Beyond judicial review", "C": "Valid only if the Governor recommends it", "D": "A purely discretionary power of the President" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-030",
+      "q": "Financial Emergency under Article 360 can be proclaimed if the President is satisfied that:",
+      "options": { "A": "The financial stability or credit of India or any part thereof is threatened", "B": "The government cannot pay its debts", "C": "There is a fiscal deficit exceeding 10% of GDP", "D": "The rupee has depreciated sharply" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-031",
+      "q": "How many times has a Financial Emergency been proclaimed in India?",
+      "options": { "A": "Never", "B": "Once", "C": "Twice", "D": "Three times" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-032",
+      "q": "The President can issue a Financial Emergency. Which of the following is a consequence?",
+      "options": { "A": "Reduction of salaries and allowances of all or any class of persons serving the Union, including judges", "B": "Dissolution of the Lok Sabha", "C": "Suspension of Fundamental Rights", "D": "Automatic dismissal of state governments" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-033",
+      "q": "The President is a part of the Parliament along with the two Houses. This is stated in:",
+      "options": { "A": "Article 79", "B": "Article 74", "C": "Article 52", "D": "Article 123" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-034",
+      "q": "The President can summon, prorogue, and dissolve the Lok Sabha. He can also summon:",
+      "options": { "A": "A joint sitting of both Houses in case of a deadlock on a bill (Article 108)", "B": "The Rajya Sabha alone", "C": "Only the Lok Sabha", "D": "State legislative assemblies" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-035",
+      "q": "The President addresses both Houses of Parliament assembled together at the commencement of the first session after each general election and at the:",
+      "options": { "A": "Commencement of the first session of each year", "B": "End of each year", "C": "Beginning of every session", "D": "End of the budget session" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-036",
+      "q": "The President's address to Parliament outlines:",
+      "options": { "A": "The policy and legislative agenda of the government", "B": "His personal views", "C": "Only foreign policy", "D": "The judicial appointments" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-037",
+      "q": "The President nominates 12 members to the Rajya Sabha. The criteria for nomination are special knowledge or practical experience in:",
+      "options": { "A": "Literature, science, art, and social service", "B": "Politics, law, and economics", "C": "Sports and cinema", "D": "Business and administration" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-038",
+      "q": "The provision for nomination of two Anglo‑Indian members to the Lok Sabha was:",
+      "options": { "A": "Abolished by the 104th Amendment, 2020", "B": "Retained indefinitely", "C": "Extended until 2030", "D": "Abolished by the 100th Amendment" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-039",
+      "q": "When a bill is presented to the President, he can:",
+      "options": { "A": "Give assent, withhold assent, or return the bill (if not a money bill) for reconsideration", "B": "Only give assent", "C": "Amend the bill and then give assent", "D": "Only withhold assent" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-040",
+      "q": "The President's 'suspensive veto' refers to his power to:",
+      "options": { "A": "Return a non‑money bill for reconsideration; if passed again, he must give assent", "B": "Permanently reject a bill", "C": "Delay assent indefinitely", "D": "Amend the bill" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-041",
+      "q": "The President can exercise a 'pocket veto' because:",
+      "options": { "A": "The Constitution does not prescribe any time limit for the President to give or withhold assent", "B": "He has been given explicit power to do so", "C": "Parliament can override it", "D": "The Prime Minister advises it" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-042",
+      "q": "The President cannot return which of the following bills for reconsideration?",
+      "options": { "A": "Money Bill and Constitutional Amendment Bill", "B": "Ordinary Bill", "C": "Private Member's Bill", "D": "Any bill related to states" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-043",
+      "q": "The President's prior recommendation is required for the introduction of which of the following? 1. Money Bill. 2. Bill for formation of new states or alteration of boundaries (Article 3). 3. Bill for amendment of the Constitution.",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-044",
+      "q": "The President causes the annual financial statement (Union Budget) to be laid before Parliament under:",
+      "options": { "A": "Article 112", "B": "Article 110", "C": "Article 266", "D": "Article 265" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-045",
+      "q": "The President can authorise the withdrawal of money from the Consolidated Fund of India after the expenditure has been authorised by Parliament. This is under:",
+      "options": { "A": "Article 114", "B": "Article 115", "C": "Article 116", "D": "Article 266" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-046",
+      "q": "The President constitutes a Finance Commission every five years under:",
+      "options": { "A": "Article 280", "B": "Article 270", "C": "Article 275", "D": "Article 312" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-047",
+      "q": "The President can appoint the Prime Minister. In doing so, he normally follows the convention that:",
+      "options": { "A": "The leader of the party or coalition commanding a majority in the Lok Sabha is appointed", "B": "He can appoint anyone", "C": "The outgoing Prime Minister recommends", "D": "The Speaker decides" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-048",
+      "q": "The President can appoint a person as Prime Minister who is not a member of either House, provided he becomes a member within:",
+      "options": { "A": "Six months", "B": "One year", "C": "Three months", "D": "Six weeks" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-049",
+      "q": "The President's power to dissolve the Lok Sabha is:",
+      "options": { "A": "Exercised on the advice of the Prime Minister; he cannot refuse if the Prime Minister enjoys majority support", "B": "Absolute and discretionary", "C": "Subject to the approval of the Rajya Sabha", "D": "Available only during an emergency" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-050",
+      "q": "The President appoints the Chief Election Commissioner, the Comptroller and Auditor General, and the Attorney General. These appointments are made:",
+      "options": { "A": "On the aid and advice of the Council of Ministers", "B": "At his own discretion", "C": "On the recommendation of the Supreme Court", "D": "On the advice of the Prime Minister alone" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-051",
+      "q": "The President is the supreme commander of the defence forces. This power is subject to:",
+      "options": { "A": "Regulation by law by Parliament", "B": "His personal discretion", "C": "The advice of the Chief of Defence Staff", "D": "No limitations" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-052",
+      "q": "The President can declare that any specified service in India should be a 'service in connection with the affairs of the Union' under:",
+      "options": { "A": "Article 312", "B": "Article 309", "C": "Article 310", "D": "Article 311" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-053",
+      "q": "The President can specify the castes, races, or tribes deemed to be Scheduled Castes or Scheduled Tribes. This power is under:",
+      "options": { "A": "Articles 341 and 342", "B": "Article 340", "C": "Article 338", "D": "Article 330" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-054",
+      "q": "The President can appoint a commission to investigate the conditions of socially and educationally backward classes under:",
+      "options": { "A": "Article 340", "B": "Article 338", "C": "Article 339", "D": "Article 341" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-055",
+      "q": "The President can make regulations for the peace, progress, and good government of certain Union Territories under:",
+      "options": { "A": "Article 240", "B": "Article 239", "C": "Article 123", "D": "Article 356" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-056",
+      "q": "The President can grant pardon in all cases where the sentence is a sentence of death. This is under:",
+      "options": { "A": "Article 72(1)(c)", "B": "Article 72(1)(a)", "C": "Article 72(1)(b)", "D": "Article 72(1)(d)" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-057",
+      "q": "The President's power to grant pardon, etc., under Article 72 is an act of grace and cannot be claimed as a matter of right. This was held in:",
+      "options": { "A": "Kehar Singh vs. Union of India", "B": "Epuru Sudhakar vs. Union of India", "C": "Maru Ram vs. Union of India", "D": "All of the above" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-058",
+      "q": "The President can seek the opinion of the Supreme Court on any question of law or fact of public importance under Article 143. The advisory opinion is:",
+      "options": { "A": "Not binding on the President", "B": "Binding on all courts", "C": "Equivalent to a decree", "D": "Binding on the President" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-059",
+      "q": "The President's power to declare an area as a 'Scheduled Area' is under:",
+      "options": { "A": "Fifth Schedule", "B": "Sixth Schedule", "C": "Article 356", "D": "Article 244A" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-060",
+      "q": "The President is immune from criminal proceedings during his term of office. This immunity is under:",
+      "options": { "A": "Article 361", "B": "Article 59", "C": "Article 72", "D": "Article 74" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-061",
+      "q": "The President's conduct can be reviewed during:",
+      "options": { "A": "Impeachment proceedings and election petitions", "B": "Only in the Supreme Court", "C": "Only by Parliament", "D": "By any High Court" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-062",
+      "q": "The President can issue directions to the states in matters of Union executive power under:",
+      "options": { "A": "Article 257", "B": "Article 256", "C": "Article 355", "D": "Article 258" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-063",
+      "q": "The President can establish an Inter‑State Council under Article 263 to promote co‑operative federalism. This power is exercised:",
+      "options": { "A": "On the aid and advice of the Council of Ministers", "B": "At his own discretion", "C": "Only with the consent of states", "D": "On the recommendation of the Supreme Court" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-064",
+      "q": "The President used the pocket veto for the first time in the Indian Post Office (Amendment) Bill, 1986, during the presidency of:",
+      "options": { "A": "Giani Zail Singh", "B": "R. Venkataraman", "C": "Shankar Dayal Sharma", "D": "K.R. Narayanan" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-065",
+      "q": "The President can recommend that a bill reserved by a Governor for his consideration be laid before Parliament. This is under:",
+      "options": { "A": "Article 201", "B": "Article 200", "C": "Article 111", "D": "Article 123" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-066",
+      "q": "The President can withdraw an ordinance at any time. This power is:",
+      "options": { "A": "Implicit in Article 123", "B": "Explicit in Article 124", "C": "Not available", "D": "Requires Parliament's approval" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-067",
+      "q": "The President can promulgate ordinances on matters in the Union List and Concurrent List. During the operation of a National Emergency or President's Rule in a state, he can also legislate on matters in the State List. This is because:",
+      "options": { "A": "The Union's legislative power extends to State List matters during such emergencies", "B": "He has special powers under Article 250", "C": "The Governor invites him to do so", "D": "The Supreme Court authorises it" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-068",
+      "q": "The President cannot promulgate an ordinance if:",
+      "options": { "A": "Both Houses of Parliament are in session", "B": "Only the Lok Sabha is dissolved", "C": "Only the Rajya Sabha is prorogued", "D": "The Prime Minister is not in office" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-069",
+      "q": "The President's ordinance‑making power is co‑extensive with the legislative power of Parliament. However, an ordinance:",
+      "options": { "A": "Cannot violate Fundamental Rights and can be challenged on the same grounds as an Act", "B": "Can override Fundamental Rights", "C": "Is immune from judicial review", "D": "Cannot be withdrawn" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-070",
+      "q": "The President can send messages to either House of Parliament regarding any bill or other matter. This power is under:",
+      "options": { "A": "Article 86(2)", "B": "Article 85", "C": "Article 87", "D": "Article 88" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-071",
+      "q": "The President can call for information regarding the administration of the affairs of the Union and proposals for legislation from the Prime Minister. This power is under:",
+      "options": { "A": "Article 78", "B": "Article 75", "C": "Article 74", "D": "Article 77" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-072",
+      "q": "The President allocates business of the Government of India among the ministers by making rules under:",
+      "options": { "A": "Article 77", "B": "Article 74", "C": "Article 75", "D": "Article 78" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-073",
+      "q": "The President can remove a judge of the Supreme Court only on the basis of an address passed by Parliament by a special majority after an investigation proving misbehaviour or incapacity. This is under:",
+      "options": { "A": "Article 124(4)", "B": "Article 217", "C": "Article 218", "D": "Article 61" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-074",
+      "q": "The President nominates members to the Rajya Sabha under Article 80(3). The number is 12. Which of the following fields is NOT explicitly mentioned for the nomination?",
+      "options": { "A": "Social service", "B": "Literature", "C": "Science", "D": "Sports" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "pres-final-075",
+      "q": "The President's power to grant pardon in cases of offences against state laws:",
+      "options": { "A": "Does not exist; that power lies with the Governor", "B": "Is co‑extensive with the Governor", "C": "Can be exercised only if the Governor recommends", "D": "Is absolute" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-076",
+      "q": "The President can make a proclamation of Financial Emergency under Article 360. This proclamation must be approved by Parliament within:",
+      "options": { "A": "Two months", "B": "One month", "C": "Three months", "D": "Six months" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-077",
+      "q": "The President can declare that the right to move any court for enforcement of Fundamental Rights (except Articles 20 and 21) may be suspended during a National Emergency under Article 359. This is subject to:",
+      "options": { "A": "The Presidential Order specifying the rights to be suspended", "B": "Automatic suspension", "C": "The approval of the Chief Justice of India", "D": "A joint session of Parliament" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-078",
+      "q": "The President can exercise the powers of a Governor in a Union Territory when it has a Lieutenant Governor. This is under:",
+      "options": { "A": "Article 239", "B": "Article 240", "C": "Article 239A", "D": "Article 239AA" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "pres-final-079",
+      "q": "The President's power to grant pardon includes the power to commute a death sentence to any lesser punishment. 'Commutation' means:",
+      "options": { "A": "Changing the nature of punishment (e.g., death to life imprisonment)", "B": "Reducing the period of sentence without changing its character", "C": "Temporarily suspending the sentence", "D": "Staying the execution" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "pres-final-080",
+      "q": "The President is elected for a term of five years. He is eligible for re‑election:",
+      "options": { "A": "Any number of times", "B": "Only once", "C": "Only twice", "D": "Thrice" },
+      "answer": "A",
+      "difficulty": "easy"
+    }
+  ]
+}

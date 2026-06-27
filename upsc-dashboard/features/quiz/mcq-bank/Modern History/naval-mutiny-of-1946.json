@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Naval Mutiny of 1946",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-naval-mutiny-of-1946-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

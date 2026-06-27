@@ -1,0 +1,18 @@
+{
+    "subject":  "Medieval History",
+    "topic":  "Arab Invasion of Sindh",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "medieval-history-arab-invasion-of-sindh-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

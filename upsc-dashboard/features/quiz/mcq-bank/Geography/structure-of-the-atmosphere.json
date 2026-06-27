@@ -1,0 +1,18 @@
+{
+    "subject":  "Geography",
+    "topic":  "Structure of the Atmosphere",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "geography-structure-of-the-atmosphere-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

@@ -1,0 +1,18 @@
+{
+    "subject":  "mapping",
+    "topic":  "Countries and Capitals (All UN Members)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "mapping-countries-and-capitals-all-un-members-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

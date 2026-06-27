@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "La Nina",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-la-nina-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

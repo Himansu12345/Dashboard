@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Wind Energy",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "environment-wind-energy-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

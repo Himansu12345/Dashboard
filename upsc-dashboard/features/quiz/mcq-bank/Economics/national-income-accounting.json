@@ -1,0 +1,18 @@
+{
+    "subject":  "Economics",
+    "topic":  "National Income Accounting",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "economics-national-income-accounting-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

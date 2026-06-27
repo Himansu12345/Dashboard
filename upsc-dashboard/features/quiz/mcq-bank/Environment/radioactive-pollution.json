@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Radioactive Pollution",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "environment-radioactive-pollution-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

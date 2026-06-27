@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "National Commission for Backward Classes",
+    "difficultyTag":  "M",
+    "mcqs":  [
+                 {
+                     "id":  "polity-national-commission-for-backward-classes-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

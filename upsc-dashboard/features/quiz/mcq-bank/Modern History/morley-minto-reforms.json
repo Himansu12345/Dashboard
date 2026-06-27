@@ -1,0 +1,18 @@
+{
+    "subject":  "Modern History",
+    "topic":  "Morley-Minto Reforms",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "modern-history-morley-minto-reforms-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

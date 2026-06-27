@@ -1,0 +1,18 @@
+{
+    "subject":  "Ancient History",
+    "topic":  "Parthians",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "ancient-history-parthians-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

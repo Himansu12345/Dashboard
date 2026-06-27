@@ -1,0 +1,707 @@
+{
+  "subject": "Polity",
+  "topic": "Historical Background of the Constitution – Final 110% Set",
+  "difficultyTag": "H",
+  "mcqs": [
+    {
+      "id": "hist-final-001",
+      "q": "Consider the following pairs: (Act – Key Provision) 1. Regulating Act, 1773 – Court of Directors 2. Pitt’s India Act, 1784 – Board of Control 3. Charter Act, 1813 – Lapse of Company’s trade monopoly except tea and China. Which of the pairs given above is/are correctly matched?",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "2 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-002",
+      "q": "Under the Regulating Act, 1773, the Governor of Bengal was elevated to Governor-General of Bengal. Who among the following was the first such Governor-General?",
+      "options": { "A": "Lord Cornwallis", "B": "Warren Hastings", "C": "Lord Wellesley", "D": "Lord William Bentinck" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-003",
+      "q": "Which of the following correctly describes the change introduced by Pitt’s India Act, 1784?",
+      "options": { "A": "It abolished the Board of Control and created the Court of Directors.", "B": "It distinguished between commercial and political functions of the Company.", "C": "It transferred all powers of the Company to the British Crown.", "D": "It introduced separate electorates for the first time." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-004",
+      "q": "The Charter Act of 1813 is known for which of the following? 1. Ending the Company’s trade monopoly except tea and trade with China. 2. Granting one lakh rupees for education. 3. Allowing Christian missionaries to propagate religion. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-005",
+      "q": "Which of the following was a consequence of the Charter Act, 1833?",
+      "options": { "A": "A law member was added to the Governor-General’s Council.", "B": "The Governor-General of Bengal became Governor-General of India.", "C": "Commercial activities of the Company were completely ended.", "D": "All of the above." },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-006",
+      "q": "Consider the following statements regarding the Charter Act of 1853: 1. It separated legislative and executive functions of the Governor-General’s council. 2. It introduced an open competition system for the Indian Civil Services. 3. It extended the Company’s rule for another 20 years. Which of the statements is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-007",
+      "q": "Which of the following Acts abolished the system of double government introduced by Pitt’s India Act?",
+      "options": { "A": "Charter Act, 1833", "B": "Charter Act, 1853", "C": "Government of India Act, 1858", "D": "Indian Councils Act, 1861" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-008",
+      "q": "The Government of India Act, 1858 transferred power from the Company to the Crown. Which of the following was created by this Act? 1. Secretary of State for India. 2. Council of India. 3. Viceroy of India. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-009",
+      "q": "Who was the first Viceroy of India under the Government of India Act, 1858?",
+      "options": { "A": "Lord Dalhousie", "B": "Lord Canning", "C": "Lord Lytton", "D": "Lord Mountbatten" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-010",
+      "q": "Consider the following features: 1. Decentralization of legislative powers 2. Portfolio system 3. Ordinance-making power of the Governor-General. Which of the above were introduced by the Indian Councils Act, 1861?",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1, 2 and 3", "D": "1 and 3 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-011",
+      "q": "Under the Indian Councils Act, 1861, the Governor-General’s ordinance remained in force for:",
+      "options": { "A": "6 weeks", "B": "6 months", "C": "1 year", "D": "Until the next session of the British Parliament" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-012",
+      "q": "Which of the following statements is correct regarding the Indian Councils Act, 1892?",
+      "options": { "A": "It introduced direct elections for the first time.", "B": "It granted legislative councils the power to ask questions on matters of public interest.", "C": "It provided separate electorates for Muslims.", "D": "It introduced dyarchy in the provinces." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-013",
+      "q": "The term 'portfolio system' refers to:",
+      "options": { "A": "Division of work among members of the Viceroy's council.", "B": "Establishment of legislative councils in provinces.", "C": "Separation of central and provincial budgets.", "D": "Introduction of separate electorates." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-014",
+      "q": "Which of the following Acts introduced separate communal electorates for Muslims?",
+      "options": { "A": "Indian Councils Act, 1892", "B": "Indian Councils Act, 1909 (Morley-Minto Reforms)", "C": "Government of India Act, 1919", "D": "Communal Award, 1932" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-015",
+      "q": "Consider the following provisions: 1. Separate electorates for Muslims. 2. Appointment of an Indian to the Viceroy's executive council. 3. Introduction of dyarchy in provinces. Which of these were part of the Indian Councils Act, 1909?",
+      "options": { "A": "1 and 2 only", "B": "1 only", "C": "1, 2 and 3", "D": "1 and 3 only" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-016",
+      "q": "The Montagu Declaration of 1917 promised:",
+      "options": { "A": "Immediate Dominion status.", "B": "Gradual development of self-governing institutions with a view to responsible government.", "C": "Complete independence.", "D": "Separate electorates for all communities." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-017",
+      "q": "Which of the following pairs is/are correctly matched? 1. Government of India Act, 1919 – Introduction of dyarchy in provinces. 2. Government of India Act, 1919 – Bicameral legislature at the Centre. 3. Government of India Act, 1919 – Separation of provincial budgets from the central budget. Select the correct answer:",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "1, 2 and 3", "D": "2 and 3 only" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-018",
+      "q": "Dyarchy in the provinces, under the Act of 1919, meant:",
+      "options": { "A": "Division of subjects between the Centre and the provinces.", "B": "Division of provincial subjects into 'transferred' and 'reserved' categories.", "C": "Dual government of British and Indian ministers at the Centre.", "D": "Joint rule by the Governor-General and the Secretary of State." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-019",
+      "q": "Which of the following was NOT a feature of the Government of India Act, 1919?",
+      "options": { "A": "Direct elections", "B": "Bicameral legislature at the Centre", "C": "Provincial autonomy", "D": "Separation of provincial budgets" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-020",
+      "q": "The Public Service Commission was first established under:",
+      "options": { "A": "Charter Act, 1853", "B": "Government of India Act, 1909", "C": "Government of India Act, 1919", "D": "Government of India Act, 1935" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-021",
+      "q": "Consider the following statements: 1. The Simon Commission recommended the abolition of dyarchy and introduction of provincial autonomy. 2. The Simon Commission had no Indian member. 3. The Commission's report was accepted by the Indian National Congress. Which of the above is/are correct?",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-022",
+      "q": "The Nehru Report (1928) recommended all the following EXCEPT:",
+      "options": { "A": "Dominion status for India.", "B": "Separate electorates for minorities.", "C": "Federal structure with residuary powers to the Centre.", "D": "Bill of Fundamental Rights." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-023",
+      "q": "The Communal Award of 1932 provided for:",
+      "options": { "A": "Separate electorates for Muslims.", "B": "Separate electorates for the Depressed Classes.", "C": "Reserved seats for the Depressed Classes in joint electorates.", "D": "Abolition of all separate electorates." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-024",
+      "q": "The Poona Pact (1932) between Gandhi and Ambedkar modified the Communal Award by:",
+      "options": { "A": "Abolishing separate electorates for Depressed Classes and providing reserved seats.", "B": "Introducing separate electorates for Sikhs.", "C": "Granting separate electorates to all backward classes.", "D": "Rejecting the concept of joint electorates entirely." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-025",
+      "q": "Which of the following Round Table Conferences was attended by Mahatma Gandhi as the sole representative of the Congress?",
+      "options": { "A": "First (1930)", "B": "Second (1931)", "C": "Third (1932)", "D": "None" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-026",
+      "q": "The Government of India Act, 1935, was based on the recommendations of:",
+      "options": { "A": "Montagu-Chelmsford Report", "B": "Simon Commission Report and Round Table Conferences", "C": "Cripps Mission", "D": "Cabinet Mission" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-027",
+      "q": "Consider the following features: 1. Establishment of an All-India Federation. 2. Division of legislative powers into three lists. 3. Dyarchy at the Centre. Which of the above were part of the Government of India Act, 1935?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-028",
+      "q": "Why did the All-India Federation under the Government of India Act, 1935, never come into existence?",
+      "options": { "A": "The British government refused to implement it.", "B": "The requisite number of princely states did not accede.", "C": "The Indian National Congress rejected the plan.", "D": "World War II broke out immediately." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-029",
+      "q": "Under the Government of India Act, 1935, residuary powers were vested in the:",
+      "options": { "A": "Federal Legislature", "B": "Provincial Legislatures", "C": "Governor-General", "D": "Secretary of State" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-030",
+      "q": "Which of the following was NOT a feature of the Government of India Act, 1935?",
+      "options": { "A": "Provincial autonomy", "B": "Dyarchy in the provinces", "C": "Federal Court", "D": "Reserve Bank of India" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-031",
+      "q": "The Government of India Act, 1935, provided for a Federal Court. Which of the following statements about this court is correct?",
+      "options": { "A": "It had original jurisdiction in fundamental rights cases.", "B": "It was the highest court of appeal from the High Courts.", "C": "It could issue writs for enforcement of fundamental rights.", "D": "It was directly under the Privy Council." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-032",
+      "q": "Which of the following Acts provided for the establishment of the Reserve Bank of India?",
+      "options": { "A": "Government of India Act, 1919", "B": "Government of India Act, 1935", "C": "RBI Act, 1934", "D": "Indian Independence Act, 1947" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-033",
+      "q": "The August Offer (1940) promised:",
+      "options": { "A": "Immediate complete independence.", "B": "Expansion of the Viceroy's Executive Council with more Indians and a Constituent Assembly after the war.", "C": "Creation of Pakistan.", "D": "Full provincial autonomy." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-034",
+      "q": "Why did the Indian National Congress reject the Cripps Mission (1942)? 1. It contained provisions that could lead to the creation of multiple dominions. 2. It refused to give any Indian control over defence. 3. It proposed a separate state for Muslims. Select the correct answer:",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-035",
+      "q": "The Wavell Plan (1945) primarily aimed at:",
+      "options": { "A": "Partition of India.", "B": "Formation of an interim government with equal Hindu and Muslim representation.", "C": "Provincial autonomy.", "D": "Convening a Constituent Assembly immediately." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-036",
+      "q": "Consider the following statements about the Cabinet Mission Plan (1946): 1. It rejected the demand for a separate Pakistan. 2. It proposed a federal structure with a weak centre. 3. It recommended grouping of provinces into three sections. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-037",
+      "q": "Under the Cabinet Mission Plan, the Union would have subjects like:",
+      "options": { "A": "Foreign affairs, defence, communications.", "B": "All subjects except those given to provinces.", "C": "A concurrent list with provinces.", "D": "No subjects; all powers were with the provinces." },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-038",
+      "q": "Which of the following groups under the Cabinet Mission Plan was strongly opposed by the Congress?",
+      "options": { "A": "Group A (Hindu-majority provinces)", "B": "Group B (Muslim-majority provinces of northwest)", "C": "Group C (Bengal and Assam)", "D": "All groups equally" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-039",
+      "q": "The Mountbatten Plan (June 3 Plan) primarily provided for:",
+      "options": { "A": "Formation of a Constituent Assembly.", "B": "Partition of India and transfer of power to two Dominions.", "C": "A united India with a weak centre.", "D": "Continuation of British rule for ten years." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-040",
+      "q": "Which of the following was a consequence of the Indian Independence Act, 1947? 1. The sovereignty of the British Parliament over India was terminated. 2. The office of the Secretary of State for India was abolished. 3. The princely states were granted the option to join either Dominion or remain independent. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-041",
+      "q": "Under the Indian Independence Act, 1947, the Governor-General of the Dominion of India was:",
+      "options": { "A": "Designated as Viceroy.", "B": "Appointed by the British Crown and acted as a constitutional head.", "C": "Elected by the Constituent Assembly.", "D": "Given sovereign powers." },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-042",
+      "q": "The Constituent Assembly was formed under the framework of:",
+      "options": { "A": "Cripps Mission (1942)", "B": "Cabinet Mission Plan (1946)", "C": "Mountbatten Plan (1947)", "D": "Indian Independence Act, 1947" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-043",
+      "q": "The total strength of the Constituent Assembly as originally planned under the Cabinet Mission Plan was 389. After partition, its strength was reduced to:",
+      "options": { "A": "284", "B": "299", "C": "296", "D": "289" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-044",
+      "q": "Consider the following statements: 1. The members of the Constituent Assembly were elected by universal adult franchise. 2. The seats were allocated on the basis of population. 3. The Muslim League boycotted the first meeting. Which of the above is/are correct?",
+      "options": { "A": "2 only", "B": "2 and 3 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-045",
+      "q": "Who presided over the first meeting of the Constituent Assembly as the temporary Chairman?",
+      "options": { "A": "Dr. Rajendra Prasad", "B": "Dr. Sachchidananda Sinha", "C": "Jawaharlal Nehru", "D": "B.R. Ambedkar" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-046",
+      "q": "Dr. Rajendra Prasad was elected the permanent Chairman of the Constituent Assembly on:",
+      "options": { "A": "9 December 1946", "B": "11 December 1946", "C": "13 December 1946", "D": "22 January 1947" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-047",
+      "q": "The 'Objective Resolution' moved by Jawaharlal Nehru on 13 December 1946 was adopted on 22 January 1947. This resolution later became the:",
+      "options": { "A": "Part III of the Constitution", "B": "Preamble", "C": "Fundamental Duties", "D": "Directive Principles of State Policy" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-048",
+      "q": "Who chaired the Drafting Committee of the Indian Constitution?",
+      "options": { "A": "Jawaharlal Nehru", "B": "Sardar Vallabhbhai Patel", "C": "B.R. Ambedkar", "D": "Rajendra Prasad" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-049",
+      "q": "Which of the following committees was NOT chaired by B.R. Ambedkar?",
+      "options": { "A": "Drafting Committee", "B": "Fundamental Rights Sub-Committee", "C": "Advisory Committee on Fundamental Rights, Minorities, etc.", "D": "Both B and C" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-050",
+      "q": "The Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas was chaired by:",
+      "options": { "A": "B.R. Ambedkar", "B": "Jawaharlal Nehru", "C": "Sardar Vallabhbhai Patel", "D": "Rajendra Prasad" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-051",
+      "q": "Which committee chaired by Jawaharlal Nehru dealt with the distribution of powers between the Union and the States?",
+      "options": { "A": "Union Powers Committee", "B": "Union Constitution Committee", "C": "Provincial Constitution Committee", "D": "States Committee" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-052",
+      "q": "The Constituent Assembly completed its work in how many days?",
+      "options": { "A": "114 days", "B": "165 days", "C": "292 days", "D": "365 days" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-053",
+      "q": "The Constitution of India was adopted by the Constituent Assembly on:",
+      "options": { "A": "26 November 1949", "B": "24 January 1950", "C": "26 January 1950", "D": "15 August 1947" },
+      "answer": "A",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-054",
+      "q": "The national flag was adopted by the Constituent Assembly on:",
+      "options": { "A": "22 July 1947", "B": "15 August 1947", "C": "24 January 1950", "D": "26 November 1949" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-055",
+      "q": "The national anthem and national song were adopted on 24 January 1950. On the same day, the Assembly elected:",
+      "options": { "A": "The first Prime Minister", "B": "Dr. Rajendra Prasad as the first President", "C": "The first Speaker", "D": "The first Chief Justice" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-056",
+      "q": "How many members signed the final draft of the Constitution on 24 January 1950?",
+      "options": { "A": "299", "B": "284", "C": "296", "D": "389" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-057",
+      "q": "The Constituent Assembly also functioned as the first Parliament of independent India. Who was its Speaker?",
+      "options": { "A": "G.V. Mavalankar", "B": "Dr. Rajendra Prasad", "C": "H.V. Kamath", "D": "Jawaharlal Nehru" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-058",
+      "q": "Which of the following Acts first gave the Indian legislature the power to repeal any Act of the British Parliament relating to India?",
+      "options": { "A": "Government of India Act, 1935", "B": "Indian Independence Act, 1947", "C": "The Constitution of India, 1950", "D": "Government of India Act, 1919" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-059",
+      "q": "Consider the following statements about the Indian Independence Act, 1947: 1. It declared India and Pakistan as independent Dominions from 15 August 1947. 2. It empowered the Constituent Assemblies to frame their own constitutions and repeal any Act of the British Parliament. 3. It abolished the office of the Secretary of State for India. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-060",
+      "q": "Which of the following is the correct chronological order of the introduction of the following? 1. System of open competition for ICS. 2. Separate electorates for Muslims. 3. Dyarchy in provinces. Select the correct sequence:",
+      "options": { "A": "1-2-3", "B": "2-1-3", "C": "1-3-2", "D": "2-3-1" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-061",
+      "q": "Consider the following pairs (Act – provision that came into force): 1. Government of India Act, 1935 – Dyarchy at the Centre 2. Government of India Act, 1935 – Provincial autonomy 3. Government of India Act, 1935 – Federal Court. Which of the above was/were actually implemented?",
+      "options": { "A": "2 only", "B": "2 and 3 only", "C": "1 and 2 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-062",
+      "q": "Which of the following features of the Government of India Act, 1935, was NOT incorporated into the Indian Constitution?",
+      "options": { "A": "Federal scheme", "B": "Office of the Governor", "C": "Dyarchy at the Centre", "D": "Public Service Commissions" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-063",
+      "q": "The concept of a 'Union of States' in the Indian Constitution is derived from:",
+      "options": { "A": "Government of India Act, 1935", "B": "British North America Act, 1867", "C": "Indian Independence Act, 1947", "D": "Australian Constitution" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-064",
+      "q": "Consider the following statements: 1. The Regulating Act, 1773, established a Supreme Court at Calcutta. 2. Pitt's India Act, 1784, created the Board of Control. 3. The Charter Act, 1833, introduced open competition for the Indian Civil Services. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-065",
+      "q": "The Indian Councils Act, 1909, is also known as Morley-Minto Reforms. Which of the following statements about it is correct?",
+      "options": { "A": "It introduced direct elections for the first time.", "B": "It provided for a separate electorate for Muslims.", "C": "It abolished the portfolio system.", "D": "It introduced bicameralism at the Centre." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-066",
+      "q": "Which of the following Acts made the Governor-General of Bengal the Governor-General of India?",
+      "options": { "A": "Regulating Act, 1773", "B": "Pitt's India Act, 1784", "C": "Charter Act, 1833", "D": "Government of India Act, 1858" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-067",
+      "q": "The Charter Act of 1853 separated legislative and executive functions of the Governor-General's council. What was the number of members added for legislative purposes?",
+      "options": { "A": "6", "B": "12", "C": "15", "D": "18" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-068",
+      "q": "The Government of India Act, 1919, introduced which of the following? 1. Dyarchy in provinces. 2. Bicameral legislature at the Centre. 3. Separate electorates for Muslims. 4. Direct elections. Select the correct answer:",
+      "options": { "A": "1, 2 and 4 only", "B": "1, 2 and 3 only", "C": "1, 3 and 4 only", "D": "1, 2, 3 and 4" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-069",
+      "q": "Which of the following is true regarding the Simon Commission?",
+      "options": { "A": "It was a statutory commission under the 1919 Act.", "B": "It included two Indian members.", "C": "It recommended the retention of dyarchy.", "D": "It proposed immediate dominion status." },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-070",
+      "q": "Consider the following statements about the Communal Award: 1. It was announced by Ramsay MacDonald. 2. It provided separate electorates for the Depressed Classes. 3. It was opposed by Mahatma Gandhi. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-071",
+      "q": "Which of the following Acts introduced the system of 'double government'?",
+      "options": { "A": "Regulating Act, 1773", "B": "Pitt's India Act, 1784", "C": "Charter Act, 1833", "D": "Government of India Act, 1858" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-072",
+      "q": "Under the Government of India Act, 1858, the Secretary of State for India was assisted by a Council of how many members?",
+      "options": { "A": "10", "B": "15", "C": "12", "D": "8" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-073",
+      "q": "The Indian Councils Act, 1861, allowed the Governor-General to nominate some non-official members to his council. Who was the first Indian to be so nominated?",
+      "options": { "A": "Raja of Benares", "B": "Sir Syed Ahmed Khan", "C": "Rash Behari Bose", "D": "Dadabhai Naoroji" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-074",
+      "q": "Which Act provided that the salaries of the Board of Control and its staff were to be charged on Indian revenues?",
+      "options": { "A": "Pitt's India Act, 1784", "B": "Charter Act, 1793", "C": "Charter Act, 1813", "D": "Government of India Act, 1858" },
+      "answer": "B",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-075",
+      "q": "Which of the following provisions were introduced by the Indian Councils Act, 1892? 1. Indirect elections (nominations on recommendation) to legislative councils. 2. Power to ask questions on matters of public interest. 3. Introduction of separate electorates. Select the correct answer:",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-076",
+      "q": "Which of the following Acts gave legislative recognition to the portfolio system?",
+      "options": { "A": "Indian Councils Act, 1861", "B": "Indian Councils Act, 1892", "C": "Indian Councils Act, 1909", "D": "Government of India Act, 1919" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-077",
+      "q": "The franchise under the Government of India Act, 1935, was extended to about:",
+      "options": { "A": "3% of the population", "B": "10% of the population", "C": "15% of the population", "D": "25% of the population" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-078",
+      "q": "The system of dyarchy in provinces was abolished by:",
+      "options": { "A": "Government of India Act, 1919", "B": "Government of India Act, 1935", "C": "Indian Independence Act, 1947", "D": "None; it continued till 1950" },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-079",
+      "q": "Which of the following is/are correctly matched? 1. Lord William Bentinck – First Governor-General of India under Charter Act, 1833. 2. Lord Canning – First Viceroy under Government of India Act, 1858. 3. Lord Mountbatten – First Governor-General of the Dominion of India under Indian Independence Act, 1947. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-080",
+      "q": "The demand for a Constituent Assembly based on adult franchise was first made by the Indian National Congress in:",
+      "options": { "A": "Nehru Report (1928)", "B": "Lahore Session (1929)", "C": "1934", "D": "August Offer (1940)" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-081",
+      "q": "Which of the following pairs is/are correctly matched? (Event – Year) 1. Cripps Mission – 1942 2. Cabinet Mission – 1946 3. Mountbatten Plan – 1947 Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "2 only", "C": "1, 2 and 3", "D": "1 and 3 only" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-082",
+      "q": "Which of the following Acts separated the provincial budgets from the central budget for the first time?",
+      "options": { "A": "Indian Councils Act, 1861", "B": "Government of India Act, 1919", "C": "Government of India Act, 1935", "D": "Charter Act, 1853" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-083",
+      "q": "Consider the following statements: 1. The Government of India Act, 1935, provided for dyarchy at the Centre. 2. The Act also provided for a Federal Railway Authority. 3. Both these provisions came into effect. Which of the above is/are correct?",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "2 only", "D": "None" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-084",
+      "q": "The Constituent Assembly's strength was originally allocated to provinces and princely states. How many seats were allocated to the princely states?",
+      "options": { "A": "93", "B": "292", "C": "296", "D": "389" },
+      "answer": "A",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-085",
+      "q": "Which of the following statements about the Constituent Assembly is/are correct? 1. It was constituted under the Cabinet Mission Plan. 2. Its members were elected directly by the people. 3. It also functioned as a legislative body for independent India. Select the correct answer:",
+      "options": { "A": "1 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "B",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-086",
+      "q": "The first sitting of the Constituent Assembly was held on 9 December 1946. Which important event did not take place in this sitting?",
+      "options": { "A": "Election of the temporary Chairman", "B": "Boycott by the Muslim League", "C": "Adoption of the Objective Resolution", "D": "Roll call of members" },
+      "answer": "C",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-087",
+      "q": "The Drafting Committee submitted the final draft of the Constitution to the Constituent Assembly on:",
+      "options": { "A": "26 November 1949", "B": "21 February 1948", "C": "4 November 1948", "D": "24 January 1950" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-088",
+      "q": "Which of the following constitutional features is NOT a borrowing from the Government of India Act, 1935?",
+      "options": { "A": "Provincial autonomy", "B": "Federal scheme", "C": "Public Service Commissions", "D": "Fundamental Rights" },
+      "answer": "D",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-089",
+      "q": "The phrase 'We, the People of India' in the Preamble is derived from the Objective Resolution moved by Nehru. This phrase emphasizes:",
+      "options": { "A": "Sovereignty of the monarch", "B": "Sovereignty of the Parliament", "C": "Sovereignty of the people", "D": "Sovereignty of the Constituent Assembly" },
+      "answer": "C",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-090",
+      "q": "Consider the following statements about the Nehru Report (1928): 1. It rejected separate electorates and proposed joint electorates with reserved seats. 2. It proposed a federal structure with residuary powers to the Centre. 3. It recommended universal adult franchise. Which of the above is/are correct?",
+      "options": { "A": "1 and 2 only", "B": "1 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-091",
+      "q": "The Communal Award of 1932 was modified by the Poona Pact. Which of the following was the outcome?",
+      "options": { "A": "Separate electorates for Depressed Classes were retained.", "B": "Reserved seats for Depressed Classes in joint electorates were provided.", "C": "Separate electorates were extended to all backward classes.", "D": "It abolished all forms of communal representation." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-092",
+      "q": "The Cripps Mission proposed that:",
+      "options": { "A": "Any province unwilling to join the Indian Union could form a separate dominion.", "B": "India would be granted complete independence immediately.", "C": "The British Crown would retain control over defence.", "D": "Both A and C." },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-093",
+      "q": "The Indian Independence Act, 1947, did which of the following? 1. Ended the British paramountcy over the princely states. 2. Gave the princely states the option to join either India or Pakistan or remain independent. 3. Abolished the office of the Secretary of State. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "1 and 3 only", "C": "2 and 3 only", "D": "1, 2 and 3" },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-094",
+      "q": "Which of the following chronological orders of Governor-General/Viceroy is correct?",
+      "options": { "A": "Warren Hastings – Lord Cornwallis – Lord Wellesley – Lord William Bentinck", "B": "Lord Cornwallis – Warren Hastings – Lord William Bentinck – Lord Dalhousie", "C": "Warren Hastings – Lord William Bentinck – Lord Dalhousie – Lord Canning", "D": "Lord William Bentinck – Warren Hastings – Lord Dalhousie – Lord Canning" },
+      "answer": "A",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-095",
+      "q": "Which of the following provisions of the Government of India Act, 1935, gave the Governor-General special powers?",
+      "options": { "A": "Discretionary powers in certain matters.", "B": "Power to issue ordinances.", "C": "Power to veto provincial legislation.", "D": "All of the above." },
+      "answer": "D",
+      "difficulty": "mid"
+    },
+    {
+      "id": "hist-final-096",
+      "q": "The First Round Table Conference was held in 1930. Which of the following groups participated?",
+      "options": { "A": "Indian National Congress.", "B": "Muslim League.", "C": "Princely states.", "D": "All of the above." },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-097",
+      "q": "The Cabinet Mission Plan proposed that the Constituent Assembly be constituted by:",
+      "options": { "A": "Direct election by universal adult franchise.", "B": "Election by members of provincial legislative assemblies on the basis of proportional representation.", "C": "Nomination by the Viceroy.", "D": "Indirect election by local bodies." },
+      "answer": "B",
+      "difficulty": "easy"
+    },
+    {
+      "id": "hist-final-098",
+      "q": "The final session of the Constituent Assembly was held on 24 January 1950. On this day, which of the following happened? 1. The Constitution was signed by all members. 2. National Anthem and National Song were adopted. 3. Dr. Rajendra Prasad was elected as the first President of India. Select the correct answer:",
+      "options": { "A": "1 and 2 only", "B": "2 and 3 only", "C": "1, 2 and 3", "D": "2 only" },
+      "answer": "C",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-099",
+      "q": "Which of the following pairs (Committee of Constituent Assembly – Chairman) is correctly matched?",
+      "options": { "A": "Union Constitution Committee – Sardar Patel", "B": "Provincial Constitution Committee – Jawaharlal Nehru", "C": "Steering Committee – Rajendra Prasad", "D": "Rules of Procedure Committee – Rajendra Prasad" },
+      "answer": "D",
+      "difficulty": "hard"
+    },
+    {
+      "id": "hist-final-100",
+      "q": "Consider the following statements: 1. The concept of a federal system with a strong unitary bias in the Indian Constitution is largely borrowed from the Government of India Act, 1935. 2. The residuary powers under the Indian Constitution are vested in the Centre, unlike the 1935 Act. 3. The office of the Governor in the Indian Constitution is modelled on the Governor under the 1935 Act. Which of the above is/are correct?",
+      "options": { "A": "1 only", "B": "1 and 2 only", "C": "1 and 3 only", "D": "1, 2 and 3" },
+      "answer": "C",
+      "difficulty": "hard"
+    }
+  ]
+}

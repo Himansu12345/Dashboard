@@ -1,0 +1,18 @@
+{
+    "subject":  "Polity",
+    "topic":  "Pressure Groups",
+    "difficultyTag":  "L",
+    "mcqs":  [
+                 {
+                     "id":  "polity-pressure-groups-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}

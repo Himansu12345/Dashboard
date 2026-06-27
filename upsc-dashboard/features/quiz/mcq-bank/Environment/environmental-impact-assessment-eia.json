@@ -1,0 +1,18 @@
+{
+    "subject":  "Environment",
+    "topic":  "Environmental Impact Assessment (EIA)",
+    "difficultyTag":  "H",
+    "mcqs":  [
+                 {
+                     "id":  "environment-environmental-impact-assessment-eia-001",
+                     "q":  "",
+                     "options":  {
+                                     "A":  "",
+                                     "B":  "",
+                                     "C":  "",
+                                     "D":  ""
+                                 },
+                     "answer":  "A"
+                 }
+             ]
+}
