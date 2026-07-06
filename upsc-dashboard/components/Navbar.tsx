@@ -4,31 +4,76 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const prelimsSubjects = [
-  { label: "Polity", href: "/polity" },
-  { label: "Geography", href: "/geography" },
-  { label: "Economics", href: "/economics" },
-  { label: "Ancient", href: "/ancient-history" },
-  { label: "Medival" },
-  { label: "Modern History", href: "/modern-history" },
-  { label: "Art&Culture", href: "/art-culture" },
-  { label: "Sc&tech", href: "/sc-tech" },
-  { label: "Environment" },
-  { label: "Society", href: "/society" },
-  { label: "World History", href: "/world-history" },
-  { label: "Social Justice", href: "/social-justice" },
-  { label: "Governance", href: "/governance" },
-  { label: "IR", href: "/international-relations" },
-  { label: "Agriculture", href: "/agriculture" },
-  { label: "Internal Security", href: "/internal-security" },
-  { label: "Disaster Mgmt", href: "/disaster-management" },
+type Subject = {
+  label: string;
+  href?: string;
+};
+
+type SubjectSectionKey = "pre" | "mains" | "preMains";
+
+type SubjectSection = {
+  key: SubjectSectionKey;
+  label: string;
+  subjects: Subject[];
+};
+
+const subjectSections: SubjectSection[] = [
+  {
+    key: "pre",
+    label: "Pre",
+    subjects: [
+      { label: "Ancient", href: "/ancient-history" },
+      { label: "Medival" },
+      { label: "Sc&tech", href: "/sc-tech" },
+      { label: "Environment" },
+    ],
+  },
+  {
+    key: "mains",
+    label: "Mains",
+    subjects: [
+      { label: "Society", href: "/society" },
+      { label: "World History", href: "/world-history" },
+      { label: "Social Justice", href: "/social-justice" },
+      { label: "Governance", href: "/governance" },
+      { label: "IR", href: "/international-relations" },
+      { label: "Internal Security", href: "/internal-security" },
+      { label: "Disaster Mgmt", href: "/disaster-management" },
+    ],
+  },
+  {
+    key: "preMains",
+    label: "Pre+Mains",
+    subjects: [
+      { label: "Polity", href: "/polity" },
+      { label: "Geography", href: "/geography" },
+      { label: "Economics", href: "/economics" },
+      { label: "Modern History", href: "/modern-history" },
+      { label: "Art&Culture", href: "/art-culture" },
+      { label: "Agriculture", href: "/agriculture" },
+    ],
+  },
 ];
+
+const allSubjects = subjectSections.flatMap((section) => section.subjects);
+
+const getSectionForPath = (pathname: string): SubjectSectionKey =>
+  subjectSections.find((section) =>
+    section.subjects.some((subject) => subject.href === pathname),
+  )?.key ?? "pre";
+
+const getSubjectsForSection = (sectionKey: SubjectSectionKey) =>
+  subjectSections.find((section) => section.key === sectionKey)?.subjects ??
+  subjectSections[0].subjects;
 
 export default function Navbar() {
   const pathname = usePathname();
 
   const [isSubjectsOpen, setIsSubjectsOpen] = useState(false);
+  const [selectedSection, setSelectedSection] =
+    useState<SubjectSectionKey>("pre");
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const visibleSubjects = getSubjectsForSection(selectedSection);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -44,6 +89,10 @@ export default function Navbar() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  useEffect(() => {
+    setSelectedSection(getSectionForPath(pathname));
+  }, [pathname]);
 
   return (
     <header className="app-nav glass-panel">
@@ -93,65 +142,60 @@ export default function Navbar() {
         <div className="relative flex flex-1 flex-col" ref={dropdownRef}>
           <button
             type="button"
-            className={`nav-pill ripple-btn w-full ${isSubjectsOpen || prelimsSubjects.some((s) => s.href === pathname) ? "is-active" : ""}`}
+            className={`nav-pill ripple-btn w-full ${isSubjectsOpen || allSubjects.some((s) => s.href === pathname) ? "is-active" : ""}`}
             onClick={() => setIsSubjectsOpen(!isSubjectsOpen)}
           >
             Subjects
           </button>
 
           {isSubjectsOpen && (
-            <div
-              className="glass-panel"
-              style={{
-                position: "absolute",
-                top: "calc(100% + 0.5rem)",
-                left: "50%",
-                transform: "translateX(-50%)",
-                display: "flex",
-                flexDirection: "column",
-                minWidth: "160px",
-                padding: "0.5rem",
-                gap: "0.25rem",
-                zIndex: 100,
-              }}
-            >
-              {prelimsSubjects.map((subject) => {
-                const isActive = Boolean(
-                  subject.href && pathname === subject.href,
-                );
-                if (subject.href) {
+            <div className="subjects-dropdown glass-panel">
+              <div
+                className="subject-section-switch"
+                role="tablist"
+                aria-label="Subject sections"
+              >
+                {subjectSections.map((section) => (
+                  <button
+                    key={section.key}
+                    type="button"
+                    role="tab"
+                    aria-selected={selectedSection === section.key}
+                    className={`subject-section-tab ripple-btn ${selectedSection === section.key ? "is-active" : ""}`}
+                    onClick={() => setSelectedSection(section.key)}
+                  >
+                    {section.label}
+                  </button>
+                ))}
+              </div>
+
+              <div className="subject-dropdown-list">
+                {visibleSubjects.map((subject) => {
+                  const isActive = Boolean(
+                    subject.href && pathname === subject.href,
+                  );
+                  if (subject.href) {
+                    return (
+                      <Link
+                        key={subject.label}
+                        href={subject.href}
+                        onClick={() => setIsSubjectsOpen(false)}
+                        className={`prelims-subject-pill ripple-btn ${isActive ? "is-active" : ""}`}
+                      >
+                        {subject.label}
+                      </Link>
+                    );
+                  }
                   return (
-                    <Link
+                    <span
                       key={subject.label}
-                      href={subject.href}
-                      onClick={() => setIsSubjectsOpen(false)}
-                      className={`prelims-subject-pill ripple-btn ${isActive ? "is-active" : ""}`}
-                      style={{
-                        textAlign: "center",
-                        width: "100%",
-                        display: "block",
-                      }}
+                      className="prelims-subject-pill is-static"
                     >
                       {subject.label}
-                    </Link>
+                    </span>
                   );
-                }
-                return (
-                  <span
-                    key={subject.label}
-                    className="prelims-subject-pill is-static"
-                    style={{
-                      textAlign: "center",
-                      width: "100%",
-                      display: "block",
-                      opacity: 0.5,
-                      cursor: "not-allowed",
-                    }}
-                  >
-                    {subject.label}
-                  </span>
-                );
-              })}
+                })}
+              </div>
             </div>
           )}
         </div>

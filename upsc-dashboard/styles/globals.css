@@ -306,6 +306,73 @@ html {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18), 0 10px 22px rgba(0, 229, 255, 0.36);
 }
 
+.subjects-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 50%;
+  z-index: 100;
+  display: flex;
+  width: min(270px, calc(100vw - 2rem));
+  min-width: 240px;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.58rem;
+  transform: translateX(-50%);
+}
+
+.subject-section-switch {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.24rem;
+  padding: 0.22rem;
+  border: 1px solid rgba(143, 183, 228, 0.18);
+  border-radius: 999px;
+  background: rgba(6, 14, 29, 0.58);
+}
+
+.subject-section-tab {
+  min-width: 0;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0.48rem 0.34rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.subject-section-tab:hover {
+  border-color: rgba(0, 229, 255, 0.38);
+  color: #f2fbff;
+}
+
+.subject-section-tab.is-active {
+  border-color: rgba(0, 229, 255, 0.5);
+  background: linear-gradient(145deg, rgba(0, 229, 255, 0.24), rgba(0, 255, 149, 0.16));
+  color: #f2fbff;
+  box-shadow: 0 6px 12px rgba(0, 229, 255, 0.12);
+}
+
+.subject-dropdown-list {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.subject-dropdown-list .prelims-subject-pill {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.subject-dropdown-list .prelims-subject-pill.is-static {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 .page-stage {
   display: grid;
   gap: 1rem;
@@ -6386,5 +6453,4 @@ button:focus-visible {
     transform: translateY(0);
   }
 }
-
 

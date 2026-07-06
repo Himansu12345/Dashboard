@@ -5,10 +5,14 @@ import type { ReviewGroupedDate } from "./reviewPopupTypes";
 interface ReviewGroupedDetailsProps {
   groupedDetails: ReviewGroupedDate[];
   deletingAttemptIdSet: Set<string>;
-  onDeleteGroupedDate: (dateLabel: string, attemptIds: string[]) => Promise<void>;
+  onDeleteGroupedDate: (
+    dateLabel: string,
+    attemptIds: string[],
+  ) => Promise<void>;
   onDeleteGroupedAttempt: (attemptId: string) => Promise<void>;
   onOpenNote: (detail: PracticeQuestionDetail) => void;
   onOpenWhy: (detail: PracticeQuestionDetail) => void;
+  isSolveMode?: boolean; // NEW PROP
 }
 
 export default function ReviewGroupedDetails({
@@ -18,6 +22,7 @@ export default function ReviewGroupedDetails({
   onDeleteGroupedAttempt,
   onOpenNote,
   onOpenWhy,
+  isSolveMode,
 }: ReviewGroupedDetailsProps) {
   return (
     <div className="review-group-list">
@@ -43,16 +48,19 @@ export default function ReviewGroupedDetails({
               }
               disabled={
                 group.attempts.length > 0 &&
-                group.attempts.every((attempt) => deletingAttemptIdSet.has(attempt.recordId))
+                group.attempts.every((attempt) =>
+                  deletingAttemptIdSet.has(attempt.recordId),
+                )
               }
             >
               {group.attempts.length > 0 &&
-              group.attempts.every((attempt) => deletingAttemptIdSet.has(attempt.recordId))
+              group.attempts.every((attempt) =>
+                deletingAttemptIdSet.has(attempt.recordId),
+              )
                 ? "Deleting..."
                 : "Delete Date"}
             </button>
           </div>
-
           <div className="ledger-attempt-list">
             {group.attempts.map((attempt) => (
               <section
@@ -61,7 +69,9 @@ export default function ReviewGroupedDetails({
               >
                 <div className="ledger-attempt-head">
                   <div>
-                    <p className="ledger-attempt-title">Attempt {attempt.attemptNumber}</p>
+                    <p className="ledger-attempt-title">
+                      Attempt {attempt.attemptNumber}
+                    </p>
                     <p className="ledger-attempt-subtitle">
                       {attempt.details.length} wrong/skipped questions
                     </p>
@@ -70,7 +80,9 @@ export default function ReviewGroupedDetails({
                     <button
                       type="button"
                       className="delete-btn ripple-btn"
-                      onClick={() => void onDeleteGroupedAttempt(attempt.recordId)}
+                      onClick={() =>
+                        void onDeleteGroupedAttempt(attempt.recordId)
+                      }
                       disabled={deletingAttemptIdSet.has(attempt.recordId)}
                     >
                       {deletingAttemptIdSet.has(attempt.recordId)
@@ -79,7 +91,6 @@ export default function ReviewGroupedDetails({
                     </button>
                   </div>
                 </div>
-
                 <div className="review-popup-list">
                   {attempt.details.map((detail, index) => (
                     <ReviewQuestionCard
@@ -88,6 +99,7 @@ export default function ReviewGroupedDetails({
                       index={index}
                       onOpenNote={onOpenNote}
                       onOpenWhy={onOpenWhy}
+                      isSolveMode={isSolveMode} // PASSING IT DOWN
                     />
                   ))}
                 </div>

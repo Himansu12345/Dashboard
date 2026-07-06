@@ -122,6 +122,7 @@ export default function TableClient({
           isRefreshing={isRefreshing}
           onOpenRecycleBin={handleOpenRecycleBin}
           onOpenSubjectView={handleOpenSubjectView}
+          onOpenTopicReview={handleOpenTopicReview}
         />
       </MotionSection>
 

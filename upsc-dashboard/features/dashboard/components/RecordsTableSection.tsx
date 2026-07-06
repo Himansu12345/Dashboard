@@ -14,6 +14,11 @@ interface RecordsTableSectionProps {
   isRefreshing: boolean;
   onOpenRecycleBin: () => void;
   onOpenSubjectView: (subject: string) => void;
+  onOpenTopicReview: (
+    subject: string,
+    topic: string,
+    mode?: "view" | "solve",
+  ) => void;
 }
 
 export default function RecordsTableSection({
@@ -23,6 +28,7 @@ export default function RecordsTableSection({
   isRefreshing,
   onOpenRecycleBin,
   onOpenSubjectView,
+  onOpenTopicReview,
 }: RecordsTableSectionProps) {
   // Memoize subject rows computation to prevent recalculation on every render
   const subjectRows = useMemo(
@@ -86,7 +92,6 @@ export default function RecordsTableSection({
                 <th>Actions</th>
               </tr>
             </thead>
-
             <MotionTableBody>
               {subjectRows.map((row) => (
                 <MotionTableRow key={row.key}>
@@ -98,7 +103,10 @@ export default function RecordsTableSection({
                   <td>{row.accuracy}%</td>
                   <td>{row.difficultySummary}</td>
                   <td>
-                    <div className="table-action-row">
+                    <div
+                      className="table-action-row"
+                      style={{ display: "flex", gap: "0.5rem" }}
+                    >
                       <MotionButton
                         type="button"
                         className="review-btn ripple-btn"
@@ -108,6 +116,24 @@ export default function RecordsTableSection({
                       >
                         View
                       </MotionButton>
+                      {row.incorrect > 0 && (
+                        <MotionButton
+                          type="button"
+                          className="review-btn ripple-btn"
+                          style={{
+                            background: "transparent",
+                            border: "1px solid #3b82f6",
+                            color: "#3b82f6",
+                          }}
+                          onClick={() =>
+                            onOpenTopicReview(row.subject, row.label, "solve")
+                          }
+                          title="Re-attempt incorrect questions"
+                          aria-label={`Solve incorrect questions for ${row.subject}`}
+                        >
+                          Solve
+                        </MotionButton>
+                      )}
                     </div>
                   </td>
                 </MotionTableRow>

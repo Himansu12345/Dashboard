@@ -1,29 +1,24 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { createPortal } from "react-dom";
-import useBodyScrollLock from "@/hooks/useBodyScrollLock";
-import useFocusTrap from "@/hooks/useFocusTrap";
-import QuestionNotesModal from "@/components/popup/attempt-review/QuestionNotesModal";
-import QuestionWhyModal from "@/components/popup/attempt-review/QuestionWhyModal";
-import ReviewGroupedDetails from "@/components/popup/attempt-review/ReviewGroupedDetails";
-import ReviewPopupFilters from "@/components/popup/attempt-review/ReviewPopupFilters";
-import ReviewPopupHeader from "@/components/popup/attempt-review/ReviewPopupHeader";
-import ReviewPopupStats from "@/components/popup/attempt-review/ReviewPopupStats";
-import {
-  buildDetailKey,
-  normalizeDetail,
-  normalizeDetailNotes,
-} from "@/components/popup/attempt-review/helpers";
-import {
-  getGroupedDetails,
-  getReviewDateOptions,
-} from "@/components/popup/attempt-review/reviewPopupUtils";
-import type { ReviewSortOrder } from "@/components/popup/attempt-review/reviewPopupTypes";
+import { useMemo, useState, useRef, useEffect } from "react";
 import type { PracticeQuestionDetail, PracticeRecord } from "@/types/records";
+import ReviewPopupHeader from "./attempt-review/ReviewPopupHeader";
+import ReviewPopupStats from "./attempt-review/ReviewPopupStats";
+import ReviewPopupFilters from "./attempt-review/ReviewPopupFilters";
+import ReviewGroupedDetails from "./attempt-review/ReviewGroupedDetails";
+import QuestionNotesModal from "./attempt-review/QuestionNotesModal";
+import QuestionWhyModal from "./attempt-review/QuestionWhyModal";
+import {
+  getReviewDateOptions,
+  getGroupedDetails,
+} from "./attempt-review/reviewPopupUtils";
+import { buildDetailKey } from "./attempt-review/helpers";
+import type { ReviewSortOrder } from "./attempt-review/reviewPopupTypes";
 
 interface AttemptReviewPopupProps {
-  record: PracticeRecord | null;
-  savingQuestionNoteKey?: string | null;
-  deletingAttemptIdSet?: Set<string>;
+  record: PracticeRecord;
+  isSolveMode?: boolean; // NEW PROP
+  savingQuestionNoteKey: string | null;
+  deletingAttemptIdSet: Set<string>;
+  onClose: () => void;
   onSaveQuestionNote: (payload: {
     id: string;
     questionId?: string;
@@ -44,301 +39,147 @@ interface AttemptReviewPopupProps {
     mode?: "replace" | "delete";
   }) => Promise<void>;
   onDeleteAttempt: (id: string) => Promise<void>;
-  onClose: () => void;
 }
 
 export default function AttemptReviewPopup({
   record,
-  savingQuestionNoteKey = null,
-  deletingAttemptIdSet = new Set<string>(),
+  isSolveMode = false,
+  savingQuestionNoteKey,
+  deletingAttemptIdSet,
+  onClose,
   onSaveQuestionNote,
   onSaveQuestionWhy,
   onDeleteAttempt,
-  onClose,
 }: AttemptReviewPopupProps) {
-  const isOpen = Boolean(record);
-  const panelRef = useRef<HTMLDivElement | null>(null);
-  const notePanelRef = useRef<HTMLDivElement | null>(null);
-  const whyPanelRef = useRef<HTMLDivElement | null>(null);
-
-  const details = useMemo(
-    () =>
-      (record?.incorrectDetails || [])
-        .filter(
-          (detail) =>
-            detail &&
-            typeof detail.question === "string" &&
-            detail.question.trim().length > 0,
-        )
-        .map((detail) => normalizeDetail(detail)),
-    [record],
-  );
-
-  const getDetailRecordId = useCallback(
-    (detail: Pick<PracticeQuestionDetail, "sourceRecordId">) =>
-      detail.sourceRecordId || record?.id || "",
-    [record?.id],
-  );
-
-  const getPopupDetailKey = useCallback(
-    (detail: Pick<
-      PracticeQuestionDetail,
-      "question" | "selectedAnswer" | "correctAnswer" | "sourceRecordId"
-    >) => `${getDetailRecordId(detail)}::${buildDetailKey(detail)}`,
-    [getDetailRecordId],
-  );
-
-  const [noteValues, setNoteValues] = useState<Record<string, string[]>>(() => {
-    const nextValues: Record<string, string[]> = {};
-    details.forEach((detail) => {
-      nextValues[getPopupDetailKey(detail)] = normalizeDetailNotes(detail);
-    });
-    return nextValues;
-  });
-
-  const [activeNoteDetail, setActiveNoteDetail] =
-    useState<PracticeQuestionDetail | null>(null);
-  const [activeNoteKey, setActiveNoteKey] = useState<string | null>(null);
-  const [isNoteComposerOpen, setIsNoteComposerOpen] = useState(false);
-  const [editingNoteIndex, setEditingNoteIndex] = useState<number | null>(null);
-  const [activeNoteDraft, setActiveNoteDraft] = useState("");
-  const [noteValidationError, setNoteValidationError] = useState("");
-  const [whyValues, setWhyValues] = useState<Record<string, string>>(() => {
-    const nextValues: Record<string, string> = {};
-    details.forEach((detail) => {
-      nextValues[getPopupDetailKey(detail)] =
-        typeof detail.why === "string" ? detail.why.trim() : "";
-    });
-    return nextValues;
-  });
-  const [activeWhyDetail, setActiveWhyDetail] =
-    useState<PracticeQuestionDetail | null>(null);
-  const [activeWhyKey, setActiveWhyKey] = useState<string | null>(null);
-  const [isWhyComposerOpen, setIsWhyComposerOpen] = useState(false);
-  const [activeWhyDraft, setActiveWhyDraft] = useState("");
-  const [whyValidationError, setWhyValidationError] = useState("");
   const [reviewDateFilter, setReviewDateFilter] = useState("all");
   const [reviewSortOrder, setReviewSortOrder] =
     useState<ReviewSortOrder>("date-desc");
 
+  const [activeNoteDetail, setActiveNoteDetail] =
+    useState<PracticeQuestionDetail | null>(null);
+  const [activeWhyDetail, setActiveWhyDetail] =
+    useState<PracticeQuestionDetail | null>(null);
+  const [isNoteComposerOpen, setIsNoteComposerOpen] = useState(false);
+  const [isWhyComposerOpen, setIsWhyComposerOpen] = useState(false);
+  const [editingNoteIndex, setEditingNoteIndex] = useState<number | null>(null);
+  const [activeNoteDraft, setActiveNoteDraft] = useState("");
+  const [whyDraft, setWhyDraft] = useState("");
+  const [noteValidationError, setNoteValidationError] = useState("");
+  const [whyValidationError, setWhyValidationError] = useState("");
+
+  const notePanelRef = useRef<HTMLDivElement>(null);
+  const whyPanelRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const nextValues: Record<string, string[]> = {};
-    const nextWhyValues: Record<string, string> = {};
-    details.forEach((detail) => {
-      const detailKey = getPopupDetailKey(detail);
-      nextValues[detailKey] = normalizeDetailNotes(detail);
-      nextWhyValues[detailKey] =
-        typeof detail.why === "string" ? detail.why.trim() : "";
-    });
-    setNoteValues(nextValues);
-    setWhyValues(nextWhyValues);
-    setActiveNoteDetail(null);
-    setActiveNoteKey(null);
-    setIsNoteComposerOpen(false);
-    setEditingNoteIndex(null);
-    setActiveNoteDraft("");
-    setNoteValidationError("");
-    setActiveWhyDetail(null);
-    setActiveWhyKey(null);
-    setIsWhyComposerOpen(false);
-    setActiveWhyDraft("");
-    setWhyValidationError("");
-    setReviewDateFilter("all");
-    setReviewSortOrder("date-desc");
-  }, [details, getPopupDetailKey]);
+    function handleEscape(event: KeyboardEvent) {
+      if (event.key !== "Escape") return;
+      if (activeNoteDetail && notePanelRef.current) {
+        handleCloseNoteModal();
+      } else if (activeWhyDetail && whyPanelRef.current) {
+        handleCloseWhyModal();
+      } else {
+        onClose();
+      }
+    }
+    document.addEventListener("keydown", handleEscape);
+    return () => {
+      document.removeEventListener("keydown", handleEscape);
+    };
+  }, [activeNoteDetail, activeWhyDetail, onClose]);
 
-  const handleUpdateNotes = useCallback(
-    (detailKey: string, updater: (previousNotes: string[]) => string[]) => {
-      setNoteValues((previous) => {
-        const current = Array.isArray(previous[detailKey])
-          ? previous[detailKey]
-          : [];
-        const next = updater(current);
-        return { ...previous, [detailKey]: next };
-      });
-    },
-    [],
-  );
-
-  const handleOpenNoteModal = useCallback((detail: PracticeQuestionDetail) => {
-    const detailKey = getPopupDetailKey(detail);
-
-    setNoteValues((previous) => {
-      if (Array.isArray(previous[detailKey])) return previous;
-      return {
-        ...previous,
-        [detailKey]: normalizeDetailNotes(detail),
-      };
-    });
-
-    setActiveNoteDetail(detail);
-    setActiveNoteKey(detailKey);
-    setIsNoteComposerOpen(false);
-    setEditingNoteIndex(null);
-    setActiveNoteDraft("");
-    setNoteValidationError("");
-  }, [getPopupDetailKey]);
-
-  const handleUpdateWhy = useCallback((detailKey: string, value: string) => {
-    setWhyValues((previous) => ({ ...previous, [detailKey]: value }));
-  }, []);
-
-  const handleOpenWhyModal = useCallback(
-    (detail: PracticeQuestionDetail) => {
-      const detailKey = getPopupDetailKey(detail);
-      const existingWhy =
-        typeof whyValues[detailKey] === "string"
-          ? whyValues[detailKey]
-          : typeof detail.why === "string"
-            ? detail.why.trim()
-            : "";
-
-      setWhyValues((previous) => {
-        if (typeof previous[detailKey] === "string") return previous;
-        return { ...previous, [detailKey]: existingWhy };
-      });
-
-      setActiveWhyDetail(detail);
-      setActiveWhyKey(detailKey);
-      setActiveWhyDraft(existingWhy);
-      setIsWhyComposerOpen(existingWhy.length === 0);
-      setWhyValidationError("");
-    },
-    [getPopupDetailKey, whyValues],
-  );
-
-  const handleCloseNoteComposer = useCallback(() => {
-    setIsNoteComposerOpen(false);
-    setEditingNoteIndex(null);
-    setActiveNoteDraft("");
-    setNoteValidationError("");
-  }, []);
-
-  const handleCloseNoteModal = useCallback(() => {
-    handleCloseNoteComposer();
-    setActiveNoteDetail(null);
-    setActiveNoteKey(null);
-  }, [handleCloseNoteComposer]);
-
-  const handleCloseWhyComposer = useCallback(() => {
-    const existingWhy =
-      activeWhyKey && typeof whyValues[activeWhyKey] === "string"
-        ? whyValues[activeWhyKey]
-        : "";
-    setIsWhyComposerOpen(false);
-    setActiveWhyDraft(existingWhy);
-    setWhyValidationError("");
-  }, [activeWhyKey, whyValues]);
-
-  const handleCloseWhyModal = useCallback(() => {
-    setActiveWhyDetail(null);
-    setActiveWhyKey(null);
-    setIsWhyComposerOpen(false);
-    setActiveWhyDraft("");
-    setWhyValidationError("");
-  }, []);
-
-  const activeNotes = useMemo(() => {
-    if (!activeNoteKey) return [];
-    return Array.isArray(noteValues[activeNoteKey])
-      ? noteValues[activeNoteKey]
-      : [];
-  }, [activeNoteKey, noteValues]);
-
-  const activeWhyValue = useMemo(() => {
-    if (!activeWhyKey) return "";
-    return typeof whyValues[activeWhyKey] === "string" ? whyValues[activeWhyKey] : "";
-  }, [activeWhyKey, whyValues]);
+  // Combine incorrect and skipped details. If in solve mode, we only want these anyway.
+  const reviewDetails = useMemo(() => {
+    return (record.incorrectDetails || []).concat(record.skippedDetails || []);
+  }, [record.incorrectDetails, record.skippedDetails]);
 
   const reviewDateOptions = useMemo(
-    () => getReviewDateOptions(details, record),
-    [details, record],
+    () => getReviewDateOptions(reviewDetails, record),
+    [reviewDetails, record],
   );
 
   const groupedDetails = useMemo(
-    () => getGroupedDetails(details, record, reviewDateFilter, reviewSortOrder),
-    [details, record, reviewDateFilter, reviewSortOrder],
+    () =>
+      getGroupedDetails(
+        reviewDetails,
+        record,
+        reviewDateFilter,
+        reviewSortOrder,
+      ),
+    [reviewDetails, record, reviewDateFilter, reviewSortOrder],
   );
 
-  const handleStartAddNote = useCallback(() => {
+  const activeNotes = useMemo(() => {
+    if (!activeNoteDetail) return [];
+    return activeNoteDetail.notes && activeNoteDetail.notes.length > 0
+      ? activeNoteDetail.notes
+      : activeNoteDetail.note
+        ? [activeNoteDetail.note]
+        : [];
+  }, [activeNoteDetail]);
+
+  const activeWhyValue = useMemo(() => {
+    if (!activeWhyDetail) return "";
+    return typeof activeWhyDetail.why === "string"
+      ? activeWhyDetail.why.trim()
+      : "";
+  }, [activeWhyDetail]);
+
+  // --- Handlers for Note/Why UI (kept as-is) ---
+  const handleOpenNoteModal = (detail: PracticeQuestionDetail) => {
+    setActiveNoteDetail(detail);
+    setIsNoteComposerOpen(false);
+    setEditingNoteIndex(null);
+    setActiveNoteDraft("");
+    setNoteValidationError("");
+  };
+
+  const handleCloseNoteModal = () => {
+    setActiveNoteDetail(null);
+    setIsNoteComposerOpen(false);
+    setEditingNoteIndex(null);
+    setActiveNoteDraft("");
+    setNoteValidationError("");
+  };
+
+  const handleStartAddNote = () => {
     setIsNoteComposerOpen(true);
     setEditingNoteIndex(null);
     setActiveNoteDraft("");
     setNoteValidationError("");
-  }, []);
+  };
 
-  const handleStartEditNote = useCallback(
-    (index: number) => {
-      const targetNote = activeNotes[index];
-      if (typeof targetNote !== "string") return;
+  const handleStartEditNote = (noteIndex: number) => {
+    setIsNoteComposerOpen(true);
+    setEditingNoteIndex(noteIndex);
+    setActiveNoteDraft(activeNotes[noteIndex] || "");
+    setNoteValidationError("");
+  };
 
-      setIsNoteComposerOpen(true);
-      setEditingNoteIndex(index);
-      setActiveNoteDraft(targetNote);
-      setNoteValidationError("");
-    },
-    [activeNotes],
-  );
-
-  const handleSaveActiveNote = useCallback(async () => {
-    if (!record || !activeNoteDetail || !activeNoteKey) return;
-
-    const nextNote = activeNoteDraft.trim();
-    if (!nextNote) {
-      setNoteValidationError("Note cannot be empty.");
-      return;
-    }
-
-    const mode = editingNoteIndex === null ? "add" : "edit";
-    const nextNoteIndex =
-      editingNoteIndex === null ? undefined : editingNoteIndex;
-
-    await onSaveQuestionNote({
-      id: getDetailRecordId(activeNoteDetail),
-      questionId: activeNoteDetail.questionId,
-      question: activeNoteDetail.question,
-      selectedAnswer: activeNoteDetail.selectedAnswer || "",
-      correctAnswer: activeNoteDetail.correctAnswer || "",
-      note: nextNote,
-      mode,
-      noteIndex: nextNoteIndex,
-    });
-
-    handleUpdateNotes(activeNoteKey, (previousNotes) => {
-      if (mode === "add") {
-        return Array.from(new Set([...previousNotes, nextNote])).slice(0, 50);
-      }
-
-      if (nextNoteIndex === undefined) return previousNotes;
-
-      if (nextNoteIndex < 0 || nextNoteIndex >= previousNotes.length) {
-        return previousNotes;
-      }
-
-      return previousNotes.map((entry, index) =>
-        index === nextNoteIndex ? nextNote : entry,
-      );
-    });
-
-    handleCloseNoteComposer();
-  }, [
-    activeNoteDetail,
-    activeNoteDraft,
-    activeNoteKey,
-    editingNoteIndex,
-    getDetailRecordId,
-    handleCloseNoteComposer,
-    handleUpdateNotes,
-    onSaveQuestionNote,
-    record,
-  ]);
-
-  const handleDeleteNote = useCallback(
-    async (noteIndex: number) => {
-      if (!record || !activeNoteDetail || !activeNoteKey) return;
-
+  const handleDeleteAllNotes = async () => {
+    if (!activeNoteDetail || !record.id) return;
+    try {
       await onSaveQuestionNote({
-        id: getDetailRecordId(activeNoteDetail),
+        id: record.id,
+        questionId: activeNoteDetail.questionId,
+        question: activeNoteDetail.question,
+        selectedAnswer: activeNoteDetail.selectedAnswer || "",
+        correctAnswer: activeNoteDetail.correctAnswer || "",
+        note: "",
+        mode: "delete",
+      });
+      setActiveNoteDetail((prev) =>
+        prev ? { ...prev, notes: [], note: "" } : null,
+      );
+    } catch (err) {
+      console.error("Failed to delete all notes:", err);
+    }
+  };
+
+  const handleDeleteNote = async (noteIndex: number) => {
+    if (!activeNoteDetail || !record.id) return;
+    try {
+      await onSaveQuestionNote({
+        id: record.id,
         questionId: activeNoteDetail.questionId,
         question: activeNoteDetail.question,
         selectedAnswer: activeNoteDetail.selectedAnswer || "",
@@ -347,259 +188,182 @@ export default function AttemptReviewPopup({
         mode: "delete",
         noteIndex,
       });
+      setActiveNoteDetail((prev) => {
+        if (!prev) return null;
+        const nextNotes = [...(prev.notes || [])];
+        nextNotes.splice(noteIndex, 1);
+        return { ...prev, notes: nextNotes, note: nextNotes[0] || "" };
+      });
+    } catch (err) {
+      console.error("Failed to delete note:", err);
+    }
+  };
 
-      handleUpdateNotes(activeNoteKey, (previousNotes) =>
-        previousNotes.filter((_entry, index) => index !== noteIndex),
-      );
+  const handleSaveNote = async () => {
+    if (!activeNoteDetail || !record.id) return;
+    const trimmed = activeNoteDraft.trim();
+    if (!trimmed) {
+      setNoteValidationError("Note cannot be empty.");
+      return;
+    }
+    setNoteValidationError("");
+    try {
+      await onSaveQuestionNote({
+        id: record.id,
+        questionId: activeNoteDetail.questionId,
+        question: activeNoteDetail.question,
+        selectedAnswer: activeNoteDetail.selectedAnswer || "",
+        correctAnswer: activeNoteDetail.correctAnswer || "",
+        note: trimmed,
+        mode: editingNoteIndex === null ? "add" : "edit",
+        noteIndex: editingNoteIndex !== null ? editingNoteIndex : undefined,
+      });
+      setActiveNoteDetail((prev) => {
+        if (!prev) return null;
+        const nextNotes = [...(prev.notes || [])];
+        if (editingNoteIndex === null) {
+          nextNotes.push(trimmed);
+        } else {
+          nextNotes[editingNoteIndex] = trimmed;
+        }
+        return { ...prev, notes: nextNotes, note: nextNotes[0] || "" };
+      });
+      setIsNoteComposerOpen(false);
+      setEditingNoteIndex(null);
+      setActiveNoteDraft("");
+    } catch (err) {
+      console.error("Failed to save note:", err);
+      setNoteValidationError("An error occurred while saving the note.");
+    }
+  };
 
-      if (editingNoteIndex === null) return;
-      if (editingNoteIndex === noteIndex) {
-        handleCloseNoteComposer();
-        return;
-      }
-      if (editingNoteIndex > noteIndex) {
-        setEditingNoteIndex(editingNoteIndex - 1);
-      }
-    },
-    [
-      activeNoteDetail,
-      activeNoteKey,
-      editingNoteIndex,
-      getDetailRecordId,
-      handleCloseNoteComposer,
-      handleUpdateNotes,
-      onSaveQuestionNote,
-      record,
-    ],
-  );
-
-  const handleDeleteAllNotes = useCallback(async () => {
-    if (!record || !activeNoteDetail || !activeNoteKey) return;
-
-    await onSaveQuestionNote({
-      id: getDetailRecordId(activeNoteDetail),
-      questionId: activeNoteDetail.questionId,
-      question: activeNoteDetail.question,
-      selectedAnswer: activeNoteDetail.selectedAnswer || "",
-      correctAnswer: activeNoteDetail.correctAnswer || "",
-      note: "",
-      mode: "delete",
-    });
-
-    handleUpdateNotes(activeNoteKey, () => []);
-    handleCloseNoteComposer();
-  }, [
-    activeNoteDetail,
-    activeNoteKey,
-    getDetailRecordId,
-    handleCloseNoteComposer,
-    handleUpdateNotes,
-    onSaveQuestionNote,
-    record,
-  ]);
-
-  const handleNoteDraftChange = useCallback(
-    (value: string) => {
-      setActiveNoteDraft(value);
-      if (noteValidationError) setNoteValidationError("");
-    },
-    [noteValidationError],
-  );
-
-  const handleStartEditWhy = useCallback(() => {
-    setIsWhyComposerOpen(true);
-    setActiveWhyDraft(activeWhyValue);
+  const handleOpenWhyModal = (detail: PracticeQuestionDetail) => {
+    setActiveWhyDetail(detail);
+    setIsWhyComposerOpen(false);
+    setWhyDraft("");
     setWhyValidationError("");
-  }, [activeWhyValue]);
+  };
 
-  const handleWhyDraftChange = useCallback(
-    (value: string) => {
-      setActiveWhyDraft(value);
-      if (whyValidationError) setWhyValidationError("");
-    },
-    [whyValidationError],
-  );
+  const handleCloseWhyModal = () => {
+    setActiveWhyDetail(null);
+    setIsWhyComposerOpen(false);
+    setWhyDraft("");
+    setWhyValidationError("");
+  };
 
-  const handleSaveActiveWhy = useCallback(async () => {
-    if (!record || !activeWhyDetail || !activeWhyKey) return;
+  const handleStartEditWhy = () => {
+    setIsWhyComposerOpen(true);
+    setWhyDraft(activeWhyValue);
+    setWhyValidationError("");
+  };
 
-    const nextWhy = activeWhyDraft.trim();
-    if (!nextWhy) {
+  const handleDeleteWhy = async () => {
+    if (!activeWhyDetail || !record.id) return;
+    try {
+      await onSaveQuestionWhy({
+        id: record.id,
+        questionId: activeWhyDetail.questionId,
+        question: activeWhyDetail.question,
+        selectedAnswer: activeWhyDetail.selectedAnswer || "",
+        correctAnswer: activeWhyDetail.correctAnswer || "",
+        why: "",
+        mode: "delete",
+      });
+      setActiveWhyDetail((prev) => (prev ? { ...prev, why: "" } : null));
+    } catch (err) {
+      console.error("Failed to delete reason:", err);
+    }
+  };
+
+  const handleSaveWhy = async () => {
+    if (!activeWhyDetail || !record.id) return;
+    const trimmed = whyDraft.trim();
+    if (!trimmed) {
       setWhyValidationError("Reason cannot be empty.");
       return;
     }
-
-    await onSaveQuestionWhy({
-      id: getDetailRecordId(activeWhyDetail),
-      questionId: activeWhyDetail.questionId,
-      question: activeWhyDetail.question,
-      selectedAnswer: activeWhyDetail.selectedAnswer || "",
-      correctAnswer: activeWhyDetail.correctAnswer || "",
-      why: nextWhy,
-      mode: "replace",
-    });
-
-    handleUpdateWhy(activeWhyKey, nextWhy);
-    setActiveWhyDetail((previous) =>
-      previous ? { ...previous, why: nextWhy } : previous,
-    );
-    setIsWhyComposerOpen(false);
-    setActiveWhyDraft(nextWhy);
     setWhyValidationError("");
-  }, [
-    activeWhyDetail,
-    activeWhyDraft,
-    activeWhyKey,
-    getDetailRecordId,
-    handleUpdateWhy,
-    onSaveQuestionWhy,
-    record,
-  ]);
+    try {
+      await onSaveQuestionWhy({
+        id: record.id,
+        questionId: activeWhyDetail.questionId,
+        question: activeWhyDetail.question,
+        selectedAnswer: activeWhyDetail.selectedAnswer || "",
+        correctAnswer: activeWhyDetail.correctAnswer || "",
+        why: trimmed,
+        mode: "replace",
+      });
+      setActiveWhyDetail((prev) => (prev ? { ...prev, why: trimmed } : null));
+      setIsWhyComposerOpen(false);
+      setWhyDraft("");
+    } catch (err) {
+      console.error("Failed to save reason:", err);
+      setWhyValidationError("An error occurred while saving the reason.");
+    }
+  };
 
-  const handleDeleteWhy = useCallback(async () => {
-    if (!record || !activeWhyDetail || !activeWhyKey) return;
-
-    await onSaveQuestionWhy({
-      id: getDetailRecordId(activeWhyDetail),
-      questionId: activeWhyDetail.questionId,
-      question: activeWhyDetail.question,
-      selectedAnswer: activeWhyDetail.selectedAnswer || "",
-      correctAnswer: activeWhyDetail.correctAnswer || "",
-      why: "",
-      mode: "delete",
-    });
-
-    handleUpdateWhy(activeWhyKey, "");
-    setActiveWhyDetail((previous) =>
-      previous ? { ...previous, why: "" } : previous,
-    );
-    setIsWhyComposerOpen(false);
-    setActiveWhyDraft("");
-    setWhyValidationError("");
-  }, [
-    activeWhyDetail,
-    activeWhyKey,
-    getDetailRecordId,
-    handleUpdateWhy,
-    onSaveQuestionWhy,
-    record,
-  ]);
-
-  const handleDeleteGroupedAttempt = useCallback(
-    async (attemptId: string) => {
-      if (!attemptId || deletingAttemptIdSet.has(attemptId)) return;
-      const confirmed = window.confirm(
-        "Delete this attempt? It will move to the recycle bin.",
-      );
-      if (!confirmed) return;
-
+  const handleDeleteGroupedDate = async (
+    dateLabel: string,
+    attemptIds: string[],
+  ) => {
+    if (
+      !confirm(`Are you sure you want to delete all attempts for ${dateLabel}?`)
+    )
+      return;
+    for (const attemptId of attemptIds) {
       await onDeleteAttempt(attemptId);
-      onClose();
-    },
-    [deletingAttemptIdSet, onClose, onDeleteAttempt],
-  );
+    }
+  };
 
-  const handleDeleteGroupedDate = useCallback(
-    async (dateLabel: string, attemptIds: string[]) => {
-      const uniqueAttemptIds = Array.from(new Set(attemptIds.filter(Boolean)));
-      if (uniqueAttemptIds.length === 0) return;
+  const handleDeleteGroupedAttempt = async (attemptId: string) => {
+    if (!confirm("Are you sure you want to delete this attempt?")) return;
+    await onDeleteAttempt(attemptId);
+  };
 
-      const confirmed = window.confirm(
-        `Delete all attempts on ${dateLabel}? They will move to the recycle bin.`,
-      );
-      if (!confirmed) return;
+  const isSavingActiveNote = activeNoteDetail
+    ? savingQuestionNoteKey === buildDetailKey(activeNoteDetail)
+    : false;
 
-      for (const attemptId of uniqueAttemptIds) {
-        if (!deletingAttemptIdSet.has(attemptId)) {
-          await onDeleteAttempt(attemptId);
-        }
-      }
+  const isSavingActiveWhy = activeWhyDetail
+    ? savingQuestionNoteKey === buildDetailKey(activeWhyDetail)
+    : false;
 
-      onClose();
-    },
-    [deletingAttemptIdSet, onClose, onDeleteAttempt],
-  );
-
-  useBodyScrollLock(isOpen);
-
-  useFocusTrap({
-    isActive: isOpen,
-    containerRef: panelRef,
-    initialFocusSelector: "button",
-  });
-
-  useFocusTrap({
-    isActive: Boolean(activeNoteDetail),
-    containerRef: notePanelRef,
-    initialFocusSelector: "textarea, button",
-  });
-
-  useFocusTrap({
-    isActive: Boolean(activeWhyDetail),
-    containerRef: whyPanelRef,
-    initialFocusSelector: "textarea, button",
-  });
-
-  if (!record) return null;
-
-  const isSavingActiveNote =
-    Boolean(activeNoteKey) &&
-    Boolean(activeNoteDetail) &&
-    savingQuestionNoteKey ===
-      `${getDetailRecordId(activeNoteDetail as PracticeQuestionDetail)}::${buildDetailKey(
-        activeNoteDetail as PracticeQuestionDetail,
-      )}`;
-  const isSavingActiveWhy =
-    Boolean(activeWhyKey) &&
-    Boolean(activeWhyDetail) &&
-    savingQuestionNoteKey ===
-      `${getDetailRecordId(activeWhyDetail as PracticeQuestionDetail)}::${buildDetailKey(
-        activeWhyDetail as PracticeQuestionDetail,
-      )}`;
-
-  return createPortal(
-    <>
+  return (
+    <div className="subject-popup-backdrop" onClick={onClose}>
       <div
-        className="subject-popup-backdrop review-popup-backdrop"
-        onClick={onClose}
+        className="subject-popup-panel glass-panel fade-slide-in"
+        onClick={(event) => event.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+        aria-label={`${record.subject} - ${record.topic} Review`}
       >
-        <div
-          ref={panelRef}
-          className="subject-popup-panel glass-panel fade-slide-in review-popup-panel"
-          onClick={(event) => event.stopPropagation()}
-          role="dialog"
-          aria-modal="true"
-          aria-label="Attempt review"
-          tabIndex={-1}
-        >
-          <ReviewPopupHeader record={record} onClose={onClose} />
+        <ReviewPopupHeader record={record} onClose={onClose} />
 
-          <ReviewPopupStats record={record} />
+        <ReviewPopupStats record={record} />
 
-          {details.length === 0 ? (
-            <p className="review-popup-empty">
-              No incorrect/skipped question details are available for this
-              attempt.
+        <ReviewPopupFilters
+          reviewDateFilter={reviewDateFilter}
+          reviewDateOptions={reviewDateOptions}
+          reviewSortOrder={reviewSortOrder}
+          onDateFilterChange={setReviewDateFilter}
+          onSortOrderChange={setReviewSortOrder}
+        />
+
+        <div className="review-popup-content-area">
+          {groupedDetails.length === 0 ? (
+            <p className="empty-state-copy text-center py-8">
+              No questions found for the selected date filter.
             </p>
           ) : (
-            <section aria-live="polite">
-              <ReviewPopupFilters
-                reviewDateFilter={reviewDateFilter}
-                reviewDateOptions={reviewDateOptions}
-                reviewSortOrder={reviewSortOrder}
-                onDateFilterChange={setReviewDateFilter}
-                onSortOrderChange={setReviewSortOrder}
-              />
-
-              <ReviewGroupedDetails
-                groupedDetails={groupedDetails}
-                deletingAttemptIdSet={deletingAttemptIdSet}
-                onDeleteGroupedDate={handleDeleteGroupedDate}
-                onDeleteGroupedAttempt={handleDeleteGroupedAttempt}
-                onOpenNote={handleOpenNoteModal}
-                onOpenWhy={handleOpenWhyModal}
-              />
-            </section>
+            <ReviewGroupedDetails
+              groupedDetails={groupedDetails}
+              deletingAttemptIdSet={deletingAttemptIdSet}
+              onDeleteGroupedDate={handleDeleteGroupedDate}
+              onDeleteGroupedAttempt={handleDeleteGroupedAttempt}
+              onOpenNote={handleOpenNoteModal}
+              onOpenWhy={handleOpenWhyModal}
+              isSolveMode={isSolveMode} // PASS SOLVE MODE DOWN
+            />
           )}
         </div>
       </div>
@@ -615,30 +379,29 @@ export default function AttemptReviewPopup({
         notePanelRef={notePanelRef}
         onCloseModal={handleCloseNoteModal}
         onStartAddNote={handleStartAddNote}
-        onDeleteAllNotes={() => void handleDeleteAllNotes()}
+        onDeleteAllNotes={handleDeleteAllNotes}
         onStartEditNote={handleStartEditNote}
-        onDeleteNote={(noteIndex) => void handleDeleteNote(noteIndex)}
-        onDraftChange={handleNoteDraftChange}
-        onCloseComposer={handleCloseNoteComposer}
-        onSaveNote={() => void handleSaveActiveNote()}
+        onDeleteNote={handleDeleteNote}
+        onDraftChange={setActiveNoteDraft}
+        onCloseComposer={() => setIsNoteComposerOpen(false)}
+        onSaveNote={handleSaveNote}
       />
 
       <QuestionWhyModal
         activeWhyDetail={activeWhyDetail}
         activeWhyValue={activeWhyValue}
         isWhyComposerOpen={isWhyComposerOpen}
-        whyDraft={activeWhyDraft}
+        whyDraft={whyDraft}
         whyValidationError={whyValidationError}
         isSavingActiveWhy={isSavingActiveWhy}
         whyPanelRef={whyPanelRef}
         onCloseModal={handleCloseWhyModal}
         onStartEditWhy={handleStartEditWhy}
-        onDeleteWhy={() => void handleDeleteWhy()}
-        onDraftChange={handleWhyDraftChange}
-        onCloseComposer={handleCloseWhyComposer}
-        onSaveWhy={() => void handleSaveActiveWhy()}
+        onDeleteWhy={handleDeleteWhy}
+        onDraftChange={setWhyDraft}
+        onCloseComposer={() => setIsWhyComposerOpen(false)}
+        onSaveWhy={handleSaveWhy}
       />
-    </>,
-    document.body,
+    </div>
   );
 }
