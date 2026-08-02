@@ -874,13 +874,18 @@ function MultiSelectDropdown({
 function DayBlockBuilder({ day, data, updateData, subjects }: any) {
   const [activeTab, setActiveTab] = useState<TaskCategory>("Note");
 
+  const TIME_BLOCK_OPTIONS = [
+    { label: "07:00 AM - 08:00 AM", value: "07:00-08:00" },
+    { label: "08:00 PM - 10:00 PM", value: "20:00-22:00" },
+    { label: "11:00 PM - 11:59 PM", value: "23:00-23:59" },
+  ];
+
   // Note State
   const [noteSub, setNoteSub] = useState(subjects[0] || "");
   const [noteChap, setNoteChap] = useState("");
   const [noteTopics, setNoteTopics] = useState<string[]>([]);
   const [noteMode, setNoteMode] = useState<"complete" | "revise">("complete");
-  const [noteStart, setNoteStart] = useState("");
-  const [noteEnd, setNoteEnd] = useState("");
+  const [noteTimeBlock, setNoteTimeBlock] = useState("");
   const [noteSubjectCheckedUids, setNoteSubjectCheckedUids] = useState<
     Set<string>
   >(new Set());
@@ -938,8 +943,9 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
   const [testEasy, setTestEasy] = useState<number>(0);
   const [testMed, setTestMed] = useState<number>(0);
   const [testHard, setTestHard] = useState<number>(0);
-  const [testStart, setTestStart] = useState("");
-  const [testEnd, setTestEnd] = useState("");
+  const [testTimeBlock, setTestTimeBlock] = useState("");
+
+  // Pro Power: Dynamic Limit Engine
 
   // Pro Power: Dynamic Limit Engine
   const [mcqLimits, setMcqLimits] = useState({ easy: 0, medium: 0, hard: 0 });
@@ -1044,25 +1050,20 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
   }, [activeTab, testSub, testChap]);
 
   const calculatedMinutes = useMemo(() => {
-    if (!testStart || !testEnd) return 0;
-    const [sH, sM] = testStart.split(":").map(Number);
-    const [eH, eM] = testEnd.split(":").map(Number);
+    if (!testTimeBlock) return 0;
+    const [tStart, tEnd] = testTimeBlock.split("-");
+    const [sH, sM] = tStart.split(":").map(Number);
+    const [eH, eM] = tEnd.split(":").map(Number);
     let diff = eH * 60 + eM - (sH * 60 + sM);
     if (diff <= 0) diff += 24 * 60; // Handles midnight crossover
     return diff;
-  }, [testStart, testEnd]);
-
+  }, [testTimeBlock]);
   const handleAddNote = () => {
-    if (
-      !noteSub ||
-      !noteChap ||
-      noteTopics.length === 0 ||
-      !noteStart ||
-      !noteEnd
-    )
+    if (!noteSub || !noteChap || noteTopics.length === 0 || !noteTimeBlock)
       return;
 
     const exactPoints = calculateExactPoints(noteSub, noteChap, noteTopics);
+    const [nStart, nEnd] = noteTimeBlock.split("-");
 
     updateData({
       ...data,
@@ -1075,16 +1076,15 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
           chapter: noteChap,
           topics: noteTopics,
           totalPoints: exactPoints,
-          plannedStart: noteStart,
-          plannedEnd: noteEnd,
+          plannedStart: nStart,
+          plannedEnd: nEnd,
         },
       ],
     });
     setNoteChap("");
     setNoteTopics([]);
     setNoteMode("complete");
-    setNoteStart("");
-    setNoteEnd("");
+    setNoteTimeBlock("");
   };
 
   const handleAddTest = () => {
@@ -1143,14 +1143,16 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
       !testSub ||
       !testChap ||
       totalQuestions === 0 ||
-      !testStart ||
-      !testEnd ||
+      !testTimeBlock ||
       time <= 0
     )
       return;
     const selectedMcqChapter = mcqChapterOptions.find(
       (chapter) => chapter.slug === testChap,
     );
+
+    const [tStart, tEnd] = testTimeBlock.split("-");
+
     // ... pushes to data.tests
     updateData({
       ...data,
@@ -1166,8 +1168,8 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
           medium: m,
           hard: h,
           timer: time,
-          plannedStart: testStart,
-          plannedEnd: testEnd,
+          plannedStart: tStart,
+          plannedEnd: tEnd,
         },
       ],
     });
@@ -1175,8 +1177,7 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
     setTestMed(0);
     setTestHard(0);
     setTestChap("");
-    setTestStart("");
-    setTestEnd("");
+    setTestTimeBlock("");
   };
 
   return (
@@ -1250,32 +1251,19 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
               />
             </div>
           </div>
-
           <div className="flex flex-wrap items-end gap-3 w-full">
-            <div className="w-[118px]">
+            <div className="flex-1 min-w-[200px] max-w-[280px]">
               <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
-                Start
+                Time Block
               </label>
-              <input
-                type="time"
-                value={noteStart}
-                onChange={(e) => setNoteStart(e.target.value)}
-                className={`${inputClasses} h-12 px-3 [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert opacity-90`}
-                required
+              <BuilderDropdown
+                value={noteTimeBlock}
+                onChange={(val: string) => setNoteTimeBlock(val)}
+                options={TIME_BLOCK_OPTIONS}
+                placeholder="Select Time Block"
               />
             </div>
-            <div className="w-[118px]">
-              <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
-                End
-              </label>
-              <input
-                type="time"
-                value={noteEnd}
-                onChange={(e) => setNoteEnd(e.target.value)}
-                className={`${inputClasses} h-12 px-3 [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert opacity-90`}
-                required
-              />
-            </div>
+
             <div className="w-[150px]">
               <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
                 Mode
@@ -1309,9 +1297,9 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
 
             <button
               onClick={handleAddNote}
-              disabled={noteTopics.length === 0 || !noteStart || !noteEnd}
+              disabled={noteTopics.length === 0 || !noteTimeBlock}
               className={`h-12 px-8 shrink-0 flex items-center justify-center rounded-[16px] font-black uppercase tracking-widest text-xs transition-all ${
-                noteTopics.length > 0 && noteStart && noteEnd
+                noteTopics.length > 0 && noteTimeBlock
                   ? "bg-white text-black hover:bg-slate-200 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.1)]"
                   : "bg-white/[0.05] text-white/30 border border-white/[0.05] cursor-not-allowed"
               }`}
@@ -1480,63 +1468,16 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
           </div>
 
           <div className="flex flex-wrap items-center gap-4">
-            <div className="flex-1 min-w-[140px] relative group">
+            <div className="flex-1 min-w-[200px] max-w-[300px]">
               <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-2 pl-1">
-                Start Time
+                Time Block
               </label>
-              <div className="relative flex items-center h-12 bg-[#050505] border border-white/[0.08] rounded-[16px] group-hover:border-white/[0.15] focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500/30 transition-all shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)] overflow-hidden">
-                <div className="absolute left-4 text-slate-500 group-focus-within:text-blue-400 pointer-events-none transition-colors">
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2.5}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <input
-                  type="time"
-                  value={testStart}
-                  onChange={(e) => setTestStart(e.target.value)}
-                  className="w-full h-full bg-transparent pl-11 pr-4 text-slate-200 text-sm font-bold outline-none cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-0 [&::-webkit-calendar-picker-indicator]:absolute [&::-webkit-calendar-picker-indicator]:inset-0 [&::-webkit-calendar-picker-indicator]:w-full [&::-webkit-calendar-picker-indicator]:cursor-pointer appearance-none border-none focus:ring-0 m-0"
-                  required
-                />
-              </div>
-            </div>
-            <div className="flex-1 min-w-[140px] relative group">
-              <label className="block text-[10px] font-black uppercase tracking-[0.2em] text-slate-500 mb-2 pl-1">
-                End Time
-              </label>
-              <div className="relative flex items-center h-12 bg-[#050505] border border-white/[0.08] rounded-[16px] group-hover:border-white/[0.15] focus-within:border-blue-500 focus-within:ring-1 focus-within:ring-blue-500/30 transition-all shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)] overflow-hidden">
-                <div className="absolute left-4 text-slate-500 group-focus-within:text-blue-400 pointer-events-none transition-colors">
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2.5}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <input
-                  type="time"
-                  value={testEnd}
-                  onChange={(e) => setTestEnd(e.target.value)}
-                  className="w-full h-full bg-transparent pl-11 pr-4 text-slate-200 text-sm font-bold outline-none cursor-pointer [&::-webkit-calendar-picker-indicator]:opacity-0 [&::-webkit-calendar-picker-indicator]:absolute [&::-webkit-calendar-picker-indicator]:inset-0 [&::-webkit-calendar-picker-indicator]:w-full [&::-webkit-calendar-picker-indicator]:cursor-pointer appearance-none border-none focus:ring-0 m-0"
-                  required
-                />
-              </div>
+              <BuilderDropdown
+                value={testTimeBlock}
+                onChange={(val: string) => setTestTimeBlock(val)}
+                options={TIME_BLOCK_OPTIONS}
+                placeholder="Select Time Block"
+              />
             </div>
           </div>
 
@@ -1661,14 +1602,12 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
             <button
               onClick={handleAddTest}
               disabled={
-                !testStart ||
-                !testEnd ||
+                !testTimeBlock ||
                 calculatedMinutes <= 0 ||
                 Number(testEasy) + Number(testMed) + Number(testHard) === 0
               }
               className={`h-12 px-8 text-xs font-black uppercase tracking-widest rounded-[16px] transition-all w-full sm:w-auto ${
-                testStart &&
-                testEnd &&
+                testTimeBlock &&
                 calculatedMinutes > 0 &&
                 Number(testEasy) + Number(testMed) + Number(testHard) > 0
                   ? "bg-white hover:bg-slate-200 text-black active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.1)]"
@@ -2879,10 +2818,23 @@ export default function WeeklyPlannerPanel() {
           n.totalPoints ||
           0;
 
+        // 🧠 PRO FIX: Assign exact future epoch time so duplicate revisions in the same week demand fresh work!
+        // 🧠 PRO FIX: Future epoch time WITH a 2-hour "Early Bird" buffer!
+        // Prevents Monday night from leaking into Tuesday, but safely counts if you start Tuesday's task early.
+        let missionStartEpoch = Date.now();
+        if (n.plannedStart) {
+          const [hh, mm] = n.plannedStart.split(":").map(Number);
+          const [yyyy, month, dd] = day.dateKey.split("-").map(Number);
+          // Deduct 2 hours (2 * 60 * 60 * 1000 milliseconds)
+          missionStartEpoch =
+            new Date(yyyy, month - 1, dd, hh, mm, 0, 0).getTime() -
+            2 * 60 * 60 * 1000;
+        }
+
         return {
           id: `note-${day.dateKey}-${i}`,
           mode: n.mode === "revise" ? "revise" : "complete",
-          createdAt: Date.now(),
+          createdAt: missionStartEpoch,
           subjectKey: n.subject,
           subject: n.subject,
           chapterUid: n.chapter,
