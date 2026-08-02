@@ -1094,50 +1094,6 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
     let time = calculatedMinutes;
 
     const totalQuestions = e + m + h;
-    const standardTimeLimit = totalQuestions * 1.5; // Standard UPSC pace is ~1.5 mins per Q
-
-    // 🧠 PRO FIX: AI Cold Start Adaptive Calibration
-    // Fetches local diagnostic history for this specific subject
-    const diagnosticKey = `upsc_diagnostic_${testSub.replace(/\s+/g, "_")}`;
-
-    let testsTaken = 0;
-    try {
-      testsTaken =
-        parseInt(window.localStorage.getItem(diagnosticKey) || "0", 10) || 0; // 🛡️ PRO FIX: Fallback to 0 if localStorage is corrupted to prevent breaking AI limits
-    } catch {
-      console.warn("Storage restricted, skipping diagnostic counter.");
-    }
-
-    if (testsTaken < 5) {
-      // DIAGNOSTIC PHASE: Observe natural speed. Do not crush the student yet.
-      console.log(
-        `📊 Diagnostic Phase (${testsTaken}/5 tests). Observing baseline...`,
-      );
-
-      if (time > standardTimeLimit) {
-        time = Math.ceil(standardTimeLimit); // Cap at standard UPSC time, but don't aggressively compress
-        alert(
-          `📊 Diagnostic Phase: Timer standardized to ${time} mins. Complete ${5 - testsTaken} more tests in [${testSub}] to unlock AI Time Compression.`,
-        );
-      }
-
-      // 🛡️ PRO FIX: Wrap in Try/Catch to prevent UI crash on QuotaExceededError
-      try {
-        window.localStorage.setItem(diagnosticKey, (testsTaken + 1).toString());
-      } catch (storageErr) {
-        console.error(
-          "Local storage full, could not increment diagnostic tracker.",
-        );
-      }
-    } else {
-      // ADAPTIVE PHASE: Apply brutal 15% Parkinson's Law compression
-      if (time > standardTimeLimit) {
-        time = Math.ceil(standardTimeLimit * 0.85);
-        alert(
-          `⚡ Adaptive AI Compression: Diagnostic phase complete. Timer aggressively compressed to ${time} mins to force cognitive growth!`,
-        );
-      }
-    }
 
     if (
       !testSub ||
