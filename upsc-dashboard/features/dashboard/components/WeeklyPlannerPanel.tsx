@@ -3075,6 +3075,59 @@ export default function WeeklyPlannerPanel() {
       ? Math.min(100, (dailyTestCompletedPoints / dailyTestTotalPoints) * 100)
       : 0;
 
+  // 🛡️ PRO FIX: Load Existing Plan into the Builder Modal
+  const handleOpenBuilder = () => {
+    if (weeklyPlan) {
+      const initialBuilderData: Record<string, DayBuilderState> = {
+        MON: { notes: [], tests: [], others: [] },
+        TUE: { notes: [], tests: [], others: [] },
+        WED: { notes: [], tests: [], others: [] },
+        THU: { notes: [], tests: [], others: [] },
+        FRI: { notes: [], tests: [], others: [] },
+        SAT: { notes: [], tests: [], others: [] },
+      };
+
+      weeklyPlan.days.forEach((day) => {
+        if (initialBuilderData[day.dayOfWeek]) {
+          const notes = (day.noteMissions || [])
+            .filter((m) => !m.chapterLabel.includes(" - Debt")) // Hide spillover debt blocks
+            .map((m) => ({
+              id: m.id,
+              mode: m.mode || "complete",
+              subject: m.subject,
+              chapter: m.chapterLabel,
+              topics: m.targets ? m.targets.map((t) => t.label) : [],
+              totalPoints: m.progress?.totalTargets || 0,
+              plannedStart: m.timeValidation?.plannedStart,
+              plannedEnd: m.timeValidation?.plannedEnd,
+            }));
+
+          const tests = (day.testMissions || []).map((m) => ({
+            id: m.id,
+            subject: m.subject,
+            chapter: m.chapterSlug,
+            topic: m.chapterTitle,
+            mode: m.mode,
+            easy: m.difficultyBreakdown?.easy || 0,
+            medium: m.difficultyBreakdown?.medium || 0,
+            hard: m.difficultyBreakdown?.hard || 0,
+            timer: m.timeLimitMinutes || 0,
+            plannedStart: m.timeValidation?.plannedStart,
+            plannedEnd: m.timeValidation?.plannedEnd,
+          }));
+
+          initialBuilderData[day.dayOfWeek] = {
+            notes: notes as BuilderNote[],
+            tests: tests as BuilderTest[],
+            others: [],
+          };
+        }
+      });
+      setBuilderData(initialBuilderData);
+    }
+    setIsModalOpen(true);
+  };
+
   return (
     <div className="min-h-screen w-full bg-[#000000] text-slate-200 font-sans selection:bg-blue-500/30 flex flex-col items-center antialiased relative overflow-hidden">
       {/* 🛡️ PRO FIX: Burnout Override Shield */}
@@ -3168,7 +3221,7 @@ export default function WeeklyPlannerPanel() {
                 Reset Matrix
               </button>
               <button
-                onClick={() => setIsModalOpen(true)}
+                onClick={handleOpenBuilder}
                 className="h-11 px-6 text-xs font-black bg-blue-600 hover:bg-blue-500 text-white rounded-xl transition-all active:scale-95 shadow-[0_0_20px_rgba(37,99,235,0.4)] tracking-widest uppercase flex items-center gap-2"
               >
                 <svg
@@ -3272,26 +3325,28 @@ export default function WeeklyPlannerPanel() {
               </div>
 
               <div className="flex items-center gap-2 rounded-2xl border border-white/10 bg-black/50 p-2 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] backdrop-blur-md overflow-x-auto [&::-webkit-scrollbar]:hidden">
-                {/* 🛡️ PRO FIX: Time Travel Left Arrow */}
-                <button
-                  onClick={() => setViewOffsetWeeks((prev) => prev - 1)}
-                  className="group relative flex h-full min-h-[64px] w-10 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/[0.025] transition-all hover:bg-white/[0.1] hover:border-white/20 active:scale-95"
-                  title="Previous Week"
-                >
-                  <svg
-                    className="h-5 w-5 text-slate-400 transition-colors group-hover:text-white"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2.5}
+                {/* 🛡️ PRO FIX: Time Travel Left Arrow (Hidden if at or before Aug 3, 2026) */}
+                {weekStartDate > "2026-08-03" && (
+                  <button
+                    onClick={() => setViewOffsetWeeks((prev) => prev - 1)}
+                    className="group relative flex h-full min-h-[64px] w-10 shrink-0 items-center justify-center rounded-xl border border-white/10 bg-white/[0.025] transition-all hover:bg-white/[0.1] hover:border-white/20 active:scale-95"
+                    title="Previous Week"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15 19l-7-7 7-7"
-                    />
-                  </svg>
-                </button>
+                    <svg
+                      className="h-5 w-5 text-slate-400 transition-colors group-hover:text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2.5}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 19l-7-7 7-7"
+                      />
+                    </svg>
+                  </button>
+                )}
 
                 {hydratedWeeklyPlan?.days
                   .filter((day) => day.dayOfWeek !== "SUN")
