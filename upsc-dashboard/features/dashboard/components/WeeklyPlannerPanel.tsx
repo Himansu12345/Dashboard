@@ -929,11 +929,7 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
   // If the selection is already fully done, "Complete" mode is meaningless here —
   // auto-switch to "Revise" so progress is tracked off the real revision button data.
   const effectiveNoteMode: "complete" | "revise" =
-    areSelectedTopicsFullyCompleted
-      ? "revise"
-      : noteMode === "revise"
-        ? "complete"
-        : noteMode;
+    areSelectedTopicsFullyCompleted ? "revise" : noteMode;
 
   // Test State
   const [testSub, setTestSub] = useState(subjects[0] || "");
@@ -1064,9 +1060,6 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
       !noteStart ||
       !noteEnd
     )
-      return;
-
-    if (effectiveNoteMode === "revise" && !areSelectedTopicsFullyCompleted)
       return;
 
     const exactPoints = calculateExactPoints(noteSub, noteChap, noteTopics);
@@ -1303,11 +1296,11 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
                   {
                     label: "Revise",
                     value: "revise",
-                    disabled: !areSelectedTopicsFullyCompleted,
+                    disabled: false,
                   },
                 ]}
               />
-              {/* {areSelectedTopicsFullyCompleted && (
+              {/* {areSelectedTopicsFullyCompleted && (/* {areSelectedTopicsFullyCompleted && (
                 <p className="mt-1.5 text-[9px] font-bold text-amber-400/90 leading-snug">
                   Already 100% complete — switched to Revise.
                 </p>
