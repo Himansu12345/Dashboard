@@ -1,4 +1,5 @@
-const DEFAULT_BACKEND_BASE_URL = "http://localhost:5000";
+const rawUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const DEFAULT_BACKEND_BASE_URL = rawUrl.endsWith("/api") ? rawUrl : `${rawUrl}/api`;
 
 export function getBackendBaseUrl(): string {
   return (process.env.NEXT_PUBLIC_API_BASE_URL || DEFAULT_BACKEND_BASE_URL).replace(

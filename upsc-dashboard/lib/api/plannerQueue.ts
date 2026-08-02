@@ -1,5 +1,8 @@
 const PLANNER_VAULT_KEY = "upsc_planner_offline_vault";
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+
+// Smart Appender for API_URL
+const rawUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API_URL = rawUrl.endsWith("/api") ? rawUrl : `${rawUrl}/api`;
 
 export async function savePlannerSafely(plan: any) {
   if (typeof window !== "undefined") {

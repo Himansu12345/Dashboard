@@ -192,7 +192,11 @@ export interface DayBuilderState {
 // ==========================================
 // 3. CONSTANTS, REGISTRY & SMART INHERITANCE
 // ==========================================
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const rawUrl =
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  process.env.NEXT_PUBLIC_API_URL ||
+  "http://localhost:5000/api";
+const API_URL = rawUrl.endsWith("/api") ? rawUrl : `${rawUrl}/api`;
 const SUBJECT_PROGRESS_API_URL = `${API_URL}/subject-progress`;
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
