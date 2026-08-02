@@ -871,9 +871,7 @@ function MultiSelectDropdown({
   );
 }
 
-// ==========================================
-// 5. DAY BLOCK BUILDER (MODAL)
-function DayBlockBuilder({ day, data, updateData, subjects }: any) {
+function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
   const [activeTab, setActiveTab] = useState<TaskCategory>("Note");
 
   const TIME_BLOCK_OPTIONS = [
@@ -924,6 +922,7 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
   }, [noteSub]);
 
   // True only when EVERY point of EVERY currently-selected topic is already ticked.
+  // True only when EVERY point of EVERY currently-selected topic is already ticked.
   const areSelectedTopicsFullyCompleted = useMemo(() => {
     if (!noteSub || !noteChap || noteTopics.length === 0) return false;
 
@@ -933,10 +932,37 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
     return leafUids.every((uid) => noteSubjectCheckedUids.has(uid));
   }, [noteSub, noteChap, noteTopics, noteSubjectCheckedUids]);
 
+  // 🧠 PRO FIX: Cross-Day In-Memory Check
+  const areSelectedTopicsGloballyCompleted = useMemo(() => {
+    if (!noteSub || !noteChap || noteTopics.length === 0 || !globalData)
+      return false;
+    let isFound = false;
+    Object.values(globalData).forEach((dayData: any) => {
+      dayData.notes.forEach((note: any) => {
+        if (
+          note.mode === "complete" &&
+          note.subject === noteSub &&
+          note.chapter === noteChap
+        ) {
+          const intersection = note.topics.filter((t: string) =>
+            noteTopics.includes(t),
+          );
+          if (intersection.length > 0) isFound = true;
+        }
+      });
+    });
+    return isFound;
+  }, [noteSub, noteChap, noteTopics, globalData]);
+
   // If the selection is already fully done, "Complete" mode is meaningless here —
   // auto-switch to "Revise" so progress is tracked off the real revision button data.
-  const effectiveNoteMode: "complete" | "revise" =
-    areSelectedTopicsFullyCompleted ? "revise" : noteMode;
+  const forceReviseMode =
+    areSelectedTopicsFullyCompleted || areSelectedTopicsGloballyCompleted;
+  const effectiveNoteMode: "complete" | "revise" = forceReviseMode
+    ? "revise"
+    : noteMode;
+
+  // Test State
 
   // Test State
   const [testSub, setTestSub] = useState(subjects[0] || "");
@@ -1060,9 +1086,28 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
     if (diff <= 0) diff += 24 * 60; // Handles midnight crossover
     return diff;
   }, [testTimeBlock]);
+  // 🧠 PRO FIX: Collision Guard Engine
+  const isTimeBlockOccupied = (timeBlock: string) => {
+    const hasNote = data.notes.some(
+      (n: any) => `${n.plannedStart}-${n.plannedEnd}` === timeBlock,
+    );
+    const hasTest = data.tests.some(
+      (t: any) => `${t.plannedStart}-${t.plannedEnd}` === timeBlock,
+    );
+    return hasNote || hasTest;
+  };
+
   const handleAddNote = () => {
     if (!noteSub || !noteChap || noteTopics.length === 0 || !noteTimeBlock)
       return;
+
+    // 🛡️ Collision Alert
+    if (isTimeBlockOccupied(noteTimeBlock)) {
+      alert(
+        "⚠️ TIME COLLISION: This time block is already occupied by another task on this day! Please select a different time block or delete the existing task.",
+      );
+      return;
+    }
 
     const exactPoints = calculateExactPoints(noteSub, noteChap, noteTopics);
     const [nStart, nEnd] = noteTimeBlock.split("-");
@@ -1105,6 +1150,15 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
       time <= 0
     )
       return;
+
+    // 🛡️ Collision Alert
+    if (isTimeBlockOccupied(testTimeBlock)) {
+      alert(
+        "⚠️ TIME COLLISION: This time block is already occupied by another task on this day! Please select a different time block or delete the existing task.",
+      );
+      return;
+    }
+
     const selectedMcqChapter = mcqChapterOptions.find(
       (chapter) => chapter.slug === testChap,
     );
@@ -1338,6 +1392,37 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
                         {n.plannedStart} - {n.plannedEnd}
                       </span>
                     </div>
+                    {/* 🧠 PRO FIX: Edit Button for Notes */}
+                    <button
+                      onClick={() => {
+                        setNoteSub(n.subject);
+                        setNoteChap(n.chapter);
+                        setNoteTopics(n.topics);
+                        setNoteTimeBlock(`${n.plannedStart}-${n.plannedEnd}`);
+                        setNoteMode(n.mode);
+                        updateData({
+                          ...data,
+                          notes: data.notes.filter((x: any) => x.id !== n.id),
+                        });
+                        setActiveTab("Note");
+                      }}
+                      className="text-white/30 hover:text-blue-400 transition-colors bg-white/[0.02] hover:bg-blue-500/10 p-1.5 rounded-lg border border-transparent hover:border-blue-500/20 mr-2"
+                      title="Edit Mission"
+                    >
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2.5"
+                          d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+                        />
+                      </svg>
+                    </button>
                     <button
                       onClick={() =>
                         updateData({
@@ -1606,6 +1691,39 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
                         {t.plannedStart} - {t.plannedEnd}
                       </span>
                     </div>
+                    {/* 🧠 PRO FIX: Edit Button for Tests */}
+                    <button
+                      onClick={() => {
+                        setTestSub(t.subject);
+                        setTestChap(t.chapter);
+                        setTestMode(t.mode);
+                        setTestEasy(t.easy);
+                        setTestMed(t.medium);
+                        setTestHard(t.hard);
+                        setTestTimeBlock(`${t.plannedStart}-${t.plannedEnd}`);
+                        updateData({
+                          ...data,
+                          tests: data.tests.filter((x: any) => x.id !== t.id),
+                        });
+                        setActiveTab("Test");
+                      }}
+                      className="text-white/30 hover:text-blue-400 transition-colors bg-white/[0.02] hover:bg-blue-500/10 p-1.5 rounded-lg border border-transparent hover:border-blue-500/20 shrink-0 ml-2"
+                      title="Edit Test"
+                    >
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2.5"
+                          d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"
+                        />
+                      </svg>
+                    </button>
                     <button
                       onClick={() =>
                         updateData({
@@ -1680,6 +1798,7 @@ function MatrixBuilderModal({
               key={day}
               day={day}
               data={builderData[day]}
+              globalData={builderData} // 🛡️ PRO FIX: Pass Global Data for Cross-Day Checks
               updateData={(newData: any) =>
                 setBuilderData({ ...builderData, [day]: newData })
               }
@@ -2425,7 +2544,7 @@ export default function WeeklyPlannerPanel() {
     }
   };
 
-  // PRO FIX: Phase 4 Surgical Split Engine
+  // 🧠 PRO FIX: Phase 4 Surgical Split Engine (Unified Debt Vault)
   const handleSplitLeftovers = (
     day: PlannerDay,
     mission: PlannerNoteMission,
@@ -2447,35 +2566,16 @@ export default function WeeklyPlannerPanel() {
       return;
     }
 
-    // 2. Generate the Spillover Mission (The Debt Collector)
-    const spilloverMission: PlannerNoteMission = {
-      ...mission,
-      id: `note-${day.dateKey}-split-${Date.now()}`,
-      chapterLabel: `${mission.chapterLabel} - Debt`,
-      targets: incompleteTargets,
-      timeValidation: {
-        plannedStart: DEBT_COLLECTOR_START,
-        plannedEnd: DEBT_COLLECTOR_END,
-        actualStart: null,
-        actualEnd: null,
-        validationState: "pending",
-        delayReason: "",
-      },
-      progress: {
-        status: "not_started",
-        completionPercent: 0,
-        totalTargets:
-          incompleteTargets.reduce(
-            (acc, t) => acc + (t.leafUids?.length || 0),
-            0,
-          ) || incompleteTargets.length,
-        completedTargets: 0,
-        revisedTargets: 0,
-        targets: incompleteTargets,
-      },
-    };
+    const DEBT_VAULT_ID = `debt-vault-${day.dateKey}`;
 
-    // 3. Finalize the Current Mission (Secure the points)
+    // Tag the targets with their original chapter so you know where they came from
+    const prefixedIncompleteTargets = incompleteTargets.map((t) => ({
+      ...t,
+      label: `[${mission.chapterLabel.substring(0, 15)}...] ${t.label}`,
+      uid: `${mission.id}-${t.uid}`, // Prevent React key clashes
+    }));
+
+    // Secure Current Mission Points
     const totalFinished =
       finishedTargets.reduce((acc, t) => acc + (t.leafUids?.length || 0), 0) ||
       finishedTargets.length;
@@ -2484,6 +2584,7 @@ export default function WeeklyPlannerPanel() {
         (acc, t) => acc + (t.completedLeafCount || t.leafUids?.length || 0),
         0,
       ) || totalFinished;
+
     const updatedCurrentMission: PlannerNoteMission = {
       ...mission,
       targets: finishedTargets,
@@ -2502,7 +2603,6 @@ export default function WeeklyPlannerPanel() {
       },
     };
 
-    // 4. Inject into the Matrix
     const nextPlan = {
       ...weeklyPlan,
       executionMatrix: {
@@ -2513,10 +2613,64 @@ export default function WeeklyPlannerPanel() {
       },
       days: weeklyPlan.days.map((d) => {
         if (d.dayOfWeek !== day.dayOfWeek) return d;
-        const newNoteMissions = d.noteMissions.map((m) =>
+
+        let newNoteMissions = d.noteMissions.map((m) =>
           m.id === mission.id ? updatedCurrentMission : m,
         );
-        newNoteMissions.push(spilloverMission);
+
+        // 🧠 The Unified Debt Vault Logic
+        const existingVault = newNoteMissions.find(
+          (m) => m.id === DEBT_VAULT_ID,
+        );
+
+        if (existingVault) {
+          const updatedVault = {
+            ...existingVault,
+            targets: [...existingVault.targets, ...prefixedIncompleteTargets],
+            progress: {
+              ...existingVault.progress!,
+              totalTargets:
+                (existingVault.progress?.totalTargets || 0) +
+                prefixedIncompleteTargets.length,
+              targets: [
+                ...(existingVault.progress?.targets || []),
+                ...prefixedIncompleteTargets,
+              ],
+            },
+          };
+          newNoteMissions = newNoteMissions.map((m) =>
+            m.id === DEBT_VAULT_ID ? updatedVault : m,
+          );
+        } else {
+          const newVault: PlannerNoteMission = {
+            id: DEBT_VAULT_ID,
+            mode: "complete",
+            createdAt: Date.now(),
+            subjectKey: "Mixed",
+            subject: "Multiple Subjects",
+            chapterUid: "debt-vault",
+            chapterLabel: "🚨 Unified Debt Vault",
+            targets: prefixedIncompleteTargets,
+            timeValidation: {
+              plannedStart: "00:00", // ANYTIME START (No late penalty)
+              plannedEnd: "23:59",
+              actualStart: null,
+              actualEnd: null,
+              validationState: "pending",
+              delayReason: "",
+            },
+            progress: {
+              status: "not_started",
+              completionPercent: 0,
+              totalTargets: prefixedIncompleteTargets.length,
+              completedTargets: 0,
+              revisedTargets: 0,
+              targets: prefixedIncompleteTargets,
+            },
+          };
+          newNoteMissions.push(newVault);
+        }
+
         return ensureDebtCollectorBlock({
           ...d,
           noteMissions: newNoteMissions,
@@ -2524,7 +2678,6 @@ export default function WeeklyPlannerPanel() {
       }),
     };
 
-    // ✅ Perfect New Code
     setWeeklyPlan(nextPlan);
     saveToDb(nextPlan);
 
@@ -2532,12 +2685,9 @@ export default function WeeklyPlannerPanel() {
       missionName: mission.chapterLabel,
       totalTopics: finishedTargets.length,
       totalPoints: totalFinished,
-      duration: `${mission.timeValidation?.plannedStart || "00:00"} - ${
-        mission.timeValidation?.plannedEnd || "00:00"
-      }`,
+      duration: "Split Completed",
     });
   };
-
   // PRO FIX: Phase 5 Catastrophe Reset Engine
   const handleCatastropheReset = (day: PlannerDay) => {
     if (!weeklyPlan) return;
@@ -3045,9 +3195,18 @@ export default function WeeklyPlannerPanel() {
   const currentDebtBlock = (currentDayData.otherMissions || []).find(
     (mission) => mission?.type === "debt_collector",
   );
+  // 🧠 PRO FIX: Find current day's Vault & calculate targets left
   const currentDebtMissions = (currentDayData.noteMissions || []).filter(
-    (mission) => mission.chapterLabel.includes(" - Debt"),
+    (mission) =>
+      mission.chapterLabel.includes(" - Debt") ||
+      mission.id.startsWith("debt-vault-"),
   );
+  const totalDebtTargets = currentDebtMissions.reduce((acc, m) => {
+    const notDone = (m.progress?.targets || []).filter(
+      (t) => !t.isCompleted,
+    ).length;
+    return acc + notDone;
+  }, 0);
   const matrixStreak = hydratedWeeklyPlan.executionMatrix?.currentStreak || 0;
   const resetCount = hydratedWeeklyPlan.executionMatrix?.resetCount || 0;
   const penaltyCount = hydratedWeeklyPlan.executionMatrix?.penaltyCount || 0;
@@ -3838,10 +3997,10 @@ export default function WeeklyPlannerPanel() {
 
               <div className="mt-8 flex items-baseline gap-2 relative z-10">
                 <span className="text-5xl font-black tracking-tighter text-white drop-shadow-md">
-                  {currentDebtMissions.length}
+                  {totalDebtTargets}
                 </span>
                 <span className="text-xs font-black uppercase tracking-[0.15em] text-slate-500">
-                  Carryover
+                  Targets Carryover
                 </span>
               </div>
             </div>
