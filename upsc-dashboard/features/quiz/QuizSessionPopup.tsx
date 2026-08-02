@@ -15,14 +15,13 @@ import {
   type CreateAttemptQuestionDetailPayload,
 } from "@/lib/api/attempts";
 import { saveAttemptWithLocalRetry } from "@/lib/quiz/attemptQueue";
-import { trackQuestionAttempt } from "@/trackingService";
+import { getReportData, trackQuestionAttempt } from "@/trackingService";
 import {
   decrementTime,
   nextQuestion,
   resetQuiz,
   submitAnswer,
   setQuestionIndex,
-  setSessionPhase,
   toggleMarkForReview,
   toggleElimination,
   type QuizMode,
@@ -40,6 +39,102 @@ const PRACTICE_QUERY_KEYS = [
   ["consistency-dashboard"],
   ["syllabus-dashboard"],
 ] as const;
+const PLANNER_API_URL = "http://localhost:5000/api/planner";
+const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
+
+function getMondayDateKey(date = new Date()): string {
+  const monday = new Date(date);
+  const day = monday.getDay();
+  const diff = monday.getDate() - day + (day === 0 ? -6 : 1);
+  monday.setDate(diff);
+  return monday.toISOString().split("T")[0];
+}
+
+async function completePlannerTestMission({
+  totalQuestions,
+  correct,
+}: {
+  totalQuestions: number;
+  correct: number;
+}) {
+  if (typeof window === "undefined") return;
+
+  const sessionRaw = window.sessionStorage.getItem(PLANNER_NOTE_SESSION_KEY);
+  if (!sessionRaw) return;
+
+  const session = JSON.parse(sessionRaw) as {
+    missionContext?: string;
+    activeMissionId?: string;
+    dayKey?: string;
+  };
+
+  if (
+    session.missionContext !== "test" ||
+    !session.activeMissionId ||
+    !session.dayKey
+  ) {
+    return;
+  }
+
+  const weekStartDate = getMondayDateKey(new Date(session.dayKey));
+  const response = await fetch(`${PLANNER_API_URL}/${weekStartDate}`);
+  if (!response.ok) return;
+
+  const payload = await response.json();
+  const plan = payload?.data;
+  if (!payload?.exists || !plan || !Array.isArray(plan.days)) return;
+
+  const now = new Date().toISOString();
+  const accuracy =
+    totalQuestions > 0 ? Math.round((correct / totalQuestions) * 100) : 0;
+  let didUpdate = false;
+
+  const nextPlan = {
+    ...plan,
+    days: plan.days.map((dayPlan: any) => {
+      if (dayPlan.dateKey !== session.dayKey) return dayPlan;
+
+      return {
+        ...dayPlan,
+        testMissions: (dayPlan.testMissions || []).map((mission: any) => {
+          if (mission.id !== session.activeMissionId) return mission;
+
+          didUpdate = true;
+          const targetQuestions =
+            Number(mission.totalQuestions) || totalQuestions;
+
+          return {
+            ...mission,
+            timeValidation: {
+              ...mission.timeValidation,
+              actualStart: mission.timeValidation?.actualStart || now,
+              actualEnd: now,
+            },
+            progress: {
+              ...mission.progress,
+              status: "completed",
+              completionPercent: 100,
+              completedQuestions: targetQuestions,
+              accuracy,
+              easySolved: mission.difficultyBreakdown?.easy || 0,
+              mediumSolved: mission.difficultyBreakdown?.medium || 0,
+              hardSolved: mission.difficultyBreakdown?.hard || 0,
+            },
+          };
+        }),
+      };
+    }),
+  };
+
+  if (!didUpdate) return;
+
+  await fetch(PLANNER_API_URL, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(nextPlan),
+  });
+  window.sessionStorage.removeItem(PLANNER_NOTE_SESSION_KEY);
+}
 
 // --- UTILS & TYPES ---
 type ResultMetrics = {
@@ -66,6 +161,17 @@ type SessionResultsSnapshot = {
 
 type ConfidenceLevel = "100%" | "50/50" | "Gut";
 
+type QuestionHistoryResult = "Correct" | "Incorrect" | "Skipped";
+
+interface QuestionHistoryEntry {
+  id: string;
+  timestamp: number;
+  result: QuestionHistoryResult;
+  selectedOption: string;
+  correctOption: string;
+  timeTaken: number | null;
+}
+
 type QuestionSelectionHistory = {
   initialSelectedOptionId: QuizOptionId | null;
   finalSelectedOptionId: QuizOptionId | null;
@@ -89,6 +195,73 @@ function formatTime(seconds: number) {
 
 function formatScore(value: number) {
   return value.toFixed(value % 1 === 0 ? 0 : 2);
+}
+
+function formatHistoryTimestamp(timestamp: number) {
+  const date = new Date(timestamp);
+  if (!Number.isFinite(date.getTime())) return "Unknown time";
+
+  return date.toLocaleString(undefined, {
+    weekday: "short",
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+}
+
+function normalizeHistoryResult(value: unknown): QuestionHistoryResult {
+  if (value === "Correct") return "Correct";
+  if (value === "Skipped") return "Skipped";
+  return "Incorrect";
+}
+
+function isSameQuestionAttempt(
+  record: Record<string, unknown>,
+  question: { id: string; stem: string },
+) {
+  return (
+    record.questionId === question.id ||
+    String(record.questionText || "").trim() === question.stem.trim()
+  );
+}
+
+async function loadQuestionHistory(question: {
+  id: string;
+  stem: string;
+}): Promise<QuestionHistoryEntry[]> {
+  const now = new Date();
+  const start = new Date(2020, 0, 1);
+  const reportData = await getReportData(start, now);
+  const indexedDbAttempts = Array.isArray(reportData?.questionAttempts)
+    ? reportData.questionAttempts
+    : [];
+  const records = indexedDbAttempts
+    .map((record) => record as Record<string, unknown>)
+    .filter((record) => isSameQuestionAttempt(record, question))
+    .map((record, index): QuestionHistoryEntry => {
+      const timestamp =
+        typeof record.timestamp === "number"
+          ? record.timestamp
+          : new Date(String(record.timestamp || "")).getTime();
+
+      return {
+        id: String(record.id || `${question.id}-${index}`),
+        timestamp: Number.isFinite(timestamp) ? timestamp : 0,
+        result: normalizeHistoryResult(record.result),
+        selectedOption: String(record.selectedOption || ""),
+        correctOption: String(record.correctOption || ""),
+        timeTaken:
+          typeof record.timeTaken === "number" &&
+          Number.isFinite(record.timeTaken)
+            ? record.timeTaken
+            : null,
+      };
+    })
+    .sort((a, b) => b.timestamp - a.timestamp);
+
+  return records;
 }
 
 function buildMetrics(
@@ -162,6 +335,7 @@ function toDashboardDifficulty(questionTypes: string[]): string {
 function buildQuestionDetail(
   question: {
     id: string;
+    questionType: string;
     stem: string;
     statements: string[];
     instruction?: string;
@@ -169,6 +343,7 @@ function buildQuestionDetail(
     correctOptionId: string;
   },
   selectedOptionId: QuizOptionId | null,
+  timeSpentSeconds = 0,
 ): CreateAttemptQuestionDetailPayload {
   const questionParts = [
     question.stem,
@@ -192,6 +367,8 @@ function buildQuestionDetail(
     selectedAnswer: selectedOptionId
       ? question.options[selectedOptionId] || ""
       : "",
+    difficulty: question.questionType,
+    timeSpentSeconds,
   };
 }
 
@@ -358,67 +535,197 @@ function ResultsSummaryModal({
   snapshot: SessionResultsSnapshot;
   onClose: () => void;
 }) {
-  const sections = [
-    {
-      key: "session",
-      label: "This Test",
-      title: "This Test",
-      subtitle: "Latest attempt",
-      metrics: snapshot.session,
-      accentClassName:
-        "border-emerald-300/20 bg-emerald-500/14 text-emerald-100",
-    },
-    {
-      key: "topic",
-      label: "Topic Overall",
-      title: "Topic Overall",
-      subtitle: snapshot.topic,
-      metrics: snapshot.topicOverall,
-      accentClassName: "border-sky-300/20 bg-sky-500/14 text-sky-100",
-    },
-    {
-      key: "subject",
-      label: "Subject Overall",
-      title: "Subject Overall",
-      subtitle: snapshot.subject,
-      metrics: snapshot.subjectOverall,
-      accentClassName: "border-violet-300/20 bg-violet-500/14 text-violet-100",
-    },
-  ] as const;
+  const onCloseRef = useRef(onClose);
 
-  const [activeSection] = useState<(typeof sections)[number]["key"]>("session");
-  const currentSection =
-    sections.find((section) => section.key === activeSection) || sections[0];
+  // Keep the ref updated with the latest function without triggering the timer effect
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
+
+  // Run the timer exactly once on mount
+  useEffect(() => {
+    const timeoutId = window.setTimeout(() => {
+      onCloseRef.current();
+    }, 5000);
+    return () => window.clearTimeout(timeoutId);
+  }, []);
+
+  const metrics = snapshot.session;
+  const summaryItems = [
+    { label: "Total Qs", value: metrics.totalQuestions },
+    { label: "Correct Qs", value: metrics.correct },
+    { label: "Incorrect Qs", value: metrics.incorrect },
+    { label: "Skipped Qs", value: metrics.skipped },
+    { label: "Total Mark", value: formatScore(metrics.finalScore) },
+  ];
 
   return (
     <div className="absolute inset-0 z-30 flex items-center justify-center bg-[#05070b]/72 px-4 py-6 backdrop-blur-md sm:px-6">
-      <div className="max-h-full w-full max-w-4xl overflow-y-auto rounded-[32px] border border-white/12 bg-[linear-gradient(180deg,rgba(18,21,29,0.985),rgba(8,10,15,0.985))] p-4 shadow-[0_32px_100px_rgba(0,0,0,0.58),inset_0_1px_0_rgba(255,255,255,0.05)] sm:p-7">
-        <div className="flex flex-col gap-4">
-          <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-            <div className="min-w-0">
-              <p className="m-0 text-[11px] font-black uppercase tracking-[0.22em] text-[#9ec2ff]">
-                Test Completed
-              </p>
-              <h2 className="m-0 mt-2 text-xl font-black tracking-[-0.03em] text-zinc-50 sm:text-2xl lg:text-3xl">
-                {snapshot.topic}
-              </h2>
-            </div>
-
-            <button
-              type="button"
-              onClick={onClose}
-              className="h-11 w-full rounded-full bg-[#a9c7ff] px-6 text-xs font-black uppercase tracking-[0.12em] text-[#111217] transition-colors hover:bg-[#bdd4ff] sm:w-auto"
-            >
-              Back to quiz hub
-            </button>
+      <div className="w-full max-w-md rounded-[24px] border border-white/12 bg-[linear-gradient(180deg,rgba(18,21,29,0.98),rgba(8,10,15,0.98))] p-5 shadow-[0_28px_90px_rgba(0,0,0,0.58),inset_0_1px_0_rgba(255,255,255,0.05)] sm:p-6">
+        <div className="flex items-start justify-between gap-4">
+          <div className="min-w-0">
+            <p className="m-0 text-[10px] font-black uppercase tracking-[0.22em] text-emerald-300">
+              Test Submitted
+            </p>
+            <h2 className="m-0 mt-1 truncate text-xl font-black text-zinc-50">
+              {snapshot.topic}
+            </h2>
           </div>
+          <div className="rounded-full border border-emerald-300/20 bg-emerald-500/10 px-3 py-1 text-xs font-black text-emerald-200">
+            {Math.round(metrics.accuracy)}%
+          </div>
+        </div>
 
-          <ResultMetricCard
-            title={currentSection.title}
-            subtitle={currentSection.subtitle}
-            metrics={currentSection.metrics}
-            accentClassName={currentSection.accentClassName}
-          />
+        <div className="mt-5 grid grid-cols-2 gap-3">
+          {summaryItems.map((item) => (
+            <div
+              key={item.label}
+              className="rounded-[16px] border border-white/8 bg-white/[0.035] p-4"
+            >
+              <p className="m-0 text-[10px] font-black uppercase tracking-[0.16em] text-zinc-500">
+                {item.label}
+              </p>
+              <p className="m-0 mt-2 text-2xl font-black text-zinc-50">
+                {item.value}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <p className="m-0 mt-5 text-center text-[11px] font-bold uppercase tracking-[0.16em] text-zinc-500">
+          Redirecting to planner in 5 seconds
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function QuestionHistoryPopup({
+  entries,
+  isLoading,
+  error,
+  onClose,
+}: {
+  entries: QuestionHistoryEntry[];
+  isLoading: boolean;
+  error: string | null;
+  onClose: () => void;
+}) {
+  const total = entries.length;
+  const correct = entries.filter((entry) => entry.result === "Correct").length;
+  const incorrect = entries.filter(
+    (entry) => entry.result === "Incorrect",
+  ).length;
+  const skipped = entries.filter((entry) => entry.result === "Skipped").length;
+  const accuracy = total > 0 ? Math.round((correct / total) * 100) : 0;
+  const recentEntries = entries.slice(0, 8);
+
+  return (
+    <div className="fixed inset-0 z-[2147483647] flex items-center justify-center bg-black/60 px-4 backdrop-blur-sm">
+      <div className="w-full max-w-md rounded-[22px] border border-white/10 bg-[#0a0c10] p-5 shadow-[0_24px_80px_rgba(0,0,0,0.55)]">
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <p className="text-[10px] font-black uppercase tracking-[0.22em] text-sky-300">
+              Question History
+            </p>
+            <h3 className="mt-1 text-lg font-black text-white">Recall Trace</h3>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-sm font-black text-zinc-400 transition-colors hover:bg-white/10 hover:text-white"
+            aria-label="Close question history"
+          >
+            x
+          </button>
+        </div>
+
+        <div className="mt-5 grid grid-cols-4 gap-2">
+          {[
+            { label: "Seen", value: total, tone: "text-white" },
+            { label: "Right", value: correct, tone: "text-emerald-300" },
+            { label: "Wrong", value: incorrect, tone: "text-rose-300" },
+            { label: "Skip", value: skipped, tone: "text-amber-300" },
+          ].map((item) => (
+            <div
+              key={item.label}
+              className="rounded-[14px] border border-white/8 bg-white/[0.035] px-3 py-3 text-center"
+            >
+              <div className={`text-lg font-black ${item.tone}`}>
+                {item.value}
+              </div>
+              <div className="mt-0.5 text-[9px] font-black uppercase tracking-widest text-zinc-500">
+                {item.label}
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-3 rounded-[14px] border border-white/8 bg-black/25 px-4 py-3">
+          <div className="flex items-center justify-between text-xs font-bold">
+            <span className="text-zinc-500">Lifetime accuracy</span>
+            <span className="text-sky-200">{accuracy}%</span>
+          </div>
+          <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-white/8">
+            <div
+              className="h-full rounded-full bg-sky-300"
+              style={{ width: `${accuracy}%` }}
+            />
+          </div>
+        </div>
+
+        <div className="mt-5 max-h-72 space-y-2 overflow-y-auto pr-1">
+          {isLoading && (
+            <div className="rounded-[14px] border border-white/8 bg-white/[0.03] px-4 py-4 text-sm font-bold text-zinc-400">
+              Loading history...
+            </div>
+          )}
+
+          {!isLoading && error && (
+            <div className="rounded-[14px] border border-rose-500/20 bg-rose-500/10 px-4 py-4 text-sm font-bold text-rose-200">
+              {error}
+            </div>
+          )}
+
+          {!isLoading && !error && recentEntries.length === 0 && (
+            <div className="rounded-[14px] border border-white/8 bg-white/[0.03] px-4 py-4 text-sm font-bold text-zinc-400">
+              No previous attempt found for this question.
+            </div>
+          )}
+
+          {!isLoading &&
+            !error &&
+            recentEntries.map((entry) => {
+              const resultTone =
+                entry.result === "Correct"
+                  ? "border-emerald-500/20 bg-emerald-500/10 text-emerald-200"
+                  : entry.result === "Skipped"
+                    ? "border-amber-500/20 bg-amber-500/10 text-amber-200"
+                    : "border-rose-500/20 bg-rose-500/10 text-rose-200";
+
+              return (
+                <div
+                  key={`${entry.id}-${entry.timestamp}`}
+                  className="rounded-[14px] border border-white/8 bg-white/[0.025] px-4 py-3"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <span
+                      className={`rounded-full border px-2.5 py-1 text-[10px] font-black uppercase tracking-widest ${resultTone}`}
+                    >
+                      {entry.result}
+                    </span>
+                    <span className="text-[11px] font-bold text-zinc-500">
+                      {entry.timeTaken == null
+                        ? "No timer"
+                        : `${formatTime(entry.timeTaken)} spent`}
+                    </span>
+                  </div>
+                  <div className="mt-2 text-xs font-semibold text-zinc-300">
+                    {formatHistoryTimestamp(entry.timestamp)}
+                  </div>
+                </div>
+              );
+            })}
         </div>
       </div>
     </div>
@@ -446,6 +753,12 @@ function QuestionContent() {
   const [selectionHistoryMap, setSelectionHistoryMap] = useState<
     Record<string, QuestionSelectionHistory>
   >({});
+  const [isHistoryOpen, setIsHistoryOpen] = useState(false);
+  const [questionHistory, setQuestionHistory] = useState<
+    QuestionHistoryEntry[]
+  >([]);
+  const [isHistoryLoading, setIsHistoryLoading] = useState(false);
+  const [historyError, setHistoryError] = useState<string | null>(null);
 
   const sessionMeta = useAppSelector((state) => state.quiz.sessionMeta);
   const questions = useAppSelector((state) => state.quiz.questions);
@@ -632,6 +945,28 @@ function QuestionContent() {
     dispatch(toggleMarkForReview(currentQuestion.id));
   }, [currentQuestion, dispatch]);
 
+  const handleOpenQuestionHistory = useCallback(async () => {
+    if (!currentQuestion) return;
+
+    setIsHistoryOpen(true);
+    setIsHistoryLoading(true);
+    setHistoryError(null);
+
+    try {
+      const history = await loadQuestionHistory(currentQuestion);
+      setQuestionHistory(history);
+    } catch (error) {
+      setQuestionHistory([]);
+      setHistoryError(
+        error instanceof Error
+          ? error.message
+          : "Unable to load question history.",
+      );
+    } finally {
+      setIsHistoryLoading(false);
+    }
+  }, [currentQuestion]);
+
   /**
    * EXAM MODE QUESTION TRACKING
    * When finishing the session, write per-question records for every answered question.
@@ -715,6 +1050,73 @@ function QuestionContent() {
     quizMode,
   ]);
 
+  const trackSkippedQuestionAttempts = useCallback(async () => {
+    if (!sessionMeta || questions.length === 0) return;
+
+    const skippedQuestions = questions
+      .map((question, index) => ({ question, index }))
+      .filter(({ question, index }) => {
+        return (
+          !answersByIndex[index] &&
+          !trackedExamQuestionIdsRef.current.has(`skipped::${question.id}`)
+        );
+      });
+
+    await Promise.all(
+      skippedQuestions.map(async ({ question, index }) => {
+        const attemptData = {
+          questionId: question.id,
+          questionType: question.questionType,
+          question: {
+            stem: question.stem,
+            statements: question.statements,
+            instruction: question.instruction,
+            options: question.options,
+            correctOptionId: question.correctOptionId,
+            correctOption:
+              question.options[question.correctOptionId as QuizOptionId],
+          },
+          explanation: question.explanation,
+          selectedOptionId: null,
+          selectedOption: "",
+          correctOptionId: question.correctOptionId,
+          correctOption:
+            question.options[question.correctOptionId as QuizOptionId] || "",
+          initialSelectedOptionId: null,
+          initialSelectedOption: "",
+          finalSelectedOptionId: null,
+          finalSelectedOption: "",
+          answerChangeCount: 0,
+          isCorrect: false,
+          result: "Skipped" as const,
+          subject: sessionMeta.subject,
+          chapter: sessionMeta.topic,
+          topic: sessionMeta.topic,
+          subtopic: sessionMeta.noteChapter,
+          subtopicId: sessionMeta.noteChapterId,
+          difficulty: question.questionType,
+          timeLimit: sessionMeta.timeLimitPerMcqSeconds,
+          timeTaken: timeSpentMap[index] || 0,
+          timestamp: Date.now(),
+          confidence: confidenceTags[question.id] || null,
+          sourceModule: "quiz-session-popup",
+          mode: quizMode,
+          attemptNumber: 1,
+        };
+
+        await trackQuestionAttempt(attemptData);
+        trackedExamQuestionIdsRef.current.add(`skipped::${question.id}`);
+      }),
+    );
+  }, [
+    sessionMeta,
+    questions,
+    answersByIndex,
+    timeSpentMap,
+    confidenceTags,
+    quizMode,
+  ]);
+
   const handleFinishSession = useCallback(async () => {
     if (!sessionMeta || questions.length === 0 || isSavingAttempt) return;
 
@@ -722,8 +1124,10 @@ function QuestionContent() {
     if (!isPracticeMode) {
       await trackExamQuestionAttempts();
     }
+    await trackSkippedQuestionAttempts();
 
     const incorrectDetails: CreateAttemptQuestionDetailPayload[] = [];
+    const correctDetails: CreateAttemptQuestionDetailPayload[] = [];
     const skippedDetails: CreateAttemptQuestionDetailPayload[] = [];
     let correct = 0;
     let incorrect = 0;
@@ -734,17 +1138,24 @@ function QuestionContent() {
 
       if (!optionId) {
         skipped += 1;
-        skippedDetails.push(buildQuestionDetail(question, null));
+        skippedDetails.push(
+          buildQuestionDetail(question, null, timeSpentMap[index] || 0),
+        );
         return;
       }
 
       if (optionId === question.correctOptionId) {
         correct += 1;
+        correctDetails.push(
+          buildQuestionDetail(question, optionId, timeSpentMap[index] || 0),
+        );
         return;
       }
 
       incorrect += 1;
-      incorrectDetails.push(buildQuestionDetail(question, optionId));
+      incorrectDetails.push(
+        buildQuestionDetail(question, optionId, timeSpentMap[index] || 0),
+      );
     });
 
     const quizSignature = [
@@ -765,9 +1176,12 @@ function QuestionContent() {
       skipped,
       difficulty: toDashboardDifficulty(questions.map((q) => q.questionType)),
       dateValue: toLocalIsoDateValue(),
+      allottedTimeSeconds:
+        sessionMeta.totalTimeSeconds ||
+        sessionMeta.timeLimitPerMcqSeconds * questions.length,
       attemptKey: quizSignature,
       quizSignature,
-      correctDetails: [],
+      correctDetails,
       incorrectDetails,
       skippedDetails,
     };
@@ -826,6 +1240,19 @@ function QuestionContent() {
         ),
       );
 
+      try {
+        await completePlannerTestMission({
+          totalQuestions: questions.length,
+          correct,
+        });
+      } catch (plannerSyncError) {
+        console.warn(
+          plannerSyncError instanceof Error
+            ? plannerSyncError.message
+            : "Planner test mission sync failed.",
+        );
+      }
+
       if (saveResult.queued) {
         console.warn(
           saveResult.pendingCount === 1
@@ -847,7 +1274,9 @@ function QuestionContent() {
     queryClient,
     questions,
     sessionMeta,
+    timeSpentMap,
     trackExamQuestionAttempts,
+    trackSkippedQuestionAttempts,
   ]);
 
   const finishSessionRef = useRef(handleFinishSession);
@@ -895,17 +1324,6 @@ function QuestionContent() {
     if (isSavingAttempt || (isPracticeMode && !isLocked)) return;
 
     if (sessionPhase === "pass1" && currentIndex >= totalQuestions - 1) {
-      const hasPending = questions.some(
-        (q, idx) => !answersByIndex[idx] || markedForReview.includes(q.id),
-      );
-
-      if (hasPending) {
-        dispatch(setSessionPhase("pass2"));
-        const nextIdx = findNextPass2Question();
-        if (nextIdx !== -1) dispatch(setQuestionIndex(nextIdx));
-        return;
-      }
-
       void handleFinishSession();
       return;
     }
@@ -929,9 +1347,6 @@ function QuestionContent() {
     sessionPhase,
     currentIndex,
     totalQuestions,
-    questions,
-    answersByIndex,
-    markedForReview,
     dispatch,
     handleFinishSession,
     findNextPass2Question,
@@ -1082,8 +1497,31 @@ function QuestionContent() {
           {/* LEFT: READING CANVAS */}
           <div className="flex-1 lg:min-w-0">
             <div className="flex gap-4 sm:gap-6">
-              <div className="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-indigo-500/10 text-[15px] font-black text-indigo-400 ring-1 ring-indigo-500/30">
-                Q{currentIndex + 1}
+              <div className="mt-1 flex shrink-0 flex-col items-center gap-2">
+                <div className="flex h-9 w-9 items-center justify-center rounded-full bg-indigo-500/10 text-[15px] font-black text-indigo-400 ring-1 ring-indigo-500/30">
+                  Q{currentIndex + 1}
+                </div>
+                <button
+                  type="button"
+                  onClick={handleOpenQuestionHistory}
+                  className="group flex h-8 w-8 items-center justify-center rounded-full border border-sky-400/20 bg-sky-400/10 text-sky-300 shadow-[0_0_16px_rgba(56,189,248,0.08)] transition-all hover:border-sky-300/50 hover:bg-sky-400/20 hover:text-white"
+                  aria-label="Open question history"
+                  title="Question history"
+                >
+                  <svg
+                    className="h-4 w-4 transition-transform group-hover:scale-110"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2.2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M12 8v4l3 2m6-2a9 9 0 11-3-6.7M21 3v5h-5"
+                    />
+                  </svg>
+                </button>
               </div>
 
               <div className="space-y-8 pb-10">
@@ -1262,9 +1700,9 @@ function QuestionContent() {
           {isSavingAttempt
             ? "Saving..."
             : sessionPhase === "pass1" && currentIndex === totalQuestions - 1
-              ? "Begin Pass 2"
+              ? "Submit"
               : sessionPhase === "pass2" && findNextPass2Question() === -1
-                ? "Finish Exam"
+                ? "Submit"
                 : "Next Question →"}
         </button>
       </div>
@@ -1275,7 +1713,16 @@ function QuestionContent() {
           onClose={() => {
             setResultsSnapshot(null);
             dispatch(resetQuiz());
+            window.location.href = "/planner";
           }}
+        />
+      )}
+      {isHistoryOpen && (
+        <QuestionHistoryPopup
+          entries={questionHistory}
+          isLoading={isHistoryLoading}
+          error={historyError}
+          onClose={() => setIsHistoryOpen(false)}
         />
       )}
     </div>

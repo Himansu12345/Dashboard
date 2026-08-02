@@ -7,7 +7,7 @@ interface ReviewQuestionCardProps {
   index: number;
   onOpenNote: (detail: PracticeQuestionDetail) => void;
   onOpenWhy: (detail: PracticeQuestionDetail) => void;
-  isSolveMode?: boolean; // NEW PROP
+  isSolveMode?: boolean;
 }
 
 export default function ReviewQuestionCard({
@@ -17,39 +17,43 @@ export default function ReviewQuestionCard({
   onOpenWhy,
   isSolveMode,
 }: ReviewQuestionCardProps) {
-  // Local state purely for this solve session
   const [localSelectedAnswer, setLocalSelectedAnswer] = useState<string | null>(
     null,
   );
 
   const normalizedCorrect = normalizeComparisonValue(detail.correctAnswer);
-
-  // If in solve mode, use the local selection. Otherwise, use what's saved in the database.
   const normalizedSelected =
     isSolveMode && localSelectedAnswer
       ? normalizeComparisonValue(localSelectedAnswer)
       : normalizeComparisonValue(detail.selectedAnswer);
 
-  // The answer is revealed instantly if we're not in solve mode, OR if we're in solve mode and the user clicked an option.
   const isAnswerRevealed = !isSolveMode || localSelectedAnswer !== null;
 
   return (
-    <article className="review-question-card">
-      <h4 className="review-question-title">
-        <span>{index + 1}.</span>
-        <div className="review-question-copy">
+    <article className="mb-5 flex flex-col rounded-2xl border border-white/[0.06] bg-[#0A0C10] p-5 shadow-sm transition-all sm:p-6">
+      <div className="mb-5 flex items-start gap-3">
+        <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/[0.05] text-xs font-black text-slate-400">
+          {index + 1}
+        </span>
+        <div className="flex flex-col gap-1.5 pt-0.5">
           {detail.question.split("\n").map((line, lineIndex) => (
-            <span key={lineIndex} className="review-question-line">
+            <span
+              key={lineIndex}
+              className="text-[15px] font-medium leading-relaxed text-slate-200"
+            >
               {line}
             </span>
           ))}
         </div>
-      </h4>
-      <ul className="review-option-list">
+      </div>
+
+      <ul className="flex flex-col gap-2">
         {detail.options.map((option) => {
           const normalizedOption = normalizeComparisonValue(option);
 
-          let statusClass = "cursor-pointer hover:bg-white/5"; // Make them look clickable in solve mode
+          let containerClass =
+            "border-transparent bg-white/[0.02] text-slate-300 hover:bg-white/[0.04]";
+          let labelTag = null;
           let isCorrect = false;
           let isSelected = false;
 
@@ -61,78 +65,80 @@ export default function ReviewQuestionCard({
               normalizedSelected.length > 0 &&
               normalizedOption === normalizedSelected;
 
-            if (isCorrect && isSelected)
-              statusClass = "is-option-correct-selected";
-            else if (isCorrect) statusClass = "is-option-correct";
-            else if (isSelected) statusClass = "is-option-selected-wrong";
+            if (isCorrect && isSelected) {
+              containerClass =
+                "border-l-4 border-l-emerald-500 border-y-white/[0.04] border-r-white/[0.04] bg-emerald-500/5 text-emerald-100";
+              labelTag = (
+                <span className="ml-auto rounded border border-emerald-500/20 bg-emerald-500/10 px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-emerald-400">
+                  Correct / Selected
+                </span>
+              );
+            } else if (isCorrect) {
+              containerClass =
+                "border-l-4 border-l-emerald-500 border-y-white/[0.04] border-r-white/[0.04] bg-emerald-500/5 text-emerald-100";
+              labelTag = (
+                <span className="ml-auto rounded border border-emerald-500/20 bg-emerald-500/10 px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-emerald-400">
+                  Correct
+                </span>
+              );
+            } else if (isSelected) {
+              containerClass =
+                "border-l-4 border-l-rose-500 border-y-white/[0.04] border-r-white/[0.04] bg-rose-500/5 text-rose-100";
+              labelTag = (
+                <span className="ml-auto rounded border border-rose-500/20 bg-rose-500/10 px-2 py-0.5 text-[10px] font-black uppercase tracking-widest text-rose-400">
+                  Selected
+                </span>
+              );
+            }
           } else if (isSolveMode && localSelectedAnswer === option) {
-            // Intermediate state, though local state instantly reveals anyway
-            statusClass = "is-option-selected";
+            containerClass =
+              "border-l-4 border-l-indigo-500 border-y-white/[0.04] border-r-white/[0.04] bg-indigo-500/5 text-indigo-100";
           }
 
           return (
             <li
               key={`${detail.question}-${option}`}
-              className={`review-option-item ${statusClass}`}
+              className={`flex min-h-[44px] cursor-pointer items-center rounded-r-xl border px-4 py-2 transition-all ${containerClass}`}
               onClick={() => {
                 if (isSolveMode && !isAnswerRevealed) {
                   setLocalSelectedAnswer(option);
                 }
               }}
             >
-              <span className="review-option-text">{option}</span>
-              {isCorrect ? (
-                <span className="review-option-tag">Correct</span>
-              ) : null}
-              {isSelected && !isSolveMode ? (
-                <span className="review-option-tag">Selected</span>
-              ) : null}
-              {isSelected && isSolveMode && !isCorrect ? (
-                <span
-                  className="review-option-tag"
-                  style={{
-                    background: "rgba(255, 107, 127, 0.2)",
-                    color: "#ffc5ce",
-                  }}
-                >
-                  Incorrect
-                </span>
-              ) : null}
+              <span className="text-sm">{option}</span>
+              {labelTag}
             </li>
           );
         })}
       </ul>
 
-      {/* Hide the explanations/notes until the question is answered in solve mode */}
       {isAnswerRevealed && (
-        <div className="review-question-actions mt-4">
+        <div className="mt-5 flex items-center justify-between border-t border-white/[0.06] pt-4">
           {isSolveMode && (
-            <div className="mr-auto font-medium text-sm">
+            <div className="text-xs font-bold uppercase tracking-widest">
               {normalizedSelected === normalizedCorrect ? (
-                <span style={{ color: "#4ade80" }}>
-                  ✓ You got it right this time!
-                </span>
+                <span className="text-emerald-400">✓ Right this time</span>
               ) : (
-                <span style={{ color: "#f87171" }}>
-                  ✗ Still incorrect. Keep reviewing.
-                </span>
+                <span className="text-rose-400">✗ Still incorrect</span>
               )}
             </div>
           )}
-          <button
-            type="button"
-            className="review-btn ripple-btn review-note-btn"
-            onClick={() => onOpenWhy(detail)}
-          >
-            Why?
-          </button>
-          <button
-            type="button"
-            className="review-btn ripple-btn review-note-btn"
-            onClick={() => onOpenNote(detail)}
-          >
-            View Note
-          </button>
+          <div className="ml-auto flex gap-3">
+            <button
+              type="button"
+              className="rounded-lg bg-white/[0.05] px-4 py-2 text-xs font-black uppercase tracking-widest text-slate-300 transition-colors hover:bg-white/10 hover:text-white"
+              onClick={() => onOpenWhy(detail)}
+            >
+              Why?
+            </button>
+            <button
+              type="button"
+              className="rounded-lg bg-white/[0.05] px-4 py-2 text-xs font-black uppercase tracking-widest text-slate-300 transition-colors hover:bg-white/10 hover:text-white"
+              onClick={() => onOpenNote(detail)}
+            >
+              View Note
+            </button>
+          </div>
         </div>
       )}
     </article>

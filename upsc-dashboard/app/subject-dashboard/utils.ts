@@ -73,3 +73,56 @@ export function applyPriorityOverrides(
       : undefined,
   }));
 }
+
+// ============================================================================
+// NEW: Strict Derivation Helpers for UI (Requires 100% of children to be checked)
+// ============================================================================
+
+/**
+ * Extracts all leaf (childless) UIDs specifically under a given parent node.
+ */
+export function getLeafUidsForNode(node: SubjectNode): string[] {
+  if (!node.children || node.children.length === 0) {
+    return [node.uid];
+  }
+  return node.children.flatMap((child) => getLeafUidsForNode(child));
+}
+
+/**
+ * Returns true ONLY if 100% of the leaf nodes under this parent are in the checked set.
+ */
+export function isNodeStrictlyCompleted(
+  node: SubjectNode,
+  checkedUids: Set<string> | string[]
+): boolean {
+  const leafUids = getLeafUidsForNode(node);
+  if (leafUids.length === 0) return false;
+
+  const checkedSet = checkedUids instanceof Set ? checkedUids : new Set(checkedUids);
+  
+  // Every single child leaf must be marked as checked
+  return leafUids.every((uid) => checkedSet.has(uid));
+}
+
+/**
+ * Returns true ONLY if 100% of the leaf nodes under this parent have revision data.
+ */
+export function isNodeStrictlyRevised(
+  node: SubjectNode,
+  // Using 'any' here as a fallback; type this to your specific CompletionTime record if possible
+  completionTimes: Record<string, any> 
+): boolean {
+  const leafUids = getLeafUidsForNode(node);
+  if (leafUids.length === 0) return false;
+
+  return leafUids.every((uid) => {
+    const record = completionTimes[uid];
+    if (!record) return false;
+
+    // Checks if the leaf has either a valid revisions array or a revisedAt timestamp
+    const hasRevisions = Array.isArray(record.revisions) && record.revisions.length > 0;
+    const hasRevisedAt = record.revisedAt !== undefined && record.revisedAt !== null;
+
+    return hasRevisions || hasRevisedAt;
+  });
+}

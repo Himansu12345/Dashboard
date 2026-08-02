@@ -2,7 +2,8 @@ import type { RawSubjectNode } from "../types";
 
 
 export const RAW_D = [
-  {
+  
+{
     "id": "I",
     "p": "pm2",
     "label": "Historical Underpinnings & Constitutional Genesis",

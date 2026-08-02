@@ -15,7 +15,7 @@ import type { ReviewSortOrder } from "./attempt-review/reviewPopupTypes";
 
 interface AttemptReviewPopupProps {
   record: PracticeRecord;
-  isSolveMode?: boolean; // NEW PROP
+  isSolveMode?: boolean;
   savingQuestionNoteKey: string | null;
   deletingAttemptIdSet: Set<string>;
   onClose: () => void;
@@ -87,10 +87,11 @@ export default function AttemptReviewPopup({
     };
   }, [activeNoteDetail, activeWhyDetail, onClose]);
 
-  // Combine incorrect and skipped details. If in solve mode, we only want these anyway.
   const reviewDetails = useMemo(() => {
-    return (record.incorrectDetails || []).concat(record.skippedDetails || []);
-  }, [record.incorrectDetails, record.skippedDetails]);
+    return ((record as any).incorrectDetails || []).concat(
+      (record as any).skippedDetails || [],
+    );
+  }, [(record as any).incorrectDetails, (record as any).skippedDetails]);
 
   const reviewDateOptions = useMemo(
     () => getReviewDateOptions(reviewDetails, record),
@@ -124,7 +125,6 @@ export default function AttemptReviewPopup({
       : "";
   }, [activeWhyDetail]);
 
-  // --- Handlers for Note/Why UI (kept as-is) ---
   const handleOpenNoteModal = (detail: PracticeQuestionDetail) => {
     setActiveNoteDetail(detail);
     setIsNoteComposerOpen(false);
@@ -329,31 +329,38 @@ export default function AttemptReviewPopup({
     : false;
 
   return (
-    <div className="subject-popup-backdrop" onClick={onClose}>
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 sm:p-6 backdrop-blur-sm"
+      onClick={onClose}
+    >
       <div
-        className="subject-popup-panel glass-panel fade-slide-in"
+        className="flex w-full max-w-5xl max-h-[90vh] flex-col overflow-hidden rounded-3xl border border-white/[0.06] bg-[#050505] shadow-[0_0_80px_rgba(0,0,0,0.8)] animate-in fade-in zoom-in-95"
         onClick={(event) => event.stopPropagation()}
         role="dialog"
         aria-modal="true"
         aria-label={`${record.subject} - ${record.topic} Review`}
       >
-        <ReviewPopupHeader record={record} onClose={onClose} />
+        {/* Padded Header Area */}
+        <div className="flex-shrink-0 border-b border-white/[0.04] p-6 pb-0">
+          <ReviewPopupHeader record={record} onClose={onClose} />
+          <ReviewPopupStats record={record} />
+          <ReviewPopupFilters
+            reviewDateFilter={reviewDateFilter}
+            reviewDateOptions={reviewDateOptions}
+            reviewSortOrder={reviewSortOrder}
+            onDateFilterChange={setReviewDateFilter}
+            onSortOrderChange={setReviewSortOrder}
+          />
+        </div>
 
-        <ReviewPopupStats record={record} />
-
-        <ReviewPopupFilters
-          reviewDateFilter={reviewDateFilter}
-          reviewDateOptions={reviewDateOptions}
-          reviewSortOrder={reviewSortOrder}
-          onDateFilterChange={setReviewDateFilter}
-          onSortOrderChange={setReviewSortOrder}
-        />
-
-        <div className="review-popup-content-area">
+        {/* Scrollable Content Area */}
+        <div className="flex-1 overflow-y-auto p-6 scrollbar-thin scrollbar-thumb-white/10 scrollbar-track-transparent">
           {groupedDetails.length === 0 ? (
-            <p className="empty-state-copy text-center py-8">
-              No questions found for the selected date filter.
-            </p>
+            <div className="flex h-32 items-center justify-center rounded-xl border border-dashed border-white/[0.05] bg-white/[0.01]">
+              <p className="text-xs font-bold uppercase tracking-widest text-slate-500">
+                No questions found for the selected date filter.
+              </p>
+            </div>
           ) : (
             <ReviewGroupedDetails
               groupedDetails={groupedDetails}
@@ -362,7 +369,7 @@ export default function AttemptReviewPopup({
               onDeleteGroupedAttempt={handleDeleteGroupedAttempt}
               onOpenNote={handleOpenNoteModal}
               onOpenWhy={handleOpenWhyModal}
-              isSolveMode={isSolveMode} // PASS SOLVE MODE DOWN
+              isSolveMode={isSolveMode}
             />
           )}
         </div>

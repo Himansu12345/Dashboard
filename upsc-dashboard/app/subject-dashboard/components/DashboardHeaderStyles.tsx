@@ -364,6 +364,48 @@ const dashboardHeaderStyles = `
       0 14px 30px rgba(0, 0, 0, 0.24);
   }
 
+  .download-menu {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .download-menu-panel {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    z-index: 20;
+    min-width: 132px;
+    padding: 6px;
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    border-radius: 12px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.025)),
+      rgba(15, 25, 42, 0.98);
+    box-shadow: var(--dh-shadow);
+  }
+
+  .download-menu-option {
+    width: 100%;
+    min-height: 36px;
+    padding: 0 12px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: #e7f1ff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font: inherit;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .download-menu-option:hover {
+    background: rgba(95, 179, 255, 0.14);
+    color: #f6fbff;
+  }
+
   /* =========================================================
      SMART MODE TOGGLE
      ========================================================= */

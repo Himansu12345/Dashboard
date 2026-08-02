@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useRef } from "react";
 import {
   failLoading,
   loadQuiz,
@@ -78,6 +78,65 @@ function partitionTopicsByChapter(
   };
 }
 
+function normalizeComparable(value: unknown) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-zA-Z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+const QUESTION_ROTATION_STORAGE_KEY = "upsc-mcq-question-rotation-v1";
+
+function getQuestionRotationKey(subjectName: string, chapterSlugs: string[]) {
+  return [
+    subjectName,
+    ...Array.from(new Set(chapterSlugs.filter(Boolean))).sort(),
+  ].join("::");
+}
+
+function readQuestionRotation(key: string): string[] {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const parsed = JSON.parse(
+      window.localStorage.getItem(QUESTION_ROTATION_STORAGE_KEY) || "{}",
+    );
+    const value = parsed?.[key];
+    return Array.isArray(value)
+      ? value.filter((id): id is string => typeof id === "string")
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+function rememberQuestionRotation(key: string, questionIds: string[]) {
+  if (typeof window === "undefined" || questionIds.length === 0) return;
+
+  try {
+    const parsed = JSON.parse(
+      window.localStorage.getItem(QUESTION_ROTATION_STORAGE_KEY) || "{}",
+    );
+    const current = Array.isArray(parsed?.[key]) ? parsed[key] : [];
+    parsed[key] = Array.from(
+      new Set([
+        ...current.filter((id: unknown): id is string => typeof id === "string"),
+        ...questionIds,
+      ]),
+    ).slice(-5000);
+    window.localStorage.setItem(
+      QUESTION_ROTATION_STORAGE_KEY,
+      JSON.stringify(parsed),
+    );
+  } catch {
+    // Rotation memory is helpful, but quiz launch should not fail if storage is full.
+  }
+}
+
 function SelectChevron() {
   return (
     <span className="pointer-events-none absolute inset-y-0 right-4 flex items-center text-zinc-500 transition-colors group-hover:text-zinc-300">
@@ -122,6 +181,157 @@ export default function QuizDashboard({ bankIndex }: QuizDashboardProps) {
   const [mediumCount, setMediumCount] = useState(4);
   const [hardCount, setHardCount] = useState(2);
   const [minutes, setMinutes] = useState(10);
+
+  // --- PRO POWER ENGINE: Planner Auto-Start Handshake ---
+  const autoStartAttempted = useRef(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || autoStartAttempted.current) return;
+
+    // Check if we arrived from the planner
+    if (!window.location.search.includes("plannerMission=1")) return;
+
+    const sessionRaw = window.sessionStorage.getItem(
+      "planner-note-mission-session",
+    );
+    if (!sessionRaw) return;
+
+    try {
+      const session = JSON.parse(sessionRaw);
+      if (session.missionContext !== "test" || !session.testConfig) return;
+
+      autoStartAttempted.current = true; // Prevent double-firing in React StrictMode
+      const config = session.testConfig;
+      const resolvedMode: QuizMode =
+        String(config.mode || "").toLowerCase().includes("exam")
+          ? "exam"
+          : "practice";
+
+      // 1. Find Subject
+      const matchedSubject =
+        bankIndex.find((s) => s.name === config.subject) || bankIndex[0];
+      if (!matchedSubject) return;
+
+      const configuredChapter = String(config.chapter || "").trim();
+      const configuredNoteChapter = String(config.noteChapter || "").trim();
+      const noteChapterLookup = configuredNoteChapter || configuredChapter;
+
+      // 2. Planner tests are selected by note chapter. Older missions may keep
+      // "All" in config.chapter, so the stored noteChapter label is authoritative.
+      const matchedNoteChapter =
+        matchedSubject.noteChapters?.find(
+          (c) =>
+            c.label === noteChapterLookup ||
+            c.id === noteChapterLookup ||
+            normalizeComparable(c.label) === normalizeComparable(noteChapterLookup) ||
+            normalizeComparable(c.id) === normalizeComparable(noteChapterLookup),
+        ) ||
+        matchedSubject.noteChapters?.find((c) => {
+          const chapterLabel = normalizeComparable(c.label);
+          const lookup = normalizeComparable(noteChapterLookup);
+          return Boolean(lookup && (lookup.includes(chapterLabel) || chapterLabel.includes(lookup)));
+        });
+
+      // 3. Resolve the actual MCQ topic slug(s) to feed the API.
+      const directMatch = matchedSubject.chapters.find(
+        (c) =>
+          c.title === configuredChapter ||
+          c.slug === configuredChapter ||
+          normalizeComparable(c.title) === normalizeComparable(configuredChapter) ||
+          normalizeComparable(c.slug) === normalizeComparable(configuredChapter),
+      );
+
+      const resolvedTopicSlugs =
+        directMatch && configuredChapter.toLowerCase() !== "all"
+          ? [directMatch.slug]
+          : Array.from(
+              new Set(
+                (matchedNoteChapter?.topicLinks || []).map((link) => link.slug),
+              ),
+            );
+      const resolvedTopicSlug = resolvedTopicSlugs[0];
+
+      if (!resolvedTopicSlug) {
+        console.error(
+          "Auto-start failed: Could not resolve a valid MCQ topic for planner chapter.",
+        );
+        dispatch(
+          failLoading(
+            `No linked MCQ topic found for ${noteChapterLookup || "this planner chapter"}.`,
+          ),
+        );
+        return;
+      }
+
+      // Synchronize the UI states to match the planner data
+      setSubject(matchedSubject.name);
+      setTopicSlug(resolvedTopicSlug);
+      if (matchedNoteChapter) setNoteChapterId(matchedNoteChapter.id);
+      setMode(resolvedMode);
+      setMinutes(config.timeLimitMinutes);
+
+      let finalEasy = config.difficultyBreakdown?.easy || 0;
+      let finalMedium = config.difficultyBreakdown?.medium || 0;
+      let finalHard = config.difficultyBreakdown?.hard || 0;
+
+      // Fallback distribution if planner didn't specify strict difficulty points
+      if (
+        finalEasy + finalMedium + finalHard === 0 &&
+        config.totalQuestions > 0
+      ) {
+        finalMedium = Math.floor(config.totalQuestions / 2);
+        finalEasy = Math.ceil((config.totalQuestions - finalMedium) / 2);
+        finalHard = config.totalQuestions - finalEasy - finalMedium;
+      }
+
+      setEasyCount(finalEasy);
+      setMediumCount(finalMedium);
+      setHardCount(finalHard);
+
+      // Force the sequence to initiate instantly without clicking "Apply"
+      const rotationKey = getQuestionRotationKey(
+        matchedSubject.name,
+        resolvedTopicSlugs,
+      );
+      dispatch(startLoading());
+      fetch("/api/mcq-bank", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          subject: matchedSubject.name,
+          chapter: resolvedTopicSlug,
+          chapters: resolvedTopicSlugs,
+          noteChapter: matchedNoteChapter?.label || "",
+          noteChapterId: matchedNoteChapter?.id || "",
+          mode: resolvedMode,
+          excludeQuestionIds: readQuestionRotation(rotationKey),
+          totalQuestions: config.totalQuestions,
+          easyCount: finalEasy,
+          mediumCount: finalMedium,
+          hardCount: finalHard,
+          minutes: config.timeLimitMinutes,
+        }),
+      })
+        .then(async (res) => {
+          const payload = await res.json();
+          if (!res.ok)
+            throw new Error(payload.error || "Failed planner auto-sequence.");
+          rememberQuestionRotation(
+            rotationKey,
+            (payload as QuizApiPayload).questions.map((question) => question.id),
+          );
+          dispatch(loadQuiz(payload as QuizApiPayload));
+        })
+        .catch((err) => {
+          console.error(err);
+          dispatch(failLoading(err.message));
+        });
+    } catch (err) {
+      console.error("Planner auto-start error safely caught:", err);
+    }
+  }, [bankIndex, dispatch]);
+  // ------------------------------------------------------
+  // ------------------------------------------------------
 
   useEffect(() => {
     if (!selectedSubject) return;
@@ -196,6 +406,9 @@ export default function QuizDashboard({ bankIndex }: QuizDashboardProps) {
     if (!selectedSubject || !selectedTopic) return;
 
     dispatch(startLoading());
+    const rotationKey = getQuestionRotationKey(selectedSubject.name, [
+      selectedTopic.slug,
+    ]);
     try {
       const res = await fetch("/api/mcq-bank", {
         method: "POST",
@@ -206,6 +419,7 @@ export default function QuizDashboard({ bankIndex }: QuizDashboardProps) {
           noteChapter: selectedNoteChapter?.label || "",
           noteChapterId: selectedNoteChapter?.id || "",
           mode,
+          excludeQuestionIds: readQuestionRotation(rotationKey),
           totalQuestions: difficultyTotal,
           easyCount,
           mediumCount,
@@ -217,6 +431,10 @@ export default function QuizDashboard({ bankIndex }: QuizDashboardProps) {
       if (!res.ok) {
         throw new Error(payload.error || "Failed to initiate sequence.");
       }
+      rememberQuestionRotation(
+        rotationKey,
+        (payload as QuizApiPayload).questions.map((question) => question.id),
+      );
       dispatch(loadQuiz(payload as QuizApiPayload));
     } catch (err) {
       dispatch(

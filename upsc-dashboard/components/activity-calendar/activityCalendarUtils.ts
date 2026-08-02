@@ -4,6 +4,12 @@ import type {
   SubjectBreakdownRow,
   TopicBreakdownRow,
 } from "@/types/analytics";
+import type {
+  PlannerCalendarDayDetails,
+  PlannerCalendarMission,
+  PlannerDayCompletion,
+  PlannerDayCompletionMap,
+} from "@/types/activityCalendar";
 import type { PracticeRecord } from "@/types/records";
 
 export const MONTH_NAMES = [
@@ -60,6 +66,15 @@ export function getHeatColor(count: number): string {
   return "#ff5f74";
 }
 
+export function getMissionCompletionColor(
+  completion: PlannerDayCompletion | null | undefined,
+): string {
+  if (!completion || completion.totalMissions <= 0) return "#141f35";
+  if (completion.completionPercent >= 100) return "#22c55e";
+  if (completion.completionPercent >= 50) return "#f59e0b";
+  return "#ef4444";
+}
+
 function toNumber(value: unknown): number {
   const numeric = Number(value);
   return Number.isFinite(numeric) ? numeric : 0;
@@ -112,6 +127,261 @@ export function buildDateCountMap(records: PracticeRecord[], selectedYear: numbe
   });
 
   return dateMap;
+}
+
+function isCompletedMission(mission: unknown): boolean {
+  if (!mission || typeof mission !== "object" || Array.isArray(mission)) {
+    return false;
+  }
+
+  const missionRecord = mission as {
+    progress?: { status?: unknown; completionPercent?: unknown };
+    isCompleted?: unknown;
+  };
+  const status = String(missionRecord.progress?.status || "").toLowerCase();
+  if (status === "completed" || status === "revised") return true;
+  if (missionRecord.isCompleted === true) return true;
+
+  const percent = Number(missionRecord.progress?.completionPercent);
+  return Number.isFinite(percent) && percent >= 100;
+}
+
+export function buildPlannerCompletionMap(
+  days: unknown[],
+): PlannerDayCompletionMap {
+  const completionMap: PlannerDayCompletionMap = {};
+  const safeDays = Array.isArray(days) ? days : [];
+
+  safeDays.forEach((day) => {
+    if (!day || typeof day !== "object" || Array.isArray(day)) return;
+
+    const dayRecord = day as {
+      dateKey?: unknown;
+      noteMissions?: unknown;
+      testMissions?: unknown;
+      otherMissions?: unknown;
+    };
+    const dateKey = String(dayRecord.dateKey || "");
+    if (!ISO_DATE_PATTERN.test(dateKey)) return;
+
+    const missions = [
+      ...(Array.isArray(dayRecord.noteMissions) ? dayRecord.noteMissions : []),
+      ...(Array.isArray(dayRecord.testMissions) ? dayRecord.testMissions : []),
+      ...(Array.isArray(dayRecord.otherMissions)
+        ? dayRecord.otherMissions.filter((mission) => {
+            if (!mission || typeof mission !== "object" || Array.isArray(mission)) {
+              return true;
+            }
+            return (mission as { type?: unknown }).type !== "debt_collector";
+          })
+        : []),
+    ];
+    const totalMissions = missions.length;
+    const completedMissions = missions.filter(isCompletedMission).length;
+
+    completionMap[dateKey] = {
+      totalMissions,
+      completedMissions,
+      completionPercent:
+        totalMissions > 0
+          ? Math.round((completedMissions / totalMissions) * 100)
+          : 0,
+    };
+  });
+
+  return completionMap;
+}
+
+function getMissionStatus(mission: unknown): string {
+  if (!mission || typeof mission !== "object" || Array.isArray(mission)) {
+    return "not_started";
+  }
+
+  const status = String(
+    (mission as { progress?: { status?: unknown }; isCompleted?: unknown })
+      .progress?.status || "",
+  ).toLowerCase();
+  if (status) return status;
+  return (mission as { isCompleted?: unknown }).isCompleted === true
+    ? "completed"
+    : "not_started";
+}
+
+function getMissionTime(mission: unknown, key: "plannedStart" | "plannedEnd") {
+  if (!mission || typeof mission !== "object" || Array.isArray(mission)) {
+    return undefined;
+  }
+
+  const value = (mission as { timeValidation?: Record<string, unknown> })
+    .timeValidation?.[key];
+  return typeof value === "string" && value !== "00:00" ? value : undefined;
+}
+
+function buildNoteMissionDetails(mission: Record<string, unknown>): string[] {
+  const progress =
+    mission.progress && typeof mission.progress === "object" && !Array.isArray(mission.progress)
+      ? (mission.progress as Record<string, unknown>)
+      : {};
+  const targets = Array.isArray(progress.targets)
+    ? (progress.targets as unknown[])
+    : Array.isArray(mission.targets)
+      ? mission.targets
+      : [];
+
+  return targets
+    .map((target) => {
+      if (!target || typeof target !== "object" || Array.isArray(target)) {
+        return "";
+      }
+      const item = target as Record<string, unknown>;
+      const label = String(item.label || item.uid || "Target");
+      const total = Number(item.totalLeafCount) || (Array.isArray(item.leafUids) ? item.leafUids.length : 0);
+      const completed = Number(item.completedLeafCount) || 0;
+      const revised = Number(item.revisedLeafCount) || 0;
+      return `${label}: ${Math.max(completed, revised)}/${total || 1}`;
+    })
+    .filter(Boolean);
+}
+
+function normalizePlannerMission(
+  mission: unknown,
+  type: PlannerCalendarMission["type"],
+  index: number,
+): PlannerCalendarMission | null {
+  if (!mission || typeof mission !== "object" || Array.isArray(mission)) {
+    return null;
+  }
+
+  const item = mission as Record<string, unknown>;
+  const progress =
+    item.progress && typeof item.progress === "object" && !Array.isArray(item.progress)
+      ? (item.progress as Record<string, unknown>)
+      : {};
+  const status = getMissionStatus(item);
+
+  if (type === "note") {
+    const totalCount =
+      Number(progress.totalTargets) ||
+      (Array.isArray(item.targets)
+        ? item.targets.reduce((sum, target) => {
+            if (!target || typeof target !== "object" || Array.isArray(target)) return sum;
+            const leafUids = (target as { leafUids?: unknown }).leafUids;
+            return sum + (Array.isArray(leafUids) ? leafUids.length : 1);
+          }, 0)
+        : 0);
+    const mode = item.mode === "revise" ? "revise" : "complete";
+    const completedCount =
+      mode === "revise"
+        ? Number(progress.revisedTargets) || 0
+        : Number(progress.completedTargets) || 0;
+
+    return {
+      id: String(item.id || `note-${index}`),
+      type,
+      title: String(item.chapterLabel || "Note mission"),
+      subject: String(item.subject || "Unknown"),
+      chapter: String(item.chapterLabel || ""),
+      mode,
+      status,
+      plannedStart: getMissionTime(item, "plannedStart"),
+      plannedEnd: getMissionTime(item, "plannedEnd"),
+      completedCount,
+      totalCount,
+      remainingCount: Math.max(0, totalCount - completedCount),
+      details: buildNoteMissionDetails(item),
+    };
+  }
+
+  if (type === "test") {
+    const totalCount = Number(item.totalQuestions) || 0;
+    const completedCount = Number(progress.completedQuestions) || 0;
+    return {
+      id: String(item.id || `test-${index}`),
+      type,
+      title: String(item.chapterTitle || "Test mission"),
+      subject: String(item.subject || "Unknown"),
+      chapter: String(item.chapterTitle || ""),
+      mode: typeof item.mode === "string" ? item.mode : undefined,
+      status,
+      plannedStart: getMissionTime(item, "plannedStart"),
+      plannedEnd: getMissionTime(item, "plannedEnd"),
+      completedCount,
+      totalCount,
+      remainingCount: Math.max(0, totalCount - completedCount),
+      details: [`Questions: ${completedCount}/${totalCount}`],
+    };
+  }
+
+  return {
+    id: String(item.id || `other-${index}`),
+    type,
+    title: String(item.title || item.task || "Other mission"),
+    subject: String(item.subject || "General"),
+    chapter: String(item.chapter || ""),
+    status,
+    plannedStart: getMissionTime(item, "plannedStart"),
+    plannedEnd: getMissionTime(item, "plannedEnd"),
+    completedCount: isCompletedMission(item) ? 1 : 0,
+    totalCount: 1,
+    remainingCount: isCompletedMission(item) ? 0 : 1,
+    details: [],
+  };
+}
+
+export function buildPlannerDayDetailsMap(
+  days: unknown[],
+): Record<string, PlannerCalendarDayDetails> {
+  const detailsMap: Record<string, PlannerCalendarDayDetails> = {};
+  const safeDays = Array.isArray(days) ? days : [];
+
+  safeDays.forEach((day) => {
+    if (!day || typeof day !== "object" || Array.isArray(day)) return;
+
+    const dayRecord = day as {
+      dateKey?: unknown;
+      noteMissions?: unknown;
+      testMissions?: unknown;
+      otherMissions?: unknown;
+    };
+    const dateKey = String(dayRecord.dateKey || "");
+    if (!ISO_DATE_PATTERN.test(dateKey)) return;
+
+    const missions = [
+      ...(Array.isArray(dayRecord.noteMissions)
+        ? dayRecord.noteMissions
+            .map((mission, index) => normalizePlannerMission(mission, "note", index))
+            .filter((mission): mission is PlannerCalendarMission => Boolean(mission))
+        : []),
+      ...(Array.isArray(dayRecord.testMissions)
+        ? dayRecord.testMissions
+            .map((mission, index) => normalizePlannerMission(mission, "test", index))
+            .filter((mission): mission is PlannerCalendarMission => Boolean(mission))
+        : []),
+      ...(Array.isArray(dayRecord.otherMissions)
+        ? dayRecord.otherMissions
+            .filter((mission) => {
+              if (!mission || typeof mission !== "object" || Array.isArray(mission)) return true;
+              return (mission as { type?: unknown }).type !== "debt_collector";
+            })
+            .map((mission, index) => normalizePlannerMission(mission, "other", index))
+            .filter((mission): mission is PlannerCalendarMission => Boolean(mission))
+        : []),
+    ];
+
+    const completedMissions = missions.filter((mission) =>
+      ["completed", "revised"].includes(mission.status),
+    ).length;
+
+    detailsMap[dateKey] = {
+      dateKey,
+      totalMissions: missions.length,
+      completedMissions,
+      remainingMissions: Math.max(0, missions.length - completedMissions),
+      missions,
+    };
+  });
+
+  return detailsMap;
 }
 
 export function buildYearDays(selectedYear: number): Date[] {

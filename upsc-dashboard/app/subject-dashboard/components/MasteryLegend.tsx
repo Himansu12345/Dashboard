@@ -10,11 +10,11 @@ const LEGEND_ITEMS = [
 export const MasteryLegend = memo(function MasteryLegend() {
   return (
     <div className="legend hide-in-zen">
-      {LEGEND_ITEMS.map(([className, label]) => (
+      {/* {LEGEND_ITEMS.map(([className, label]) => (
         <span key={className} className={`pbadge ${className}`}>
           {label}
         </span>
-      ))}
+      ))} */}
     </div>
   );
 });

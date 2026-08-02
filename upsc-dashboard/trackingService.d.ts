@@ -9,9 +9,9 @@ declare module "@/trackingService" {
       correctOption: string;
     };
     selectedOption: string;
-    selectedOptionId: string;
+    selectedOptionId: string | null;
     isCorrect: boolean;
-    result: "Correct" | "Incorrect";
+    result: "Correct" | "Incorrect" | "Skipped";
     subject?: string;
     topic?: string;
     subtopic?: string | null;
@@ -40,14 +40,18 @@ declare module "@/trackingService" {
 
   export function getReportData(startDate: Date, endDate: Date): Promise<{
     questionAttempts: Array<{
+      id?: string;
       timestamp: number;
       sessionId: string;
+      questionId?: string;
       subject: string;
       topic: string;
-      question: string;
+      question?: string;
+      questionText?: string;
       selectedOption: string;
       correctOption: string;
-      result: string;
+      result: "Correct" | "Incorrect" | "Skipped" | string;
+      timeTaken?: number | null;
     }>;
     noteActions: Array<{
       timestamp: number;

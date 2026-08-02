@@ -15,6 +15,7 @@ export type RawSubjectNode = {
   id?: string;
   p?: SubjectPriority | string;
   label: string;
+  kind?: string; // 🛡️ PRO FIX: Yahan aana chahiye tha!
   children?: RawSubjectNode[];
 };
 
@@ -32,6 +33,7 @@ export type SubjectStorageKeys = {
   statuses: string;
   collapsed: string;
   noteDocuments: string;
+  
 };
 
 export type SubjectDashboardConfig = {

@@ -35,6 +35,7 @@ export const IconFocus2 = makeIcon("\u25ce");
 export const IconSearch = makeIcon("\u2315");
 export const IconFoldDown = makeIcon("\u25be");
 export const IconFoldUp = makeIcon("\u25b4");
+export const IconDownload = makeIcon("\u21e9");
 export const IconBrain = makeIcon("B");
 export const IconStarFilled = makeIcon("\u2605");
 export const IconChevronRight = makeIcon("\u203a");

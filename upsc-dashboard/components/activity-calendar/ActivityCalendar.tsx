@@ -13,8 +13,9 @@ import CalendarHeader from "./CalendarHeader";
 import DateAnalyticsPopup from "./DateAnalyticsPopup";
 import MonthSlider from "./MonthSlider";
 import {
-  buildDateAnalytics,
   buildDateCountMap,
+  buildPlannerDayDetailsMap,
+  buildPlannerCompletionMap,
   buildYearDays,
   clampSliderIndex,
   getInitialSliderIndex,
@@ -22,6 +23,8 @@ import {
 } from "./activityCalendarUtils";
 import type { PracticeRecord } from "@/types/records";
 import type { ActivityCalendarContextValue } from "@/types/activityCalendar";
+
+const PLANNER_API_URL = "http://localhost:5000/api/planner";
 
 function getCurrentDateMeta() {
   const currentDate = new Date();
@@ -41,6 +44,7 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
   const [selectedYear, setSelectedYear] = useState<number>(currentYear);
   const [sliderIndex, setSliderIndex] = useState<number>(getInitialSliderIndex(currentMonthIndex));
   const [selectedDateKey, setSelectedDateKey] = useState<string | null>(null);
+  const [plannerDays, setPlannerDays] = useState<unknown[]>([]);
   const sliderViewportRef = useRef<HTMLDivElement | null>(null);
   const monthRefs = useRef<Array<HTMLDivElement | null>>([]);
   const sliderScrollFrameRef = useRef<number | null>(null);
@@ -49,17 +53,36 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
     () => buildDateCountMap(safeRecords, selectedYear),
     [safeRecords, selectedYear],
   );
+  const plannerCompletionMap = useMemo(
+    () => buildPlannerCompletionMap(plannerDays),
+    [plannerDays],
+  );
+  const plannerDayDetailsMap = useMemo(
+    () => buildPlannerDayDetailsMap(plannerDays),
+    [plannerDays],
+  );
   const allDays = useMemo(() => buildYearDays(selectedYear), [selectedYear]);
   const months = useMemo(() => groupDaysByMonth(allDays), [allDays]);
   const totalSubmissions = useMemo(
     () => Object.values(dateCountMap).reduce((sum, value) => sum + value, 0),
     [dateCountMap],
   );
-
-  const selectedDateAnalytics = useMemo(() => {
-    if (!selectedDateKey) return null;
-    return buildDateAnalytics(safeRecords, selectedDateKey);
-  }, [safeRecords, selectedDateKey]);
+  const totalCompletedMissions = useMemo(
+    () =>
+      Object.values(plannerCompletionMap).reduce(
+        (sum, day) => sum + day.completedMissions,
+        0,
+      ),
+    [plannerCompletionMap],
+  );
+  const totalPlannedMissions = useMemo(
+    () =>
+      Object.values(plannerCompletionMap).reduce(
+        (sum, day) => sum + day.totalMissions,
+        0,
+      ),
+    [plannerCompletionMap],
+  );
 
   const scrollToMonth = useCallback((nextIndex: number, behavior: ScrollBehavior = "smooth") => {
     const viewport = sliderViewportRef.current;
@@ -82,6 +105,39 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
       window.cancelAnimationFrame(frameId);
     };
   }, [currentMonthIndex, scrollToMonth, selectedYear]);
+
+  const loadPlannerDays = useCallback(
+    async (isCancelled: () => boolean) => {
+      try {
+        const response = await fetch(`${PLANNER_API_URL}/year/${selectedYear}`);
+        if (!response.ok) throw new Error("Planner year fetch failed.");
+        const payload = await response.json();
+        if (!isCancelled()) {
+          setPlannerDays(Array.isArray(payload?.data) ? payload.data : []);
+        }
+      } catch {
+        if (!isCancelled()) setPlannerDays([]);
+      }
+    },
+    [selectedYear],
+  );
+
+  useEffect(() => {
+    let isCancelled = false;
+
+    void loadPlannerDays(() => isCancelled);
+
+    const handleFocus = () => {
+      void loadPlannerDays(() => isCancelled);
+    };
+
+    window.addEventListener("focus", handleFocus);
+
+    return () => {
+      isCancelled = true;
+      window.removeEventListener("focus", handleFocus);
+    };
+  }, [loadPlannerDays]);
 
   useEffect(
     () => () => {
@@ -165,15 +221,18 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
   const contextValue = useMemo<ActivityCalendarContextValue>(
     () => ({
       dateCountMap,
+      plannerCompletionMap,
       onDateSelect: setSelectedDateKey,
     }),
-    [dateCountMap],
+    [dateCountMap, plannerCompletionMap],
   );
 
   return (
     <section className="heatmap-card">
       <CalendarHeader
         totalSubmissions={totalSubmissions}
+        totalCompletedMissions={totalCompletedMissions}
+        totalPlannedMissions={totalPlannedMissions}
         selectedYear={selectedYear}
         currentYear={currentYear}
         onYearChange={handleYearChange}
@@ -192,20 +251,18 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
       </ActivityCalendarProvider>
 
       <div className="legend-row">
-        <span className="legend-label">Less</span>
+        <span className="legend-label">No missions</span>
         <div className="legend-dot" style={{ background: "#141f35" }} />
-        <div className="legend-dot" style={{ background: "#00d5ff" }} />
-        <div className="legend-dot" style={{ background: "#00ff95" }} />
-        <div className="legend-dot" style={{ background: "#ffd25a" }} />
-        <div className="legend-dot" style={{ background: "#ff5f74" }} />
-        <span className="legend-label">More</span>
+        <div className="legend-dot" style={{ background: "#ef4444" }} />
+        <div className="legend-dot" style={{ background: "#f59e0b" }} />
+        <div className="legend-dot" style={{ background: "#22c55e" }} />
+        <span className="legend-label">Mission completion</span>
       </div>
 
       <DateAnalyticsPopup
         key={selectedDateKey || "none"}
         dateKey={selectedDateKey}
-        analytics={selectedDateAnalytics}
-        records={safeRecords}
+        plannerDay={selectedDateKey ? plannerDayDetailsMap[selectedDateKey] || null : null}
         onClose={closeDatePopup}
       />
     </section>

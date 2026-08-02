@@ -1,10 +1,40 @@
-import type { DateAnalyticsResult } from "@/types/analytics";
-import type { PracticeRecord } from "@/types/records";
-
 export type DateCountMap = Record<string, number>;
+
+export interface PlannerDayCompletion {
+  totalMissions: number;
+  completedMissions: number;
+  completionPercent: number;
+}
+
+export type PlannerDayCompletionMap = Record<string, PlannerDayCompletion>;
+
+export interface PlannerCalendarMission {
+  id: string;
+  type: "note" | "test" | "other";
+  title: string;
+  subject: string;
+  chapter: string;
+  mode?: string;
+  status: string;
+  plannedStart?: string;
+  plannedEnd?: string;
+  completedCount: number;
+  totalCount: number;
+  remainingCount: number;
+  details: string[];
+}
+
+export interface PlannerCalendarDayDetails {
+  dateKey: string;
+  totalMissions: number;
+  completedMissions: number;
+  remainingMissions: number;
+  missions: PlannerCalendarMission[];
+}
 
 export interface ActivityCalendarContextValue {
   dateCountMap: DateCountMap;
+  plannerCompletionMap: PlannerDayCompletionMap;
   onDateSelect: (dateKey: string | null) => void;
 }
 
@@ -28,8 +58,7 @@ export interface DatePopupFilterItem {
 
 export interface DateAnalyticsPopupProps {
   dateKey: string | null;
-  analytics: DateAnalyticsResult | null;
-  records: PracticeRecord[];
+  plannerDay?: PlannerCalendarDayDetails | null;
   onClose?: () => void;
 }
 

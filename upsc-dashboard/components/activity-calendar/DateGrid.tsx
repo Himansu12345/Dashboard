@@ -9,7 +9,8 @@ interface DateGridProps {
 }
 
 export default function DateGrid({ monthDates }: DateGridProps) {
-  const { dateCountMap, onDateSelect } = useActivityCalendarContext();
+  const { dateCountMap, plannerCompletionMap, onDateSelect } =
+    useActivityCalendarContext();
 
   const cells = useMemo<DateCell[]>(() => {
     const safeMonthDates = Array.isArray(monthDates) ? monthDates : [];
@@ -32,9 +33,9 @@ export default function DateGrid({ monthDates }: DateGridProps) {
       items.push({
         key: dateKey,
         isBlank: false,
-        dateKey,
-        count: dateCountMap[dateKey] || 0,
-      });
+          dateKey,
+          count: dateCountMap[dateKey] || 0,
+        });
     });
 
     return items;
@@ -47,6 +48,9 @@ export default function DateGrid({ monthDates }: DateGridProps) {
           key={cell.key}
           dateKey={cell.isBlank ? undefined : cell.dateKey}
           count={cell.isBlank ? 0 : cell.count}
+          completion={
+            cell.isBlank ? undefined : plannerCompletionMap[cell.dateKey]
+          }
           isBlank={cell.isBlank}
           onSelectDate={onDateSelect}
         />

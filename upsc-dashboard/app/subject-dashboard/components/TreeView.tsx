@@ -1,3 +1,4 @@
+import { memo } from "react";
 import type {
   ChapterAttemptSummary,
   SubjectCompletionTimes,
@@ -29,7 +30,8 @@ type TreeViewProps = {
   onToggleStar: (uid: string) => void;
 };
 
-export function TreeView(props: TreeViewProps) {
+// ⚡ PRO POWER FIX: Memoize the entire tree wrapper to completely block modal render poisoning
+export const TreeView = memo(function TreeView(props: TreeViewProps) {
   return (
     <section className="tree-shell">
       <div className="tree-shell-head">
@@ -57,3 +59,4 @@ export function TreeView(props: TreeViewProps) {
     </section>
   );
 }
+);

@@ -8,6 +8,8 @@ type DateRangeInput = {
 type RawQuestionAttempt = Record<string, any>;
 type RawNoteAction = Record<string, any>;
 type RawStudySession = Record<string, any>;
+type RawWeeklyPlan = Record<string, any>;
+type PlannerMissionType = "note" | "test" | "other";
 
 type SubjectProgressNoteAction = {
   id?: string;
@@ -46,6 +48,7 @@ export interface BuildReportDataInput {
   questionAttempts: RawQuestionAttempt[];
   noteActions: SubjectProgressNoteAction[];
   studySessions: RawStudySession[];
+  plannerPlans?: RawWeeklyPlan[];
 }
 
 export interface QuestionAttemptReportRecord {
@@ -129,7 +132,10 @@ export interface TimelineRecord {
     | "note_starred"
     | "note_uncompleted"
     | "note_unrevised"
-    | "note_unstarred";
+    | "note_unstarred"
+    | "planner_note_mission"
+    | "planner_test_mission"
+    | "planner_other_mission";
   sessionId: string | null;
   subject: string;
   chapter?: string;
@@ -141,6 +147,121 @@ export interface TimelineRecord {
   action?: string;
   label: string;
   meta?: Record<string, unknown>;
+}
+
+export interface PlannerMissionReportRecord {
+  id: string;
+  eventType: "planner_mission";
+  missionType: PlannerMissionType;
+  timestamp: number;
+  date: string;
+  time: string;
+  weekStartDate: string;
+  planStatus: string;
+  committedAt: string | null;
+  dayDateKey: string;
+  dayOfWeek: string;
+  dateLabel: string;
+  subject: string;
+  chapter: string;
+  topic: string;
+  title: string;
+  status: string;
+  outcome: "completed" | "revised" | "in_progress" | "missed" | "not_started";
+  plannedStart: string | null;
+  plannedEnd: string | null;
+  plannedDurationMinutes: number | null;
+  actualStart: string | null;
+  actualEnd: string | null;
+  actualDurationMinutes: number | null;
+  validationState: string;
+  delayReason: string;
+  notePlan?: {
+    totalTargets: number;
+    completedTargets: number;
+    revisedTargets: number;
+    pendingTargets: number;
+    completionPercent: number;
+    targets: Array<{
+      uid: string;
+      label: string;
+      topicUid: string | null;
+      leafUids: string[];
+      totalLeafCount: number;
+      completedLeafCount: number;
+      revisedLeafCount: number;
+      pendingLeafCount: number;
+      completionPercent: number;
+      isCompleted: boolean;
+      isRevised: boolean;
+    }>;
+    matchingNoteActionIds: string[];
+    completedActionCount: number;
+    revisedActionCount: number;
+  };
+  testPlan?: {
+    mode: string;
+    targetQuestions: number;
+    timeLimitMinutes: number | null;
+    difficultyBreakdown: Record<string, number>;
+    plannedEasy: number;
+    plannedMedium: number;
+    plannedHard: number;
+    progressCompletedQuestions: number;
+    progressAccuracy: number;
+    progressEasySolved: number;
+    progressMediumSolved: number;
+    progressHardSolved: number;
+    actualAttempted: number;
+    actualCorrect: number;
+    actualIncorrect: number;
+    actualSkipped: number;
+    actualAccuracy: number;
+    totalTimeTakenSeconds: number;
+    averageTimeTakenSeconds: number;
+    plannedTimeSeconds: number | null;
+    timeVarianceSeconds: number | null;
+    matchingQuestionAttemptIds: string[];
+    matchStrategy: string;
+    questionDetails: Array<{
+      id: string;
+      questionId: string | null;
+      questionText: string;
+      result: string;
+      selectedOption: string | null;
+      correctOption: string | null;
+      timeTakenSeconds: number | null;
+      reason: unknown;
+    }>;
+  };
+  otherPlan?: Record<string, unknown>;
+  rawMission: unknown;
+}
+
+export interface PlannerReportSummary {
+  totalPlannerPlans: number;
+  totalPlannerDays: number;
+  totalPlannerMissions: number;
+  totalPlannerNoteMissions: number;
+  totalPlannerTestMissions: number;
+  totalPlannerOtherMissions: number;
+  plannerCompletedMissions: number;
+  plannerRevisedMissions: number;
+  plannerInProgressMissions: number;
+  plannerMissedMissions: number;
+  plannerNotStartedMissions: number;
+  plannedNoteTargets: number;
+  completedNoteTargets: number;
+  revisedNoteTargets: number;
+  pendingNoteTargets: number;
+  plannedTestQuestions: number;
+  attemptedPlannedTestQuestions: number;
+  correctPlannedTestQuestions: number;
+  incorrectPlannedTestQuestions: number;
+  skippedPlannedTestQuestions: number;
+  plannerTestAccuracy: number;
+  plannedTestTimeSeconds: number;
+  actualTestTimeSeconds: number;
 }
 
 export interface SessionBreakdownRecord {
@@ -309,7 +430,12 @@ export interface AiReadyReport {
     totalUnreviseActions: number;
     totalUnstarActions: number;
     sessionCount: number;
+    plannerMissionCount: number;
+    plannerMissedMissionCount: number;
   };
+  plannerPlans: RawWeeklyPlan[];
+  plannerMissions: PlannerMissionReportRecord[];
+  plannerSummary: PlannerReportSummary;
   questionAttempts: QuestionAttemptReportRecord[];
   noteActions: NoteActionReportRecord[];
   activityTimeline: TimelineRecord[];
@@ -424,6 +550,511 @@ function finalizeAggregates<T extends Record<string, AggregateBucket>>(map: T): 
       bucket.total > 0 ? (bucket.correct / bucket.total) * 100 : 0;
   }
   return map;
+}
+
+function dateKeyToTimestamp(dateKey: unknown, fallback = Date.now()): number {
+  if (typeof dateKey !== "string" || !dateKey) return fallback;
+  const timestamp = new Date(`${dateKey}T00:00:00`).getTime();
+  return Number.isFinite(timestamp) ? timestamp : fallback;
+}
+
+function normalizeIsoString(value: unknown): string | null {
+  if (typeof value !== "string" || !value) return null;
+  const timestamp = new Date(value).getTime();
+  return Number.isFinite(timestamp) ? new Date(timestamp).toISOString() : value;
+}
+
+function timeToMinutes(value: unknown): number | null {
+  if (typeof value !== "string" || !/^\d{2}:\d{2}$/.test(value)) return null;
+  const [hours, minutes] = value.split(":").map(Number);
+  if (
+    !Number.isInteger(hours) ||
+    !Number.isInteger(minutes) ||
+    hours < 0 ||
+    hours > 23 ||
+    minutes < 0 ||
+    minutes > 59
+  ) {
+    return null;
+  }
+  return hours * 60 + minutes;
+}
+
+function plannedMissionTimestamp(dayDateKey: string, plannedStart: string | null) {
+  const dayStart = dateKeyToTimestamp(dayDateKey);
+  const minutes = timeToMinutes(plannedStart);
+  return dayStart + (minutes ?? 0) * 60 * 1000;
+}
+
+function durationBetweenTimes(start: string | null, end: string | null) {
+  const startMinutes = timeToMinutes(start);
+  const endMinutes = timeToMinutes(end);
+  if (startMinutes == null || endMinutes == null) return null;
+  const duration = endMinutes - startMinutes;
+  return duration >= 0 ? duration : duration + 24 * 60;
+}
+
+function durationBetweenIso(start: string | null, end: string | null) {
+  if (!start || !end) return null;
+  const startMs = new Date(start).getTime();
+  const endMs = new Date(end).getTime();
+  if (!Number.isFinite(startMs) || !Number.isFinite(endMs) || endMs < startMs) {
+    return null;
+  }
+  return Math.round((endMs - startMs) / 60000);
+}
+
+function isDayInRange(dayDateKey: string, range: DateRangeInput) {
+  const dayStart = dateKeyToTimestamp(dayDateKey);
+  const dayEnd = dayStart + 24 * 60 * 60 * 1000 - 1;
+  return dayEnd >= range.startDate.getTime() && dayStart <= range.endDate.getTime();
+}
+
+function normalizeComparable(value: unknown) {
+  return safeString(value).trim().toLowerCase();
+}
+
+function getMissionOutcome(status: string): PlannerMissionReportRecord["outcome"] {
+  const normalized = status.trim().toLowerCase();
+  if (normalized === "completed") return "completed";
+  if (normalized === "revised") return "revised";
+  if (normalized === "in_progress") return "in_progress";
+  if (normalized === "failed_abandoned" || normalized === "missed") return "missed";
+  return "not_started";
+}
+
+function matchNoteActionsForMission(
+  mission: RawWeeklyPlan,
+  noteActions: NoteActionReportRecord[],
+) {
+  const leafUids = new Set(
+    safeArray<Record<string, unknown>>(mission.progress?.targets || mission.targets)
+      .flatMap((target) => safeArray<string>(target.leafUids))
+      .filter(Boolean),
+  );
+
+  return noteActions.filter((action) => {
+    if (normalizeComparable(action.subject) !== normalizeComparable(mission.subject)) {
+      return false;
+    }
+    if (leafUids.has(action.uid)) return true;
+    return (
+      normalizeComparable(action.chapter) ===
+        normalizeComparable(mission.chapterLabel || mission.chapterUid) &&
+      (!action.topic ||
+        safeArray<Record<string, unknown>>(mission.targets).some(
+          (target) =>
+            normalizeComparable(target.label) === normalizeComparable(action.topic) ||
+            normalizeComparable(target.uid) === normalizeComparable(action.topic),
+        ))
+    );
+  });
+}
+
+function matchQuestionAttemptsForTestMission(
+  mission: RawWeeklyPlan,
+  dayDateKey: string,
+  questionAttempts: QuestionAttemptReportRecord[],
+) {
+  const subject = normalizeComparable(mission.subject);
+  const chapterCandidates = [
+    mission.chapterTitle,
+    mission.chapterSlug,
+    mission.noteChapterLabel,
+    mission.noteChapterId,
+  ]
+    .map(normalizeComparable)
+    .filter(Boolean);
+
+  const sameDaySubject = questionAttempts.filter(
+    (attempt) =>
+      attempt.date === dayDateKey && normalizeComparable(attempt.subject) === subject,
+  );
+
+  const strictMatches = sameDaySubject.filter((attempt) => {
+    const attemptFields = [
+      attempt.chapter,
+      attempt.topic,
+      attempt.subtopic,
+      attempt.noteChapter,
+      attempt.noteChapterId,
+    ].map(normalizeComparable);
+    return chapterCandidates.some((candidate) => attemptFields.includes(candidate));
+  });
+
+  if (strictMatches.length > 0) {
+    return {
+      attempts: strictMatches,
+      strategy: "same_day_subject_and_chapter_or_note_chapter",
+    };
+  }
+
+  return {
+    attempts: sameDaySubject,
+    strategy:
+      sameDaySubject.length > 0
+        ? "same_day_subject_fallback"
+        : "no_matching_question_attempts",
+  };
+}
+
+function buildPlannerMissions(
+  plannerPlans: RawWeeklyPlan[],
+  questionAttempts: QuestionAttemptReportRecord[],
+  noteActions: NoteActionReportRecord[],
+  range: DateRangeInput,
+): PlannerMissionReportRecord[] {
+  const records: PlannerMissionReportRecord[] = [];
+
+  for (const plan of plannerPlans) {
+    const days = safeArray<RawWeeklyPlan>(plan.days);
+
+    for (const day of days) {
+      const dayDateKey = safeString(day.dateKey);
+      if (!dayDateKey || !isDayInRange(dayDateKey, range)) continue;
+
+      const base = {
+        weekStartDate: safeString(plan.weekStartDate),
+        planStatus: safeString(plan.status),
+        committedAt: normalizeIsoString(plan.committedAt),
+        dayDateKey,
+        dayOfWeek: safeString(day.dayOfWeek),
+        dateLabel: safeString(day.dateLabel),
+      };
+
+      safeArray<RawWeeklyPlan>(day.noteMissions).forEach((mission, index) => {
+        const timeValidation = mission.timeValidation || {};
+        const plannedStart = safeString(timeValidation.plannedStart) || null;
+        const plannedEnd = safeString(timeValidation.plannedEnd) || null;
+        const actualStart = normalizeIsoString(timeValidation.actualStart);
+        const actualEnd = normalizeIsoString(timeValidation.actualEnd);
+        const status = safeString(mission.progress?.status, "not_started");
+        const targets = safeArray<Record<string, unknown>>(
+          mission.progress?.targets || mission.targets,
+        ).map((target) => {
+          const leafUids = safeArray<string>(target.leafUids);
+          const totalLeafCount =
+            safeNumber(target.totalLeafCount) ?? leafUids.length;
+          const completedLeafCount = safeNumber(target.completedLeafCount) ?? 0;
+          const revisedLeafCount = safeNumber(target.revisedLeafCount) ?? 0;
+
+          return {
+            uid: safeString(target.uid),
+            label: safeString(target.label),
+            topicUid: target.topicUid == null ? null : String(target.topicUid),
+            leafUids,
+            totalLeafCount,
+            completedLeafCount,
+            revisedLeafCount,
+            pendingLeafCount: Math.max(0, totalLeafCount - completedLeafCount),
+            completionPercent:
+              safeNumber(target.completionPercent) ??
+              (totalLeafCount > 0 ? (completedLeafCount / totalLeafCount) * 100 : 0),
+            isCompleted: Boolean(target.isCompleted),
+            isRevised: Boolean(target.isRevised),
+          };
+        });
+        const matchingNoteActions = matchNoteActionsForMission(mission, noteActions);
+        const totalTargets =
+          safeNumber(mission.progress?.totalTargets) ??
+          targets.reduce((sum, target) => sum + target.totalLeafCount, 0);
+        const completedTargets =
+          safeNumber(mission.progress?.completedTargets) ??
+          targets.reduce((sum, target) => sum + target.completedLeafCount, 0);
+        const revisedTargets =
+          safeNumber(mission.progress?.revisedTargets) ??
+          targets.reduce((sum, target) => sum + target.revisedLeafCount, 0);
+
+        records.push({
+          id: safeString(mission.id) || `planner-note-${dayDateKey}-${index}`,
+          eventType: "planner_mission",
+          missionType: "note",
+          timestamp: plannedMissionTimestamp(dayDateKey, plannedStart),
+          date: dayDateKey,
+          time: toTimeString(plannedMissionTimestamp(dayDateKey, plannedStart)),
+          ...base,
+          subject: safeString(mission.subject),
+          chapter: safeString(mission.chapterLabel || mission.chapterUid),
+          topic: targets.map((target) => target.label).filter(Boolean).join(" | "),
+          title: safeString(mission.chapterLabel || mission.chapterUid),
+          status,
+          outcome: getMissionOutcome(status),
+          plannedStart,
+          plannedEnd,
+          plannedDurationMinutes: durationBetweenTimes(plannedStart, plannedEnd),
+          actualStart,
+          actualEnd,
+          actualDurationMinutes: durationBetweenIso(actualStart, actualEnd),
+          validationState: safeString(timeValidation.validationState, "pending"),
+          delayReason: safeString(timeValidation.delayReason),
+          notePlan: {
+            totalTargets,
+            completedTargets,
+            revisedTargets,
+            pendingTargets: Math.max(0, totalTargets - completedTargets),
+            completionPercent:
+              safeNumber(mission.progress?.completionPercent) ??
+              (totalTargets > 0 ? (completedTargets / totalTargets) * 100 : 0),
+            targets,
+            matchingNoteActionIds: matchingNoteActions.map((action) => action.id),
+            completedActionCount: matchingNoteActions.filter(
+              (action) => action.action === "completed",
+            ).length,
+            revisedActionCount: matchingNoteActions.filter(
+              (action) => action.action === "revised",
+            ).length,
+          },
+          rawMission: mission,
+        });
+      });
+
+      safeArray<RawWeeklyPlan>(day.testMissions).forEach((mission, index) => {
+        const timeValidation = mission.timeValidation || {};
+        const plannedStart = safeString(timeValidation.plannedStart) || null;
+        const plannedEnd = safeString(timeValidation.plannedEnd) || null;
+        const actualStart = normalizeIsoString(timeValidation.actualStart);
+        const actualEnd = normalizeIsoString(timeValidation.actualEnd);
+        const status = safeString(mission.progress?.status, "not_started");
+        const match = matchQuestionAttemptsForTestMission(
+          mission,
+          dayDateKey,
+          questionAttempts,
+        );
+        const actualCorrect = match.attempts.filter(
+          (attempt) => attempt.result === "Correct",
+        ).length;
+        const actualIncorrect = match.attempts.filter(
+          (attempt) => attempt.result === "Wrong",
+        ).length;
+        const actualSkipped = match.attempts.filter(
+          (attempt) => attempt.result === "Skipped",
+        ).length;
+        const totalTimeTakenSeconds = match.attempts.reduce(
+          (sum, attempt) => sum + (attempt.timeTakenSeconds ?? 0),
+          0,
+        );
+        const targetQuestions = safeNumber(mission.totalQuestions) ?? 0;
+        const timeLimitMinutes = safeNumber(mission.timeLimitMinutes);
+        const plannedTimeSeconds =
+          timeLimitMinutes == null ? null : timeLimitMinutes * 60;
+
+        records.push({
+          id: safeString(mission.id) || `planner-test-${dayDateKey}-${index}`,
+          eventType: "planner_mission",
+          missionType: "test",
+          timestamp: plannedMissionTimestamp(dayDateKey, plannedStart),
+          date: dayDateKey,
+          time: toTimeString(plannedMissionTimestamp(dayDateKey, plannedStart)),
+          ...base,
+          subject: safeString(mission.subject),
+          chapter: safeString(mission.chapterTitle || mission.chapterSlug),
+          topic: safeString(mission.noteChapterLabel || mission.noteChapterId),
+          title: safeString(mission.chapterTitle || mission.chapterSlug),
+          status,
+          outcome: getMissionOutcome(status),
+          plannedStart,
+          plannedEnd,
+          plannedDurationMinutes: durationBetweenTimes(plannedStart, plannedEnd),
+          actualStart,
+          actualEnd,
+          actualDurationMinutes: durationBetweenIso(actualStart, actualEnd),
+          validationState: safeString(timeValidation.validationState, "pending"),
+          delayReason: safeString(timeValidation.delayReason),
+          testPlan: {
+            mode: safeString(mission.mode),
+            targetQuestions,
+            timeLimitMinutes,
+            difficultyBreakdown:
+              mission.difficultyBreakdown &&
+              typeof mission.difficultyBreakdown === "object" &&
+              !Array.isArray(mission.difficultyBreakdown)
+                ? (mission.difficultyBreakdown as Record<string, number>)
+                : {},
+            plannedEasy: safeNumber(mission.difficultyBreakdown?.easy) ?? 0,
+            plannedMedium: safeNumber(mission.difficultyBreakdown?.medium) ?? 0,
+            plannedHard: safeNumber(mission.difficultyBreakdown?.hard) ?? 0,
+            progressCompletedQuestions:
+              safeNumber(mission.progress?.completedQuestions) ?? 0,
+            progressAccuracy: safeNumber(mission.progress?.accuracy) ?? 0,
+            progressEasySolved: safeNumber(mission.progress?.easySolved) ?? 0,
+            progressMediumSolved:
+              safeNumber(mission.progress?.mediumSolved) ?? 0,
+            progressHardSolved: safeNumber(mission.progress?.hardSolved) ?? 0,
+            actualAttempted: match.attempts.length,
+            actualCorrect,
+            actualIncorrect,
+            actualSkipped,
+            actualAccuracy:
+              match.attempts.length > 0
+                ? (actualCorrect / match.attempts.length) * 100
+                : 0,
+            totalTimeTakenSeconds,
+            averageTimeTakenSeconds:
+              match.attempts.length > 0
+                ? totalTimeTakenSeconds / match.attempts.length
+                : 0,
+            plannedTimeSeconds,
+            timeVarianceSeconds:
+              plannedTimeSeconds == null
+                ? null
+                : totalTimeTakenSeconds - plannedTimeSeconds,
+            matchingQuestionAttemptIds: match.attempts.map((attempt) => attempt.id),
+            matchStrategy: match.strategy,
+            questionDetails: match.attempts.map((attempt) => ({
+              id: attempt.id,
+              questionId: attempt.questionId,
+              questionText: attempt.questionText,
+              result: attempt.result,
+              selectedOption: attempt.selectedOption,
+              correctOption: attempt.correctOption,
+              timeTakenSeconds: attempt.timeTakenSeconds,
+              reason: attempt.explanation,
+            })),
+          },
+          rawMission: mission,
+        });
+      });
+
+      safeArray<RawWeeklyPlan>(day.otherMissions).forEach((mission, index) => {
+        const plannedStart =
+          safeString(mission.timeValidation?.plannedStart || mission.plannedStart) ||
+          null;
+        const plannedEnd =
+          safeString(mission.timeValidation?.plannedEnd || mission.plannedEnd) ||
+          null;
+        const status = safeString(
+          mission.progress?.status ||
+            (mission.isCompleted ? "completed" : "not_started"),
+          "not_started",
+        );
+
+        records.push({
+          id: safeString(mission.id) || `planner-other-${dayDateKey}-${index}`,
+          eventType: "planner_mission",
+          missionType: "other",
+          timestamp: plannedMissionTimestamp(dayDateKey, plannedStart),
+          date: dayDateKey,
+          time: toTimeString(plannedMissionTimestamp(dayDateKey, plannedStart)),
+          ...base,
+          subject: safeString(mission.subject),
+          chapter: safeString(mission.chapter),
+          topic: safeString(mission.topic),
+          title: safeString(mission.title || mission.task || mission.type, "Other mission"),
+          status,
+          outcome: getMissionOutcome(status),
+          plannedStart,
+          plannedEnd,
+          plannedDurationMinutes: durationBetweenTimes(plannedStart, plannedEnd),
+          actualStart: normalizeIsoString(mission.timeValidation?.actualStart),
+          actualEnd: normalizeIsoString(mission.timeValidation?.actualEnd),
+          actualDurationMinutes: durationBetweenIso(
+            normalizeIsoString(mission.timeValidation?.actualStart),
+            normalizeIsoString(mission.timeValidation?.actualEnd),
+          ),
+          validationState: safeString(
+            mission.timeValidation?.validationState,
+            "pending",
+          ),
+          delayReason: safeString(mission.timeValidation?.delayReason),
+          otherPlan:
+            mission && typeof mission === "object" && !Array.isArray(mission)
+              ? (mission as Record<string, unknown>)
+              : {},
+          rawMission: mission,
+        });
+      });
+    }
+  }
+
+  return records.sort((a, b) => a.timestamp - b.timestamp);
+}
+
+function buildPlannerSummary(
+  plannerPlans: RawWeeklyPlan[],
+  plannerMissions: PlannerMissionReportRecord[],
+): PlannerReportSummary {
+  const noteMissions = plannerMissions.filter((mission) => mission.missionType === "note");
+  const testMissions = plannerMissions.filter((mission) => mission.missionType === "test");
+  const plannedNoteTargets = noteMissions.reduce(
+    (sum, mission) => sum + (mission.notePlan?.totalTargets ?? 0),
+    0,
+  );
+  const completedNoteTargets = noteMissions.reduce(
+    (sum, mission) => sum + (mission.notePlan?.completedTargets ?? 0),
+    0,
+  );
+  const revisedNoteTargets = noteMissions.reduce(
+    (sum, mission) => sum + (mission.notePlan?.revisedTargets ?? 0),
+    0,
+  );
+  const plannedTestQuestions = testMissions.reduce(
+    (sum, mission) => sum + (mission.testPlan?.targetQuestions ?? 0),
+    0,
+  );
+  const attemptedPlannedTestQuestions = testMissions.reduce(
+    (sum, mission) => sum + (mission.testPlan?.actualAttempted ?? 0),
+    0,
+  );
+  const correctPlannedTestQuestions = testMissions.reduce(
+    (sum, mission) => sum + (mission.testPlan?.actualCorrect ?? 0),
+    0,
+  );
+
+  return {
+    totalPlannerPlans: plannerPlans.length,
+    totalPlannerDays: plannerPlans.reduce(
+      (sum, plan) => sum + safeArray(plan.days).length,
+      0,
+    ),
+    totalPlannerMissions: plannerMissions.length,
+    totalPlannerNoteMissions: noteMissions.length,
+    totalPlannerTestMissions: testMissions.length,
+    totalPlannerOtherMissions: plannerMissions.filter(
+      (mission) => mission.missionType === "other",
+    ).length,
+    plannerCompletedMissions: plannerMissions.filter(
+      (mission) => mission.outcome === "completed",
+    ).length,
+    plannerRevisedMissions: plannerMissions.filter(
+      (mission) => mission.outcome === "revised",
+    ).length,
+    plannerInProgressMissions: plannerMissions.filter(
+      (mission) => mission.outcome === "in_progress",
+    ).length,
+    plannerMissedMissions: plannerMissions.filter(
+      (mission) => mission.outcome === "missed",
+    ).length,
+    plannerNotStartedMissions: plannerMissions.filter(
+      (mission) => mission.outcome === "not_started",
+    ).length,
+    plannedNoteTargets,
+    completedNoteTargets,
+    revisedNoteTargets,
+    pendingNoteTargets: Math.max(0, plannedNoteTargets - completedNoteTargets),
+    plannedTestQuestions,
+    attemptedPlannedTestQuestions,
+    correctPlannedTestQuestions,
+    incorrectPlannedTestQuestions: testMissions.reduce(
+      (sum, mission) => sum + (mission.testPlan?.actualIncorrect ?? 0),
+      0,
+    ),
+    skippedPlannedTestQuestions: testMissions.reduce(
+      (sum, mission) => sum + (mission.testPlan?.actualSkipped ?? 0),
+      0,
+    ),
+    plannerTestAccuracy:
+      attemptedPlannedTestQuestions > 0
+        ? (correctPlannedTestQuestions / attemptedPlannedTestQuestions) * 100
+        : 0,
+    plannedTestTimeSeconds: testMissions.reduce(
+      (sum, mission) => sum + (mission.testPlan?.plannedTimeSeconds ?? 0),
+      0,
+    ),
+    actualTestTimeSeconds: testMissions.reduce(
+      (sum, mission) => sum + (mission.testPlan?.totalTimeTakenSeconds ?? 0),
+      0,
+    ),
+  };
 }
 
 function normalizeQuestionAttempt(
@@ -590,6 +1221,7 @@ function normalizeNoteAction(
 function buildTimeline(
   questionAttempts: QuestionAttemptReportRecord[],
   noteActions: NoteActionReportRecord[],
+  plannerMissions: PlannerMissionReportRecord[],
 ): TimelineRecord[] {
   const questionEvents: TimelineRecord[] = questionAttempts.map((attempt) => ({
     id: `timeline-question-${attempt.id}`,
@@ -659,7 +1291,39 @@ function buildTimeline(
     };
   });
 
-  return [...questionEvents, ...noteEvents].sort(
+  const plannerEvents: TimelineRecord[] = plannerMissions.map((mission) => ({
+    id: `timeline-planner-${mission.missionType}-${mission.id}`,
+    timestamp: mission.timestamp,
+    date: mission.date,
+    time: mission.time,
+    eventType:
+      mission.missionType === "note"
+        ? "planner_note_mission"
+        : mission.missionType === "test"
+          ? "planner_test_mission"
+          : "planner_other_mission",
+    sessionId: null,
+    subject: mission.subject,
+    chapter: mission.chapter || undefined,
+    topic: mission.topic || undefined,
+    label: `Planner ${mission.missionType} mission: ${mission.title}`,
+    meta: {
+      missionId: mission.id,
+      outcome: mission.outcome,
+      status: mission.status,
+      plannedStart: mission.plannedStart,
+      plannedEnd: mission.plannedEnd,
+      actualStart: mission.actualStart,
+      actualEnd: mission.actualEnd,
+      validationState: mission.validationState,
+      delayReason: mission.delayReason,
+      notePlan: mission.notePlan,
+      testPlan: mission.testPlan,
+      otherPlan: mission.otherPlan,
+    },
+  }));
+
+  return [...questionEvents, ...noteEvents, ...plannerEvents].sort(
     (a, b) => a.timestamp - b.timestamp,
   );
 }
@@ -1187,6 +1851,7 @@ export function buildReportData({
   questionAttempts,
   noteActions,
   studySessions,
+  plannerPlans = [],
 }: BuildReportDataInput): AiReadyReport {
   const normalizedQuestionAttempts = questionAttempts.map(normalizeQuestionAttempt);
 
@@ -1194,7 +1859,20 @@ export function buildReportData({
     .map(normalizeNoteAction)
     .filter((item): item is NoteActionReportRecord => item !== null);
 
-  const timeline = buildTimeline(normalizedQuestionAttempts, normalizedNoteActions);
+  const plannerMissions = buildPlannerMissions(
+    plannerPlans,
+    normalizedQuestionAttempts,
+    normalizedNoteActions,
+    { startDate, endDate },
+  );
+
+  const plannerSummary = buildPlannerSummary(plannerPlans, plannerMissions);
+
+  const timeline = buildTimeline(
+    normalizedQuestionAttempts,
+    normalizedNoteActions,
+    plannerMissions,
+  );
 
   const sessions = buildSessionBreakdown(
     studySessions,
@@ -1372,7 +2050,12 @@ export function buildReportData({
       totalUnreviseActions,
       totalUnstarActions,
       sessionCount: sessions.length,
+      plannerMissionCount: plannerMissions.length,
+      plannerMissedMissionCount: plannerSummary.plannerMissedMissions,
     },
+    plannerPlans,
+    plannerMissions,
+    plannerSummary,
     questionAttempts: normalizedQuestionAttempts.sort(
       (a, b) => a.timestamp - b.timestamp,
     ),

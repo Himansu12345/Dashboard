@@ -28,6 +28,7 @@ const syllabusMap = {
     "Elections",
     "Anti-Defection",
     "Schedules",
+    "Demo",
   ],
   Ancient: [
     "Prehistoric Period",

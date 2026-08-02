@@ -1,3 +1,7 @@
+// 🌍 PRO FIX: Force Node.js to operate entirely in Indian Standard Time (IST)
+// This strictly prevents native JS Date objects from drifting on UTC cloud servers.
+process.env.TZ = "Asia/Kolkata";
+
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -5,6 +9,9 @@ const crypto = require("crypto");
 const helmet = require("helmet");
 const ReportEvent = require("./models/ReportEvent");
 const SubjectProgress = require("./models/SubjectProgress");
+const {
+  calculateNoteMissionProgress,
+} = require("../upsc-dashboard/shared/plannerMissionProgress"); // 🛡️ PRO FIX: Path corrected!
 const { rateLimit } = require("express-rate-limit");
 const {
   buildConsistencyDashboard,
@@ -30,6 +37,7 @@ const SUBJECT_ALIASES = {
   "Science & Technology": "Science & Tech",
   Economy: "Economics",
 };
+const plannerSubjectSyncQueues = new Map();
 
 if (!process.env.MONGO_URL) {
   console.error("CRITICAL ERROR: Missing MONGO_URL in .env file.");
@@ -52,6 +60,52 @@ function safeObject(value) {
   return value && typeof value === "object" && !Array.isArray(value)
     ? value
     : {};
+}
+
+function enqueuePlannerSubjectSync(weekStartDate, syncTask) {
+  const previousTask =
+    plannerSubjectSyncQueues.get(weekStartDate) || Promise.resolve();
+  const nextTask = previousTask
+    .catch(() => undefined)
+    .then(syncTask)
+    .catch((error) => {
+      const message = error && error.message ? error.message : String(error);
+      console.error(
+        `Planner subject-progress sync failed for week ${weekStartDate}:`,
+        message,
+      );
+    })
+    .finally(() => {
+      if (plannerSubjectSyncQueues.get(weekStartDate) === nextTask) {
+        plannerSubjectSyncQueues.delete(weekStartDate);
+      }
+    });
+
+  plannerSubjectSyncQueues.set(weekStartDate, nextTask);
+  return nextTask;
+}
+
+function toFiniteTimestamp(value) {
+  if (typeof value === "number" && Number.isFinite(value)) return value;
+  if (typeof value === "string" && value.trim()) {
+    const numericValue = Number(value);
+    if (Number.isFinite(numericValue)) return numericValue;
+
+    const parsedDate = new Date(value).getTime();
+    if (Number.isFinite(parsedDate)) return parsedDate;
+  }
+  return null;
+}
+
+function getStartOfWeekStr() {
+  // 🛡️ PRO FIX: Local Date formatting prevents real-time sync from failing between 12:00 AM and 5:30 AM IST
+  const d = new Date();
+  const day = d.getDay();
+  const diff = d.getDate() - day + (day === 0 ? -6 : 1); // adjust when day is sunday
+  const mondayDate = new Date(d.setDate(diff));
+  return `${mondayDate.getFullYear()}-${String(
+    mondayDate.getMonth() + 1,
+  ).padStart(2, "0")}-${String(mondayDate.getDate()).padStart(2, "0")}`;
 }
 
 function isValidReportEventType(value) {
@@ -115,7 +169,7 @@ const API_RATE_LIMIT_WINDOW_MS = toPositiveInt(
   60_000,
 );
 const API_RATE_LIMIT_MAX = toPositiveInt(process.env.API_RATE_LIMIT_MAX, 300);
-const JSON_BODY_LIMIT = String(process.env.JSON_BODY_LIMIT || "1mb");
+const JSON_BODY_LIMIT = String(process.env.JSON_BODY_LIMIT || "10mb");
 
 function isAllowedCorsOrigin(origin) {
   if (!origin) return true;
@@ -123,6 +177,9 @@ function isAllowedCorsOrigin(origin) {
 }
 
 const app = express();
+
+// 🛡️ PRO FIX: Safely accommodate heavy 6-day Matrix payloads
+app.use(express.json({ limit: JSON_BODY_LIMIT }));
 app.disable("x-powered-by");
 app.use(
   helmet({
@@ -233,6 +290,8 @@ const AttemptQuestionSchema = new mongoose.Schema(
     options: { type: [String], default: [] },
     correctAnswer: { type: String, default: "", trim: true },
     selectedAnswer: { type: String, default: "", trim: true },
+    difficulty: { type: String, default: "Unknown", trim: true },
+    timeSpentSeconds: { type: Number, default: 0, min: 0 },
     notes: { type: [String], default: [] },
     // Legacy single-note field kept for backward compatibility.
     note: { type: String, default: "", trim: true, maxlength: 2000 },
@@ -252,6 +311,7 @@ const AttemptSchema = new mongoose.Schema({
   incorrect: { type: Number, required: true, min: 0 },
   skipped: { type: Number, required: true, min: 0 },
   accuracy: { type: Number, default: 0, min: 0 },
+  allottedTimeSeconds: { type: Number, default: 0, min: 0 },
   attemptKey: {
     type: String,
     required: true,
@@ -371,6 +431,10 @@ function normalizeIsoDateValue(value) {
 function normalizeDifficulty(value) {
   const normalized = normalizeString(value);
   if (!normalized) return "Unknown";
+  const lower = normalized.toLowerCase();
+  if (lower === "easy") return "Easy";
+  if (lower === "medium" || lower === "mid") return "Medium";
+  if (lower === "hard") return "Hard";
   return ALLOWED_DIFFICULTIES.has(normalized) ? normalized : "Unknown";
 }
 
@@ -527,6 +591,8 @@ function normalizeQuestionDetail(rawDetail, fallbackSelectedAnswer = "") {
     selectedAnswer: normalizeString(
       rawDetail.selectedAnswer || fallbackSelectedAnswer,
     ),
+    difficulty: normalizeDifficulty(rawDetail.difficulty),
+    timeSpentSeconds: toNonNegativeNumber(rawDetail.timeSpentSeconds),
     notes,
     note: notes[0] || "",
     why: normalizeQuestionNote(rawDetail.why),
@@ -658,6 +724,7 @@ function serializeAttempt(attempt) {
     incorrect: toNonNegativeNumber(attempt.incorrect),
     skipped: toNonNegativeNumber(attempt.skipped),
     accuracy: toNonNegativeNumber(attempt.accuracy),
+    allottedTimeSeconds: toNonNegativeNumber(attempt.allottedTimeSeconds),
     correctDetails,
     incorrectDetails: mergedIncorrectDetails,
     skippedDetails,
@@ -1204,6 +1271,7 @@ app.post("/api/attempt", async (req, res) => {
         incorrect,
         skipped,
         incorrectDetails: normalizedIncorrectDetails,
+        correctDetails: normalizedCorrectDetails,
         skippedDetails: normalizedSkippedDetails,
       });
 
@@ -1218,15 +1286,96 @@ app.post("/api/attempt", async (req, res) => {
       incorrect,
       skipped,
       accuracy,
+      allottedTimeSeconds: toNonNegativeNumber(body.allottedTimeSeconds),
       attemptKey,
-      // Keep counters but do not persist correct question-level details.
-      correctDetails: [],
+      correctDetails: normalizedCorrectDetails,
       incorrectDetails: normalizedIncorrectDetails,
       skippedDetails: normalizedSkippedDetails,
       deletedAt: null,
       updatedAt: new Date(),
     };
 
+    const syncPlannerTestProgress = async () => {
+      try {
+        const currentWeekStr = getStartOfWeekStr(); // 🛡️ PRO FIX: Removed duplicate variables
+        const now = new Date();
+        const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+        const WeeklyPlan = require("./models/WeeklyPlan");
+
+        const activePlan = await WeeklyPlan.findOne({
+          weekStartDate: currentWeekStr,
+        });
+        if (!activePlan) return;
+
+        let planUpdated = false;
+        activePlan.days.forEach((dayPlan) => {
+          if (dayPlan.dateKey !== todayStr) return;
+
+          if (Array.isArray(dayPlan.mcqTasks)) {
+            dayPlan.mcqTasks.forEach((task) => {
+              if (
+                task.subject &&
+                task.subject.toLowerCase() === subject.toLowerCase()
+              ) {
+                task.completed = Math.min(
+                  Number(task.target || total),
+                  Number(task.completed || 0) + total,
+                );
+                task.accuracy = `${accuracy}%`;
+                planUpdated = true;
+              }
+            });
+          }
+
+          if (Array.isArray(dayPlan.testMissions)) {
+            dayPlan.testMissions.forEach((mission) => {
+              const sameSubject =
+                mission.subject &&
+                String(mission.subject).toLowerCase() === subject.toLowerCase();
+              const sameChapter =
+                !mission.chapterSlug ||
+                !topic ||
+                String(mission.chapterSlug).toLowerCase() ===
+                  topic.toLowerCase() ||
+                String(mission.chapterTitle || "").toLowerCase() ===
+                  topic.toLowerCase();
+
+              if (!sameSubject || !sameChapter) return;
+
+              const totalQuestions = Number(mission.totalQuestions || total);
+              const completedQuestions = Math.min(
+                totalQuestions,
+                Number(mission.progress?.completedQuestions || 0) + total,
+              );
+
+              mission.progress = {
+                ...(mission.progress || {}),
+                completedQuestions,
+                accuracy,
+                completionPercent:
+                  totalQuestions > 0
+                    ? Math.round((completedQuestions / totalQuestions) * 100)
+                    : 0,
+                status:
+                  totalQuestions > 0 && completedQuestions >= totalQuestions
+                    ? "completed"
+                    : completedQuestions > 0
+                      ? "in_progress"
+                      : "not_started",
+              };
+              planUpdated = true;
+            });
+          }
+        });
+
+        if (planUpdated) {
+          activePlan.markModified("days");
+          await activePlan.save();
+        }
+      } catch (syncErr) {
+        console.error("Planner MCQ Real-time Sync Failed:", syncErr.message);
+      }
+    };
     const existingAttempt = await Attempt.findOne({ attemptKey })
       .select("_id deletedAt")
       .lean();
@@ -1241,6 +1390,7 @@ app.post("/api/attempt", async (req, res) => {
       syncRevisionTopics().catch((syncError) => {
         console.error("Revision Sync Error:", syncError.message);
       });
+      syncPlannerTestProgress();
       return res.status(200).json({
         message: "Attempt restored from recycle bin.",
         id: existingAttempt._id,
@@ -1261,6 +1411,7 @@ app.post("/api/attempt", async (req, res) => {
     syncRevisionTopics().catch((syncError) => {
       console.error("Revision Sync Error:", syncError.message);
     });
+    syncPlannerTestProgress();
 
     return res.status(201).json({
       message: "Quiz data saved successfully",
@@ -1279,6 +1430,11 @@ app.post("/api/attempt", async (req, res) => {
           correct: toNonNegativeNumber(body.correct),
           incorrect: toNonNegativeNumber(body.incorrect),
           skipped: toNonNegativeNumber(body.skipped),
+          correctDetails: dedupeQuestionDetails(
+            (Array.isArray(body.correctDetails) ? body.correctDetails : [])
+              .map((detail) => normalizeQuestionDetail(detail))
+              .filter(Boolean),
+          ),
           incorrectDetails: dedupeQuestionDetails(
             (Array.isArray(body.incorrectDetails) ? body.incorrectDetails : [])
               .map((detail) => normalizeQuestionDetail(detail))
@@ -2022,20 +2178,14 @@ app.get("/healthz", (_req, res) => {
     mongoReady: isMongoReady,
   });
 });
+const plannerRouter = require("./models/routes/planner");
 
-app.use((_req, res) => {
-  res.status(404).json({ error: "Route not found." });
-});
+// Register planner routes FIRST
+app.use("/api/planner", plannerRouter);
 
-app.use((err, _req, res, _next) => {
-  if (err && err.message === "Not allowed by CORS") {
-    return res.status(403).json({ error: "CORS origin blocked." });
-  }
+const googleRouter = require("./models/routes/google");
 
-  const errorMessage = err && err.message ? err.message : "Unknown error";
-  console.error("Unhandled Error:", errorMessage);
-  return res.status(500).json({ error: "Internal server error." });
-});
+app.use("/api/google", googleRouter);
 
 const PORT = process.env.PORT || 5000;
 
@@ -2087,23 +2237,26 @@ function setupProcessHandlers(server) {
     void shutdown("uncaughtException");
   });
 }
-
 async function startServer() {
   try {
     await mongoose.connect(process.env.MONGO_URL);
     console.log("MongoDB Connected");
-    function isValidSubjectKey(subject) {
-      return (
-        typeof subject === "string" &&
-        /^upsc[-_][a-z0-9][a-z0-9_-]{0,80}checked$/i.test(subject)
-      );
-    }
+
+    // 🛡️ PRO FIX: Auto-Healing DB Listeners prevent silent server hangs
+    mongoose.connection.on("disconnected", () => {
+      console.warn("⚠️ MongoDB Disconnected! Attempting to auto-reconnect...");
+    });
+    mongoose.connection.on("error", (err) => {
+      console.error("🚨 MongoDB Connection Error:", err.message);
+    });
+
     console.log("REGISTERING SUBJECT PROGRESS ROUTES");
 
+    // Only define this once
     function isValidSubjectKey(subject) {
       return (
         typeof subject === "string" &&
-        /^upsc[-_][a-z0-9][a-z0-9_-]{0,80}checked$/i.test(subject)
+        /^upsc(?:_checked|[-_][a-z0-9][a-z0-9_-]{0,80}checked)$/i.test(subject)
       );
     }
 
@@ -2151,49 +2304,271 @@ async function startServer() {
       }
     });
 
-    // SAVE SUBJECT PROGRESS
-    app.put("/api/subject-progress", async (req, res) => {
+    app.post("/api/subject-progress/batch", async (req, res) => {
       try {
-        const subject = String(req.query.subject || "");
+        const body = req.body && typeof req.body === "object" ? req.body : {};
+        const subjects = Array.isArray(body.subjects)
+          ? Array.from(
+              new Set(
+                body.subjects
+                  .map((subject) => String(subject || ""))
+                  .filter((subject) => isValidSubjectKey(subject)),
+              ),
+            ).slice(0, 30)
+          : [];
 
-        if (!isValidSubjectKey(subject)) {
-          return res.status(400).json({
-            error: "Invalid subject.",
+        if (subjects.length === 0) {
+          return res.json({ progress: {} });
+        }
+
+        const progressRows = await SubjectProgress.find({
+          subjectKey: { $in: subjects },
+        }).lean();
+
+        const progressMap = {};
+        subjects.forEach((subject) => {
+          progressMap[subject] = {
+            checkedUids: [],
+            completionTimes: {},
+            updatedAt: Date.now(),
+          };
+        });
+
+        progressRows.forEach((progress) => {
+          progressMap[progress.subjectKey] = {
+            checkedUids: progress.checkedUids || [],
+            completionTimes:
+              progress.completionTimes instanceof Map
+                ? Object.fromEntries(progress.completionTimes)
+                : progress.completionTimes || {},
+            updatedAt: progress.updatedAt || Date.now(),
+          };
+        });
+
+        return res.json({ progress: progressMap });
+      } catch (err) {
+        console.error("POST SUBJECT PROGRESS BATCH:", err);
+
+        return res.status(500).json({
+          error: "Failed to load subject progress.",
+        });
+      }
+    });
+
+    // SAVE SUBJECT PROGRESS
+    // SAVE SUBJECT PROGRESS & REAL-TIME PLANNER SYNC
+    // SAVE SUBJECT PROGRESS & REAL-TIME PLANNER SYNC
+    app.put("/api/subject-progress", async (req, res) => {
+      const subject = String(req.query.subject || "");
+      const body = req.body || {};
+
+      if (!isValidSubjectKey(subject)) {
+        return res.status(400).json({ error: "Invalid subject." });
+      }
+
+      try {
+        const existingProgress = await SubjectProgress.findOne({
+          subjectKey: subject,
+        }).lean();
+        const clientUpdatedAt = toFiniteTimestamp(body.updatedAt);
+
+        if (
+          existingProgress &&
+          existingProgress.updatedAt &&
+          clientUpdatedAt !== null &&
+          clientUpdatedAt < existingProgress.updatedAt
+        ) {
+          return res.status(409).json({
+            error: "Conflict: Newer subject progress exists in database.",
+            data: {
+              checkedUids: existingProgress.checkedUids || [],
+              completionTimes:
+                existingProgress.completionTimes instanceof Map
+                  ? Object.fromEntries(existingProgress.completionTimes)
+                  : existingProgress.completionTimes || {},
+              updatedAt: existingProgress.updatedAt,
+            },
           });
         }
 
-        const body = req.body || {};
-
-        await SubjectProgress.findOneAndUpdate(
-          {
-            subjectKey: subject,
-          },
+        const serverUpdatedAt = Date.now();
+        const savedProgress = await SubjectProgress.findOneAndUpdate(
+          { subjectKey: subject },
           {
             subjectKey: subject,
             checkedUids: Array.isArray(body.checkedUids)
               ? body.checkedUids
               : [],
             completionTimes: body.completionTimes || {},
-            updatedAt: Date.now(),
+            updatedAt: serverUpdatedAt,
           },
-          {
-            upsert: true,
-            new: true,
-          },
-        );
+          { upsert: true, new: true },
+        ).lean();
 
-        return res.json({
+        res.json({
           ok: true,
+          updatedAt: savedProgress?.updatedAt || serverUpdatedAt,
+          data: {
+            checkedUids: savedProgress?.checkedUids || [],
+            completionTimes:
+              savedProgress?.completionTimes instanceof Map
+                ? Object.fromEntries(savedProgress.completionTimes)
+                : savedProgress?.completionTimes || {},
+            updatedAt: savedProgress?.updatedAt || serverUpdatedAt,
+          },
         });
       } catch (err) {
-        console.error("PUT SUBJECT PROGRESS:", err);
-
-        return res.status(500).json({
-          error: "Failed to save subject progress.",
-        });
+        console.error("PUT SUBJECT PROGRESS ERROR:", err);
+        return res
+          .status(500)
+          .json({ error: "Failed to save subject progress." });
       }
-    });
 
+      // ⚡ FAST RESPONSE: Unblock the client immediately
+      // 🛡️ ASYNC DETACHED PROCESS: Run the heavy Planner Sync in the background
+      // 🛡️ ASYNC DETACHED PROCESS: Run the heavy Planner Sync in the background
+      (async () => {
+        try {
+          const currentWeekStr = getStartOfWeekStr(); // 🛡️ PRO FIX: Removed duplicate variables
+
+          await enqueuePlannerSubjectSync(currentWeekStr, async () => {
+            const WeeklyPlan = require("./models/WeeklyPlan");
+            const activePlan = await WeeklyPlan.findOne({
+              weekStartDate: currentWeekStr,
+            });
+
+            if (activePlan) {
+              let planUpdated = false;
+              const reqCheckedUids = Array.isArray(body.checkedUids)
+                ? body.checkedUids
+                : [];
+              const completionTimes =
+                body.completionTimes && typeof body.completionTimes === "object"
+                  ? body.completionTimes
+                  : {};
+              const checkedUidSet = new Set(reqCheckedUids);
+
+              const getMissionRevisionStart = (mission) => {
+                if (
+                  typeof mission.createdAt === "number" &&
+                  Number.isFinite(mission.createdAt)
+                ) {
+                  return mission.createdAt;
+                }
+
+                const actualStart = mission.timeValidation?.actualStart
+                  ? new Date(mission.timeValidation.actualStart).getTime()
+                  : NaN;
+                return Number.isFinite(actualStart) ? actualStart : Date.now();
+              };
+
+              const isLeafRevised = (uid, sinceTimestamp = 0) => {
+                const record = completionTimes && completionTimes[uid];
+                if (!record) return false;
+                if (typeof record !== "object" || Array.isArray(record)) {
+                  return false;
+                }
+
+                const revisions = Array.isArray(record.revisions)
+                  ? record.revisions.filter(
+                      (entry) =>
+                        typeof entry === "number" && Number.isFinite(entry),
+                    )
+                  : [];
+
+                const revisedAt =
+                  typeof record.revisedAt === "number" &&
+                  Number.isFinite(record.revisedAt)
+                    ? record.revisedAt
+                    : null;
+
+                return (
+                  revisions.some((entry) => entry >= sinceTimestamp) ||
+                  (revisedAt !== null && revisedAt >= sinceTimestamp)
+                );
+              };
+
+              const now = new Date();
+              const todayStr = `${now.getFullYear()}-${String(
+                now.getMonth() + 1,
+              ).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
+
+              activePlan.days.forEach((dayPlan) => {
+                // A. Sync Note Missions
+                if (Array.isArray(dayPlan.noteMissions)) {
+                  dayPlan.noteMissions.forEach((mission) => {
+                    if (
+                      mission.subjectKey &&
+                      mission.subjectKey.toLowerCase() === subject.toLowerCase()
+                    ) {
+                      const progress = calculateNoteMissionProgress(
+                        mission,
+                        {
+                          checkedUids: reqCheckedUids,
+                          completionTimes,
+                        },
+                        {
+                          isLeafRevised: (uid, sinceTimestamp) =>
+                            isLeafRevised(uid, sinceTimestamp),
+                          getMissionRevisionStart,
+                        },
+                      );
+
+                      if (mission.progress) {
+                        mission.progress = progress.progress;
+                        planUpdated = true;
+                      }
+                      mission.progress = progress.progress;
+                      planUpdated = true;
+                    }
+                  });
+                }
+
+                // B. Sync Legacy Revision Tasks
+                if (Array.isArray(dayPlan.revisionTasks)) {
+                  dayPlan.revisionTasks.forEach((task) => {
+                    if (checkedUidSet.has(task.topic)) {
+                      if (!task.isCompleted) {
+                        task.isCompleted = true;
+
+                        task.completedAt = new Date();
+                        planUpdated = true;
+                      }
+                    }
+                  });
+                }
+              });
+
+              if (planUpdated) {
+                activePlan.markModified("days");
+                await activePlan.save();
+              }
+            }
+          });
+        } catch (syncErr) {
+          console.error("Planner Sync Failed:", syncErr.message);
+        }
+
+        // Removed the duplicate return res.json()
+      })(); // <--- CORRECT: Closes AND invokes the background process immediately!
+    }); // <--- CORRECT: Securely closes the app.put route!
+
+    // 404 handler MUST be the last normal middleware.
+    // 404 handler MUST be the last normal middleware.
+    app.use((_req, res) => {
+      res.status(404).json({
+        error: "Route not found.",
+      });
+    });
+    app.use((err, _req, res, _next) => {
+      if (err && err.message === "Not allowed by CORS") {
+        return res.status(403).json({ error: "CORS origin blocked." });
+      }
+
+      const errorMessage = err && err.message ? err.message : "Unknown error";
+      console.error("Unhandled Error:", errorMessage);
+      return res.status(500).json({ error: "Internal server error." });
+    });
     const server = app.listen(PORT, () =>
       console.log(`Backend running on port ${PORT}`),
     );

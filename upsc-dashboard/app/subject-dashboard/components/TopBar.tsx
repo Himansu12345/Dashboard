@@ -9,7 +9,7 @@ type TopBarProps = {
 export function TopBar({ theme, onToggleTheme, onToggleZen }: TopBarProps) {
   return (
     <div className="top-bar hide-in-zen">
-      <button
+      {/* <button
         className="icon-btn"
         onClick={onToggleTheme}
         title="Toggle Dark/Light Mode"
@@ -22,7 +22,7 @@ export function TopBar({ theme, onToggleTheme, onToggleZen }: TopBarProps) {
         title="Toggle Zen Mode"
       >
         <IconFocus2 size={18} />
-      </button>
+      </button> */}
     </div>
   );
 }

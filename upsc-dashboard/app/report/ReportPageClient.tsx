@@ -12,6 +12,24 @@ type PresetRange =
   | "previousMonth"
   | "custom";
 
+type ReportBucket = {
+  total: number;
+  correct: number;
+  wrong: number;
+  skipped: number;
+  accuracy: number;
+};
+
+type SubjectRow = ReportBucket & { subject: string };
+type DifficultyRow = ReportBucket & { difficulty: string };
+type ChapterRow = ReportBucket & { key: string; subject: string; chapter: string };
+type TopicRow = ReportBucket & {
+  key: string;
+  subject: string;
+  chapter: string;
+  topic: string;
+};
+
 function startOfDay(date: Date) {
   const d = new Date(date);
   d.setHours(0, 0, 0, 0);
@@ -166,8 +184,8 @@ export default function ReportPageClient() {
     if (preset === "custom") {
       const start = customStartDate
         ? startOfDay(new Date(customStartDate))
-        : null;
-      const end = customEndDate ? endOfDay(new Date(customEndDate)) : null;
+        : startOfDay(new Date());
+      const end = customEndDate ? endOfDay(new Date(customEndDate)) : endOfDay(new Date());
 
       return {
         startDate: start,
@@ -181,54 +199,69 @@ export default function ReportPageClient() {
   const { report, summary, analysis, timeline, sessions, loading, error } =
     useReportData(activeRange.startDate, activeRange.endDate);
 
+  const reportAnalysis = analysis ?? {
+    subjectAnalysis: {},
+    chapterAnalysis: {},
+    topicAnalysis: {},
+    subtopicAnalysis: {},
+    difficultyAnalysis: {},
+    timeAnalysis: null,
+    aiAnalysisHelpers: null,
+    sessionBreakdown: [],
+    activityTimeline: [],
+    plannerPlans: [],
+    plannerMissions: [],
+    plannerSummary: null,
+  };
+
   const topSubjects = useMemo(() => {
-    return Object.entries(analysis.subjectAnalysis || {})
+    return Object.entries((reportAnalysis.subjectAnalysis || {}) as Record<string, ReportBucket>)
       .map(([subject, value]) => ({
         subject,
         ...value,
-      }))
+      }) as SubjectRow)
       .sort((a, b) => b.total - a.total)
       .slice(0, 10);
-  }, [analysis.subjectAnalysis]);
+  }, [reportAnalysis.subjectAnalysis]);
 
   const topChapters = useMemo(() => {
-    return Object.entries(analysis.chapterAnalysis || {})
+    return Object.entries((reportAnalysis.chapterAnalysis || {}) as Record<string, Omit<ChapterRow, "key">>)
       .map(([key, value]) => ({
         key,
         ...value,
-      }))
+      }) as ChapterRow)
       .sort((a, b) => b.total - a.total)
       .slice(0, 12);
-  }, [analysis.chapterAnalysis]);
+  }, [reportAnalysis.chapterAnalysis]);
 
   const topTopics = useMemo(() => {
-    return Object.entries(analysis.topicAnalysis || {})
+    return Object.entries((reportAnalysis.topicAnalysis || {}) as Record<string, Omit<TopicRow, "key">>)
       .map(([key, value]) => ({
         key,
         ...value,
-      }))
+      }) as TopicRow)
       .sort((a, b) => b.total - a.total)
       .slice(0, 12);
-  }, [analysis.topicAnalysis]);
+  }, [reportAnalysis.topicAnalysis]);
 
   const difficultyRows = useMemo(() => {
-    return Object.entries(analysis.difficultyAnalysis || {})
+    return Object.entries((reportAnalysis.difficultyAnalysis || {}) as Record<string, ReportBucket>)
       .map(([difficulty, value]) => ({
         difficulty,
         ...value,
-      }))
+      }) as DifficultyRow)
       .sort((a, b) => b.total - a.total);
-  }, [analysis.difficultyAnalysis]);
+  }, [reportAnalysis.difficultyAnalysis]);
 
   const timelinePreview = useMemo(
     () => timeline.slice(-50).reverse(),
     [timeline],
   );
 
-  const weakTopics = analysis.aiAnalysisHelpers?.weakTopics ?? [];
-  const strongTopics = analysis.aiAnalysisHelpers?.strongTopics ?? [];
+  const weakTopics = reportAnalysis.aiAnalysisHelpers?.weakTopics ?? [];
+  const strongTopics = reportAnalysis.aiAnalysisHelpers?.strongTopics ?? [];
   const repeatedMistakes =
-    analysis.aiAnalysisHelpers?.repeatedMistakePatterns ?? [];
+    reportAnalysis.aiAnalysisHelpers?.repeatedMistakePatterns ?? [];
 
   const handleExportJson = () => {
     if (!report) return;
@@ -648,7 +681,7 @@ export default function ReportPageClient() {
                 </div>
                 <div style={{ fontWeight: 800, fontSize: "1.2rem" }}>
                   {formatSeconds(
-                    analysis.timeAnalysis?.averageTimeTakenSeconds,
+                    reportAnalysis.timeAnalysis?.averageTimeTakenSeconds,
                   )}
                 </div>
               </div>
@@ -665,7 +698,7 @@ export default function ReportPageClient() {
                   Median Question Time
                 </div>
                 <div style={{ fontWeight: 800, fontSize: "1.2rem" }}>
-                  {formatSeconds(analysis.timeAnalysis?.medianTimeTakenSeconds)}
+                  {formatSeconds(reportAnalysis.timeAnalysis?.medianTimeTakenSeconds)}
                 </div>
               </div>
 
@@ -682,7 +715,7 @@ export default function ReportPageClient() {
                 </div>
                 <div style={{ fontWeight: 800, fontSize: "1.2rem" }}>
                   {formatSeconds(
-                    analysis.timeAnalysis?.averageSessionDurationSeconds,
+                    reportAnalysis.timeAnalysis?.averageSessionDurationSeconds,
                   )}
                 </div>
               </div>

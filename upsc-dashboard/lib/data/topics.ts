@@ -28,6 +28,7 @@ export const topicsBySubject: Record<string, string[]> = {
     "Elections",
     "Anti-Defection",
     "Schedules",
+    "Demo",
   ],
 
   Ancient: [

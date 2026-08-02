@@ -30,11 +30,16 @@ function formatDateKey(value) {
 function differenceInDays(laterValue, earlierValue) {
   const later = startOfDay(laterValue);
   const earlier = startOfDay(earlierValue);
-  return Math.max(0, Math.round((later.getTime() - earlier.getTime()) / 86_400_000));
+  return Math.max(
+    0,
+    Math.round((later.getTime() - earlier.getTime()) / 86_400_000),
+  );
 }
 
 function normalizeString(value) {
-  return String(value || "").trim().replace(/\s+/g, " ");
+  return String(value || "")
+    .trim()
+    .replace(/\s+/g, " ");
 }
 
 function buildTopicKey(subject, topic) {
@@ -61,7 +66,11 @@ function createSyllabusModels(mongoose) {
       nodeKey: { type: String, required: true, unique: true, trim: true },
       subject: { type: String, required: true, trim: true },
       topic: { type: String, default: null, trim: true },
-      level: { type: String, enum: ["root", "subject", "topic"], required: true },
+      level: {
+        type: String,
+        enum: ["root", "subject", "topic"],
+        required: true,
+      },
       masteryScore: { type: Number, default: 0, min: 0, max: 100 },
       masteryState: { type: String, default: "untouched", trim: true },
       accuracy: { type: Number, default: 0, min: 0, max: 100 },
@@ -101,7 +110,10 @@ function createSyllabusModels(mongoose) {
       mongoose.model("SyllabusNodeProgress", SyllabusNodeProgressSchema),
     SyllabusProgressSnapshot:
       mongoose.models.SyllabusProgressSnapshot ||
-      mongoose.model("SyllabusProgressSnapshot", SyllabusProgressSnapshotSchema),
+      mongoose.model(
+        "SyllabusProgressSnapshot",
+        SyllabusProgressSnapshotSchema,
+      ),
   };
 }
 
@@ -145,7 +157,11 @@ async function aggregateAttemptMetrics(Attempt) {
         lastAttemptAt: { $max: "$attemptDate" },
         activeDates: {
           $addToSet: {
-            $dateToString: { format: "%Y-%m-%d", date: "$attemptDate" },
+            $dateToString: {
+              format: "%Y-%m-%d",
+              date: "$attemptDate",
+              timezone: "Asia/Kolkata", // 🌍 PRO FIX: Prevent syllabus mastery from drifting across days
+            },
           },
         },
       },
@@ -180,11 +196,15 @@ async function aggregateAttemptMetrics(Attempt) {
   rows.forEach((row) => {
     const activeDates = Array.from(
       new Set(
-        (Array.isArray(row.activeDatesNested) ? row.activeDatesNested : []).flat().filter(Boolean),
+        (Array.isArray(row.activeDatesNested) ? row.activeDatesNested : [])
+          .flat()
+          .filter(Boolean),
       ),
     ).sort();
     const attemptCount = Number(row.attemptCount) || 0;
-    const subtopicBreakdown = (Array.isArray(row.subtopicBreakdown) ? row.subtopicBreakdown : [])
+    const subtopicBreakdown = (
+      Array.isArray(row.subtopicBreakdown) ? row.subtopicBreakdown : []
+    )
       .map((entry) => {
         const label = normalizeString(entry && entry.label);
         const entryAttemptCount = Number(entry && entry.attemptCount) || 0;
@@ -199,14 +219,18 @@ async function aggregateAttemptMetrics(Attempt) {
           accuracyAverage: round2(accuracyTotal / entryAttemptCount),
           incorrectSum,
           skippedSum,
-          lastAttemptAt: entry && entry.lastAttemptAt ? entry.lastAttemptAt : null,
+          lastAttemptAt:
+            entry && entry.lastAttemptAt ? entry.lastAttemptAt : null,
         };
       })
       .filter(Boolean);
 
     map.set(buildTopicKey(row._id.subject, row._id.topic), {
       attemptCount,
-      accuracyAverage: attemptCount > 0 ? round2((Number(row.accuracyTotal) || 0) / attemptCount) : 0,
+      accuracyAverage:
+        attemptCount > 0
+          ? round2((Number(row.accuracyTotal) || 0) / attemptCount)
+          : 0,
       incorrectSum: Number(row.incorrectSum) || 0,
       skippedSum: Number(row.skippedSum) || 0,
       lastAttemptAt: row.lastAttemptAt || null,
@@ -218,30 +242,43 @@ async function aggregateAttemptMetrics(Attempt) {
 }
 
 function getWeakSubtopicsFromAttemptMetric(attemptMetric, limit = 5) {
-  const breakdown = Array.isArray(attemptMetric && attemptMetric.subtopicBreakdown)
+  const breakdown = Array.isArray(
+    attemptMetric && attemptMetric.subtopicBreakdown,
+  )
     ? attemptMetric.subtopicBreakdown
     : [];
 
   return breakdown
     .filter((entry) => {
       const accuracy = Number(entry && entry.accuracyAverage) || 0;
-      const mistakes = (Number(entry && entry.incorrectSum) || 0) + (Number(entry && entry.skippedSum) || 0);
+      const mistakes =
+        (Number(entry && entry.incorrectSum) || 0) +
+        (Number(entry && entry.skippedSum) || 0);
       return accuracy < 80 || mistakes > 0;
     })
     .sort((first, second) => {
       const firstAccuracy = Number(first && first.accuracyAverage) || 0;
       const secondAccuracy = Number(second && second.accuracyAverage) || 0;
-      if (firstAccuracy !== secondAccuracy) return firstAccuracy - secondAccuracy;
+      if (firstAccuracy !== secondAccuracy)
+        return firstAccuracy - secondAccuracy;
 
-      const firstMistakes = (Number(first && first.incorrectSum) || 0) + (Number(first && first.skippedSum) || 0);
-      const secondMistakes = (Number(second && second.incorrectSum) || 0) + (Number(second && second.skippedSum) || 0);
-      if (firstMistakes !== secondMistakes) return secondMistakes - firstMistakes;
+      const firstMistakes =
+        (Number(first && first.incorrectSum) || 0) +
+        (Number(first && first.skippedSum) || 0);
+      const secondMistakes =
+        (Number(second && second.incorrectSum) || 0) +
+        (Number(second && second.skippedSum) || 0);
+      if (firstMistakes !== secondMistakes)
+        return secondMistakes - firstMistakes;
 
       const firstAttempts = Number(first && first.attemptCount) || 0;
       const secondAttempts = Number(second && second.attemptCount) || 0;
-      if (firstAttempts !== secondAttempts) return secondAttempts - firstAttempts;
+      if (firstAttempts !== secondAttempts)
+        return secondAttempts - firstAttempts;
 
-      return String(first && first.label).localeCompare(String(second && second.label));
+      return String(first && first.label).localeCompare(
+        String(second && second.label),
+      );
     })
     .slice(0, limit)
     .map((entry) => entry.label);
@@ -265,36 +302,69 @@ function buildSyntheticHistory(masteryScore, progressDelta) {
   }));
 }
 
-function calculateTopicMetrics(topicKey, attemptMetric, revisionMetric, previousProgress) {
+function calculateTopicMetrics(
+  topicKey,
+  attemptMetric,
+  revisionMetric,
+  previousProgress,
+) {
   const attemptCount = Number(attemptMetric && attemptMetric.attemptCount) || 0;
-  const accuracy = round2(Number(attemptMetric && attemptMetric.accuracyAverage) || 0);
+  const accuracy = round2(
+    Number(attemptMetric && attemptMetric.accuracyAverage) || 0,
+  );
   const incorrectPressure =
     Number(attemptMetric && attemptMetric.incorrectSum) +
     Number(attemptMetric && attemptMetric.skippedSum);
-  const retentionStrength = round2(Number(revisionMetric && revisionMetric.retentionScore) || 0);
-  const repeatedMistakes = Number(revisionMetric && revisionMetric.repeatedMistakeCount) || 0;
+  const retentionStrength = round2(
+    Number(revisionMetric && revisionMetric.retentionScore) || 0,
+  );
+  const repeatedMistakes =
+    Number(revisionMetric && revisionMetric.repeatedMistakeCount) || 0;
   const revisionFrequency =
     (Array.isArray(revisionMetric && revisionMetric.reviewHistory)
       ? revisionMetric.reviewHistory.length
       : 0) + attemptCount;
   const lastReviewedAt =
-    revisionMetric && revisionMetric.lastReviewedAt ? revisionMetric.lastReviewedAt : null;
-  const lastAttemptAt = attemptMetric && attemptMetric.lastAttemptAt ? attemptMetric.lastAttemptAt : null;
+    revisionMetric && revisionMetric.lastReviewedAt
+      ? revisionMetric.lastReviewedAt
+      : null;
+  const lastAttemptAt =
+    attemptMetric && attemptMetric.lastAttemptAt
+      ? attemptMetric.lastAttemptAt
+      : null;
   const activeDates = Array.isArray(attemptMetric && attemptMetric.activeDates)
     ? attemptMetric.activeDates
     : [];
-  const recentSpanDays = activeDates.length > 0
-    ? Math.max(1, differenceInDays(new Date(), activeDates[0]) + 1)
-    : 60;
-  const activeDensity = clamp((activeDates.length / Math.min(recentSpanDays, 60)) * 100, 0, 100);
-  const recencyPenalty = lastReviewedAt || lastAttemptAt
-    ? clamp(differenceInDays(new Date(), lastReviewedAt || lastAttemptAt) * 1.8, 0, 34)
-    : 24;
+  const recentSpanDays =
+    activeDates.length > 0
+      ? Math.max(1, differenceInDays(new Date(), activeDates[0]) + 1)
+      : 60;
+  const activeDensity = clamp(
+    (activeDates.length / Math.min(recentSpanDays, 60)) * 100,
+    0,
+    100,
+  );
+  const recencyPenalty =
+    lastReviewedAt || lastAttemptAt
+      ? clamp(
+          differenceInDays(new Date(), lastReviewedAt || lastAttemptAt) * 1.8,
+          0,
+          34,
+        )
+      : 24;
   const revisionHealth = round2(
-    clamp(retentionStrength * 0.58 + revisionFrequency * 5.4 - recencyPenalty, 0, 100),
+    clamp(
+      retentionStrength * 0.58 + revisionFrequency * 5.4 - recencyPenalty,
+      0,
+      100,
+    ),
   );
   const consistencyImpact = round2(
-    clamp(activeDensity * 0.62 + revisionFrequency * 2.4 - repeatedMistakes * 2.6, 0, 100),
+    clamp(
+      activeDensity * 0.62 + revisionFrequency * 2.4 - repeatedMistakes * 2.6,
+      0,
+      100,
+    ),
   );
   const masteryScore = round2(
     clamp(
@@ -310,7 +380,8 @@ function calculateTopicMetrics(topicKey, attemptMetric, revisionMetric, previous
   );
   const attempted = attemptCount > 0 || revisionFrequency > 0;
   const masteryState = getMasteryState(masteryScore, attempted);
-  const previousMastery = Number(previousProgress && previousProgress.masteryScore) || 0;
+  const previousMastery =
+    Number(previousProgress && previousProgress.masteryScore) || 0;
   const progressDelta = round2(masteryScore - previousMastery);
   const recentlyMasteredAt =
     masteryState === "mastered"
@@ -345,8 +416,12 @@ function aggregateLevelMetrics(entries) {
   const attemptedEntries = entries.filter((entry) => entry.attempted);
   const divisor = Math.max(1, entries.length);
   const attempted = attemptedEntries.length > 0;
-  const masteryScore = round2(entries.reduce((sum, entry) => sum + entry.masteryScore, 0) / divisor);
-  const accuracy = round2(entries.reduce((sum, entry) => sum + entry.accuracy, 0) / divisor);
+  const masteryScore = round2(
+    entries.reduce((sum, entry) => sum + entry.masteryScore, 0) / divisor,
+  );
+  const accuracy = round2(
+    entries.reduce((sum, entry) => sum + entry.accuracy, 0) / divisor,
+  );
   const retentionStrength = round2(
     entries.reduce((sum, entry) => sum + entry.retentionStrength, 0) / divisor,
   );
@@ -356,8 +431,14 @@ function aggregateLevelMetrics(entries) {
   const consistencyImpact = round2(
     entries.reduce((sum, entry) => sum + entry.consistencyImpact, 0) / divisor,
   );
-  const repeatedMistakes = entries.reduce((sum, entry) => sum + entry.repeatedMistakes, 0);
-  const revisionFrequency = entries.reduce((sum, entry) => sum + entry.revisionFrequency, 0);
+  const repeatedMistakes = entries.reduce(
+    (sum, entry) => sum + entry.repeatedMistakes,
+    0,
+  );
+  const revisionFrequency = entries.reduce(
+    (sum, entry) => sum + entry.revisionFrequency,
+    0,
+  );
   const progressDelta = round2(
     entries.reduce((sum, entry) => sum + entry.progressDelta, 0) / divisor,
   );
@@ -396,9 +477,10 @@ async function getSnapshotHistoryMap(SyllabusProgressSnapshot) {
     const list = map.get(row.nodeKey) || [];
     if (list.length < 6) {
       list.push({
-        label: new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" }).format(
-          new Date(row.snapshotDate),
-        ),
+        label: new Intl.DateTimeFormat(undefined, {
+          month: "short",
+          day: "numeric",
+        }).format(new Date(row.snapshotDate)),
         value: round2(row.masteryScore),
       });
       map.set(row.nodeKey, list);
@@ -417,7 +499,8 @@ function buildInsights(summary, subjectNodes, topicNodes) {
     (first, second) => second.metrics.masteryScore - first.metrics.masteryScore,
   )[0];
   const fastestImprovingNode = [...topicNodes].sort(
-    (first, second) => second.metrics.progressDelta - first.metrics.progressDelta,
+    (first, second) =>
+      second.metrics.progressDelta - first.metrics.progressDelta,
   )[0];
   const recentMastered = topicNodes.filter((node) => node.recentlyMasteredAt);
   const weakNodes = topicNodes.filter((node) => node.masteryState === "weak");
@@ -486,7 +569,9 @@ async function persistSyllabusProgress(models, nodes) {
             revisionFrequency: node.metrics.revisionFrequency,
             progressDelta: node.metrics.progressDelta,
             retentionStatus: node.retentionStatus,
-            recentlyMasteredAt: node.recentlyMasteredAt ? new Date(node.recentlyMasteredAt) : null,
+            recentlyMasteredAt: node.recentlyMasteredAt
+              ? new Date(node.recentlyMasteredAt)
+              : null,
             lastSyncedAt: now,
           },
         },
@@ -520,8 +605,12 @@ async function persistSyllabusProgress(models, nodes) {
 }
 
 async function buildSyllabusDashboard(models) {
-  const previousProgressMap = await getPreviousProgressMap(models.SyllabusNodeProgress);
-  const snapshotHistoryMap = await getSnapshotHistoryMap(models.SyllabusProgressSnapshot);
+  const previousProgressMap = await getPreviousProgressMap(
+    models.SyllabusNodeProgress,
+  );
+  const snapshotHistoryMap = await getSnapshotHistoryMap(
+    models.SyllabusProgressSnapshot,
+  );
   const attemptMetrics = await aggregateAttemptMetrics(models.Attempt);
   const revisionMetrics = await aggregateRevisionMetrics(models.RevisionTopic);
 
@@ -561,7 +650,8 @@ async function buildSyllabusDashboard(models) {
           progressDelta: metrics.progressDelta,
         },
         weakSubtopics: getWeakSubtopicsFromAttemptMetric(attemptMetric),
-        revisionHistory: snapshotHistoryMap.get(topicId) || metrics.revisionHistory,
+        revisionHistory:
+          snapshotHistoryMap.get(topicId) || metrics.revisionHistory,
         recentlyMasteredAt: metrics.recentlyMasteredAt
           ? new Date(metrics.recentlyMasteredAt).toISOString()
           : null,
@@ -572,17 +662,19 @@ async function buildSyllabusDashboard(models) {
       return node;
     });
 
-    const subjectMetrics = aggregateLevelMetrics(subjectTopicNodes.map((node) => ({
-      attempted: node.attempted,
-      masteryScore: node.metrics.masteryScore,
-      accuracy: node.metrics.accuracy,
-      retentionStrength: node.metrics.retentionStrength,
-      revisionHealth: node.metrics.revisionHealth,
-      consistencyImpact: node.metrics.consistencyImpact,
-      repeatedMistakes: node.metrics.repeatedMistakes,
-      revisionFrequency: node.metrics.revisionFrequency,
-      progressDelta: node.metrics.progressDelta,
-    })));
+    const subjectMetrics = aggregateLevelMetrics(
+      subjectTopicNodes.map((node) => ({
+        attempted: node.attempted,
+        masteryScore: node.metrics.masteryScore,
+        accuracy: node.metrics.accuracy,
+        retentionStrength: node.metrics.retentionStrength,
+        revisionHealth: node.metrics.revisionHealth,
+        consistencyImpact: node.metrics.consistencyImpact,
+        repeatedMistakes: node.metrics.repeatedMistakes,
+        revisionFrequency: node.metrics.revisionFrequency,
+        progressDelta: node.metrics.progressDelta,
+      })),
+    );
 
     const subjectId = `subject:${subject}`;
     const subjectNode = {
@@ -615,7 +707,11 @@ async function buildSyllabusDashboard(models) {
         )
         .slice(0, 5),
       revisionHistory:
-        snapshotHistoryMap.get(subjectId) || buildSyntheticHistory(subjectMetrics.masteryScore, subjectMetrics.progressDelta),
+        snapshotHistoryMap.get(subjectId) ||
+        buildSyntheticHistory(
+          subjectMetrics.masteryScore,
+          subjectMetrics.progressDelta,
+        ),
       recentlyMasteredAt: null,
     };
 
@@ -623,17 +719,19 @@ async function buildSyllabusDashboard(models) {
     nodes.push(subjectNode);
   });
 
-  const rootMetrics = aggregateLevelMetrics(subjectNodes.map((node) => ({
-    attempted: node.attempted,
-    masteryScore: node.metrics.masteryScore,
-    accuracy: node.metrics.accuracy,
-    retentionStrength: node.metrics.retentionStrength,
-    revisionHealth: node.metrics.revisionHealth,
-    consistencyImpact: node.metrics.consistencyImpact,
-    repeatedMistakes: node.metrics.repeatedMistakes,
-    revisionFrequency: node.metrics.revisionFrequency,
-    progressDelta: node.metrics.progressDelta,
-  })));
+  const rootMetrics = aggregateLevelMetrics(
+    subjectNodes.map((node) => ({
+      attempted: node.attempted,
+      masteryScore: node.metrics.masteryScore,
+      accuracy: node.metrics.accuracy,
+      retentionStrength: node.metrics.retentionStrength,
+      revisionHealth: node.metrics.revisionHealth,
+      consistencyImpact: node.metrics.consistencyImpact,
+      repeatedMistakes: node.metrics.repeatedMistakes,
+      revisionFrequency: node.metrics.revisionFrequency,
+      progressDelta: node.metrics.progressDelta,
+    })),
+  );
 
   const rootNode = {
     id: "root:upsc",
@@ -658,33 +756,50 @@ async function buildSyllabusDashboard(models) {
     weakSubtopics: topicNodes
       .flatMap((node) =>
         node.weakSubtopics.length > 0
-          ? node.weakSubtopics.map((subtopic) => `${node.subject} - ${node.label}: ${subtopic}`)
+          ? node.weakSubtopics.map(
+              (subtopic) => `${node.subject} - ${node.label}: ${subtopic}`,
+            )
           : node.masteryState === "weak"
             ? [`${node.subject} - ${node.label}`]
             : [],
       )
       .slice(0, 6),
     revisionHistory:
-      snapshotHistoryMap.get("root:upsc") || buildSyntheticHistory(rootMetrics.masteryScore, rootMetrics.progressDelta),
+      snapshotHistoryMap.get("root:upsc") ||
+      buildSyntheticHistory(
+        rootMetrics.masteryScore,
+        rootMetrics.progressDelta,
+      ),
     recentlyMasteredAt: null,
   };
 
   nodes.unshift(rootNode);
 
-  const masteredTopics = topicNodes.filter((node) => node.masteryState === "mastered").length;
-  const improvingTopics = topicNodes.filter((node) => node.masteryState === "improving").length;
-  const weakTopics = topicNodes.filter((node) => node.masteryState === "weak").length;
-  const untouchedTopics = topicNodes.filter((node) => node.masteryState === "untouched").length;
+  const masteredTopics = topicNodes.filter(
+    (node) => node.masteryState === "mastered",
+  ).length;
+  const improvingTopics = topicNodes.filter(
+    (node) => node.masteryState === "improving",
+  ).length;
+  const weakTopics = topicNodes.filter(
+    (node) => node.masteryState === "weak",
+  ).length;
+  const untouchedTopics = topicNodes.filter(
+    (node) => node.masteryState === "untouched",
+  ).length;
   const strongestSubjectNode = [...subjectNodes].sort(
     (first, second) => second.metrics.masteryScore - first.metrics.masteryScore,
   )[0];
   const fastestImprovingNode = [...topicNodes].sort(
-    (first, second) => second.metrics.progressDelta - first.metrics.progressDelta,
+    (first, second) =>
+      second.metrics.progressDelta - first.metrics.progressDelta,
   )[0];
   const thirtyDaysAgo = new Date();
   thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
   const recentlyMasteredCount = topicNodes.filter(
-    (node) => node.recentlyMasteredAt && new Date(node.recentlyMasteredAt) >= thirtyDaysAgo,
+    (node) =>
+      node.recentlyMasteredAt &&
+      new Date(node.recentlyMasteredAt) >= thirtyDaysAgo,
   ).length;
 
   const summary = {
@@ -693,8 +808,12 @@ async function buildSyllabusDashboard(models) {
     improvingTopics,
     weakTopics,
     untouchedTopics,
-    strongestSubject: strongestSubjectNode ? strongestSubjectNode.label : "No subject yet",
-    fastestImprovingTopic: fastestImprovingNode ? fastestImprovingNode.label : "No topic yet",
+    strongestSubject: strongestSubjectNode
+      ? strongestSubjectNode.label
+      : "No subject yet",
+    fastestImprovingTopic: fastestImprovingNode
+      ? fastestImprovingNode.label
+      : "No topic yet",
     recentlyMasteredCount,
     overallMasteryScore: rootNode.metrics.masteryScore,
   };

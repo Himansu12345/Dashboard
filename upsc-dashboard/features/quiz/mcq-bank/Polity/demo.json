@@ -1,0 +1,127 @@
+{
+"subject": "Polity",
+"topic": "Demo",
+"difficultyTag": "H",
+"mcqs": [
+{
+"id": "bs-final-001",
+"q": "The 'von Neumann architecture' concept was first propounded in:",
+"options": {
+"A": "Harvard Mark I (1944)",
+"B": "John von Neumann's report on the EDVAC (1945)",
+"C": "ENIAC (1946)",
+"D": "IBM System/360 (1964)"
+},
+"answer": "B",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-002",
+"q": "In object-oriented programming, the principle of 'encapsulation' restricts direct modification of:",
+"options": {
+"A": "public methods",
+"B": "the internal state of an object",
+"C": "class constructors",
+"D": "static variables"
+},
+"answer": "B",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-003",
+"q": "Before the introduction of memory-safe languages, which language(s) allowed programmers to modify any memory location directly?",
+"options": {
+"A": "Assembly language",
+"B": "C language",
+"C": "Both Assembly and C",
+"D": "Java"
+},
+"answer": "C",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-004",
+"q": "In Git, a 'protected branch' prevents developers from:",
+"options": {
+"A": "cloning the repository",
+"B": "directly pushing commits that bypass pull request reviews",
+"C": "creating new branches",
+"D": "reading the code"
+},
+"answer": "B",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-005",
+"q": "The introduction of 'strict mode' in ECMAScript 5 was intended to nullify the effect of:",
+"options": {
+"A": "Legacy browser quirks",
+"B": "JSON parsing errors",
+"C": "sloppy mode's permissive and error-prone features",
+"D": "CSS conflicts"
+},
+"answer": "C",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-006",
+"q": "The ALGOL 60 programming language was designed by a committee of how many computer scientists?",
+"options": {
+"A": "11",
+"B": "13",
+"C": "9",
+"D": "7"
+},
+"answer": "B",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-007",
+"q": "The Domain Name System (DNS) specification primarily involved challenges addressed in which set of RFCs?",
+"options": {
+"A": "RFC 882, RFC 883, and RFC 1034",
+"B": "RFC 791 and RFC 792",
+"C": "RFC 821 and RFC 822",
+"D": "RFC 2616 and RFC 2617"
+},
+"answer": "A",
+"difficulty": "mid"
+},
+{
+"id": "bs-final-008",
+"q": "According to the Liskov Substitution Principle, a subclass can extend behavior but cannot:",
+"options": {
+"A": "override private methods",
+"B": "alter the fundamental contract of the superclass",
+"C": "use polymorphism",
+"D": "inherit fields"
+},
+"answer": "B",
+"difficulty": "easy"
+},
+{
+"id": "bs-final-009",
+"q": "The term 'clean code' in software engineering is not formally defined; its best practices are:",
+"options": {
+"A": "exhaustively listed in the Agile Manifesto",
+"B": "identified illustratively through various coding standards and style guides",
+"C": "defined only by the IEEE",
+"D": "fixed and unchanging"
+},
+"answer": "B",
+"difficulty": "mid"
+},
+{
+"id": "bs-final-010",
+"q": "Which of the following is NOT a core principle of the Unix philosophy?",
+"options": {
+"A": "Everything is a file",
+"B": "Small, modular utilities",
+"C": "Use shell scripts for automation",
+"D": "All of the above are Unix principles"
+},
+"answer": "D",
+"difficulty": "mid"
+}
+]
+}

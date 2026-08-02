@@ -59,6 +59,8 @@ interface StatementNumberMatch {
 export interface BuildMcqQuizRequest {
   subject: string;
   chapter: string;
+  chapters?: string[];
+  excludeQuestionIds?: string[];
   noteChapter?: string;
   noteChapterId?: string;
   mode?: QuizMode;
@@ -71,6 +73,8 @@ export interface BuildMcqQuizRequest {
 
 const MCQ_BANK_DIR = path.join(process.cwd(), "features", "quiz", "mcq-bank");
 const DIFFICULTIES: McqDifficulty[] = ["easy", "medium", "hard"];
+const chapterCache = new Map<string, RawMcqChapter>();
+let bankIndexCache: McqSubjectIndexItem[] | null = null;
 
 function titleFromSlug(slug: string): string {
   return slug
@@ -126,6 +130,10 @@ async function readChapterFile(
   assertSafePathSegment(subject, "subject");
   assertSafePathSegment(chapterFileName, "chapter");
 
+  const cacheKey = `${subject}/${chapterFileName}`;
+  const cachedChapter = chapterCache.get(cacheKey);
+  if (cachedChapter) return cachedChapter;
+
   const filePath = path.join(MCQ_BANK_DIR, subject, chapterFileName);
   const resolvedPath = path.resolve(filePath);
   const safeRoot = path.resolve(MCQ_BANK_DIR);
@@ -135,7 +143,9 @@ async function readChapterFile(
   }
 
   const fileContent = await fs.readFile(resolvedPath, "utf8");
-  return JSON.parse(fileContent) as RawMcqChapter;
+  const parsedChapter = JSON.parse(fileContent) as RawMcqChapter;
+  chapterCache.set(cacheKey, parsedChapter);
+  return parsedChapter;
 }
 
 function findStatementNumberMatches(text: string): StatementNumberMatch[] {
@@ -293,6 +303,8 @@ function toDifficultyCounts(mcqs: RawMcq[]): Record<McqDifficulty, number> {
 }
 
 export async function getMcqBankIndex(): Promise<McqSubjectIndexItem[]> {
+  if (bankIndexCache) return bankIndexCache;
+
   const entries = await fs.readdir(MCQ_BANK_DIR, { withFileTypes: true });
   const subjectDirs = entries
     .filter((entry) => entry.isDirectory())
@@ -337,7 +349,22 @@ export async function getMcqBankIndex(): Promise<McqSubjectIndexItem[]> {
     }),
   );
 
-  return subjects.filter((subject) => subject.chapters.length > 0);
+  bankIndexCache = subjects.filter((subject) => subject.chapters.length > 0);
+  return bankIndexCache;
+}
+
+function normalizeQuestionWithSource(
+  rawMcq: RawMcq,
+  fallbackIndex: number,
+  sourceSlug: string,
+): QuizQuestion | null {
+  const question = normalizeQuestion(rawMcq, fallbackIndex);
+  if (!question) return null;
+
+  return {
+    ...question,
+    id: `${sourceSlug}:${question.id}`,
+  };
 }
 
 export async function buildMcqQuizPayload(
@@ -356,28 +383,63 @@ export async function buildMcqQuizPayload(
     throw new Error("Easy + medium + hard question counts must equal total questions.");
   }
 
-  const chapterFileName = `${request.chapter}.json`;
-  const chapter = await readChapterFile(request.subject, chapterFileName);
-  const rawMcqs = Array.isArray(chapter.mcqs) ? chapter.mcqs : [];
-  const normalizedQuestions = rawMcqs
-    .map((mcq, index) => normalizeQuestion(mcq, index))
-    .filter((question): question is QuizQuestion => Boolean(question));
+  const chapterSlugs = Array.from(
+    new Set(
+      (Array.isArray(request.chapters) && request.chapters.length > 0
+        ? request.chapters
+        : [request.chapter]
+      )
+        .map((chapter) => String(chapter || "").trim())
+        .filter(Boolean),
+    ),
+  );
+
+  if (chapterSlugs.length === 0) {
+    throw new Error("At least one chapter is required.");
+  }
+
+  const chapters = await Promise.all(
+    chapterSlugs.map(async (chapterSlug) => {
+      const chapter = await readChapterFile(request.subject, `${chapterSlug}.json`);
+      const rawMcqs = Array.isArray(chapter.mcqs) ? chapter.mcqs : [];
+
+      return {
+        slug: chapterSlug,
+        title: chapter.topic || titleFromSlug(chapterSlug),
+        questions: rawMcqs
+          .map((mcq, index) => normalizeQuestionWithSource(mcq, index, chapterSlug))
+          .filter((question): question is QuizQuestion => Boolean(question)),
+      };
+    }),
+  );
+
+  const normalizedQuestions = chapters.flatMap((chapter) => chapter.questions);
 
   if (normalizedQuestions.length === 0) {
     throw new Error("No valid MCQs found in this chapter.");
   }
 
+  const excludedQuestionIds = new Set(
+    (Array.isArray(request.excludeQuestionIds) ? request.excludeQuestionIds : [])
+      .map((id) => String(id || "").trim())
+      .filter(Boolean),
+  );
+
   const selectedByDifficulty = DIFFICULTIES.flatMap((difficulty) => {
-    const available = shuffle(
+    const allAvailable = shuffle(
       normalizedQuestions.filter(
         (question) => question.questionType === difficulty,
       ),
     );
     const needed = requestedCounts[difficulty];
+    const freshAvailable = allAvailable.filter(
+      (question) => !excludedQuestionIds.has(question.id),
+    );
+    const available = freshAvailable.length >= needed ? freshAvailable : allAvailable;
 
     if (available.length < needed) {
       throw new Error(
-        `${chapter.topic || titleFromSlug(request.chapter)} has only ${available.length} ${difficulty} questions.`,
+        `${request.noteChapter || chapters.map((chapter) => chapter.title).join(", ")} has only ${available.length} ${difficulty} questions.`,
       );
     }
 
@@ -386,8 +448,12 @@ export async function buildMcqQuizPayload(
 
   return {
     sessionMeta: {
-      subject: chapter.subject || request.subject,
-      topic: chapter.topic || titleFromSlug(request.chapter),
+      subject: request.subject,
+      topic:
+        request.noteChapter ||
+        (chapters.length === 1
+          ? chapters[0].title
+          : `${chapters[0].title} + ${chapters.length - 1} more`),
       noteChapter: request.noteChapter || "",
       noteChapterId: request.noteChapterId || "",
       mode: request.mode === "exam" ? "exam" : "practice",

@@ -1,8 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { fetchAttempts, updateAttemptQuestionNote } from "@/lib/api/attempts";
+import { buildApiUrl } from "@/lib/api/client";
+import { AppToast } from "@/app/components/AppToast";
 import { DashboardControls } from "./components/DashboardControls";
 import { DashboardHeader } from "./components/DashboardHeader";
 import { DashboardStyles } from "./components/DashboardStyles";
@@ -12,9 +13,18 @@ import { ProgressBar } from "./components/ProgressBar";
 import { TopBar } from "./components/TopBar";
 import { TreeView } from "./components/TreeView";
 import { useSubjectDashboardState } from "./hooks/useSubjectDashboardState";
+import {
+  buildSubjectNotesExport,
+  buildSubjectNotesExportFilename,
+  buildSubjectQuizExport,
+  buildSubjectQuizExportFilename,
+  type SubjectQuizExportSource,
+} from "./utils/exportSubjectNotes";
+// PERFECT NEW CODE
 import type {
   ChapterAttemptSummary,
   ChapterWrongQuestionEntry,
+  SubjectCompletionTimes,
   SubjectDashboardConfig,
   SubjectNode,
   SubjectNoteDocument,
@@ -23,6 +33,43 @@ import type {
 type SubjectDashboardProps = SubjectDashboardConfig & {
   data: SubjectNode[];
 };
+
+function downloadTextFile(content: string, fileName: string, mimeType: string) {
+  const blob = new Blob([content], {
+    type: `${mimeType};charset=utf-8`,
+  });
+  const downloadUrl = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+
+  link.href = downloadUrl;
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(downloadUrl);
+}
+
+async function savePlannerRunProgress(
+  subjectKey: string,
+  checkedUids: Set<string>,
+  completionTimes: Record<string, unknown>,
+) {
+  await fetch(
+    buildApiUrl(
+      `/api/subject-progress?subject=${encodeURIComponent(subjectKey)}`,
+    ),
+    {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        checkedUids: Array.from(checkedUids),
+        completionTimes,
+      }),
+    },
+  );
+}
 
 function formatPercent(value: number) {
   return `${value.toFixed(value % 1 === 0 ? 0 : 1)}%`;
@@ -130,6 +177,475 @@ function buildChapterAttemptSummaries(
   });
 
   return summaries;
+}
+
+const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
+const PLANNER_LAST_TIMED_RUN_KEY = "planner-last-timed-run";
+const PLANNER_GRACE_MINUTES = 7;
+
+const SUBJECT_ROUTE_REGISTRY: Record<string, string> = {
+  Polity: "/polity",
+  "Ancient History": "/ancient-history",
+  "Modern History": "/modern-history",
+  Geography: "/geography",
+  Economics: "/economics",
+  "Art & Culture": "/art-culture",
+  "Science & Tech": "/sc-tech",
+  Governance: "/governance",
+  "International Relations": "/international-relations",
+  "Internal Security": "/internal-security",
+  Society: "/society",
+  "Social Justice": "/social-justice",
+  "Disaster Management": "/disaster-management",
+  Agriculture: "/agriculture",
+  "World History": "/world-history",
+};
+
+const STORAGE_KEY_TO_SUBJECT: Record<string, string> = {
+  upsc_polity_ultimate_checked: "Polity",
+  upsc_ancient_ultimate_checked: "Ancient History",
+  upsc_checked: "Modern History",
+  upsc_geo_complete_checked: "Geography",
+  upsc_economics_checked: "Economics",
+  upsc_art_culture_checked: "Art & Culture",
+  upsc_sc_tech_checked: "Science & Tech",
+  upsc_environment_checked: "Environment",
+  upsc_governance_checked: "Governance",
+  upsc_ir_checked: "International Relations",
+  upsc_internal_security_checked: "Internal Security",
+  upsc_society_checked: "Society",
+  upsc_social_justice_checked: "Social Justice",
+  upsc_disaster_management_checked: "Disaster Management",
+  upsc_agriculture_checked: "Agriculture",
+  upsc_world_history_checked: "World History",
+};
+
+type PlannerMissionTarget = {
+  uid: string;
+  label: string;
+  topicUid?: string | null;
+  leafUids?: string[];
+};
+// PERFECT NEW CODE
+type PlannerMissionSessionMission = {
+  id: string;
+  subject: string;
+  mode?: string;
+  createdAt?: number;
+  chapterUid?: string;
+  chapterLabel: string;
+  plannedStart?: string | null;
+  plannedEnd?: string | null;
+  targets: PlannerMissionTarget[];
+  progressStatus?: string;
+};
+
+type PlannerMissionSession = {
+  dayKey: string;
+  dayOfWeek: string;
+  activeMissionId?: string;
+  startedAt: number;
+  returnTo?: string;
+  graceMinutes?: number;
+  autoStarted?: boolean;
+  missions: PlannerMissionSessionMission[];
+};
+
+type PlannerTimerPhase = "study" | "grace" | "expired";
+
+function parsePlannerTimeToMinutes(value?: string | null) {
+  if (!value || value === "00:00") return null;
+  const [hours, minutes] = value.split(":").map(Number);
+  if (
+    !Number.isInteger(hours) ||
+    !Number.isInteger(minutes) ||
+    hours < 0 ||
+    hours > 23 ||
+    minutes < 0 ||
+    minutes > 59
+  ) {
+    return null;
+  }
+  return hours * 60 + minutes;
+}
+
+function getPlannerMissionStudyEndAt(
+  session: PlannerMissionSession,
+  mission: PlannerMissionSessionMission,
+) {
+  const startedAt = session.startedAt || Date.now();
+  const endMinutes = parsePlannerTimeToMinutes(mission.plannedEnd);
+  if (endMinutes === null) return startedAt + 60 * 60 * 1000;
+
+  const startDate = new Date(startedAt);
+  const endAt = new Date(startDate);
+  endAt.setHours(Math.floor(endMinutes / 60), endMinutes % 60, 0, 0);
+
+  if (endAt.getTime() <= startedAt) {
+    return startedAt + 60 * 1000;
+  }
+
+  return endAt.getTime();
+}
+
+function formatPlannerTimer(milliseconds: number) {
+  const totalSeconds = Math.max(0, Math.ceil(milliseconds / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+}
+
+function normalizePlannerSession(value: unknown): PlannerMissionSession | null {
+  if (!value || typeof value !== "object") return null;
+  const session = value as Partial<PlannerMissionSession>;
+  if (!Array.isArray(session.missions) || session.missions.length === 0) {
+    return null;
+  }
+
+  return {
+    dayKey: String(session.dayKey || ""),
+    dayOfWeek: String(session.dayOfWeek || ""),
+    activeMissionId:
+      typeof session.activeMissionId === "string"
+        ? session.activeMissionId
+        : undefined,
+    startedAt:
+      typeof session.startedAt === "number" &&
+      Number.isFinite(session.startedAt)
+        ? session.startedAt
+        : Date.now(),
+    returnTo:
+      typeof session.returnTo === "string" ? session.returnTo : "/planner",
+    graceMinutes:
+      typeof session.graceMinutes === "number" &&
+      Number.isFinite(session.graceMinutes)
+        ? session.graceMinutes
+        : PLANNER_GRACE_MINUTES,
+    autoStarted: Boolean(session.autoStarted),
+    missions: session.missions
+      .filter((mission): mission is PlannerMissionSessionMission => {
+        return Boolean(
+          mission &&
+          typeof mission === "object" &&
+          typeof mission.id === "string" &&
+          typeof mission.subject === "string" &&
+          typeof mission.chapterLabel === "string",
+        );
+      })
+      .map((mission) => ({
+        ...mission,
+        plannedStart:
+          typeof mission.plannedStart === "string"
+            ? mission.plannedStart
+            : null,
+        plannedEnd:
+          typeof mission.plannedEnd === "string" ? mission.plannedEnd : null,
+        targets: Array.isArray(mission.targets) ? mission.targets : [],
+      })),
+  };
+}
+
+function buildParentUidMap(nodes: SubjectNode[]) {
+  const parentMap = new Map<string, string | null>();
+
+  const visit = (items: SubjectNode[], parentUid: string | null) => {
+    items.forEach((node) => {
+      parentMap.set(node.uid, parentUid);
+      if (node.children) visit(node.children, node.uid);
+    });
+  };
+
+  visit(nodes, null);
+  return parentMap;
+}
+
+function collectAncestorUids(
+  uid: string,
+  parentMap: Map<string, string | null>,
+) {
+  const ancestors = new Set<string>();
+  let cursor = parentMap.get(uid);
+
+  while (cursor) {
+    ancestors.add(cursor);
+    cursor = parentMap.get(cursor) || null;
+  }
+
+  return ancestors;
+}
+
+function findChapterNode(
+  chapterNodes: SubjectNode[],
+  mission: PlannerMissionSessionMission,
+) {
+  return (
+    chapterNodes.find((node) => node.uid === mission.chapterUid) ||
+    chapterNodes.find((node) => node.label === mission.chapterLabel) ||
+    null
+  );
+}
+// PERFECT NEW CODE
+function hasFreshRevision(
+  uid: string,
+  completionTimes: SubjectCompletionTimes,
+  sinceTimestamp: number,
+) {
+  const raw = completionTimes[uid];
+  if (!raw || typeof raw !== "object") return false;
+  const revisedAt = typeof raw.revisedAt === "number" ? raw.revisedAt : null;
+  const revisions = Array.isArray(raw.revisions)
+    ? raw.revisions.filter((t): t is number => typeof t === "number")
+    : [];
+  return (
+    (revisedAt !== null && revisedAt >= sinceTimestamp) ||
+    revisions.some((t) => t >= sinceTimestamp)
+  );
+}
+
+function isMissionComplete(
+  mission: PlannerMissionSessionMission,
+  checkedUids: Set<string>,
+  completionTimes: SubjectCompletionTimes,
+) {
+  const targetLeafUids = mission.targets.flatMap((target) =>
+    Array.isArray(target.leafUids) ? target.leafUids : [],
+  );
+
+  if (targetLeafUids.length === 0) {
+    return (
+      mission.progressStatus === "completed" ||
+      mission.progressStatus === "revised"
+    );
+  }
+
+  // ⚡ PRO FIX: revise-mode missions must be judged on fresh revisions made
+  // SINCE this mission was created — not on the leaf's lifetime checked/revised
+  // state. This is what lets the same topic be revised multiple times: each
+  // new revise-task gets its own createdAt and starts its own clean 0% count.
+  if (mission.mode === "revise") {
+    const missionCreatedAt =
+      typeof mission.createdAt === "number" ? mission.createdAt : Date.now();
+    return targetLeafUids.every(
+      (uid) =>
+        checkedUids.has(uid) &&
+        hasFreshRevision(uid, completionTimes, missionCreatedAt),
+    );
+  }
+
+  return targetLeafUids.every((uid) => checkedUids.has(uid));
+}
+
+function findFirstIncompleteMission(
+  session: PlannerMissionSession,
+  checkedUids: Set<string>,
+  completionTimes: SubjectCompletionTimes,
+) {
+  return (
+    session.missions.find(
+      (mission) => !isMissionComplete(mission, checkedUids, completionTimes),
+    ) || null
+  );
+}
+
+function AppreciationPopup({ onClose }: { onClose: () => void }) {
+  return (
+    <div className="chapter-stats-overlay" onClick={onClose}>
+      <div
+        className="chapter-stats-modal"
+        onClick={(event) => event.stopPropagation()}
+      >
+        <div className="chapter-stats-head">
+          <div>
+            <p className="chapter-stats-kicker">Mission Complete</p>
+            <h3 className="chapter-stats-title">Excellent work</h3>
+            <p className="chapter-stats-subtitle">
+              Every planned note target for this mission run is complete. Take a
+              short reset, then lock the next block with the same focus.
+            </p>
+          </div>
+          <button
+            type="button"
+            className="chapter-stats-close"
+            onClick={onClose}
+          >
+            Close
+          </button>
+        </div>
+        <div
+          aria-hidden="true"
+          style={{
+            margin: "18px auto 0",
+            width: 76,
+            height: 76,
+            borderRadius: "999px",
+            display: "grid",
+            placeItems: "center",
+            color: "#34d399",
+            background:
+              "radial-gradient(circle, rgba(52,211,153,0.22), rgba(52,211,153,0.05))",
+            border: "1px solid rgba(52,211,153,0.32)",
+            boxShadow: "0 0 36px rgba(52,211,153,0.22)",
+            animation: "pulse 1.6s ease-in-out infinite",
+          }}
+        >
+          <svg viewBox="0 0 24 24" width="42" height="42" fill="none">
+            <path
+              d="M5 12.5l4.2 4.2L19.5 6.5"
+              stroke="currentColor"
+              strokeWidth="2.6"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function PlannerMissionTimerBanner({
+  timerState,
+  autoStarted,
+}: {
+  timerState: {
+    phase: PlannerTimerPhase;
+    remainingMs: number;
+    graceMinutes: number;
+    totalTargets: number;
+    completedTargets: number;
+    mission: PlannerMissionSessionMission;
+  };
+  autoStarted?: boolean;
+}) {
+  const isGrace = timerState.phase === "grace";
+  const progressText = `${timerState.completedTargets}/${timerState.totalTargets}`;
+  const missionMode = timerState.mission.mode === "revise" ? "revise" : "complete";
+
+  return (
+    <div
+      style={{
+        margin: "0 24px 18px",
+        padding: "14px 16px",
+        borderRadius: 18,
+        border: `1px solid ${isGrace ? "rgba(245,158,11,0.32)" : "rgba(52,211,153,0.28)"}`,
+        background: isGrace
+          ? "linear-gradient(135deg, rgba(245,158,11,0.14), rgba(10,10,10,0.9))"
+          : "linear-gradient(135deg, rgba(16,185,129,0.14), rgba(10,10,10,0.9))",
+        color: "#e5e7eb",
+        boxShadow: "0 18px 40px rgba(0,0,0,0.26)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between",
+        gap: 14,
+        flexWrap: "wrap",
+      }}
+    >
+      <div style={{ minWidth: 220, flex: "1 1 280px" }}>
+        <p
+          style={{
+            margin: 0,
+            color: isGrace ? "#fbbf24" : "#34d399",
+            fontSize: 11,
+            fontWeight: 900,
+            letterSpacing: "0.16em",
+            textTransform: "uppercase",
+          }}
+        >
+          {isGrace ? "Grace countdown" : "Study countdown"}
+          {autoStarted ? " - Auto mode" : ""}
+        </p>
+        <h2
+          style={{
+            margin: "5px 0 0",
+            color: "#ffffff",
+            fontSize: 18,
+            lineHeight: 1.2,
+            fontWeight: 900,
+          }}
+        >
+          {timerState.mission.chapterLabel}
+        </h2>
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 12,
+          flexWrap: "wrap",
+        }}
+      >
+        <div
+          style={{
+            minWidth: 112,
+            padding: "10px 14px",
+            borderRadius: 14,
+            border: "1px solid rgba(255,255,255,0.08)",
+            background: "rgba(0,0,0,0.34)",
+          }}
+        >
+          <p
+            style={{
+              margin: 0,
+              color: "#94a3b8",
+              fontSize: 9,
+              fontWeight: 900,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+            }}
+          >
+            Time left
+          </p>
+          <p
+            style={{
+              margin: "2px 0 0",
+              color: "#ffffff",
+              fontSize: 24,
+              lineHeight: 1,
+              fontWeight: 900,
+              fontVariantNumeric: "tabular-nums",
+            }}
+          >
+            {formatPlannerTimer(timerState.remainingMs)}
+          </p>
+        </div>
+
+        <div
+          style={{
+            minWidth: 96,
+            padding: "10px 14px",
+            borderRadius: 14,
+            border: "1px solid rgba(255,255,255,0.08)",
+            background: "rgba(0,0,0,0.34)",
+          }}
+        >
+          <p
+            style={{
+              margin: 0,
+              color: "#94a3b8",
+              fontSize: 9,
+              fontWeight: 900,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+            }}
+          >
+            {missionMode === "revise" ? "Revised" : "Done"}
+          </p>
+          <p
+            style={{
+              margin: "2px 0 0",
+              color: isGrace ? "#fbbf24" : "#34d399",
+              fontSize: 22,
+              lineHeight: 1,
+              fontWeight: 900,
+            }}
+          >
+            {progressText}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function SubjectNotesPopup({
@@ -648,12 +1164,20 @@ export function SubjectDashboard({
   smartModeData,
 }: SubjectDashboardProps) {
   const [isSmartModeEnabled, setIsSmartModeEnabled] = useState(false);
+  const [isPlannerMissionRoute] = useState(
+    () =>
+      typeof window !== "undefined" &&
+      new URLSearchParams(window.location.search).get("plannerMission") === "1",
+  );
   const activeData = useMemo(
     () =>
-      isSmartModeEnabled && smartModeData && smartModeData.length > 0
+      !isPlannerMissionRoute &&
+      isSmartModeEnabled &&
+      smartModeData &&
+      smartModeData.length > 0
         ? smartModeData
         : data,
-    [data, isSmartModeEnabled, smartModeData],
+    [data, isPlannerMissionRoute, isSmartModeEnabled, smartModeData],
   );
   const dashboard = useSubjectDashboardState(
     activeData,
@@ -671,6 +1195,22 @@ export function SubjectDashboard({
   >({});
   const [activeChapterUid, setActiveChapterUid] = useState<string | null>(null);
   const [isWrongsOpen, setIsWrongsOpen] = useState(false);
+  const [plannerSession, setPlannerSession] =
+    useState<PlannerMissionSession | null>(null);
+  const [activePlannerMissionId, setActivePlannerMissionId] = useState<
+    string | null
+  >(null);
+  const [plannerTimerNow, setPlannerTimerNow] = useState(() => Date.now());
+  const hasPlannerTimerExpiredRef = useRef(false);
+  const [isAppreciationOpen, setIsAppreciationOpen] = useState(false);
+  const currentSubject =
+    STORAGE_KEY_TO_SUBJECT[storageKeys.checked] || quizSubjectName || title;
+  const collapseToExpandedUids = dashboard.collapseToExpandedUids;
+
+  const parentUidMap = useMemo(
+    () => buildParentUidMap(activeData),
+    [activeData],
+  );
 
   const handleOpenChapterStats = useCallback(
     (uid: string) => {
@@ -695,14 +1235,399 @@ export function SubjectDashboard({
   useEffect(() => {
     let isCurrent = true;
     if (quizSubjectName) {
-      refreshAttemptSummaries().catch(() => {
-        /* Optionally handle error */
-      });
+      window.setTimeout(() => {
+        if (!isCurrent) return;
+        refreshAttemptSummaries().catch(() => {
+          /* Optionally handle error */
+        });
+      }, 0);
     }
     return () => {
       isCurrent = false;
     };
   }, [quizSubjectName, refreshAttemptSummaries]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("plannerMission") !== "1") return;
+
+    try {
+      const rawSession = window.sessionStorage.getItem(
+        PLANNER_NOTE_SESSION_KEY,
+      );
+      const parsedSession = normalizePlannerSession(
+        rawSession ? JSON.parse(rawSession) : null,
+      );
+      if (!parsedSession) return;
+
+      window.setTimeout(() => {
+        setPlannerSession(parsedSession);
+        setActivePlannerMissionId(parsedSession.activeMissionId || null);
+      }, 0);
+    } catch {
+      window.setTimeout(() => {
+        setPlannerSession(null);
+        setActivePlannerMissionId(null);
+      }, 0);
+    }
+  }, []);
+
+  const activePlannerMission = useMemo(() => {
+    if (!plannerSession) return null;
+    if (activePlannerMissionId) {
+      const selectedMission =
+        plannerSession.missions.find(
+          (mission) => mission.id === activePlannerMissionId,
+        ) || null;
+      if (selectedMission) return selectedMission;
+    }
+    // PERFECT NEW CODE
+    return findFirstIncompleteMission(
+      plannerSession,
+      dashboard.checkedUids,
+      dashboard.completionTimes,
+    );
+  }, [
+    activePlannerMissionId,
+    dashboard.checkedUids,
+    dashboard.completionTimes,
+    plannerSession,
+  ]);
+
+  const timedPlannerMission = useMemo(() => {
+    if (!plannerSession) return null;
+    if (activePlannerMission) return activePlannerMission;
+    if (!activePlannerMissionId) return null;
+    return (
+      plannerSession.missions.find(
+        (mission) => mission.id === activePlannerMissionId,
+      ) || null
+    );
+  }, [activePlannerMission, activePlannerMissionId, plannerSession]);
+
+  const plannerTimerState = useMemo(() => {
+    if (!plannerSession || !timedPlannerMission) return null;
+
+    const studyEndAt = getPlannerMissionStudyEndAt(
+      plannerSession,
+      timedPlannerMission,
+    );
+    const graceMinutes = Math.max(
+      1,
+      plannerSession.graceMinutes || PLANNER_GRACE_MINUTES,
+    );
+    const graceEndAt = studyEndAt + graceMinutes * 60 * 1000;
+    const phase: PlannerTimerPhase =
+      plannerTimerNow < studyEndAt
+        ? "study"
+        : plannerTimerNow < graceEndAt
+          ? "grace"
+          : "expired";
+    const remainingMs =
+      phase === "study"
+        ? studyEndAt - plannerTimerNow
+        : phase === "grace"
+          ? graceEndAt - plannerTimerNow
+          : 0;
+    const targetLeafUids = timedPlannerMission.targets.flatMap((target) =>
+      Array.isArray(target.leafUids) ? target.leafUids : [],
+    );
+    const completedTargets =
+      timedPlannerMission.mode === "revise"
+        ? targetLeafUids.filter(
+            (uid) =>
+              dashboard.checkedUids.has(uid) &&
+              hasFreshRevision(
+                uid,
+                dashboard.completionTimes,
+                typeof timedPlannerMission.createdAt === "number"
+                  ? timedPlannerMission.createdAt
+                  : plannerSession.startedAt,
+              ),
+          ).length
+        : targetLeafUids.filter((uid) => dashboard.checkedUids.has(uid)).length;
+
+    return {
+      phase,
+      remainingMs,
+      graceMinutes,
+      totalTargets: targetLeafUids.length,
+      completedTargets,
+      mission: timedPlannerMission,
+    };
+  }, [
+    dashboard.checkedUids,
+    dashboard.completionTimes,
+    plannerSession,
+    plannerTimerNow,
+    timedPlannerMission,
+  ]);
+
+  useEffect(() => {
+    if (!plannerSession || !timedPlannerMission) return;
+
+    const intervalId = window.setInterval(() => {
+      setPlannerTimerNow(Date.now());
+    }, 1000);
+
+    return () => window.clearInterval(intervalId);
+  }, [plannerSession, timedPlannerMission]);
+
+  useEffect(() => {
+    hasPlannerTimerExpiredRef.current = false;
+  }, [plannerSession?.startedAt, activePlannerMissionId]);
+
+  useEffect(() => {
+    if (!plannerSession || !plannerTimerState) return;
+    if (plannerTimerState.phase !== "expired") return;
+    if (hasPlannerTimerExpiredRef.current) return;
+
+    hasPlannerTimerExpiredRef.current = true;
+    const completedAt = Date.now();
+    window.sessionStorage.setItem(
+      PLANNER_LAST_TIMED_RUN_KEY,
+      JSON.stringify({
+        missionId: plannerTimerState.mission.id,
+        subject: plannerTimerState.mission.subject,
+        chapterLabel: plannerTimerState.mission.chapterLabel,
+        completedTargets: plannerTimerState.completedTargets,
+        totalTargets: plannerTimerState.totalTargets,
+        completedAt,
+      }),
+    );
+    window.sessionStorage.removeItem(PLANNER_NOTE_SESSION_KEY);
+    window.location.href = plannerSession.returnTo || "/planner";
+  }, [plannerSession, plannerTimerState]);
+
+  const missionVisibleUids = useMemo(() => {
+    if (!timedPlannerMission) return null;
+    if (timedPlannerMission.subject !== currentSubject) return null;
+
+    const visible = new Set<string>();
+
+    [timedPlannerMission].forEach((mission) => {
+      const chapterNode = findChapterNode(chapterNodes, mission);
+      if (chapterNode) {
+        visible.add(chapterNode.uid);
+        collectAncestorUids(chapterNode.uid, parentUidMap).forEach((uid) =>
+          visible.add(uid),
+        );
+      }
+
+      mission.targets.forEach((target) => {
+        if (target.uid) {
+          visible.add(target.uid);
+          collectAncestorUids(target.uid, parentUidMap).forEach((uid) =>
+            visible.add(uid),
+          );
+        }
+
+        if (target.topicUid) {
+          visible.add(target.topicUid);
+          collectAncestorUids(target.topicUid, parentUidMap).forEach((uid) =>
+            visible.add(uid),
+          );
+        }
+
+        (target.leafUids || []).forEach((leafUid) => {
+          visible.add(leafUid);
+          collectAncestorUids(leafUid, parentUidMap).forEach((uid) =>
+            visible.add(uid),
+          );
+        });
+      });
+    });
+
+    return visible.size > 0 ? visible : new Set(["__planner_empty_scope__"]);
+  }, [chapterNodes, currentSubject, parentUidMap, timedPlannerMission]);
+
+  const activeVisibleUids = useMemo(() => {
+    if (!missionVisibleUids) return dashboard.visibleUids;
+    return missionVisibleUids;
+  }, [dashboard.visibleUids, missionVisibleUids]);
+
+  const missionVisibleVersion = useMemo(() => {
+    if (!missionVisibleUids) return 0;
+    return Array.from(missionVisibleUids).sort().join("|").length;
+  }, [missionVisibleUids]);
+
+  const focusPlannerMission = useCallback(
+    (mission: PlannerMissionSessionMission) => {
+      const expandedUids = new Set<string>();
+
+      [mission]
+        .filter((item) => item.subject === currentSubject)
+        .forEach((item) => {
+          const chapterNode = findChapterNode(chapterNodes, item);
+          if (chapterNode) {
+            expandedUids.add(chapterNode.uid);
+            collectAncestorUids(chapterNode.uid, parentUidMap).forEach((uid) =>
+              expandedUids.add(uid),
+            );
+          }
+
+          item.targets.forEach((target) => {
+            if (target.topicUid) {
+              expandedUids.add(target.topicUid);
+              collectAncestorUids(target.topicUid, parentUidMap).forEach(
+                (uid) => expandedUids.add(uid),
+              );
+            }
+
+            (target.leafUids || []).forEach((leafUid) => {
+              collectAncestorUids(leafUid, parentUidMap).forEach((uid) =>
+                expandedUids.add(uid),
+              );
+            });
+          });
+        });
+
+      collapseToExpandedUids(expandedUids);
+
+      window.setTimeout(() => {
+        const chapterNode = findChapterNode(chapterNodes, mission);
+        const targetUid =
+          chapterNode?.uid ||
+          mission.targets[0]?.topicUid ||
+          mission.targets[0]?.uid;
+        if (!targetUid) return;
+
+        document
+          .getElementById(`subject-node-${targetUid}`)
+          ?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 120);
+    },
+    [
+      chapterNodes,
+      collapseToExpandedUids,
+      currentSubject,
+      parentUidMap,
+    ],
+  );
+
+  useEffect(() => {
+    if (!plannerSession || !activePlannerMission) return;
+    if (activePlannerMission.subject !== currentSubject) return;
+    focusPlannerMission(activePlannerMission);
+  }, [
+    activePlannerMission,
+    currentSubject,
+    focusPlannerMission,
+    plannerSession,
+  ]);
+
+  useEffect(() => {
+    if (!plannerSession) return;
+    // PERFECT NEW CODE
+    const nextMission = findFirstIncompleteMission(
+      plannerSession,
+      dashboard.checkedUids,
+      dashboard.completionTimes,
+    );
+
+    const activeMissionFinished =
+      activePlannerMissionId &&
+      plannerTimerState &&
+      isMissionComplete(
+        plannerTimerState.mission,
+        dashboard.checkedUids,
+        dashboard.completionTimes,
+      );
+
+    if (activeMissionFinished && plannerTimerState) {
+      if (hasPlannerTimerExpiredRef.current) return;
+      hasPlannerTimerExpiredRef.current = true;
+      const completedAt = Date.now();
+      window.sessionStorage.setItem(
+        PLANNER_LAST_TIMED_RUN_KEY,
+        JSON.stringify({
+          missionId: plannerTimerState.mission.id,
+          subject: plannerTimerState.mission.subject,
+          chapterLabel: plannerTimerState.mission.chapterLabel,
+          completedTargets: plannerTimerState.totalTargets,
+          totalTargets: plannerTimerState.totalTargets,
+          completedAt,
+        }),
+      );
+      void (async () => {
+        try {
+          await savePlannerRunProgress(
+            storageKeys.checked,
+            dashboard.checkedUids,
+            dashboard.completionTimes,
+          );
+        } catch (error) {
+          console.warn("Failed to flush planner run progress:", error);
+        } finally {
+          window.sessionStorage.removeItem(PLANNER_NOTE_SESSION_KEY);
+          window.location.href = plannerSession.returnTo || "/planner";
+        }
+      })();
+      return;
+    }
+
+    if (
+      activePlannerMissionId &&
+      plannerTimerState &&
+      plannerTimerState.phase !== "expired" &&
+      !activeMissionFinished
+    ) {
+      return;
+    }
+
+    if (!nextMission) {
+      if (
+        plannerTimerState &&
+        plannerTimerState.phase !== "expired" &&
+        activePlannerMissionId &&
+        !activeMissionFinished
+      ) {
+        return;
+      }
+      window.sessionStorage.removeItem(PLANNER_NOTE_SESSION_KEY);
+      window.setTimeout(() => {
+        setActivePlannerMissionId(null);
+        setIsAppreciationOpen(true);
+      }, 0);
+      return;
+    }
+
+    if (nextMission.id === activePlannerMissionId) return;
+
+    const nextSession = {
+      ...plannerSession,
+      activeMissionId: nextMission.id,
+    };
+    window.sessionStorage.setItem(
+      PLANNER_NOTE_SESSION_KEY,
+      JSON.stringify(nextSession),
+    );
+    window.setTimeout(() => {
+      setPlannerSession(nextSession);
+      setActivePlannerMissionId(nextMission.id);
+    }, 0);
+
+    if (nextMission.subject !== currentSubject) {
+      const nextRoute = SUBJECT_ROUTE_REGISTRY[nextMission.subject];
+      if (nextRoute) {
+        window.location.href = `${nextRoute}?plannerMission=1`;
+      }
+      return;
+    }
+
+    focusPlannerMission(nextMission);
+  }, [
+    activePlannerMissionId,
+    currentSubject,
+    dashboard.checkedUids,
+    dashboard.completionTimes,
+    focusPlannerMission,
+    plannerSession,
+    plannerTimerState,
+    storageKeys.checked,
+  ]);
 
   const activeChapterNode = activeChapterUid
     ? chapterNodes.find((node) => node.uid === activeChapterUid) || null
@@ -719,6 +1644,99 @@ export function SubjectDashboard({
         trash: [],
       }
     : null;
+
+  // ⚡ PRO POWER FIX: Memoize TreeView so opening popups/modals doesn't freeze the app by re-rendering the massive tree
+  const handleDownloadSubjectNotes = useCallback(() => {
+    const exportText = buildSubjectNotesExport(activeData, {
+      title,
+      modeLabel: isSmartModeEnabled ? "Smart Notes" : "Structured Notes",
+      generatedAt: new Date(),
+    });
+    downloadTextFile(
+      exportText,
+      buildSubjectNotesExportFilename(title),
+      "text/plain",
+    );
+  }, [activeData, isSmartModeEnabled, title]);
+
+  const handleDownloadSubjectQuiz = useCallback(async () => {
+    if (!quizSubjectName) {
+      window.alert("No quiz bank is linked to this subject.");
+      return;
+    }
+
+    const response = await fetch(
+      `/api/mcq-bank?subject=${encodeURIComponent(quizSubjectName)}`,
+    );
+    const payload = (await response.json()) as
+      | SubjectQuizExportSource
+      | { error?: string };
+
+    if (!response.ok) {
+      window.alert(
+        "error" in payload && payload.error
+          ? payload.error
+          : "Unable to download quiz structure.",
+      );
+      return;
+    }
+
+    downloadTextFile(
+      buildSubjectQuizExport(payload as SubjectQuizExportSource),
+      buildSubjectQuizExportFilename(quizSubjectName),
+      "application/json",
+    );
+  }, [quizSubjectName]);
+
+  const memoizedTreeView = useMemo(
+    () => (
+      <TreeView
+        data={activeData}
+        isSmartModeEnabled={isSmartModeEnabled}
+        checkedUids={dashboard.checkedUids}
+        completionTimes={dashboard.completionTimes}
+        nodeStatuses={dashboard.nodeStatuses}
+        effectiveCollapsed={dashboard.effectiveCollapsed}
+        indeterminateUids={dashboard.indeterminateUids}
+        starredUids={dashboard.starredUids}
+        notes={dashboard.notes}
+        visibleUids={activeVisibleUids}
+        chapterUids={chapterUids}
+        chapterAttemptSummaries={chapterAttemptSummaries}
+        nodeRenderVersions={dashboard.nodeRenderVersions}
+        treeRenderVersion={dashboard.treeRenderVersion + missionVisibleVersion}
+        onCheck={dashboard.handleCheck}
+        onLogRevision={dashboard.logRevision}
+        onOpenChapterStats={handleOpenChapterStats}
+        onToggleCollapse={dashboard.toggleCollapse}
+        onToggleNote={dashboard.toggleNote}
+        onToggleStar={dashboard.toggleStar}
+      />
+    ),
+    [
+      activeData,
+      isSmartModeEnabled,
+      dashboard.checkedUids,
+      dashboard.completionTimes,
+      dashboard.nodeStatuses,
+      dashboard.effectiveCollapsed,
+      dashboard.indeterminateUids,
+      dashboard.starredUids,
+      dashboard.notes,
+      activeVisibleUids,
+      chapterUids,
+      chapterAttemptSummaries,
+      dashboard.nodeRenderVersions,
+      dashboard.treeRenderVersion,
+      missionVisibleVersion,
+      dashboard.handleCheck,
+      dashboard.logRevision,
+      handleOpenChapterStats,
+      dashboard.toggleCollapse,
+      dashboard.toggleNote,
+      dashboard.toggleStar,
+    ],
+  );
 
   return (
     <>
@@ -744,34 +1762,21 @@ export function SubjectDashboard({
           onSearch={dashboard.handleSearch}
           onExpandAll={dashboard.expandAll}
           onCollapseAll={dashboard.collapseAll}
+          onDownloadNotes={handleDownloadSubjectNotes}
+          onDownloadQuiz={handleDownloadSubjectQuiz}
           onToggleRecall={() => dashboard.setIsRecall(!dashboard.isRecall)}
           onToggleSmartMode={() => setIsSmartModeEnabled((value) => !value)}
           onToggleStarFilter={() =>
             dashboard.setStarFilter(!dashboard.starFilter)
           }
         />
-        <TreeView
-          data={activeData}
-          isSmartModeEnabled={isSmartModeEnabled}
-          checkedUids={dashboard.checkedUids}
-          completionTimes={dashboard.completionTimes}
-          nodeStatuses={dashboard.nodeStatuses}
-          effectiveCollapsed={dashboard.effectiveCollapsed}
-          indeterminateUids={dashboard.indeterminateUids}
-          starredUids={dashboard.starredUids}
-          notes={dashboard.notes}
-          visibleUids={dashboard.visibleUids}
-          chapterUids={chapterUids}
-          chapterAttemptSummaries={chapterAttemptSummaries}
-          nodeRenderVersions={dashboard.nodeRenderVersions}
-          treeRenderVersion={dashboard.treeRenderVersion}
-          onCheck={dashboard.handleCheck}
-          onLogRevision={dashboard.logRevision}
-          onOpenChapterStats={handleOpenChapterStats}
-          onToggleCollapse={dashboard.toggleCollapse}
-          onToggleNote={dashboard.toggleNote}
-          onToggleStar={dashboard.toggleStar}
-        />
+        {plannerTimerState && (
+          <PlannerMissionTimerBanner
+            timerState={plannerTimerState}
+            autoStarted={plannerSession?.autoStarted}
+          />
+        )}
+        {memoizedTreeView}
       </div>
 
       {activeNoteNode && activeNoteDocument && (
@@ -838,7 +1843,12 @@ export function SubjectDashboard({
           }}
         />
       )}
-<DashboardHeaderStyles />
+
+      {isAppreciationOpen && (
+        <AppreciationPopup onClose={() => setIsAppreciationOpen(false)} />
+      )}
+      <AppToast toast={dashboard.subjectProgressToast} />
+      <DashboardHeaderStyles />
 
       <DashboardStyles />
     </>

@@ -2,6 +2,8 @@ import type { ChangeEvent } from "react";
 
 interface CalendarHeaderProps {
   totalSubmissions: number;
+  totalCompletedMissions: number;
+  totalPlannedMissions: number;
   selectedYear: number;
   currentYear: number;
   onYearChange: (event: ChangeEvent<HTMLSelectElement>) => void;
@@ -9,14 +11,18 @@ interface CalendarHeaderProps {
 
 export default function CalendarHeader({
   totalSubmissions,
+  totalCompletedMissions,
+  totalPlannedMissions,
   selectedYear,
   currentYear,
   onYearChange,
 }: CalendarHeaderProps) {
+  void totalSubmissions;
+
   return (
     <div className="heatmap-header">
       <h3 className="heatmap-title">
-        Activity Pulse: {totalSubmissions} submissions in {selectedYear}
+        Mission Pulse: {totalCompletedMissions}/{totalPlannedMissions} missions closed in {selectedYear}
       </h3>
 
       <select

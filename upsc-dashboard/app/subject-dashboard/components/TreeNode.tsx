@@ -476,24 +476,19 @@ function splitRawLines(input: string): string[] {
       endsLikeHardContinuation(prevTrim) &&
       looksLikeLegalContinuation(currTrim) &&
       !currentLooksStructural;
-const shouldMergeByCitationPattern =
-  (
-    // Ends with dotted initials / legal abbreviations
-    INITIALS_END_RE.test(prevTrim) ||
-
-    // Ends with common legal short forms that genuinely break across lines
-    /\b(?:v\.?|vs\.?|Inst\.?|Govt\.?|Univ\.?|Ltd\.?|Corp\.?|Pvt\.?|Co\.?)$/i.test(
-      prevTrim,
-    ) ||
-
-    // Ends with a year/parenthetical and next line is still clearly continuation
-    /\(\d{4}\)\.?$/.test(prevTrim) ||
-
-    // Ends with a dangling opening-bracket style legal fragment
-    /(?:\([^)]+|\[[^\]]+)$/.test(prevTrim)
-  ) &&
-  looksLikeLegalContinuation(currTrim) &&
-  !currentLooksStructural;
+    const shouldMergeByCitationPattern =
+      // Ends with dotted initials / legal abbreviations
+      (INITIALS_END_RE.test(prevTrim) ||
+        // Ends with common legal short forms that genuinely break across lines
+        /\b(?:v\.?|vs\.?|Inst\.?|Govt\.?|Univ\.?|Ltd\.?|Corp\.?|Pvt\.?|Co\.?)$/i.test(
+          prevTrim,
+        ) ||
+        // Ends with a year/parenthetical and next line is still clearly continuation
+        /\(\d{4}\)\.?$/.test(prevTrim) ||
+        // Ends with a dangling opening-bracket style legal fragment
+        /(?:\([^)]+|\[[^\]]+)$/.test(prevTrim)) &&
+      looksLikeLegalContinuation(currTrim) &&
+      !currentLooksStructural;
     /**
      * Extra safety:
      * If previous line clearly looks unfinished and next line is short legal continuation,
@@ -1142,21 +1137,33 @@ function TreeNodeComponent(props: TreeNodeProps) {
     : null;
 
   const completionRecord = completionTimes[node.uid];
+  const normalizedCompletionRecord =
+    typeof completionRecord === "number"
+      ? {
+          completedAt: completionRecord,
+          revisedAt: undefined,
+          revisions: [] as number[],
+        }
+      : completionRecord && typeof completionRecord === "object"
+        ? completionRecord
+        : null;
 
   const derivedRecord = {
     isChecked: isLeaf
       ? checkedUids.has(node.uid)
       : Boolean(nodeStatus?.isChecked),
-    completedAt:
-      nodeStatus?.completedAt ??
-      (completionRecord?.completedAt as number | undefined),
-    revisedAt:
-      nodeStatus?.revisedAt ??
-      (completionRecord?.revisedAt as number | undefined),
-    revisions: Array.isArray(nodeStatus?.revisions)
-      ? nodeStatus.revisions
-      : Array.isArray(completionRecord?.revisions)
-        ? (completionRecord.revisions as number[])
+    completedAt: isLeaf
+      ? normalizedCompletionRecord?.completedAt
+      : nodeStatus?.completedAt,
+    revisedAt: isLeaf
+      ? normalizedCompletionRecord?.revisedAt
+      : nodeStatus?.revisedAt,
+    revisions: isLeaf
+      ? Array.isArray(normalizedCompletionRecord?.revisions)
+        ? normalizedCompletionRecord.revisions
+        : []
+      : Array.isArray(nodeStatus?.revisions)
+        ? nodeStatus.revisions
         : [],
   };
 
@@ -1264,6 +1271,8 @@ function TreeNodeComponent(props: TreeNodeProps) {
 
   return (
     <li
+      id={`subject-node-${node.uid}`}
+      data-subject-node-uid={node.uid}
       className={[
         "tnode",
         hasKids ? "has-kids" : "leaf",
@@ -1413,5 +1422,18 @@ function TreeNodeComponent(props: TreeNodeProps) {
   );
 }
 
-export const TreeNode = memo(TreeNodeComponent);
+// ⚡ PRO POWER FIX: Activate the dormant recursive version engine to block 99% of checkbox render lag
+function arePropsEqual(prevProps: TreeNodeProps, nextProps: TreeNodeProps) {
+  const uid = prevProps.node.uid;
+  const prevVersion = prevProps.nodeRenderVersions.get(uid);
+  const nextVersion = nextProps.nodeRenderVersions.get(uid);
+
+  return (
+    prevVersion === nextVersion &&
+    prevProps.treeRenderVersion === nextProps.treeRenderVersion &&
+    prevProps.visibleUids.has(uid) === nextProps.visibleUids.has(uid)
+  );
+}
+
+export const TreeNode = memo(TreeNodeComponent, arePropsEqual);
 export default TreeNode;

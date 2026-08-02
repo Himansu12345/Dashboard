@@ -116,6 +116,8 @@ export interface AttemptQuestionDetail {
   options: string[];
   correctAnswer: string;
   selectedAnswer: string;
+  difficulty?: string;
+  timeSpentSeconds?: number;
   reviewKind?: "incorrect" | "skipped";
   notes: string[];
   note: string;
@@ -140,6 +142,8 @@ function normalizeAttemptQuestionDetail(input: unknown): AttemptQuestionDetail |
     options: normalizeOptions(raw.options),
     correctAnswer: normalizeOption(raw.correctAnswer) || "",
     selectedAnswer: normalizeOption(raw.selectedAnswer) || "",
+    difficulty: normalizeNullableString(raw.difficulty) || undefined,
+    timeSpentSeconds: toFiniteNumber(raw.timeSpentSeconds),
     reviewKind:
       raw.reviewKind === "skipped"
         ? "skipped"
@@ -203,6 +207,7 @@ export interface AttemptResponse {
   difficulty: string;
   dateValue: string | null;
   accuracy: number;
+  allottedTimeSeconds?: number;
   incorrectDetails: AttemptQuestionDetail[];
   correctDetails: AttemptQuestionDetail[];
   skippedDetails: AttemptQuestionDetail[];
@@ -236,6 +241,8 @@ export interface CreateAttemptQuestionDetailPayload {
   options: string[];
   correctAnswer: string;
   selectedAnswer: string;
+  difficulty?: string;
+  timeSpentSeconds?: number;
 }
 
 export interface CreateAttemptPayload {
@@ -248,6 +255,7 @@ export interface CreateAttemptPayload {
   skipped: number;
   difficulty: string;
   dateValue: string;
+  allottedTimeSeconds?: number;
   attemptKey?: string;
   quizSignature?: string;
   correctDetails?: CreateAttemptQuestionDetailPayload[];
@@ -284,6 +292,7 @@ function normalizeAttempt(input: unknown): AttemptResponse | null {
     difficulty: normalizeNullableString(raw.difficulty) || "Unknown",
     dateValue: normalizeIsoDateValue(raw.dateValue),
     accuracy: toFiniteNumber(raw.accuracy),
+    allottedTimeSeconds: toFiniteNumber(raw.allottedTimeSeconds),
     incorrectDetails: normalizeAttemptQuestionDetails(raw.incorrectDetails),
     correctDetails: normalizeAttemptQuestionDetails(raw.correctDetails),
     skippedDetails: normalizeAttemptQuestionDetails(raw.skippedDetails),

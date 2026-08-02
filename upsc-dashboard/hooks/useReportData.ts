@@ -38,6 +38,15 @@ type SubjectProgressApiResponse = {
   } | null;
 };
 
+type PlannerApiResponse = {
+  exists?: boolean;
+  data?: Record<string, unknown> | null;
+};
+
+type RawWeeklyPlan = Record<string, unknown>;
+
+const PLANNER_API_URL = "http://localhost:5000/api/planner";
+
 const prelimsSubjects = [
   { label: "Polity", subject: "polity" },
   { label: "Geography", subject: "geography" },
@@ -90,6 +99,33 @@ function readStoredStringArray(key: string): string[] {
   return Array.isArray(parsed)
     ? parsed.filter((v) => typeof v === "string")
     : [];
+}
+
+function toDateKey(date: Date): string {
+  const local = new Date(date.getTime() - date.getTimezoneOffset() * 60000);
+  return local.toISOString().slice(0, 10);
+}
+
+function getMonday(date: Date): Date {
+  const d = new Date(date);
+  d.setHours(0, 0, 0, 0);
+  const day = d.getDay();
+  const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+  d.setDate(diff);
+  return d;
+}
+
+function getPlannerWeekStartDatesInRange(startDate: Date, endDate: Date) {
+  const weeks: string[] = [];
+  const cursor = getMonday(startDate);
+  const finalMonday = getMonday(endDate);
+
+  while (cursor.getTime() <= finalMonday.getTime()) {
+    weeks.push(toDateKey(cursor));
+    cursor.setDate(cursor.getDate() + 7);
+  }
+
+  return weeks;
 }
 
 /* ------------------------------------------------------------------ */
@@ -301,6 +337,46 @@ async function readBackendProgressNoteActions(): Promise<LegacyNoteAction[]> {
 }
 
 /* ------------------------------------------------------------------ */
+/*  BACKEND PLANNER                                                    */
+/* ------------------------------------------------------------------ */
+
+async function fetchPlannerWeek(weekStartDate: string): Promise<RawWeeklyPlan | null> {
+  const res = await fetch(
+    `${PLANNER_API_URL}/${encodeURIComponent(weekStartDate)}`,
+    {
+      method: "GET",
+      cache: "no-store",
+    },
+  );
+
+  if (!res.ok) {
+    throw new Error(`Failed to fetch planner week ${weekStartDate}`);
+  }
+
+  const payload = (await res.json()) as PlannerApiResponse;
+  return payload.exists && payload.data ? payload.data : null;
+}
+
+async function readPlannerPlansInRange(
+  startDate: Date,
+  endDate: Date,
+): Promise<RawWeeklyPlan[]> {
+  const weekStartDates = getPlannerWeekStartDatesInRange(startDate, endDate);
+  const results = await Promise.all(
+    weekStartDates.map(async (weekStartDate) => {
+      try {
+        return await fetchPlannerWeek(weekStartDate);
+      } catch (error) {
+        console.error(`Failed to load planner week ${weekStartDate}`, error);
+        return null;
+      }
+    }),
+  );
+
+  return results.filter((plan): plan is RawWeeklyPlan => plan !== null);
+}
+
+/* ------------------------------------------------------------------ */
 /*  MERGE / DEDUP                                                     */
 /* ------------------------------------------------------------------ */
 
@@ -394,20 +470,24 @@ export default function useReportData(startDate: Date, endDate: Date) {
         // C) localStorage fallback
         const localStorageLegacyNoteActions = readLegacyLocalStorageNoteActions();
 
-        // D) merge note actions from all sources
+        // D) planner weekly plans for every week touched by the selected range
+        const plannerPlans = await readPlannerPlansInRange(startDate, endDate);
+
+        // E) merge note actions from all sources
         const mergedNoteActions = mergeAndDeduplicateNoteActions(
           indexedDbNoteActions,
           backendNoteActions,
           localStorageLegacyNoteActions,
         );
 
-        // E) build final report
+        // F) build final report
         const report = buildReportData({
           startDate,
           endDate,
           questionAttempts: indexedDbQuestionAttempts,
           noteActions: mergedNoteActions,
           studySessions: indexedDbStudySessions,
+          plannerPlans,
         });
 
         if (!cancelled) {
@@ -438,9 +518,12 @@ export default function useReportData(startDate: Date, endDate: Date) {
 
   return {
     data,
+    report: data,
     loading,
     error,
     summary: data?.summary ?? null,
+    timeline: data?.activityTimeline ?? [],
+    sessions: data?.sessionBreakdown ?? [],
     analysis: data
       ? {
           subjectAnalysis: data.subjectAnalysis,
@@ -452,6 +535,9 @@ export default function useReportData(startDate: Date, endDate: Date) {
           aiAnalysisHelpers: data.aiAnalysisHelpers,
           sessionBreakdown: data.sessionBreakdown,
           activityTimeline: data.activityTimeline,
+          plannerPlans: data.plannerPlans,
+          plannerMissions: data.plannerMissions,
+          plannerSummary: data.plannerSummary,
         }
       : null,
   };

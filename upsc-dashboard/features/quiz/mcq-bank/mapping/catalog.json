@@ -107,6 +107,12 @@
         "difficultyTag":  "H",
         "file":  "Polity/council-of-ministers.json"
     },
+     {
+        "subject":  "Polity",
+        "topic":  "Demo",
+        "difficultyTag":  "H",
+        "file":  "Polity/demo.json"
+    },
     {
         "subject":  "Polity",
         "topic":  "Attorney General",

@@ -38,7 +38,10 @@ function formatMonthKey(value) {
 function differenceInDays(laterValue, earlierValue) {
   const later = startOfDay(laterValue);
   const earlier = startOfDay(earlierValue);
-  return Math.max(0, Math.round((later.getTime() - earlier.getTime()) / DAY_MS));
+  return Math.max(
+    0,
+    Math.round((later.getTime() - earlier.getTime()) / DAY_MS),
+  );
 }
 
 function addDays(value, days) {
@@ -83,7 +86,12 @@ function createConsistencyModels(mongoose) {
 
   const ConsistencySnapshotSchema = new mongoose.Schema(
     {
-      snapshotDateKey: { type: String, required: true, unique: true, trim: true },
+      snapshotDateKey: {
+        type: String,
+        required: true,
+        unique: true,
+        trim: true,
+      },
       snapshotDate: { type: Date, required: true },
       consistencyScore: { type: Number, default: 0, min: 0, max: 100 },
       consistencyState: { type: String, default: "Improving", trim: true },
@@ -108,8 +116,16 @@ function createConsistencyModels(mongoose) {
       startDate: { type: Date, required: true },
       endDate: { type: Date, required: true },
       length: { type: Number, default: 0, min: 0 },
-      status: { type: String, enum: ["active", "completed"], default: "completed" },
-      type: { type: String, enum: ["standard", "comeback"], default: "standard" },
+      status: {
+        type: String,
+        enum: ["active", "completed"],
+        default: "completed",
+      },
+      type: {
+        type: String,
+        enum: ["standard", "comeback"],
+        default: "standard",
+      },
       gapBeforeDays: { type: Number, default: 0, min: 0 },
       lastSyncedAt: { type: Date, default: Date.now },
     },
@@ -201,9 +217,9 @@ function buildStreakSegments(days) {
         activeStartIndex === 0
           ? 0
           : days
-              .slice(0, activeStartIndex)
-              .reverse()
-              .findIndex((previousDay) => previousDay.isActive) === -1
+                .slice(0, activeStartIndex)
+                .reverse()
+                .findIndex((previousDay) => previousDay.isActive) === -1
             ? activeStartIndex
             : days
                 .slice(0, activeStartIndex)
@@ -230,9 +246,9 @@ function buildStreakSegments(days) {
       activeStartIndex === 0
         ? 0
         : days
-            .slice(0, activeStartIndex)
-            .reverse()
-            .findIndex((previousDay) => previousDay.isActive) === -1
+              .slice(0, activeStartIndex)
+              .reverse()
+              .findIndex((previousDay) => previousDay.isActive) === -1
           ? activeStartIndex
           : days
               .slice(0, activeStartIndex)
@@ -266,7 +282,8 @@ function buildAchievements(summary) {
     {
       id: "discipline-30",
       title: "30 Day Discipline",
-      description: "A month-scale proof that your preparation rhythm is sustainable.",
+      description:
+        "A month-scale proof that your preparation rhythm is sustainable.",
       unlocked: summary.bestStreak >= 30,
       unlockedAt: summary.bestStreak >= 30 ? new Date().toISOString() : null,
       tone: "mint",
@@ -274,7 +291,8 @@ function buildAchievements(summary) {
     {
       id: "comeback",
       title: "Consistency Recovery",
-      description: "Momentum rebuilt after friction, not just during perfect weeks.",
+      description:
+        "Momentum rebuilt after friction, not just during perfect weeks.",
       unlocked: summary.comebackStreak >= 5,
       unlockedAt: summary.comebackStreak >= 5 ? new Date().toISOString() : null,
       tone: "amber",
@@ -282,10 +300,13 @@ function buildAchievements(summary) {
     {
       id: "warrior",
       title: "Revision Warrior",
-      description: "Your strongest week carried meaningful revision load and retention pressure.",
+      description:
+        "Your strongest week carried meaningful revision load and retention pressure.",
       unlocked: summary.strongestWeek.intensityScore >= 420,
       unlockedAt:
-        summary.strongestWeek.intensityScore >= 420 ? new Date().toISOString() : null,
+        summary.strongestWeek.intensityScore >= 420
+          ? new Date().toISOString()
+          : null,
       tone: "rose",
     },
   ];
@@ -325,6 +346,7 @@ async function aggregateAttemptDays(Attempt) {
               $dateToString: {
                 format: "%Y-%m-%d",
                 date: "$createdAt",
+                timezone: "Asia/Kolkata", // 🌍 PRO FIX: Lock aggregations to Indian Standard Time
               },
             },
           ],
@@ -369,6 +391,7 @@ async function aggregateRevisionDays(RevisionTopic) {
           $dateToString: {
             format: "%Y-%m-%d",
             date: "$reviewHistory.reviewedAt",
+            timezone: "Asia/Kolkata", // 🌍 PRO FIX: Ensure night-owl revisions count for the correct day
           },
         },
         subject: 1,
@@ -414,7 +437,11 @@ function buildDateRange(attemptMap, revisionMap) {
   const today = startOfDay(new Date());
   const earliestKey = [...attemptMap.keys(), ...revisionMap.keys()].sort()[0];
   if (!earliestKey) {
-    const fallbackStart = new Date(today.getFullYear(), today.getMonth() - (TRACKING_MONTHS - 1), 1);
+    const fallbackStart = new Date(
+      today.getFullYear(),
+      today.getMonth() - (TRACKING_MONTHS - 1),
+      1,
+    );
     return { startDate: startOfDay(fallbackStart), endDate: today };
   }
   return { startDate: startOfDay(earliestKey), endDate: today };
@@ -425,29 +452,46 @@ function buildDailyTimeline(attemptMap, revisionMap) {
   const days = [];
   let previousDayActive = false;
 
-  for (let cursor = new Date(startDate); cursor <= endDate; cursor = addDays(cursor, 1)) {
+  for (
+    let cursor = new Date(startDate);
+    cursor <= endDate;
+    cursor = addDays(cursor, 1)
+  ) {
     const dateKey = formatDateKey(cursor);
     const attemptRow = attemptMap.get(dateKey) || null;
     const revisionRow = revisionMap.get(dateKey) || null;
 
     const attemptCount = Number(attemptRow && attemptRow.attemptCount) || 0;
     const totalQuestions = Number(attemptRow && attemptRow.totalQuestions) || 0;
-    const averageAccuracy = round2(Number(attemptRow && attemptRow.averageAccuracy) || 0);
-    const attemptTopics = Array.isArray(attemptRow && attemptRow.topics) ? attemptRow.topics : [];
+    const averageAccuracy = round2(
+      Number(attemptRow && attemptRow.averageAccuracy) || 0,
+    );
+    const attemptTopics = Array.isArray(attemptRow && attemptRow.topics)
+      ? attemptRow.topics
+      : [];
 
     const revisionCount = Number(revisionRow && revisionRow.reviewCount) || 0;
-    const correctReviewCount = Number(revisionRow && revisionRow.correctReviewCount) || 0;
+    const correctReviewCount =
+      Number(revisionRow && revisionRow.correctReviewCount) || 0;
     const reviewSuccessRate =
-      revisionCount > 0 ? round2((correctReviewCount / revisionCount) * 100) : 0;
-    const revisedTopics = Array.isArray(revisionRow && revisionRow.revisedTopics)
+      revisionCount > 0
+        ? round2((correctReviewCount / revisionCount) * 100)
+        : 0;
+    const revisedTopics = Array.isArray(
+      revisionRow && revisionRow.revisedTopics,
+    )
       ? revisionRow.revisedTopics
       : [];
-    const averageRetentionDelta = Number(revisionRow && revisionRow.averageRetentionDelta) || 0;
+    const averageRetentionDelta =
+      Number(revisionRow && revisionRow.averageRetentionDelta) || 0;
 
     const combinedTopics = Array.from(
       new Set(
         [...attemptTopics, ...revisedTopics].map((topicEntry) =>
-          buildTopicLabel(topicEntry && topicEntry.subject, topicEntry && topicEntry.topic),
+          buildTopicLabel(
+            topicEntry && topicEntry.subject,
+            topicEntry && topicEntry.topic,
+          ),
         ),
       ),
     );
@@ -537,12 +581,17 @@ function buildSummary(days) {
     currentStreak += 1;
   }
 
-  const bestStreak = segments.reduce((maxValue, segment) => Math.max(maxValue, segment.length), 0);
+  const bestStreak = segments.reduce(
+    (maxValue, segment) => Math.max(maxValue, segment.length),
+    0,
+  );
   const latestCompletedComeback = [...segments]
     .reverse()
     .find((segment) => segment.type === "comeback");
   const comebackStreak =
-    currentStreak > 0 && segments[segments.length - 1] && segments[segments.length - 1].type === "comeback"
+    currentStreak > 0 &&
+    segments[segments.length - 1] &&
+    segments[segments.length - 1].type === "comeback"
       ? currentStreak
       : latestCompletedComeback
         ? latestCompletedComeback.length
@@ -563,7 +612,8 @@ function buildSummary(days) {
       : 0;
   const averageWindowQuality =
     last42Days.length > 0
-      ? last42Days.reduce((sum, day) => sum + day.qualityScore, 0) / last42Days.length
+      ? last42Days.reduce((sum, day) => sum + day.qualityScore, 0) /
+        last42Days.length
       : 0;
   const averageGap = averageGapBetweenActiveDays(last42Days);
   const gapPenalty = Math.max(0, longestMissedGap(last42Days) - 2) * 4.5;
@@ -586,11 +636,14 @@ function buildSummary(days) {
   const recentMomentumScore =
     last14Days.reduce((sum, day) => sum + day.intensityScore, 0) /
       Math.max(1, last14Days.length) +
-    (last14Days.filter((day) => day.isActive).length / Math.max(1, last14Days.length)) * 42;
+    (last14Days.filter((day) => day.isActive).length /
+      Math.max(1, last14Days.length)) *
+      42;
   const previousMomentumScore =
     previous14Days.reduce((sum, day) => sum + day.intensityScore, 0) /
       Math.max(1, previous14Days.length) +
-    (previous14Days.filter((day) => day.isActive).length / Math.max(1, previous14Days.length)) *
+    (previous14Days.filter((day) => day.isActive).length /
+      Math.max(1, previous14Days.length)) *
       42;
   const momentumDelta = round2(recentMomentumScore - previousMomentumScore);
 
@@ -605,7 +658,9 @@ function buildSummary(days) {
   for (let index = 0; index < trackedDays.length; index += 1) {
     const slice = trackedDays.slice(index, index + 7);
     if (slice.length === 0) continue;
-    const sliceIntensity = round2(slice.reduce((sum, day) => sum + day.intensityScore, 0));
+    const sliceIntensity = round2(
+      slice.reduce((sum, day) => sum + day.intensityScore, 0),
+    );
     if (sliceIntensity <= strongestWeek.intensityScore) continue;
 
     const startDate = slice[0].date;
@@ -638,7 +693,12 @@ function buildSummary(days) {
   };
 }
 
-async function persistConsistencyArtifacts(models, days, summary, streakHistory) {
+async function persistConsistencyArtifacts(
+  models,
+  days,
+  summary,
+  streakHistory,
+) {
   const now = new Date();
 
   if (days.length > 0) {
@@ -723,7 +783,10 @@ async function buildConsistencyDashboard(models) {
   const allDays = buildDailyTimeline(attemptMap, revisionMap);
   const { summary, streakHistory } = buildSummary(allDays);
   const trailingMonthCutoff = new Date();
-  trailingMonthCutoff.setMonth(trailingMonthCutoff.getMonth() - (TRACKING_MONTHS - 1), 1);
+  trailingMonthCutoff.setMonth(
+    trailingMonthCutoff.getMonth() - (TRACKING_MONTHS - 1),
+    1,
+  );
   trailingMonthCutoff.setHours(0, 0, 0, 0);
 
   const visibleDays = allDays.filter(
@@ -748,7 +811,11 @@ async function buildConsistencyDashboard(models) {
     recentTrend,
     streakHistory: streakHistory
       .slice()
-      .sort((first, second) => new Date(second.endDate).getTime() - new Date(first.endDate).getTime())
+      .sort(
+        (first, second) =>
+          new Date(second.endDate).getTime() -
+          new Date(first.endDate).getTime(),
+      )
       .slice(0, 12)
       .map((item) => ({
         streakKey: item.streakKey,

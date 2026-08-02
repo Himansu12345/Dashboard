@@ -9,6 +9,7 @@ import type {
   SubjectNodeStatusMap,
 } from "../types";
 import { trackNoteAction } from "@/trackingService";
+import { buildApiUrl } from "@/lib/api/client";
 
 type ThemeMode = "dark" | "light";
 
@@ -17,6 +18,19 @@ type SubjectProgressApiPayload = {
   completionTimes: SubjectCompletionTimes;
   updatedAt?: number;
 };
+
+type SubjectProgressApiResponse = {
+  ok?: boolean;
+  updatedAt?: number;
+  progress?: SubjectProgressApiPayload | null;
+  data?: SubjectProgressApiPayload | null;
+  error?: string;
+};
+
+type SubjectProgressToast = {
+  type: "success" | "error";
+  message: string;
+} | null;
 
 type ReportEventType =
   | "note_complete"
@@ -48,7 +62,7 @@ type DerivedNodeStatus = {
   isChecked: boolean;
   completedAt?: number;
   revisedAt?: number;
-  revisions?: number[];
+  revisions: number[];
 };
 
 type NormalizedCompletionRecord = {
@@ -93,12 +107,17 @@ const useLocalStorage = <T,>(key: string, initialValue: T) => {
           const valueToStore =
             newValue instanceof Function ? newValue(prevValue) : newValue;
 
-          let itemToStore: unknown = valueToStore;
+       let itemToStore: unknown = valueToStore;
           if (valueToStore instanceof Set) {
             itemToStore = Array.from(valueToStore);
           }
 
-          window.localStorage.setItem(key, JSON.stringify(itemToStore));
+          // ⚡ PRO POWER FIX: Offload the heavy JSON parsing and disk I/O from the main UI thread.
+          // This guarantees the UI updates instantly without waiting for the hard drive.
+          setTimeout(() => {
+            window.localStorage.setItem(key, JSON.stringify(itemToStore));
+          }, 0);
+          
           return valueToStore;
         });
       } catch (e) {
@@ -251,6 +270,10 @@ function normalizeStoredCompletionTimes(
   }
 
   return normalized;
+}
+
+function normalizeUpdatedAt(value: unknown): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? value : null;
 }
 
 function normalizeCompletionRecord(
@@ -557,16 +580,35 @@ export const useSubjectDashboardState = (
     {},
   );
 
-  const [noteDocuments, setNoteDocuments] = useLocalStorage<
+const [noteDocuments, setNoteDocuments] = useLocalStorage<
     Record<string, SubjectNoteDocument>
   >(storageKeys.noteDocuments, {});
 
-  const [nodeRenderVersions] = useState<Map<string, number>>(new Map());
-  const [treeRenderVersion] = useState(0);
+  // ⚡ PRO POWER FIX: Deleted the duplicate placeholder lines!
   const [activeNoteUid, setActiveNoteUid] = useState<string | null>(null);
 
   const hasLoadedRemoteProgressRef = useRef(false);
   const skipNextSaveRef = useRef(true);
+  const subjectProgressUpdatedAtRef = useRef<number | null>(null);
+  const pendingSaveTimeoutRef = useRef<number | null>(null);
+  const subjectProgressSaveQueueRef = useRef<Promise<void>>(Promise.resolve());
+  const checkedUidsRef = useRef(checkedUids);
+  const completionTimesRef = useRef(completionTimes);
+  const starredUidsRef = useRef(starredUids);
+  const [subjectProgressToast, setSubjectProgressToast] =
+    useState<SubjectProgressToast>(null);
+
+  useEffect(() => {
+    checkedUidsRef.current = checkedUids;
+  }, [checkedUids]);
+
+  useEffect(() => {
+    completionTimesRef.current = completionTimes;
+  }, [completionTimes]);
+
+  useEffect(() => {
+    starredUidsRef.current = starredUids;
+  }, [starredUids]);
 
   const toggleTheme = useCallback(() => {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
@@ -595,6 +637,27 @@ export const useSubjectDashboardState = (
     collectParents(activeData);
     setEffectiveCollapsed(allParentUids);
   }, [activeData, setEffectiveCollapsed]);
+
+  const collapseToExpandedUids = useCallback(
+    (expandedUids: Set<string>) => {
+      const collapsedParentUids = new Set<string>();
+
+      const collectParents = (nodes: SubjectNode[]) => {
+        for (const node of nodes) {
+          if (node.children && node.children.length > 0) {
+            if (!expandedUids.has(node.uid)) {
+              collapsedParentUids.add(node.uid);
+            }
+            collectParents(node.children);
+          }
+        }
+      };
+
+      collectParents(activeData);
+      setEffectiveCollapsed(collapsedParentUids);
+    },
+    [activeData, setEffectiveCollapsed],
+  );
 
   const toggleCollapse = useCallback(
     (uid: string) => {
@@ -836,7 +899,7 @@ export const useSubjectDashboardState = (
     };
   }, [allNodes, checkedUids]);
 
-  const visibleUids = useMemo(() => {
+const visibleUids = useMemo(() => {
     return buildVisibleTreeUidSet(
       activeData,
       searchQuery,
@@ -845,53 +908,69 @@ export const useSubjectDashboardState = (
     );
   }, [activeData, searchQuery, starFilter, starredUids]);
 
-  const saveSubjectProgress = useCallback(async () => {
-    try {
-      await fetch(
-        `/api/subject-progress?subject=${encodeURIComponent(storageKeys.checked)}`,
-        {
-          method: "PUT",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            checkedUids: Array.from(checkedUids),
-            completionTimes,
-          } satisfies SubjectProgressApiPayload),
-        },
-      );
-    } catch (error) {
-      console.warn("Failed to save subject progress:", error);
-    }
-  }, [storageKeys.checked, checkedUids, completionTimes]);
+  // ⚡ PRO POWER FIX: Placed correctly AFTER all dependencies exist!
+  const { nodeRenderVersions, treeRenderVersion } = useMemo(() => {
+    const versions = new Map<string, number>();
+    let globalVersion = 0;
 
-  const fetchSubjectProgress = useCallback(async () => {
-    try {
-      const response = await fetch(
-        `/api/subject-progress?subject=${encodeURIComponent(storageKeys.checked)}`,
-        {
-          cache: "no-store",
-        },
-      );
+    const visit = (node: SubjectNode): number => {
+      const uid = node.uid;
+      let selfVersion = 0;
 
-      if (!response.ok) {
-        if (response.status !== 404) {
-          console.warn("Failed to fetch subject progress:", response.status);
+      if (checkedUids.has(uid)) selfVersion += 1;
+      if (indeterminateUids.has(uid)) selfVersion += 2;
+      if (effectiveCollapsed.has(uid)) selfVersion += 4;
+      if (starredUids.has(uid)) selfVersion += 8;
+      if (activeNoteUid === uid) selfVersion += 16;
+
+      const noteContent = notes[uid];
+      if (noteContent) selfVersion += noteContent.length;
+
+      const status = nodeStatuses[uid];
+      if (status && typeof status === "object" && !Array.isArray(status)) {
+        if (status.isChecked) selfVersion += 32;
+        if (status.completedAt) selfVersion += (status.completedAt % 100000);
+        if (status.revisedAt) selfVersion += (status.revisedAt % 100000);
+        if (status.revisions) selfVersion += status.revisions.length * 64;
+      }
+
+      if (visibleUids.size > 0 && !visibleUids.has(uid)) {
+        selfVersion += 128;
+      }
+
+      let childSum = 0;
+      if (node.children) {
+        for (let i = 0; i < node.children.length; i++) {
+          childSum += visit(node.children[i]);
         }
-        hasLoadedRemoteProgressRef.current = true;
-        return;
       }
 
-      const data = (await response.json()) as {
-        progress?: SubjectProgressApiPayload | null;
-      };
+      const totalVersion = selfVersion + childSum;
+      versions.set(uid, totalVersion);
+      globalVersion += totalVersion;
+      
+      return totalVersion;
+    };
 
-      const progressPayload = data?.progress;
-      if (!progressPayload) {
-        hasLoadedRemoteProgressRef.current = true;
-        return;
-      }
+    for (let i = 0; i < activeData.length; i++) {
+      visit(activeData[i]);
+    }
 
+    return { nodeRenderVersions: versions, treeRenderVersion: globalVersion };
+  }, [
+    activeData,
+    checkedUids,
+    indeterminateUids,
+    effectiveCollapsed,
+    starredUids,
+    notes,
+    nodeStatuses,
+    visibleUids,
+    activeNoteUid
+  ]);
+
+  const applyRemoteSubjectProgress = useCallback(
+    (progressPayload: SubjectProgressApiPayload) => {
       const nextChecked = new Set(
         Array.isArray(progressPayload.checkedUids)
           ? progressPayload.checkedUids.filter(
@@ -903,23 +982,139 @@ export const useSubjectDashboardState = (
       const nextCompletionTimes = normalizeStoredCompletionTimes(
         progressPayload.completionTimes,
       );
+      const nextUpdatedAt = normalizeUpdatedAt(progressPayload.updatedAt);
+
+      checkedUidsRef.current = nextChecked;
+      completionTimesRef.current = nextCompletionTimes;
+      if (nextUpdatedAt !== null) {
+        subjectProgressUpdatedAtRef.current = nextUpdatedAt;
+      }
 
       skipNextSaveRef.current = true;
       setCheckedUids(nextChecked);
       setCompletionTimes(nextCompletionTimes);
+    },
+    [setCheckedUids, setCompletionTimes],
+  );
+
+  const fetchSubjectProgress = useCallback(async () => {
+    try {
+      const response = await fetch(
+        buildApiUrl(
+          `/api/subject-progress?subject=${encodeURIComponent(storageKeys.checked)}`,
+        ),
+        {
+          cache: "no-store",
+        },
+      );
+
+      if (!response.ok) {
+        if (response.status !== 404) {
+          console.warn("Failed to fetch subject progress:", response.status);
+        }
+        hasLoadedRemoteProgressRef.current = true;
+        return null;
+      }
+
+      const data = (await response.json()) as SubjectProgressApiResponse;
+
+      const progressPayload = data?.progress;
+      if (!progressPayload) {
+        hasLoadedRemoteProgressRef.current = true;
+        return null;
+      }
+
+      applyRemoteSubjectProgress(progressPayload);
       hasLoadedRemoteProgressRef.current = true;
+      return progressPayload;
     } catch (error) {
       console.warn("Failed to load subject progress:", error);
       hasLoadedRemoteProgressRef.current = true;
+      return null;
     }
-  }, [storageKeys.checked, setCheckedUids, setCompletionTimes]);
+  }, [applyRemoteSubjectProgress, storageKeys.checked]);
+
+  const saveSubjectProgress = useCallback(
+    async (options?: { keepalive?: boolean }) => {
+      const runSave = async () => {
+        try {
+          const response = await fetch(
+            buildApiUrl(
+              `/api/subject-progress?subject=${encodeURIComponent(storageKeys.checked)}`,
+            ),
+            {
+              method: "PUT",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              keepalive: options?.keepalive,
+              body: JSON.stringify({
+                checkedUids: Array.from(checkedUidsRef.current),
+                completionTimes: completionTimesRef.current,
+                updatedAt: subjectProgressUpdatedAtRef.current ?? undefined,
+              } satisfies SubjectProgressApiPayload),
+            },
+          );
+
+          const data = (await response
+            .json()
+            .catch(() => null)) as SubjectProgressApiResponse | null;
+
+          if (response.status === 409) {
+            setSubjectProgressToast({
+              type: "error",
+              message:
+                "Subject progress changed elsewhere. Loaded the newer server copy.",
+            });
+            const refreshedProgress = await fetchSubjectProgress();
+            if (!refreshedProgress && data?.data) {
+              applyRemoteSubjectProgress(data.data);
+            }
+            return;
+          }
+
+          if (!response.ok) {
+            console.warn("Failed to save subject progress:", response.status);
+            return;
+          }
+
+          const nextUpdatedAt =
+            normalizeUpdatedAt(data?.updatedAt) ??
+            normalizeUpdatedAt(data?.data?.updatedAt);
+
+          if (nextUpdatedAt !== null) {
+            subjectProgressUpdatedAtRef.current = nextUpdatedAt;
+          }
+        } catch (error) {
+          console.warn("Failed to save subject progress:", error);
+        }
+      };
+
+      const queuedSave = subjectProgressSaveQueueRef.current.then(
+        runSave,
+        runSave,
+      );
+      subjectProgressSaveQueueRef.current = queuedSave.catch(() => undefined);
+      await queuedSave;
+    },
+    [applyRemoteSubjectProgress, fetchSubjectProgress, storageKeys.checked],
+  );
 
   useEffect(() => {
     hasLoadedRemoteProgressRef.current = false;
     skipNextSaveRef.current = true;
+    subjectProgressUpdatedAtRef.current = null;
+    if (pendingSaveTimeoutRef.current !== null) {
+      window.clearTimeout(pendingSaveTimeoutRef.current);
+      pendingSaveTimeoutRef.current = null;
+    }
 
-    setCheckedUids(new Set());
-    setCompletionTimes({});
+    const emptyChecked = new Set<string>();
+    const emptyCompletionTimes: SubjectCompletionTimes = {};
+    checkedUidsRef.current = emptyChecked;
+    completionTimesRef.current = emptyCompletionTimes;
+    setCheckedUids(emptyChecked);
+    setCompletionTimes(emptyCompletionTimes);
 
     void fetchSubjectProgress();
   }, [fetchSubjectProgress, setCheckedUids, setCompletionTimes]);
@@ -932,8 +1127,66 @@ export const useSubjectDashboardState = (
       return;
     }
 
-    void saveSubjectProgress();
+    if (pendingSaveTimeoutRef.current !== null) {
+      window.clearTimeout(pendingSaveTimeoutRef.current);
+    }
+
+    pendingSaveTimeoutRef.current = window.setTimeout(() => {
+      pendingSaveTimeoutRef.current = null;
+      void saveSubjectProgress();
+    }, 600);
+
+    return () => {
+      if (pendingSaveTimeoutRef.current !== null) {
+        window.clearTimeout(pendingSaveTimeoutRef.current);
+        pendingSaveTimeoutRef.current = null;
+      }
+    };
   }, [checkedUids, completionTimes, saveSubjectProgress]);
+
+  const flushPendingSubjectProgressSave = useCallback(() => {
+    if (pendingSaveTimeoutRef.current === null) return;
+
+    window.clearTimeout(pendingSaveTimeoutRef.current);
+    pendingSaveTimeoutRef.current = null;
+    void saveSubjectProgress({ keepalive: true });
+  }, [saveSubjectProgress]);
+
+  useEffect(() => {
+    if (typeof document === "undefined" || typeof window === "undefined") {
+      return;
+    }
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "hidden") {
+        flushPendingSubjectProgressSave();
+      }
+    };
+
+    const handlePageHide = () => {
+      flushPendingSubjectProgressSave();
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    window.addEventListener("pagehide", handlePageHide);
+
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      window.removeEventListener("pagehide", handlePageHide);
+    };
+  }, [flushPendingSubjectProgressSave]);
+
+  useEffect(() => {
+    if (!subjectProgressToast) return;
+
+    const timeoutId = window.setTimeout(() => {
+      setSubjectProgressToast(null);
+    }, 4000);
+
+    return () => {
+      window.clearTimeout(timeoutId);
+    };
+  }, [subjectProgressToast]);
 
   const reportSubjectEvent = useCallback(
     async (
@@ -957,6 +1210,7 @@ export const useSubjectDashboardState = (
       const trackerPayload = {
         sourceModule: "subject-dashboard",
         actionType: actionTypeMap[eventType],
+        action: actionTypeMap[eventType],
         previousStatus,
         newStatus,
         subject: meta.subject,
@@ -965,6 +1219,7 @@ export const useSubjectDashboardState = (
         subtopic: meta.subtopic,
         pointUid: meta.uid,
         pointText: meta.pointText || meta.label,
+        note: meta.pointText || meta.label,
         meta: {
           label: meta.label,
           path: meta.path,
@@ -1001,15 +1256,20 @@ export const useSubjectDashboardState = (
 
   const handleCheck = useCallback(
     (uid: string, isChecked: boolean) => {
-      const previousChecked = checkedUids.has(uid);
-      const previousCompletion = normalizeCompletionRecord(completionTimes[uid]);
+      const currentCheckedUids = checkedUidsRef.current;
+      const currentCompletionTimes = completionTimesRef.current;
+      const currentStarredUids = starredUidsRef.current;
+      const previousChecked = currentCheckedUids.has(uid);
+      const previousCompletion = normalizeCompletionRecord(
+        currentCompletionTimes[uid],
+      );
 
       const previousStatus: ReportEventStatus = {
         isChecked: previousChecked,
         completedAt: previousCompletion?.completedAt,
         revisedAt: previousCompletion?.revisedAt,
         revisions: previousCompletion?.revisions ?? [],
-        isStarred: starredUids.has(uid),
+        isStarred: currentStarredUids.has(uid),
       };
 
       const now = Date.now();
@@ -1018,6 +1278,7 @@ export const useSubjectDashboardState = (
         const nextChecked = new Set(prevChecked);
         if (isChecked) nextChecked.add(uid);
         else nextChecked.delete(uid);
+        checkedUidsRef.current = nextChecked;
         return nextChecked;
       });
 
@@ -1034,6 +1295,7 @@ export const useSubjectDashboardState = (
           delete nextCompletionTimes[uid];
         }
 
+        completionTimesRef.current = nextCompletionTimes;
         return nextCompletionTimes;
       });
 
@@ -1046,7 +1308,7 @@ export const useSubjectDashboardState = (
         completedAt: nextCompletionRecord?.completedAt,
         revisedAt: nextCompletionRecord?.revisedAt,
         revisions: nextCompletionRecord?.revisions ?? [],
-        isStarred: starredUids.has(uid),
+        isStarred: currentStarredUids.has(uid),
       };
 
       void reportSubjectEvent(
@@ -1057,9 +1319,6 @@ export const useSubjectDashboardState = (
       );
     },
     [
-      checkedUids,
-      completionTimes,
-      starredUids,
       reportSubjectEvent,
       setCheckedUids,
       setCompletionTimes,
@@ -1069,15 +1328,20 @@ export const useSubjectDashboardState = (
   const logRevision = useCallback(
     (uid: string) => {
       const now = Date.now();
-      const previousChecked = checkedUids.has(uid);
-      const previousCompletion = normalizeCompletionRecord(completionTimes[uid]);
+      const currentCheckedUids = checkedUidsRef.current;
+      const currentCompletionTimes = completionTimesRef.current;
+      const currentStarredUids = starredUidsRef.current;
+      const previousChecked = currentCheckedUids.has(uid);
+      const previousCompletion = normalizeCompletionRecord(
+        currentCompletionTimes[uid],
+      );
 
       const previousStatus: ReportEventStatus = {
         isChecked: previousChecked,
         completedAt: previousCompletion?.completedAt,
         revisedAt: previousCompletion?.revisedAt,
         revisions: previousCompletion?.revisions ?? [],
-        isStarred: starredUids.has(uid),
+        isStarred: currentStarredUids.has(uid),
       };
 
       const nextRecord: NormalizedCompletionRecord = {
@@ -1089,20 +1353,25 @@ export const useSubjectDashboardState = (
       setCheckedUids((prevChecked) => {
         const nextChecked = new Set(prevChecked);
         nextChecked.add(uid);
+        checkedUidsRef.current = nextChecked;
         return nextChecked;
       });
 
-      setCompletionTimes((prevCompletionTimes) => ({
-        ...prevCompletionTimes,
-        [uid]: nextRecord,
-      }));
+      setCompletionTimes((prevCompletionTimes) => {
+        const nextCompletionTimes = {
+          ...prevCompletionTimes,
+          [uid]: nextRecord,
+        };
+        completionTimesRef.current = nextCompletionTimes;
+        return nextCompletionTimes;
+      });
 
       const newStatus: ReportEventStatus = {
         isChecked: true,
         completedAt: nextRecord.completedAt,
         revisedAt: nextRecord.revisedAt,
         revisions: nextRecord.revisions,
-        isStarred: starredUids.has(uid),
+        isStarred: currentStarredUids.has(uid),
       };
 
       void reportSubjectEvent(uid, "note_revise", previousStatus, newStatus, {
@@ -1110,9 +1379,6 @@ export const useSubjectDashboardState = (
       });
     },
     [
-      checkedUids,
-      completionTimes,
-      starredUids,
       reportSubjectEvent,
       setCheckedUids,
       setCompletionTimes,
@@ -1121,11 +1387,16 @@ export const useSubjectDashboardState = (
 
   const toggleStar = useCallback(
     (uid: string) => {
-      const wasStarred = starredUids.has(uid);
-      const previousCompletion = normalizeCompletionRecord(completionTimes[uid]);
+      const currentCheckedUids = checkedUidsRef.current;
+      const currentCompletionTimes = completionTimesRef.current;
+      const currentStarredUids = starredUidsRef.current;
+      const wasStarred = currentStarredUids.has(uid);
+      const previousCompletion = normalizeCompletionRecord(
+        currentCompletionTimes[uid],
+      );
 
       const previousStatus: ReportEventStatus = {
-        isChecked: checkedUids.has(uid),
+        isChecked: currentCheckedUids.has(uid),
         completedAt: previousCompletion?.completedAt,
         revisedAt: previousCompletion?.revisedAt,
         revisions: previousCompletion?.revisions ?? [],
@@ -1142,7 +1413,7 @@ export const useSubjectDashboardState = (
       });
 
       const newStatus: ReportEventStatus = {
-        isChecked: checkedUids.has(uid),
+        isChecked: currentCheckedUids.has(uid),
         completedAt: previousCompletion?.completedAt,
         revisedAt: previousCompletion?.revisedAt,
         revisions: previousCompletion?.revisions ?? [],
@@ -1156,13 +1427,7 @@ export const useSubjectDashboardState = (
         newStatus,
       );
     },
-    [
-      starredUids,
-      checkedUids,
-      completionTimes,
-      setStarredUids,
-      reportSubjectEvent,
-    ],
+    [setStarredUids, reportSubjectEvent],
   );
 
   return {
@@ -1178,6 +1443,7 @@ export const useSubjectDashboardState = (
     handleSearch,
     expandAll,
     collapseAll,
+    collapseToExpandedUids,
     setStarFilter,
     checkedUids,
     completionTimes,
@@ -1202,5 +1468,6 @@ export const useSubjectDashboardState = (
     trashNoteEntry,
     restoreNoteEntry,
     permanentlyDeleteNoteEntry,
+    subjectProgressToast,
   };
 };

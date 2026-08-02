@@ -9,11 +9,11 @@ export const DashboardHeader = memo(function DashboardHeader({
 }: DashboardHeaderProps) {
   return (
     <header className="dashboard-hero">
-      <div className="dashboard-hero-copy">
+      {/* <div className="dashboard-hero-copy">
         <p className="dashboard-eyebrow hide-in-zen">UPSC Learning Dashboard</p>
-        <h1 className="mh-title">{title}</h1>
+        <h2 className="mh-title">{title}</h2>
         <p className="mh-sub hide-in-zen">{subtitle}</p>
-      </div>
+      </div> */}
     </header>
   );
 });
