@@ -2544,7 +2544,7 @@ export default function WeeklyPlannerPanel() {
     }
   };
 
-  // 🧠 PRO FIX: Phase 4 Surgical Split Engine (Unified Debt Vault)
+  // 🛡️ SPARTAN UNIFIED DEBT VAULT: Merges leftovers safely while punishing streak if limits pushed
   const handleSplitLeftovers = (
     day: PlannerDay,
     mission: PlannerNoteMission,
@@ -2568,11 +2568,29 @@ export default function WeeklyPlannerPanel() {
 
     const DEBT_VAULT_ID = `debt-vault-${day.dateKey}`;
 
-    // Tag the targets with their original chapter so you know where they came from
+    // Check how many separate backlog pools exist
+    const existingDebts = (day.noteMissions || []).filter(
+      (m) =>
+        m.chapterLabel.includes(" - Debt") || m.id.startsWith("debt-vault-"),
+    );
+
+    let isPunishedDueToOverflow = false;
+    // If debt accumulation is getting heavy (e.g. 2 or more distinct backlog pools), trigger Spartan penalty
+    if (
+      existingDebts.length >= 2 &&
+      !existingDebts.some((m) => m.id === DEBT_VAULT_ID)
+    ) {
+      isPunishedDueToOverflow = true;
+      alert(
+        "🚨 SPARTAN PROTOCOL: Too many separate backlogs accumulating! Your current streak has been slaughtered to 0 for poor planning, but your leftover syllabus is safely being forced into the Unified Debt Vault.",
+      );
+    }
+
+    // Tag the targets with their original chapter
     const prefixedIncompleteTargets = incompleteTargets.map((t) => ({
       ...t,
       label: `[${mission.chapterLabel.substring(0, 15)}...] ${t.label}`,
-      uid: `${mission.id}-${t.uid}`, // Prevent React key clashes
+      uid: `${mission.id}-${t.uid}`,
     }));
 
     // Secure Current Mission Points
@@ -2591,7 +2609,7 @@ export default function WeeklyPlannerPanel() {
       progress: {
         ...mission.progress!,
         status: missionMode === "revise" ? "revised" : "completed",
-        completionPercent: 100, // It is now 100% of its new, smaller scope
+        completionPercent: 100,
         totalTargets: totalFinished,
         completedTargets:
           missionMode === "revise" ? completedFinished : totalFinished,
@@ -2605,12 +2623,19 @@ export default function WeeklyPlannerPanel() {
 
     const nextPlan = {
       ...weeklyPlan,
-      executionMatrix: {
-        currentStreak: weeklyPlan.executionMatrix?.currentStreak || 0,
-        lastPenaltyAt: weeklyPlan.executionMatrix?.lastPenaltyAt || null,
-        penaltyCount: weeklyPlan.executionMatrix?.penaltyCount || 0,
-        resetCount: (weeklyPlan.executionMatrix?.resetCount || 0) + 1,
-      },
+      executionMatrix: isPunishedDueToOverflow
+        ? {
+            currentStreak: 0, // 💀 Streak wiped out due to overflow!
+            lastPenaltyAt: new Date().toISOString(),
+            penaltyCount: (weeklyPlan.executionMatrix?.penaltyCount || 0) + 1,
+            resetCount: weeklyPlan.executionMatrix?.resetCount || 0,
+          }
+        : {
+            currentStreak: weeklyPlan.executionMatrix?.currentStreak || 0,
+            lastPenaltyAt: weeklyPlan.executionMatrix?.lastPenaltyAt || null,
+            penaltyCount: weeklyPlan.executionMatrix?.penaltyCount || 0,
+            resetCount: weeklyPlan.executionMatrix?.resetCount || 0,
+          },
       days: weeklyPlan.days.map((d) => {
         if (d.dayOfWeek !== day.dayOfWeek) return d;
 
@@ -2618,7 +2643,6 @@ export default function WeeklyPlannerPanel() {
           m.id === mission.id ? updatedCurrentMission : m,
         );
 
-        // 🧠 The Unified Debt Vault Logic
         const existingVault = newNoteMissions.find(
           (m) => m.id === DEBT_VAULT_ID,
         );
@@ -2652,7 +2676,7 @@ export default function WeeklyPlannerPanel() {
             chapterLabel: "🚨 Unified Debt Vault",
             targets: prefixedIncompleteTargets,
             timeValidation: {
-              plannedStart: "00:00", // ANYTIME START (No late penalty)
+              plannedStart: "00:00",
               plannedEnd: "23:59",
               actualStart: null,
               actualEnd: null,
