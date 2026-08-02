@@ -39,7 +39,11 @@ const PRACTICE_QUERY_KEYS = [
   ["consistency-dashboard"],
   ["syllabus-dashboard"],
 ] as const;
-const PLANNER_API_URL = "http://localhost:5000/api/planner";
+const PLANNER_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL
+  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/planner`
+  : process.env.NEXT_PUBLIC_API_URL
+    ? `${process.env.NEXT_PUBLIC_API_URL}/planner`
+    : "http://localhost:5000/api/planner";
 const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
 
 function getMondayDateKey(date = new Date()): string {

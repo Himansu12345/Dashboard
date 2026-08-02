@@ -56,7 +56,10 @@ const subjectSections: SubjectSection[] = [
 ];
 
 const allSubjects = subjectSections.flatMap((section) => section.subjects);
-const API_URL = "http://localhost:5000/api";
+const API_URL =
+  process.env.NEXT_PUBLIC_API_BASE_URL ||
+  process.env.NEXT_PUBLIC_API_URL ||
+  "http://localhost:5000/api";
 const PLANNER_AUTO_MODE_KEY = "planner-auto-mode-enabled";
 const PLANNER_AUTO_LAUNCHED_KEY = "planner-auto-launched-missions";
 const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
@@ -128,7 +131,11 @@ function writeLaunchedMissionKeys(keys: Set<string>) {
 
 function isMissionClosed(mission: any) {
   const status = mission?.progress?.status || "not_started";
-  return status === "completed" || status === "revised" || status === "failed_abandoned";
+  return (
+    status === "completed" ||
+    status === "revised" ||
+    status === "failed_abandoned"
+  );
 }
 
 export default function Navbar() {
@@ -242,7 +249,9 @@ export default function Navbar() {
           : [];
         const startIndex = Math.max(
           0,
-          noteMissions.findIndex((mission: any) => mission.id === dueMission.id),
+          noteMissions.findIndex(
+            (mission: any) => mission.id === dueMission.id,
+          ),
         );
         const orderedMissions = [
           ...noteMissions.slice(startIndex),
@@ -320,28 +329,30 @@ export default function Navbar() {
         >
           Table
         </Link>
-        <Link 
-  href="/planner" 
-  className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-slate-400 hover:text-white hover:bg-white/[0.04] group"
->
-  {/* Tactical Target Icon */}
-  <div className="flex items-center justify-center w-6 h-6 rounded-lg bg-white/[0.02] border border-white/[0.05] group-hover:border-blue-500/50 group-hover:bg-blue-500/10 transition-colors">
-    <svg 
-      className="w-4 h-4 group-hover:text-blue-400 transition-colors" 
-      fill="none" 
-      viewBox="0 0 24 24" 
-      stroke="currentColor" 
-      strokeWidth={2}
-    >
-      <path 
-        strokeLinecap="round" 
-        strokeLinejoin="round" 
-        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" 
-      />
-    </svg>
-  </div>
-  <span className="font-semibold text-sm tracking-wide">Mission Control</span>
-</Link>
+        <Link
+          href="/planner"
+          className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-slate-400 hover:text-white hover:bg-white/[0.04] group"
+        >
+          {/* Tactical Target Icon */}
+          <div className="flex items-center justify-center w-6 h-6 rounded-lg bg-white/[0.02] border border-white/[0.05] group-hover:border-blue-500/50 group-hover:bg-blue-500/10 transition-colors">
+            <svg
+              className="w-4 h-4 group-hover:text-blue-400 transition-colors"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+              />
+            </svg>
+          </div>
+          <span className="font-semibold text-sm tracking-wide">
+            Mission Control
+          </span>
+        </Link>
         <Link
           href="/mission-history"
           className={`nav-pill ripple-btn ${pathname === "/mission-history" ? "is-active" : ""}`}

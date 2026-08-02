@@ -24,7 +24,11 @@ import {
 import type { PracticeRecord } from "@/types/records";
 import type { ActivityCalendarContextValue } from "@/types/activityCalendar";
 
-const PLANNER_API_URL = "http://localhost:5000/api/planner";
+const PLANNER_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL
+  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/planner`
+  : process.env.NEXT_PUBLIC_API_URL
+    ? `${process.env.NEXT_PUBLIC_API_URL}/planner`
+    : "http://localhost:5000/api/planner";
 
 function getCurrentDateMeta() {
   const currentDate = new Date();
@@ -39,10 +43,15 @@ interface ActivityCalendarProps {
 }
 
 export default function ActivityCalendar({ records }: ActivityCalendarProps) {
-  const safeRecords = useMemo<PracticeRecord[]>(() => (Array.isArray(records) ? records : []), [records]);
+  const safeRecords = useMemo<PracticeRecord[]>(
+    () => (Array.isArray(records) ? records : []),
+    [records],
+  );
   const { currentYear, currentMonthIndex } = getCurrentDateMeta();
   const [selectedYear, setSelectedYear] = useState<number>(currentYear);
-  const [sliderIndex, setSliderIndex] = useState<number>(getInitialSliderIndex(currentMonthIndex));
+  const [sliderIndex, setSliderIndex] = useState<number>(
+    getInitialSliderIndex(currentMonthIndex),
+  );
   const [selectedDateKey, setSelectedDateKey] = useState<string | null>(null);
   const [plannerDays, setPlannerDays] = useState<unknown[]>([]);
   const sliderViewportRef = useRef<HTMLDivElement | null>(null);
@@ -84,16 +93,19 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
     [plannerCompletionMap],
   );
 
-  const scrollToMonth = useCallback((nextIndex: number, behavior: ScrollBehavior = "smooth") => {
-    const viewport = sliderViewportRef.current;
-    const monthElement = monthRefs.current[nextIndex];
-    if (!viewport || !monthElement) return;
+  const scrollToMonth = useCallback(
+    (nextIndex: number, behavior: ScrollBehavior = "smooth") => {
+      const viewport = sliderViewportRef.current;
+      const monthElement = monthRefs.current[nextIndex];
+      if (!viewport || !monthElement) return;
 
-    viewport.scrollTo({
-      left: monthElement.offsetLeft,
-      behavior,
-    });
-  }, []);
+      viewport.scrollTo({
+        left: monthElement.offsetLeft,
+        behavior,
+      });
+    },
+    [],
+  );
 
   useEffect(() => {
     const initialIndex = getInitialSliderIndex(currentMonthIndex);
@@ -164,7 +176,9 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
       const step = secondSlide.offsetLeft - firstSlide.offsetLeft;
       if (step <= 0) return;
 
-      const nearestIndex = clampSliderIndex(Math.round(viewport.scrollLeft / step));
+      const nearestIndex = clampSliderIndex(
+        Math.round(viewport.scrollLeft / step),
+      );
       setSliderIndex((previousIndex) =>
         previousIndex === nearestIndex ? previousIndex : nearestIndex,
       );
@@ -262,7 +276,9 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
       <DateAnalyticsPopup
         key={selectedDateKey || "none"}
         dateKey={selectedDateKey}
-        plannerDay={selectedDateKey ? plannerDayDetailsMap[selectedDateKey] || null : null}
+        plannerDay={
+          selectedDateKey ? plannerDayDetailsMap[selectedDateKey] || null : null
+        }
         onClose={closeDatePopup}
       />
     </section>
