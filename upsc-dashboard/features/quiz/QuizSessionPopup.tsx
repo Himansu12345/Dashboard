@@ -40,9 +40,9 @@ const PRACTICE_QUERY_KEYS = [
   ["syllabus-dashboard"],
 ] as const;
 const PLANNER_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL
-  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/planner`
+  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/planner`
   : process.env.NEXT_PUBLIC_API_URL
-    ? `${process.env.NEXT_PUBLIC_API_URL}/planner`
+    ? `${process.env.NEXT_PUBLIC_API_URL}/api/planner`
     : "http://localhost:5000/api/planner";
 const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
 
