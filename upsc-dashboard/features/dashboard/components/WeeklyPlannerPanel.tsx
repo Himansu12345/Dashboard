@@ -441,7 +441,9 @@ function calculateExactPoints(
 function getMondayOfCurrentWeek() {
   const d = new Date();
   const day = d.getDay();
-  const diff = d.getDate() - day + (day === 0 ? -6 : 1);
+  // 🧠 PRO FIX: If today is Sunday (0), shift focus to TOMORROW (the upcoming Monday).
+  // If it's any other day, snap back to the current week's Monday.
+  const diff = day === 0 ? d.getDate() + 1 : d.getDate() - day + 1;
   return new Date(d.setDate(diff));
 }
 
@@ -1575,6 +1577,80 @@ function DayBlockBuilder({ day, data, updateData, subjects }: any) {
                 : "INITIATE"}
             </button>
           </div>
+
+          {data.tests.length > 0 && (
+            <div className="flex flex-col gap-3 pt-4 border-t border-white/[0.04]">
+              {data.tests.map((t: any) => (
+                <div
+                  key={t.id}
+                  className="flex flex-col gap-3 bg-[#050505] p-4 rounded-[16px] border border-purple-500/20 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.02)] group"
+                >
+                  <div className="flex items-center justify-between w-full">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="w-1.5 h-1.5 rounded-full bg-purple-500 shadow-[0_0_8px_rgba(168,85,247,0.8)]"></span>
+                      <span className="text-xs font-black text-purple-400 tracking-wider uppercase">
+                        {t.subject}
+                      </span>
+                      <span className="text-white/20">/</span>
+                      <span className="text-sm font-bold text-white truncate max-w-[200px]">
+                        {t.topic || t.chapter}
+                      </span>
+                      <span className="text-white/20">/</span>
+                      <span className="text-[10px] font-black text-purple-400 tracking-widest uppercase bg-purple-500/10 px-2 py-0.5 rounded border border-purple-500/20">
+                        {t.easy + t.medium + t.hard} Qs ({t.timer}m)
+                      </span>
+                      <span className="text-[10px] font-black text-rose-300 tracking-widest uppercase bg-rose-500/10 px-2 py-0.5 rounded border border-rose-500/20">
+                        {t.mode}
+                      </span>
+                      <span className="text-[10px] font-black text-slate-400 tracking-widest bg-white/[0.05] px-2 py-0.5 rounded border border-white/10 ml-auto">
+                        {t.plannedStart} - {t.plannedEnd}
+                      </span>
+                    </div>
+                    <button
+                      onClick={() =>
+                        updateData({
+                          ...data,
+                          tests: data.tests.filter((x: any) => x.id !== t.id),
+                        })
+                      }
+                      className="text-white/30 hover:text-red-400 transition-colors bg-white/[0.02] hover:bg-red-500/10 p-1.5 rounded-lg border border-transparent hover:border-red-500/20 shrink-0 ml-2"
+                    >
+                      <svg
+                        className="w-4 h-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2.5"
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div className="flex flex-wrap gap-2 pl-3.5">
+                    {t.easy > 0 && (
+                      <span className="text-[11px] bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-2.5 py-1 rounded-md font-bold shadow-sm">
+                        {t.easy} Easy
+                      </span>
+                    )}
+                    {t.medium > 0 && (
+                      <span className="text-[11px] bg-amber-500/10 border border-amber-500/20 text-amber-400 px-2.5 py-1 rounded-md font-bold shadow-sm">
+                        {t.medium} Med
+                      </span>
+                    )}
+                    {t.hard > 0 && (
+                      <span className="text-[11px] bg-rose-500/10 border border-rose-500/20 text-rose-400 px-2.5 py-1 rounded-md font-bold shadow-sm">
+                        {t.hard} Hard
+                      </span>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       )}
     </div>
