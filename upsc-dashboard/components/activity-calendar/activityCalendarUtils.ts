@@ -70,6 +70,11 @@ export function getMissionCompletionColor(
   completion: PlannerDayCompletion | null | undefined,
 ): string {
   if (!completion || completion.totalMissions <= 0) return "#141f35";
+  
+  // 🛡️ PRO FIX: Time-Guard checks if the day is in the future.
+  // If it's a future day, it renders as grey/empty instead of Failed (Red)
+  if ((completion as any).isFuture) return "#141f35";
+
   if (completion.completionPercent >= 100) return "#22c55e";
   if (completion.completionPercent >= 50) return "#f59e0b";
   return "#ef4444";
@@ -152,6 +157,9 @@ export function buildPlannerCompletionMap(
   const completionMap: PlannerDayCompletionMap = {};
   const safeDays = Array.isArray(days) ? days : [];
 
+  // 🛡️ PRO FIX: Get today's Date string to guard against future visual penalties
+  const todayStr = formatDate(new Date());
+
   safeDays.forEach((day) => {
     if (!day || typeof day !== "object" || Array.isArray(day)) return;
 
@@ -163,6 +171,9 @@ export function buildPlannerCompletionMap(
     };
     const dateKey = String(dayRecord.dateKey || "");
     if (!ISO_DATE_PATTERN.test(dateKey)) return;
+
+    // 🧠 Detect if this map entry belongs to the future
+    const isFuture = dateKey > todayStr;
 
     const missions = [
       ...(Array.isArray(dayRecord.noteMissions) ? dayRecord.noteMissions : []),
@@ -186,7 +197,8 @@ export function buildPlannerCompletionMap(
         totalMissions > 0
           ? Math.round((completedMissions / totalMissions) * 100)
           : 0,
-    };
+      isFuture, // 🛡️ Pass this down to the color renderer!
+    } as any; // Cast as any so TS allows our dynamic injection
   });
 
   return completionMap;
