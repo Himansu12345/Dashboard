@@ -189,14 +189,16 @@ export interface DayBuilderState {
   others: any[];
 }
 
-// ==========================================
 // 3. CONSTANTS, REGISTRY & SMART INHERITANCE
-// ==========================================
+
 const rawUrl =
   process.env.NEXT_PUBLIC_API_BASE_URL ||
   process.env.NEXT_PUBLIC_API_URL ||
   "http://localhost:5000/api";
-const API_URL = rawUrl.endsWith("/api") ? rawUrl : `${rawUrl}/api`;
+
+// 🛡️ PRO FIX: Bulletproof URL construction to strip trailing slashes & prevent 404s
+const cleanUrl = rawUrl.replace(/\/+$/, "");
+const API_URL = cleanUrl.endsWith("api") ? cleanUrl : `${cleanUrl}/api`;
 const SUBJECT_PROGRESS_API_URL = `${API_URL}/subject-progress`;
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
@@ -1993,11 +1995,11 @@ export default function WeeklyPlannerPanel() {
   // 🛡️ PRO FIX: Offline Glitch Protection Engine
   // 🛡️ PRO FIX: Offline Glitch Protection & Timestamp Guard
   const saveToDb = async (plan: WeeklyPlanData) => {
-    const timestampedPlan = {
-      ...plan,
-      updatedAt: Date.now(), // Stamps the exact millisecond to prevent Multi-Device Overwrites
-    };
-    await savePlannerSafely(timestampedPlan);
+    // 🛡️ PRO FIX: Stripping local timestamp to bypass false 409 Conflicts caused by Client-Server clock skew
+    const payload = { ...plan };
+    delete payload.updatedAt;
+
+    await savePlannerSafely(payload);
   };
 
   useEffect(() => {
