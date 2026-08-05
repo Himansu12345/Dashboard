@@ -151,7 +151,7 @@ function isCompletedMission(mission: unknown): boolean {
   return Number.isFinite(percent) && percent >= 100;
 }
 
-export function buildPlannerCompletionMap(
+export functionbuildPlannerCompletionMap(
   days: unknown[],
 ): PlannerDayCompletionMap {
   const completionMap: PlannerDayCompletionMap = {};

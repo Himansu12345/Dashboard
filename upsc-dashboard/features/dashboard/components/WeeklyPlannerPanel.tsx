@@ -2353,43 +2353,35 @@ export default function WeeklyPlannerPanel() {
           : weeklyPlan.executionMatrix,
       days: weeklyPlan.days.map((d) => {
         if (d.dayOfWeek !== day.dayOfWeek) return d;
-        const shiftMinutes = state === "accident_shift" ? delayMinutes : 0;
-        const shouldShiftMission = (
-          item: PlannerNoteMission | PlannerTestMission,
-        ) => {
-          const itemStart = getMissionStartMinutes(item);
-          return (
-            shiftMinutes > 0 &&
-            itemStart !== null &&
-            plannedStartMinutes !== null &&
-            itemStart >= plannedStartMinutes &&
-            !isMissionClosed(item) &&
-            !isMissionAbandoned(item)
-          );
-        };
+
+        // 🛡️ PRO FIX: "Targeted Time-Shift" Engine
+        // Prevent the "Domino Effect". Only the currently delayed mission gets its time adjusted.
+        // The rest of the day's schedule remains perfectly intact and untouched.
         const nextValidation = (
           item: PlannerNoteMission | PlannerTestMission,
-        ) => ({
-          ...item.timeValidation,
-          plannedStart: shouldShiftMission(item)
-            ? shiftTime(item.timeValidation?.plannedStart, shiftMinutes)
-            : item.timeValidation?.plannedStart || "00:00",
-          plannedEnd: shouldShiftMission(item)
-            ? shiftTime(item.timeValidation?.plannedEnd, shiftMinutes)
-            : item.timeValidation?.plannedEnd || "00:00",
-          actualStart:
-            item.id === mission.id
+        ) => {
+          const isCurrentMission = item.id === mission.id;
+          const applyShift = isCurrentMission && state === "accident_shift";
+
+          return {
+            ...item.timeValidation,
+            plannedStart: applyShift
+              ? shiftTime(item.timeValidation?.plannedStart, delayMinutes)
+              : item.timeValidation?.plannedStart || "00:00",
+            plannedEnd: applyShift
+              ? shiftTime(item.timeValidation?.plannedEnd, delayMinutes)
+              : item.timeValidation?.plannedEnd || "00:00",
+            actualStart: isCurrentMission
               ? now.toISOString()
               : item.timeValidation?.actualStart || null,
-          validationState:
-            item.id === mission.id
+            validationState: isCurrentMission
               ? state
               : item.timeValidation?.validationState || "pending",
-          delayReason:
-            item.id === mission.id
+            delayReason: isCurrentMission
               ? validationReasonText
               : item.timeValidation?.delayReason || "",
-        });
+          };
+        };
 
         if (type === "note") {
           return {
@@ -4094,13 +4086,13 @@ export default function WeeklyPlannerPanel() {
                         "Genuine Accident",
                       )
                     }
-                    className="w-full p-4 border border-white/10 rounded-xl bg-[#050505] hover:bg-white/[0.05] transition-all text-left"
+                    className="w-full p-4 border border-white/10 rounded-xl bg-[#050505] hover:bg-white/[0.05] transition-all text-left group"
                   >
-                    <div className="text-sm font-black text-slate-300 mb-1 uppercase tracking-widest">
+                    <div className="text-sm font-black text-slate-300 mb-1 uppercase tracking-widest group-hover:text-blue-400 transition-colors">
                       Genuine Accident
                     </div>
-                    <div className="text-xs text-slate-500">
-                      Protect my streak. Shift schedule forward.
+                    <div className="text-xs text-slate-500 group-hover:text-slate-400 transition-colors">
+                      Protect my streak. Adjust only this mission's time.
                     </div>
                   </button>
                 </div>
