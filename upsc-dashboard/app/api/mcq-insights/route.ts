@@ -20,6 +20,9 @@ export async function GET(request: Request) {
     if (!subject) return NextResponse.json({ error: "Invalid subject" }, { status: 400 });
 
     const db = mongoose.connection.db;
+    // 🛡️ PRO FIX: TypeScript strict-null check bypass
+    if (!db) throw new Error("Database not initialized");
+
     const doc = await db.collection("mcq_insights_vault").findOne({ subjectKey: subject });
     
     return NextResponse.json({ insightsMap: doc?.insightsMap || {} }, { headers: { "Cache-Control": "no-store" } });
@@ -36,7 +39,10 @@ export async function PUT(request: Request) {
     if (!subject) return NextResponse.json({ error: "Invalid subject" }, { status: 400 });
 
     const { insightsMap } = await request.json();
+    
     const db = mongoose.connection.db;
+    // 🛡️ PRO FIX: TypeScript strict-null check bypass
+    if (!db) throw new Error("Database not initialized");
 
     await db.collection("mcq_insights_vault").updateOne(
       { subjectKey: subject },

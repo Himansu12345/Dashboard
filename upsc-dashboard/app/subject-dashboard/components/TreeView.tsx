@@ -28,6 +28,10 @@ type TreeViewProps = {
   onToggleCollapse: (uid: string) => void;
   onToggleNote: (uid: string) => void;
   onToggleStar: (uid: string) => void;
+
+  // 🛡️ PRO FIX: Allow TreeView to pass Vault props down to TreeNode
+  insightsMap?: Record<string, any[]>;
+  onOpenInsight?: (uid: string, label: string) => void;
 };
 
 // ⚡ PRO POWER FIX: Memoize the entire tree wrapper to completely block modal render poisoning
@@ -58,5 +62,4 @@ export const TreeView = memo(function TreeView(props: TreeViewProps) {
       </div>
     </section>
   );
-}
-);
+});
