@@ -654,7 +654,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "Objectives Resolution: Moved by Jawaharlal Nehru on 13 December 1946, which formed the basis of the Preamble.\nAmended by adding “and integrity” (42nd CAA) to reflect unity and integrity.",
+            "label": "Objectives Resolution: Moved by Jawaharlal Nehru on 13 December 1946, which formed the basis of the Preamble.\nAmended by adding “Socialist, Secular, and Integrity” (42nd CAA,1976) to reflect unity and integrity.",
             "kind": "amendment"
           }
         ]
@@ -672,7 +672,7 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "Power to acquire foreign territory and cede a part of its territory to a foreign state (as per constitutional procedure).",
+                "label": "Power to acquire foreign territory and ceased a part of its territory to a foreign state (as per constitutional procedure).",
                 "kind": "bullet"
               },
               {
@@ -788,6 +788,10 @@ export const RAW_D = [
               {
                 "label": "Ensured through Art 14‑18 (equality before law, abolition of untouchability, titles), Art 16 (equal opportunity in public employment), Art 325 (no separate electorates).",
                 "kind": "bullet"
+              }
+              ,
+              {
+                "label": "Equality under Constitution → Civic Equality + Political Equality + Economic Equality",
               }
             ]
           },

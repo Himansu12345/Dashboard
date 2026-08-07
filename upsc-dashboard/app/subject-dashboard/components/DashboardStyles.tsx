@@ -358,6 +358,12 @@ export function DashboardStyles() {
         border-color: rgba(251, 191, 36, 0.28);
       }
 
+      .act-btn.insight.active {
+        color: #34d399;
+        border-color: rgba(52, 211, 153, 0.3);
+        background: rgba(16, 185, 129, 0.1);
+      }
+
       .history-badge.active {
         border-color: rgba(125, 211, 252, 0.28);
         color: #7dd3fc;
@@ -1204,6 +1210,11 @@ export function DashboardStyles() {
         border-radius: 999px;
         background: #5ad7ff;
         box-shadow: 0 0 0 3px rgba(90, 215, 255, 0.12);
+      }
+      .act-btn.insight.active {
+        color: #34d399; /* Emerald Green glow when points exist */
+        border-color: rgba(52, 211, 153, 0.3);
+        background: rgba(16, 185, 129, 0.1);
       }
     `}</style>
   );

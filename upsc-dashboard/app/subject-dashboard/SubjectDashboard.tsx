@@ -20,6 +20,7 @@ import {
   buildSubjectQuizExportFilename,
   type SubjectQuizExportSource,
 } from "./utils/exportSubjectNotes";
+import { useInsightsVault, InsightsModal } from "./components/InsightsVault";
 // PERFECT NEW CODE
 import type {
   ChapterAttemptSummary,
@@ -519,7 +520,8 @@ function PlannerMissionTimerBanner({
 }) {
   const isGrace = timerState.phase === "grace";
   const progressText = `${timerState.completedTargets}/${timerState.totalTargets}`;
-  const missionMode = timerState.mission.mode === "revise" ? "revise" : "complete";
+  const missionMode =
+    timerState.mission.mode === "revise" ? "revise" : "complete";
 
   return (
     <div
@@ -1207,6 +1209,14 @@ export function SubjectDashboard({
     STORAGE_KEY_TO_SUBJECT[storageKeys.checked] || quizSubjectName || title;
   const collapseToExpandedUids = dashboard.collapseToExpandedUids;
 
+  const { insightsMap, addInsight, deleteInsight } = useInsightsVault(
+    storageKeys.checked,
+  );
+  const [activeInsightNode, setActiveInsightNode] = useState<{
+    uid: string;
+    label: string;
+  } | null>(null);
+
   const parentUidMap = useMemo(
     () => buildParentUidMap(activeData),
     [activeData],
@@ -1499,12 +1509,7 @@ export function SubjectDashboard({
           ?.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 120);
     },
-    [
-      chapterNodes,
-      collapseToExpandedUids,
-      currentSubject,
-      parentUidMap,
-    ],
+    [chapterNodes, collapseToExpandedUids, currentSubject, parentUidMap],
   );
 
   useEffect(() => {
@@ -1711,6 +1716,10 @@ export function SubjectDashboard({
         onToggleCollapse={dashboard.toggleCollapse}
         onToggleNote={dashboard.toggleNote}
         onToggleStar={dashboard.toggleStar}
+        insightsMap={insightsMap}
+        onOpenInsight={(uid: string, label: string) =>
+          setActiveInsightNode({ uid, label })
+        }
       />
     ),
     [
@@ -1735,6 +1744,7 @@ export function SubjectDashboard({
       dashboard.toggleCollapse,
       dashboard.toggleNote,
       dashboard.toggleStar,
+      insightsMap,
     ],
   );
 
@@ -1851,6 +1861,19 @@ export function SubjectDashboard({
       <DashboardHeaderStyles />
 
       <DashboardStyles />
+
+      <InsightsModal
+        isOpen={!!activeInsightNode}
+        onClose={() => setActiveInsightNode(null)}
+        nodeUid={activeInsightNode?.uid || ""}
+        nodeLabel={activeInsightNode?.label || ""}
+        insights={ 
+          activeInsightNode ? insightsMap[activeInsightNode.uid] || [] : []
+        } 
+        allInsights={insightsMap}
+        onAdd={addInsight}
+        onDelete={deleteInsight}
+      />
     </>
   );
 }

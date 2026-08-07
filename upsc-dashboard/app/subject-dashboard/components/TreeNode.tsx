@@ -297,6 +297,8 @@ export type TreeNodeProps = {
   onToggleCollapse: (uid: string) => void;
   onToggleNote: (uid: string) => void;
   onToggleStar: (uid: string) => void;
+  insightsMap?: Record<string, any[]>;
+  onOpenInsight?: (uid: string, label: string) => void;
 };
 
 /* -------------------------------------------------------------------------- */
@@ -1115,6 +1117,8 @@ function TreeNodeComponent(props: TreeNodeProps) {
     onToggleCollapse,
     onToggleNote,
     onToggleStar,
+    insightsMap,
+    onOpenInsight,
   } = props;
 
   const hasKids = !!node.children && node.children.length > 0;
@@ -1378,6 +1382,32 @@ function TreeNodeComponent(props: TreeNodeProps) {
                 <IconStarFilled />
               </button>
 
+              {onOpenInsight && insightsMap && (
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onOpenInsight(node.uid, node.label);
+                  }}
+                  className={`act-btn insight ${insightsMap[node.uid]?.length > 0 ? "active" : ""}`}
+                  title="Add MCQ Insights & Extra Points"
+                >
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2.5"
+                      d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
+                    />
+                  </svg>
+                </button>
+              )}
+
               <div
                 ref={badgeAnchorRef}
                 className="history-badge-wrap"
@@ -1422,16 +1452,23 @@ function TreeNodeComponent(props: TreeNodeProps) {
   );
 }
 
-// ⚡ PRO POWER FIX: Activate the dormant recursive version engine to block 99% of checkbox render lag
 function arePropsEqual(prevProps: TreeNodeProps, nextProps: TreeNodeProps) {
   const uid = prevProps.node.uid;
   const prevVersion = prevProps.nodeRenderVersions.get(uid);
   const nextVersion = nextProps.nodeRenderVersions.get(uid);
 
+  const prevHasInsights = prevProps.insightsMap
+    ? prevProps.insightsMap[uid]?.length || 0
+    : 0;
+  const nextHasInsights = nextProps.insightsMap
+    ? nextProps.insightsMap[uid]?.length || 0
+    : 0;
+
   return (
     prevVersion === nextVersion &&
     prevProps.treeRenderVersion === nextProps.treeRenderVersion &&
-    prevProps.visibleUids.has(uid) === nextProps.visibleUids.has(uid)
+    prevProps.visibleUids.has(uid) === nextProps.visibleUids.has(uid) &&
+    prevHasInsights === nextHasInsights
   );
 }
 
