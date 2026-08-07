@@ -151,14 +151,15 @@ function isCompletedMission(mission: unknown): boolean {
   return Number.isFinite(percent) && percent >= 100;
 }
 
-export functionbuildPlannerCompletionMap(
+export function buildPlannerCompletionMap(
   days: unknown[],
 ): PlannerDayCompletionMap {
   const completionMap: PlannerDayCompletionMap = {};
   const safeDays = Array.isArray(days) ? days : [];
 
-  // 🛡️ PRO FIX: Get today's Date string to guard against future visual penalties
-  const todayStr = formatDate(new Date());
+  // 🛡️ PRO FIX: Native JS date (YYYY-MM-DD) so it doesn't need any imports!
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
 
   safeDays.forEach((day) => {
     if (!day || typeof day !== "object" || Array.isArray(day)) return;
