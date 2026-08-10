@@ -1,9 +1,13 @@
 const PLANNER_VAULT_KEY = "upsc_planner_offline_vault";
-
 const rawUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
 const cleanUrl = rawUrl.replace(/\/+$/, "");
 const baseHref = cleanUrl.replace(/\/api$/, "");
 const API_URL = `${baseHref}/api`;
+
+// const rawUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+// const cleanUrl = rawUrl.replace(/\/+$/, "");
+// const baseHref = cleanUrl.replace(/\/api$/, "");
+// const API_URL = `${baseHref}/api`;
 export async function savePlannerSafely(plan: any) {
   if (typeof window !== "undefined") {
     try {

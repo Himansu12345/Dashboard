@@ -1,11 +1,10 @@
 const rawUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
-const DEFAULT_BACKEND_BASE_URL = rawUrl.endsWith("/api") ? rawUrl : `${rawUrl}/api`;
+const cleanUrl = rawUrl.replace(/\/+$/, "");
+const baseHref = cleanUrl.replace(/\/api$/, "");
+const DEFAULT_BACKEND_BASE_URL = `${baseHref}/api`;
 
 export function getBackendBaseUrl(): string {
-  const envUrl = process.env.NEXT_PUBLIC_API_BASE_URL || process.env.NEXT_PUBLIC_API_URL || DEFAULT_BACKEND_BASE_URL;
-  const cleanUrl = envUrl.replace(/\/+$/, "");
-  const baseHref = cleanUrl.replace(/\/api$/, "");
-  return `${baseHref}/api`;
+  return DEFAULT_BACKEND_BASE_URL;
 }
 
 export function buildApiUrl(path: string): string {

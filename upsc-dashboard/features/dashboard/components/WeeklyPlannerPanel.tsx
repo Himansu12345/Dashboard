@@ -194,11 +194,11 @@ const rawUrl =
   process.env.NEXT_PUBLIC_API_URL ||
   "http://localhost:5000/api";
 
-// 🛡️ PRO FIX: Absolute URL enforcement for Vercel/Render compatibility
+// 🛡️ PRO FIX: Absolute URL enforcement for Render + Relative URL for Vercel Next.js APIs
 const cleanUrl = rawUrl.replace(/\/+$/, "");
 const baseHref = cleanUrl.replace(/\/api$/, "");
 const API_URL = `${baseHref}/api`;
-const SUBJECT_PROGRESS_API_URL = `${API_URL}/subject-progress`;
+const SUBJECT_PROGRESS_API_URL = `/api/subject-progress`;
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
   TUE: "Tuesday",
