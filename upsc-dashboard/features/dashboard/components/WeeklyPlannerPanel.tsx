@@ -189,7 +189,7 @@ export interface DayBuilderState {
   tests: BuilderTest[];
   others: any[];
 }
-const SUBJECT_PROGRESS_API_URL = `/api/subject-progress`;
+const SUBJECT_PROGRESS_API_URL = "/api/subject-progress";
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
   TUE: "Tuesday",
@@ -891,15 +891,13 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
 
     let isMounted = true;
 
-    fetch(`${SUBJECT_PROGRESS_API_URL}/batch`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ subjects: [progressKey] }),
-    })
+    fetch(
+      `${SUBJECT_PROGRESS_API_URL}?subject=${encodeURIComponent(progressKey)}`,
+    )
       .then((res) => res.json())
       .then((payload) => {
         if (!isMounted) return;
-        const checked = payload?.progress?.[progressKey]?.checkedUids;
+        const checked = payload?.progress?.checkedUids;
         setNoteSubjectCheckedUids(
           new Set(Array.isArray(checked) ? checked : []),
         );
@@ -2046,40 +2044,30 @@ export default function WeeklyPlannerPanel() {
           return;
         }
 
-        const response = await fetch(`${SUBJECT_PROGRESS_API_URL}/batch`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            subjects: subjectPairs.map(([, subjectKey]) => subjectKey),
-          }),
-        });
-
-        if (!response.ok) {
-          if (!isCancelled) setSubjectProgressMap(fallbackProgress);
-          return;
-        }
-
-        const payload = (await response.json()) as {
-          progress?: Record<string, SubjectProgressPayload | null>;
-        };
-        const progressBySubject = Object.fromEntries(
-          subjectPairs.map(([subject, subjectKey]) => {
-            const progress = payload.progress?.[subjectKey];
-            return [
-              subject,
-              {
-                checkedUids: Array.isArray(progress?.checkedUids)
-                  ? progress.checkedUids
-                  : [],
-                completionTimes:
-                  progress?.completionTimes &&
-                  typeof progress.completionTimes === "object"
-                    ? progress.completionTimes
-                    : {},
-              },
-            ];
+        const progressResults = await Promise.all(
+          subjectPairs.map(async ([subject, subjectKey]) => {
+            try {
+              const res = await fetch(
+                `${SUBJECT_PROGRESS_API_URL}?subject=${encodeURIComponent(subjectKey)}`,
+              );
+              if (res.ok) {
+                const data = await res.json();
+                return [
+                  subject,
+                  {
+                    checkedUids: Array.isArray(data.progress?.checkedUids)
+                      ? data.progress.checkedUids
+                      : [],
+                    completionTimes: data.progress?.completionTimes || {},
+                  },
+                ] as const;
+              }
+            } catch (e) {}
+            return [subject, { checkedUids: [], completionTimes: {} }] as const;
           }),
         );
+
+        const progressBySubject = Object.fromEntries(progressResults);
 
         if (!isCancelled) {
           setSubjectProgressMap({
