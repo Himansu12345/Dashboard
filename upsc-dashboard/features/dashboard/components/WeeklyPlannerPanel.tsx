@@ -189,7 +189,7 @@ export interface DayBuilderState {
   tests: BuilderTest[];
   others: any[];
 }
-const SUBJECT_PROGRESS_API_URL = "/api/subject-progress";
+const SUBJECT_PROGRESS_API_URL = buildApiUrl("/subject-progress");
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
   TUE: "Tuesday",
