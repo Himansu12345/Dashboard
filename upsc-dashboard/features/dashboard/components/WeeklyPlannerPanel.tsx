@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { initSubjectData } from "@/app/subject-dashboard/utils";
 import { savePlannerSafely, flushPlannerVault } from "@/lib/api/plannerQueue";
+import { buildApiUrl } from "@/lib/api/client";
 import {
   calculateNoteMissionProgress,
   getNoteMissionMode,
@@ -188,16 +189,6 @@ export interface DayBuilderState {
   tests: BuilderTest[];
   others: any[];
 }
-
-const rawUrl =
-  process.env.NEXT_PUBLIC_API_BASE_URL ||
-  process.env.NEXT_PUBLIC_API_URL ||
-  "http://localhost:5000/api";
-
-// 🛡️ PRO FIX: Absolute URL enforcement for Render + Relative URL for Vercel Next.js APIs
-const cleanUrl = rawUrl.replace(/\/+$/, "");
-const baseHref = cleanUrl.replace(/\/api$/, "");
-const API_URL = `${baseHref}/api`;
 const SUBJECT_PROGRESS_API_URL = `/api/subject-progress`;
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
@@ -1949,7 +1940,7 @@ export default function WeeklyPlannerPanel() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const planRes = await fetch(`${API_URL}/planner/${weekStartDate}`);
+        const planRes = await fetch(buildApiUrl(`/planner/${weekStartDate}`));
         if (planRes.ok) {
           const planData = await planRes.json();
           if (planData.exists && planData.data) {
