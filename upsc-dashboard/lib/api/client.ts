@@ -8,8 +8,13 @@ export function getBackendBaseUrl(): string {
 }
 
 export function buildApiUrl(path: string): string {
-  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
-  return `${getBackendBaseUrl()}${normalizedPath}`;
+  const baseApi = getBackendBaseUrl();
+  // 🛡️ PRO FIX: Automatically removes extra 'api/' to strictly prevent /api/api/ bugs
+  let cleanPath = path.replace(/^\/?api\//, "/");
+  if (!cleanPath.startsWith("/")) {
+    cleanPath = `/${cleanPath}`;
+  }
+  return `${baseApi}${cleanPath}`;
 }
 
 export async function parseJsonSafely<T>(
