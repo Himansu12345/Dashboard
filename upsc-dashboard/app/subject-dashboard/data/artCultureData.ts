@@ -1,7 +1,6 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D = [
-  // =========================== CHAPTER I ===========================
   {
     "id": "I",
     "p": "pm",
@@ -87,6 +86,13 @@ export const RAW_D = [
               { "label": "Chalukyas of Badami: Aihole (Lad Khan, Durga Temple), Pattadakal (Virupaksha, Mallikarjuna)." },
               { "label": "Hoysalas: Belur (Chennakesava), Halebid (Hoysalesvara).\nStar‑shaped platforms, ornate lintels." }
             ]
+          },
+          {
+            "label": "MAINS: Architecture as Statecraft & Socio-Economic Power",
+            "children": [
+              { "label": "Political Legitimation: Monumental structures (e.g., Brihadeshwara Temple by Rajaraja I, Kailasanatha Temple by Rashtrakutas) served as physical manifestations of imperial sovereignty, divine right, and political consolidation." },
+              { "label": "Socio-Economic Role of Temples: Temples operated as core economic institutions — controlling vast land grants (Devadana), acting as local banks, driving rural employment, and sustaining regional trade and craft guilds." }
+            ]
           }
         ]
       },
@@ -115,6 +121,12 @@ export const RAW_D = [
               { "label": "Aurangzeb: Bibi Ka Maqbara (Aurangabad, poor Taj replica).\nDecline of patronage." },
               { "label": "MAINS: Mughal architecture synthesised Persian, Timurid, and indigenous Indian elements, reflecting imperial ideology and courtly culture." }
             ]
+          },
+          {
+            "label": "MAINS: Syncretism in Indo-Islamic Architecture",
+            "children": [
+              { "label": "The structural blending of Persian and Timurid motifs (true arches, domes, geometric symmetry) with indigenous Indian trabeate systems (lintels, brackets, corbeling) mirrored an evolving composite administrative and cultural ethos." }
+            ]
           }
         ]
       },
@@ -142,7 +154,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER II ===========================
   {
     "id": "II",
     "p": "pm",
@@ -189,10 +200,27 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Craft, Patronage & Imperial Ideology",
+        "children": [
+          {
+            "label": "Sculpture as an Instrument of Imperial Ideology",
+            "children": [
+              { "label": "The evolution from the aniconic representations of early Buddhism (symbolic footprints and empty thrones at Sanchi) to the anthropomorphic panoply of the Gupta and Kushan periods reflected changing devotional (Bhakti) trends and royal patronage requirements." }
+            ]
+          },
+          {
+            "label": "Socio-Religious Shifts in Bronzes",
+            "children": [
+              { "label": "The transition toward dynamic metal casting (such as the Chola Nataraja) captured the philosophical synthesis of cosmic energy, while simultaneously serving state religious processions that bound agrarian communities to administrative temple centers." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER III ===========================
   {
     "id": "III",
     "p": "pm",
@@ -272,10 +300,27 @@ export const RAW_D = [
           { "label": "Kalamkari (Andhra): vegetable dyes, pen (kalam) work; Srikalahasti (freehand) and Machilipatnam (block‑print).\nKalighat (West Bengal): watercolour, social satire." },
           { "label": "Cheriyal Scrolls (Telangana): Nakashi art.\nManjusha (Bihar).\nThanka (Sikkim/Himalayan Buddhist)." }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Art as Anti-Colonial Resistance",
+        "children": [
+          {
+            "label": "Shift from Company School to Bengal School",
+            "children": [
+              { "label": "The shift from 'Company School' paintings (which catered to British tastes) to the Bengal School of Art was a deliberate nationalistic movement." }
+            ]
+          },
+          {
+            "label": "Key Figures & Cultural Awakening",
+            "children": [
+              { "label": "Artists like Abanindranath Tagore (who painted the iconic Bharat Mata) and Nandalal Bose (who created the Haripura Congress posters and illustrated the Indian Constitution) used indigenous techniques and themes (Ajanta/Rajput styles) to counter British cultural hegemony and inspire the masses." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER IV ===========================
   {
     "id": "IV",
     "p": "pm3",
@@ -361,10 +406,27 @@ export const RAW_D = [
           { "label": "Maharashtra: Lavni, Tamasha.\nManipur: Manipuri (classical), Thang‑Ta.\nMeghalaya: Laho, Shad Suk Mynsiem.\nMizoram: Cheraw (bamboo dance).\nNagaland: Chang Lo, Naga warrior dance.\nOdisha: Gotipua, Ghumura.\nPunjab: Bhangra, Giddha.\nRajasthan: Ghoomar, Kalbelia (UNESCO ICH).\nSikkim: Singhi Chham." },
           { "label": "Tamil Nadu: Karakattam, Oyilattam.\nTelangana: Perini Shivatandavam.\nTripura: Hojagiri.\nUP: Raslila, Charkula.\nUttarakhand: Chholiya, Garhwali.\nWest Bengal: Chhau, Gambhira." }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Colonial Impact & Revival of Classical Dances",
+        "children": [
+          {
+            "label": "Criminalization and Nationalistic Revival",
+            "children": [
+              { "label": "The British colonial administration, along with Indian social reformers, launched the 'Anti-Nautch' movement, which stigmatized and criminalized the traditional Devadasi system." }
+            ]
+          },
+          {
+            "label": "Institutionalization of Dance",
+            "children": [
+              { "label": "Post-independence, the revival of these dances (like Rukmini Devi Arundale 'purifying' and codifying Bharatanatyam) was a vital part of reclaiming India's civilizational identity and separating classical art from colonial stigma." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER V ===========================
   {
     "id": "V",
     "p": "pm2",
@@ -433,7 +495,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER VI ===========================
   {
     "id": "VI",
     "p": "pm2",
@@ -469,7 +530,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER VII ===========================
   {
     "id": "VII",
     "p": "pm2",
@@ -502,10 +562,27 @@ export const RAW_D = [
           { "label": "Other languages: Subramania Bharati (Tamil), Kuvempu (Kannada), Faiz Ahmed Faiz (Urdu), Qurratulain Hyder, Kazi Nazrul Islam (Bengal, national poet of Bangladesh)." },
           { "label": "English: R.K.\nNarayan (Malgudi Days), Mulk Raj Anand (Coolie, Untouchable), Arundhati Roy (God of Small Things, Booker), Vikram Seth (A Suitable Boy)." }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Literature as Socio-Political Mirror",
+        "children": [
+          {
+            "label": "Democratization of Religion",
+            "children": [
+              { "label": "The transition from rigid Sanskrit texts to vernacular Bhakti and Sufi literature democratized religious access, directly challenging the orthodox priestly monopoly and bridging rigid caste and gender divides." }
+            ]
+          },
+          {
+            "label": "Secular & Societal Reflection in Sangam Literature",
+            "children": [
+              { "label": "Sangam literature's depiction of the tinai (eco-zones) system provides a highly secular, empirical window into the transition from tribal to agrarian economies and the status of women in the ancient Deep South." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER VIII ===========================
   {
     "id": "VIII",
     "p": "pm2",
@@ -551,10 +628,33 @@ export const RAW_D = [
           { "label": "Traditional costumes: Mundum Neriyathum (Kerala), Mekhela Chador (Assam), Phanek (Manipur), Ghagra Choli (Rajasthan/Gujarat)." },
           { "label": "Indian martial arts: Kalaripayattu (Kerala), Silambam (TN), Thang‑Ta (Manipur), Gatka (Punjab), Mardani Khel (Maharashtra)." }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Cultural Governance, Heritage Management & Soft Power",
+        "children": [
+          {
+            "label": "Challenges in Heritage Conservation",
+            "children": [
+              { "label": "Issues surrounding commercialization, over-tourism, structural decay from environmental pollution (e.g., acid rain impact on the Taj Mahal), and managing the tension between urban modernization and archaeological preservation." }
+            ]
+          },
+          {
+            "label": "Soft Power and Cultural Diplomacy",
+            "children": [
+              { "label": "Leveraging India's civilizational assets—including UNESCO World Heritage designations, International Yoga Day, the promotion of Buddhist tourism circuits, and classical arts—as strategic instruments of foreign policy." }
+            ]
+          },
+          {
+            "label": "Safeguarding Intangible Cultural Heritage (ICH)",
+            "children": [
+              { "label": "Preserving living traditions, oral epics, performing arts, and traditional craftsmanship against the homogenizing pressures of globalization." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER IX ===========================
   {
     "id": "IX",
     "p": "pm2",

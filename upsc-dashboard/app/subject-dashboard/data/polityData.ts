@@ -4,6 +4,7 @@ import type { RawSubjectNode } from "../types";
 export const RAW_D = [
   
 {
+
     "id": "I",
     "p": "pm2",
     "label": "Historical Underpinnings & Constitutional Genesis",
@@ -62,7 +63,7 @@ export const RAW_D = [
             "kind": "subsection",
             "children": [
               {
-                "label": "Double Government: Board of Control (6 members managing political/military affairs) + Court of Directors (commercial)",
+                "label": "Double Government: Board of Control (6 members managing political/military affairs) + Court of Directors (commercial) , its not separation of powers its separation of functions",
                 "kind": "bullet"
               },
               {
@@ -154,7 +155,7 @@ export const RAW_D = [
             "kind": "subsection",
             "children": [
               {
-                "label": "Separated legislative & executive functions of GG's council → Indian Legislative Council (6 new Legislative Councillors); functioned as mini-Parliament with same procedures as British Parliament",
+                "label": "Separated legislative & executive functions of GG's council → Indian Legislative Council (6 new Legislative Councillors); functioned as mini-Parliament with same procedures as British Parliament,its the 1st separation of powers",
                 "kind": "bullet"
               },
               {
@@ -212,7 +213,7 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "Viceroy empowered to issue ordinances (valid 6 months) without council concurrence during emergency",
+                "label": "Viceroy empowered to issue ordinances (valid 6 months) without council concurrence during emergency and when Council NOT IN SESSION",
                 "kind": "bullet"
               },
               {

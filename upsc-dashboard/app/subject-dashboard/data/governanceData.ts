@@ -15,7 +15,13 @@ export const RAW_D = [
             "children": [
               { "label": "Adopted 26 Nov 1949, enacted 26 Jan 1950.\n'We the People of India' – sovereignty lies with people." },
               { "label": "Key words: Sovereign, Socialist, Secular, Democratic, Republic, Justice (social, economic, political), Liberty, Equality, Fraternity." },
-              { "label": "42nd Amendment 1976 added 'Socialist', 'Secular', 'Integrity'.\nPreamble is non-justiciable but aids interpretation (Berubari Case 1960; Kesavananda Bharati 1973 – Preamble is part of Constitution)." }
+              { "label": "42nd Amendment 1976 added 'Socialist', 'Secular', 'Integrity'.\nPreamble is non‑justiciable but aids interpretation (Berubari Case 1960; Kesavananda Bharati 1973 – Preamble is part of Constitution)." }
+            ]
+          },
+          {
+            "label": "MAINS: Comparative Constitutionalism",
+            "children": [
+              { "label": "Indian synthesis of Parliamentary Sovereignty and Judicial Supremacy compared to British model (absolute parliamentary sovereignty) and American model (strict judicial supremacy and rigid separation of powers)." }
             ]
           }
         ]
@@ -28,16 +34,26 @@ export const RAW_D = [
             "label": "Classification & Key Provisions",
             "children": [
               { "label": "Right to Equality (Art 14‑18): Art 14 – equality before law & equal protection; Art 15 – no discrimination on religion, race, caste, sex, birthplace; Art 16 – equal opportunity in public employment; Art 17 – untouchability abolished; Art 18 – abolition of titles." },
-              { "label": "Right to Freedom (Art 19‑22): Art 19 – six freedoms (speech, assembly, association, movement, residence, profession); Art 20 – protection against ex-post-facto, double jeopardy, self-incrimination; Art 21 – life & personal liberty (Maneka Gandhi case expanded to include due process); Art 21A – free & compulsory education 6‑14 yrs (86th Amend, 2002); Art 22 – protection against arrest & detention." },
+              { "label": "Right to Freedom (Art 19‑22): Art 19 – six freedoms (speech, assembly, association, movement, residence, profession); Art 20 – protection against ex‑post‑facto, double jeopardy, self‑incrimination; Art 21 – life & personal liberty (Maneka Gandhi case expanded to include due process); Art 21A – free & compulsory education 6‑14 yrs (86th Amend, 2002); Art 22 – protection against arrest & detention." },
               { "label": "Right against Exploitation (Art 23‑24): Art 23 – prohibition of traffic in human beings & forced labour; Art 24 – no child below 14 in factories/mines." },
-              { "label": "Right to Freedom of Religion (Art 25‑28): Art 25 – free profession, practice, propagation; Art 26 – manage religious affairs; Art 27 – no taxation for promotion of any religion; Art 28 – no religious instruction in state-funded institutions." },
+              { "label": "Right to Freedom of Religion (Art 25‑28): Art 25 – free profession, practice, propagation; Art 26 – manage religious affairs; Art 27 – no taxation for promotion of any religion; Art 28 – no religious instruction in state‑funded institutions." },
               { "label": "Cultural & Educational Rights (Art 29‑30): Art 29 – protection of language, script, culture; Art 30 – minorities’ right to establish & administer educational institutions." },
-              { "label": "Right to Constitutional Remedies (Art 32): heart & soul of Constitution (Ambedkar); writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo‑Warranto).\nSC & HC (Art 226) can issue." }
+              { "label": "Right to Constitutional Remedies (Art 32): heart & soul of Constitution (Ambedkar); writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo‑Warranto).\nSC (Art 32) & HC (Art 226) can issue." }
             ]
           },
           {
-            "label": "MAINS: Balancing FRs & reasonable restrictions; evolution of Art 21 to include privacy (Puttaswamy 2017), dignity, environment." }
-          ]
+            "label": "MAINS: Anti‑discrimination & Freedoms",
+            "children": [
+              { "label": "Art 15(1) is the foundational prohibition of State discrimination; place it first in a Mains answer body. Art 19 freedom of movement: analyse state borders, inner line permits, and public order mandates as reasonable restrictions." }
+            ]
+          },
+          {
+            "label": "MAINS: Reservation Dynamics",
+            "children": [
+              { "label": "Evolving jurisprudence: is reservation a one‑time benefit at entry level or does it extend to promotions via Art 16(4A)? Debate on creamy layer application in SC/ST reservations and efficiency vs. equity." }
+            ]
+          }
+        ]
       },
       {
         "p": "pm2",
@@ -48,7 +64,7 @@ export const RAW_D = [
             "children": [
               { "label": "Socialist: Art 38 (welfare), 39 (equal pay, livelihood), 39A (free legal aid), 41 (work, education), 42 (just & humane work, maternity relief), 43 (living wage), 47 (nutrition, prohibition)." },
               { "label": "Gandhian: Art 40 (village panchayats), 43 (cottage industries), 43B (cooperative societies – 97th Amend), 46 (SC/ST interests), 47 (prohibition)." },
-              { "label": "Liberal-Intellectual: Art 44 (Uniform Civil Code), 45 (early childhood care), 48 (scientific agriculture, animal husbandry), 48A (environment – 42nd Amend), 49 (monuments), 50 (separation of judiciary from executive), 51 (international peace)." },
+              { "label": "Liberal‑Intellectual: Art 44 (Uniform Civil Code), 45 (early childhood care), 48 (scientific agriculture, animal husbandry), 48A (environment – 42nd Amend), 49 (monuments), 50 (separation of judiciary from executive), 51 (international peace)." },
               { "label": "Non‑justiciable, yet fundamental in governance.\nMinerva Mills (1980): harmony between FR & DPSP." }
             ]
           }
@@ -63,6 +79,18 @@ export const RAW_D = [
             "children": [
               { "label": "Added by 42nd Amendment 1976 (10 duties); 11th added by 86th Amend 2002 (education of child 6‑14)." },
               { "label": "Key duties: respect Constitution, national flag/anthem; uphold sovereignty; promote harmony; preserve composite culture; protect environment; develop scientific temper; safeguard public property." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Separation of Powers vs. Checks & Balances",
+        "children": [
+          {
+            "label": "Indian Functional Overlap",
+            "children": [
+              { "label": "Unlike the strict, water‑tight separation of powers in the American Constitution, India features an Executive drawn directly from the Legislature, necessitating rigorous Checks and Balances (e.g., Judicial Review of legislative actions, parliamentary motions over the executive) to prevent tyranny of the parliamentary majority." }
             ]
           }
         ]
@@ -82,8 +110,9 @@ export const RAW_D = [
             "label": "President (Art 52‑62)",
             "children": [
               { "label": "Election: single transferable vote, proportional representation; electoral college = elected MPs + elected MLAs (including Delhi & Puducherry)." },
-              { "label": "Powers: executive, legislative (ordinance, summon/ prorogue), judicial (pardon, reprieve, respite, remission, commutation – Art 72), emergency (Art 352, 356, 360), veto (absolute, suspensive, pocket)." },
-              { "label": "Impeachment for violation of Constitution (Art 61) – either House initiates." }
+              { "label": "Powers: executive, legislative (ordinance – must be laid before legislature within 6 weeks of reassembly; D.C. Wadhwa case: re‑promulgation unconstitutional), judicial (pardon, reprieve, respite, remission, commutation – Art 72), emergency (Art 352, 356, 360), veto (absolute, suspensive, pocket)." },
+              { "label": "Impeachment for violation of Constitution (Art 61) – either House initiates." },
+              { "label": "TRAP: Governor (Art 161) can suspend, remit, commute but cannot pardon a death sentence." }
             ]
           },
           {
@@ -127,10 +156,24 @@ export const RAW_D = [
             ]
           },
           {
+            "label": "Parliamentary Procedures",
+            "children": [
+              { "label": "Question Hour, Zero Hour.\nMotions: Adjournment, No‑Confidence, Censure, Cut motions (Policy, Economy, Token), Guillotine.\nPrivate Member’s Bill." },
+              { "label": "Whip: regulates voting; types – one‑line, two‑line, three‑line.\nAnti‑Defection Law (10th Schedule): disqualification on voluntarily giving up party membership or voting against party whip; exceptions – merger (2/3rd) and split (now removed); Speaker's decision final, subject to judicial review (Kihoto Hollohan 1992)." }
+            ]
+          },
+          {
             "label": "Parliamentary Committees",
             "children": [
-              { "label": "Standing: Public Accounts Committee (PAC – 15 LS, 7 RS; Chairman from Opposition), Estimates Committee (only LS), Committee on Public Undertakings, Department-Related Standing Committees (24)." },
+              { "label": "Standing: Public Accounts Committee (PAC – 15 LS, 7 RS; Chairman from Opposition by convention), Estimates Committee (only LS), Committee on Public Undertakings, Department‑Related Standing Committees (24)." },
               { "label": "Ad hoc: Select, Joint, etc." }
+            ]
+          },
+          {
+            "label": "MAINS: Parliamentary Decline & Scrutiny Bypass",
+            "children": [
+              { "label": "Bypassing Legislative Scrutiny: Increasing reliance on delegated (subordinate) legislation and bypassing Department‑Related Standing Committees." },
+              { "label": "The Money Bill Controversy: Routing ordinary, contentious legislation through Art 110 (Money Bill) to circumvent Rajya Sabha's deliberative power." }
             ]
           }
         ]
@@ -152,6 +195,12 @@ export const RAW_D = [
               { "label": "Mostly unicameral; bicameral in 6 states: UP, Maharashtra, Karnataka, Bihar, Telangana, Andhra Pradesh." },
               { "label": "Legislative Council (Vidhan Parishad): max 1/3 of Assembly; partly elected, partly nominated; permanent house." }
             ]
+          },
+          {
+            "label": "MAINS: Federal Friction & The Governor's Office",
+            "children": [
+              { "label": "The Governor as a Federal Chokepoint: Misuse of discretionary powers, particularly indefinite withholding of assent to State Bills under Article 200. Contrast with ideal frameworks of Punchhi and Sarkaria Commissions." }
+            ]
           }
         ]
       },
@@ -172,6 +221,12 @@ export const RAW_D = [
             "children": [
               { "label": "Each state has HC; common HC for 2+ states/UTs possible.\nWrit jurisdiction (Art 226) wider than SC." },
               { "label": "Subordinate Courts: district courts, sessions courts.\nSeparation from executive (Art 50)." }
+            ]
+          },
+          {
+            "label": "MAINS: Judicial Activism vs Overreach & Collegium",
+            "children": [
+              { "label": "Thin line between protecting fundamental rights (activism) and usurping executive/legislative functions (overreach). Friction over Memorandum of Procedure (MoP) for appointments, balancing judicial independence and executive accountability." }
             ]
           },
           {
@@ -243,6 +298,43 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "Emergency Provisions (Art 352, 356, 360)",
+        "children": [
+          {
+            "label": "National Emergency (Art 352)",
+            "children": [
+              { "label": "Grounds: war, external aggression, armed rebellion.\nEffect: FRs under Art 19 automatically suspended; other FRs (except 20, 21) can be suspended.\nArt 358 and 359 distinction." }
+            ]
+          },
+          {
+            "label": "President’s Rule (Art 356)",
+            "children": [
+              { "label": "Grounds: failure of constitutional machinery in a State.\nJudicial review: SR Bommai case (1994) – not absolute, floor test required." }
+            ]
+          },
+          {
+            "label": "Financial Emergency (Art 360)",
+            "children": [
+              { "label": "Grounds: threat to financial stability or credit of India.\nNever proclaimed." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Asymmetric Federalism & Art 371",
+        "children": [
+          {
+            "label": "Article 371 (A‑J) & Special Provisions",
+            "children": [
+              { "label": "Special provisions for specific states (Nagaland, Mizoram, Maharashtra, Gujarat, etc.) to accommodate historical trajectories, tribal customary laws, and regional economic imbalances." },
+              { "label": "Contrast this accommodation of diverse regional aspirations with the abrogation of Article 370, discussing how asymmetric federalism holds the Indian union together without compromising sovereign integrity." }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -259,7 +351,7 @@ export const RAW_D = [
             "label": "Structure & Provisions",
             "children": [
               { "label": "3‑tier: Gram Panchayat (village), Panchayat Samiti (block), Zila Parishad (district).\n11th Schedule (29 subjects)." },
-              { "label": "Gram Sabha: body of all registered voters in a village.\nReservations: SC/ST proportional; 1/3 seats for women (now upto 50% in many states)." },
+              { "label": "Gram Sabha: body of all registered voters in a village.\nReservations: SC/ST proportional; 1/3 seats for women (now up to 50% in many states)." },
               { "label": "State Election Commission conducts elections; State Finance Commission every 5 years for financial devolution." }
             ]
           },
@@ -283,6 +375,37 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "5th & 6th Schedules",
+        "children": [
+          {
+            "label": "Scheduled Areas & Tribal Areas",
+            "children": [
+              { "label": "5th Schedule: administration of Scheduled Areas in 10 states (AP, Chhattisgarh, Gujarat, HP, Jharkhand, MP, Maharashtra, Odisha, Rajasthan, Telangana); Governor powers, Tribes Advisory Council." },
+              { "label": "6th Schedule: administration of Tribal Areas in Assam, Meghalaya, Tripura, Mizoram; Autonomous District Councils with legislative, executive, judicial powers." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: The 3Fs Crisis & Parastatals",
+        "children": [
+          {
+            "label": "The Devolution Deficit",
+            "children": [
+              { "label": "Structural failure of State governments to genuinely devolve Funds, Functions, and Functionaries (3Fs) to Panchayats and ULBs, reducing them to mere implementation agencies rather than true institutions of self‑government." }
+            ]
+          },
+          {
+            "label": "The Rise of Parastatals",
+            "children": [
+              { "label": "Special Purpose Vehicles (SPVs) created for central schemes (e.g., Smart Cities Mission) bypass elected municipal bodies and Mayors, undermining the democratic mandate of the 74th Amendment." }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -299,6 +422,14 @@ export const RAW_D = [
             "label": "Composition & Independence",
             "children": [
               { "label": "Chief Election Commissioner + 2 Election Commissioners.\nAppointed by President.\nTenure 6 years/65 age.\nRemoval similar to SC judge." }
+            ]
+          },
+          {
+            "label": "MAINS: Electoral Dynamics & RPA 1951",
+            "children": [
+              { "label": "RPA 1951: critical analysis of criminalization of politics (Sec 8 disqualification) and ECI's power to deregister parties." },
+              { "label": "Electoral Bonds struck down (2024) under Art 19(1)(a) as voters' right to information; tension between anonymity and transparency." },
+              { "label": "One Nation, One Election: Ram Nath Kovind Committee report; federal, logistical challenges." }
             ]
           }
         ]
@@ -359,6 +490,24 @@ export const RAW_D = [
             "label": "Appointed by President to investigate matters related to linguistic minorities."
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "Delimitation Commission & Inter‑State River Water Disputes",
+        "children": [
+          {
+            "label": "Delimitation (Art 82)",
+            "children": [
+              { "label": "Redraws parliamentary/assembly constituencies after each Census.\nOrders have force of law, not reviewable by courts." }
+            ]
+          },
+          {
+            "label": "Art 262 & Tribunals",
+            "children": [
+              { "label": "Parliament may provide for adjudication of inter‑state river water disputes, excluding SC jurisdiction.\nTribunals: e.g., Cauvery, Krishna, Ravi‑Beas." }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -408,7 +557,13 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Others: CBI (DSPE Act), NIA (NIA Act 2008), ED (FEMA/PMLA), etc.",
+            "label": "CBI (DSPE Act, 1946) – non‑statutory investigative agency, derives power from DSPE Act, 1946.",
+            "children": [
+              { "label": "TRAP: CBI is not a statutory body; it was created by an executive resolution in 1963." }
+            ]
+          },
+          {
+            "label": "NIA (NIA Act 2008), ED (FEMA/PMLA), etc.",
             "children": []
           }
         ]
@@ -432,7 +587,7 @@ export const RAW_D = [
   {
     "id": "VII",
     "p": "pm",
-    "label": "Public Policy, RTI & Citizen’s Charter",
+    "label": "Public Policy, RTI, Citizen’s Charter & Civil Society",
     "children": [
       {
         "p": "pm2",
@@ -445,19 +600,111 @@ export const RAW_D = [
               { "label": "Two‑tier appeal: First Appellate Authority → CIC/SIC." }
             ]
           },
-          {
-            "label": "MAINS: RTI as a tool of accountability; issues of frivolous applications, attacks on whistleblowers, need for protection." }
-          ]
+          { "label": "MAINS: RTI as a tool of accountability; issues of frivolous applications, attacks on whistleblowers, need for protection." }
+        ]
       },
       {
         "p": "pm2",
-        "label": "Citizen’s Charter",
+        "label": "Citizen’s Charter & Sevottam Model",
         "children": [
           {
             "label": "Concept & Implementation",
             "children": [
               { "label": "Originated in UK (1991).\nIn India adopted 1997.\nA document outlining service standards, grievance redressal, and accountability." },
               { "label": "Challenges: poor design, lack of consultation, inadequate awareness, no legal backing (except Sevottam model)." }
+            ]
+          },
+          {
+            "label": "Sevottam Model",
+            "children": [
+              { "label": "Developed by DARPG; three components: Citizen’s Charter standards, Public Grievance Redress Mechanism, and Service Delivery Capability." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Civil Society, NGOs & Pressure Groups",
+        "children": [
+          {
+            "label": "Role of the Third Sector",
+            "children": [
+              { "label": "NGOs and pressure groups act as force multipliers for governance (e.g., MKSS conceptualising RTI)." }
+            ]
+          },
+          {
+            "label": "FCRA & Regulatory Friction",
+            "children": [
+              { "label": "Tightening of Foreign Contribution (Regulation) Act balances curbing money laundering/anti‑national activities against preventing stifling of genuine civil society activism." }
+            ]
+          },
+          { "label": "MAINS: Analyse the role of civil society in strengthening democratic governance and the challenges posed by FCRA regulations." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: The Corporatization of Politics",
+        "children": [
+          {
+            "label": "State Funding of Elections",
+            "children": [
+              { "label": "Post‑Electoral Bonds, need for state funding to level the playing field against corporate lobbying and illicit funding networks." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Second Administrative Reforms Commission (2nd ARC)",
+        "children": [
+          {
+            "label": "Key Reports (Veerappa Moily, 2005‑2009)",
+            "children": [
+              { "label": "1st: Right to Information – Master Key to Good Governance." },
+              { "label": "2nd: Unlocking Human Capital – Entitlements and Governance." },
+              { "label": "4th: Ethics in Governance (corruption, whistleblower protection, Lokpal)." },
+              { "label": "6th: Local Governance." },
+              { "label": "11th: Promoting e‑Governance – The SMART Government." },
+              { "label": "12th: Citizen‑Centric Administration – The Heart of Governance." },
+              { "label": "13th: Organisational Structure of Government of India." },
+              { "label": "14th: Strengthening Financial Management Systems." },
+              { "label": "15th: State and District Administration." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Social Audit",
+        "children": [
+          {
+            "label": "MGNREGA & Statutory Backing",
+            "children": [
+              { "label": "Introduced under MGNREGA (2005); conducted by Gram Sabha with Social Audit Units (SAUs). Provides platform for beneficiaries to verify works and expenditures; statutory backing under MGNREGA." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Good Governance Index (GGI) & Probity",
+        "children": [
+          {
+            "label": "GGI (DARPG, 2019)",
+            "children": [
+              { "label": "Assesses states on 10 sectors including agriculture, commerce, human resource, public health, infrastructure, economic governance." }
+            ]
+          },
+          {
+            "label": "Whistle‑blowers Protection Act 2014",
+            "children": [
+              { "label": "Mechanism to receive and inquire into public interest disclosures against corruption, misuse of power, criminal offence by public servants." }
+            ]
+          },
+          {
+            "label": "Probity in Governance",
+            "children": [
+              { "label": "Adherence to highest ethical standards; instruments: code of conduct, CVC, Lokpal, RTI, citizen’s charter, e‑tendering.\nNolan Committee’s seven principles (UK): selflessness, integrity, objectivity, accountability, openness, honesty, leadership." }
             ]
           }
         ]
@@ -473,18 +720,12 @@ export const RAW_D = [
         "p": "pm2",
         "label": "Types & Initiatives",
         "children": [
-          {
-            "label": "G2C, G2B, G2G, G2E models.\nExamples: DigiLocker, UMANG, e‑Office, Aadhaar (UIDAI), Common Service Centres (CSCs)." },
-            { "label": "Digital India programme (2015): pillars – infrastructure, services on demand, citizen empowerment." }
-          ]
-        },
-        {
-          "label": "Challenges & MAINS",
-          "children": [
-            { "label": "Digital divide, privacy concerns (Aadhaar judgment 2018), cyber security, lack of digital literacy." }
-          ]
-        }
-      ]
+          { "label": "G2C, G2B, G2G, G2E models.\nExamples: DigiLocker, UMANG, e‑Office, Aadhaar (UIDAI), Common Service Centres (CSCs)." },
+          { "label": "Digital India programme (2015): pillars – infrastructure, services on demand, citizen empowerment.\nMeghRaj (GI Cloud), e‑Kranti, PRAGATI (PM’s platform for grievance redressal and project monitoring)." }
+        ]
+      },
+      { "label": "Challenges & MAINS: Digital divide, privacy concerns (Aadhaar judgment 2018), cyber security, lack of digital literacy." }
+    ]
   },
   {
     "id": "IX",
@@ -495,18 +736,12 @@ export const RAW_D = [
         "p": "pm2",
         "label": "Constitutional Provisions & Structure",
         "children": [
-          {
-            "label": "Art 308‑323 (Part XIV).\nAll‑India Services (Art 312).\nRecruitment by UPSC/State PSCs." },
-            { "label": "Cadre system, neutrality, anonymity, permanency.\nCode of Conduct (Central Civil Services Conduct Rules)." }
-          ]
-        },
-        {
-          "label": "Reforms & MAINS",
-          "children": [
-            { "label": "2nd ARC recommendations: lateral entry, performance‑based appraisal, Mission Karmayogi (Capacity Building Commission).\nChallenges: political interference, corruption, lack of specialisation." }
-          ]
-        }
-      ]
+          { "label": "Art 308‑323 (Part XIV).\nAll‑India Services (Art 312).\nRecruitment by UPSC/State PSCs." },
+          { "label": "Cadre system, neutrality, anonymity, permanency.\nCode of Conduct (Central Civil Services Conduct Rules)." }
+        ]
+      },
+      { "label": "Reforms & MAINS: 2nd ARC recommendations – lateral entry, performance‑based appraisal, Mission Karmayogi (Capacity Building Commission). Challenges: political interference, corruption, lack of specialisation." }
+    ]
   },
   {
     "id": "X",
@@ -530,8 +765,7 @@ export const RAW_D = [
         "p": "pm2",
         "label": "Other Backward Classes (OBCs)",
         "children": [
-          {
-            "label": "Mandal Commission (1980) – 27% reservation.\n102nd Amendment (2018) – constitutional status to NCBC.\nSub‑categorisation debate." }
+          { "label": "Mandal Commission (1980) – 27% reservation.\n102nd Amendment (2018) – constitutional status to NCBC.\nSub‑categorisation debate." }
         ]
       },
       {
@@ -543,6 +777,12 @@ export const RAW_D = [
             "children": [
               { "label": "Art 15(3) special provisions, Art 39(e), 42, 51A(e), 243D – reservation in Panchayats." },
               { "label": "Laws: POCSO 2012, Maternity Benefit (Amendment) 2017, Dowry Prohibition 1961, Domestic Violence 2005." }
+            ]
+          },
+          {
+            "label": "106th Amendment & Women's Reservation",
+            "children": [
+              { "label": "Nari Shakti Vandan Adhiniyam (2023): 33% reservation for women in Lok Sabha, State Legislative Assemblies, and Delhi Assembly.\nImplementation dependent on next delimitation exercise, causing a time lag between enactment and representation." }
             ]
           }
         ]
@@ -575,8 +815,7 @@ export const RAW_D = [
         "p": "pm2",
         "label": "Senior Citizens & Transgender Persons",
         "children": [
-          {
-            "label": "Maintenance & Welfare of Parents and Senior Citizens Act 2007.\nTransgender Persons (Protection of Rights) Act 2019." }
+          { "label": "Maintenance & Welfare of Parents and Senior Citizens Act 2007.\nTransgender Persons (Protection of Rights) Act 2019." }
         ]
       }
     ]
@@ -595,7 +834,7 @@ export const RAW_D = [
           { "label": "Indra Sawhney (1992): 27% OBC quota, 50% cap, creamy layer." },
           { "label": "SR Bommai (1994): Art 356 not absolute, floor test, judicial review of President's rule." },
           { "label": "Vishaka (1997): guidelines on sexual harassment at workplace → POSH Act 2013." },
-          { "label": "I.R.\nCoelho (2007): 9th Schedule laws open to judicial review if violate basic structure." },
+          { "label": "I.R. Coelho (2007): 9th Schedule laws open to judicial review if violate basic structure." },
           { "label": "Right to Privacy (Puttaswamy 2017): fundamental right under Art 21." },
           { "label": "Navtej Singh Johar (2018): decriminalised Sec 377 IPC (consensual adult homosexual sex)." },
           { "label": "Joseph Shine (2018): struck down adultery law (Sec 497 IPC)." },
@@ -617,7 +856,7 @@ export const RAW_D = [
           { "label": "24th (1971): Parliament's power to amend FRs; President must assent to amendment bills." },
           { "label": "25th (1971): curbed property right (Art 31C – DPSP over FR)." },
           { "label": "26th (1971): privy purse abolished." },
-          { "label": "42nd (1976): 'mini-Constitution', added Socialist/Secular, Fundamental Duties, extended President's rule period, curtailed judicial review (later struck down)." },
+          { "label": "42nd (1976): 'mini‑Constitution', added Socialist/Secular, Fundamental Duties, extended President's rule period, curtailed judicial review (later struck down)." },
           { "label": "44th (1978): reversed many 42nd provisions; right to property removed from FR (now Art 300A, legal right); Art 359 safeguards during emergency." },
           { "label": "52nd (1985): anti‑defection law (10th Schedule)." },
           { "label": "61st (1988): lowered voting age to 18." },
@@ -628,9 +867,10 @@ export const RAW_D = [
           { "label": "101st (2016): GST." },
           { "label": "102nd (2018): constitutional status to NCBC." },
           { "label": "103rd (2019): 10% EWS reservation." },
-          { "label": "105th (2021): restoring state power to identify SEBCs." }
+          { "label": "105th (2021): restoring state power to identify SEBCs." },
+          { "label": "106th (2023): Nari Shakti Vandan Adhiniyam – 33% women's reservation in Lok Sabha and State Assemblies (subject to delimitation)." }
         ]
       }
     ]
   }
-]
+] satisfies RawSubjectNode[];

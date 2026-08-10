@@ -1,6 +1,7 @@
 import type { RawSubjectNode } from "../types";
 
-export const RAW_D = [
+export const RAW_D =
+[
   {
     "id": "I",
     "p": "pm",
@@ -58,7 +59,7 @@ export const RAW_D = [
             "label": "Laws of Thermodynamics",
             "children": [
               { "label": "Zeroth: thermal equilibrium.\nFirst: energy conservation (ΔU = Q - W).\nSecond: entropy always increases; heat flows hot to cold; no perfect engine." },
-              { "label": "Third: absolute zero unreachable.\nApplication: refrigerators, heat engines, AC." }
+              { "label": "Third: absolute zero unreachable.\nApplication: refrigerators, heat engines, AC.\nCarnot cycle: ideal efficiency, no real engine reaches it." }
             ]
           }
         ]
@@ -137,6 +138,14 @@ export const RAW_D = [
               { "label": "Faraday's law: changing magnetic field induces current.\nGenerator (mechanical → electrical), motor (electrical → mechanical)." },
               { "label": "Induction cooktop, wireless charging, metal detectors." }
             ]
+          },
+          {
+            "label": "Semiconductors & Electronics",
+            "children": [
+              { "label": "Semiconductors: intrinsic vs extrinsic, doping (n‑type: excess electrons, p‑type: holes).\np‑n junction diode (rectifier)." },
+              { "label": "Light Emitting Diode (LED): efficient light source.\nPhotodiode: light sensor.\nSolar cell: photovoltaic effect." },
+              { "label": "Transistor: switch/amplifier; IC (Integrated Circuit) – miniaturised electronic circuit.\nSuperconductivity: zero resistance below critical temp, Meissner effect; MRI, maglev, particle accelerators." }
+            ]
           }
         ]
       },
@@ -157,7 +166,8 @@ export const RAW_D = [
             "label": "Quantum Mechanics & Relativity",
             "children": [
               { "label": "Wave-particle duality (light & electrons).\nPhotoelectric effect (Einstein, solar panels)." },
-              { "label": "Special relativity: E=mc², time dilation, length contraction.\nGeneral relativity: gravity as curvature of spacetime (GPS correction)." }
+              { "label": "Special relativity: E=mc², time dilation, length contraction.\nGeneral relativity: gravity as curvature of spacetime (GPS correction)." },
+              { "label": "Gravitational waves: ripples in spacetime, detected by LIGO; LIGO‑India project.\nHiggs boson: 'God particle', gives mass, discovered at CERN's Large Hadron Collider (2012)." }
             ]
           },
           {
@@ -165,6 +175,12 @@ export const RAW_D = [
             "children": [
               { "label": "LASER: Light Amplification by Stimulated Emission of Radiation.\nProperties: monochromatic, coherent, directional." },
               { "label": "Applications: fiber optics communication, surgery (LASIK), cutting/welding, printers, barcode scanners, LIDAR." }
+            ]
+          },
+          {
+            "label": "Communication Technologies",
+            "children": [
+              { "label": "Modulation: AM (amplitude), FM (frequency) – needed for long‑distance transmission.\nRadar: Radio Detection and Ranging (air traffic, weather).\nLiDAR: Light Detection and Ranging (3D mapping, autonomous vehicles).\nSonar: Sound Navigation and Ranging (underwater)." }
             ]
           }
         ]
@@ -198,7 +214,7 @@ export const RAW_D = [
             "label": "Acids, Bases & Salts",
             "children": [
               { "label": "pH scale (0-14).\nAcid + base → salt + water.\nImportant: stomach acid (HCl), antacids (Mg(OH)₂)." },
-              { "label": "Buffer solutions maintain pH (blood buffering)." }
+              { "label": "Buffer solutions maintain pH (blood buffering).\nSoaps: sodium/potassium salts of fatty acids; micelle formation; do not work in hard water (Ca²⁺/Mg²⁺ precipitate).\nDetergents: synthetic, work in hard water." }
             ]
           }
         ]
@@ -213,6 +229,14 @@ export const RAW_D = [
               { "label": "Baking soda (NaHCO₃) – antacid, fire extinguisher.\nWashing soda (Na₂CO₃) – water softener.\nBleaching powder (CaOCl₂) – disinfectant." },
               { "label": "Plaster of Paris (CaSO₄·½H₂O) – setting involves hydration.\nGypsum (CaSO₄·2H₂O) – cement, soil conditioner." },
               { "label": "Common salt (NaCl) – preservation.\nSodium hydroxide (NaOH, caustic soda) – soap, paper.\nHydrochloric acid (HCl) – cleaning." }
+            ]
+          },
+          {
+            "label": "Industrial Processes & Materials",
+            "children": [
+              { "label": "Haber process: N₂ + H₂ → NH₃ (ammonia for fertilizers).\nOstwald process: NH₃ → HNO₃ (nitric acid).\nContact process: SO₂ → SO₃ → H₂SO₄ (sulphuric acid)." },
+              { "label": "Glass: soda‑lime glass (ordinary), borosilicate glass (Pyrex, heat‑resistant).\nCement: limestone (CaCO₃), clay, gypsum; sets via hydration." },
+              { "label": "Water hardness: temporary (Ca(HCO₃)₂, removed by boiling) and permanent (CaSO₄, MgCl₂, removed by washing soda or ion exchange)." }
             ]
           },
           {
@@ -270,6 +294,13 @@ export const RAW_D = [
               { "label": "Ozone depletion: CFCs (chlorofluorocarbons) breakdown O₃ in stratosphere.\nMontreal Protocol (1987) phased out CFCs." },
               { "label": "MAINS: Climate change mitigation, green chemistry principles." }
             ]
+          },
+          {
+            "label": "MAINS: Green Chemistry & Sustainability",
+            "children": [
+              { "label": "Principles of Green Chemistry – atom economy, designing safer chemicals, and reducing hazardous by-products to achieve sustainable industrial processes." },
+              { "label": "The life-cycle analysis of plastics – the persistence of non-biodegradable synthetic polymers and the cascading ecological impacts of microplastics entering the food web." }
+            ]
           }
         ]
       }
@@ -303,6 +334,15 @@ export const RAW_D = [
               { "label": "Mitosis (identical daughter cells, growth/repair), Meiosis (gametes, halving chromosomes, variation)." },
               { "label": "Cancer: uncontrolled cell division.\nCarcinogens, chemotherapy, radiation therapy, immunotherapy." }
             ]
+          },
+          {
+            "label": "Classical Genetics",
+            "children": [
+              { "label": "Mendel’s laws: Law of Dominance, Law of Segregation, Law of Independent Assortment." },
+              { "label": "Sex determination: XY system; sex-linked disorders: haemophilia, colour blindness." },
+              { "label": "Blood groups: ABO system, Rh factor; universal donor (O−), universal recipient (AB+)." },
+              { "label": "Genetic disorders: Down syndrome (trisomy 21), Thalassemia, Sickle cell anaemia." }
+            ]
           }
         ]
       },
@@ -313,10 +353,18 @@ export const RAW_D = [
           {
             "label": "Organ Systems Overview",
             "children": [
-              { "label": "Digestive: enzymes, absorption in small intestine.\nRespiratory: O₂/CO₂ exchange in alveoli; hemoglobin carries oxygen." },
+              { "label": "Digestive: enzymes, absorption in small intestine.\nRespiratory: O₂/CO₂ exchange in alveoli; hemoglobin carries oxygen.\nCellular respiration: aerobic (glucose + O₂ → CO₂ + H₂O + ATP) in mitochondria; anaerobic (fermentation) in muscles (lactic acid) and yeast (ethanol).\nATP as energy currency." },
               { "label": "Circulatory: heart (4 chambers), arteries (away), veins (to heart).\nBlood: RBC (oxygen), WBC (immunity), platelets (clotting)." },
               { "label": "Nervous: brain (cerebrum, cerebellum, medulla), spinal cord, neurons, synapse, reflex arc." },
               { "label": "Endocrine: hormones – insulin (pancreas, lowers glucose), thyroxine (metabolism), adrenaline (stress)." }
+            ]
+          },
+          {
+            "label": "Vitamins & Minerals",
+            "children": [
+              { "label": "Water‑soluble vitamins: B‑complex (B₁‑thiamine, B₂‑riboflavin, B₃‑niacin, B₆, B₁₂, folic acid), C (ascorbic acid).\nFat‑soluble: A, D, E, K." },
+              { "label": "Deficiency: night blindness (A), beriberi (B₁), pellagra (B₃), scurvy (C), rickets (D), etc." },
+              { "label": "Minerals: iron (anaemia), iodine (goitre), calcium (osteoporosis)." }
             ]
           },
           {
@@ -334,6 +382,26 @@ export const RAW_D = [
               { "label": "Bacterial: Tuberculosis (Mycobacterium), Typhoid (Salmonella), Cholera (Vibrio), Leprosy.\nAntibiotics work on bacteria, not viruses." },
               { "label": "Protozoan: Malaria (Plasmodium, Anopheles mosquito), Kala-azar (Leishmania), Amoebiasis." },
               { "label": "Fungal: ringworm, candidiasis.\nPrion: mad cow disease (CJD)." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Plant Biology",
+        "children": [
+          {
+            "label": "Photosynthesis & Transport",
+            "children": [
+              { "label": "Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (chlorophyll, chloroplast; light & dark reactions)." },
+              { "label": "Transpiration pull, cohesion‑tension theory, xylem (water) and phloem (food)." }
+            ]
+          },
+          {
+            "label": "Plant Hormones & Tropisms",
+            "children": [
+              { "label": "Auxins: apical dominance, phototropism.\nGibberellins: stem elongation.\nCytokinins: cell division.\nEthylene: fruit ripening.\nAbscisic acid: stress hormone." },
+              { "label": "Tropisms: phototropism (light), geotropism (gravity), hydrotropism (water)." }
             ]
           }
         ]
@@ -401,15 +469,15 @@ export const RAW_D = [
             "label": "Hardware & Software",
             "children": [
               { "label": "CPU (ALU, Control Unit), RAM (volatile), ROM (non-volatile, BIOS), Storage (HDD, SSD)." },
-              { "label": "Input/Output devices.\nOperating System (Windows, Linux, Android).\nApplication software vs system software." },
-              { "label": "Number systems: binary, octal, hexadecimal.\nQuantum computing: qubits, superposition, entanglement." }
+              { "label": "Input/Output devices.\nOperating System (Windows, Linux, Android).\nApplication software vs system software.\nOpen source software (e.g., Linux) vs proprietary software." },
+              { "label": "Number systems: binary, octal, hexadecimal.\nSupercomputers: India's PARAM series, Pratyush (weather), Mihir (weather)." }
             ]
           },
           {
             "label": "Networking & Internet",
             "children": [
               { "label": "IP address (IPv4 vs IPv6), DNS, URL, HTTP/HTTPS (SSL/TLS encryption)." },
-              { "label": "Cloud computing: SaaS, PaaS, IaaS.\nEdge computing.\nIoT (Internet of Things): smart devices, sensors, actuators." }
+              { "label": "Cloud computing: SaaS, PaaS, IaaS.\nEdge computing.\nIoT (Internet of Things): smart devices, sensors, actuators.\nDark web / Deep web: deep web is part of internet not indexed by search engines; dark web requires special software (Tor) for anonymity." }
             ]
           },
           {
@@ -417,8 +485,45 @@ export const RAW_D = [
             "children": [
               { "label": "AI/ML: supervised, unsupervised, reinforcement learning.\nDeep learning, neural networks, NLP (ChatGPT)." },
               { "label": "Blockchain: distributed ledger, immutable, consensus mechanisms (PoW, PoS).\nApplications: cryptocurrency, supply chain, land records." },
-              { "label": "Big Data (3Vs: volume, velocity, variety), Data analytics, 3D printing (additive manufacturing)." },
-              { "label": "MAINS: AI ethics, data privacy (PDP Bill), digital divide, cyber security threats." }
+              { "label": "Big Data (3Vs: volume, velocity, variety), Data analytics, 3D printing (additive manufacturing)." }
+            ]
+          },
+          {
+            "label": "AI Governance & Deepfakes",
+            "children": [
+              { "label": "Contrast discriminative AI with Generative AI (LLMs like ChatGPT).\nDeepfakes pose severe risks to electoral integrity, privacy, and social cohesion.\nCountermeasures include digital watermarking and algorithmic detection." },
+              { "label": "IndiaAI Mission (2024): ₹10,372 crore outlay via PPP. Key components: 10,000+ GPUs for compute capacity, development of indigenous Large Multimodal Models (LMMs), and IndiaAI Datasets Platform to democratize AI tech." },
+              { "label": "Governance: NITI Aayog’s 'Responsible AI for All' principles – balancing innovation with safety, inclusivity, and privacy. Need to evaluate balance between algorithmic innovation and data privacy." }
+            ]
+          },
+          {
+            "label": "Quantum Technology",
+            "children": [
+              { "label": "Quantum computing: qubits, superposition, entanglement.\nNational Quantum Mission (NQM, 2023‑2031): targets 50‑1000 physical qubits; inter‑city QKD over 2000 km; 4 Thematic Hubs (T‑Hubs) for sensing, materials, cryptography." },
+              { "label": "Applications: Quantum Key Distribution (QKD) for unhackable communications, relying on quantum mechanics rather than mathematical complexity." }
+            ]
+          },
+          {
+            "label": "Data Privacy & Regulatory Framework",
+            "children": [
+              { "label": "Digital Personal Data Protection (DPDP) Act, 2023: establishes Data Principals, Data Fiduciaries, and a Data Protection Board; penalty-based compliance model. Governs data flow from frontend frameworks and GET requests – mandates localization, explicit consent." },
+              { "label": "Critical Information Infrastructure (CII): protected under IT Act; NCIIPC oversees protection of power grids, banking, etc." },
+              { "label": "Malware, phishing, DDoS attacks.\nFirewall, encryption, digital signature.\nCERT-In, National Cyber Security Policy." }
+            ]
+          },
+          {
+            "label": "Critical Infrastructure & Telecom",
+            "children": [
+              { "label": "Open RAN (O-RAN): breaks proprietary hardware lock-in in telecom; aids Bharat 6G Vision.\nIndigenous 5G/6G development." },
+              { "label": "DigiLocker, Aadhaar (UIDAI), UPI as digital public infrastructure." }
+            ]
+          },
+          {
+            "label": "MAINS: IT, Ethics & Society",
+            "children": [
+              { "label": "Ethical dimensions of Artificial Intelligence – algorithmic bias, the 'black box' problem in decision-making, and long-term socio-economic impacts like structural unemployment." },
+              { "label": "The conceptual divide between classical computing (binary states) and quantum computing (superposition and entanglement), and its theoretical implications for breaking modern cryptography." },
+              { "label": "The socio-economic reality of the 'Digital Divide' – how lack of access to foundational IT infrastructure and digital literacy exacerbates existing inequalities in education and healthcare." }
             ]
           }
         ]
@@ -442,14 +547,6 @@ export const RAW_D = [
             ]
           }
         ]
-      },
-      {
-        "p": "pm2",
-        "label": "Cyber Security & Digital India",
-        "children": [
-          { "label": "Malware: virus, worm, trojan, ransomware.\nPhishing, DDoS attacks.\nFirewall, encryption, digital signature." },
-          { "label": "Initiatives: DigiLocker, Aadhaar (UIDAI), UPI, CERT-In, National Cyber Security Policy." }
-        ]
       }
     ]
   },
@@ -471,11 +568,38 @@ export const RAW_D = [
             ]
           },
           {
+            "label": "Satellite Types & Series",
+            "children": [
+              { "label": "Communication: INSAT/GSAT series (geostationary, weather, telecom).\nEarth Observation: IRS, Cartosat, RISAT, Oceansat.\nNavigation: NavIC (IRNSS – 7 satellites).\nScience: Astrosat (multi-wavelength), Chandrayaan, Mangalyaan." }
+            ]
+          },
+          {
             "label": "Major Missions",
             "children": [
-              { "label": "Chandrayaan-1 (2008): discovered water molecules on Moon.\nChandrayaan-2 (2019): orbiter successful, lander (Vikram) failed.\nChandrayaan-3 (2023): soft landing near south pole (Shiv Shakti point)." },
-              { "label": "Mangalyaan (MOM, 2013): Mars orbiter, first attempt success.\nGaganyaan: proposed crewed mission." },
+              { "label": "Chandrayaan-1 (2008): discovered water molecules on Moon.\nChandrayaan-2 (2019): orbiter successful, lander (Vikram) failed.\nChandrayaan-3 (2023): soft landing near south pole (Shiv Shakti point); demonstrated autonomous landing and lunar seismology." },
+              { "label": "Mangalyaan (MOM, 2013): Mars orbiter, first attempt success.\nGaganyaan: proposed crewed mission.\nAditya-L1: solar observatory at Lagrange L1; Halo orbit for uninterrupted solar corona observation to mitigate space weather impacts." },
               { "label": "Astrosat: multi-wavelength space observatory.\nNavIC: Indian regional navigation system." }
+            ]
+          },
+          {
+            "label": "Space Sector Reforms & Policy",
+            "children": [
+              { "label": "Indian Space Policy 2023: ISRO focuses on deep space R&D; IN-SPACe acts as single‑window independent regulator for Non‑Governmental Entities (NGEs); NSIL handles commercialization of space technologies. 100% FDI allowed in specific space domains." },
+              { "label": "SpaDeX (Space Docking Experiment): necessary for future Bharatiya Antariksha Station (BAS)." }
+            ]
+          },
+          {
+            "label": "Space Debris & Sustainability",
+            "children": [
+              { "label": "Project NETRA (Network for space object Tracking and Analysis): early warning system to prevent satellite collisions, mitigating Kessler Syndrome." },
+              { "label": "Space sustainability: debris mitigation guidelines, active removal.\nKessler Syndrome: cascading collision effect emphasizing need for global space commons governance." }
+            ]
+          },
+          {
+            "label": "MAINS: Space Technology & Society",
+            "children": [
+              { "label": "Socio-economic utility of space technology in developing nations – application of earth observation and communication satellites in tele-medicine, tele-education, crop forecasting, and disaster management." },
+              { "label": "The strategic and functional differences between Low Earth Orbit (LEO) for low-latency communication/imaging and Geostationary Orbit (GEO) for continuous regional coverage." }
             ]
           },
           {
@@ -499,7 +623,7 @@ export const RAW_D = [
           {
             "label": "Important Missions & Telescopes",
             "children": [
-              { "label": "International Space Station (ISS).\nJames Webb Space Telescope (JWST) – infrared, L2 point.\nHubble – optical.\nArtemis – NASA's Moon programme." }
+              { "label": "International Space Station (ISS).\nJames Webb Space Telescope (JWST) – infrared, L2 point.\nHubble – optical.\nChandra – X‑ray.\nArtemis – NASA's Moon programme." }
             ]
           }
         ]
@@ -537,6 +661,14 @@ export const RAW_D = [
             ]
           },
           {
+            "label": "Missile Dynamics & Hypersonics",
+            "children": [
+              { "label": "Ballistic missiles: exo-atmospheric Keplerian arc; e.g., Agni-V with MIRV (Multiple Independently Targetable Reentry Vehicles)." },
+              { "label": "Cruise missiles: intra-atmospheric, stealthy; e.g., BrahMos." },
+              { "label": "Hypersonic missiles: speed > Mach 5; Hypersonic Glide Vehicles (HGVs) offer unpredictable maneuverability; Scramjet propulsion." }
+            ]
+          },
+          {
             "label": "Nuclear Triad & Submarines",
             "children": [
               { "label": "Nuclear triad: land (Agni), air (fighter jets), sea (Arihant class SSBN)." },
@@ -552,6 +684,38 @@ export const RAW_D = [
           { "label": "Tejas: Light Combat Aircraft (LCA).\nRafale, Sukhoi Su-30 MKI.\nApache, Chinook helicopters." },
           { "label": "UAVs/Drones: categories (nano, micro, small, medium, large).\nApplications: surveillance, agriculture, delivery.\nDRDO Rustom, Heron, Predator." },
           { "label": "MAINS: Drone Rules 2021, use in agriculture, security concerns." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Advanced Technologies",
+        "children": [
+          { "label": "Stealth technology: radar‑absorbent materials and shapes to reduce radar cross‑section (e.g., B‑2 Spirit, F‑35)." },
+          { "label": "Hypersonic missiles: speed > Mach 5, manoeuvrable, scramjet propulsion (e.g., Avangard, Zircon)." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Naval Tech & Sub-surface",
+        "children": [
+          { "label": "Air-Independent Propulsion (AIP): allows conventional diesel-electric submarines (Project 75 Kalvari-class) to remain submerged significantly longer without snorkeling, enhancing stealth." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Modern Warfare & Innovation",
+        "children": [
+          { "label": "Directed Energy Weapons (DEWs): High-Power Microwaves critical for anti-drone solutions (e.g., DRDO's D4 system)." },
+          { "label": "iDEX (Innovations for Defence Excellence): framework leveraging MSMEs and startups to achieve Atmanirbhar Bharat in defence manufacturing." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Defence Strategy & Deterrence",
+        "children": [
+          { "label": "The strategic doctrine of the Nuclear Triad – establishing survivability and a credible 'second-strike' capability to ensure effective nuclear deterrence." },
+          { "label": "The concept of 'Dual-Use Technologies' (e.g., space launch vehicles and nuclear enrichment) and the challenges of global non-proliferation regimes." },
+          { "label": "Asymmetric warfare and cyber security – how malware and DDoS attacks target Critical Information Infrastructure (CII) like power grids and financial systems, bypassing traditional military defenses." }
         ]
       },
       {
@@ -591,6 +755,31 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
+        "label": "Green Hydrogen Transition",
+        "children": [
+          { "label": "National Green Hydrogen Mission targets 5 MMT production by 2030.\nSIGHT (Strategic Interventions for Green Hydrogen Transition) programme subsidizes domestic electrolyzer manufacturing to overcome high capital costs and storage/transport bottlenecks." },
+          { "label": "Green hydrogen: produced via electrolysis using renewable energy; fuel cells convert H₂ + O₂ → electricity." },
+          { "label": "MAINS: Role in hard-to-abate sectors (steel, cement, heavy transport), export potential, energy security." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Nuclear Innovations",
+        "children": [
+          { "label": "Small Modular Reactors (SMRs): factory-fabricated, scalable (up to 300 MW), safer passive-cooling; alternative to large reactors. Decentralized power generation with lower upfront capital cost." },
+          { "label": "India's 3-stage thorium program and global fusion research via ITER (International Thermonuclear Experimental Reactor)." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Energy Storage Challenges",
+        "children": [
+          { "label": "Intermittency of solar & wind requires robust Battery Energy Storage Systems (BESS) and Pumped Hydro storage." },
+          { "label": "Critical Minerals (Lithium, Cobalt) supply chain concentrated in few nations; India's Lithium reserves (J&K, Rajasthan)." }
+        ]
+      },
+      {
+        "p": "pm2",
         "label": "Renewable Energy",
         "children": [
           {
@@ -606,15 +795,16 @@ export const RAW_D = [
               { "label": "Wind: onshore & offshore.\nIndia 4th largest installed wind capacity.\nBiomass: bagasse, agri-residue; biogas (methane)." },
               { "label": "Hydropower: large dams (Tehri, Bhakra) and small/mini/micro hydro (run-of-river)." }
             ]
-          },
-          {
-            "label": "Green Hydrogen & New Energy Sources",
-            "children": [
-              { "label": "Green hydrogen: electrolysis using renewable energy.\nNational Green Hydrogen Mission (2023)." },
-              { "label": "Fuel cells: convert H₂ + O₂ → electricity (water byproduct).\nWave, tidal, geothermal energy (Puga Valley, Ladakh)." },
-              { "label": "MAINS: Energy transition, net-zero goals, challenges of intermittency, energy storage (battery, pumped hydro)." }
-            ]
           }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Energy Transition & Nuclear Physics",
+        "children": [
+          { "label": "The fundamental scientific and economic challenges of transitioning to renewable energy – the intermittency of solar/wind power, grid integration issues, and the need for high-density energy storage." },
+          { "label": "The rationale behind India's Three-Stage Nuclear Programme – bypassing the limited domestic uranium reserves to eventually utilize the abundant domestic thorium reserves." },
+          { "label": "The comparative physics and environmental impacts of nuclear fission (radioactive waste management) versus nuclear fusion (theoretical clean, limitless energy)." }
         ]
       }
     ]
@@ -638,10 +828,35 @@ export const RAW_D = [
           {
             "label": "Therapeutic Advances",
             "children": [
-              { "label": "Gene therapy: replacing faulty gene (e.g., for ADA deficiency).\nCAR-T cell therapy (cancer immunotherapy)." },
+              { "label": "Gene therapy: replacing faulty gene (e.g., for ADA deficiency).\nCAR-T cell therapy (cancer immunotherapy) – e.g., NexCAR19, indigenous breakthrough." },
               { "label": "3D bioprinting (tissues, organs).\nTelemedicine, AI in diagnosis.\nRobotic surgery (da Vinci)." }
             ]
+          },
+          {
+            "label": "Advanced Therapeutics & Genome Editing",
+            "children": [
+              { "label": "Precision genome editing now includes Base Editing (beyond traditional CRISPR-Cas9), allowing single-letter changes without double-strand breaks. Ethical dilemma: off‑target mutations, designer babies." },
+              { "label": "Indigenous CAR-T therapy (NexCAR19) marks a breakthrough in treating blood cancers using re-engineered immune cells." }
+            ]
           }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Biotech & Genomic Policy",
+        "children": [
+          { "label": "BioE3 Policy (2024): stands for 'Biotechnology for Economy, Environment, and Employment'. Fosters high‑performance biomanufacturing and a circular bioeconomy via Bio-AI Hubs and Biofoundries." },
+          { "label": "Genome India Project: mapped 10,000 genomes to build reference database for precision medicine and targeted therapies." },
+          { "label": "MAINS: Ethical concerns of genetic data privacy, benefit sharing, diagnostic sovereignty, and regulatory challenges faced by GEAC." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Public Health Challenges",
+        "children": [
+          { "label": "Antimicrobial Resistance (AMR): 'Silent Pandemic'; driven by antibiotic misuse.\nNational Action Plan on AMR (NAP-AMR 2.0), Red Line Campaign." },
+          { "label": "National Sickle Cell Anemia Elimination Mission: targets eradication by 2047.\nOne Health Concept: interconnection of human, animal, and environmental health (zoonotic diseases)." },
+          { "label": "MAINS: Public health infrastructure, disease surveillance, preventive healthcare." }
         ]
       },
       {
@@ -659,26 +874,67 @@ export const RAW_D = [
             "label": "Applications",
             "children": [
               { "label": "Medicine: targeted drug delivery, nano-robots.\nElectronics: smaller, faster chips.\nEnergy: efficient solar cells, batteries." },
-              { "label": "Environment: water purification, pollution sensors.\nAgriculture: nano-fertilizers, smart delivery." }
+              { "label": "Environment: water purification, pollution sensors.\nAgriculture: nano-fertilizers (Nano Urea/DAP), smart delivery." }
+            ]
+          },
+          {
+            "label": "Nanotechnology Critique (Nano-fertilizers & Risks)",
+            "children": [
+              { "label": "Nano Urea/DAP promise higher surface area, targeted delivery, and lower subsidy burdens." },
+              { "label": "Scientific debate persists on long-term soil microbial impact and actual nitrogen uptake efficiency compared to granular urea." },
+              { "label": "MAINS: The theoretical risks of nanotechnology – 'nano-toxicity' and the ability of engineered nanoparticles to cross biological membranes and the blood-brain barrier." }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "IX",
+    "p": "pm",
+    "label": "Science Policy, IPR & R&D Ecosystem",
+    "children": [
+      {
+        "p": "pm2",
+        "label": "Intellectual Property Rights (IPR) in S&T",
+        "children": [
+          {
+            "label": "Patents Act, 1970 & TRIPS Compliance",
+            "children": [
+              { "label": "Section 3(d): prevents 'evergreening' of patents (landmark Novartis case), protecting generic medicine access. Ensures only genuine innovations receive protection." },
+              { "label": "Compulsory Licensing (Section 84): allows government to permit generic production of patented product during national health emergency without patent owner's consent." }
+            ]
+          },
+          {
+            "label": "Geographical Indications (GI)",
+            "children": [
+              { "label": "Protects traditional knowledge and region‑specific goods. E.g., Darjeeling Tea, Basmati rice, Kancheepuram Silk. Prevents biopiracy of indigenous knowledge." }
+            ]
+          },
+          {
+            "label": "MAINS IPR Angle",
+            "children": [
+              { "label": "Debate: Strict IPR vs. affordable access to medicines, agricultural seeds, and green technologies. TRIPS flexibilities crucial for developing countries." }
             ]
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Emerging Diseases & Public Health",
+        "label": "Research & Development Ecosystem",
         "children": [
           {
-            "label": "AMR & Superbugs",
+            "label": "Anusandhan National Research Foundation (ANRF) Act, 2023",
             "children": [
-              { "label": "Antimicrobial Resistance (AMR): bacteria, viruses, fungi develop resistance due to overuse/misuse of antibiotics." },
-              { "label": "India's Red Line Campaign (prescription antibiotics), National Action Plan on AMR." }
+              { "label": "Subsumes SERB. Apex body providing strategic direction for scientific research; forges collaborations between academia, government, and private industry. Aim to increase private R&D contribution." },
+              { "label": "Mission for Advancement in High-impact Areas (MAHA): launched under ANRF to promote priority-driven, solution-oriented research in EV tech, MedTech, and AI." }
             ]
           },
           {
-            "label": "One Health Concept",
+            "label": "Other Key Programmes",
             "children": [
-              { "label": "Interconnection of human, animal, and environmental health.\nZoonotic diseases (COVID, Ebola, Nipah, Bird flu)." }
+              { "label": "National Mission on Interdisciplinary Cyber-Physical Systems (NM-ICPS): funds Technology Innovation Hubs (TIHs) in AI, IoT, robotics." },
+              { "label": "Atal Innovation Mission (AIM): promotes innovation culture via Atal Tinkering Labs, Atal Incubation Centres." }
             ]
           }
         ]

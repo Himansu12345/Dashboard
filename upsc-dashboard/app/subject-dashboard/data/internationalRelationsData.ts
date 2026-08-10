@@ -1,6 +1,6 @@
 import type { RawSubjectNode } from "../types";
 
-export const RAW_D = [
+export const RAW_D =[
   {
     "id": "I",
     "p": "pm",
@@ -87,7 +87,37 @@ export const RAW_D = [
     "children": [
       {
         "p": "pm2",
-        "label": "Foundational Principles",
+        "label": "Phases & Foundational Principles",
+        "children": [
+          {
+            "label": "Nehruvian Idealism (1947‑62)",
+            "children": [
+              { "label": "Non‑alignment, anti‑colonialism, Panchsheel, peacemaking.\nEstablished NAM, supported decolonization." }
+            ]
+          },
+          {
+            "label": "Realism & Pragmatism (1962‑1990)",
+            "children": [
+              { "label": "Post‑1962 war: military build‑up, security focus.\nIndira Gandhi's hard power (1971 war, nuclear test 1974).\nRajiv Gandhi's interventions (Sri Lanka, Maldives)." }
+            ]
+          },
+          {
+            "label": "Post‑Cold War Adaptations (1991‑2014)",
+            "children": [
+              { "label": "Economic reforms, Look East Policy, nuclear tests (1998), strategic partnership with US, civil nuclear deal (2008)." }
+            ]
+          },
+          {
+            "label": "Multi‑alignment & Global Assertion (2014‑present)",
+            "children": [
+              { "label": "Act East Policy, Neighbourhood First, SAGAR, Indo‑Pacific engagement, Quad revival, issue‑based partnerships (BRICS, SCO, G20 presidency)." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Core Doctrines & Initiatives",
         "children": [
           {
             "label": "Panchsheel (Five Principles, 1954)",
@@ -110,19 +140,25 @@ export const RAW_D = [
           {
             "label": "Look East to Act East Policy",
             "children": [
-              { "label": "Look East launched 1991 (Narasimha Rao); Act East launched 2014.\nFocus on economic integration, connectivity, and strategic partnership with ASEAN and East Asia." }
+              { "label": "Look East launched 1991 (Narasimha Rao); Act East launched 2014.\nFocus on economic integration, connectivity, and strategic partnership with ASEAN and East Asia.\nKey connectivity: India‑Myanmar‑Thailand Trilateral Highway, Kaladan project." }
             ]
           },
           {
             "label": "Neighbourhood First Policy",
             "children": [
-              { "label": "Prioritising immediate neighbours; connectivity, development assistance, security cooperation." }
+              { "label": "Prioritising immediate neighbours; connectivity, development assistance, security cooperation.\nAlso SAGAR (Security and Growth for All in the Region) 2015 for IOR." }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Multi‑alignment vs. Strategic Autonomy",
+        "children": [
           {
-            "label": "SAGAR (Security and Growth for All in the Region)",
+            "label": "Balancing Act",
             "children": [
-              { "label": "India's vision for the Indian Ocean Region (IOR); maritime cooperation, capacity building, sustainable development.\n2015." }
+              { "label": "India navigates between Quad (democratic alliance) and BRICS/SCO (non‑Western) without formal alliances, preserving decision‑making autonomy. Critique: risk of strategic ambiguity in crises." }
             ]
           }
         ]
@@ -161,7 +197,7 @@ export const RAW_D = [
             "children": [
               { "label": "Border dispute: LAC (Line of Actual Control), 1962 war, 2020 Galwan clashes.\nDoklam standoff 2017 (Bhutan issue)." },
               { "label": "Agreements: 1993 (Maintenance of Peace), 1996 (confidence building), 2005 (political parameters).\nWMCC (Working Mechanism for Consultation and Coordination)." },
-              { "label": "China-Pakistan Economic Corridor (CPEC) through PoK; China's String of Pearls in IOR; BRI opposition by India." }
+              { "label": "China-Pakistan Economic Corridor (CPEC) through PoK; China's String of Pearls in IOR; BRI opposition by India.\nInformal Summits: Wuhan 2018, Mamallapuram 2019." }
             ]
           }
         ]
@@ -173,7 +209,7 @@ export const RAW_D = [
           {
             "label": "Key Issues & Cooperation",
             "children": [
-              { "label": "1971 Liberation War; India's role.\nLand Boundary Agreement 2015 (settled enclaves).\nTeesta water sharing (pending)." },
+              { "label": "1971 Liberation War; India's role.\nLand Boundary Agreement 2015 (settled enclaves, ratified 2015).\nTeesta water sharing (pending)." },
               { "label": "Connectivity: Protocol on Inland Waterways Transit and Trade (PIWTT), BBIN Motor Vehicles Agreement.\nEconomic cooperation (RMG, energy).\nIllegal immigration concerns." }
             ]
           }
@@ -186,13 +222,13 @@ export const RAW_D = [
           {
             "label": "Nepal",
             "children": [
-              { "label": "India-Nepal Treaty of Peace and Friendship 1950.\nOpen border, cultural ties.\nIssues: boundary dispute (Kalapani), hydro-power cooperation (Mahakali Treaty 1996)." }
+              { "label": "India-Nepal Treaty of Peace and Friendship 1950.\nOpen border, cultural ties.\nIssues: boundary dispute (Kalapani‑Limpiyadhura‑Lipulekh), hydro-power cooperation (Mahakali Treaty 1996)." }
             ]
           },
           {
             "label": "Bhutan",
             "children": [
-              { "label": "India-Bhutan Treaty of Friendship 1949 (renewed 2007).\nHydropower cooperation (Chukha, Tala projects).\nNo border dispute; Doklam area tri-junction with China." }
+              { "label": "India-Bhutan Treaty of Friendship 1949 (renewed 2007).\nHydropower cooperation (Chukha, Tala, Mangdechhu projects).\nNo border dispute; Doklam area tri-junction with China." }
             ]
           }
         ]
@@ -204,7 +240,7 @@ export const RAW_D = [
           {
             "label": "Sri Lanka",
             "children": [
-              { "label": "Tamil issue; 1987 India-Sri Lanka Accord (IPKF).\nFisheries dispute; Katchatheevu island.\nDevelopment cooperation: India-assisted projects, housing." }
+              { "label": "Tamil issue; 1987 India-Sri Lanka Accord (IPKF, Thirteenth Amendment for devolution).\nFisheries dispute; Katchatheevu island.\nDevelopment cooperation: India-assisted projects, housing.\nIndia‑Sri Lanka Strategic Partnership." }
             ]
           },
           {
@@ -222,13 +258,25 @@ export const RAW_D = [
           {
             "label": "Afghanistan",
             "children": [
-              { "label": "India's development partnership (Salma Dam, Parliament building); strategic interests; Taliban takeover 2021 changed dynamics.\nIndia's historical support for anti-Taliban Northern Alliance." }
+              { "label": "India's development partnership (Salma Dam, Parliament building); Strategic Partnership Agreement 2011; Taliban takeover 2021 changed dynamics.\nIndia's historical support for anti-Taliban Northern Alliance." }
             ]
           },
           {
             "label": "Myanmar",
             "children": [
-              { "label": "Shared border; Kaladan Multi-Modal Transit Transport Project; India's policy of engagement with military and democratic forces; Rohingya crisis impact." }
+              { "label": "Shared border; Kaladan Multi-Modal Transit Transport Project; India's policy of engagement with both military and democratic forces; Rohingya crisis impact.\nIndia‑Myanmar‑Thailand Trilateral Highway." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Neighbourhood Challenges",
+        "children": [
+          {
+            "label": "Balancing Security, Development & China",
+            "children": [
+              { "label": "China's growing influence via BRI, CPEC, and economic penetration; India's response through development assistance, connectivity (Chabahar, INSTC), and security cooperation. Managing bilateral tensions while maintaining regional stability." }
             ]
           }
         ]
@@ -277,7 +325,7 @@ export const RAW_D = [
           {
             "label": "BIMSTEC (1997)",
             "children": [
-              { "label": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation.\n7 members: India, Bangladesh, Myanmar, Sri Lanka, Thailand, Nepal, Bhutan.\nSecretariat: Dhaka.\nFocus on connectivity, trade, counter-terrorism." }
+              { "label": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation.\n7 members: India, Bangladesh, Myanmar, Sri Lanka, Thailand, Nepal, Bhutan.\nSecretariat: Dhaka.\nFocus on connectivity, trade, counter-terrorism.\nFTA negotiations ongoing." }
             ]
           }
         ]
@@ -313,7 +361,7 @@ export const RAW_D = [
           {
             "label": "SCO (Shanghai Cooperation Organisation)",
             "children": [
-              { "label": "Founded 2001 (Shanghai Five 1996).\nMembers: China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, India, Pakistan (joined 2017).\nObserver: Iran (now member 2023), etc.\nFocus: security, counter-terrorism (RATS)." }
+              { "label": "Founded 2001 (Shanghai Five 1996).\nMembers: China, Russia, Kazakhstan, Kyrgyzstan, Tajikistan, Uzbekistan, India, Pakistan (joined 2017), Iran (2023).\nFocus: security, counter-terrorism (RATS – Regional Anti-Terrorist Structure), joint military exercises." }
             ]
           },
           {
@@ -325,7 +373,7 @@ export const RAW_D = [
           {
             "label": "G20 (1999)",
             "children": [
-              { "label": "19 countries + EU.\nPremier forum for international economic cooperation.\nIndia's G20 Presidency 2023.\nSherpa track and Finance track." }
+              { "label": "19 countries + EU.\nPremier forum for international economic cooperation.\nIndia's G20 Presidency 2023 (theme: Vasudhaiva Kutumbakam).\nSherpa track and Finance track." }
             ]
           }
         ]
@@ -371,6 +419,18 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Reformed Multilateralism",
+        "children": [
+          {
+            "label": "India's Push for UNSC & Global Governance Reform",
+            "children": [
+              { "label": "Advocating for a rules‑based order, democratization of international institutions, and voice for developing countries. Challenges from entrenched powers and geopolitical rivalries." }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -387,13 +447,13 @@ export const RAW_D = [
             "label": "Key Milestones",
             "children": [
               { "label": "Civil Nuclear Agreement (123 Agreement) 2008; NSG waiver 2008.\nStrategic partnership elevated to 'Comprehensive Global Strategic Partnership' 2020." },
-              { "label": "Defence: LEMOA (2016), COMCASA (2018), BECA (2020) – foundational agreements.\n2+2 Dialogue (Foreign and Defence Ministers).\nQuad (2007, revived 2017) – India, US, Japan, Australia." }
+              { "label": "Defence: LEMOA (2016), COMCASA (2018), BECA (2020) – foundational agreements.\n2+2 Dialogue (Foreign and Defence Ministers).\nQuad (2007, revived 2017) – India, US, Japan, Australia.\nKey dialogues: iCET (Initiative on Critical and Emerging Technology), DTTI (Defence Technology and Trade Initiative)." }
             ]
           },
           {
             "label": "Cooperation Areas",
             "children": [
-              { "label": "Trade, technology (iCET), counter-terrorism, space, energy, Indo-Pacific (free, open, inclusive)." }
+              { "label": "Trade, technology, counter-terrorism, space, energy, Indo-Pacific (free, open, inclusive)." }
             ]
           }
         ]
@@ -405,13 +465,13 @@ export const RAW_D = [
           {
             "label": "Historical & Strategic Ties",
             "children": [
-              { "label": "Treaty of Peace and Friendship 1971.\nStrategic partnership elevated to 'Special and Privileged Strategic Partnership'.\nDefence (S-400, joint production), nuclear (Kudankulam), space (Gaganyaan)." }
+              { "label": "Treaty of Peace and Friendship 1971.\nStrategic partnership elevated to 'Special and Privileged Strategic Partnership'.\nDefence (S-400, joint production, INDRA exercises), nuclear (Kudankulam), space (Gaganyaan)." }
             ]
           },
           {
             "label": "Challenges",
             "children": [
-              { "label": "Growing Russia-China axis; Ukraine war; India's balancing act (oil imports)." }
+              { "label": "Growing Russia-China axis; Ukraine war; India's balancing act (oil imports).\nMaintaining annual summits despite Western pressure." }
             ]
           }
         ]
@@ -423,7 +483,7 @@ export const RAW_D = [
           {
             "label": "Complex Relationship",
             "children": [
-              { "label": "1962 war; border disputes.\nTrade: significant (deficit).\nCompetition in IOR.\nSecurity: Doklam, Galwan, Depsang." }
+              { "label": "1962 war; border disputes (LAC, Galwan, Depsang).\nTrade: significant (deficit).\nCompetition in IOR.\nInformal summits: Wuhan 2018, Mamallapuram 2019.\nSecurity concerns: Doklam, CPEC, String of Pearls." }
             ]
           }
         ]
@@ -441,13 +501,13 @@ export const RAW_D = [
           {
             "label": "India-Japan",
             "children": [
-              { "label": "'Special Strategic and Global Partnership'.\nDefence (2+2), Quad, infrastructure (Delhi-Mumbai Industrial Corridor, Mumbai-Ahmedabad High-Speed Rail), Act East synergy." }
+              { "label": "'Special Strategic and Global Partnership'.\nDefence (2+2 Dialogue), Quad, infrastructure (Delhi-Mumbai Industrial Corridor, Mumbai-Ahmedabad High-Speed Rail), Act East synergy.\nMutual Logistics Support Agreement (MLSA)." }
             ]
           },
           {
             "label": "India-Australia",
             "children": [
-              { "label": "Elevated to Comprehensive Strategic Partnership 2020.\nECTA (Economic Cooperation and Trade Agreement) 2022.\nStrategic alignment in Indo-Pacific." }
+              { "label": "Elevated to Comprehensive Strategic Partnership 2020.\nECTA (Economic Cooperation and Trade Agreement) 2022.\nStrategic alignment in Indo-Pacific.\n2+2 Dialogue, Mutual Logistics Support Agreement (MLSA)." }
             ]
           }
         ]
@@ -471,7 +531,7 @@ export const RAW_D = [
         "p": "pm2",
         "label": "Central Asia & Connect Central Asia Policy",
         "children": [
-          { "label": "India's 'Connect Central Asia' policy 2012.\nSCO membership helps engagement.\nChabahar port for connectivity to Afghanistan and Central Asia bypassing Pakistan.\nTAPI pipeline.\nEnergy and security." }
+          { "label": "India's 'Connect Central Asia' policy 2012.\nSCO membership helps engagement.\nChabahar port for connectivity to Afghanistan and Central Asia bypassing Pakistan.\nInternational North‑South Transport Corridor (INSTC).\nTAPI pipeline.\nEnergy and security." }
         ]
       },
       {
@@ -486,6 +546,36 @@ export const RAW_D = [
         "label": "Latin America & Caribbean",
         "children": [
           { "label": "India's engagement limited; focus on energy (Venezuela), agriculture, space cooperation.\nBRICS, IBSA linkages.\nNeed to expand trade." }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Indo-Pacific & Connectivity",
+        "children": [
+          {
+            "label": "Indo-Pacific Concept & India's Role",
+            "children": [
+              { "label": "India's vision: free, open, inclusive, rules‑based Indo‑Pacific.\nIndo-Pacific Oceans Initiative (IPOI) 2019.\nQuad: maritime security, HADR, climate, critical technologies.\nASEAN Outlook on Indo-Pacific (AOIP) alignment." }
+            ]
+          },
+          {
+            "label": "Key Connectivity Projects",
+            "children": [
+              { "label": "International North‑South Transport Corridor (INSTC): Russia‑Iran‑India.\nChabahar Port (Iran): gateway to Afghanistan and Central Asia.\nAsia‑Africa Growth Corridor (AAGC) with Japan.\nKaladan Multi‑Modal Transit Transport Project (India‑Myanmar).\nIndia‑Myanmar‑Thailand Trilateral Highway.\nBBIN Motor Vehicles Agreement." }
+            ]
+          }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Economic Diplomacy & Connectivity",
+        "children": [
+          {
+            "label": "Instruments of Influence",
+            "children": [
+              { "label": "FTAs, development partnerships, connectivity corridors as strategic tools. Competing with China's BRI via quality, transparent infrastructure. Balancing economic integration with security concerns (e.g., IPEF, Blue Dot Network)." }
+            ]
+          }
         ]
       }
     ]
@@ -502,7 +592,7 @@ export const RAW_D = [
           {
             "label": "Key Elements (2003 Doctrine)",
             "children": [
-              { "label": "No First Use (NFU), but massive retaliation if nuclear attack.\nCredible minimum deterrence.\nCivilian control (Nuclear Command Authority – PM).\nNo use against non-nuclear weapon states.\nStrict export controls." }
+              { "label": "No First Use (NFU), but reserves right to use nuclear weapons in response to chemical/biological attacks.\nCredible minimum deterrence.\nCivilian control (Nuclear Command Authority – PM).\nNo use against non-nuclear weapon states.\nStrict export controls." }
             ]
           }
         ]
@@ -536,6 +626,18 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Nuclear Deterrence in 21st Century",
+        "children": [
+          {
+            "label": "Credibility & Challenges",
+            "children": [
+              { "label": "NFU doctrine under strain from Pakistan's tactical nukes and China's modernization. Debate over revising NFU, ensuring second‑strike capability, and role of nuclear weapons in grey‑zone conflicts." }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -547,19 +649,25 @@ export const RAW_D = [
       {
         "label": "Classification",
         "children": [
-          { "label": "NRI (Indian citizens living abroad), OCI (Overseas Citizen of India – not dual citizenship, but lifelong visa, economic parity), PIO (merged into OCI 2015)." }
+          { "label": "NRI (Indian citizens living abroad), OCI (Overseas Citizen of India – not dual citizenship, but lifelong visa, economic parity; no political rights or government employment).\nPIO category merged into OCI 2015." }
         ]
       },
       {
         "label": "Constitutional Provisions",
         "children": [
-          { "label": "Art 9: loss of citizenship if voluntarily acquires foreign citizenship.\nRepresentation of People Act 1950; NRI voting rights (must be physically present)." }
+          { "label": "Art 9: loss of citizenship if voluntarily acquires foreign citizenship.\nRepresentation of People Act 1950; NRI voting rights (must be physically present in constituency, no e‑voting)." }
         ]
       },
       {
         "label": "Engagement & Schemes",
         "children": [
           { "label": "Pravasi Bharatiya Divas (9 Jan, since 2003).\nPravasi Bharatiya Samman Award.\nKnow India Programme, eMigrate portal.\nMinistry of External Affairs (MEA) manages.\nRemittances: India largest recipient globally." }
+        ]
+      },
+      {
+        "label": "MAINS: Diaspora as Soft Power",
+        "children": [
+          { "label": "Leveraging remittances, political influence (lobbying), and cultural outreach to strengthen bilateral ties and India's global image." }
         ]
       }
     ]

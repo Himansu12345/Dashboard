@@ -124,11 +124,33 @@ export const RAW_D = [
             "label": "Multi‑pronged Strategy",
             "children": [
               { "label": "Security: CAPFs (CRPF, CoBRA), modernisation of state police, intelligence gathering, coordinated operations (SAMADHAN doctrine)." },
+              { "label": "SAMADHAN components: Smart Leadership, Aggressive Strategy, Motivation & Training, Actionable Intelligence, Dashboard‑based KPIs, Harnessing Technology, Action Plan, No access to Financing." },
               { "label": "Development: Integrated Action Plan, Aspirational Districts Programme, PMGSY roads, mobile towers, financial inclusion, skill development." },
               { "label": "Rights & Entitlements: FRA 2006 implementation, PESA 1996 in scheduled areas, proper R&R." },
               { "label": "MAINS: Critically analyse the effectiveness of the government's multi‑pronged approach to LWE; discuss why development and security must go together." }
             ]
           }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "The Changing Face of LWE",
+        "children": [
+          {
+            "label": "Urban Naxalism & Over Ground Workers (OGWs)",
+            "children": [
+              { "label": "Ideological shift from rural 'Red Corridor' to urban centers. OGWs provide critical logistics, legal aid, and ideological recruitment through front organizations, exploiting the right to free speech under Article 19." },
+              { "label": "OGWs operate in academic circles, civil society, and media; they amplify Maoist propaganda and hinder anti‑Maoist operations by providing intelligence to insurgents." }
+            ]
+          },
+          {
+            "label": "Operation SAMADHAN‑Prahar",
+            "children": [
+              { "label": "Transition to intelligence‑led, surgical operations against Maoist leadership, coupled with the establishment of Forward Operating Bases (FOBs) in erstwhile core Naxal areas like South Bastar." },
+              { "label": "FOBs enable round‑the‑clock presence, deny safe havens, and facilitate rapid response, shifting the momentum from defensive to offensive counter‑insurgency." }
+            ]
+          },
+          { "label": "MAINS: Analyse the threat of Urban Naxalism and Over Ground Workers; discuss the need for a distinct legal and intelligence strategy to counter this dimension of LWE." }
         ]
       }
     ]
@@ -167,7 +189,7 @@ export const RAW_D = [
             "children": [
               { "label": "Nagaland: NSCN‑IM (Isaac‑Muivah) – major group; NSCN‑K (Khaplang).\nFramework Agreement signed 2015 with NSCN‑IM.\nTalks ongoing." },
               { "label": "Assam: ULFA (United Liberation Front of Asom) – pro‑talks faction and anti‑talks (ULFA‑I, Paresh Baruah).\nNDFB (Bodos – now largely settled)." },
-              { "label": "Manipur: numerous valley‑based and hill‑based groups; demand for sovereignty (UNLF, PREPAK, PLA, etc.) or separate state (Kuki, Naga)." },
+              { "label": "Manipur: numerous valley‑based and hill‑based groups; demand for sovereignty (UNLF, PREPAK, PLA, etc.) or separate state (Kuki, Naga).\nSuspension of Operations (SoO) Agreement with Kuki groups (2008, extended periodically)." },
               { "label": "Meghalaya, Tripura, Mizoram, Arunachal: insurgencies largely resolved or low intensity.\nMizoram peace accord 1986 (Laldenga)." }
             ]
           }
@@ -244,6 +266,25 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "Terror Financing & Global Frameworks",
+        "children": [
+          {
+            "label": "Financial Action Task Force (FATF)",
+            "children": [
+              { "label": "Inter‑governmental body setting standards for combating money laundering and terror financing. Its 'Grey List' identifies countries with strategic deficiencies, increasing financial scrutiny and impacting foreign investment. Pakistan has been repeatedly grey‑listed, pressuring it to act against terror groups." }
+            ]
+          },
+          {
+            "label": "Amendments to PMLA",
+            "children": [
+              { "label": "Recent expansions bring cryptocurrency exchanges and Virtual Asset Service Providers (VASPs) under the reporting ambit of the Financial Intelligence Unit (FIU‑IND), closing the anonymity loophole used for terror funding." }
+            ]
+          },
+          { "label": "MAINS: Evaluate the role of international bodies like FATF in curbing cross‑border terrorism; discuss how India can strengthen its domestic anti‑money laundering framework against new‑age terror financing." }
+        ]
       }
     ]
   },
@@ -269,7 +310,7 @@ export const RAW_D = [
       {
         "label": "Illegal Immigration & Human Trafficking",
         "children": [
-          { "label": "Illegal migration from Bangladesh and Myanmar; demographic change, strain on resources, security implications.\nNational Register of Citizens (NRC – Assam, 2019).\nCitizenship Amendment Act 2019." },
+          { "label": "Illegal migration from Bangladesh and Myanmar; demographic change, strain on resources, security implications.\nNational Register of Citizens (NRC – Assam, 2019).\nCitizenship Amendment Act 2019.\nLand Boundary Agreement (LBA) 2015 with Bangladesh settled decades‑old border disputes." },
           { "label": "Human trafficking: Immoral Traffic (Prevention) Act 1956, Sec 370 IPC." }
         ]
       },
@@ -304,9 +345,35 @@ export const RAW_D = [
               { "label": "Indo‑Tibetan Border Police (ITBP): China border." },
               { "label": "Sashastra Seema Bal (SSB): Nepal and Bhutan borders." },
               { "label": "Assam Rifles: India‑Myanmar border." },
+              { "label": "Special Frontier Force (SFF): raised in 1962, under Cabinet Secretariat, deployed in difficult border areas." },
               { "label": "Integrated border management: fencing, floodlighting, surveillance (BOLD‑QIT), border roads, CIBMS (Comprehensive Integrated Border Management System)." }
             ]
           }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Next‑Gen Border Management Technologies",
+        "children": [
+          {
+            "label": "Weaponization of Drones",
+            "children": [
+              { "label": "Rising threat of rogue UAVs used for narco‑terrorism and arms dropping across the Punjab/J&K borders. Deployment of indigenous anti‑drone systems, including Directed Energy Weapons (DEWs) by DRDO." }
+            ]
+          },
+          {
+            "label": "CIBMS & BOLD‑QIT",
+            "children": [
+              { "label": "Comprehensive Integrated Border Management System (CIBMS) deploys thermal imagers, aerostats, underground sensors, and fiber‑optic sensors to secure difficult terrains, such as riverine borders (e.g., Dhubri in Assam).\nBOLD‑QIT (Border Electronically Dominated QRT Interception Technique) provides real‑time surveillance and interception along the Bangladesh border." }
+            ]
+          },
+          {
+            "label": "Maritime Security Overlaps",
+            "children": [
+              { "label": "Information Management and Analysis Centre (IMAC) and Information Fusion Centre for Indian Ocean Region (IFC‑IOR) track maritime terrorism and piracy, integrating data from coastal radars, AIS, and satellite surveillance." }
+            ]
+          },
+          { "label": "MAINS: Analyse the efficacy of next‑gen technologies (drones, CIBMS, IMAC) in securing India's borders and coastal areas against asymmetric threats." }
         ]
       },
       {
@@ -355,7 +422,7 @@ export const RAW_D = [
           {
             "label": "Laws",
             "children": [
-              { "label": "IT Act 2000 (amended 2008): legal recognition of e‑commerce, cyber crimes, Section 66 (hacking), 67 (obscene content), 69 (interception/monitoring).\nSection 66A struck down (Shreya Singhal 2015)." },
+              { "label": "IT Act 2000 (amended 2008): legal recognition of e‑commerce, cyber crimes, Section 66 (hacking), 67 (obscene content), 69 (interception/monitoring).\nSection 66A struck down (Shreya Singhal 2015).\nSection 79: safe harbour for intermediaries (social media platforms)." },
               { "label": "National Cyber Security Policy 2013.\nIndian Computer Emergency Response Team (CERT‑In) – national nodal agency for cyber incident response." },
               { "label": "National Critical Information Infrastructure Protection Centre (NCIIPC) under NTRO." }
             ]
@@ -366,6 +433,31 @@ export const RAW_D = [
               { "label": "Data sovereignty, encryption vs surveillance debate, social media misuse (fake news, radicalisation), cyber warfare capabilities, shortage of cybersecurity professionals." }
             ]
           }
+        ]
+      },
+      {
+        "p": "pm2",
+        "label": "Emerging Tech Threats in Cyber Space",
+        "children": [
+          {
+            "label": "Virtual Digital Assets (VDAs) & Dark Web",
+            "children": [
+              { "label": "Anonymity of cryptocurrencies and the Tor network facilitates untraceable terror financing, drug cartels, and human trafficking. FIU‑IND now brings VDA exchanges under reporting obligations." }
+            ]
+          },
+          {
+            "label": "State‑Sponsored Cyber Warfare",
+            "children": [
+              { "label": "Shift from amateur hacking to Advanced Persistent Threats (APTs) targeting India's Critical Information Infrastructure (e.g., attacks on the Kudankulam Nuclear Plant, Mumbai's power grid). Requires continuous threat intelligence and resilient architecture." }
+            ]
+          },
+          {
+            "label": "AI and Deepfakes in Cognitive Warfare",
+            "children": [
+              { "label": "Generative AI used to spread sophisticated disinformation, incite communal violence, and destabilize elections. Deepfakes pose a severe threat to electoral integrity and social cohesion, necessitating algorithmic detection tools." }
+            ]
+          },
+          { "label": "MAINS: Discuss the challenges posed by emerging technologies (AI, dark web, APTs) to India's internal security and suggest a comprehensive legal and technological response." }
         ]
       }
     ]
@@ -418,6 +510,7 @@ export const RAW_D = [
               { "label": "Police is a State subject (7th Schedule)." },
               { "label": "Police Act 1861 – still basis, criticised for colonial legacy." },
               { "label": "Prakash Singh Case (2006): SC issued 7 directives – fixed tenure for DGP (min 2 years), separation of law & order from investigation, Police Establishment Board, Police Complaints Authority." },
+              { "label": "Second Administrative Reforms Commission (ARC) 5th Report on 'Public Order' – recommended separation of investigation, fixed tenures, and community policing." },
               { "label": "Model Police Act 2006, Model Police Bill 2015.\nState compliance limited." },
               { "label": "Challenges: political interference, corruption, lack of infrastructure, poor forensic capacity, low police‑public ratio (recommended 222/100k, actual ~150/100k)." }
             ]
@@ -426,4 +519,4 @@ export const RAW_D = [
       }
     ]
   }
-]
+] satisfies RawSubjectNode[];

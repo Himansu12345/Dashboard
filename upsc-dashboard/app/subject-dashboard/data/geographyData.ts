@@ -1,7 +1,6 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D = [
-  // =========================== CHAPTER I ===========================
   {
     "id": "I",
     "p": "pm",
@@ -249,10 +248,27 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Tectonic & Coastal Vulnerability",
+        "children": [
+          {
+            "label": "Himalayan Tectonic Vulnerability",
+            "children": [
+              { "label": "Evaluating the socio-economic impacts of high-intensity earthquakes, the increasing frequency of landslides due to anthropogenic activities (road construction, deforestation), and the necessity of micro-seismic zoning for disaster mitigation." }
+            ]
+          },
+          {
+            "label": "Coastal Vulnerability",
+            "children": [
+              { "label": "The mechanics of tsunamis and storm surges, emphasizing the critical role of coastal bioshields (mangroves, coral reefs) in disaster risk reduction and the need for coastal regulation zone (CRZ) norms." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER II ===========================
   {
     "id": "II",
     "p": "pm3",
@@ -442,10 +458,33 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Monsoon Vagaries & Oceanic Resources",
+        "children": [
+          {
+            "label": "Socio-economic consequences of monsoon vagaries",
+            "children": [
+              { "label": "How El Niño Southern Oscillation (ENSO) and the Indian Ocean Dipole (IOD) induce cyclic droughts and floods, severely impacting food security and rural inflation." }
+            ]
+          },
+          {
+            "label": "Geopolitics of Ocean Resources",
+            "children": [
+              { "label": "The global race for Polymetallic Nodules in the deep seabed, the regulatory role of the International Seabed Authority (ISA), and the ecological risks of deep-sea mining." }
+            ]
+          },
+          {
+            "label": "Ocean Acidification and the Blue Economy",
+            "children": [
+              { "label": "The cascading effects of lowering oceanic pH on coral bleaching, marine food webs, and the livelihoods of coastal fishing communities." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER III ===========================
   {
     "id": "III",
     "p": "pm3",
@@ -577,7 +616,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER IV ===========================
   {
     "id": "IV",
     "p": "pm3",
@@ -680,10 +718,33 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: River Disputes, Soil Degradation & Himalayan Fragility",
+        "children": [
+          {
+            "label": "Inter-State River Water Disputes",
+            "children": [
+              { "label": "Constitutional mechanisms (Article 262), the ecological and economic viability of the Interlinking of Rivers (ILR) project, and the urgent shift towards integrated river basin management." }
+            ]
+          },
+          {
+            "label": "Desertification and Soil Degradation",
+            "children": [
+              { "label": "The ecological footprint of the Green Revolution in semi-arid zones (Punjab, Haryana), leading to salinization, groundwater depletion, and the need for agro-climatic crop zoning." }
+            ]
+          },
+          {
+            "label": "The fragility of the Himalayan ecosystem",
+            "children": [
+              { "label": "Carrying capacity limits, the impact of unchecked tourism, and the environmental cost of run-of-the-river hydroelectric projects." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER V ===========================
   {
     "id": "V",
     "p": "pm2",
@@ -773,7 +834,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER VI ===========================
   {
     "id": "VI",
     "p": "pm3",
@@ -883,7 +943,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER VII ===========================
   {
     "id": "VII",
     "p": "pm3",
@@ -996,10 +1055,27 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Industrial Location Shifts & Energy-Ecology Conflict",
+        "children": [
+          {
+            "label": "Shifting paradigms of industrial location",
+            "children": [
+              { "label": "The transition from raw-material-dependent heavy industries (iron/coal) to 'footloose' industries (IT, pharmaceuticals, electronics) driven by skilled labor, connectivity, and digital infrastructure." }
+            ]
+          },
+          {
+            "label": "Energy security vs. Ecological conservation",
+            "children": [
+              { "label": "The conflict between expanding coal mining operations in the Chota Nagpur plateau and the displacement of indigenous tribal populations (Scheduled Areas)." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER VIII ===========================
   {
     "id": "VIII",
     "p": "pm2",
@@ -1112,10 +1188,33 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Urbanization Crisis & Demographic Spatial Patterns",
+        "children": [
+          {
+            "label": "The crisis of unplanned urbanization",
+            "children": [
+              { "label": "The rise of Urban Heat Islands (UHI), urban flooding due to concretization (the need for 'Sponge Cities'), and the strain on municipal solid waste management." }
+            ]
+          },
+          {
+            "label": "Demographic Dividend vs. Demographic Disaster",
+            "children": [
+              { "label": "Analyzing spatial variations in India's population growth (aging South vs. youthful North) and the consequent challenges for interstate migration and resource allocation." }
+            ]
+          },
+          {
+            "label": "The feminization of agriculture and rural spaces",
+            "children": [
+              { "label": "Driven by male-dominated rural-to-urban economic migration, highlighting the need for gender-sensitive agricultural credit and land rights policies." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER IX ===========================
   {
     "id": "IX",
     "p": "pm3",
@@ -1216,7 +1315,6 @@ export const RAW_D = [
       }
     ]
   },
-  // =========================== CHAPTER X ===========================
   {
     "id": "X",
     "p": "pm2",
@@ -1273,10 +1371,27 @@ export const RAW_D = [
             ]
           }
         ]
+      },
+      {
+        "p": "pm2",
+        "label": "MAINS: Multi-level Planning & Geospatial Applications",
+        "children": [
+          {
+            "label": "Multi-level planning and regional disparities",
+            "children": [
+              { "label": "Analyzing the historical, geographic, and institutional causes behind the persistent underdevelopment of the BIMARU states compared to peninsular India." }
+            ]
+          },
+          {
+            "label": "Application of Remote Sensing and GIS in governance",
+            "children": [
+              { "label": "Precision agriculture, real-time disaster mapping (flood inundation models), and tracking deforestation/urban sprawl for policy intervention." }
+            ]
+          }
+        ]
       }
     ]
   },
-  // =========================== CHAPTER XI ===========================
   {
     "id": "XI",
     "p": "pm1",

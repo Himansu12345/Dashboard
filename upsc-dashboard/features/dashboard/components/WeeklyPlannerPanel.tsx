@@ -189,16 +189,15 @@ export interface DayBuilderState {
   others: any[];
 }
 
-// 3. CONSTANTS, REGISTRY & SMART INHERITANCE
-
 const rawUrl =
   process.env.NEXT_PUBLIC_API_BASE_URL ||
   process.env.NEXT_PUBLIC_API_URL ||
   "http://localhost:5000/api";
 
-// 🛡️ PRO FIX: Bulletproof URL construction to strip trailing slashes & prevent 404s
+// 🛡️ PRO FIX: Absolute URL enforcement for Vercel/Render compatibility
 const cleanUrl = rawUrl.replace(/\/+$/, "");
-const API_URL = cleanUrl.endsWith("api") ? cleanUrl : `${cleanUrl}/api`;
+const baseHref = cleanUrl.replace(/\/api$/, "");
+const API_URL = `${baseHref}/api`;
 const SUBJECT_PROGRESS_API_URL = `${API_URL}/subject-progress`;
 const DAY_LABELS: Record<string, string> = {
   MON: "Monday",
