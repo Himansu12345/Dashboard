@@ -21,14 +21,9 @@ import {
   getInitialSliderIndex,
   groupDaysByMonth,
 } from "./activityCalendarUtils";
+import { buildApiUrl } from "@/lib/api/client";
 import type { PracticeRecord } from "@/types/records";
 import type { ActivityCalendarContextValue } from "@/types/activityCalendar";
-
-const PLANNER_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL
-  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/planner`
-  : process.env.NEXT_PUBLIC_API_URL
-    ? `${process.env.NEXT_PUBLIC_API_URL}/api/planner`
-    : "http://localhost:5000/api/planner";
 
 function getCurrentDateMeta() {
   const currentDate = new Date();
@@ -121,7 +116,7 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
   const loadPlannerDays = useCallback(
     async (isCancelled: () => boolean) => {
       try {
-        const response = await fetch(`${PLANNER_API_URL}/year/${selectedYear}`);
+        const response = await fetch(buildApiUrl(`/planner/year/${selectedYear}`));
         if (!response.ok) throw new Error("Planner year fetch failed.");
         const payload = await response.json();
         if (!isCancelled()) {

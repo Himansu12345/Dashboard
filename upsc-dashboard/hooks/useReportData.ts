@@ -6,6 +6,7 @@ import {
   buildReportData,
   type AiReadyReport,
 } from "@/lib/report/buildReportData";
+import { buildApiUrl } from "@/lib/api/client";
 import type { SubjectCompletionTimes } from "@/app/subject-dashboard/types";
 
 type LegacyNoteAction = {
@@ -44,12 +45,6 @@ type PlannerApiResponse = {
 };
 
 type RawWeeklyPlan = Record<string, unknown>;
-
-const PLANNER_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL 
-  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/planner` 
-  : process.env.NEXT_PUBLIC_API_URL 
-  ? `${process.env.NEXT_PUBLIC_API_URL}/api/planner` 
-  : "http://localhost:5000/api/planner";
 
 const prelimsSubjects = [
   { label: "Polity", subject: "polity" },
@@ -346,7 +341,7 @@ async function readBackendProgressNoteActions(): Promise<LegacyNoteAction[]> {
 
 async function fetchPlannerWeek(weekStartDate: string): Promise<RawWeeklyPlan | null> {
   const res = await fetch(
-    `${PLANNER_API_URL}/${encodeURIComponent(weekStartDate)}`,
+    buildApiUrl(`/planner/${encodeURIComponent(weekStartDate)}`),
     {
       method: "GET",
       cache: "no-store",

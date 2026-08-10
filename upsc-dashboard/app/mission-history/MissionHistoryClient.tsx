@@ -1,12 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-
-const rawUrl =
-  process.env.NEXT_PUBLIC_API_BASE_URL ||
-  process.env.NEXT_PUBLIC_API_URL ||
-  "http://localhost:5000/api";
-const API_URL = rawUrl.endsWith("/api") ? rawUrl : `${rawUrl}/api`;
+import { buildApiUrl } from "@/lib/api/client";
 
 type MissionHistoryEntry = {
   id: string;
@@ -122,7 +117,7 @@ export default function MissionHistoryClient() {
       try {
         setIsLoading(true);
         setError(null);
-        const response = await fetch(`${API_URL}/planner/history?limit=800`);
+        const response = await fetch(buildApiUrl("/planner/history?limit=800"));
         if (!response.ok) throw new Error("Mission history request failed.");
         const result = await response.json();
         if (!isCancelled) {

@@ -2182,6 +2182,7 @@ const plannerRouter = require("./models/routes/planner");
 
 // Register planner routes FIRST
 app.use("/api/planner", plannerRouter);
+app.use("/planner", plannerRouter);
 
 const googleRouter = require("./models/routes/google");
 

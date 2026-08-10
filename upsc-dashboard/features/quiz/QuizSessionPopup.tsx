@@ -14,6 +14,7 @@ import {
   type CreateAttemptPayload,
   type CreateAttemptQuestionDetailPayload,
 } from "@/lib/api/attempts";
+import { buildApiUrl } from "@/lib/api/client";
 import { saveAttemptWithLocalRetry } from "@/lib/quiz/attemptQueue";
 import { getReportData, trackQuestionAttempt } from "@/trackingService";
 import {
@@ -39,11 +40,6 @@ const PRACTICE_QUERY_KEYS = [
   ["consistency-dashboard"],
   ["syllabus-dashboard"],
 ] as const;
-const PLANNER_API_URL = process.env.NEXT_PUBLIC_API_BASE_URL
-  ? `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/planner`
-  : process.env.NEXT_PUBLIC_API_URL
-    ? `${process.env.NEXT_PUBLIC_API_URL}/api/planner`
-    : "http://localhost:5000/api/planner";
 const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
 
 function getMondayDateKey(date = new Date()): string {
@@ -81,7 +77,7 @@ async function completePlannerTestMission({
   }
 
   const weekStartDate = getMondayDateKey(new Date(session.dayKey));
-  const response = await fetch(`${PLANNER_API_URL}/${weekStartDate}`);
+  const response = await fetch(buildApiUrl(`/planner/${weekStartDate}`));
   if (!response.ok) return;
 
   const payload = await response.json();
@@ -132,7 +128,7 @@ async function completePlannerTestMission({
 
   if (!didUpdate) return;
 
-  await fetch(PLANNER_API_URL, {
+  await fetch(buildApiUrl("/planner"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(nextPlan),

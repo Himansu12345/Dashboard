@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { buildApiUrl } from "@/lib/api/client";
 
 type Subject = {
   label: string;
@@ -56,10 +57,6 @@ const subjectSections: SubjectSection[] = [
 ];
 
 const allSubjects = subjectSections.flatMap((section) => section.subjects);
-const API_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL ||
-  process.env.NEXT_PUBLIC_API_URL ||
-  "http://localhost:5000/api";
 const PLANNER_AUTO_MODE_KEY = "planner-auto-mode-enabled";
 const PLANNER_AUTO_LAUNCHED_KEY = "planner-auto-launched-missions";
 const PLANNER_NOTE_SESSION_KEY = "planner-note-mission-session";
@@ -177,7 +174,7 @@ export default function Navbar() {
 
       try {
         const weekStart = getMondayDateKey();
-        const response = await fetch(`${API_URL}/planner/${weekStart}`);
+        const response = await fetch(buildApiUrl(`/planner/${weekStart}`));
         if (!response.ok || isCancelled) return;
 
         const payload = await response.json();
@@ -235,7 +232,7 @@ export default function Navbar() {
           }),
         };
 
-        await fetch(`${API_URL}/planner`, {
+        await fetch(buildApiUrl("/planner"), {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(nextPlan),
