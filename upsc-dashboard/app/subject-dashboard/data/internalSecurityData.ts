@@ -1,61 +1,112 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D = [
-  {
+{
     "id": "I",
     "p": "pm",
     "label": "Internal Security – Concepts & Constitutional Framework",
     "children": [
       {
-        "p": "pm2",
         "label": "Basic Concepts & Definitions",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Internal Security",
-            "children": [
-              { "label": "Internal security refers to the maintenance of peace, law and order, and protection of sovereignty within a country's borders against threats from within, such as insurgency, terrorism, communal violence, organized crime, etc." },
-              { "label": "Distinct from external security (defence against foreign aggression).\nOften interlinked (cross‑border terrorism, external support to insurgencies)." }
-            ]
+            "label": "🔴|Internal security → maintenance of peace, law and order and protection of sovereignty within India's borders against internal threats such as insurgency, terrorism, communal violence and organised crime.",
+            "kind": "bullet"
           },
           {
-            "label": "National Security",
-            "children": [
-              { "label": "Broader concept encompassing territorial integrity, economic security, energy security, food security, cyber security, environmental security, and human security." }
-            ]
+            "label": "🔴|External and internal security overlap through cross-border terrorism, external support to insurgency, illegal trafficking and cyber threats.",
+            "kind": "bullet"
           },
           {
-            "label": "Insurgency vs Terrorism",
-            "children": [
-              { "label": "Insurgency: organized movement aimed at overthrowing a constituted government through use of subversion, armed conflict, and political mobilization; usually has some degree of popular support or territorial base." },
-              { "label": "Terrorism: unlawful use of violence and intimidation, especially against civilians, in pursuit of political aims.\nMore ideological, often transnational." },
-              { "label": "TRAP: All insurgencies may use terrorist tactics, but not all terrorism is insurgency." }
-            ]
+            "label": "🔴|National security is broader than military security: it includes territorial, economic, energy, food, cyber, environmental, health, information, resource and human-security dimensions.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Insurgency → organised political movement seeking to challenge/overthrow constituted authority through subversion, armed conflict and mobilisation; often linked to a territorial/social base.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Terrorism → politically motivated unlawful violence/intimidation designed to create fear and influence a wider audience; terrorist tactics can be used by insurgent movements.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|TRAP: All insurgencies may use terrorist tactics, but not all terrorism is insurgency.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Constitutional & Legal Framework",
+        "label": "Constitutional Framework",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Constitutional Provisions",
-            "children": [
-              { "label": "Art 355: It is the duty of the Union to protect every State against external aggression and internal disturbance and to ensure that the government of every State is carried on in accordance with the Constitution." },
-              { "label": "Art 356: President's Rule in case of failure of constitutional machinery in a State (can be imposed on grounds of internal disturbance)." },
-              { "label": "Emergency Provisions (Part XVIII): Art 352 (National Emergency – external aggression or armed rebellion).\nArt 353‑360: effect and operation of emergencies." },
-              { "label": "Art 19(2): Reasonable restrictions on freedom of speech and expression in interests of sovereignty and integrity of India, security of the State, public order, etc." },
-              { "label": "Art 21: Protection of life and personal liberty; right against arbitrary detention (Art 22)." }
-            ]
+            "label": "🔴|Article 355 → Union duty to protect States against external aggression and internal disturbance and ensure constitutional governance.",
+            "kind": "bullet"
           },
           {
-            "label": "Key Central Legislation",
-            "children": [
-              { "label": "Unlawful Activities (Prevention) Act 1967 (UAPA): defines 'unlawful activity' and 'terrorist act'; empowers Centre to ban organisations; special courts; enhanced punishment." },
-              { "label": "National Investigation Agency (NIA) Act 2008: established NIA to investigate and prosecute offences affecting national security, including terror, counterfeit currency, human trafficking, etc." },
-              { "label": "Armed Forces (Special Powers) Act 1958 (AFSPA): applicable to 'disturbed areas' in certain states (Arunachal, Assam, Manipur, Meghalaya, Mizoram, Nagaland, Tripura, and later J&K).\nProvides special powers to armed forces (arrest without warrant, shoot to kill in certain circumstances).\nCriticised for human rights violations." },
-              { "label": "Prevention of Terrorism Act (POTA) 2002 – repealed in 2004.\nReplaced by UAPA amendments." },
-              { "label": "NSA 1980 (National Security Act): preventive detention for up to 12 months to prevent activities prejudicial to national security, public order, etc." }
-            ]
+            "label": "🔴|Article 356 → President's Rule for failure of constitutional machinery; SR Bommai limits arbitrary use through judicial review and the floor-test principle.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Article 352 → National Emergency on war, external aggression or armed rebellion; 'internal disturbance' is not the present ground.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Article 19(2) permits reasonable restrictions on speech in interests including sovereignty and integrity, security of the State and public order.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Article 21 protects life and personal liberty; Article 22 provides safeguards relating to arrest and detention.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Key Legal Architecture",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|UAPA 1967 → principal anti-terror/unlawful-association law; provides for prohibition of unlawful organisations and terrorist activities, subject to constitutional safeguards and judicial process.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NIA Act 2008 → establishes the NIA to investigate/prosecute specified offences affecting national security and certain terror-related crimes.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|AFSPA 1958 → applies to notified 'disturbed areas' and grants specified powers to armed forces; use remains subject to statutory conditions and judicial scrutiny.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|POTA 2002 was repealed in 2004; later UAPA amendments strengthened the anti-terror framework.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NSA 1980 → preventive-detention law for specified threats to national security/public order; it is distinct from punitive criminal prosecution.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "PYQ MASTER – National Security Doctrine / Strategy",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|National Security Doctrine/Strategy → concise statement of national interests, strategic objectives, threat perceptions, principles and long-term priorities.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Need arises from new domains of warfare: cyber conflict, grey-zone operations, proxy wars, technological disruption, narco-terrorism and blurred internal-external threats.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|A coherent doctrine can improve inter-agency coordination, strategic foresight, civil-military coordination, theatre-level planning and prioritisation of national capabilities.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Source notes identify Kargil Review Committee and Naresh Chandra Task Force (2011) among major reform references; they also emphasise the need for periodic updating and whole-of-government coordination.",
+            "kind": "bullet"
           }
         ]
       }
@@ -64,93 +115,128 @@ export const RAW_D = [
   {
     "id": "II",
     "p": "pm3",
-    "label": "Major Internal Security Threats – 1: Left Wing Extremism (LWE) / Naxalism",
+    "label": "Major Internal Security Threats – Left Wing Extremism (LWE) / Naxalism",
     "children": [
       {
-        "p": "pm2",
-        "label": "Origin & Ideology",
+        "label": "Origins, Ideology & Evolution",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Historical Evolution",
-            "children": [
-              { "label": "Naxalbari uprising (1967, West Bengal) led by Charu Majumdar, Kanu Sanyal – peasant revolt.\nSrikakulam (AP) and other movements followed." },
-              { "label": "Merger into CPI (Maoist) in 2004.\nOrganised under Central Committee, Politburo, Regional Bureaus, Zonal Committees, etc." }
-            ]
+            "label": "🔴|Naxalbari uprising (1967, West Bengal) is the historical landmark of India's Maoist/Naxalite movement; Charu Majumdar and Kanu Sanyal were prominent early leaders.",
+            "kind": "bullet"
           },
           {
-            "label": "Ideology & Objectives",
-            "children": [
-              { "label": "Marxist‑Leninist‑Maoist ideology; armed struggle to overthrow the Indian State and establish a 'people's democratic republic' through a protracted people's war (guerrilla warfare)." }
-            ]
+            "label": "🔴|CPI (Maoist) emerged through merger of major Maoist streams in 2004.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Ideological basis → Marxist-Leninist-Maoist; seeks revolutionary transformation through protracted people's war and armed struggle.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|LWE is not merely a law-and-order problem; deprivation, governance failures, land/forest conflicts and political alienation are recurrent determinants in affected areas.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Red Corridor & Affected Areas",
+        "label": "Geography & Human Impact",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Geography",
-            "children": [
-              { "label": "Red Corridor: stretch of districts across central and eastern India affected by LWE.\nMost affected states (highest violence): Chhattisgarh, Jharkhand, Odisha, Bihar, Maharashtra (Gadchiroli), Telangana, Andhra Pradesh (border areas), Madhya Pradesh." },
-              { "label": "Districts covered under Security Related Expenditure (SRE) scheme (90+)." }
-            ]
+            "label": "🟠|Historically concentrated in parts of central/eastern India, especially Chhattisgarh, Jharkhand, Odisha, Maharashtra and adjoining regions; exact affected geography changes over time.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Key human effects → killings and intimidation, displacement, disruption of schools/health/services, infrastructure damage, fear and loss of livelihoods.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Women and tribal communities can face overlapping burdens of poverty, displacement, conflict and violence; security responses should remain gender-sensitive and rights-based.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Causes & Drivers",
+        "label": "Drivers of LWE",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Socio‑Economic",
-            "children": [
-              { "label": "Land alienation (tribal land grabbed for mining, industries), lack of development, displacement without proper rehabilitation, poverty, unemployment, caste discrimination, forest rights denial." }
-            ]
+            "label": "🔴|Land alienation, displacement and weak rehabilitation.",
+            "kind": "bullet"
           },
           {
-            "label": "Governance",
-            "children": [
-              { "label": "Weak governance, corruption, absence of administration in remote areas, police brutality, and violation of human rights create a vacuum filled by Maoists." }
-            ]
+            "label": "🔴|Forest-rights denial or weak implementation and conflicts over minor forest produce/resources.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Poverty, unemployment, weak connectivity and limited state presence in remote areas.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Governance failures, corruption, abuse or excessive coercion can deepen alienation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Social exclusion, cultural alienation and perceived injustice can create a recruitment environment.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Development projects that ignore local participation can unintentionally widen grievances.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Government Response",
+        "label": "Government Response – Multidimensional",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Multi‑pronged Strategy",
-            "children": [
-              { "label": "Security: CAPFs (CRPF, CoBRA), modernisation of state police, intelligence gathering, coordinated operations (SAMADHAN doctrine)." },
-              { "label": "SAMADHAN components: Smart Leadership, Aggressive Strategy, Motivation & Training, Actionable Intelligence, Dashboard‑based KPIs, Harnessing Technology, Action Plan, No access to Financing." },
-              { "label": "Development: Integrated Action Plan, Aspirational Districts Programme, PMGSY roads, mobile towers, financial inclusion, skill development." },
-              { "label": "Rights & Entitlements: FRA 2006 implementation, PESA 1996 in scheduled areas, proper R&R." },
-              { "label": "MAINS: Critically analyse the effectiveness of the government's multi‑pronged approach to LWE; discuss why development and security must go together." }
-            ]
+            "label": "🟠|Security → strengthen State police/CAPFs, intelligence, mobility, communications and area domination with civilian oversight.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Development → roads, telecom, financial inclusion, schools, health, livelihood and district-level development initiatives.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Rights → implement Forest Rights Act 2006, PESA 1996 and lawful rehabilitation/resettlement.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Governance → restore regular administration, improve local institutions, grievance redress and accountability.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Finance → disrupt illicit funding and extortion networks.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|SAMADHAN doctrine in the source note combines leadership, strategy, training, actionable intelligence, technology/data, action planning and denial of financing.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "The Changing Face of LWE",
+        "label": "PYQ 2013–2025 – High-Yield Mains Anchors",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Urban Naxalism & Over Ground Workers (OGWs)",
-            "children": [
-              { "label": "Ideological shift from rural 'Red Corridor' to urban centers. OGWs provide critical logistics, legal aid, and ideological recruitment through front organizations, exploiting the right to free speech under Article 19." },
-              { "label": "OGWs operate in academic circles, civil society, and media; they amplify Maoist propaganda and hinder anti‑Maoist operations by providing intelligence to insurgents." }
-            ]
+            "label": "🟠|Fifth Schedule implementation is directly relevant to LWE because weak tribal self-governance and land/forest protections can aggravate alienation.",
+            "kind": "bullet"
           },
           {
-            "label": "Operation SAMADHAN‑Prahar",
-            "children": [
-              { "label": "Transition to intelligence‑led, surgical operations against Maoist leadership, coupled with the establishment of Forward Operating Bases (FOBs) in erstwhile core Naxal areas like South Bastar." },
-              { "label": "FOBs enable round‑the‑clock presence, deny safe havens, and facilitate rapid response, shifting the momentum from defensive to offensive counter‑insurgency." }
-            ]
+            "label": "🟠|Corrective strategy should combine security + development + rights + governance + local participation, not rely on force alone.",
+            "kind": "bullet"
           },
-          { "label": "MAINS: Analyse the threat of Urban Naxalism and Over Ground Workers; discuss the need for a distinct legal and intelligence strategy to counter this dimension of LWE." }
+          {
+            "label": "🟠|Winning affected citizens back requires trust, service delivery, lawful protection of rights and visible improvements in everyday life.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Urban/over-ground dimensions require intelligence and lawful investigation while protecting constitutional freedoms and due process.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -158,56 +244,115 @@ export const RAW_D = [
   {
     "id": "III",
     "p": "pm3",
-    "label": "Major Internal Security Threats – 2: North‑East Insurgencies",
+    "label": "Major Internal Security Threats – North-East Insurgencies",
     "children": [
       {
-        "p": "pm2",
         "label": "Root Causes",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Ethnic, Linguistic & Historical",
-            "children": [
-              { "label": "Historical isolation, different ethnic/linguistic identities from mainland India, colonial 'inner line' and 'excluded areas' policy.\nImmigration and demographic change (Assam – NRC debate)." },
-              { "label": "Economic underdevelopment despite potential; poor connectivity; unemployment among educated youth." }
-            ]
+            "label": "🔴|Historical isolation and distinctive ethnic/linguistic identities.",
+            "kind": "bullet"
           },
           {
-            "label": "Political & Administrative",
-            "children": [
-              { "label": "Demand for autonomy/separate states (Gorkhaland, Bodoland, Karbi Anglong, etc.) and outright secession (Nagaland, Manipur, Assam – ULFA)." },
-              { "label": "Foreign sanctuaries (Myanmar, Bangladesh, Bhutan) and external support (China, Pakistan historically to some groups)." }
-            ]
+            "label": "🔴|Demographic change, migration-related anxieties and competition over land/resources.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Underdevelopment, connectivity gaps and youth unemployment.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Demand for autonomy, separate States or, in some cases, secession.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Porous international borders and historical sanctuaries/external linkages.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Weak trust, administrative shortcomings and identity insecurity.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Major Insurgent Groups (Static Overview)",
+        "label": "Major Conflict Patterns",
+        "kind": "comparison",
         "children": [
           {
-            "label": "State‑wise",
-            "children": [
-              { "label": "Nagaland: NSCN‑IM (Isaac‑Muivah) – major group; NSCN‑K (Khaplang).\nFramework Agreement signed 2015 with NSCN‑IM.\nTalks ongoing." },
-              { "label": "Assam: ULFA (United Liberation Front of Asom) – pro‑talks faction and anti‑talks (ULFA‑I, Paresh Baruah).\nNDFB (Bodos – now largely settled)." },
-              { "label": "Manipur: numerous valley‑based and hill‑based groups; demand for sovereignty (UNLF, PREPAK, PLA, etc.) or separate state (Kuki, Naga).\nSuspension of Operations (SoO) Agreement with Kuki groups (2008, extended periodically)." },
-              { "label": "Meghalaya, Tripura, Mizoram, Arunachal: insurgencies largely resolved or low intensity.\nMizoram peace accord 1986 (Laldenga)." }
-            ]
+            "label": "🟠|Insurgency and secessionist demands (e.g., Naga context).",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Ethnic clashes and inter-community competition (e.g., Manipur).",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Migration-linked conflict (e.g., Tripura/Assam contexts).",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Conflicts over territorial/resource control and autonomy.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Government Response & Peace Accords",
+        "label": "Peace Accords & Constitutional Responses",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Key Approaches",
-            "children": [
-              { "label": "Security operations (AFSPA in many areas, counter‑insurgency grid)." },
-              { "label": "Peace talks and accords: Shillong Accord (1975, Nagas), Mizo Accord (1986), Bodoland Territorial Region (BTR) Accords (2003, 2020), Bru/Reang agreement (2020), Karbi Anglong agreement (2021), Assam‑Meghalaya border agreement (2022)." },
-              { "label": "Autonomous Councils under 6th Schedule for tribal areas.\nSpecial provisions under Art 371A (Nagaland), 371B (Assam), 371C (Manipur), etc." },
-              { "label": "Border Area Development Programme (BADP), North‑East Industrial Development Scheme (NEIDS), Act East Policy, connectivity (Bharatmala, railways, air)." },
-              { "label": "MAINS: Discuss the role of peace accords and constitutional provisions in resolving insurgencies in the North‑East." }
-            ]
+            "label": "🔴|Shillong Accord (1975) and Mizo Accord (1986) are major historical peace-process landmarks.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Bodo settlements, Bru/Reang agreement, Karbi peace settlement and newer agreements with tribal/insurgent groups illustrate negotiation-led conflict resolution.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Sixth Schedule Autonomous District/Regional Councils provide institutional autonomy in specified tribal areas.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Articles 371A, 371B and 371C provide asymmetric constitutional arrangements for specific North-Eastern contexts.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "PYQ 2025 – Peace Process & Mapping",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|UPSC expects peace accords to be linked with geography and governance; know the State/region associated with major recent settlements.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Peace agreements work best when followed by rehabilitation, political accommodation, institutional capacity, development and monitoring.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|A map-based answer should connect conflict zones with borders, ethnic areas, corridors and neighbouring countries.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Development & Security Measures",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟡|Border Area Development Programme supports infrastructure and well-being in border areas.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Special development packages, roads, telecom, airports/railways and livelihood initiatives complement security measures.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Source notes identify NESIDS, PM-DevINE, surrender-cum-rehabilitation, civic-action programmes and capacity building as part of the broader approach.",
+            "kind": "bullet"
           }
         ]
       }
@@ -216,74 +361,114 @@ export const RAW_D = [
   {
     "id": "IV",
     "p": "pm2",
-    "label": "Major Internal Security Threats – 3: Terrorism in India (Static)",
+    "label": "Terrorism, Radicalisation, Organised Crime & Terror Financing",
     "children": [
       {
-        "p": "pm2",
-        "label": "Types & Sources",
+        "label": "Terrorism – Nature & Manifestation",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Cross‑border Terrorism",
-            "children": [
-              { "label": "Primarily from Pakistan‑based groups (LeT, JeM, HM, etc.) directed against J&K and other parts.\n26/11 Mumbai (2008), Parliament attack (2001), Pulwama (2019) – though CA, the names are now static knowledge." }
-            ]
+            "label": "🔴|Terrorism uses violence/intimidation to create fear beyond the immediate victims and pursue political/ideological objectives.",
+            "kind": "bullet"
           },
           {
-            "label": "Major Terrorist Groups (Banned under UAPA)",
-            "children": [
-              { "label": "Lashkar‑e‑Taiba (LeT), Jaish‑e‑Mohammed (JeM), Hizb‑ul‑Mujahideen (HM), Al‑Badr, etc.\n(J&K focused)." },
-              { "label": "Indian Mujahideen (IM) – banned; Students Islamic Movement of India (SIMI) – banned." },
-              { "label": "CPI (Maoist) – banned; many NE insurgent groups also listed under UAPA." }
-            ]
+            "label": "🔴|Indian manifestations include cross-border terrorism, home-grown militancy, radicalised/lone-actor violence, and terrorism using digital/financial networks.",
+            "kind": "bullet"
           },
           {
-            "label": "Lone‑wolf & Radicalisation",
-            "children": [
-              { "label": "Online radicalisation, self‑radicalised individuals, ISIS influence (though limited).\nChallenges of de‑radicalisation, countering violent extremism (CVE)." }
-            ]
+            "label": "🔴|Typical elements include propaganda, target selection, planning/logistics, intimidation and political/ideological aims.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Counter‑Terrorism Framework",
+        "label": "Cross-Border Terrorism",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Legal",
-            "children": [
-              { "label": "UAPA 1967 (as amended), NIA Act 2008." },
-              { "label": "Prevention of Money Laundering Act (PMLA) 2002 – to choke terror funding." },
-              { "label": "Fugitive Economic Offenders Act 2018." }
-            ]
+            "label": "🔴|Pakistan-based groups such as LeT and JeM have been central to India's cross-border terrorism challenge.",
+            "kind": "bullet"
           },
           {
-            "label": "Institutional",
-            "children": [
-              { "label": "National Investigation Agency (NIA) – apex counter‑terrorism investigation agency." },
-              { "label": "Multi‑Agency Centre (MAC) – intelligence sharing hub under IB.\nState Multi‑Agency Centres (SMAC)." },
-              { "label": "NATGRID (National Intelligence Grid) – integrated database for intelligence agencies." },
-              { "label": "NSG (National Security Guard) – specialised counter‑terrorism force (established 1984)." }
-            ]
+            "label": "🔴|Major attacks often referenced in static preparation include the 2001 Parliament attack, 2008 Mumbai attacks and the Pulwama attack of 2019.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Cross-border terrorism links security with border management, diplomacy, intelligence, terror financing and international cooperation.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Terror Financing & Global Frameworks",
+        "label": "Terror Financing",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Financial Action Task Force (FATF)",
-            "children": [
-              { "label": "Inter‑governmental body setting standards for combating money laundering and terror financing. Its 'Grey List' identifies countries with strategic deficiencies, increasing financial scrutiny and impacting foreign investment. Pakistan has been repeatedly grey‑listed, pressuring it to act against terror groups." }
-            ]
+            "label": "🔴|Sources can include extortion, illegal trade, narcotics, counterfeit currency, hawala, criminal proceeds, illicit donations and misuse of legitimate channels.",
+            "kind": "bullet"
           },
           {
-            "label": "Amendments to PMLA",
-            "children": [
-              { "label": "Recent expansions bring cryptocurrency exchanges and Virtual Asset Service Providers (VASPs) under the reporting ambit of the Financial Intelligence Unit (FIU‑IND), closing the anonymity loophole used for terror funding." }
-            ]
+            "label": "🔴|Counter-financing tools include UAPA/PMLA/FIU-IND mechanisms, financial intelligence, asset tracing/freezing, international cooperation and FATF standards.",
+            "kind": "bullet"
           },
-          { "label": "MAINS: Evaluate the role of international bodies like FATF in curbing cross‑border terrorism; discuss how India can strengthen its domestic anti‑money laundering framework against new‑age terror financing." }
+          {
+            "label": "🔴|NMFT Conference 2022 in New Delhi focused international attention on disrupting terrorist financing and strengthening global cooperation.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Organised Crime–Terror Nexus",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Organised crime can supply money, weapons, forged documents, logistics and trafficking networks to terrorist groups.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Terrorist organisations can exploit criminal markets for funding, while criminal groups can exploit terrorist violence and corruption for protection/control.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Nexus is national as well as transnational, especially through drugs, arms, human trafficking, cybercrime and money laundering.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Radicalisation & Over-Ground Workers",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Online propaganda, grievance exploitation, echo chambers and transnational extremist narratives can accelerate radicalisation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|OGWs/support networks can provide logistics, shelter, communication, recruitment or intelligence; responses must distinguish unlawful assistance from protected lawful dissent/civic activity.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|De-radicalisation requires community engagement, credible counter-narratives, education, counselling, digital monitoring consistent with law, and reintegration.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "PYQ 2014–2025 – Counter-Terrorism Approach",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Counter-terrorism should combine intelligence, policing, financial disruption, border management, community trust, international cooperation, lawful prosecution and prevention.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Winning 'hearts and minds' is essential in conflict-affected areas; Operation Sadbhavana/Goodwill Schools are examples cited in the source material.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Hot pursuit/surgical strikes are strategic tools with deterrence value, but must be assessed alongside escalation, international-law, diplomatic and long-term counter-radicalisation considerations.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -291,33 +476,96 @@ export const RAW_D = [
   {
     "id": "V",
     "p": "pm2",
-    "label": "Other Internal Security Challenges (Static)",
+    "label": "Other Internal Security Challenges",
     "children": [
       {
-        "label": "Communal Violence & Riots",
+        "label": "Communal Violence & Mob Violence",
+        "kind": "comparison",
         "children": [
-          { "label": "Rooted in historical communal divisions, political mobilisation, socioeconomic grievances, rumours, and hate speech.\nLegal: IPC, Representation of People Act (Sec 123 – corrupt practices)." },
-          { "label": "Need for communal harmony, fast‑track courts, police reforms, community policing." }
+          {
+            "label": "🟠|Drivers include social/communal polarisation, political mobilisation, rumours, hate speech, misinformation, local disputes and weak policing.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Consequences include deaths, displacement, economic disruption, social mistrust and long-term polarisation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Prevention requires community policing, early warning, proportionate policing, accountability, counter-rumour mechanisms and speedy lawful prosecution.",
+            "kind": "bullet"
+          }
         ]
       },
       {
-        "label": "Organised Crime & Drug Trafficking",
+        "label": "Organised Crime, Drugs & Human Trafficking",
+        "kind": "comparison",
         "children": [
-          { "label": "Organised crime syndicates, mafia, extortion, contract killings.\nNarco‑terrorism: link between drug trade and terror funding." },
-          { "label": "Narcotic Drugs and Psychotropic Substances (NDPS) Act 1985.\nIndia's vulnerability: Golden Crescent (Afghanistan‑Pakistan) and Golden Triangle (Myanmar‑Laos‑Thailand)." }
+          {
+            "label": "🔴|India faces trafficking and smuggling risks because of its location near major drug-producing regions and busy land/sea routes.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Drug trafficking can connect with gunrunning, money laundering, human trafficking and terror financing.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Golden Crescent and Golden Triangle are key geographic reference points in static answers.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NDPS Act 1985, PMLA, Customs/Border agencies and international cooperation form parts of the counter-framework.",
+            "kind": "bullet"
+          }
         ]
       },
       {
         "label": "Illegal Immigration & Human Trafficking",
+        "kind": "comparison",
         "children": [
-          { "label": "Illegal migration from Bangladesh and Myanmar; demographic change, strain on resources, security implications.\nNational Register of Citizens (NRC – Assam, 2019).\nCitizenship Amendment Act 2019.\nLand Boundary Agreement (LBA) 2015 with Bangladesh settled decades‑old border disputes." },
-          { "label": "Human trafficking: Immoral Traffic (Prevention) Act 1956, Sec 370 IPC." }
+          {
+            "label": "🟠|Unregulated migration can create border-management, demographic, labour-market and security pressures, but governance responses must distinguish illegal migration from lawful migration and refugees/asylum issues.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Human trafficking is distinct from smuggling: trafficking involves exploitation, while smuggling primarily concerns illegal movement for payment.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Relevant laws/institutions include anti-trafficking provisions, immigration/border controls and inter-agency cooperation.",
+            "kind": "bullet"
+          }
         ]
       },
       {
         "label": "Money Laundering & Hawala",
+        "kind": "comparison",
         "children": [
-          { "label": "Hawala (informal value transfer system) used to fund terrorism and crime.\nPMLA 2002, FEMA 1999, Financial Intelligence Unit (FIU‑IND)." }
+          {
+            "label": "🔴|Hawala is an informal value-transfer mechanism that can be abused for illicit transfers and terror financing.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|PMLA 2002, FIU-IND, financial-intelligence sharing and cross-border cooperation are core tools.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Emerging digital assets and online platforms increase the need for traceability, beneficial-ownership information and risk-based financial regulation.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "PYQ Gap – New-Age Security Risks",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Dark web, encrypted communications, cryptocurrencies and generative AI can lower transaction, recruitment and propaganda barriers for criminals/terrorists.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Countermeasures should combine financial intelligence, cyber capabilities, platform cooperation, lawful surveillance, digital literacy and international coordination.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -325,74 +573,137 @@ export const RAW_D = [
   {
     "id": "VI",
     "p": "pm2",
-    "label": "Border Security & Coastal Security (Static)",
+    "label": "Border Security & Coastal / Maritime Security",
     "children": [
       {
-        "p": "pm2",
-        "label": "Land Borders",
+        "label": "Land Border Challenges",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Length & Challenges",
-            "children": [
-              { "label": "Total land border: 15,106 km (Bangladesh 4,096 km, China 3,488 km, Pakistan 3,323 km, Nepal 1,751 km, Myanmar 1,643 km, Bhutan 699 km, Afghanistan 106 km)." },
-              { "label": "Issues: infiltration, smuggling, illegal migration, cross‑border firing, difficult terrain." }
-            ]
+            "label": "🔴|India's land borders face different mixes of difficult terrain, infiltration, smuggling, illegal migration, cross-border firing, insurgent movement and disputed boundaries.",
+            "kind": "bullet"
           },
           {
-            "label": "Border Guarding Forces",
-            "children": [
-              { "label": "Border Security Force (BSF): Pakistan and Bangladesh borders (except mountainous terrain)." },
-              { "label": "Indo‑Tibetan Border Police (ITBP): China border." },
-              { "label": "Sashastra Seema Bal (SSB): Nepal and Bhutan borders." },
-              { "label": "Assam Rifles: India‑Myanmar border." },
-              { "label": "Special Frontier Force (SFF): raised in 1962, under Cabinet Secretariat, deployed in difficult border areas." },
-              { "label": "Integrated border management: fencing, floodlighting, surveillance (BOLD‑QIT), border roads, CIBMS (Comprehensive Integrated Border Management System)." }
-            ]
+            "label": "🔴|China border → high-altitude terrain, infrastructure/force-mobility and contested boundary/security competition.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Pakistan border/LoC → infiltration, cross-border terrorism, drone-based smuggling and ceasefire-related risks.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Bangladesh border → riverine terrain, illegal migration/smuggling concerns and dense population.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Myanmar border → difficult terrain, insurgency linkages, trafficking and porous movement.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Nepal/Bhutan borders → open/porous characteristics create distinct policing, trade and transnational-crime challenges.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Next‑Gen Border Management Technologies",
+        "label": "Border Guarding & Integrated Management",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Weaponization of Drones",
-            "children": [
-              { "label": "Rising threat of rogue UAVs used for narco‑terrorism and arms dropping across the Punjab/J&K borders. Deployment of indigenous anti‑drone systems, including Directed Energy Weapons (DEWs) by DRDO." }
-            ]
+            "label": "🔴|BSF → primarily Pakistan and Bangladesh borders; ITBP → China border; SSB → Nepal and Bhutan borders; Assam Rifles → Myanmar border and North-East counter-insurgency roles.",
+            "kind": "bullet"
           },
           {
-            "label": "CIBMS & BOLD‑QIT",
-            "children": [
-              { "label": "Comprehensive Integrated Border Management System (CIBMS) deploys thermal imagers, aerostats, underground sensors, and fiber‑optic sensors to secure difficult terrains, such as riverine borders (e.g., Dhubri in Assam).\nBOLD‑QIT (Border Electronically Dominated QRT Interception Technique) provides real‑time surveillance and interception along the Bangladesh border." }
-            ]
+            "label": "🔴|Integrated border management uses fencing, floodlighting, roads, surveillance, communications, sensors and intelligence coordination.",
+            "kind": "bullet"
           },
           {
-            "label": "Maritime Security Overlaps",
-            "children": [
-              { "label": "Information Management and Analysis Centre (IMAC) and Information Fusion Centre for Indian Ocean Region (IFC‑IOR) track maritime terrorism and piracy, integrating data from coastal radars, AIS, and satellite surveillance." }
-            ]
+            "label": "🔴|CIBMS integrates technology and surveillance for difficult terrain; BOLD-QIT is cited for electronically dominated surveillance/interception along the Bangladesh border.",
+            "kind": "bullet"
           },
-          { "label": "MAINS: Analyse the efficacy of next‑gen technologies (drones, CIBMS, IMAC) in securing India's borders and coastal areas against asymmetric threats." }
+          {
+            "label": "🔴|Border infrastructure must support both security and legitimate trade/local development.",
+            "kind": "bullet"
+          }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Coastal Security",
+        "label": "BADP / Border Infrastructure & Management",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Vulnerability",
-            "children": [
-              { "label": "7,516 km coastline; 12 major ports, 200+ minor ports.\n26/11 highlighted coastal security gaps." },
-              { "label": "Multiple agencies: Indian Navy (overall maritime security), Indian Coast Guard (1977), Marine Police, Customs, Fisheries." }
-            ]
+            "label": "🟠|BADP supports the development needs and well-being of people living near international land borders through infrastructure and convergence of schemes.",
+            "kind": "bullet"
           },
           {
-            "label": "Reforms post‑26/11",
-            "children": [
-              { "label": "Coastal Security Scheme (CSS) – setting up marine police stations.\nNational Committee on Strengthening Maritime and Coastal Security (NCSMCS)." },
-              { "label": "Coastal Surveillance Network (CSN) of coastal radars.\nNational Command Control Communication and Intelligence (NC3I) Network.\nBiometric ID for fishermen." }
-            ]
+            "label": "🟠|Border management needs a dual objective: deny hostile networks while improving legitimate movement, services, infrastructure and local trust.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Vibrant Villages/related border-development initiatives complement security by reducing isolation and strengthening local resilience.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "UAV / Drone Threat",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Adversary UAVs can ferry arms, ammunition, drugs and other illicit payloads across borders.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Counter-UAV architecture needs detection, identification, tracking, jamming/interdiction where lawful and networked intelligence.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Technology should be combined with human intelligence, border fencing/surveillance and action against financing/logistics networks.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Coastal & Maritime Security",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Maritime security protects India's sea trade, energy flows, ports, offshore assets and strategic sea lanes.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Challenges include maritime terrorism, piracy, illegal fishing, trafficking, smuggling, hostile infiltration, drones/UAVs and threats to critical maritime infrastructure.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Indian Navy has overall maritime-security responsibilities; Indian Coast Guard, Marine Police, Customs, Port authorities and fisheries agencies contribute to layered coastal security.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Post-26/11 reforms include coastal radar/surveillance, coordination networks, marine-police strengthening, identification systems and inter-agency information sharing.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|IMAC/IFC-IOR and the coastal-surveillance architecture support maritime domain awareness.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Airspace / Piracy / Strategic Maritime Links",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Airspace security requires protecting territorial airspace from unauthorised aircraft/UAV activity while coordinating civil aviation and security agencies.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Piracy in the Arabian Sea/Indian Ocean affects shipping, insurance, sea-lane security and naval deployments.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|India's maritime security is linked to wider Indian Ocean chokepoints, sea trade and regional cooperation.",
+            "kind": "bullet"
           }
         ]
       }
@@ -400,64 +711,119 @@ export const RAW_D = [
   },
   {
     "id": "VII",
-    "p": "pm2",
-    "label": "Cyber Security & Social Media (Static Concepts)",
+    "p": "pm3",
+    "label": "Cyber Security, Information Warfare & Emerging Technologies",
     "children": [
       {
-        "p": "pm2",
-        "label": "Cyber Threats",
+        "label": "Cyber Security – Core Concepts",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Types",
-            "children": [
-              { "label": "Cyber terrorism, cyber warfare, cyber espionage, cyber crime (hacking, phishing, ransomware, identity theft).\nCritical Information Infrastructure (CII) protection." }
-            ]
+            "label": "🔴|Cyber security protects confidentiality, integrity and availability of systems, networks, information and critical digital infrastructure.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Threats include cybercrime, cyber espionage, cyber warfare, cyber terrorism, ransomware, phishing, identity theft, DDoS and data breaches.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Critical Information Infrastructure needs specialised protection because disruption can affect essential services and national security.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
         "label": "Legal & Institutional Framework",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Laws",
-            "children": [
-              { "label": "IT Act 2000 (amended 2008): legal recognition of e‑commerce, cyber crimes, Section 66 (hacking), 67 (obscene content), 69 (interception/monitoring).\nSection 66A struck down (Shreya Singhal 2015).\nSection 79: safe harbour for intermediaries (social media platforms)." },
-              { "label": "National Cyber Security Policy 2013.\nIndian Computer Emergency Response Team (CERT‑In) – national nodal agency for cyber incident response." },
-              { "label": "National Critical Information Infrastructure Protection Centre (NCIIPC) under NTRO." }
-            ]
+            "label": "🔴|IT Act 2000 (as amended) remains the core cyber-law framework in the source note; Section 66A was struck down in Shreya Singhal (2015).",
+            "kind": "bullet"
           },
           {
-            "label": "Challenges & MAINS",
-            "children": [
-              { "label": "Data sovereignty, encryption vs surveillance debate, social media misuse (fake news, radicalisation), cyber warfare capabilities, shortage of cybersecurity professionals." }
-            ]
+            "label": "🔴|CERT-In is the national nodal agency for cyber-incident response; NCIIPC protects critical information infrastructure; NTRO has a technical-intelligence role.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|National Cyber Security Policy 2013 is an important historical reference; the source one-pager also discusses the later National Cyber Security Strategy process/reference framework.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Emerging Tech Threats in Cyber Space",
+        "label": "Cyber PYQ Master – Strategy & Implementation",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Virtual Digital Assets (VDAs) & Dark Web",
-            "children": [
-              { "label": "Anonymity of cryptocurrencies and the Tor network facilitates untraceable terror financing, drug cartels, and human trafficking. FIU‑IND now brings VDA exchanges under reporting obligations." }
-            ]
+            "label": "🟠|Elements of comprehensive cyber strategy → governance, risk assessment, critical-infrastructure protection, cyber workforce, secure-by-design, incident response, international cooperation and public awareness.",
+            "kind": "bullet"
           },
           {
-            "label": "State‑Sponsored Cyber Warfare",
-            "children": [
-              { "label": "Shift from amateur hacking to Advanced Persistent Threats (APTs) targeting India's Critical Information Infrastructure (e.g., attacks on the Kudankulam Nuclear Plant, Mumbai's power grid). Requires continuous threat intelligence and resilient architecture." }
-            ]
+            "label": "🟠|Cross-border cyber attacks blur internal/external security because state-backed and criminal actors can operate through third countries.",
+            "kind": "bullet"
           },
           {
-            "label": "AI and Deepfakes in Cognitive Warfare",
-            "children": [
-              { "label": "Generative AI used to spread sophisticated disinformation, incite communal violence, and destabilize elections. Deepfakes pose a severe threat to electoral integrity and social cohesion, necessitating algorithmic detection tools." }
-            ]
+            "label": "🟠|Implementation challenges → skills shortages, fragmented institutional responsibilities, legacy systems, inadequate security spending, poor cyber hygiene and rapidly evolving technology.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Data Security & Privacy",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Justice B.N. Srikrishna Committee is a direct UPSC reference for personal-data protection and cyber privacy.",
+            "kind": "bullet"
           },
-          { "label": "MAINS: Discuss the challenges posed by emerging technologies (AI, dark web, APTs) to India's internal security and suggest a comprehensive legal and technological response." }
+          {
+            "label": "🟠|Key tension → data-driven governance and innovation versus privacy, consent, minimisation, security and state/private surveillance risks.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Cyber resilience requires secure architecture, access controls, encryption, audit, incident reporting and tested recovery arrangements.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Cyber Crime / Social Media / Information Warfare",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Social media can be misused for misinformation, radicalisation, recruitment, intimidation, fraud and communal polarisation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Information warfare combines technical attacks with influence operations, disinformation and manipulation of public perception.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Cloud hosting can improve scalability/availability but creates concentration, vendor-dependence, jurisdiction and data-security risks; government systems require strong contractual and technical safeguards.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "New-Age Threats",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Dark web can facilitate illicit markets, recruitment, propaganda and criminal financing.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Cryptocurrencies/virtual assets can be misused for concealment and cross-border transfers; AML controls must evolve with technology.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|AI-generated deepfakes can affect elections, communal harmony and trust in information; responses need provenance, detection, platform accountability and media literacy.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Advanced persistent threats (APTs) can target power, finance, telecom, defence and nuclear/critical systems; resilience requires continuous threat intelligence and segmentation.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -465,55 +831,182 @@ export const RAW_D = [
   {
     "id": "VIII",
     "p": "pm3",
-    "label": "Security Forces, Intelligence Agencies & Police Reforms",
+    "label": "Security Forces, Intelligence Agencies, Police & Conflict Resolution",
     "children": [
       {
-        "p": "pm2",
-        "label": "Central Armed Police Forces (CAPFs)",
+        "label": "Security Forces – Roles",
+        "kind": "comparison",
         "children": [
           {
-            "label": "List & Roles",
-            "children": [
-              { "label": "CRPF (Central Reserve Police Force): internal security, LWE, elections, VIP security (largest CAPF)." },
-              { "label": "BSF: border guarding (Pakistan, Bangladesh)." },
-              { "label": "ITBP: China border." },
-              { "label": "SSB: Nepal and Bhutan borders." },
-              { "label": "CISF (Central Industrial Security Force): security of PSUs, airports, ports, major infrastructure." },
-              { "label": "Assam Rifles: border guarding Myanmar, counter‑insurgency in NE.\n(Under MHA, oldest paramilitary – 1835)." },
-              { "label": "National Security Guard (NSG): counter‑terrorism and anti‑hijack operations." }
-            ]
+            "label": "🔴|CRPF → internal security, LWE, elections and major public-order/security duties.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|BSF → border guarding on Pakistan/Bangladesh fronts.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|ITBP → China border/high-altitude border security.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|SSB → Nepal/Bhutan border guarding.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|CISF → airports, ports, industrial/critical infrastructure security.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Assam Rifles → Myanmar border and North-East counter-insurgency roles.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NSG → specialised counter-terrorism/anti-hijacking role.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Intelligence Agencies (Static)",
+        "label": "Intelligence & Investigative Architecture",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Key Agencies",
-            "children": [
-              { "label": "Intelligence Bureau (IB): domestic intelligence, internal security, under MHA." },
-              { "label": "Research and Analysis Wing (RAW): external intelligence, under PMO (Cabinet Secretariat).\nFounded 1968." },
-              { "label": "National Technical Research Organisation (NTRO): technical intelligence (satellite, cyber).\nUnder NSA." },
-              { "label": "Joint Intelligence Committee (JIC), Defence Intelligence Agency (DIA), etc." }
-            ]
+            "label": "🔴|IB → domestic intelligence/internal security.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|RAW → external intelligence.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NIA → specialised investigation of scheduled national-security/terror offences under its statute.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|MAC/SMAC → intelligence-sharing coordination mechanisms.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NATGRID → integrated intelligence/data-access architecture for authorised security use.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NTRO/DIA and other technical/defence-intelligence bodies complement the broader intelligence ecosystem.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
         "label": "Police Reforms",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Key Reports & Directives",
-            "children": [
-              { "label": "Police is a State subject (7th Schedule)." },
-              { "label": "Police Act 1861 – still basis, criticised for colonial legacy." },
-              { "label": "Prakash Singh Case (2006): SC issued 7 directives – fixed tenure for DGP (min 2 years), separation of law & order from investigation, Police Establishment Board, Police Complaints Authority." },
-              { "label": "Second Administrative Reforms Commission (ARC) 5th Report on 'Public Order' – recommended separation of investigation, fixed tenures, and community policing." },
-              { "label": "Model Police Act 2006, Model Police Bill 2015.\nState compliance limited." },
-              { "label": "Challenges: political interference, corruption, lack of infrastructure, poor forensic capacity, low police‑public ratio (recommended 222/100k, actual ~150/100k)." }
-            ]
+            "label": "🔴|Police is a State subject; colonial Police Act 1861 remains an important historical reference.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Prakash Singh (2006) directives → fixed tenure, separation of investigation/law-and-order, Police Establishment Board, Police Complaints Authorities and related professionalisation measures.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Reform priorities → better investigation/forensics, cyber capability, community policing, training, accountability, stable tenure and insulation from inappropriate political interference.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Effective policing must balance operational effectiveness with human rights, due process and public trust.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Jammu & Kashmir – Hearts & Minds",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Conflict resolution requires restoring trust alongside security operations.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Operation Sadbhavana/Goodwill Schools and civic-action programmes are source-note examples of population-centric engagement.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Measures should include employment, education, healthcare, grievance redress, local engagement, infrastructure, youth outreach and credible democratic participation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|A purely kinetic approach cannot by itself create durable legitimacy; security, development and political engagement must reinforce one another.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Conflict Resolution – General Framework",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Successful internal-security conflict resolution usually combines security, dialogue, political accommodation, rights protection, development, rehabilitation and reintegration.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Local ownership is critical: deny militant networks popular support while keeping civilian institutions accessible and accountable.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Peace accords require implementation monitoring, institutional follow-through and economic/social reintegration.",
+            "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "IX",
+    "p": "pm2",
+    "label": "Internal Security – PYQ Traps & Dynamic Facts",
+    "children": [
+      {
+        "label": "High-Yield PYQ Traps",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Internal security ≠ only terrorism: UPSC repeatedly combines borders, cyber, LWE, organised crime, maritime security, migration and money laundering.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Development ≠ substitute for security; the strongest answers integrate security + governance + rights + development.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Counter-terrorism ≠ only military action: include intelligence, finance, policing, diplomacy, community trust and prevention.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Cyber security ≠ only cybercrime: include espionage, warfare, critical infrastructure, information warfare and privacy/data security.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Border management ≠ only fencing: combine infrastructure, surveillance, local development, intelligence, diplomacy and legitimate trade/movement.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Dynamic / Update Before Exam",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟡|Exact affected-district numbers, border-fencing lengths, terror-death statistics and scheme-coverage figures should be updated from the latest official MHA/Ministry/agency data before Prelims/Mains.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Names/statuses of peace accords, insurgent groups, ceasefires and active areas can change; preserve the conceptual framework and update only the dynamic facts.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Cyber Strategy/Policy labels and implementation status are current-sensitive; use the latest official status at the time of exam.",
+            "kind": "bullet"
           }
         ]
       }

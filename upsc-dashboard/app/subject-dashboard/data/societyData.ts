@@ -7,89 +7,106 @@ export const RAW_D = [
     "label": "Salient Features & Diversity of Indian Society",
     "children": [
       {
-        "p": "pm2",
-        "label": "Foundational Characteristics",
+        "label": "Core Characteristics",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Unity in Diversity",
-            "children": [
-              { "label": "India’s society is a mosaic of languages, religions, castes, and ethnic groups coexisting under a single national identity." },
-              { "label": "Factors promoting unity: Constitution (secular, democratic, fundamental rights), common heritage (freedom struggle, cultural synthesis), geographical integrity, economic inter-dependence." },
-              { "label": "MAINS: Analyse how India’s diversity has shaped its polity, culture, and social fabric, and the threats to this unity (communalism, regionalism)." }
-            ]
+            "label": "🔴|India combines linguistic, religious, caste, tribal, regional and cultural diversity with a common constitutional and national framework.",
+            "kind": "bullet"
           },
           {
-            "label": "Multi-religious & Multi-linguistic",
-            "children": [
-              { "label": "Religions: Hindu (79.8%), Muslim (14.2%), Christian (2.3%), Sikh (1.7%), Buddhist (0.7%), Jain (0.4%), others.\n(Census 2011)." },
-              { "label": "Languages: 22 scheduled languages (Eighth Schedule).\nHindi (41%), Bengali (8.1%), Telugu (7.2%), Marathi (7%), Tamil (5.9%) – Census 2011.\n121 languages and 270 mother tongues with >10,000 speakers." },
-              { "label": "Scripts: multiple; language-based states since 1956.\nTRAP: Official language of Union is Hindi in Devanagari, but English continues for official purposes." }
-            ]
+            "label": "🔴|Unity in diversity is sustained by constitutional citizenship, democratic institutions, a common freedom-struggle legacy, mobility and economic interdependence.",
+            "kind": "bullet"
           },
           {
-            "label": "Caste System & Social Stratification",
-            "children": [
-              { "label": "Varna (theoretical four-fold) vs Jati (actual thousands of sub-castes).\nFeatures: hereditary occupation, endogamy, commensality restrictions, hierarchy." },
-              { "label": "Changing patterns: sanskritisation (M.N.\nSrinivas), westernisation, dominant caste, modernisation, secularisation." },
-              { "label": "MAINS: Caste as a divisive factor, yet a source of social identity and political mobilisation; impact on elections, policies (reservation)." }
-            ]
+            "label": "🔴|Pluralism means coexistence of multiple identities within a common civic framework; it requires equality and non-discrimination, not mere passive tolerance.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Types of Diversity & Regional Variations",
+        "label": "Caste & Social Stratification",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Racial & Ethnic Diversity",
-            "children": [
-              { "label": "Major racial groups: Negrito (original inhabitants, Andamanese), Proto-Australoid (Munda, Oraon), Mongoloid (North-East, Ladakh), Mediterranean (Dravidian, South), Western Brachycephalic (Alpine, Dinaric), Nordic (Aryan)." },
-              { "label": "Ethnic groups: Indo-Aryan, Dravidian, Mongoloid, Tribal (Adivasi).\nMixed ancestry.\nComplexity of Indian 'race'." }
-            ]
+            "label": "🔴|Varna is a broad textual four-fold model; jati refers to numerous locally embedded birth-based groups and networks.",
+            "kind": "bullet"
           },
           {
-            "label": "Linguistic Diversity",
-            "children": [
-              { "label": "5 language families: Indo-European (Hindi, Bengali, Marathi), Dravidian (Tamil, Telugu, Kannada, Malayalam), Austro-Asiatic (Munda, Santhal), Tibeto-Burman (Bodo, Manipuri), and Andamanese (endangered)." },
-              { "label": "Language-based tensions: Official Language Act 1963, anti-Hindi agitations, linguistic reorganization of states (1956).\nThree-language formula in education." }
-            ]
+            "label": "🔴|Caste operates through hierarchy, endogamy, kinship, social status and political mobilisation, but its occupational basis has weakened unevenly.",
+            "kind": "bullet"
           },
           {
-            "label": "Religious & Cultural",
-            "children": [
-              { "label": "Religious diversity: all major world religions present.\nCultural regions defined by festivals, cuisine, dress, art forms." },
-              { "label": "MAINS: Concept of composite culture; syncretism (Bhakti-Sufi); challenges of pluralism in a democracy." }
-            ]
+            "label": "🔴|M.N. Srinivas: Sanskritisation, dominant caste, westernisation; Louis Dumont: hierarchy and purity-pollution; Ambedkar: annihilation of caste and social democracy.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Theoretical Perspectives on Indian Society",
+        "label": "Linguistic / Regional Diversity",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Indological / Orientalist (G.S.\nGhurye, Louis Dumont)",
-            "children": [
-              { "label": "Focus on scriptural texts, caste as a pure/hierarchical system.\nLouis Dumont's 'Homo Hierarchicus' – purity vs pollution." }
-            ]
+            "label": "🔴|India has 22 languages in the Eighth Schedule; the Union's official-language framework is distinct from continued use of English for official purposes.",
+            "kind": "bullet"
           },
           {
-            "label": "Structural-Functional (M.N.\nSrinivas)",
-            "children": [
-              { "label": "Concepts: Sanskritisation, dominant caste, westernisation, secularisation.\nFocus on empirical field-view." }
-            ]
+            "label": "🔴|Linguistic reorganisation of States created institutional accommodation of identity and broadly strengthened national integration, though language politics can create regional tensions.",
+            "kind": "bullet"
           },
           {
-            "label": "Marxist (D.P.\nMukerji, A.R.\nDesai)",
-            "children": [
-              { "label": "Class-based analysis; Indian society in terms of mode of production, colonialism, and class struggle." }
-            ]
+            "label": "🔴|Regions can function as cultural units that cut across administrative boundaries because language, ecology, history and economic systems do not always align with State borders.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Ethnic / Tribal Diversity",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Tribal communities are internally diverse; treating them as a single category is justified mainly for shared constitutional safeguards, vulnerability and administrative policy.",
+            "kind": "bullet"
           },
           {
-            "label": "Subaltern / Dalit perspective (B.R.\nAmbedkar, Ranajit Guha)",
-            "children": [
-              { "label": "Ambedkar: annihilation of caste, Buddhism.\nSubaltern studies: history from below, voice of marginalised." }
-            ]
+            "label": "🟠|Ethnic diversity can enrich pluralism but becomes politically conflictual when combined with exclusion, land/resource competition, displacement or unequal development.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Theoretical Perspectives",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Ghurye/Indological perspective emphasises textual-cultural structures; Srinivas offers an empirical/field-based view of social change.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Marxist approaches analyse class, colonialism, production and economic power; Subaltern approaches foreground marginalised voices and agency.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Ambedkar's perspective connects caste with graded inequality and argues that political democracy requires social democracy.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Tradition & Social Change",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Traditional values persist through family, religion, rituals, festivals, kinship and cultural memory.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Modernisation changes authority, marriage, consumption, occupations and gender roles, but traditional institutions often adapt rather than disappear.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Globalisation, urbanisation, education, technology and migration can simultaneously weaken and reinvent local identities.",
+            "kind": "bullet"
           }
         ]
       }
@@ -98,67 +115,110 @@ export const RAW_D = [
   {
     "id": "II",
     "p": "pm",
-    "label": "Role of Women & Women's Organizations",
+    "label": "Women, Family, Marriage & Gender Relations",
     "children": [
       {
-        "p": "pm2",
-        "label": "Status of Women – Historical & Contemporary",
+        "label": "Historical to Contemporary Change",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Ancient & Medieval",
-            "children": [
-              { "label": "Ancient: Rig Vedic women (Gargi, Maitreyi) had education, choice in marriage; later decline with Smritis.\nMedieval: purdah, sati, child marriage, restrictions under Islamic and feudal systems.\nExceptions: Bhakti movement (Mirabai, Akka Mahadevi), Razia Sultana, Chand Bibi." }
-            ]
+            "label": "🔴|Women's status changed through social reform, constitutional equality, education, legal reform, political participation and economic opportunities.",
+            "kind": "bullet"
           },
           {
-            "label": "Colonial & Reform",
-            "children": [
-              { "label": "Social reformers: Raja Ram Mohan Roy (sati abolition 1829), Ishwar Chandra Vidyasagar (widow remarriage 1856), Jyotiba Phule & Savitribai Phule (female education), D.K.\nKarve (widow home, women's university)." },
-              { "label": "Women's participation in freedom struggle: Sarojini Naidu, Aruna Asaf Ali, Bhikaji Cama, Captain Lakshmi Sahgal." },
-              { "label": "Legislations: Sati Abolition (1829), Widow Remarriage (1856), Child Marriage Restraint Act (1929 – Sarda Act), Hindu Code Bills post-independence." }
-            ]
-          },
-          {
-            "label": "Post-Independence & Constitutional Provisions",
-            "children": [
-              { "label": "Constitutional guarantees: Art.\n14 (equality), Art.\n15(3) (special provisions for women), Art.\n16, Art.\n39(d), Art.\n42, Art.\n51A(e), Art.\n243D (reservation in Panchayats)." },
-              { "label": "Legislative: Dowry Prohibition Act 1961, Domestic Violence Act 2005, Maternity Benefit (Amendment) Act 2017, Sexual Harassment of Women at Workplace (POSH) Act 2013." },
-              { "label": "MAINS: Evaluate the effectiveness of legal measures in addressing gender inequality; suggest additional reforms." }
-            ]
+            "label": "🔴|Important reform milestones include abolition of sati, widow-remarriage reform, women's education and later constitutional/statutory equality.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Women's Organizations & Movements",
+        "label": "Gender Equality, Equity & Empowerment",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Pre-Independence",
-            "children": [
-              { "label": "Bharat Stree Mahamandal (1910, Sarala Devi Chaudhurani) – first all-India women’s organisation." },
-              { "label": "All India Women's Conference (AIWC, 1927 – Margaret Cousins) – education, social reform.\nWomen's India Association (1917 – Annie Besant)." },
-              { "label": "National Federation of Indian Women (1954 – communist-linked)." }
-            ]
+            "label": "🔴|Gender equality means equal rights/opportunities; equity means fair measures addressing unequal starting positions; empowerment means greater agency, resources, capabilities and decision-making power.",
+            "kind": "bullet"
           },
           {
-            "label": "Contemporary Movements",
-            "children": [
-              { "label": "Chipko (women-led environmental movement), anti-liquor movements (Andhra, Haryana), anti-price rise, anti-rape protests (Mathura rape case 1972, Nirbhaya 2012), #MeToo." },
-              { "label": "Self-help groups (SHGs), microfinance, empowerment through economic independence (SEWA – Ela Bhatt)." }
-            ]
+            "label": "🔴|Programme design must consider safety, unpaid care work, mobility, asset ownership, digital access, voice and institutional barriers.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Women's empowerment is social, economic, political and psychological—not merely scheme participation.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Key Issues Affecting Women",
+        "label": "Women & Work",
+        "kind": "comparison",
         "children": [
-          { "label": "Declining sex ratio: 940 (Census 2011), child sex ratio 919 (0-6).\nCauses: son preference, female foeticide/infanticide.\nPC-PNDT Act 1994 to curb prenatal sex determination." },
-          { "label": "Education: female literacy 65.46% (2011) vs male 82.14%.\nSchemes: Beti Bachao Beti Padhao." },
-          { "label": "Workforce participation: declining female LFPR; reasons: stigma, lack of safety, care burden, MGNREGA helped slightly." },
-          { "label": "Violence: domestic violence, dowry deaths, rape, acid attacks.\nNirbhaya Fund, fast-track courts." },
-          { "label": "Political representation: 33% reservation in local bodies (73rd/74th Amendment), Women's Reservation Bill (Nari Shakti Vandan Adhiniyam 2023 – 33% in Lok Sabha and State Assemblies)." },
-          { "label": "MAINS: Multidimensional nature of gender inequality; need for holistic empowerment – social, economic, political, and psychological." }
+          {
+            "label": "🟠|Female labour participation is shaped by education, care burdens, safety, transport, social norms, job quality and access to assets/markets.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Globalisation can expand professional opportunities while also increasing precarious work, double burden and unequal care responsibilities.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Feminisation of agriculture can result from male out-migration while women receive agricultural responsibility without equivalent land, credit, extension or technology access.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Marriage & Family",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Marriage remains important but is changing through education, urbanisation, women's employment, individual choice, law and delayed marriage.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Joint families may transform into modified or translocal forms rather than simply disappear.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Inter-caste marriage tends to rise where social interaction and socio-economic parity reduce barriers; inter-religious marriage may face stronger kinship and identity boundaries.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Patriarchy & Social Attitudes",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Patriarchy shapes inheritance, mobility, unpaid care, decision-making, occupational segregation, sexuality and violence.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Long-term change needs norm transformation, men/boys as partners, safety, care infrastructure, equal asset ownership and institutional accountability.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Young women's distress/suicide risk should be analysed through the interaction of gender norms, violence, constrained autonomy, mental-health stigma and social isolation.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Women's Movements & Organisations",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Women's India Association, AIWC and Bharat Stree Mahamandal are important historical organisations; post-independence movements expanded into anti-violence, anti-liquor, environmental, labour and digital campaigns.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|SEWA and SHGs show the link between collective organisation, livelihoods, social capital and women's agency.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Male participation can strengthen women's organisations by challenging gender bias when it does not displace women's leadership.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -166,80 +226,109 @@ export const RAW_D = [
   {
     "id": "III",
     "p": "pm",
-    "label": "Population & Associated Issues",
+    "label": "Population, Migration & Demographic Change",
     "children": [
       {
-        "p": "pm2",
-        "label": "Population Theories & Demographic Transition",
+        "label": "Population Theory",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Malthusian Theory",
-            "children": [
-              { "label": "Population grows geometrically, food arithmetically; positive checks (famine, war, disease) and preventive checks (moral restraint).\nCriticized for ignoring technology." }
-            ]
+            "label": "🔴|Malthus linked population growth to food constraints; the theory is criticised for underestimating technology and institutional change.",
+            "kind": "bullet"
           },
           {
-            "label": "Marxian Perspective",
-            "children": [
-              { "label": "Surplus population relative to employment under capitalism; not absolute overpopulation." }
-            ]
+            "label": "🔴|Marxian analysis sees population pressure as partly produced by the structure of employment and production rather than absolute overpopulation.",
+            "kind": "bullet"
           },
           {
-            "label": "Demographic Transition Model (DTM)",
-            "children": [
-              { "label": "Stage 1: High stationary, Stage 2: Early expanding, Stage 3: Late expanding, Stage 4: Low stationary, Stage 5: Declining.\nIndia is in Stage 3 (declining birth rate, but high population momentum)." }
-            ]
+            "label": "🔴|Demographic transition links falling mortality and fertility with social/economic transformation; different Indian regions are at different transition stages.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Demographic Dividend & Age Structure",
+        "label": "Demographic Dividend",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Definition & Potential",
-            "children": [
-              { "label": "Demographic dividend: period when working-age population (15-59) exceeds dependent (<15 and >60).\nIndia's dependency ratio declining (2011: 0.65, projected 0.54 by 2031)." },
-              { "label": "Need to harness via education, skill, employment, and health.\nOtherwise, demographic disaster." }
-            ]
+            "label": "🔴|Demographic dividend arises when the working-age share rises relative to dependants, but it becomes an economic dividend only through health, education, skills and productive employment.",
+            "kind": "bullet"
           },
           {
-            "label": "Ageing Population & Concerns",
-            "children": [
-              { "label": "Rising elderly population (8.6% in 2011, expected 12.5% by 2030).\nIssues: social security, healthcare, loneliness, economic dependency.\nMaintenance and Welfare of Parents Act 2007." }
-            ]
+            "label": "🔴|Female labour-force participation, job creation, mobility and social protection are essential to convert demographic structure into economic gains.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Family Planning & Population Policy",
+        "label": "Demographic Winter & Ageing",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Evolution",
-            "children": [
-              { "label": "India first country to launch national family planning programme (1952).\nShift from target-based (1976 Emergency forced sterilizations) to voluntary, reproductive health approach (RCH, 1997)." },
-              { "label": "National Population Policy 2000: target TFR 2.1 by 2010 (not met, now at ~2.0), reduce IMR, MMR, increase contraceptive prevalence." }
-            ]
+            "label": "🟠|Demographic winter means sustained very low fertility causing ageing, shrinking working-age cohorts and eventual population decline.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|India's demographic transition is heterogeneous: some regions are ageing rapidly while others remain comparatively young.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Ageing requires pensions, geriatric care, long-term care, age-friendly housing/transport and protection against loneliness and abuse.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Migration – Causes & Consequences",
+        "label": "Population Education & Family Planning",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Types & Patterns",
-            "children": [
-              { "label": "Push factors: rural poverty, unemployment, lack of infrastructure, disaster.\nPull: urban jobs, education, better amenities." },
-              { "label": "Inter-state migration in India is predominantly rural-to-rural (female marriage migration) and rural-to-urban (male economic)." }
-            ]
+            "label": "🔴|India launched a national family-planning programme in 1952; policy gradually shifted from target-driven approaches toward voluntary, rights-based reproductive health.",
+            "kind": "bullet"
           },
           {
-            "label": "Consequences",
-            "children": [
-              { "label": "Positive: remittances, labour supply, cultural exchange.\nNegative: brain drain, urban slum growth, social tensions, human trafficking." }
-            ]
+            "label": "🔴|Population education should cover reproductive health, family size, demographic change, gender, resource constraints and responsible citizenship.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Population stabilisation is better achieved through education, child survival, contraception access and women's agency than coercive measures.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Migration",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Push factors include poverty, unemployment, distress, disasters and weak local opportunities; pull factors include jobs, education, services and social networks.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Migration can be circular, seasonal, rural-urban, rural-rural or international; motives are often gendered.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Migration brings remittances, labour mobility and cultural exchange but can also produce precarious work, housing stress, family separation and pressure on urban services.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "PYQ Master – Migration & Cities",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Large cities attract migrants because of agglomeration economies, diversified labour markets, perceived wage premiums, services and established migrant networks.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Young women's migration can increase autonomy and income but may produce tensions over family roles, safety, housing and social norms.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Policy should improve portability of entitlements, labour protection, affordable housing, transport and migrant-friendly urban governance.",
+            "kind": "bullet"
           }
         ]
       }
@@ -248,45 +337,98 @@ export const RAW_D = [
   {
     "id": "IV",
     "p": "pm",
-    "label": "Poverty & Developmental Issues",
+    "label": "Poverty, Inequality & Development",
     "children": [
       {
-        "p": "pm2",
-        "label": "Concept & Measurement of Poverty",
+        "label": "Poverty Concepts",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Definitions",
-            "children": [
-              { "label": "Absolute poverty: below a minimum subsistence level.\nRelative poverty: inequality relative to society.\nAmartya Sen's 'Capability Approach' – poverty as deprivation of basic capabilities." }
-            ]
+            "label": "🔴|Absolute poverty concerns minimum basic needs; relative poverty concerns inequality relative to society; capability poverty focuses on substantive freedoms and opportunities.",
+            "kind": "bullet"
           },
           {
-            "label": "Poverty Estimation Committees (India)",
-            "children": [
-              { "label": "Alagh Committee (1979) – first official poverty line based on calorie intake (2400 rural, 2100 urban).\nLakdawala (1993) – state-specific CPI.\nTendulkar (2009) – shifted from calorie to consumption expenditure, included health/education.\nRangarajan (2014) – higher poverty line, 29.5% poor (2011-12)." },
-              { "label": "Current: NITI Aayog's Multidimensional Poverty Index (MPI) – includes health, education, standard of living.\nIndia lifted 135 million out of multidimensional poverty (2015-2021)." }
-            ]
+            "label": "🔴|Multidimensional poverty captures overlapping deprivations beyond income.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Causes & Consequences of Poverty",
+        "label": "Poverty Measurement",
+        "kind": "comparison",
         "children": [
-          { "label": "Historical: colonial exploitation, drain of wealth.\nEconomic: low growth, unemployment, inequality, inadequate public services.\nSocial: caste, gender discrimination, illiteracy." },
-          { "label": "Consequences: malnutrition, ill-health, illiteracy, social unrest, inter-generational poverty." },
-          { "label": "MAINS: Analyse the link between poverty and social exclusion, especially for Dalits, Adivasis, and minorities." }
+          {
+            "label": "🔴|Alagh, Lakdawala, Tendulkar and Rangarajan are major historical poverty-estimation milestones with differing assumptions and methods.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|NITI Aayog's National Multidimensional Poverty Index adds a deprivation-based lens covering health, education and living standards.",
+            "kind": "bullet"
+          }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Poverty Alleviation & Developmental Schemes",
+        "label": "Poverty, Inequality & Exclusion",
+        "kind": "comparison",
         "children": [
-          { "label": "MGNREGA (2005): guaranteed 100 days wage employment in rural areas.\nRight to work." },
-          { "label": "Deendayal Antyodaya Yojana – DAY-NRLM (rural SHGs), DAY-NULM (urban)." },
-          { "label": "Pradhan Mantri Awaas Yojana – Gramin/Urban (housing).\nJal Jeevan Mission (drinking water).\nSwachh Bharat Mission (sanitation)." },
-          { "label": "Mid-Day Meal (PM Poshan).\nIntegrated Child Development Services (ICDS)." },
-          { "label": "MAINS: Evaluate effectiveness of welfare schemes in reducing poverty; challenges of exclusion, corruption, targeting." }
+          {
+            "label": "🔴|Inequality in ownership of land, productive assets, human capital, finance and social networks can reproduce poverty across generations.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Poverty can decline while inequality or social exclusion persists; inclusive development therefore requires access, capability, voice and dignity.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Structural disadvantages can intersect through caste, tribe, gender, disability, geography and family background.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Welfare & Development Programmes",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|MGNREGA offers statutory rural employment; DAY-NRLM uses SHGs and livelihoods; DAY-NULM targets urban livelihoods; housing, water, sanitation and nutrition programmes address non-income deprivation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Programme effectiveness depends on access, awareness, targeting, grievance redress, local capacity and convergence.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Anti-poverty policy works best when income support is combined with asset creation and public services.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "PYQ Master – Human Development",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Human development can lag economic growth because gains may be uneven and health, education, nutrition, gender equality and public-service quality may remain weak.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Balanced development requires capabilities, decent work, social protection and reduction of regional/social disparities.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Poverty & Hunger",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Food insecurity can persist despite overall food availability when households face high non-food expenses, poor diet diversity, weak health and sanitation or unequal intra-household allocation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Nutrition-sensitive poverty policy therefore combines food access with health, maternal care, sanitation, education and social protection.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -294,39 +436,102 @@ export const RAW_D = [
   {
     "id": "V",
     "p": "pm",
-    "label": "Urbanization: Problems & Remedies",
+    "label": "Urbanization & Urban Social Change",
     "children": [
       {
-        "p": "pm2",
-        "label": "Urbanization Trends & Patterns",
+        "label": "Urbanisation Dynamics",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Census 2011",
-            "children": [
-              { "label": "Urban population: 31.16%.\nNumber of towns: 7935.\nUrban growth due to natural increase, rural-to-urban migration, reclassification of rural areas." },
-              { "label": "Million-plus cities: 53 (highest: Maharashtra > UP).\nLargest urban agglomerations: Mumbai, Delhi, Kolkata, Chennai, Bengaluru, Hyderabad, Ahmedabad." }
-            ]
+            "label": "🔴|Urbanisation is driven by natural increase, migration, reclassification and expansion of urban economic activity.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Urbanisation changes labour markets, family structures, consumption, spatial inequality and political priorities.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Major Urban Problems",
+        "label": "Urban Poverty & Segregation",
+        "kind": "comparison",
         "children": [
-          { "label": "Slums: Dharavi, lack of basic services, informal economy, poverty, crime.\nSlum Rehabilitation programmes." },
-          { "label": "Housing shortage, unaffordability.\nEnvironmental: air pollution, waste management, urban heat island, flooding." },
-          { "label": "Transport: congestion, lack of public transport, road accidents.\nWater scarcity, sanitation, health issues." },
-          { "label": "MAINS: Urban planning failures and the need for inclusive, sustainable cities." }
+          {
+            "label": "🔴|Urban poor face insecure tenure, informal employment, weak services, high housing costs and long travel times.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Metropolitan growth can produce segregation between affluent enclaves, peripheral settlements and informal settlements.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Location matters: transport connectivity, proximity to jobs and service access determine the real burden of urban poverty.",
+            "kind": "bullet"
+          }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Urban Development Initiatives",
+        "label": "Urban Social Problems",
+        "kind": "comparison",
         "children": [
-          { "label": "Smart Cities Mission (2015): 100 cities, area-based development, smart solutions." },
-          { "label": "AMRUT (Atal Mission for Rejuvenation and Urban Transformation): basic services in 500 cities." },
-          { "label": "Swachh Bharat Mission – Urban, PM SVANidhi (street vendors), DAY-NULM.\nRERA (Real Estate Regulation Act 2016)." },
-          { "label": "Concept of 'sustainable urbanization' – SDG 11, green buildings, transit-oriented development." }
+          {
+            "label": "🟠|Rapid urbanisation can intensify slums, pollution, waste, congestion, water stress, floods, heat, health risks and social isolation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Planning failures can convert wetlands/open spaces and increase vulnerability to climate and disaster shocks.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Smart Cities & Justice",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Smart-city technology can improve service delivery, mobility and monitoring but can deepen exclusion if affordability, digital access and informal-settlement needs are ignored.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Urban justice requires affordable housing, basic services, transport, livelihoods and participatory planning—not technology alone.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Distributive justice asks who receives investment, who bears costs/displacement and whose needs shape urban planning.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Urban Transport & Rural-Urban Integration",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Affordable mass transport expands job access, reduces congestion/emissions and lowers household transport costs.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Smart cities need smart villages and regional linkages for food, labour, markets and ecological services.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Walking, cycling, buses, last-mile connectivity and transit-oriented development complement metro systems.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Tier-2 Cities & New Middle Class",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Tier-2 cities can attract investment, services and middle-class households through lower costs and improved connectivity.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Rising consumption can widen markets and employment but can also intensify status competition, waste, land speculation and social differentiation.",
+            "kind": "bullet"
+          }
         ]
       }
     ]
@@ -334,147 +539,246 @@ export const RAW_D = [
   {
     "id": "VI",
     "p": "pm",
-    "label": "Effects of Globalization on Indian Society",
+    "label": "Globalization, Technology & Indian Society",
     "children": [
       {
-        "p": "pm2",
-        "label": "Economic & Cultural Dimensions",
+        "label": "Economic Globalisation",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Economic Globalization",
-            "children": [
-              { "label": "1991 reforms: LPG (liberalization, privatization, globalization).\nImpact: growth of IT sector, services, FDI, rise of middle class, consumerism." },
-              { "label": "Negative: jobless growth, agrarian distress, widening inequality, displacement of traditional industries." }
-            ]
+            "label": "🔴|Post-1991 reforms increased integration through liberalisation, privatisation and globalisation, expanding services, trade, FDI and consumer markets.",
+            "kind": "bullet"
           },
           {
-            "label": "Cultural Globalization",
-            "children": [
-              { "label": "Westernisation of lifestyle, food, dress, festivals.\nEnglish as link language.\nGrowth of social media, influence on youth." },
-              { "label": "Homogenisation vs hybridisation; resurgence of cultural identity and nationalism as counter-reaction." }
-            ]
+            "label": "🔴|Benefits include technology, entrepreneurship, jobs and global exposure; risks include unequal gains, insecurity, displacement and pressure on weaker producers.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Social Impact",
+        "label": "Cultural Globalisation",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Caste & Family",
-            "children": [
-              { "label": "Caste: erosion of traditional occupations, caste-based politics still strong; global diaspora influences." },
-              { "label": "Family: shift from joint to nuclear family; rise of individualism, divorce rates, live-in relationships, same-sex rights debate.\nWeakening of gerontocracy." }
-            ]
+            "label": "🔴|Globalisation can promote cultural homogenisation through brands, media and consumer lifestyles.",
+            "kind": "bullet"
           },
           {
-            "label": "Women & Education",
-            "children": [
-              { "label": "New economic opportunities for women; increased education, awareness.\nYet, double burden of work and home." },
-              { "label": "Education: privatisation, global exposure, brain drain, but also return of talent." }
-            ]
+            "label": "🔴|It can simultaneously strengthen cultural specificity through revival, selective appropriation and hybridisation.",
+            "kind": "bullet"
           },
           {
-            "label": "MAINS: Globalization as both a force for modernisation and a threat to social cohesion; managing its impact on vulnerable sections." }
-          ]
+            "label": "🔴|Indian society often shows localisation of global forms through local language, food, festivals, aesthetics and social practices.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Consumer Culture",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Globalisation does not produce only aggressive consumerism; it also expands choice, aspirations, information and market opportunities.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Consumerism can generate materialism, status competition, debt, ecological stress and health concerns; fast-food growth illustrates the tension between convenience and nutrition/culture.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Family & Social Relationships",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Globalisation and technology can encourage individual autonomy, nuclearisation and new relationship patterns while also preserving extended-family support through migration/remittances/digital communication.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Work-from-home can improve flexibility for some households but intensify work-family boundaries, care burdens and gender inequality for others.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "IT Cities & New Social Classes",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|IT industries create skilled employment, new middle classes and innovation ecosystems but also high housing costs, traffic, stress, service-worker dependence and spatial inequality.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Digital industries can widen opportunity while creating new skill divides and precarious employment.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "AI, GIS, Remote Sensing & Society",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|AI, GIS, remote sensing and drones can improve location/allocation planning, land-use monitoring, disaster mapping and service-demand forecasting.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Risks include algorithmic bias, privacy loss, surveillance and unequal digital access; human oversight and transparent governance are essential.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Gig Economy & Women",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Gig work offers flexibility and low entry barriers that can help women constrained by mobility/care responsibilities.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Risks include income volatility, lack of social security, safety concerns, platform dependence and transfer of unpaid care burdens onto women.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Cryptocurrency & Society",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟡|Cryptocurrencies can enable technological/financial experimentation but create volatility, fraud, consumer-protection, illicit-finance and regulatory challenges.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|UPSC answers should distinguish distributed-ledger technology from speculative assets.",
+            "kind": "bullet"
+          }
+        ]
       }
     ]
   },
   {
     "id": "VII",
     "p": "pm",
-    "label": "Social Empowerment, Communalism, Regionalism & Secularism",
+    "label": "Social Empowerment, Caste, Communalism, Regionalism & Secularism",
     "children": [
       {
-        "p": "pm2",
         "label": "Social Empowerment",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Concept & Need",
-            "children": [
-              { "label": "Empowerment: process of enabling disadvantaged groups to gain control over their lives, access resources, participate in decision-making." },
-              { "label": "Constitutional safeguards for SCs, STs, OBCs: Articles 15(4), 16(4), 17 (untouchability), 46 (educational and economic interests), 338 (National Commission for SC), 338A (ST), 340 (OBC).\nReservation in education (Mandal Commission, 1990), jobs, and political representation." }
-            ]
+            "label": "🔴|Empowerment means gaining control over resources, choices, capabilities, institutions and collective voice.",
+            "kind": "bullet"
           },
           {
-            "label": "Adivasi (Tribal) Issues",
-            "children": [
-              { "label": "Land alienation, displacement due to development, lack of education, healthcare, exploitation.\nForest Rights Act (FRA) 2006.\nPESA Act 1996.\nFifth and Sixth Schedules." },
-              { "label": "Naxalism/Maoism as expression of tribal discontent.\nNeed for inclusive development, cultural sensitivity." }
-            ]
-          },
-          {
-            "label": "Dalit Movement & Backward Classes",
-            "children": [
-              { "label": "Dalit movements: Jyotiba Phule, Ambedkar (Mahad satyagraha, Kalaram temple entry), Dalit Panthers (1970s).\nKanshi Ram's BAMCEF -> Bahujan Samaj Party (BSP)." },
-              { "label": "OBC mobilisation: Mandal Commission report 1980 (27% reservation), implementation 1990 (VP Singh).\nKarpoori Thakur formula (sub-categorisation of OBCs).\nRohini Commission (2017) on sub-categorisation." }
-            ]
+            "label": "🔴|Social justice is deeper than welfare: it requires agency, representation, dignity and capacity to influence decisions.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
+        "label": "Tribal Development",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Tribal development should account for land alienation, displacement, forest/resource rights, cultural autonomy, service gaps and ecological context.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|PESA and FRA can strengthen local/community rights, but implementation, consent, rehabilitation and institutional capacity determine outcomes.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Displacement and rehabilitation are linked axes of tribal development because development projects affect land, livelihoods, culture and identity.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Dalit & OBC Movements",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Dalit assertion draws on Phule, Ambedkar and later movements seeking dignity, representation, access and annihilation of caste.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Contemporary caste identity is simultaneously fluid and persistent: occupational mobility can increase while endogamy and political identity persist.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|OBC mobilisation expanded representation; debates include intra-group inequality and sub-categorisation.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
         "label": "Communalism",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Definition & Causes",
-            "children": [
-              { "label": "Communalism: ideology that religion is the primary basis of social and political identity, leading to conflict.\nStages: moderate (separate identities), extreme (seeking separate nation, violence)." },
-              { "label": "Causes: colonial divide and rule, political mobilisation, vote bank politics, socio-economic disparities, stereotypes, role of media and social media." }
-            ]
+            "label": "🔴|Communalism politicises religious identity into antagonistic collective claims; religiosity itself is not communalism.",
+            "kind": "bullet"
           },
           {
-            "label": "Consequences & Remedies",
-            "children": [
-              { "label": "Riots (Partition 1947, 1984 anti-Sikh, 1992-93 Bombay, 2002 Gujarat), ghettoisation, communal polarisation, erosion of secular fabric." },
-              { "label": "Remedies: strengthening secular values, promoting inter-faith dialogue, legal measures (anti-riot laws), education, economic integration." },
-              { "label": "MAINS: Distinction between communalism, secularism, and communal violence; role of state and civil society." }
-            ]
+            "label": "🔴|Drivers include power competition, relative deprivation, political mobilisation, historical memory, segregation, misinformation and hate speech.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Consequences include violence, displacement, ghettoisation, mistrust and weakening of social cohesion.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Regionalism",
-        "children": [
-          {
-            "label": "Causes & Manifestations",
-            "children": [
-              { "label": "Causes: linguistic diversity, economic imbalance, historical legacy, cultural pride, political opportunism." },
-              { "label": "Manifestations: demand for new states (Telangana 2014, Jharkhand, Chhattisgarh, Uttarakhand 2000), secessionist movements (Khalistan, ULFA, Gorkhaland), resource conflicts (water, jobs for locals), inter-state disputes." }
-            ]
-          },
-          {
-            "label": "Positive & Negative",
-            "children": [
-              { "label": "Positive: voice for regional development, cultural preservation.\nNegative: parochialism, 'sons of soil' conflict, inter-state water/capital disputes, threat to national integration." }
-            ]
-          },
-          {
-            "label": "Constitutional Safeguards & Responses",
-            "children": [
-              { "label": "Fifth & Sixth Schedules, special provisions (Art 370 – abrogated, Art 371), language-based states, Inter-State Council, Finance Commission devolution." }
-            ]
-          }
-        ]
-      },
-      {
-        "p": "pm2",
         "label": "Secularism",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Indian Secularism",
-            "children": [
-              { "label": "Western secularism: strict separation of state and religion.\nIndian secularism: equal respect for all religions (Sarva Dharma Sambhava), state intervention for reform (e.g., temple entry, abolition of untouchability, Haj subsidy)." },
-              { "label": "Constitutional provisions: Art 25-28 (freedom of religion), Art 15 (non-discrimination on religion), Art 44 (UCC – Directive Principle).\n42nd Amendment 1976 inserted 'Socialist' and 'Secular' in Preamble." }
-            ]
+            "label": "🔴|Indian secularism combines freedom of religion with equal citizenship and State capacity for constitutionally justified social reform.",
+            "kind": "bullet"
           },
           {
-            "label": "Criticisms & Challenges",
-            "children": [
-              { "label": "Accused of pseudo-secularism, appeasement, or majoritarianism.\nUniform Civil Code (UCC) debate (Goa has a common civil law, Uttarakhand passed UCC 2024)." },
-              { "label": "Challenges: communal polarization, religious fundamentalism, hate speech." }
-            ]
+            "label": "🔴|Tolerance, assimilation and pluralism are related but distinct concepts; pluralism requires fair coexistence and non-discrimination.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Western models vary, so avoid reducing Western secularism to one rigid formula; compare institutional separation with India's accommodation/reform approach.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Regionalism",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Regionalism arises from identity, cultural assertion, uneven development, historical grievances, resource conflicts and political mobilisation.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|It can be constructive when it seeks equitable development/cultural recognition, but exclusionary regionalism can become divisive or separatist.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|New States can improve administration and representation but do not automatically solve regional disparities.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Linguistic States & National Unity",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Linguistic State formation can strengthen unity by accommodating identity within the Union.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|It may also generate inter-State disputes around resources, boundaries, migration and language policy; accommodation remains the key.",
+            "kind": "bullet"
           }
         ]
       }
@@ -483,44 +787,188 @@ export const RAW_D = [
   {
     "id": "VIII",
     "p": "pm",
-    "label": "Social Issues: Caste, Untouchability, Education & Health",
+    "label": "Indian Society – Education, Health, Family & Cultural Change",
     "children": [
       {
-        "p": "pm2",
-        "label": "Caste-based Discrimination & Untouchability",
+        "label": "Education & Skill",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Historical & Contemporary",
-            "children": [
-              { "label": "Untouchability abolished under Art 17.\nProtection of Civil Rights Act 1955, SC/ST (Prevention of Atrocities) Act 1989 (amended 2015).\nDespite laws, social practice continues in subtle forms (manual scavenging, denial of temple entry, honour killings)." },
-              { "label": "MAINS: Analyse why caste discrimination persists despite constitutional guarantees." }
-            ]
+            "label": "🔴|RTE created a statutory right framework for 6–14-year-olds; NEP 2020 emphasises foundational learning, flexibility, multilingualism, vocational orientation and holistic development.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Access is insufficient without quality: learning outcomes, teacher capacity, digital inclusion and socio-economic context matter.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Digital education can widen access but can also deepen inequality through device, connectivity, language and accessibility gaps.",
+            "kind": "bullet"
           }
         ]
       },
       {
-        "p": "pm2",
-        "label": "Education & Skill Development",
-        "children": [
-          {
-            "label": "Literacy & Enrolment",
-            "children": [
-              { "label": "Literacy: 74.04% (2011).\nRTE Act 2009: free and compulsory education 6-14 years.\nNEP 2020: 5+3+3+4 structure, focus on holistic development, vocational, multilingualism." },
-              { "label": "Higher education: GER ~27%, concerns of quality, unemployability.\nDigital divide affecting education." }
-            ]
-          }
-        ]
-      },
-      {
-        "p": "pm2",
         "label": "Health & Nutrition",
+        "kind": "comparison",
         "children": [
           {
-            "label": "Indicators",
-            "children": [
-              { "label": "IMR, MMR, life expectancy (69.4 years, 2011-15).\nMalnutrition: NFHS-5 data – stunting, wasting, anaemia high.\nPoshan Abhiyaan (2018)." },
-              { "label": "Health infrastructure: shortage of doctors (WHO 1:1000 ratio), rural-urban divide, out-of-pocket expenditure.\nAyushman Bharat (PM-JAY) for health insurance." }
-            ]
+            "label": "🔴|Health outcomes depend on nutrition, sanitation, maternal care, education, environment and access to primary care—not treatment alone.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Primary healthcare is the base for prevention, early detection, maternal-child care and lower financial burden.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Out-of-pocket expenditure and urban-rural infrastructure/health-worker gaps can produce persistent inequity.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Family & Social Values",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Traditional values persist through kinship, family, rituals and community institutions while adapting to urbanisation, education, technology and individualism.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Joint-family decline should not be assumed to mean decline of extended support; care, finance and emotional networks can remain translocal.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Customs can provide social continuity but can also suppress reason when treated as immune from evidence, rights or reform.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Cultural Identity & Globalisation",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Global exposure can weaken some local practices while simultaneously revitalising identities through festivals, language, food, media and cultural entrepreneurship.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Small 'cultural pockets of India' persist through migration and regional communities living outside their home regions.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Socialisation of Children",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Digital devices can displace face-to-face interaction, free play, language development, emotional co-regulation and intergenerational interaction when use is excessive.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Technology can support learning/social connection when use is age-appropriate, supervised and balanced with human interaction.",
+            "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "IX",
+    "p": "pm",
+    "label": "Indian Society – PYQ Synthesis & Answer Framework",
+    "children": [
+      {
+        "label": "MASTER ANSWER FRAMEWORK",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|1. Define the concept and distinguish it from closely related terms.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|2. Establish historical/social context.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|3. Analyse structural causes/drivers.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|4. Give positive + negative dimensions.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|5. Differentiate impacts by gender, class, caste, tribe, age, region or urban-rural context where relevant.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|6. Use one concrete Indian example.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|7. Connect to constitutional values/public policy.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|8. Suggest institutional, social and economic reforms.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|9. End with inclusive, plural, rights-based and sustainable development.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "High-Yield PYQ Traps",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Diversity ≠ disparity: diversity is difference; disparity is unequal outcomes/resources/opportunities.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Religiosity ≠ communalism: religious faith is not automatically a political antagonism.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Regionalism ≠ separatism: regional assertion can be democratic and development-oriented.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Globalisation ≠ cultural homogenisation only: it can strengthen local specificity through hybridisation and revival.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Urbanisation ≠ slum growth only: it can increase productivity, jobs and services if planned inclusively.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Demographic dividend ≠ automatic gain: health, skills and jobs are necessary.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Women's empowerment ≠ welfare schemes alone: agency, assets, safety, voice and care infrastructure matter.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "Dynamic Data Layer",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟡|Keep exact Census 2011 shares, current fertility, migration counts, urbanisation projections and other fast-changing statistics in a separate update layer.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|For Mains, one authoritative statistic/example is usually enough; avoid overloading the static note with changing numbers.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Current schemes/examples should be refreshed separately from the permanent conceptual framework.",
+            "kind": "bullet"
           }
         ]
       }
