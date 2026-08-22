@@ -3,17 +3,17 @@ import type { RawSubjectNode } from "../types";
 export const RAW_D =
 [
  
-  {
+    {
     "id": "I",
     "p": "pm",
-    "label": "Physics – Fundamental Concepts & Everyday Applications",
+    "label": "🟡|Physics – Fundamental Concepts & Everyday Applications",
     "children": [
       {
         "p": "pm2",
-        "label": "Mechanics & Properties of Matter",
+        "label": "🟡|Mechanics & Properties of Matter",
         "children": [
           {
-            "label": "Newton's Laws & Related Concepts",
+            "label": "🟡|Newton's Laws & Related Concepts",
             "children": [
               {
                 "label": "🔴| First Law (Inertia), Second (F=ma), Third (Action-Reaction).\nMomentum conservation, impulse.\nTRAP: Impulse = Force × Time. Airbags increase time → reduce force → save lives."
@@ -27,7 +27,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Gravitation",
+            "label": "🟡|Gravitation",
             "children": [
               {
                 "label": "🔴| Universal law: F = G(m₁m₂)/r².\nAcceleration due to gravity (g) varies with latitude (max at poles, min at equator), altitude (decreases), depth (decreases)."
@@ -41,7 +41,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Fluid Mechanics",
+            "label": "🟡|Fluid Mechanics",
             "children": [
               {
                 "label": "🔴| Pascal's law – pressure applied to confined fluid transmits equally (hydraulic press, brakes).\nArchimedes principle – buoyant force = weight of displaced fluid (ships, submarines)."
@@ -55,7 +55,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Elasticity",
+            "label": "🟡|Elasticity",
             "children": [
               {
                 "label": "⚪| Stress, strain, Hooke's law, Young's modulus.\nElastic (spring) vs plastic (permanent) deformation.\nTRAP: Elastic limit – beyond it, Hooke's law fails and material undergoes plastic deformation."
@@ -66,10 +66,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Heat & Thermodynamics",
+        "label": "🟡|Heat & Thermodynamics",
         "children": [
           {
-            "label": "Temperature & Heat Transfer",
+            "label": "🟡|Temperature & Heat Transfer",
             "children": [
               {
                 "label": "🔴| Scales: Celsius, Fahrenheit, Kelvin (absolute zero = -273.15°C).\nTRAP: Kelvin has no degree symbol (°K is incorrect; K is correct)."
@@ -83,7 +83,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Laws of Thermodynamics",
+            "label": "🟡|Laws of Thermodynamics",
             "children": [
               {
                 "label": "🟠| Zeroth: thermal equilibrium.\nFirst: energy conservation (ΔU = Q - W).\nSecond: entropy always increases; heat flows hot to cold; no perfect engine.\nTRAP: Perpetual motion machine is impossible (violates second law)."
@@ -97,10 +97,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Waves & Sound",
+        "label": "🟡|Waves & Sound",
         "children": [
           {
-            "label": "Wave Characteristics",
+            "label": "🟡|Wave Characteristics",
             "children": [
               {
                 "label": "🟠| Transverse (light, water ripples) vs longitudinal (sound, seismic P-waves).\nFrequency (Hz), wavelength (λ), amplitude, velocity (v = fλ)."
@@ -111,7 +111,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Sound",
+            "label": "🟡|Sound",
             "children": [
               {
                 "label": "🔴| Speed: solid > liquid > gas.\nSupersonic (Mach number >1) → sonic boom.\nTRAP: Light travels faster than sound; that's why we see lightning before hearing thunder."
@@ -128,10 +128,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Optics & Light",
+        "label": "🟡|Optics & Light",
         "children": [
           {
-            "label": "Geometrical Optics",
+            "label": "🟡|Geometrical Optics",
             "children": [
               {
                 "label": "🔴| Reflection: law (angle of incidence = angle of reflection), plane & spherical mirrors, real/virtual images.\nTRAP: Convex mirror = diverging, forms virtual, diminished images (used in rear-view mirrors)."
@@ -145,7 +145,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Physical Optics",
+            "label": "🟡|Physical Optics",
             "children": [
               {
                 "label": "🟡| Interference (thin film colours – soap bubbles, oil on water), diffraction (CD/DVD patterns), polarization (sunglasses reduce glare, LCD screens)."
@@ -156,7 +156,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Electromagnetic Spectrum",
+            "label": "🟡|Electromagnetic Spectrum",
             "children": [
               {
                 "label": "🔴| In order of increasing λ: Gamma, X‑ray, UV, Visible (VIBGYOR), IR, Microwave, Radio.\nTRAP: Increasing frequency = decreasing wavelength. Gamma has highest frequency, Radio has lowest."
@@ -173,10 +173,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Electricity & Magnetism",
+        "label": "🟡|Electricity & Magnetism",
         "children": [
           {
-            "label": "Electric Circuits",
+            "label": "🟡|Electric Circuits",
             "children": [
               {
                 "label": "🔴| Ohm's law (V=IR), resistance.\nSeries (same current, voltage divides) vs parallel (same voltage, current divides).\nHeating effect (electric iron, fuse).\nTRAP: Fuse wire is low melting point and high resistance – melts during overcurrent to protect circuit."
@@ -187,7 +187,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Magnetism",
+            "label": "🟡|Magnetism",
             "children": [
               {
                 "label": "🟡| Magnetic field lines, Earth's magnetism (dynamo effect – moving liquid iron core).\nElectromagnets (temporary, iron core).\nPermanent magnets: ferromagnetic materials (iron, cobalt, nickel).\nTRAP: Soft iron is used in electromagnets because it magnetises quickly and demagnetises quickly (temporary)."
@@ -198,7 +198,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Electromagnetic Induction",
+            "label": "🟡|Electromagnetic Induction",
             "children": [
               {
                 "label": "🔴| Faraday's law: changing magnetic field induces current.\nGenerator (mechanical → electrical), motor (electrical → mechanical)."
@@ -209,7 +209,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Semiconductors & Electronics",
+            "label": "🟡|Semiconductors & Electronics",
             "children": [
               {
                 "label": "🟠| Semiconductors: intrinsic vs extrinsic; doping (n‑type: excess electrons from pentavalent impurities; p‑type: holes from trivalent impurities).\np‑n junction diode (rectifier – converts AC to DC)."
@@ -226,10 +226,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Modern Physics",
+        "label": "🟡|Modern Physics",
         "children": [
           {
-            "label": "Atomic & Nuclear Physics",
+            "label": "🟡|Atomic & Nuclear Physics",
             "children": [
               {
                 "label": "🔴| Atomic structure: nucleus contains protons and neutrons; electrons occupy quantised energy states/orbitals."
@@ -264,7 +264,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Quantum Mechanics & Relativity",
+            "label": "🟡|Quantum Mechanics & Relativity",
             "children": [
               {
                 "label": "🟠| Wave-particle duality (light & electrons behave as both wave and particle).\nPhotoelectric effect (Einstein: light as photons; basis for solar panels)."
@@ -278,7 +278,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Lasers",
+            "label": "🟡|Lasers",
             "children": [
               {
                 "label": "🔴| LASER: Light Amplification by Stimulated Emission of Radiation.\nProperties: monochromatic (single wavelength), coherent (same phase), directional (highly focused)."
@@ -289,7 +289,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Communication Technologies",
+            "label": "🟡|Communication Technologies",
             "children": [
               {
                 "label": "🟠| Modulation: AM (amplitude – long-range, but susceptible to noise), FM (frequency – high quality, shorter range).\nNeeded for long‑distance transmission."
@@ -303,10 +303,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Seismology & Earthquake Physics",
+        "label": "🟡|Seismology & Earthquake Physics",
         "children": [
           {
-            "label": "Earthquake Waves & Measurement",
+            "label": "🟡|Earthquake Waves & Measurement",
             "children": [
               {
                 "label": "🔴| P-waves are fastest and can travel through solids, liquids and gases; S-waves are slower and do not propagate through liquids."
@@ -329,14 +329,14 @@ export const RAW_D =
   {
     "id": "II",
     "p": "pm",
-    "label": "Chemistry – Fundamentals & Everyday Applications",
+    "label": "🟡|Chemistry – Fundamentals & Everyday Applications",
     "children": [
       {
         "p": "pm2",
-        "label": "Basic Concepts & Atomic Structure",
+        "label": "🟡|Basic Concepts & Atomic Structure",
         "children": [
           {
-            "label": "Atoms & Molecules",
+            "label": "🟡|Atoms & Molecules",
             "children": [
               {
                 "label": "🔴| Atomic number (Z) = number of protons.\nMass number (A) = protons + neutrons.\nMole concept: 1 mole = 6.022 × 10²³ particles (Avogadro's number)."
@@ -347,7 +347,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Periodic Table",
+            "label": "🟡|Periodic Table",
             "children": [
               {
                 "label": "🟡| Groups (vertical) and periods (horizontal).\nTrends: electronegativity (decreases down group, increases across period), ionization energy (same), atomic size (increases down group, decreases across period)."
@@ -358,7 +358,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Acids, Bases & Salts",
+            "label": "🟡|Acids, Bases & Salts",
             "children": [
               {
                 "label": "🔴| pH scale (0-14): 0-6 acid, 7 neutral (pure water), 8-14 base.\nAcid + base → salt + water (neutralisation).\nImportant: stomach acid (HCl), antacids (Mg(OH)₂, Al(OH)₃)."
@@ -369,7 +369,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Electrochemistry & Batteries",
+            "label": "🟡|Electrochemistry & Batteries",
             "children": [
               {
                 "label": "🟠| Electrochemical cell: chemical energy ↔ electrical energy; anode is oxidation, cathode is reduction."
@@ -386,10 +386,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Important Chemicals & Their Uses",
+        "label": "🟡|Important Chemicals & Their Uses",
         "children": [
           {
-            "label": "Industrial & Household Chemicals",
+            "label": "🟡|Industrial & Household Chemicals",
             "children": [
               {
                 "label": "🔴| Baking soda (NaHCO₃) – antacid, fire extinguisher (CO₂ release), cooking (leavening agent).\nWashing soda (Na₂CO₃) – water softener (removes Ca²⁺/Mg²⁺).\nBleaching powder (CaOCl₂) – disinfectant, bleaching agent."
@@ -403,7 +403,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Industrial Processes & Materials",
+            "label": "🟡|Industrial Processes & Materials",
             "children": [
               {
                 "label": "🟠| Haber process: N₂ + 3H₂ ⇌ 2NH₃ (ammonia for fertilizers).\nOstwald process: 4NH₃ + 5O₂ → 4NO + 6H₂O → HNO₃ (nitric acid).\nContact process: 2SO₂ + O₂ → 2SO₃ → H₂SO₄ (sulphuric acid)."
@@ -417,7 +417,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Polymers & Plastics",
+            "label": "🟡|Polymers & Plastics",
             "children": [
               {
                 "label": "🟡| Natural polymers: cellulose (plants), starch, proteins, DNA, natural rubber (polyisoprene).\nSynthetic: polyethylene (PE – bags), PVC (pipes), nylon (fibres), Teflon (PTFE – non-stick), Bakelite (thermosetting – electrical switches)."
@@ -431,7 +431,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Fertilizers & Pesticides",
+            "label": "🟡|Fertilizers & Pesticides",
             "children": [
               {
                 "label": "🟠| NPK fertilizers (Nitrogen, Phosphorus, Potassium).\nUrea (highest N content ~46%).\nTRAP: Overuse of fertilizers leads to eutrophication (excess nutrients → algal blooms → oxygen depletion in water bodies)."
@@ -442,7 +442,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Metals & Alloys",
+            "label": "🟡|Metals & Alloys",
             "children": [
               {
                 "label": "🔴| Important alloys: Stainless steel (Fe + Cr + Ni) – corrosion resistant, Brass (Cu + Zn) – decorative, Bronze (Cu + Sn) – ancient, Solder (Pb + Sn) – low melting, Amalgam (Hg + metal) – dental fillings."
@@ -456,10 +456,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Fuels & Combustion",
+        "label": "🟡|Fuels & Combustion",
         "children": [
           {
-            "label": "Types of Fuels",
+            "label": "🟡|Types of Fuels",
             "children": [
               {
                 "label": "🟡| Solid (coal, wood), liquid (petroleum, diesel, kerosene), gas (CNG, LPG, hydrogen).\nCalorific value = energy released per unit mass."
@@ -470,7 +470,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Combustion & Fire Safety",
+            "label": "🟡|Combustion & Fire Safety",
             "children": [
               {
                 "label": "🔴| Fire triangle: fuel, oxygen, heat.\nTypes of fire extinguishers: water (Class A – solids), CO₂ (Class B/C – liquids/electrical), foam, dry powder (Class D – metals).\nTRAP: Water should NOT be used on electrical or oil fires (conductor, oil floats on water)."
@@ -481,10 +481,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Environmental Chemistry",
+        "label": "🟡|Environmental Chemistry",
         "children": [
           {
-            "label": "Pollutants",
+            "label": "🟡|Pollutants",
             "children": [
               {
                 "label": "🟠| Air: SOx, NOx (acid rain – damages monuments, aquatic life), CO (toxic, binds hemoglobin – reduces O₂ carrying capacity), particulate matter (PM2.5, PM10 – respiratory issues), ozone (good up in stratosphere, bad down at ground level – smog)."
@@ -501,7 +501,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "MAINS: Green Chemistry & Sustainability",
+            "label": "🟡|MAINS: Green Chemistry & Sustainability",
             "children": [
               {
                 "label": "🟠| Principles of Green Chemistry – atom economy, designing safer chemicals, and reducing hazardous by-products to achieve sustainable industrial processes."
@@ -518,14 +518,14 @@ export const RAW_D =
   {
     "id": "III",
     "p": "pm",
-    "label": "Biology – Fundamental Concepts & Applications",
+    "label": "🟡|Biology – Fundamental Concepts & Applications",
     "children": [
       {
         "p": "pm2",
-        "label": "Cell Biology & Genetics",
+        "label": "🟡|Cell Biology & Genetics",
         "children": [
           {
-            "label": "Cell – The Basic Unit",
+            "label": "🟡|Cell – The Basic Unit",
             "children": [
               {
                 "label": "🟠| Prokaryotic (no true nucleus, no membrane-bound organelles, e.g., bacteria) vs Eukaryotic (true nucleus, organelles, e.g., plants, animals).\nOrganelles: mitochondria (powerhouse – ATP production), chloroplast (photosynthesis), ribosomes (protein synthesis – present in both)."
@@ -533,7 +533,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "DNA & RNA",
+            "label": "🟡|DNA & RNA",
             "children": [
               {
                 "label": "🔴| DNA: double helix; bases: Adenine (A) pairs with Thymine (T) – 2 H-bonds; Guanine (G) pairs with Cytosine (C) – 3 H-bonds.\nRNA: single-stranded; A pairs with Uracil (U); G pairs with C.\nmRNA (messenger – carries code to ribosome), tRNA (transfer – brings amino acids), rRNA (ribosomal – forms ribosomes)."
@@ -547,7 +547,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Cell Division & Cancer",
+            "label": "🟡|Cell Division & Cancer",
             "children": [
               {
                 "label": "🟠| Mitosis (identical daughter cells, for growth/repair).\nMeiosis (gametes – sperm/egg, halving chromosomes, generates genetic variation)."
@@ -558,7 +558,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Classical Genetics",
+            "label": "🟡|Classical Genetics",
             "children": [
               {
                 "label": "🟠| Mendel’s laws: Law of Dominance, Law of Segregation, Law of Independent Assortment (except linked genes)."
@@ -578,10 +578,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Human Physiology & Health",
+        "label": "🟡|Human Physiology & Health",
         "children": [
           {
-            "label": "Organ Systems Overview",
+            "label": "🟡|Organ Systems Overview",
             "children": [
               {
                 "label": "🟠| Digestive: enzymes break down food; absorption in small intestine (villi increase surface area).\nRespiratory: O₂/CO₂ exchange in alveoli (thin walls, large surface area); hemoglobin carries oxygen.\nCellular respiration: aerobic (glucose + O₂ → CO₂ + H₂O + ATP) in mitochondria; anaerobic (fermentation) in muscles (lactic acid) and yeast (ethanol).\nATP as energy currency."
@@ -598,7 +598,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Vitamins & Minerals",
+            "label": "🟡|Vitamins & Minerals",
             "children": [
               {
                 "label": "🔴| Water‑soluble vitamins: B‑complex (B₁‑thiamine – beriberi; B₂‑riboflavin; B₃‑niacin – pellagra; B₆; B₁₂ – pernicious anaemia; folic acid), C (ascorbic acid – scurvy).\nFat‑soluble: A (night blindness), D (rickets), E (antioxidant), K (blood clotting – haemorrhagic disease).\nTRAP: Excess fat-soluble vitamins (A, D, E, K) are stored in the body and can be toxic; water-soluble excess is excreted."
@@ -609,7 +609,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Immunity & Vaccines",
+            "label": "🟡|Immunity & Vaccines",
             "children": [
               {
                 "label": "🟠| Innate (non-specific – skin, mucus, WBC) vs adaptive (specific – antibodies, memory cells).\nAntibodies (proteins – produced by B-cells), antigens (foreign substances)."
@@ -623,7 +623,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Major Diseases & Pathogens",
+            "label": "🟡|Major Diseases & Pathogens",
             "children": [
               {
                 "label": "🟡| Viral: COVID-19 (SARS-CoV-2), HIV/AIDS (retrovirus – targets CD4+ T-cells), Hepatitis B/C, Dengue (Aedes mosquito), Chikungunya, Zika."
@@ -643,10 +643,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Plant Biology",
+        "label": "🟡|Plant Biology",
         "children": [
           {
-            "label": "Photosynthesis & Transport",
+            "label": "🟡|Photosynthesis & Transport",
             "children": [
               {
                 "label": "🔴| Photosynthesis: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂.\nOccurs in chloroplasts (chlorophyll pigment). Light reactions (thylakoids) and dark reactions (Calvin cycle – stroma)."
@@ -657,7 +657,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Plant Hormones & Tropisms",
+            "label": "🟡|Plant Hormones & Tropisms",
             "children": [
               {
                 "label": "🟡| Auxins: apical dominance (top inhibits side shoots), phototropism (growth towards light).\nGibberellins: stem elongation, seed germination.\nCytokinins: cell division, delay senescence.\nEthylene: fruit ripening (climacteric fruits).\nAbscisic acid: stress hormone (closing stomata during drought)."
@@ -671,10 +671,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Biotechnology & its Applications",
+        "label": "🟡|Biotechnology & its Applications",
         "children": [
           {
-            "label": "Basic Techniques",
+            "label": "🟡|Basic Techniques",
             "children": [
               {
                 "label": "🟠| Genetic Engineering: recombinant DNA technology – restriction enzymes (molecular scissors), plasmids (vectors), ligase (molecular glue)."
@@ -688,7 +688,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Stem Cells & Cloning",
+            "label": "🟡|Stem Cells & Cloning",
             "children": [
               {
                 "label": "🟠| Embryonic (pluripotent – can become any cell type) vs adult stem cells (multipotent – limited).\nInduced pluripotent stem cells (iPSCs): adult cells reprogrammed to pluripotent state (Shinya Yamanaka – Nobel 2012)."
@@ -702,7 +702,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Transgenic Organisms & GM Crops",
+            "label": "🟡|Transgenic Organisms & GM Crops",
             "children": [
               {
                 "label": "🟠| Plants: Bt Cotton, Bt Brinjal, herbicide-tolerant (HT) crops (DMH-11 – mustard).\nAnimals: transgenic mice for research (e.g., onco-mice)."
@@ -713,7 +713,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Modern Biotech Platforms",
+            "label": "🟡|Modern Biotech Platforms",
             "children": [
               {
                 "label": "🔴| mRNA technology: delivers messenger RNA so host cells make a target protein; the mRNA itself does not integrate into nuclear DNA."
@@ -730,10 +730,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Microorganisms & Food",
+        "label": "🟡|Microorganisms & Food",
         "children": [
           {
-            "label": "Useful Microbes",
+            "label": "🟡|Useful Microbes",
             "children": [
               {
                 "label": "🟠| Fermentation: Yeast (Saccharomyces) – bread (CO₂), alcohol (ethanol).\nBacteria: Lactobacillus – curd, yogurt (lactic acid fermentation)."
@@ -744,7 +744,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Harmful Microbes",
+            "label": "🟡|Harmful Microbes",
             "children": [
               {
                 "label": "🟡| Food spoilage (bacteria/fungi); food poisoning (Salmonella, Clostridium botulinum – botulism).\nPreservation methods: refrigeration, pasteurization (milk – 72°C for 15s), canning, salting."
@@ -758,14 +758,14 @@ export const RAW_D =
   {
     "id": "IV",
     "p": "pm",
-    "label": "Nanotechnology & Robotics (Emerging Technologies)",
+    "label": "🟡|Nanotechnology & Robotics (Emerging Technologies)",
     "children": [
       {
         "p": "pm2",
-        "label": "Nanotechnology",
+        "label": "🟡|Nanotechnology",
         "children": [
           {
-            "label": "Basics & Principles",
+            "label": "🟡|Basics & Principles",
             "children": [
               {
                 "label": "🔴| Nano = 10⁻⁹ m (1 billionth of a metre).\nRichard Feynman (1959) – 'There is Plenty of Room at the Bottom' – Father of Nanotechnology."
@@ -779,7 +779,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Top-Down vs Bottom-Up",
+            "label": "🟡|Top-Down vs Bottom-Up",
             "children": [
               {
                 "label": "🟠| Top‑Down: breaking bulk material into nano‑sized particles (physical/mechanical).\nAdv: precise patterns/control.\nDisadv: time‑consuming, expensive, limited scalability."
@@ -790,7 +790,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Carbon Nanomaterials",
+            "label": "🟡|Carbon Nanomaterials",
             "children": [
               {
                 "label": "🟠| Graphene: single layer of carbon atoms in hexagonal lattice; 1 atom thick, Graphene: exceptionally strong (for defect-free single-layer material) and highly electrically/thermally conductive; avoid absolute strength/conductivity multipliers that depend on the comparison and test conditions.\nApplications: flexible displays (Samsung prototype), transistors (IBM – 4x faster than silicon), solar cells."
@@ -807,7 +807,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Applications of Nanotechnology",
+            "label": "🟡|Applications of Nanotechnology",
             "children": [
               {
                 "label": "🟠| Health: Targeted drug delivery (fullerene carriers), nano‑biosensors (disease detection – cancer, Alzheimer's), tissue engineering (nano‑gels), antimicrobial dressings (silver nanocrystals)."
@@ -830,7 +830,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Issues & Concerns",
+            "label": "🟡|Issues & Concerns",
             "children": [
               {
                 "label": "🟠| Health: Nanoparticles can cross blood‑brain barrier, cause toxicity (nano‑toxicity).\nSocial: cost → accessibility → social disparity."
@@ -844,7 +844,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Nanotechnology in India",
+            "label": "🟡|Nanotechnology in India",
             "children": [
               {
                 "label": "🟡| NSTI (Nano Science and Tech Initiative – 2001): 19 Centres of Excellence.\nNano Mission (2007): promote research, infrastructure, human capital; Nano Mission Council under Prof. CNR Rao."
@@ -864,10 +864,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Robotics",
+        "label": "🟡|Robotics",
         "children": [
           {
-            "label": "Basics & Parts",
+            "label": "🟡|Basics & Parts",
             "children": [
               {
                 "label": "🔴| Robot: automatic self‑control multi‑purpose reprogrammable machine.\nRobotics: multi‑disciplinary (mechanics, computers, electronics, AI)."
@@ -878,7 +878,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Types of Robots",
+            "label": "🟡|Types of Robots",
             "children": [
               {
                 "label": "🟠| Based on Locomotion: Fixed (industrial arms), Mobile (wheeled – even surfaces; legged – uneven).\nBased on Working Ability: Type I (better than humans – non‑skill tasks); Type II (worse than humans – dangerous environments)."
@@ -889,7 +889,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Asimov's Laws of Robotics",
+            "label": "🟡|Asimov's Laws of Robotics",
             "children": [
               {
                 "label": "🔴| Law 1: Robot shall not harm a human (actively or passively).\nLaw 2: Robot shall obey humans unless violates Law 1.\nLaw 3: Robot shall protect its existence unless violates Law 1 & 2.\nZeroth Law: Robot shall not harm humanity (supercedes individual)."
@@ -897,11 +897,8 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Applications",
+            "label": "🟡|Applications",
             "children": [
-              {
-                "label": "🟠| Industry: 3Ds (Dull, Dirty, Dangerous).\nRobotics industry is expanding rapidly; China has been the largest industrial-robot market, while India’s installations have grown strongly. Treat exact unit counts/rankings as current-affairs data, not permanent static facts."
-              },
               {
                 "label": "🟡| Health: Robotic surgery (Da Vinci, MANTRA 3 – India's indigenous).\nRobotic prosthetics/orthotics (exoskeleton).\nMedical service robots (Robo‑Mitra, Robo‑Doc, C‑Astra – Invento Robotics)."
               },
@@ -909,7 +906,7 @@ export const RAW_D =
                 "label": "🟡| Home: Service robots (cleaning – iRobot), cooking (NOSH), companion (Aibo, TAMA).\nConcerns: emotional bonding, human‑robot intimacy, misuse."
               },
               {
-                "label": "🟡| Defence: Killing machines (REX Mark II – Israel, CHEETAH – USA).\nHelpers: MULE (India – high altitude), Daksh (DRDO – mine detection), Hexapod (CAIR).\nEthical concerns: violates Asimov's laws, lack of empathy, increased wars, hacking risk."
+                "label": "🟡| Defence: Killing machines (REX Mark II – Israel, CHEETAH – USA).\nHelpers: MULE (India – high altitude), Daksh (DRDO – mine detection), Hexapod (CAIR).\nEthical concerns: conflicts with fictional Asimov robot-laws as a thought experiment, not a scientific/technical law, lack of empathy, increased wars, hacking risk."
               },
               {
                 "label": "🟡| Agriculture: GreenSeeker (fertilizer/irrigation optimization), See‑and‑Spray (weed control – Blue River Technology), Agribot (India)."
@@ -920,13 +917,10 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Robotics in India",
+            "label": "🟡|Robotics in India",
             "children": [
               {
                 "label": "🟡| CAIR (Centre for Artificial Intelligence and Robotics) – DRDO.\nAICRA (All India Council for Robotics and Automation) – non‑profit for standards/ecosystem."
-              },
-              {
-                "label": "🟡| India’s robotics-policy discussions emphasise manufacturing, healthcare, agriculture and national security; treat specific strategy targets/wording as policy/current-affairs material and verify the latest government document before the exam."
               },
               {
                 "label": "🟡| Indian robots: Laxmi (City Union Bank – first banking robot), ERA (HDFC – humanoid), BRABO (TAL – India's first industrial robot, 40% lower cost)."
@@ -940,14 +934,14 @@ export const RAW_D =
   {
     "id": "V",
     "p": "pm",
-    "label": "Space Technology & Astronomy",
+    "label": "🟡|Space Technology & Astronomy",
     "children": [
       {
         "p": "pm2",
-        "label": "Orbits & Space Concepts",
+        "label": "🟡|Orbits & Space Concepts",
         "children": [
           {
-            "label": "Types of Orbits",
+            "label": "🟡|Types of Orbits",
             "children": [
               {
                 "label": "🔴| LEO (Low Earth Orbit): 200‑2000 km. Remote sensing satellites.\nMEO (Medium Earth Orbit): 2000‑20000 km. Navigation satellites (GPS, NavIC).\nGEO (Geostationary Orbit): 36,000 km, orbital period 24h, zero inclination, appears fixed. Communication/weather satellites.\nTRAP: GEO is a subset of GSO (Geosynchronous) – GSO has inclination; GEO has zero inclination. All GEO are GSO, not vice versa."
@@ -961,7 +955,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Escape & Orbital Velocity",
+            "label": "🟡|Escape & Orbital Velocity",
             "children": [
               {
                 "label": "🟡| Escape velocity (Earth) = 11.2 km/s (minimum to escape gravity).\nOrbital velocity (LEO) ~7.8 km/s.\nLagrange points (L1‑L5): stable points in Sun‑Earth system; zero net gravity. Aditya‑L1 at L1 (1.5 million km from Earth)."
@@ -972,10 +966,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Indian Space Programme – ISRO",
+        "label": "🟡|Indian Space Programme – ISRO",
         "children": [
           {
-            "label": "Launch Vehicles",
+            "label": "🟡|Launch Vehicles",
             "children": [
               {
                 "label": "🔴| SLV (Satellite Launch Vehicle): 1980, 40 kg to LEO, 4‑stage solid (India's first).\nASLV: 1987, 150 kg to LEO, 5‑stage solid."
@@ -998,7 +992,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Satellite Types & Series",
+            "label": "🟡|Satellite Types & Series",
             "children": [
               {
                 "label": "🟡| Communication: INSAT/GSAT (GEO – telecom, weather).\nEarth Observation: IRS, Cartosat (high resolution), RISAT (radar imaging – all‑weather), Oceansat.\nNavigation: NavIC (IRNSS – 7 satellites).\nScience: Astrosat, Chandrayaan, Mangalyaan, Aditya‑L1."
@@ -1006,7 +1000,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "ISRO Propulsion",
+            "label": "🟡|ISRO Propulsion",
             "children": [
               {
                 "label": "🔴| Solid fuel: HTPB (Hydroxyl Terminated Polybutadiene) – no engine, less controlled.\nLiquid fuel: UDMH (Unsymmetrical Dimethylhydrazine) + N₂O₄ oxidizer – VIKAS engine.\nCryogenic fuel: LH₂ (-253°C) + LOX (-183°C) – max efficiency, India 6th country to develop cryo (2014).\nSemi‑cryogenic: Kerosene + LOX – for NGLV."
@@ -1014,16 +1008,13 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Major Missions",
+            "label": "🟡|Major Missions",
             "children": [
               {
                 "label": "🟡| Chandrayaan‑1 (2008): India's first lunar orbiter; discovered water molecules on Moon; Moon Impact Probe dropped near South Pole – Jawahar Point.\nChandrayaan‑2 (2019): Lander (Vikram) crash‑landed – Tiranga Point.\nChandrayaan‑3 (2023): Soft landing near South Pole (Shiv Shakti Point); first to land on South Pole; confirmed sulphur presence on lunar surface (LIBS); ChaSTE measured 70°C surface temperature (vs earlier estimates 20‑30°C)."
               },
               {
                 "label": "🟡| Mangalyaan (MOM, 2013): India's first interplanetary mission; PSLV‑XL; first country to reach Mars orbit in first attempt; 4th globally, 1st in Asia.\nMangalyaan‑2: planned (LVM3)."
-              },
-              {
-                "label": "🟡| Gaganyaan: India’s human-spaceflight programme using LVM3; crewed mission to low Earth orbit after uncrewed tests. Vyommitra is a humanoid test platform for precursor missions.\nCA-sensitive: Shubhanshu Shukla has already flown to the ISS on Axiom-4 (2025); do not memorize the old astronaut-designate list as a current status."
               },
               {
                 "label": "🟡| Aditya‑L1 (2023): India's first solar observatory; placed at L1 (Halo orbit); 7 payloads; studies Sun's corona, solar wind, magnetic field.\nTRAP: Aditya‑L1 is at L1, not L2 (JWST is at L2)."
@@ -1035,32 +1026,23 @@ export const RAW_D =
                 "label": "🟡| Astrosat (2015): India's first multi‑wavelength space observatory; LEO 650 km; studies celestial objects in visible, UV, X‑rays."
               },
               {
-                "label": "🟠| NISAR (NASA‑ISRO SAR): first spaceborne Earth-observation mission using both L-band and S-band SAR; launched by GSLV-F16 on 30 July 2025 and entered science operations.\nUPSC core: dual-frequency SAR + Earth observation + NASA–ISRO collaboration."
-              },
-              {
                 "label": "🟡| EMISAT (2019): electronic surveillance satellite (ISRO + DRDO); detects radar signals for intelligence."
               }
             ]
           },
           {
-            "label": "Satellite Navigation (NavIC & GAGAN)",
+            "label": "🟡|Satellite Navigation (NavIC & GAGAN)",
             "children": [
-              {
-                "label": "🟡| NavIC (Navigation with Indian Constellation): India’s regional satellite-navigation system; provides Standard Position Service for civilian use and Restricted Service for authorised users. Uses GEO/GSO satellites and signals in L5 and S-band.\nCA-sensitive: constellation size, satellite health, accuracy and NVS-series status can change; verify current ISRO configuration before the exam."
-              },
               {
                 "label": "🔴| GAGAN (GPS Aided Geo‑Augmented Navigation): Satellite Based Augmentation System (SBAS) by ISRO + AAI; improves GPS accuracy in Indian airspace for aviation."
               }
             ]
           },
           {
-            "label": "International Space Law & Diplomacy",
+            "label": "🟡|International Space Law & Diplomacy",
             "children": [
               {
                 "label": "🔴| Outer Space Treaty (1967): prohibits national appropriation of celestial bodies; bans placing nuclear weapons/WMD in orbit or on celestial bodies; requires peaceful use of the Moon and other celestial bodies.\nTRAP: “Peaceful purposes” does not mean every military use of outer space is prohibited; military support/satellites exist, while certain activities are prohibited."
-              },
-              {
-                "label": "🟠| Artemis Accords: non-binding principles for civil exploration of the Moon and beyond, including transparency, interoperability, resource extraction under the Outer Space Treaty framework, debris mitigation and preservation of heritage sites.\nCA-sensitive: membership count changes; verify India’s latest participation status before the exam."
               },
               {
                 "label": "🟡| India's Space Diplomacy: South Asian Communication Satellite; NavIC services to SAARC nations; remote sensing/weather data sharing; countering China's APsCO (Asia‑Pacific Space Cooperation Organisation)."
@@ -1068,18 +1050,15 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Space Debris & Sustainability",
+            "label": "🟡|Space Debris & Sustainability",
             "children": [
               {
                 "label": "🟠| Kessler Syndrome (1978): collision chain reaction → debris belt.\nProject NETRA (Network for space object Tracking and Analysis): early warning system for satellite collision avoidance."
-              },
-              {
-                "label": "🟡| Space-debris mitigation: passivation, controlled re-entry, graveyard orbits for some GEO satellites, collision avoidance and active debris-removal technologies.\nCA-sensitive: individual demonstrator mission dates/status change over time."
               }
             ]
           },
           {
-            "label": "Impact of ISRO",
+            "label": "🟡|Impact of ISRO",
             "children": [
               {
                 "label": "🟠| Social: Tele‑education, Tele‑medicine, DTH, communication.\nEconomic: Technical consultancy to 650+ industries; launching services, remote sensing data.\nDefence: GSAT‑7/7A (defence communication), NavIC, HySIS, EMISAT."
@@ -1087,7 +1066,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Key ISRO Centres",
+            "label": "🟡|Key ISRO Centres",
             "children": [
               {
                 "label": "⚪| VSSC (Thiruvananthapuram) – rockets.\nUR Rao Satellite Centre (Bengaluru) – satellites.\nLPSC (Valiamala) – propulsion.\nSDSC (Sriharikota) – launch.\nISTRAC (Bengaluru) – tracking.\nTERLS (Thumba – 1963) – first India rocket station."
@@ -1098,7 +1077,7 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Global Space Missions",
+        "label": "🟡|Global Space Missions",
         "children": [
           {
             "label": "🟡| NASA (USA): Artemis (Moon), Mars rovers (Curiosity, Perseverance).\nJWST (infrared, L2 – deep space).\nESA: Rosetta (asteroid landing).\nCNSA: Chang'e (Moon), Tiangong (space station)."
@@ -1106,7 +1085,7 @@ export const RAW_D =
         ]
       },
       {
-        "label": "Space Science Essentials",
+        "label": "🟡|Space Science Essentials",
         "children": [
           {
             "label": "🔴| Space weather: solar flares, coronal mass ejections and high-energy particles can disrupt satellites, GNSS, radio communication and power grids."
@@ -1121,10 +1100,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Space Sector Reforms, Institutions & Private Space",
+        "label": "🟡|Space Sector Reforms, Institutions & Private Space",
         "children": [
           {
-            "label": "Institutional Architecture",
+            "label": "🟡|Institutional Architecture",
             "children": [
               {
                 "label": "🟠| Indian Space Policy 2023: defines roles of Department of Space, ISRO, IN-SPACe, NSIL and Non-Government Entities (NGEs); mature operational systems are to increasingly transition to industry while ISRO focuses more on advanced R&D and new technology."
@@ -1141,7 +1120,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Exam Associations",
+            "label": "🟡|Exam Associations",
             "children": [
               {
                 "label": "🔴| IN-SPACe = authorise/promote/supervise private space activities; NSIL = commercialise space technologies/services; ISRO = R&D, missions and advanced technology; DoS = overarching policy/coordination role."
@@ -1155,10 +1134,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Remote Sensing, GIS & GNSS Applications",
+        "label": "🟡|Remote Sensing, GIS & GNSS Applications",
         "children": [
           {
-            "label": "Core Concepts",
+            "label": "🟡|Core Concepts",
             "children": [
               {
                 "label": "🔴| Remote sensing: obtaining information about Earth objects/phenomena without direct physical contact, commonly using satellite or airborne sensors."
@@ -1178,16 +1157,13 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Upcoming / Proposed Planetary Missions",
+        "label": "🟡|Upcoming / Proposed Planetary Missions",
         "children": [
           {
-            "label": "India-Japan & Venus Exploration",
+            "label": "🟡|India-Japan & Venus Exploration",
             "children": [
               {
                 "label": "🟡| LUPEX: India-Japan lunar polar exploration concept, focused on lunar south-polar exploration and resource/volatile studies; proposed mission status can change."
-              },
-              {
-                "label": "🟡| Shukrayaan-1: proposed Indian Venus mission concept for studying Venusian atmosphere and surface; treat launch date/status as Current Affairs-sensitive rather than a fixed fact."
               }
             ]
           }
@@ -1198,14 +1174,14 @@ export const RAW_D =
   {
     "id": "VI",
     "p": "pm",
-    "label": "Defence Technology & Security",
+    "label": "🟡|Defence Technology & Security",
     "children": [
       {
         "p": "pm2",
-        "label": "Weapon Systems",
+        "label": "🟡|Weapon Systems",
         "children": [
           {
-            "label": "Conventional vs Nuclear",
+            "label": "🟡|Conventional vs Nuclear",
             "children": [
               {
                 "label": "🟡| Conventional: Kinetic (rubber bullets, pellets), Chemical (bullets, RDX, TNT).\nNuclear: Atom bomb (fission), H‑bomb (fusion).\nChemical Weapons: banned under Chemical Weapons Convention (1993).\nBiological Weapons: banned under Biological Weapons Convention (1972)."
@@ -1213,7 +1189,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "India's Nuclear Triad",
+            "label": "🟡|India's Nuclear Triad",
             "children": [
               {
                 "label": "🟡| Land: Agni series, Prithvi.\nAir: Mirage‑2000, Sukhoi Su‑30MKI, Jaguar, Rafale.\nSea: INS Arihant (SSBN) – K‑15 (750 km), K‑4 (3500 km), K‑5 (5000‑6000 km – under development).\nTRAP: Nuclear triad ensures credible second‑strike capability → deterrence."
@@ -1224,10 +1200,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Missile Systems",
+        "label": "🟡|Missile Systems",
         "children": [
           {
-            "label": "Ballistic vs Cruise",
+            "label": "🟡|Ballistic vs Cruise",
             "children": [
               {
                 "label": "🔴| Ballistic: parabolic trajectory (exo‑atmospheric); e.g., Agni, Prithvi, Dhanush, K‑series.\nCruise: low altitude, continuous powered flight; e.g., BrahMos, Nirbhay.\nTRAP: Ballistic missiles are rocket‑powered only in initial phase; cruise are powered throughout."
@@ -1235,7 +1211,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "IGMDP (Integrated Guided Missile Development Programme – 1983)",
+            "label": "🟡|IGMDP (Integrated Guided Missile Development Programme – 1983)",
             "children": [
               {
                 "label": "🟡| Agni: long‑range ballistic (surface‑to‑surface).\nPrithvi: short‑range tactical (surface‑to‑surface).\nAkash: surface‑to‑air (30‑80 km).\nTrishul: short‑range surface‑to‑air (decommissioned 2008).\nNag: anti‑tank guided missile (Fire & Forget; infrared guidance)."
@@ -1243,7 +1219,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Major Indian Missiles",
+            "label": "🟡|Major Indian Missiles",
             "children": [
               {
                 "label": "🟡| Agni Series: Agni‑I (700‑900 km), Agni‑II (2000 km), Agni‑III (3000 km), Agni‑IV (4000 km), Agni‑V (5000+ km – ICBM with MIRV capability). Agni‑Prime (1000‑2000 km – lighter, maneuverable).\nTRAP: Agni‑V is India's first ICBM (range > 5000 km)."
@@ -1253,9 +1229,6 @@ export const RAW_D =
               },
               {
                 "label": "🟡| BrahMos: supersonic cruise (2.8 Mach). Range: 290 km (pre‑MTCR), 400 km (post‑MTCR). Joint venture India‑Russia. BrahMos‑II (hypersonic – 7 Mach, 800 km, Scramjet).\nBrahMos‑NG: 50% lighter, 3m shorter, for airborne platforms."
-              },
-              {
-                "label": "🟡| Nirbhay: Indian subsonic cruise-missile programme; exact range, configuration and service status should be treated as current-affairs-sensitive."
               },
               {
                 "label": "🟡| K‑Series (SLBM): K‑15 (750 km – deployed), K‑4 (3500 km – under testing), K‑5 (5000‑6000 km – under development).\nShaurya – land version of K‑15."
@@ -1275,7 +1248,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Air Defence System",
+            "label": "🟡|Air Defence System",
             "children": [
               {
                 "label": "🔴| Long‑range (2500‑5000 km): BMD (Ballistic Missile Defence – PAD 80km, AAD 30km; >99% accuracy).\nIntermediate (400 km): S‑400 (Russian) – 600 km radar, 14 Mach interceptor; truck‑mounted; 20‑year service.\nShort‑range (100 km): Akash, Barak‑8 (90 km – India‑Israel), SPYDER.\nVery short (10 km): Bofors, MANPADS."
@@ -1286,7 +1259,7 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Aircraft & UAVs",
+        "label": "🟡|Aircraft & UAVs",
         "children": [
           {
             "label": "🟡| Tejas (LCA – indigenous), Rafale (France), Sukhoi Su‑30MKI (Russia), Mirage‑2000 (France), Jaguar (UK/France)."
@@ -1298,7 +1271,7 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Submarines & Aircraft Carriers",
+        "label": "🟡|Submarines & Aircraft Carriers",
         "children": [
           {
             "label": "🔴| Nuclear‑powered: INS Arihant (SSBN – K‑4/K‑15).\nDiesel‑electric: Shishumar Class (Germany), Sindhughosh Class (Russia – Kilo), Kalvari Class (France – Scorpene) – INS Kalvari, Khanderi, Karang, Vela, Vagir, Vagsheer (AIP‑enabled for extended submerged endurance)."
@@ -1310,7 +1283,7 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Jet Engines & Propulsion",
+        "label": "🟡|Jet Engines & Propulsion",
         "children": [
           {
             "label": "🔴| Turbofan: air sucked by fans (e.g., Nirbhay).\nRamjet: passive air intake (e.g., Akash, BrahMos‑I).\nScramjet: supersonic combustion (e.g., BrahMos‑II, RLV).\nTRAP: Ramjet/Scramjet require initial velocity (provided by solid booster); cannot launch from stationary position."
@@ -1319,7 +1292,7 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Defence Organisations & Programmes",
+        "label": "🟡|Defence Organisations & Programmes",
         "children": [
           {
             "label": "🟡| DRDO, HAL, BEL, OFB.\nDefence Acquisition Procedure (DAP 2020) – emphasis on indigenous procurement.\nMake in India: positive indigenisation lists; defence corridors in UP and Tamil Nadu.\niDEX (Innovations for Defence Excellence) – MSMEs & startups."
@@ -1328,10 +1301,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Emerging Defence Technologies",
+        "label": "🟡|Emerging Defence Technologies",
         "children": [
           {
-            "label": "Air & Missile Technologies",
+            "label": "🟡|Air & Missile Technologies",
             "children": [
               {
                 "label": "🟡| AMCA (Advanced Medium Combat Aircraft): India’s indigenous fifth-generation fighter aircraft programme under development."
@@ -1348,11 +1321,8 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Underwater & Naval Programmes",
+            "label": "🟡|Underwater & Naval Programmes",
             "children": [
-              {
-                "label": "🟡| Project-75(I): Indian submarine programme for construction of six conventional diesel-electric attack submarines with air-independent propulsion capability requirements; programme status is Current Affairs-sensitive."
-              },
               {
                 "label": "🟡| INS Vikrant: India’s first indigenously designed and built aircraft carrier, commissioned in 2022."
               }
@@ -1365,14 +1335,14 @@ export const RAW_D =
   {
     "id": "VII",
     "p": "pm",
-    "label": "Energy – Conventional & Renewable",
+    "label": "🟡|Energy – Conventional & Renewable",
     "children": [
       {
         "p": "pm2",
-        "label": "Conventional Energy Sources",
+        "label": "🟡|Conventional Energy Sources",
         "children": [
           {
-            "label": "Coal, Oil & Natural Gas",
+            "label": "🟡|Coal, Oil & Natural Gas",
             "children": [
               {
                 "label": "🟡| Coal: thermal power (largest source in India). Types: peat, lignite, bituminous (most common), anthracite (highest quality).\nPetroleum & Natural Gas: refining, petrochemicals; Strategic Petroleum Reserves (India)."
@@ -1380,7 +1350,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Nuclear Energy (Fission Reactors)",
+            "label": "🟡|Nuclear Energy (Fission Reactors)",
             "children": [
               {
                 "label": "🔴| Fission: U‑235 + n → Ba + Kr + 3n + Energy.\nReactor parts: Fuel (fissile), Moderator (slows neutrons – H₂O, D₂O, Graphite), Control Rods (absorb neutrons – Cd, B), Coolant (transfers heat – H₂O, D₂O, liquid Na), Shield (radiation protection)."
@@ -1403,7 +1373,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Nuclear Fusion (ITER)",
+            "label": "🟡|Nuclear Fusion (ITER)",
             "children": [
               {
                 "label": "🟠| Fusion: H‑2 + H‑3 → He‑4 + n + Energy (requires 10⁶°C plasma).\nITER (International Thermonuclear Experimental Reactor) – France; India is a participant (IPR Gandhinagar – Aditya TOKAMAK).\nIndia contributes: Cryostat, Water Cooling, In‑Wall Shielding, Cryo Distribution System."
@@ -1414,38 +1384,21 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Renewable Energy",
+        "label": "🟡|Renewable Energy",
         "children": [
           {
-            "label": "Solar Energy",
+            "label": "🟡|Solar Energy",
             "children": [
               {
                 "label": "🟠| Photovoltaic (PV) – silicon cells convert sunlight to electricity.\nSolar thermal – concentrated solar power (CSP).\nNational Solar Mission: major policy framework for scaling solar power; historic targets have evolved with later national renewable-energy goals. Do not memorize “100 GW achieved” as a timeless status claim.\nInternational Solar Alliance (ISA) – headquartered in India; One Sun One World One Grid."
               }
             ]
-          },
-          {
-            "label": "Wind, Biomass & Hydro",
-            "children": [
-              {
-                "label": "🟡| Wind: onshore & offshore; India is among the world’s leading countries in installed wind capacity; exact rank changes with annual additions—treat the ranking as current-affairs data.\nBiomass: bagasse, agri‑residue; biogas (methane).\nHydropower: large dams (Tehri, Bhakra) & small/micro hydro (run‑of‑river)."
-              }
-            ]
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Green Hydrogen",
-        "children": [
-          {
-            "label": "🟡| Green Hydrogen: produced via electrolysis using renewable energy (H₂O → H₂ + ½ O₂).\nNational Green Hydrogen Mission: target of at least 5 MMT annual green-hydrogen production capacity by 2030, with renewable-power addition and SIGHT incentives for electrolyser manufacturing/green-hydrogen production. CA-sensitive: implementation progress changes.\nApplications: fuel cells (H₂ + O₂ → electricity + H₂O); hard‑to‑abate sectors (steel, cement, heavy transport).\nTRAP: Hydrogen is an energy carrier, NOT a primary energy source."
-          }
-        ]
-      },
-      {
-        "p": "pm2",
-        "label": "Energy Storage & Critical Minerals",
+        "label": "🟡|Energy Storage & Critical Minerals",
         "children": [
           {
             "label": "🟡| Battery Energy Storage Systems (BESS), Pumped Hydro.\nCritical minerals: Lithium (J&K, Rajasthan), Cobalt – supply chain concentration."
@@ -1454,7 +1407,7 @@ export const RAW_D =
             "label": "🟠| Small Modular Reactors (SMRs): factory‑fabricated, scalable (up to 300 MW), passive cooling; alternative to large reactors; lower capital cost."
           },
           {
-            "label": "Critical Minerals & Rare Earths",
+            "label": "🟡|Critical Minerals & Rare Earths",
             "children": [
               {
                 "label": "🔴| Rare Earth Elements (REEs) = 17 elements: 15 lanthanides plus scandium and yttrium; important in permanent magnets, electronics, batteries/energy technologies and defence applications."
@@ -1467,9 +1420,6 @@ export const RAW_D =
               },
               {
                 "label": "🟠| India’s critical-mineral challenge links energy transition, batteries, permanent magnets, electronics, defence, recycling, substitution and concentrated global supply chains."
-              },
-              {
-                "label": "🟡| Exact reserve figures, individual mineral project status and overseas acquisitions are Current Affairs-sensitive; do not memorise changing quantities."
               }
             ]
           }
@@ -1477,13 +1427,13 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "MAINS: Energy Transition",
+        "label": "🟡|MAINS: Energy Transition",
         "children": [
           {
             "label": "🟠| Challenges: intermittency of solar/wind, grid integration, energy density (storage).\nNuclear fission: waste management; fusion: theoretical clean energy (ITER)."
           },
           {
-            "label": "Carbon Capture, Storage & Removal",
+            "label": "🟡|Carbon Capture, Storage & Removal",
             "children": [
               {
                 "label": "🟠| CCUS: capture CO₂ from industrial/energy sources, transport it and store or use it; relevant for hard-to-abate sectors but involves energy, cost, leakage and permanence concerns."
@@ -1496,7 +1446,7 @@ export const RAW_D =
         ]
       },
       {
-        "label": "Electric Vehicles, Batteries & Storage",
+        "label": "🟡|Electric Vehicles, Batteries & Storage",
         "children": [
           {
             "label": "🔴| EV powertrain: battery → inverter/controller → electric motor; regenerative braking converts part of kinetic energy back to electrical energy."
@@ -1511,10 +1461,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Nuclear Policy, Safeguards & Liability",
+        "label": "🟡|Nuclear Policy, Safeguards & Liability",
         "children": [
           {
-            "label": "Indian Framework",
+            "label": "🟡|Indian Framework",
             "children": [
               {
                 "label": "🟠| Civil Liability for Nuclear Damage Act, 2010: provides the legal framework for civil liability/compensation for nuclear damage and contains a statutory right of recourse under specified conditions; important for Mains."
@@ -1534,10 +1484,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Nuclear Fusion: India’s Tokamak Programme",
+        "label": "🟡|Nuclear Fusion: India’s Tokamak Programme",
         "children": [
           {
-            "label": "Indian Fusion Facilities",
+            "label": "🟡|Indian Fusion Facilities",
             "children": [
               {
                 "label": "🔴| Institute for Plasma Research (IPR) is India’s major plasma/fusion R&D institution and participates in international fusion programmes including ITER."
@@ -1560,14 +1510,14 @@ export const RAW_D =
   {
     "id": "VIII",
     "p": "pm",
-    "label": "Health, Biotechnology & Nanomedicine",
+    "label": "🟡|Health, Biotechnology & Nanomedicine",
     "children": [
       {
         "p": "pm2",
-        "label": "Medical Technologies",
+        "label": "🟡|Medical Technologies",
         "children": [
           {
-            "label": "Imaging & Diagnostics",
+            "label": "🟡|Imaging & Diagnostics",
             "children": [
               {
                 "label": "🟡| X‑ray (bone), CT (3D X‑ray), MRI (magnetic resonance – no radiation), Ultrasound (sonography).\nPET scan (metabolic activity).\nRT‑PCR (COVID), Rapid Antigen Test, CRISPR diagnostics."
@@ -1575,7 +1525,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Therapeutic Advances",
+            "label": "🟡|Therapeutic Advances",
             "children": [
               {
                 "label": "🔴| Gene therapy: somatic (adult, treatment limited to patient) vs germline (reproductive cells – banned).\nKnock‑down (silencing RNA) vs Knock‑out (removing gene)."
@@ -1598,10 +1548,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Stem Cells & Cloning",
+        "label": "🟡|Stem Cells & Cloning",
         "children": [
           {
-            "label": "Stem Cells",
+            "label": "🟡|Stem Cells",
             "children": [
               {
                 "label": "🔴| Totipotent (early embryo – banned), Pluripotent (later embryo – research, cord blood – cryopreservation).\nMultipotent/Oligopotent/Unipotent (adult – limited).\nInduced Pluripotent Stem Cells (iPSCs) – Yamanaka (Nobel 2012)."
@@ -1612,7 +1562,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Cloning",
+            "label": "🟡|Cloning",
             "children": [
               {
                 "label": "🔴| Reproductive cloning (SCNT – Dolly the sheep, 1996).\nSCNT: somatic nucleus + enucleated egg → reconstructed embryo → surrogate.\nIndia: NDRI Karnal – Garima (buffalo, 2009), Noorie (pashmina goat, 2012), Dipasha (wild buffalo, 2014), Swaroopa (buffalo, 2015), Ganga (Gir cow, 2023).\nPurpose: increase milk production, preserve endangered species, produce commercially valuable products (pashmina)."
@@ -1620,7 +1570,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Surrogacy",
+            "label": "🟡|Surrogacy",
             "children": [
               {
                 "label": "🔴| Gestational surrogacy: embryo via IVF (no genetic relation to surrogate).\nSurrogacy Regulation Act (2021): commercial surrogacy banned; only altruistic surrogacy allowed (close relatives, no financial transaction).\nEligibility: surrogate (25‑35, married, mother of one), couple (Indian, married 5+ years, 26‑55 male, 23‑50 female).\nSingle males, live‑in couples, LGBTQ+, foreigners not allowed.\nPenalty: 10 years imprisonment + ₹10 lakh fine."
@@ -1628,10 +1578,10 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Three Parent Baby (Mitochondrial Replacement Therapy)",
+            "label": "🟡|Three Parent Baby (Mitochondrial Replacement Therapy)",
             "children": [
               {
-                "label": "🔴| Mitochondrial DNA (37 genes) – maternal inheritance only.\nMitochondrial defects cause Leigh syndrome, CHARGE syndrome.\nMitochondrial replacement therapy (MRT): nuclear genetic material from intended mother is transferred to an enucleated donor oocyte carrying healthy mitochondria, then fertilised; it is used to prevent transmission of pathogenic mitochondrial DNA variants.\nMethods: Spindle Transfer (before fertilisation – popular), Pro‑Nuclear Transfer (after – low success).\n2016: world's first 3‑parent baby born in Mexico.\nUK first to legalise (2015).\nTRAP: India does not currently have an established clinical legal framework permitting routine mitochondrial replacement therapy; treat this as policy/current-law material and verify before the exam."
+                "label": "🔴|Mitochondrial DNA contains 37 genes and is usually maternally inherited. Pathogenic mtDNA variants cause mitochondrial disorders including Leigh syndrome; CHARGE syndrome is classically associated with CHD7-gene mutations, not mitochondrial DNA defects. / Mitochondrial replacement therapy (MRT) replaces affected maternal mitochondria with donor mitochondria while retaining intended parents' nuclear DNA."
               }
             ]
           }
@@ -1639,10 +1589,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Genomics & Policy",
+        "label": "🟡|Genomics & Policy",
         "children": [
           {
-            "label": "Genome Projects",
+            "label": "🟡|Genome Projects",
             "children": [
               {
                 "label": "🟠| Human Genome Project (HGP, 1990‑2003): mapped human genome; applications: gene therapy, personalised medicine, risk assessment.\nIssues: discrimination (insurance/employment), privacy, ethical concerns.\nHGP‑Write (2016‑2026): synthetic human genome.\nEarth BioGenome Project (2018‑2028): 1.5 million eukaryotic genomes."
@@ -1653,7 +1603,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Biotech Regulation & Policy",
+            "label": "🟡|Biotech Regulation & Policy",
             "children": [
               {
                 "label": "🟠| GEAC (Genetic Engineering Appraisal Committee) – under MoEFCC; approves GM crop field trials.\nBioE3 Policy (2024): Biotechnology for Economy, Environment, Employment – high‑performance biomanufacturing, circular bioeconomy, Bio‑AI Hubs.\nNational Action Plan on AMR (NAP‑AMR 2.0).\nOne Health – human‑animal‑environment health interface."
@@ -1664,7 +1614,7 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Public Health Challenges",
+        "label": "🟡|Public Health Challenges",
         "children": [
           {
             "label": "🟠| Antimicrobial Resistance (AMR) – 'Silent Pandemic'.\nNational Sickle Cell Anaemia Elimination Mission (target 2047)."
@@ -1673,10 +1623,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Monoclonal Antibodies, Biosimilars & Immunotherapy",
+        "label": "🟡|Monoclonal Antibodies, Biosimilars & Immunotherapy",
         "children": [
           {
-            "label": "Biologics",
+            "label": "🟡|Biologics",
             "children": [
               {
                 "label": "🔴| Monoclonal antibodies (mAbs): laboratory-produced antibodies designed to bind a specific antigen/target; used in cancer, autoimmune diseases and selected infections."
@@ -1693,10 +1643,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Biotechnology Regulation & Biosafety",
+        "label": "🟡|Biotechnology Regulation & Biosafety",
         "children": [
           {
-            "label": "International and Indian Frameworks",
+            "label": "🟡|International and Indian Frameworks",
             "children": [
               {
                 "label": "🔴| Cartagena Protocol on Biosafety: international protocol under the Convention on Biological Diversity dealing with safe transfer, handling and use of living modified organisms."
@@ -1719,10 +1669,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Public Health Surveillance, Immunisation & One Health",
+        "label": "🟡|Public Health Surveillance, Immunisation & One Health",
         "children": [
           {
-            "label": "Indian Programmes",
+            "label": "🟡|Indian Programmes",
             "children": [
               {
                 "label": "🔴| Integrated Disease Surveillance Programme (IDSP): surveillance and early warning for communicable disease outbreaks through an integrated reporting system."
@@ -1745,10 +1695,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Digital Health Infrastructure",
+        "label": "🟡|Digital Health Infrastructure",
         "children": [
           {
-            "label": "ABDM & Telemedicine",
+            "label": "🟡|ABDM & Telemedicine",
             "children": [
               {
                 "label": "🔴| Ayushman Bharat Digital Mission (ABDM): aims to build an interoperable national digital health ecosystem; National Health Authority is the implementing agency."
@@ -1774,25 +1724,22 @@ export const RAW_D =
   {
     "id": "IX",
     "p": "pm",
-    "label": "Information Technology, Computers & Communication",
+    "label": "🟡|Information Technology, Computers & Communication",
     "children": [
       {
         "p": "pm2",
-        "label": "Computer Fundamentals",
+        "label": "🟡|Computer Fundamentals",
         "children": [
           {
-            "label": "Hardware & Software",
+            "label": "🟡|Hardware & Software",
             "children": [
               {
                 "label": "🟡| CPU (ALU, Control Unit), RAM (volatile), ROM (non‑volatile – BIOS), Storage (HDD, SSD).\nOS: Windows, Linux, Android.\nApplication vs system software; open source vs proprietary."
-              },
-              {
-                "label": "🟡| Supercomputers: FLOPS (Floating Point Operations Per Second).\n1 TeraFLOPS = 10¹², 1 PetaFLOPS = 10¹⁵, 1 ExaFLOPS = 10¹⁸.\nIndia: PARAM series (C‑DAC); Pratyush & Mihir (weather – IITM, NCMRWF).\nTop 500 (Nov 2024): USA (El Capitan – 17 EFLOPS), China; India has 6 systems (AIRAWAT – 8.5 PFLOPS, rank 136).\nNational Supercomputing Mission (NSM, 2015): 73 indigenous supercomputers; C‑DAC + IISc; Atos (France) technical support; PARAM Rudra recently inaugurated."
               }
             ]
           },
           {
-            "label": "Networking & Internet",
+            "label": "🟡|Networking & Internet",
             "children": [
               {
                 "label": "🟡| IP address (IPv4 vs IPv6), DNS, URL, HTTP/HTTPS (SSL/TLS).\nCloud computing: SaaS, PaaS, IaaS; Edge computing.\nIoT (Internet of Things) – smart devices, sensors.\nDeep web vs Dark web (Tor – anonymity)."
@@ -1800,7 +1747,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Artificial Intelligence & Emerging Tech",
+            "label": "🟡|Artificial Intelligence & Emerging Tech",
             "children": [
               {
                 "label": "🟠| AI/ML: supervised, unsupervised, reinforcement learning; deep learning, neural networks, NLP (ChatGPT).\nGenerative AI (LLMs) vs Discriminative AI.\nDeepfakes: risks to electoral integrity, privacy; countermeasures: digital watermarking, algorithmic detection."
@@ -1821,43 +1768,34 @@ export const RAW_D =
                 "label": "🟡| Quantum Computing: qubits (superposition + entanglement).\nQuantum vs Digital: digital = bits (0/1); quantum = qubits (0, 1, or both).\nNational Quantum Mission (approved 2023; eight-year mission): four Thematic Hubs—Quantum Computing, Quantum Communication, Quantum Sensing & Metrology, Quantum Materials & Devices.\nCore applications: quantum computing, QKD/secure communication, precision sensing and quantum materials; exact technical targets are project-dependent and should be treated as CA-sensitive.\nApplications: Quantum Key Distribution (QKD – unhackable communication)."
               },
               {
-                "label": "AI Governance & Data",
+                "label": "🟡|AI Governance & Data",
                 "children": [
                   {
                     "label": "🟠| AI risks: bias, hallucination, opacity, privacy, cyber misuse, labour displacement, deepfakes and concentration of compute/data."
                   },
                   {
                     "label": "🟠| AI governance should balance innovation with safety, transparency, accountability, privacy, human oversight and inclusion."
-                  },
-                  {
-                    "label": "🟡| AI policy names, model counts, GPU numbers and mission targets are current-affairs-sensitive; verify the latest official figures before Prelims."
                   }
                 ]
               }
             ]
           },
           {
-            "label": "Data Privacy & Cyber Security",
+            "label": "🟡|Data Privacy & Cyber Security",
             "children": [
-              {
-                "label": "🟡| DPDP Act, 2023: regulates processing of digital personal data; key concepts include Data Principal, Data Fiduciary and consent/legitimate-use grounds, with institutional oversight under the Act.\nCA-sensitive: DPDP Rules 2025 were notified in November 2025 and the Act entered operationalisation through the notified framework; verify the latest enforcement timeline before the exam. CII/NCIIPC is a related but separate cybersecurity framework under the IT Act."
-              },
               {
                 "label": "🟡| Cyber threats: Malware, phishing, DDoS.\nCERT‑In, National Cyber Security Policy."
               }
             ]
           },
           {
-            "label": "Semiconductors & Digital Infrastructure",
+            "label": "🟡|Semiconductors & Digital Infrastructure",
             "children": [
               {
                 "label": "🔴| Semiconductor basics: silicon, doping, p-n junctions, diodes, transistors and integrated circuits form the foundation of modern electronics."
               },
               {
                 "label": "🟠| Semiconductor fabrication involves wafer preparation, lithography, deposition, etching, doping, packaging and testing."
-              },
-              {
-                "label": "🟡| India’s semiconductor ecosystem: fabs, display fabrication, compound semiconductors, packaging/ATMP and design ecosystems are policy/current-affairs-sensitive."
               }
             ]
           }
@@ -1865,10 +1803,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Communication Technology",
+        "label": "🟡|Communication Technology",
         "children": [
           {
-            "label": "Wireless & Mobile Generations",
+            "label": "🟡|Wireless & Mobile Generations",
             "children": [
               {
                 "label": "🟡| 1G (1981): analog, voice only, poor security.\n2G (1992): digital (GSM/CDMA), SMS, 96‑384 kbps. 2.5G (GPRS – 114 kbps), 2.75G (EDGE – 384 kbps).\n3G (2000s): HSPA, mobile broadband, 2‑3 Mbps.\n4G (2010): LTE, 100 Mbps, video calls.\n5G (present): 1‑20 Gbps, 1 ms latency, 100x bandwidth, 1000x connectivity, 90% lower energy; low‑band (200‑500 Mbps), mid‑band (4 Gbps), high‑band (20 Gbps).\nApplications: Extended Reality (VR/AR/MR), IoT, World Wide Wireless Web (WWWWW)."
@@ -1882,7 +1820,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Satellite Internet",
+            "label": "🟡|Satellite Internet",
             "children": [
               {
                 "label": "🟡| LEO (low latency, many satellites – Starlink ~10,000, OneWeb 650) vs GSO (V‑SAT, fewer satellites, higher latency).\nIndia: Hughes Communications (ISRO‑powered – GSO), Reliance Jio + SES, Tata + Telesat.\nStarlink – SpaceX; OneWeb – UK + Bharti Global (launched by LVM3)."
@@ -1890,7 +1828,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Web Evolution",
+            "label": "🟡|Web Evolution",
             "children": [
               {
                 "label": "🟠| Web 1.0 (1989‑1993): Static, read‑only.\nWeb 2.0 (1990‑2004): Read‑Write, interactive, social media, e‑commerce; challenges: digital divide, misinformation, big tech monopoly, privacy.\nWeb 3.0 (2014‑): Blockchain‑based, decentralised, user data ownership (Gavin Wood coined).\nWeb 4.0: Mobile Web, self‑learning (AI/ML).\nWeb 5.0: Convergent (Web 2.0 interactivity + Web 3.0 decentralisation) – user data ownership."
@@ -1901,10 +1839,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Semiconductor Mission & Fab Ecosystem",
+        "label": "🟡|Semiconductor Mission & Fab Ecosystem",
         "children": [
           {
-            "label": "India Semiconductor Mission",
+            "label": "🟡|India Semiconductor Mission",
             "children": [
               {
                 "label": "🔴| India Semiconductor Mission (ISM): nodal implementation agency for India’s semiconductor and display ecosystem schemes, including fabs, display fabs, compound semiconductors, silicon photonics/MEMS, ATMP/OSAT and design support."
@@ -1917,9 +1855,6 @@ export const RAW_D =
               },
               {
                 "label": "🟠| Design Linked Incentive (DLI) supports semiconductor design infrastructure and development of ICs, chipsets, SoCs and related IP/designs."
-              },
-              {
-                "label": "🟡| Semiconductor project approvals and facility status are Current Affairs-sensitive; memorise the ecosystem and role of institutions rather than rapidly changing project numbers."
               }
             ]
           }
@@ -1927,10 +1862,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Digital Technologies & Industry 4.0",
+        "label": "🟡|Digital Technologies & Industry 4.0",
         "children": [
           {
-            "label": "Emerging Concepts",
+            "label": "🟡|Emerging Concepts",
             "children": [
               {
                 "label": "🔴| Digital Twin: dynamic digital representation of a physical object/system/process linked to real-world data for monitoring, simulation and optimisation."
@@ -1950,10 +1885,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Cybersecurity, Cyber Warfare & Digital Sovereignty",
+        "label": "🟡|Cybersecurity, Cyber Warfare & Digital Sovereignty",
         "children": [
           {
-            "label": "Core Institutions & Programmes",
+            "label": "🟡|Core Institutions & Programmes",
             "children": [
               {
                 "label": "🔴| CERT-In = Indian Computer Emergency Response Team; national agency responsible for coordinating response to computer-security incidents and issuing cyber-security advisories/directions."
@@ -1973,7 +1908,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Mains Framework",
+            "label": "🟡|Mains Framework",
             "children": [
               {
                 "label": "🟠| Cyber warfare can target confidentiality, integrity and availability; major challenges include critical-infrastructure attacks, ransomware, espionage, attribution, supply-chain vulnerabilities, AI-enabled threats and cross-border jurisdiction."
@@ -1987,10 +1922,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "AI Governance: International Initiatives",
+        "label": "🟡|AI Governance: International Initiatives",
         "children": [
           {
-            "label": "International Frameworks",
+            "label": "🟡|International Frameworks",
             "children": [
               {
                 "label": "🟠| Global Partnership on Artificial Intelligence (GPAI): international multi-stakeholder initiative promoting responsible, human-centric and trustworthy AI; India was a founding member. Use as a Mains governance association, not a heavy memorisation item."
@@ -2013,14 +1948,14 @@ export const RAW_D =
   {
     "id": "X",
     "p": "pm",
-    "label": "Science Policy, IPR & R&D Ecosystem",
+    "label": "🟡|Science Policy, IPR & R&D Ecosystem",
     "children": [
       {
         "p": "pm2",
-        "label": "Intellectual Property Rights (IPR)",
+        "label": "🟡|Intellectual Property Rights (IPR)",
         "children": [
           {
-            "label": "Patents Act, 1970 & TRIPS",
+            "label": "🟡|Patents Act, 1970 & TRIPS",
             "children": [
               {
                 "label": "🔴| Section 3(d): prevents 'evergreening' of patents (landmark Novartis case).\nCompulsory Licensing (Section 84): allows generic production during national health emergency without consent.\nTRIPS agreement (WTO) – India complies; flexibilities allow compulsory licensing."
@@ -2028,7 +1963,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Geographical Indications (GI)",
+            "label": "🟡|Geographical Indications (GI)",
             "children": [
               {
                 "label": "🟡| Protects traditional knowledge and region‑specific goods (Darjeeling Tea, Basmati, Kancheepuram Silk).\nPrevents biopiracy."
@@ -2039,18 +1974,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Research & Development",
+        "label": "🟡|Research & Development",
         "children": [
           {
-            "label": "Anusandhan National Research Foundation (ANRF) Act, 2023",
-            "children": [
-              {
-                "label": "🟡| ANRF Act 2023 establishes ANRF as an apex research-funding/coordination institution; it builds links among academia, industry and government and supports frontier and national-priority research.\nCA-sensitive: schemes/funding structures evolve; verify the latest ANRF programmes.\nMAHA (Mission for Advancement in High‑impact Areas) launched under ANRF – EV tech, MedTech, AI."
-              }
-            ]
-          },
-          {
-            "label": "Other Key Programmes",
+            "label": "🟡|Other Key Programmes",
             "children": [
               {
                 "label": "🟡| NM‑ICPS (National Mission on Interdisciplinary Cyber‑Physical Systems): Technology Innovation Hubs (TIHs) in AI, IoT, robotics.\nAtal Innovation Mission (AIM): Atal Tinkering Labs, Incubation Centres – promoting innovation culture."
@@ -2061,10 +1988,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Indian Scientists & Landmark Discoveries",
+        "label": "🟡|Indian Scientists & Landmark Discoveries",
         "children": [
           {
-            "label": "Scientist → Contribution",
+            "label": "🟡|Scientist → Contribution",
             "children": [
               {
                 "label": "🔴| C.V. Raman → Raman Effect; Nobel Prize in Physics (1930)."
@@ -2090,10 +2017,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Indian S&T Institutions & Laboratory Mapping",
+        "label": "🟡|Indian S&T Institutions & Laboratory Mapping",
         "children": [
           {
-            "label": "Institution → Role",
+            "label": "🟡|Institution → Role",
             "children": [
               {
                 "label": "🔴| CSIR → Council of Scientific & Industrial Research; national network of multidisciplinary R&D laboratories."
@@ -2131,14 +2058,11 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Neutrino Science & Big Science Collaborations",
+        "label": "🟡|Neutrino Science & Big Science Collaborations",
         "children": [
           {
-            "label": "India-Based Neutrino Observatory (INO)",
+            "label": "🟡|India-Based Neutrino Observatory (INO)",
             "children": [
-              {
-                "label": "🟡| India-based Neutrino Observatory (INO): proposed underground neutrino research facility in the Theni/Bodi West Hills area of Tamil Nadu; ICAL is designed to study atmospheric neutrinos. Project/status details are current-affairs-sensitive."
-              },
               {
                 "label": "🔴| Underground location reduces cosmic-ray background; surrounding rock provides natural shielding, improving detection of rare neutrino interactions."
               },
@@ -2148,7 +2072,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "International Mega-Science Projects",
+            "label": "🟡|International Mega-Science Projects",
             "children": [
               {
                 "label": "🔴| CERN/LHC: India participates in international high-energy physics research; core association = particle physics and the Large Hadron Collider."
@@ -2171,14 +2095,14 @@ export const RAW_D =
   {
     "id": "XI",
     "p": "pm",
-    "label": "Ocean Science, Deep Ocean Mission & Polar Research",
+    "label": "🟡|Ocean Science, Deep Ocean Mission & Polar Research",
     "children": [
       {
         "p": "pm2",
-        "label": "Deep Ocean Mission & Samudrayaan",
+        "label": "🟡|Deep Ocean Mission & Samudrayaan",
         "children": [
           {
-            "label": "Mission Core",
+            "label": "🟡|Mission Core",
             "children": [
               {
                 "label": "🔴| Deep Ocean Mission (DOM): mission-mode programme of the Ministry of Earth Sciences supporting India’s Blue Economy and deep-ocean technology capabilities."
@@ -2195,7 +2119,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Major Components & Blue Economy",
+            "label": "🟡|Major Components & Blue Economy",
             "children": [
               {
                 "label": "🟠| Deep Ocean Mission components include deep-sea mining/human submersible technology, ocean climate advisory services, deep-sea biodiversity, deep-ocean survey/exploration, ocean energy/freshwater, and an advanced marine station for ocean biology."
@@ -2212,10 +2136,10 @@ export const RAW_D =
       },
       {
         "p": "pm2",
-        "label": "Indian Polar Research",
+        "label": "🟡|Indian Polar Research",
         "children": [
           {
-            "label": "Stations & Institutions",
+            "label": "🟡|Stations & Institutions",
             "children": [
               {
                 "label": "🔴| NCPOR: National Centre for Polar and Ocean Research under the Ministry of Earth Sciences; nodal institution for India’s polar and Southern Ocean research."
@@ -2235,7 +2159,7 @@ export const RAW_D =
             ]
           },
           {
-            "label": "Policy / Governance",
+            "label": "🟡|Policy / Governance",
             "children": [
               {
                 "label": "🟡| India is a consultative party to the Antarctic Treaty System and an observer in the Arctic Council; polar governance is distinct from ownership of territory or resources."
@@ -2244,6 +2168,27 @@ export const RAW_D =
                 "label": "🟡| Treat “National Polar Science Programme” as a research/policy framework context; do not describe it as a standalone law unless the question specifically establishes a statutory instrument."
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "XII",
+    "p": "pm2",
+    "label": "🟡|Science & Technology — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "🟡|Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Keep permanent scientific concepts, mechanisms, major institutional architecture, historical milestones and stable exam-relevant distinctions."
+          },
+          {
+            "label": "🟡|Current mission status, launch dates, present rankings, latest targets, active programmes and current project approvals belong in Current Affairs, not this static note."
+          },
+          {
+            "label": "🟡|Fictional concepts such as Asimov's robot laws must never be memorised as scientific laws."
           }
         ]
       }

@@ -1,7 +1,8 @@
 import type { RawSubjectNode } from "../types";
 
+
 export const RAW_D = [
- {
+  {
     "id": "I",
     "p": "pm",
     "label": "Indian Architecture (Indus to Modern)",
@@ -191,7 +192,7 @@ export const RAW_D = [
                 "label": "🟡|Babur: Bagh‑e‑Babishta, mosque at Ayodhya (Babri)."
               },
               {
-                "label": "🟡|Humayun: Purana Qila (Din‑Panah); Humayun's Tomb (Akbar‑built, first garden tomb, precursor to Taj)."
+                "label": "🟡|Humayun: Purana Qila/Din-Panah associated with his rule; Humayun's Tomb was commissioned by his widow Bega Begum (Haji Begum) and built in 1569–70, a pioneering Mughal garden-tomb."
               },
               {
                 "label": "🟡|Akbar: Agra Fort, Fatehpur Sikri (Buland Darwaza, Panch Mahal, Jodha Bai's palace, Ibadat Khana), Diwan‑i‑Am, Diwan‑i‑Khas (pillar with cosmological symbols).\nUsed red sandstone with white marble inlay."
@@ -412,7 +413,7 @@ export const RAW_D = [
                 "label": "🟡|Gandhara: Greco‑Roman influence; blue‑grey schist, realistic, wavy hair, moustache, muscular Buddha in Roman toga; standing figure with Abhaya mudra; Kushan patronage."
               },
               {
-                "label": "🟡|Mathura: Red sandstone, indigenous, plump smiling Buddha, seated in Padmasana, broad shoulders; also Hindu (Vishnu, Shiva) and Jain images; first human image of Buddha appeared roughly simultaneously with Gandhara."
+                "label": "🟡|Mathura: Red sandstone, indigenous, plump smiling Buddha, seated in Padmasana, broad shoulders; also Hindu (Vishnu, Shiva) and Jain images; early Buddha images developed prominently in both Gandhara and Mathura during the Kushan period."
               },
               {
                 "label": "🟡|Amaravati: White marble, slender dynamic figures, complex narrative reliefs of Jataka stories; Satavahana/Ikshvaku period."
@@ -1479,6 +1480,27 @@ export const RAW_D = [
           {
             "label": "🟡|For Prelims, learn these as location–craft–material triples rather than isolated lists.",
             "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "X",
+    "p": "pm2",
+    "label": "Art & Culture — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Freeze architecture, sculpture, painting, dance, music, literature, religion-philosophy, performing arts and heritage distinctions as the static core."
+          },
+          {
+            "label": "🟡|Current UNESCO listings, new GI tags, festival dates and newly announced heritage status belong in Current Affairs."
+          },
+          {
+            "label": "🟡|Avoid absolute 'first/oldest' art-history claims unless the criterion and evidence are clear."
           }
         ]
       }

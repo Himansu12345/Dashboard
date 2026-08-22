@@ -1,17 +1,17 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D: RawSubjectNode[] = [
-   {
+  {
     "id": "I",
     "p": "pm",
-    "label": "Economic Growth, Planning & Development",
+    "label": "🟡|Economic Growth, Planning & Development",
     "children": [
       {
         "p": "pm2",
-        "label": "Economic Growth vs Development",
+        "label": "🟡|Economic Growth vs Development",
         "children": [
           {
-            "label": "Growth: quantitative increase in GDP/GNP per capita. Development: qualitative improvement in living standards (health, education, freedoms, structural transformation).",
+            "label": "🟡|Growth: quantitative increase in GDP/GNP per capita. Development: qualitative improvement in living standards (health, education, freedoms, structural transformation).",
             "children": [
               {
                 "label": "🟡|Measures: GDP, GNP, HDI (UNDP), Multidimensional Poverty Index (MPI - NITI Aayog), Gross National Happiness (Bhutan)."
@@ -25,10 +25,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Five Year Plans — Chronology, Models & Performance",
+        "label": "🟡|Five Year Plans — Chronology, Models & Performance",
         "children": [
           {
-            "label": "First Plan (1951‑56)",
+            "label": "🟡|First Plan (1951‑56)",
             "children": [
               {
                 "label": "🟡|Model: Harrod‑Domar (growth depends on savings rate and capital-output ratio). Focus: Agriculture, irrigation & power."
@@ -39,7 +39,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Second Plan (1956‑61)",
+            "label": "🟡|Second Plan (1956‑61)",
             "children": [
               {
                 "label": "🟡|Model: P.C. Mahalanobis (two-sector model: capital goods vs consumer goods). Focus: Heavy industries & import substitution."
@@ -50,7 +50,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Third Plan (1961‑66)",
+            "label": "🟡|Third Plan (1961‑66)",
             "children": [
               {
                 "label": "🟡|Aim: Self‑reliant and self‑generating economy. Target: 5.6%, Achieved: 2.8% (due to 1962 war, 1965 war, severe drought 1965‑66)."
@@ -61,7 +61,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Plan Holiday (1966‑69)",
+            "label": "🟡|Plan Holiday (1966‑69)",
             "children": [
               {
                 "label": "🟡|Three Annual Plans; focus on agriculture, export promotion, price stability."
@@ -69,7 +69,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Fourth Plan (1969‑74)",
+            "label": "🟡|Fourth Plan (1969‑74)",
             "children": [
               {
                 "label": "🟡|Theme: Growth with stability and progressive self‑reliance. Target: 5.7%, Achieved: 3.3%. Indo‑Pak war 1971, oil crisis 1973."
@@ -77,7 +77,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Fifth Plan (1974‑79)",
+            "label": "🟡|Fifth Plan (1974‑79)",
             "children": [
               {
                 "label": "🔴|Theme: Garibi Hatao. Drafted by D.P. Dhar. Target: 4.4%, Achieved: 4.8%. Suspended in 1978; Rolling Plan introduced (1978‑80)."
@@ -85,7 +85,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Sixth Plan (1980‑85)",
+            "label": "🟡|Sixth Plan (1980‑85)",
             "children": [
               {
                 "label": "🟠|Target: 5.2%, Achieved: 5.7%. Focus on poverty alleviation, employment, infrastructure, and initial liberalisation steps."
@@ -93,7 +93,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Seventh Plan (1985‑90)",
+            "label": "🟡|Seventh Plan (1985‑90)",
             "children": [
               {
                 "label": "🟡|Target: 5.0%, Achieved: 6.0%. Emphasis on foodgrain production, employment, and beginning of economic reforms."
@@ -101,7 +101,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Eighth Plan (1992‑97)",
+            "label": "🟡|Eighth Plan (1992‑97)",
             "children": [
               {
                 "label": "🟡|Launched post-1991 reforms. Target: 5.6%, Achieved: 6.8%. Emphasis on human development (health, education)."
@@ -109,7 +109,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Ninth Plan (1997‑2002)",
+            "label": "🟡|Ninth Plan (1997‑2002)",
             "children": [
               {
                 "label": "🟡|Theme: 'Growth with Social Justice and Equity'. Target: 6.5%, Achieved: 5.4%."
@@ -117,7 +117,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Tenth Plan (2002‑07)",
+            "label": "🟡|Tenth Plan (2002‑07)",
             "children": [
               {
                 "label": "🟡|Target: 8.0%, Achieved: 7.6%. Aimed at doubling per capita income in 10 years; focus on inclusive growth."
@@ -125,7 +125,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Eleventh Plan (2007‑12)",
+            "label": "🟡|Eleventh Plan (2007‑12)",
             "children": [
               {
                 "label": "🟡|Theme: 'Faster and More Inclusive Growth'. Target: 9.0%, Achieved: 7.9%. C. Rangarajan chaired PMEAC."
@@ -133,7 +133,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Twelfth Plan (2012‑17)",
+            "label": "🟡|Twelfth Plan (2012‑17)",
             "children": [
               {
                 "label": "🟡|Theme: 'Faster, More Inclusive and Sustainable Growth'. Target: 8.2%, Achieved: ~6.7%."
@@ -144,10 +144,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Economic Reforms (LPG Model, 1991)",
+        "label": "🟡|Economic Reforms (LPG Model, 1991)",
         "children": [
           {
-            "label": "Background & Triggers",
+            "label": "🟡|Background & Triggers",
             "children": [
               {
                 "label": "🔴|Balance of payments crisis; forex reserves barely 3 weeks of imports; fiscal deficit >8% of GDP."
@@ -158,7 +158,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Liberalisation, Privatisation & Globalisation",
+            "label": "🟡|Liberalisation, Privatisation & Globalisation",
             "children": [
               {
                 "label": "🟠|Liberalisation: delicensing (except 18 sectors); MRTP Act relaxed; financial sector reforms."
@@ -172,7 +172,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Impact of Reforms",
+            "label": "🟡|Impact of Reforms",
             "children": [
               {
                 "label": "🟡|GDP growth accelerated; poverty reduced; service sector boom; forex reserves increased."
@@ -186,10 +186,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Planning Models & Types",
+        "label": "🟡|Planning Models & Types",
         "children": [
           {
-            "label": "Harrod‑Domar Model",
+            "label": "🟡|Harrod‑Domar Model",
             "children": [
               {
                 "label": "🟡|Growth = Savings Rate / Capital-Output Ratio. Focuses on physical capital accumulation. Used in First Plan."
@@ -197,7 +197,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Mahalanobis Model",
+            "label": "🟡|Mahalanobis Model",
             "children": [
               {
                 "label": "🟡|Two‑sector model (Capital goods vs Consumer goods). Emphasis on heavy industries; led to import substitution. Backbone of Second Plan."
@@ -205,7 +205,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Indicative vs Imperative Planning",
+            "label": "🟡|Indicative vs Imperative Planning",
             "children": [
               {
                 "label": "🟡|Indicative: state sets broad targets, private sector responds (post‑1991 India). Imperative: command economy (Soviet model)."
@@ -219,10 +219,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "NITI Aayog (Est. 1 Jan 2015)",
+        "label": "🟡|NITI Aayog (Est. 1 Jan 2015)",
         "children": [
           {
-            "label": "Structure & Role",
+            "label": "🟡|Structure & Role",
             "children": [
               {
                 "label": "🟡|Chairperson: PM; Vice‑Chairperson (appointed); CEO; Governing Council (CMs, Lt. Governors)."
@@ -233,7 +233,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Key Initiatives",
+            "label": "🟡|Key Initiatives",
             "children": [
               {
                 "label": "🟡|SDG India Index, Aspirational Districts Programme, Atal Innovation Mission, National Multidimensional Poverty Index."
@@ -247,10 +247,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Inclusive Growth, Employment & Structural Transformation (MAINS FOCUS)",
+        "label": "🟡|Inclusive Growth, Employment & Structural Transformation (MAINS FOCUS)",
         "children": [
           {
-            "label": "Jobless Growth & Employment Elasticity",
+            "label": "🟡|Jobless Growth & Employment Elasticity",
             "children": [
               {
                 "label": "🟡|India's growth has been capital‑intensive and service‑led, with low employment elasticity (<0.2). Labour moves from agriculture directly to services, bypassing labour‑intensive manufacturing."
@@ -261,7 +261,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Inclusive Growth: Definition and Dimensions",
+            "label": "🟡|Inclusive Growth: Definition and Dimensions",
             "children": [
               {
                 "label": "🟡|Growth that reduces poverty, inequality, and regional disparities while ensuring access to basic services (health, education, financial inclusion). 11th and 12th Plans centered on this."
@@ -272,7 +272,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Informal Economy & Formalization",
+            "label": "🟡|Informal Economy & Formalization",
             "children": [
               {
                 "label": "🟡|~90% of India's workforce is informal (no written contract, paid leave, social security). Vulnerable to shocks — pandemic, demonetisation, climate events."
@@ -286,7 +286,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Planning & Industrial Policy — Deeper Static Core",
+        "label": "🟡|Planning & Industrial Policy — Deeper Static Core",
         "children": [
           {
             "label": "🟡|India's post-Independence strategy adopted a mixed economy, combining market/private ownership with substantial state ownership and planning."
@@ -315,7 +315,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Growth & Development",
+        "label": "🟡|PYQ-Calibrated Core — Growth & Development",
         "kind": "subsection",
         "children": [
           {
@@ -346,14 +346,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "II",
     "p": "pm",
-    "label": "National Income & Related Concepts",
+    "label": "🟡|National Income & Related Concepts",
     "children": [
       {
         "p": "pm2",
-        "label": "Basic Aggregates & Measurement",
+        "label": "🟡|Basic Aggregates & Measurement",
         "children": [
           {
-            "label": "GDP, GNP, NNP, etc.",
+            "label": "🟡|GDP, GNP, NNP, etc.",
             "children": [
               {
                 "label": "🟡|GDP: Gross value of all final goods/services produced within domestic territory in a year."
@@ -366,17 +366,11 @@ export const RAW_D: RawSubjectNode[] = [
               },
               {
                 "label": "🟡|GVA at Basic Price: Output – intermediate consumption. GDP at Market Price = GVA at basic price + product taxes – product subsidies. (Shift from factor cost to basic price since 2015)."
-              },
-              {
-                "label": "🟡|CURRENT STATISTICAL BASE: National Accounts/GDP base year is 2022‑23, replacing 2011‑12; treat base year as current-sensitive."
-              },
-              {
-                "label": "🟡|CURRENT BASE YEARS: CPI = 2024=100 (NSO); WPI = 2022‑23 (Office of Economic Adviser); IIP/core indices have also moved to 2022‑23. Treat base years as current-sensitive."
               }
             ]
           },
           {
-            "label": "Measurement Methods",
+            "label": "🟡|Measurement Methods",
             "children": [
               {
                 "label": "🟡|Production (Value Added) method: GDP = Sum of Gross Value Added (GVA) by all sectors + Taxes - Subsidies."
@@ -393,10 +387,10 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Real vs Nominal & Deflators",
+            "label": "🟡|Real vs Nominal & Deflators",
             "children": [
               {
-                "label": "🟡|Nominal GDP: at current prices. Real GDP: at constant prices (adjusted for inflation)."
+                "label": "🟡|Nominal GDP values output at current prices; Real GDP values output at constant prices to isolate volume changes from price changes."
               },
               {
                 "label": "🔴|GDP Deflator = (Nominal GDP / Real GDP) × 100. It covers all goods/services produced domestically."
@@ -407,7 +401,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Limitations of GDP",
+            "label": "🟡|Limitations of GDP",
             "children": [
               {
                 "label": "🟡|Excludes non‑market activities (household work, care economy); ignores environmental degradation; doesn't capture income distribution."
@@ -421,21 +415,21 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Purchasing Power Parity & Rankings",
+        "label": "🟡|Purchasing Power Parity & Rankings",
         "children": [
           {
-            "label": "PPP Concept",
+            "label": "🟡|PPP Concept",
             "children": [
               {
                 "label": "🟡|PPP equalises purchasing power of different currencies by eliminating price level differences."
               },
               {
-                "label": "🟡|India is 3rd largest economy in PPP terms (after China & USA)."
+                "label": "🟡|India's position among the world's largest economies varies by metric (nominal GDP vs PPP) and by year; rankings belong in Current Affairs."
               }
             ]
           },
           {
-            "label": "Committees on GDP Revision",
+            "label": "🟡|Committees on GDP Revision",
             "children": [
               {
                 "label": "🟡|S. Chakravarty (1987), C. Rangarajan (1993). CSO (now MoSPI) compiles national accounts."
@@ -446,13 +440,13 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Statistical Base-Year Updates — Current Static",
+        "label": "🟡|Statistical Base-Year Updates — Current Static",
         "children": [
           {
-            "label": "🟡|National Accounts/GDP now use FY 2022‑23 as the base year, replacing 2011‑12."
+            "label": "🟡|National Accounts base years are periodically revised to reflect structural changes and improved data/methodology; the specific current base year belongs in the update layer."
           },
           {
-            "label": "🟡|CPI now uses 2024=100 as the base year; WPI now uses 2022‑23=100 in the new series."
+            "label": "🟡|CPI and WPI series have their own periodically revised base years; exact current base-year details belong in the dynamic/statistics layer rather than the permanent Economics core."
           },
           {
             "label": "🟡|Base-year revisions affect comparability and methodology; always treat exact series details as revision-sensitive."
@@ -460,7 +454,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — National Accounts",
+        "label": "🟡|PYQ-Calibrated Core — National Accounts",
         "kind": "subsection",
         "children": [
           {
@@ -491,14 +485,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "III",
     "p": "pm",
-    "label": "Money & Banking",
+    "label": "🟡|Money & Banking",
     "children": [
       {
         "p": "pm2",
-        "label": "Reserve Bank of India (RBI)",
+        "label": "🟡|Reserve Bank of India (RBI)",
         "children": [
           {
-            "label": "Establishment & Functions",
+            "label": "🟡|Establishment & Functions",
             "children": [
               {
                 "label": "🟡|Established on 1 April 1935; nationalised on 1 January 1949. Central Office: Mumbai."
@@ -509,13 +503,10 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Monetary Policy Committee (MPC)",
+            "label": "🟡|Monetary Policy Committee (MPC)",
             "children": [
               {
                 "label": "🟡|Constituted under RBI Act 1934 (amended 2016). 6 members: 3 RBI + 3 govt appointees. Meets bi‑monthly."
-              },
-              {
-                "label": "🟡|Inflation target: 4% CPI combined inflation with ±2% tolerance band (up to March 2026)."
               },
               {
                 "label": "🟡|Urjit Patel Committee (2014) recommended CPI as nominal anchor and flexible inflation targeting."
@@ -523,7 +514,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Quantitative Tools",
+            "label": "🟡|Quantitative Tools",
             "children": [
               {
                 "label": "🟡|Repo Rate: rate at which RBI lends to banks (against G-secs)."
@@ -535,12 +526,6 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|MSF (Marginal Standing Facility): overnight borrowing for banks at higher rate (up to 2% of NDTL). Bank Rate is aligned to MSF."
               },
               {
-                "label": "🟡|CRR (Cash Reserve Ratio): % of NDTL banks keep as cash with RBI (minimum 3%, currently 4.5%)."
-              },
-              {
-                "label": "🟡|SLR (Statutory Liquidity Ratio): % of NDTL banks invest in approved securities (maximum 40%, currently 18%)."
-              },
-              {
                 "label": "🔴|Open Market Operations (OMO): Sale/purchase of G‑secs to manage liquidity."
               },
               {
@@ -549,7 +534,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Qualitative Tools",
+            "label": "🟡|Qualitative Tools",
             "children": [
               {
                 "label": "🟡|Margin requirements (LTV ratio), moral suasion, credit rationing, direct action (penalties on banks)."
@@ -557,7 +542,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Ways and Means Advances (WMA)",
+            "label": "🟡|Ways and Means Advances (WMA)",
             "children": [
               {
                 "label": "🟡|Temporary overdraft facility for Central and State governments to manage mismatches in cash flows."
@@ -568,7 +553,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Money Supply Aggregates (M0-M4) - STATIC MUST KNOW",
+            "label": "🟡|Money Supply Aggregates (M0-M4) - STATIC MUST KNOW",
             "children": [
               {
                 "label": "🟡|M0 (Reserve Money / High-Powered Money): Currency in circulation + Bankers' deposits with RBI + Other deposits with RBI."
@@ -580,7 +565,7 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|M2: M1 + Post Office Savings Deposits (excluding time deposits)."
               },
               {
-                "label": "🟡|M3 (Broad Money - Most commonly used measure): M1 + Net Time Deposits (Fixed Deposits) with banks."
+                "label": "🟡|M3 is the conventional broad-money aggregate: M1 + time deposits with the banking system. Do not memorise 'net time deposits' as the standard definition."
               },
               {
                 "label": "🟡|M4: M3 + Total Post Office Deposits (including time deposits)."
@@ -591,10 +576,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Banking System & Reforms",
+        "label": "🟡|Banking System & Reforms",
         "children": [
           {
-            "label": "Structure",
+            "label": "🟡|Structure",
             "children": [
               {
                 "label": "🟡|Public Sector Banks (PSBs): SBI + 11 others after mergers. Private, Foreign, Regional Rural Banks (RRBs), Cooperative Banks (State Co-op, District Central, PACS)."
@@ -605,7 +590,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Financial Stability and Development Council (FSDC)",
+            "label": "🟡|Financial Stability and Development Council (FSDC)",
             "children": [
               {
                 "label": "🟡|Non‑statutory body chaired by Finance Minister; coordinates regulators (RBI, SEBI, IRDAI, PFRDA, IBBI). Mandate: macro‑prudential supervision, inter‑regulatory coordination, financial literacy."
@@ -613,7 +598,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Narasimham Committees",
+            "label": "🟡|Narasimham Committees",
             "children": [
               {
                 "label": "🟡|Narasimham I (1991): Reduced SLR to 25%, phased CRR reduction, asset classification & NPA recognition, deregulated interest rates."
@@ -624,7 +609,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Other Critical Banking Committees (Static)",
+            "label": "🟡|Other Critical Banking Committees (Static)",
             "children": [
               {
                 "label": "🟡|Nachiket Mor Committee (2014): Recommended Payments Banks & Small Finance Banks."
@@ -638,7 +623,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Basel III Norms (Capital Adequacy)",
+            "label": "🟡|Basel III Norms (Capital Adequacy)",
             "children": [
               {
                 "label": "🟡|Three pillars: Minimum Capital Requirements, Supervisory Review, Market Discipline."
@@ -649,7 +634,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Non‑Performing Assets (NPAs) - STATIC TIMELINES",
+            "label": "🟡|Non‑Performing Assets (NPAs) - STATIC TIMELINES",
             "children": [
               {
                 "label": "🟡|Definition: Loan overdue >90 days."
@@ -669,7 +654,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Lending Rate Framework",
+            "label": "🟡|Lending Rate Framework",
             "children": [
               {
                 "label": "🟡|MCLR (Marginal Cost of Funds based Lending Rate): introduced in 2016, linked to marginal cost of funds."
@@ -680,7 +665,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Banking Regulation & Supervision",
+            "label": "🟡|Banking Regulation & Supervision",
             "children": [
               {
                 "label": "🟡|Prompt Corrective Action (PCA): RBI imposes restrictions on weak banks based on CRAR, Net NPA, RoA thresholds."
@@ -691,13 +676,10 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Small Finance Banks & Payments Banks",
+            "label": "🟡|Small Finance Banks & Payments Banks",
             "children": [
               {
                 "label": "🟡|SFBs: Universal banking for small business, marginal farmers; can lend; no restriction on deposit size."
-              },
-              {
-                "label": "🟡|Payments Banks: maximum end-of-day customer balance was increased to ₹10 lakh by RBI in 2021."
               },
               {
                 "label": "🟡|Local Area Banks (LABs): Private banks operating in a limited contiguous area (3 districts) to mobilise rural savings."
@@ -705,7 +687,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Digital Payments & NPCI",
+            "label": "🟡|Digital Payments & NPCI",
             "children": [
               {
                 "label": "🟡|NPCI (National Payments Corporation of India) - established 2008."
@@ -722,10 +704,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Inflation — Types, Measurement & Impact",
+        "label": "🟡|Inflation — Types, Measurement & Impact",
         "children": [
           {
-            "label": "Types & Measurement",
+            "label": "🟡|Types & Measurement",
             "children": [
               {
                 "label": "🟡|CPI (Base 2012): Compiled by NSO (MoSPI). CPI‑Combined, CPI‑Rural, CPI‑Urban. Includes services."
@@ -742,7 +724,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Causes & Effects",
+            "label": "🟡|Causes & Effects",
             "children": [
               {
                 "label": "🟡|Demand‑pull (excess aggregate demand), Cost‑push (increase in input costs), Structural (supply bottlenecks)."
@@ -762,7 +744,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Inflation Control Measures",
+            "label": "🟡|Inflation Control Measures",
             "children": [
               {
                 "label": "🟡|Monetary: repo rate hike, CRR hike, OMO sales. Fiscal: reducing deficit, supply‑side measures (import, buffer stock)."
@@ -773,7 +755,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Monetary Transmission & Liquidity — Core",
+        "label": "🟡|Monetary Transmission & Liquidity — Core",
         "children": [
           {
             "label": "🟡|Monetary transmission: changes in policy rates influence money-market rates, bank lending/deposit rates, credit, demand, output and inflation; lags and imperfect transmission can weaken the effect."
@@ -785,7 +767,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "High-Frequency Economic Indicators — Static",
+        "label": "🟡|High-Frequency Economic Indicators — Static",
         "children": [
           {
             "label": "🟡|Purchasing Managers' Index (PMI): survey-based diffusion index; 50 = no change, above 50 = expansion, below 50 = contraction. In India, the widely used PMI is compiled by S&P Global."
@@ -800,7 +782,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Payment System Intermediaries — Static",
+        "label": "🟡|Payment System Intermediaries — Static",
         "children": [
           {
             "label": "🟡|Payment Aggregator (PA): facilitates merchants in accepting customer payments and handles/aggregates funds before settlement to merchants; non-bank PAs require RBI authorisation under the applicable framework."
@@ -815,7 +797,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "GIFT IFSC & IFSCA — Static",
+        "label": "🟡|GIFT IFSC & IFSCA — Static",
         "children": [
           {
             "label": "🟡|IFSCA established on 27 April 2020 under the IFSCA Act, 2019; headquartered at GIFT City, Gandhinagar, Gujarat."
@@ -830,7 +812,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Deposit Insurance — DICGC",
+        "label": "🟡|Deposit Insurance — DICGC",
         "children": [
           {
             "label": "🟡|DICGC deposit insurance cover = ₹5 lakh per depositor per bank (including principal and interest, subject to the statutory aggregation rules across branches/accounts of the same bank)."
@@ -842,19 +824,13 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Priority Sector Lending (PSL) — Static",
+        "label": "🟡|Priority Sector Lending (PSL) — Static",
         "children": [
           {
             "label": "🔴|Domestic commercial banks generally have a 40% total Priority Sector Lending target of ANBC/CEOBE, whichever is higher."
           },
           {
-            "label": "🟡|Agriculture sub-target for domestic commercial banks = 18% of ANBC/CEOBE, with current sub-targets for non-corporate farmers and small/marginal farmers within the agriculture target."
-          },
-          {
             "label": "🟡|Micro Enterprises sub-target = 7.5% of ANBC/CEOBE for domestic commercial banks."
-          },
-          {
-            "label": "🟡|Weaker Sections sub-target = 12% for domestic commercial banks under the current PSL framework."
           },
           {
             "label": "🟡|Targets differ for RRBs, Small Finance Banks, UCBs and certain foreign banks; do not transplant the 40/18/7.5/12 figures across all bank categories."
@@ -863,25 +839,22 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Pension Architecture — PFRDA, NPS & UPS",
+        "label": "🟡|Pension Architecture — PFRDA, NPS & UPS",
         "children": [
           {
             "label": "🟡|PFRDA = Pension Fund Regulatory and Development Authority; statutory status under the PFRDA Act, 2013."
           },
           {
-            "label": "🟡|NPS Tier I = primary retirement account with withdrawal restrictions and tax-advantaged retirement purpose; Tier II = optional investment account with greater withdrawal flexibility and different tax treatment."
+            "label": "🟡|NPS Tier I is the primary retirement account with regulated withdrawal rules; Tier II is a more flexible investment account with different tax treatment. Exact tax/withdrawal rules should be kept update-sensitive."
           },
           {
-            "label": "🟡|UPS (Unified Pension Scheme) became effective 1 April 2025 as an option under NPS for eligible Central Government employees, providing an assured and inflation-linked pension framework subject to its conditions."
-          },
-          {
-            "label": "🟡|NPS is contribution-based/market-linked whereas UPS adds a defined-assurance framework for eligible employees; exact contribution/benefit conditions belong to current policy details."
+            "label": "🟡|Unified Pension Scheme (UPS): an assured-pension framework introduced as an option under NPS for eligible Central Government employees; exact current eligibility, contribution and implementation details belong in the update layer."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Bank Lending Rate Evolution",
+        "label": "🟡|Bank Lending Rate Evolution",
         "children": [
           {
             "label": "🟡|BPLR → Base Rate (2010) → MCLR (2016) → External Benchmark Linked Lending Rate (EBLR, 2019) is the high-yield sequence for bank lending-rate frameworks."
@@ -893,7 +866,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Bad Bank Architecture — NARCL & IDRCL",
+        "label": "🟡|Bad Bank Architecture — NARCL & IDRCL",
         "children": [
           {
             "label": "🔴|NARCL = National Asset Reconstruction Company Ltd.; designed to aggregate and acquire stressed loan assets from banks, especially large legacy NPAs."
@@ -908,7 +881,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Inflation & AD-AS Static Core",
+        "label": "🟡|Inflation & AD-AS Static Core",
         "children": [
           {
             "label": "🔴|Aggregate Demand (AD) = C + I + G + (X − M)."
@@ -944,7 +917,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Money — Functions, Types & Multiplier",
+        "label": "🟡|Money — Functions, Types & Multiplier",
         "children": [
           {
             "label": "🔴|Core functions of money: medium of exchange, unit of account, store of value and standard of deferred payment."
@@ -967,7 +940,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Monetary Policy & Banking",
+        "label": "🟡|PYQ-Calibrated Core — Monetary Policy & Banking",
         "kind": "subsection",
         "children": [
           {
@@ -1006,7 +979,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ Prelims Core — Additional High-Yield",
+        "label": "🟡|PYQ Prelims Core — Additional High-Yield",
         "kind": "subsection",
         "children": [
           {
@@ -1019,14 +992,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "IV",
     "p": "pm",
-    "label": "Fiscal Policy & Union Budget",
+    "label": "🟡|Fiscal Policy & Union Budget",
     "children": [
       {
         "p": "pm2",
-        "label": "Budget Structure & Constitutional Provisions",
+        "label": "🟡|Budget Structure & Constitutional Provisions",
         "children": [
           {
-            "label": "Budget Documents & Process",
+            "label": "🟡|Budget Documents & Process",
             "children": [
               {
                 "label": "🟡|Art 112: Annual Financial Statement (Union Budget). Art 110: Money Bill. Art 109: Finance Bill. Appropriation Bill (Art 114)."
@@ -1038,12 +1011,12 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|Revenue vs Capital classification: Revenue has no asset creation (e.g., salaries, subsidies). Capital creates assets or reduces liabilities (e.g., loans, infrastructure)."
               },
               {
-                "label": "🟡|Money Bill vs Finance Bill: Money Bill only contains matters listed in Art 110; certified by Speaker; Rajya Sabha can only recommend. Finance Bill (Category I) contains tax proposals (Money Bill). Finance Bill (Category II) contains non-tax matters (Ordinary Bill)."
+                "label": "🟡|Money Bill (Art. 110) contains only matters specified in the Article and is certified by the Speaker; Rajya Sabha can only recommend amendments. Financial Bills under Article 117 are a broader class: a Category I Financial Bill also contains Article 110 matters plus other provisions and can be introduced only in Lok Sabha with the President's recommendation, while Category II Financial Bills are ordinary-bill procedures with financial content."
               }
             ]
           },
           {
-            "label": "Budgeting Concepts (Static)",
+            "label": "🟡|Budgeting Concepts (Static)",
             "children": [
               {
                 "label": "🟡|Zero-Based Budgeting: Every expense must be justified from scratch, not based on previous year's allocation."
@@ -1060,7 +1033,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Types of Deficits (Static Nuance)",
+            "label": "🟡|Types of Deficits (Static Nuance)",
             "children": [
               {
                 "label": "🔴|Revenue Deficit = Revenue Exp. – Revenue Receipts. Indicates inability to meet regular expenses."
@@ -1069,7 +1042,7 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🔴|Fiscal Deficit = Total Exp. – (Revenue Receipts + Non‑Debt Capital Receipts). Total borrowing requirement."
               },
               {
-                "label": "🔴|Primary Deficit = Fiscal Deficit – Interest Payments. Shows current fiscal strain excluding past debt."
+                "label": "🔴|Primary Deficit = Fiscal Deficit − Interest Payments; it indicates the fiscal balance excluding past debt-service interest."
               },
               {
                 "label": "🔴|Effective Revenue Deficit = Revenue Deficit – Grants for Capital Assets to States (introduced in 2012-13)."
@@ -1077,16 +1050,16 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "FRBM Act 2003 & NK Singh Committee (Static)",
+            "label": "🟡|FRBM Act 2003 & NK Singh Committee (Static)",
             "children": [
               {
-                "label": "🔴|FRBM targets: Fiscal deficit 3% of GDP, Revenue deficit eliminated by 2009 (suspended temporarily)."
+                "label": "🟠|FRBM Act created fiscal-discipline targets including a medium-term fiscal-deficit/revenue-deficit framework; historic targets and later amendments/suspensions should be treated separately from the current fiscal path."
               },
               {
                 "label": "🟡|NK Singh Committee (2016 - 15th FC): Debt‑to‑GDP target 60% (Centre 40%, States 20%)."
               },
               {
-                "label": "🔴|Fiscal deficit glide path: Target 4.5% of GDP by 2025‑26 (15th FC), moving towards 3% thereafter."
+                "label": "🟡|Fiscal-deficit glide path: the 15th Finance Commission recommended a path toward fiscal consolidation; exact year-wise targets are policy-period specific and should be kept in the dynamic update layer."
               },
               {
                 "label": "🟡|Escape clause: National security, calamity, economic downturn (allows exceeding limits)."
@@ -1097,10 +1070,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Taxation Structure in India",
+        "label": "🟡|Taxation Structure in India",
         "children": [
           {
-            "label": "Tax Buoyancy vs Elasticity",
+            "label": "🟡|Tax Buoyancy vs Elasticity",
             "children": [
               {
                 "label": "🟠|Tax Buoyancy: % change in tax revenue / % change in GDP (without adjusting for discretionary changes)."
@@ -1111,7 +1084,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "FERA vs FEMA",
+            "label": "🟡|FERA vs FEMA",
             "children": [
               {
                 "label": "🟡|FERA (1973): Forex violation criminal offence; strict control. FEMA (1999): Civil offence; management of forex; facilitates external trade. Replaced as part of post‑1991 reforms."
@@ -1119,7 +1092,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Direct Taxes",
+            "label": "🟡|Direct Taxes",
             "children": [
               {
                 "label": "🟡|Income Tax, Corporate Tax (existing 22%, new manufacturing 15% - 2019). MAT (Minimum Alternate Tax), STT (Securities Transaction Tax), Capital Gains Tax (STCG/LTCG)."
@@ -1127,7 +1100,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "GST - STATIC MECHANICS",
+            "label": "🟡|GST - STATIC MECHANICS",
             "children": [
               {
                 "label": "🟡|Introduced 1 July 2017 via 101st Constitutional Amendment Act 2016. GST Council (Art 279A)."
@@ -1142,7 +1115,7 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|IGST (Integrated GST) = Inter-State sale. Collected by Centre; credit goes to the CONSUMING State (Destination-Based Tax)."
               },
               {
-                "label": "🟡|GST Council decisions: 3/4th majority. Centre has 1/3rd voting weight, States have 2/3rd."
+                "label": "🟡|GST Council: decisions require at least 3/4 of weighted votes of members present and voting; the Centre has one-third weight and all States together have two-thirds. It is a constitutional body under Article 279A."
               },
               {
                 "label": "🟡|Advantages: One nation one tax, removal of cascading (tax on tax), wider tax base. Challenges: Compliance, revenue shortfall."
@@ -1153,27 +1126,24 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Fiscal Federalism & Finance Commission",
+        "label": "🟡|Fiscal Federalism & Finance Commission",
         "children": [
           {
-            "label": "Finance Commission (Art 280)",
+            "label": "🟡|Finance Commission (Art 280)",
             "children": [
               {
                 "label": "🟡|Appointed every 5 years by the President. Recommends distribution of taxes (Vertical & Horizontal), grants‑in‑aid, fiscal consolidation principles."
               },
               {
-                "label": "🟡|15th Finance Commission (historical): for 2021‑26, States' share was 41% of the divisible pool (adjusted for J&K/Ladakh context). The 16th Finance Commission covers 2026‑31."
-              },
-              {
                 "label": "🔴|15th Finance Commission horizontal formula (historical): Population 15%, Area 15%, Forest & Ecology 10%, Income Distance 45%, Demographic Performance 12.5%, Tax Effort 2.5%."
               },
               {
-                "label": "🟡|Differentiation: Finance Commission (constitutional, works on tax devolution) vs GST Council (quasi-judicial, works on tax rates)."
+                "label": "🟡|Finance Commission is a constitutional body recommending tax devolution, grants and related fiscal principles; GST Council is a constitutional intergovernmental body that recommends GST rates, exemptions and related matters. It is not a quasi-judicial body."
               }
             ]
           },
           {
-            "label": "MAINS: Centre-State Fiscal Imbalance & Cesses/Surcharges",
+            "label": "🟡|MAINS: Centre-State Fiscal Imbalance & Cesses/Surcharges",
             "children": [
               {
                 "label": "🟡|Cesses and surcharges are not part of the divisible pool shared with States. Their share in Centre's gross tax revenue has risen, reducing states' effective fiscal space."
@@ -1185,16 +1155,10 @@ export const RAW_D: RawSubjectNode[] = [
           },
           {
             "p": "pm2",
-            "label": "Sixteenth Finance Commission (2026‑31) — Current Static",
+            "label": "🟡|Sixteenth Finance Commission (2026‑31) — Current Static",
             "children": [
               {
-                "label": "🟡|16th Finance Commission covers FY 2026‑27 to 2030‑31; Chair: Arvind Panagariya."
-              },
-              {
-                "label": "🟡|The 16th Finance Commission retained States' vertical devolution at 41% of the divisible pool."
-              },
-              {
-                "label": "🟡|For horizontal devolution, the 16th FC introduced/used a revised framework including population, area, income distance, fiscal capacity/discipline-related considerations, ecology and demographic performance; exact weights are current-policy details to be revised from the official report/current affairs."
+                "label": "🟡|Finance Commission vertical-devolution shares are award-period specific and should be kept in the dynamic/update layer rather than the permanent static core."
               }
             ]
           }
@@ -1202,10 +1166,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "MAINS: Subsidies, Freebies & Fiscal Sustainability",
+        "label": "🟡|MAINS: Subsidies, Freebies & Fiscal Sustainability",
         "children": [
           {
-            "label": "Freebies vs Welfare — Conceptual Distinction",
+            "label": "🟡|Freebies vs Welfare — Conceptual Distinction",
             "children": [
               {
                 "label": "🟡|Freebies: non‑merit, populist giveaways (free electricity, water, laptops) that distort incentives and strain state budgets. Welfare: merit goods with positive externalities (health, education, nutrition) that enhance human capital."
@@ -1216,7 +1180,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Rationalization of Subsidies",
+            "label": "🟡|Rationalization of Subsidies",
             "children": [
               {
                 "label": "🟡|Subsidies on food, fertilizer, fuel must be targeted to beneficiaries (DBT via JAM trinity) to reduce leakages and fiscal burden. Need to shift from price subsidies to income support (PM-KISAN model)."
@@ -1227,7 +1191,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Expenditure Classification — Static",
+        "label": "🟡|Expenditure Classification — Static",
         "children": [
           {
             "label": "🔴|Plan vs Non-Plan expenditure was an old Union Budget classification; it was abolished from 2017-18. Current classification is primarily Revenue vs Capital expenditure."
@@ -1245,14 +1209,8 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "State Fiscal Data & Devolution — Static",
+        "label": "🟡|State Fiscal Data & Devolution — Static",
         "children": [
-          {
-            "label": "🟡|Finance Commission vertical devolution: 14th FC recommended 42% of the divisible pool to States; 15th FC recommended 41%; 16th FC retained 41% for 2026-31."
-          },
-          {
-            "label": "🟡|GST compensation cess: originally linked to the 2017-22 compensation period; the cess was extended beyond 2022 to meet repayment obligations arising from compensation-related borrowing. Exact end-date/current rate details are current-sensitive."
-          },
           {
             "label": "🟠|State fiscal health is shaped by own-tax revenue, transfers, committed expenditure, debt, off-budget liabilities and the quality of capital spending; inter-state disparities matter for cooperative fiscal federalism."
           }
@@ -1260,19 +1218,16 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "GST Compensation Cess — Static Mechanism",
+        "label": "🟡|GST Compensation Cess — Static Mechanism",
         "children": [
           {
             "label": "🟡|GST compensation cess was created to compensate States for revenue shortfalls associated with GST implementation during the initial compensation period; it is levied on specified luxury/sin goods."
-          },
-          {
-            "label": "🟡|The original compensation period was 1 July 2017–30 June 2022; cess collection was extended beyond 2022 to service repayment of borrowing undertaken for GST compensation shortfalls. Exact current end-date/rates are current-sensitive."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Fiscal Council — Static",
+        "label": "🟡|Fiscal Council — Static",
         "children": [
           {
             "label": "🟡|Fiscal Council: proposed independent institution for transparent, independent assessment of fiscal forecasts, rules and compliance, helping strengthen fiscal responsibility and credibility."
@@ -1284,7 +1239,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Fiscal Rules & Fiscal Risk — Static",
+        "label": "🟡|Fiscal Rules & Fiscal Risk — Static",
         "children": [
           {
             "label": "🟡|FRBM framework → fiscal discipline, transparency, medium-term fiscal policy and limits/targets for deficits and debt subject to escape clauses."
@@ -1296,7 +1251,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Public Debt, Deficit & Fiscal Sustainability",
+        "label": "🟡|Public Debt, Deficit & Fiscal Sustainability",
         "children": [
           {
             "label": "🔴|Fiscal deficit is a flow variable: it measures the government's borrowing requirement during a fiscal year."
@@ -1325,7 +1280,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Budget, Fiscal Policy & Federal Finance",
+        "label": "🟡|PYQ-Calibrated Core — Budget, Fiscal Policy & Federal Finance",
         "kind": "subsection",
         "children": [
           {
@@ -1359,14 +1314,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "V",
     "p": "pm",
-    "label": "Financial Markets",
+    "label": "🟡|Financial Markets",
     "children": [
       {
         "p": "pm2",
-        "label": "Capital Market & Securities Market",
+        "label": "🟡|Capital Market & Securities Market",
         "children": [
           {
-            "label": "Regulator: SEBI",
+            "label": "🟡|Regulator: SEBI",
             "children": [
               {
                 "label": "🟡|Established 1988, statutory status 1992 (SEBI Act). Regulates stock exchanges, mutual funds, intermediaries, FIIs/FPIs."
@@ -1374,7 +1329,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Stock Exchanges & Instruments",
+            "label": "🟡|Stock Exchanges & Instruments",
             "children": [
               {
                 "label": "🔴|BSE (1875, Sensex 30), NSE (1992, Nifty 50). Segments: equity, derivatives, currency, commodity (merged with SEBI in 2015)."
@@ -1391,7 +1346,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Primary & Secondary Market",
+            "label": "🟡|Primary & Secondary Market",
             "children": [
               {
                 "label": "🟡|Primary: IPO, FPO, rights issue (new capital formation). Secondary: Trading existing securities."
@@ -1405,13 +1360,13 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Money Market & Instruments",
+        "label": "🟡|Money Market & Instruments",
         "children": [
           {
-            "label": "Key Instruments (Short-term < 1 year)",
+            "label": "🟡|Key Instruments (Short-term < 1 year)",
             "children": [
               {
-                "label": "🟡|Call/Notice Money (overnight to 14 days), Treasury Bills (91, 182, 364 days - issued by RBI via auction), Commercial Paper (CP - issued by corporations), Certificate of Deposit (CD - issued by banks), Repo, CBLO (Collateralized Borrowing & Lending Obligation)."
+                "label": "🟡|Money-market instruments: call money is overnight; notice money is 2–14 days; Treasury Bills are short-term Government securities auctioned by the RBI as debt manager; CP is issued by eligible corporates; CDs by eligible banks/financial institutions; repo is collateralised short-term borrowing. CBLO was replaced by tri-party repo in the modern market framework."
               }
             ]
           }
@@ -1419,10 +1374,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Financial Sector Reforms & IBC",
+        "label": "🟡|Financial Sector Reforms & IBC",
         "children": [
           {
-            "label": "Reforms Post‑1991",
+            "label": "🟡|Reforms Post‑1991",
             "children": [
               {
                 "label": "🟡|Interest rate deregulation, partial capital account convertibility, new instruments, bank privatisation, FDI in insurance/pension."
@@ -1430,7 +1385,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Insolvency & Bankruptcy Code (IBC) 2016",
+            "label": "🟡|Insolvency & Bankruptcy Code (IBC) 2016",
             "children": [
               {
                 "label": "🟡|Single law for insolvency resolution. Adjudicating authorities: NCLT (for companies) and DRT (for individuals)."
@@ -1444,10 +1399,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Foreign Investment — FDI & FPI",
+        "label": "🟡|Foreign Investment — FDI & FPI",
         "children": [
           {
-            "label": "Definitions & Routes",
+            "label": "🟡|Definitions & Routes",
             "children": [
               {
                 "label": "🟡|FDI (Foreign Direct Investment): Investment in physical assets, long-term, management control. Routes: Automatic (most sectors) vs Government route (sensitive sectors)."
@@ -1457,9 +1412,6 @@ export const RAW_D: RawSubjectNode[] = [
               },
               {
                 "label": "🟡|External Commercial Borrowings (ECB): Loans by Indian entities from foreign lenders; guidelines by RBI (purpose/end-use restrictions)."
-              },
-              {
-                "label": "🟡|Liberalised Remittance Scheme (LRS): Under FEMA, resident individuals can remit up to USD 2,50,000 per financial year for permissible current/capital account transactions."
               }
             ]
           }
@@ -1467,10 +1419,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "SEBI Market-Operations Essentials",
+        "label": "🟡|SEBI Market-Operations Essentials",
         "children": [
           {
-            "label": "🟡|T+1 settlement = securities transactions are ordinarily settled one working day after the trade date; India moved to the T+1 settlement cycle in phases, with the standard equity market settlement cycle on T+1 from January 2023."
+            "label": "🟡|T+1 settlement means securities transactions ordinarily settle one working day after the trade date. Learn the mechanism; exact market implementation dates are better kept in the update layer."
           },
           {
             "label": "🔴|ASBA (Application Supported by Blocked Amount): IPO/application money is blocked in the applicant's bank account and debited only to the extent of allotment; interest continues to accrue in the account while funds are blocked."
@@ -1482,22 +1434,19 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Corporate Bonds & Bharat Bond ETF",
+        "label": "🟡|Corporate Bonds & Bharat Bond ETF",
         "children": [
           {
             "label": "🟡|Corporate bonds are debt securities issued by companies; bondholders are creditors and receive interest/principal according to terms."
           },
           {
             "label": "🟡|Bharat Bond ETF invests predominantly in bonds of public-sector companies/entities with defined maturities; it gives retail investors a listed, diversified route into a PSU-bond portfolio."
-          },
-          {
-            "label": "🟡|Bond-market liquidity, credit spreads, duration and interest-rate risk are important for understanding corporate-bond returns; exact fund composition is current-sensitive."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Insurance Sector — Static Core",
+        "label": "🟡|Insurance Sector — Static Core",
         "children": [
           {
             "label": "🟡|IRDA was constituted in 1999 and incorporated as a statutory authority in April 2000; the statutory body is IRDAI under the IRDA Act, 1999."
@@ -1506,37 +1455,28 @@ export const RAW_D: RawSubjectNode[] = [
             "label": "🟡|IRDAI regulates and develops India's insurance sector and protects policyholders' interests."
           },
           {
-            "label": "🟡|Foreign investment ceiling in Indian insurance companies was raised from 49% to 74% by the Insurance (Amendment) Act, 2021; any later sector-specific changes should be kept current-sensitive."
-          },
-          {
             "label": "🟡|Insurance penetration = premium as a percentage of GDP; insurance density = premium per capita."
           },
           {
             "label": "🟡|LIC's IPO/disinvestment is a major example of public-sector financial-sector disinvestment; use the episode as a case study rather than memorising market-day details."
-          },
-          {
-            "label": "🟡|Bima Sugam is a proposed/under-development digital insurance marketplace intended to provide an interoperable platform for policy discovery, purchase, servicing and claims; status/details are current-sensitive."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Competition Commission of India (CCI) — Static",
+        "label": "🟡|Competition Commission of India (CCI) — Static",
         "children": [
           {
             "label": "🟡|Competition Act, 2002 → prevents anti-competitive practices, promotes competition, protects consumers and ensures freedom of trade; CCI is the statutory/quasi-judicial authority administering the framework."
           },
           {
             "label": "🟡|CCI was established in October 2003; substantive enforcement provisions of the Act became operational later after legal/structural developments."
-          },
-          {
-            "label": "🟡|CCI regulates anti-competitive agreements, abuse of dominant position and combinations/merger-related competition concerns; notification thresholds are current-regulatory details."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Insurance & Pension Institutions — Regulator Map",
+        "label": "🟡|Insurance & Pension Institutions — Regulator Map",
         "children": [
           {
             "label": "🟡|IRDAI → insurance; PFRDA → pensions/NPS; SEBI → securities/capital markets; RBI → banking/payment system and monetary authority; IFSCA → unified financial regulator in IFSCs."
@@ -1548,7 +1488,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Derivatives, Bonds & Collective Investment — Static Core",
+        "label": "🟡|Derivatives, Bonds & Collective Investment — Static Core",
         "children": [
           {
             "label": "🔴|Derivative = financial instrument whose value is derived from an underlying asset, rate, index or commodity."
@@ -1580,7 +1520,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Markets & Financial Instruments",
+        "label": "🟡|PYQ-Calibrated Core — Markets & Financial Instruments",
         "kind": "subsection",
         "children": [
           {
@@ -1613,7 +1553,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ Prelims Core — Additional High-Yield",
+        "label": "🟡|PYQ Prelims Core — Additional High-Yield",
         "kind": "subsection",
         "children": [
           {
@@ -1626,17 +1566,17 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "VI",
     "p": "pm",
-    "label": "External Sector & Balance of Payments",
+    "label": "🟡|External Sector & Balance of Payments",
     "children": [
       {
         "p": "pm2",
-        "label": "Balance of Payments (BoP)",
+        "label": "🟡|Balance of Payments (BoP)",
         "children": [
           {
-            "label": "Components",
+            "label": "🟡|Components",
             "children": [
               {
-                "label": "🟡|Current Account: Exports/Imports of Goods (Merchandise), Services (Invisibles), Income (Interest, Profits), Transfers (Remittances - India's largest source)."
+                "label": "🟡|Current account records trade in goods and services, primary income and secondary income/current transfers such as remittances. Do not hard-code a statement about which component is currently the largest source."
               },
               {
                 "label": "🟡|Capital Account: Investments (FDI, FPI), Loans, Banking Capital, NRI Deposits."
@@ -1645,18 +1585,18 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|Autonomous vs Accommodating flows: Autonomous items are driven by profit motives; accommodating items are compensatory (e.g., RBI forex intervention)."
               },
               {
-                "label": "🟡|CAD (Current Account Deficit): Sustainable range 2.5‑3% of GDP. India typically runs CAD."
+                "label": "🟡|A sustainable current-account deficit depends on growth, financing composition, external buffers, investment and the economy's capacity to service external liabilities; avoid a universal fixed 'safe range' for India."
               }
             ]
           },
           {
-            "label": "Forex Reserves",
+            "label": "🟡|Forex Reserves",
             "children": [
               {
                 "label": "🟡|Components: Foreign Currency Assets (FCA - largest), Gold, SDR (Special Drawing Rights) with IMF, Reserve Tranche Position (RTP) with IMF."
               },
               {
-                "label": "🟡|SDR Basket: Dollar (41.73%), Euro (30.93%), Yuan (10.92%), Yen (8.33%), Pound (8.09%) – revised 2022."
+                "label": "🟡|IMF SDR basket contains the US dollar, euro, Chinese renminbi, Japanese yen and pound sterling; exact weights are periodically reviewed and should be kept in the dynamic update layer."
               },
               {
                 "label": "🟡|Greenspan-Guidotti Rule: Forex reserves should cover entire short-term external debt (maturity <1 year)."
@@ -1667,10 +1607,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Exchange Rate & Convertibility",
+        "label": "🟡|Exchange Rate & Convertibility",
         "children": [
           {
-            "label": "Exchange Rate Regime",
+            "label": "🟡|Exchange Rate Regime",
             "children": [
               {
                 "label": "🔴|India: Managed floating exchange rate since 1993. NEER (Nominal Effective Exchange Rate): trade-weighted average exchange rate. REER (Real Effective Exchange Rate): NEER adjusted for inflation differentials."
@@ -1678,7 +1618,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Currency Swap Agreements",
+            "label": "🟡|Currency Swap Agreements",
             "children": [
               {
                 "label": "🟡|Bilateral agreements to exchange currencies with preset terms to promote trade in local currencies and reduce reliance on dollar."
@@ -1686,10 +1626,10 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Currency Convertibility - STATIC",
+            "label": "🟡|Currency Convertibility - STATIC",
             "children": [
               {
-                "label": "🟡|Current Account: Fully convertible (Article VIII of IMF). You can convert INR for trade, tourism, remittances."
+                "label": "🟡|India has broadly achieved current-account convertibility under IMF Article VIII obligations, while the capital account remains subject to controls/regulation. Do not equate current-account convertibility with full currency convertibility."
               },
               {
                 "label": "🔴|Capital Account: Partially convertible (limits on FPI, debt). Tarapore Committee (1997 & 2006) laid preconditions for full Capital Account Convertibility (e.g., fiscal deficit <3.5%, inflation <3%, Gross NPAs <5%)."
@@ -1697,7 +1637,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Asian Clearing Union (ACU)",
+            "label": "🟡|Asian Clearing Union (ACU)",
             "children": [
               {
                 "label": "🟡|Payment settlement mechanism among central banks of member countries (India, Bangladesh, Sri Lanka, etc.) to facilitate regional trade."
@@ -1705,7 +1645,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Hard/Soft Currency & Hot Money",
+            "label": "🟡|Hard/Soft Currency & Hot Money",
             "children": [
               {
                 "label": "🟡|Hard Currency: Widely accepted globally (USD, Euro). Soft Currency: Highly volatile, limited international acceptance."
@@ -1719,10 +1659,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Foreign Trade Policy & WTO - STATIC DEEP DIVE",
+        "label": "🟡|Foreign Trade Policy & WTO - STATIC DEEP DIVE",
         "children": [
           {
-            "label": "WTO Principles",
+            "label": "🟡|WTO Principles",
             "children": [
               {
                 "label": "🟡|MFN (Most-Favoured Nation): A trade advantage granted to one country must be extended to all WTO members (exceptions for FTAs)."
@@ -1739,7 +1679,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "WTO - Agreement on Agriculture (AoA) Boxes",
+            "label": "🟡|WTO - Agreement on Agriculture (AoA) Boxes",
             "children": [
               {
                 "label": "🟡|Amber Box: Trade-distorting subsidies (e.g., MSP). Must be reduced. De Minimis limit for developing countries = 10% of agricultural production value."
@@ -1756,7 +1696,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Other WTO Static Agreements",
+            "label": "🟡|Other WTO Static Agreements",
             "children": [
               {
                 "label": "🟡|GATS (General Agreement on Trade in Services): Covers trade in services (banking, telecom, tourism)."
@@ -1773,7 +1713,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "International Financial Institutions (IFIs)",
+            "label": "🟡|International Financial Institutions (IFIs)",
             "children": [
               {
                 "label": "🟡|World Bank Group: IBRD (middle‑income), IDA (poorest nations), IFC (private sector), MIGA (political risk insurance), ICSID (dispute settlement)."
@@ -1787,7 +1727,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "External-Sector Concept Cluster",
+        "label": "🟡|External-Sector Concept Cluster",
         "children": [
           {
             "label": "🟡|Terms of trade: ratio of export prices to import prices; an improvement can raise purchasing power of exports, while deterioration can worsen the import burden."
@@ -1799,7 +1739,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Trade Agreements & Export Support — Static",
+        "label": "🟡|Trade Agreements & Export Support — Static",
         "children": [
           {
             "label": "🔴|Balance of Trade (BoT) = merchandise exports minus merchandise imports; Balance of Payments (BoP) is the comprehensive record of external transactions, including goods, services, income and financial flows."
@@ -1814,7 +1754,7 @@ export const RAW_D: RawSubjectNode[] = [
             "label": "🟡|India-EFTA TEPA: Trade and Economic Partnership Agreement with Iceland, Liechtenstein, Norway and Switzerland, signed 10 March 2024."
           },
           {
-            "label": "🟡|RoDTEP: Remission of Duties and Taxes on Exported Products; effective for eligible exports from 1 January 2021 to neutralise embedded duties/taxes not otherwise refunded."
+            "label": "🔴|RoDTEP is a remission-based export-promotion framework intended to neutralise eligible embedded duties and taxes that are not otherwise refunded."
           },
           {
             "label": "🟡|RCEP: major Asia-Pacific trade agreement from which India did not become a participating member; India remains engaged separately with ASEAN and bilateral/regional trade agreements."
@@ -1823,25 +1763,19 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "International Economic Indices — Static/CA",
+        "label": "🟡|International Economic Indices — Static/CA",
         "children": [
           {
             "label": "🟡|Global Innovation Index (GII) → published by WIPO; measures innovation performance across inputs and outputs."
           },
           {
             "label": "🟡|Logistics Performance Index (LPI) → World Bank; assesses trade/logistics dimensions such as customs, infrastructure, international shipments, logistics competence, tracking and timeliness."
-          },
-          {
-            "label": "🟡|Ease of Doing Business was a World Bank index discontinued after 2020 following methodological concerns; do not treat a current rank as an active official ranking."
-          },
-          {
-            "label": "🟡|India’s numerical ranks in GII/LPI change by edition; keep the latest rank in Current Affairs rather than hard-freezing a number in static Economics."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "2013 Taper Tantrum — Case Study",
+        "label": "🟡|2013 Taper Tantrum — Case Study",
         "children": [
           {
             "label": "🔴|2013 Taper Tantrum: US Federal Reserve signalling a gradual reduction ('tapering') of quantitative easing triggered capital outflows from several emerging markets, currency pressure and tighter external financing conditions; India faced a sharp rupee depreciation and external-sector stress."
@@ -1853,7 +1787,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Foreign Trade Policy 2023 — Static Core",
+        "label": "🟡|Foreign Trade Policy 2023 — Static Core",
         "children": [
           {
             "label": "🔴|FTP 2023 replaced the earlier FTP 2015-20 framework and is administered by DGFT."
@@ -1868,7 +1802,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Regional Trade Blocs & Global Value Chains",
+        "label": "🟡|Regional Trade Blocs & Global Value Chains",
         "children": [
           {
             "label": "🟡|ASEAN → regional grouping in Southeast Asia; EU → European political/economic union/common-market framework; RCEP → major Asia-Pacific trade agreement from which India chose not to participate."
@@ -1883,7 +1817,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Exchange Rate Mechanics & Trilemma — Static Core",
+        "label": "🟡|Exchange Rate Mechanics & Trilemma — Static Core",
         "children": [
           {
             "label": "🔴|Depreciation of the domestic currency generally makes exports cheaper for foreigners and imports costlier for domestic buyers, other things equal."
@@ -1909,7 +1843,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Exchange Rate, Trade & External Finance",
+        "label": "🟡|PYQ-Calibrated Core — Exchange Rate, Trade & External Finance",
         "kind": "subsection",
         "children": [
           {
@@ -1936,7 +1870,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ Prelims Core — Additional High-Yield",
+        "label": "🟡|PYQ Prelims Core — Additional High-Yield",
         "kind": "subsection",
         "children": [
           {
@@ -1949,14 +1883,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "VII",
     "p": "pm",
-    "label": "Agriculture & Food Management",
+    "label": "🟡|Agriculture & Food Management",
     "children": [
       {
         "p": "pm2",
-        "label": "Land Reforms & Cropping Patterns",
+        "label": "🟡|Land Reforms & Cropping Patterns",
         "children": [
           {
-            "label": "Land Reforms",
+            "label": "🟡|Land Reforms",
             "children": [
               {
                 "label": "🟡|Abolition of Zamindari (intermediaries); tenancy reforms (security, fair rent); land ceiling laws; consolidation of holdings."
@@ -1967,7 +1901,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Cropping Seasons & Major Crops",
+            "label": "🟡|Cropping Seasons & Major Crops",
             "children": [
               {
                 "label": "🟡|Kharif (June‑Oct): Rice, Jowar, Bajra, Maize, Cotton, Sugarcane (monsoon crops)."
@@ -1981,7 +1915,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Cropping Metrics",
+            "label": "🟡|Cropping Metrics",
             "children": [
               {
                 "label": "🔴|Gross Cropped Area (GCA): Total area sown under all crops. Net Sown Area (NSA): Area sown once. Cropping Intensity = (GCA/NSA) × 100."
@@ -1992,10 +1926,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "MSP, Procurement & PDS - STATIC COSTS",
+        "label": "🟡|MSP, Procurement & PDS - STATIC COSTS",
         "children": [
           {
-            "label": "MSP & CACP (Commission for Agricultural Costs & Prices)",
+            "label": "🟡|MSP & CACP (Commission for Agricultural Costs & Prices)",
             "children": [
               {
                 "label": "🟡|CACP recommends MSP for 22 mandated crops + FRP (Fair Remunerative Price) for sugarcane."
@@ -2009,7 +1943,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Procurement & PDS",
+            "label": "🟡|Procurement & PDS",
             "children": [
               {
                 "label": "🟡|FCI (Food Corporation of India) procures wheat & rice at MSP."
@@ -2026,7 +1960,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Buffer Stock Norms",
+            "label": "🟡|Buffer Stock Norms",
             "children": [
               {
                 "label": "🟡|Operational and strategic reserve for food security and price stabilisation. Quarterly targets (e.g., wheat ~30 MT on April 1)."
@@ -2034,7 +1968,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Crop Insurance",
+            "label": "🟡|Crop Insurance",
             "children": [
               {
                 "label": "🟡|PMFBY (Pradhan Mantri Fasal Bima Yojana, 2016): Premium rates 2% (Kharif), 1.5% (Rabi), 5% (Commercial/Horticultural); balance shared by Centre & State."
@@ -2048,10 +1982,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Agricultural Marketing & Reforms",
+        "label": "🟡|Agricultural Marketing & Reforms",
         "children": [
           {
-            "label": "APMC & e‑NAM",
+            "label": "🟡|APMC & e‑NAM",
             "children": [
               {
                 "label": "🟡|APMC Acts: State-level regulated markets (mandis) to protect farmers from exploitation."
@@ -2062,7 +1996,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Farm Acts 2020 (Repealed)",
+            "label": "🟡|Farm Acts 2020 (Repealed)",
             "children": [
               {
                 "label": "🟡|Three laws: allowed trade outside APMC, permitted contract farming, amended Essential Commodities Act. Repealed in Nov 2021. Debate: Market freedom vs MSP guarantee."
@@ -2073,10 +2007,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "MAINS: Structural Challenges & Climate-Resilient Agriculture",
+        "label": "🟡|MAINS: Structural Challenges & Climate-Resilient Agriculture",
         "children": [
           {
-            "label": "Doubling Farmers' Income: Ashok Dalwai Committee (2017)",
+            "label": "🟡|Doubling Farmers' Income: Ashok Dalwai Committee (2017)",
             "children": [
               {
                 "label": "🟡|Seven sources of income growth: increase in crop productivity, livestock & poultry, crop diversification, resource use efficiency, higher price realization, shift to high-value crops, and off-farm income."
@@ -2087,7 +2021,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Climate-Resilient Agriculture",
+            "label": "🟡|Climate-Resilient Agriculture",
             "children": [
               {
                 "label": "🟡|Climate change impacts: erratic monsoon, droughts, floods, heat stress. Adaptation requires drought‑resistant and flood‑tolerant varieties, micro‑irrigation, crop diversification, and expanded insurance."
@@ -2098,7 +2032,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Small & Marginal Farmers — Land Fragmentation",
+            "label": "🟡|Small & Marginal Farmers — Land Fragmentation",
             "children": [
               {
                 "label": "🔴|Over 86% of holdings are small & marginal (<2 ha). Low economies of scale, limited credit access, low capital investment. Farmer Producer Organizations (FPOs) can aggregate supply, reduce transaction costs."
@@ -2109,10 +2043,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Food Processing & Allied Sectors",
+        "label": "🟡|Food Processing & Allied Sectors",
         "children": [
           {
-            "label": "Schemes",
+            "label": "🟡|Schemes",
             "children": [
               {
                 "label": "🟡|PM Kisan SAMPADA Yojana (2017): Integrated cold chain, mega food parks. Operation Greens (TOP - Tomato, Onion, Potato for price stabilization)."
@@ -2120,7 +2054,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Revolutions (Static MUST KNOW)",
+            "label": "🟡|Revolutions (Static MUST KNOW)",
             "children": [
               {
                 "label": "🟡|White Revolution (Dairy): Verghese Kurien - Operation Flood (1970). National Dairy Plan."
@@ -2140,7 +2074,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Agricultural Price & Nutrition Linkages",
+        "label": "🟡|Agricultural Price & Nutrition Linkages",
         "children": [
           {
             "label": "🟡|Food inflation is influenced by weather shocks, perishability, supply-chain bottlenecks, MSP/procurement, global prices and demand shifts; policy must balance farmer income and consumer affordability."
@@ -2149,7 +2083,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "NABARD, RRBs & Cooperative Rural Credit",
+        "label": "🟡|NABARD, RRBs & Cooperative Rural Credit",
         "children": [
           {
             "label": "🔴|NABARD established on 12 July 1982 under an Act of Parliament; apex development bank for agriculture and rural development."
@@ -2173,11 +2107,8 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "PMFBY — Static Mechanism",
+        "label": "🟡|PMFBY — Static Mechanism",
         "children": [
-          {
-            "label": "🟡|Sum insured per hectare is linked to the notified methodology—under current PMFBY FAQ, the Scale of Finance decided by the District Level Technical Committee is used for both loanee and non-loanee farmers; individual farmer sum insured = notified per-hectare sum insured × insured area."
-          },
           {
             "label": "🟡|Farmer premium under PMFBY: 2% of sum insured for Kharif foodgrain/oilseed crops, 1.5% for Rabi foodgrain/oilseed crops, and 5% for annual commercial/horticultural crops; balance of actuarial premium is subsidised subject to scheme rules."
           },
@@ -2188,7 +2119,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Agricultural Credit, Subsidies & Market Support — Static Core",
+        "label": "🟡|Agricultural Credit, Subsidies & Market Support — Static Core",
         "children": [
           {
             "label": "🔴|Kisan Credit Card (KCC) launched in 1998 to improve farmers' access to timely short-term institutional credit for cultivation and related needs."
@@ -2224,14 +2155,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "VIII",
     "p": "pm",
-    "label": "Industry, Infrastructure & Services",
+    "label": "🟡|Industry, Infrastructure & Services",
     "children": [
       {
         "p": "pm2",
-        "label": "Industrial Policy & MSMEs",
+        "label": "🟡|Industrial Policy & MSMEs",
         "children": [
           {
-            "label": "Industrial Policy Resolutions",
+            "label": "🟡|Industrial Policy Resolutions",
             "children": [
               {
                 "label": "🟠|1948: Mixed economy. 1956: Reservation of industries (Schedule A, B, C). 1991: Abolition of industrial licensing (except 18), MRTP relaxation, FDI liberalisation."
@@ -2239,7 +2170,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "MSME - STATIC DEFINITION (Revised July 2020)",
+            "label": "🟡|MSME - STATIC DEFINITION (Revised July 2020)",
             "children": [
               {
                 "label": "🟡|Micro: Investment < ₹1 Cr AND Turnover < ₹5 Cr."
@@ -2259,7 +2190,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Make in India & PLI",
+            "label": "🟡|Make in India & PLI",
             "children": [
               {
                 "label": "🟡|Make in India (2014): 25 sectors. PLI (Production Linked Incentive) scheme (2020) for 14 key sectors to boost manufacturing and attract investment."
@@ -2267,10 +2198,10 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Special Economic Zones (SEZ)",
+            "label": "🟡|Special Economic Zones (SEZ)",
             "children": [
               {
-                "label": "🟡|SEZ Act 2005: Duty-free imports, tax exemptions (100% for 5 years, 50% for next 5), single-window clearance, deemed foreign territory."
+                "label": "🔴|SEZ Act 2005: provides a duty-free/export-facilitation framework, streamlined clearances and special treatment for authorised SEZ activities; tax concessions were provided under a time-bound statutory framework."
               }
             ]
           }
@@ -2278,10 +2209,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Industrial Performance Metrics",
+        "label": "🟡|Industrial Performance Metrics",
         "children": [
           {
-            "label": "Index of Industrial Production (IIP)",
+            "label": "🟡|Index of Industrial Production (IIP)",
             "children": [
               {
                 "label": "🟡|Base Year: 2011-12. Compiled by NSO. Three sectors: Mining (14.37%), Manufacturing (77.64%), Electricity (7.99%)."
@@ -2292,7 +2223,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Core Sector Industries (8)",
+            "label": "🟡|Core Sector Industries (8)",
             "children": [
               {
                 "label": "🟡|Coal, Crude Oil, Natural Gas, Refinery Products, Fertilizers, Steel, Cement, Electricity. Combined weight ~40.27% in IIP."
@@ -2303,10 +2234,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Disinvestment & Public Sector - STATIC STATUS",
+        "label": "🟡|Disinvestment & Public Sector - STATIC STATUS",
         "children": [
           {
-            "label": "Disinvestment Policy & PSU Status",
+            "label": "🟡|Disinvestment Policy & PSU Status",
             "children": [
               {
                 "label": "🟡|DIPAM (Department of Investment and Public Asset Management) handles CPSEs."
@@ -2326,10 +2257,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Infrastructure Development & Financing",
+        "label": "🟡|Infrastructure Development & Financing",
         "children": [
           {
-            "label": "Key Sectors",
+            "label": "🟡|Key Sectors",
             "children": [
               {
                 "label": "🟡|Power: UDAY (revival of Discoms), SAUBHAGYA (universal electrification)."
@@ -2346,7 +2277,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Infrastructure Financing Modes (Static)",
+            "label": "🟡|Infrastructure Financing Modes (Static)",
             "children": [
               {
                 "label": "🟡|PPP (Public-Private Partnership) modes: BOT (Build-Operate-Transfer), BOLT, HAM (Hybrid Annuity Model - combines EPC and BOT)."
@@ -2363,10 +2294,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Services Sector",
+        "label": "🟡|Services Sector",
         "children": [
           {
-            "label": "Contribution & Growth",
+            "label": "🟡|Contribution & Growth",
             "children": [
               {
                 "label": "🟡|Services ~55% of GDP; fastest growing sector. IT‑BPM, telecom, banking, tourism, e‑commerce."
@@ -2377,16 +2308,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Startup Ecosystem & Digital Economy — Static",
+        "label": "🟡|Startup Ecosystem & Digital Economy — Static",
         "children": [
           {
-            "label": "🟡|Startup India launched in January 2016; DPIIT recognition is based on age, entity type, innovation/scalability and turnover criteria."
-          },
-          {
-            "label": "🟡|Current DPIIT recognition thresholds: ordinary recognised startups up to 10 years and turnover up to ₹200 crore; DeepTech recognition up to 20 years and turnover up to ₹300 crore. These criteria are notification-sensitive."
-          },
-          {
-            "label": "🟡|Section 80-IAC: eligible DPIIT-recognised startups can seek a 100% deduction for three consecutive financial years within the first ten years, subject to statutory eligibility."
+            "label": "🔴|Startup India was launched in 2016; DPIIT recognition is governed by statutory/notification-based eligibility relating to entity type, age, turnover and innovation/scalability."
           },
           {
             "label": "🟡|Unicorn = private startup valued at at least US$1 billion; valuation is a market/investor measure, not an accounting-profit measure."
@@ -2404,28 +2329,25 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "National Monetisation Pipeline — Static",
+        "label": "🟡|National Monetisation Pipeline — Static",
         "children": [
           {
             "label": "🟡|National Monetisation Pipeline (NMP) launched in 2021 to identify brownfield public infrastructure assets for monetisation over a multi-year period."
           },
           {
             "label": "🟡|Asset monetisation does not necessarily mean outright sale of government ownership; models include leasing, operate-maintain-transfer and other structures that unlock value from existing assets."
-          },
-          {
-            "label": "🟡|Exact pipeline value, sector-wise targets and annual progress are current-sensitive; keep those with Current Affairs."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Aadhaar & UIDAI — Static",
+        "label": "🟡|Aadhaar & UIDAI — Static",
         "children": [
           {
-            "label": "🟡|UIDAI was initially created in 2009 and became a statutory authority on 12 July 2016 under the Aadhaar Act, 2016."
+            "label": "🔴|UIDAI was established in 2009 and received statutory status under the Aadhaar Act, 2016."
           },
           {
-            "label": "🟡|Aadhaar Act, 2016 provides the legal framework for Aadhaar enrolment, authentication and related identity functions; UIDAI operates under MeitY."
+            "label": "🔴|Aadhaar Act, 2016 provides the statutory framework for Aadhaar enrolment/authentication and UIDAI's functions."
           },
           {
             "label": "🟡|Aadhaar acts as a foundational digital identity layer supporting authentication, targeted delivery and interoperability across many public digital services; Aadhaar itself is not a payment system."
@@ -2434,13 +2356,13 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Digital Economy — Static Core",
+        "label": "🟡|Digital Economy — Static Core",
         "children": [
           {
             "label": "🟡|Platform economy: digital platforms mediate transactions between users/providers; network effects, data concentration, competition and worker classification are key policy issues."
           },
           {
-            "label": "🟡|Digital Personal Data Protection Act, 2023 → framework for processing digital personal data, with Data Principals, Data Fiduciaries and regulated duties/rights; detailed implementation remains current-sensitive."
+            "label": "🔴|Digital Personal Data Protection Act, 2023 → statutory framework for processing digital personal data, including obligations of Data Fiduciaries and rights/duties relating to Data Principals."
           },
           {
             "label": "🟡|Digital Public Infrastructure can lower transaction costs and improve inclusion/interoperability when governance, privacy, competition and accessibility safeguards are adequate."
@@ -2448,7 +2370,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Manufacturing, MSMEs, Infrastructure & Technology",
+        "label": "🟡|PYQ-Calibrated Core — Manufacturing, MSMEs, Infrastructure & Technology",
         "kind": "subsection",
         "children": [
           {
@@ -2491,14 +2413,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "IX",
     "p": "pm",
-    "label": "Human Development & Social Sectors",
+    "label": "🟡|Human Development & Social Sectors",
     "children": [
       {
         "p": "pm2",
-        "label": "Human Development Indices",
+        "label": "🟡|Human Development Indices",
         "children": [
           {
-            "label": "Human Development Index (HDI)",
+            "label": "🟡|Human Development Index (HDI)",
             "children": [
               {
                 "label": "🟡|UNDP. Three dimensions: Health (Life expectancy at birth), Education (Mean years & Expected years of schooling), Standard of living (GNI per capita PPP)."
@@ -2506,7 +2428,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Multidimensional Poverty Index (MPI)",
+            "label": "🟡|Multidimensional Poverty Index (MPI)",
             "children": [
               {
                 "label": "🟡|NITI Aayog publishes. Deprivation in health, education, and standard of living (10+ indicators)."
@@ -2514,7 +2436,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Other Indices",
+            "label": "🟡|Other Indices",
             "children": [
               {
                 "label": "🟡|Gender Inequality Index (GII), Global Hunger Index (GHI), Happiness Index, SDG India Index."
@@ -2525,10 +2447,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Poverty & Unemployment - STATIC COMMITTEES",
+        "label": "🟡|Poverty & Unemployment - STATIC COMMITTEES",
         "children": [
           {
-            "label": "Poverty Estimation (Static Chronology)",
+            "label": "🟡|Poverty Estimation (Static Chronology)",
             "children": [
               {
                 "label": "🔴|Alagh Committee (1979): First to define poverty line based on calorie intake (2400 kcal rural, 2100 kcal urban)."
@@ -2543,18 +2465,18 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🔴|Rangarajan Committee (2014): Rejected Tendulkar's methodology. Used a broader consumption basket (included protein/fat). Gave separate rural/urban poverty lines."
               },
               {
-                "label": "🟡|Multidimensional Poverty Index (MPI) currently published by NITI Aayog (focuses on health, education, living standards)."
+                "label": "🔴|National Multidimensional Poverty Index uses multidimensional deprivations across health, education and living standards; NITI Aayog is India's institutional publisher of the national MPI framework."
               }
             ]
           },
           {
-            "label": "Unemployment - Static Types",
+            "label": "🟡|Unemployment - Static Types",
             "children": [
               {
                 "label": "🟡|Types: Cyclical (due to economic downturn), Structural (mismatch of skills), Frictional (between jobs), Disguised (surplus labor - visible in agriculture), Seasonal, Natural rate (NAIRU)."
               },
               {
-                "label": "🔴|LFPR (Labor Force Participation Rate) and Unemployment Rate measured by PLFS (Periodic Labour Force Survey - NSO)."
+                "label": "🔴|LFPR and Unemployment Rate are major labour-market indicators measured through PLFS; learn their definitions and the survey framework rather than current values."
               },
               {
                 "label": "🟡|MGNREGA (2005): Guarantees 100 days of wage employment per rural household. Wage-material ratio 60:40. Social audit mandatory."
@@ -2565,16 +2487,16 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Education & Skill Development",
+        "label": "🟡|Education & Skill Development",
         "children": [
           {
-            "label": "Education Policy & Right to Education",
+            "label": "🟡|Education Policy & Right to Education",
             "children": [
               {
                 "label": "🟡|RTE Act 2009 (Art 21-A): Free and compulsory education for children aged 6-14. 25% reservation for disadvantaged groups in private unaided schools."
               },
               {
-                "label": "🟡|NEP 2020: 5+3+3+4 structure (foundational to secondary), universal ECCE (Early Childhood Care), 100% GER by 2030, multidisciplinary approach."
+                "label": "🟡|NEP 2020 adopts a 5+3+3+4 curricular structure, emphasises ECCE, foundational literacy/numeracy, multilingualism and multidisciplinary learning; exact implementation targets belong in the policy-update layer."
               },
               {
                 "label": "🟡|Schemes: Samagra Shiksha (integrated school education), PM Poshan (revamped Mid-Day Meal), NIPUN Bharat (foundational literacy)."
@@ -2582,7 +2504,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Skill Development",
+            "label": "🟡|Skill Development",
             "children": [
               {
                 "label": "🟡|Skill India Mission; PM Kaushal Vikas Yojana (PMKVY); SANKALP, STRIVE; NSDC (National Skill Development Corporation)."
@@ -2593,13 +2515,13 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Health & Nutrition",
+        "label": "🟡|Health & Nutrition",
         "children": [
           {
-            "label": "Schemes & Indicators",
+            "label": "🟡|Schemes & Indicators",
             "children": [
               {
-                "label": "🟡|Ayushman Bharat (2018): Two pillars - Health & Wellness Centres (HWCs) + PM‑JAY (₹5 lakh health insurance cover)."
+                "label": "🟡|Ayushman Bharat was launched in 2018 with two broad pillars: Health and Wellness Centres/Ayushman Arogya Mandirs and PM-JAY. Exact beneficiary/coverage parameters belong in the update layer."
               },
               {
                 "label": "🟡|NHM (National Health Mission): NRHM (rural) + NUHM (urban). Poshan Abhiyaan (nutrition, mission to eliminate malnutrition)."
@@ -2607,7 +2529,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Demographic Dividend & Social Security",
+            "label": "🟡|Demographic Dividend & Social Security",
             "children": [
               {
                 "label": "🟡|Working‑age population (15-64) >64% - opportunity for growth contingent on jobs, skill, health."
@@ -2621,28 +2543,25 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Four Labour Codes — Static Core",
+        "label": "🟡|Four Labour Codes — Static Core",
         "children": [
           {
-            "label": "🟡|Code on Wages, 2019 → minimum wages, timely payment of wages and floor-wage framework; subsumes four central labour laws."
+            "label": "🟡|Code on Wages, 2019 consolidates four central labour laws and provides a framework for minimum wages, payment of wages and a floor-wage concept; implementation details belong in the update layer."
           },
           {
-            "label": "🟡|Industrial Relations Code, 2020 → trade unions, standing orders and industrial disputes; subsumes three major central labour laws."
+            "label": "🟡|Industrial Relations Code, 2020 consolidates laws relating to trade unions, standing orders and industrial disputes; implementation/status belongs in the update layer."
           },
           {
-            "label": "🟡|Occupational Safety, Health and Working Conditions Code, 2020 → workplace safety, health, welfare and working conditions; rationalises 13 central laws."
+            "label": "🟡|OSHWC Code, 2020 consolidates central laws on occupational safety, health, welfare and working conditions; implementation/status belongs in the update layer."
           },
           {
-            "label": "🟡|Code on Social Security, 2020 → social security for organised and unorganised/gig/platform workers; consolidates nine central laws."
-          },
-          {
-            "label": "🟡|All four Codes were enacted in 2019-20; implementation was announced from 21 November 2025. Exact rules/implementation details remain current-policy-sensitive."
+            "label": "🟡|Code on Social Security, 2020 consolidates central social-security laws and creates a statutory framework that includes provisions relevant to unorganised, gig and platform workers; implementation/status belongs in the update layer."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Employment & Enterprise Survey Architecture",
+        "label": "🟡|Employment & Enterprise Survey Architecture",
         "children": [
           {
             "label": "🟡|PLFS (Periodic Labour Force Survey) is the principal recurring household-based labour-force survey from 2017-18 onward, replacing the older employment-unemployment survey rounds."
@@ -2657,25 +2576,19 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Financial Inclusion — PMJDY Static",
+        "label": "🟡|Financial Inclusion — PMJDY Static",
         "children": [
           {
             "label": "🟡|Pradhan Mantri Jan-Dhan Yojana (PMJDY) launched in 2014 to expand universal access to basic banking, savings, remittance, credit, insurance and pension products."
           },
           {
             "label": "🟡|PMJDY basic bank accounts can be opened with zero minimum balance requirements; RuPay debit cards and linkage with DBT/JAM are key features."
-          },
-          {
-            "label": "🟡|Eligible RuPay debit-card holders under PMJDY can receive accident insurance cover subject to scheme/card-period conditions; current applicable cover/details should be treated as notification-sensitive."
-          },
-          {
-            "label": "🟡|Overdraft facility is subject to eligibility and current scheme rules; do not permanently memorise an old rupee cap without checking the latest PMJDY guidelines."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Poverty Measurement & Unemployment Measurement — Static Core",
+        "label": "🟡|Poverty Measurement & Unemployment Measurement — Static Core",
         "children": [
           {
             "label": "🔴|Alagh Committee (1979): poverty-line approach historically linked to calorie norms—2400 kcal rural and 2100 kcal urban in the source's presentation."
@@ -2707,7 +2620,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Employment, Human Development & Inclusion",
+        "label": "🟡|PYQ-Calibrated Core — Employment, Human Development & Inclusion",
         "kind": "subsection",
         "children": [
           {
@@ -2738,14 +2651,14 @@ export const RAW_D: RawSubjectNode[] = [
   {
     "id": "X",
     "p": "pm",
-    "label": "Microeconomics, Census, SDGs & Miscellaneous Static",
+    "label": "🟡|Microeconomics, Census, SDGs & Miscellaneous Static",
     "children": [
       {
         "p": "pm2",
-        "label": "MICROECONOMICS - FULL STATIC MODULE",
+        "label": "🟡|MICROECONOMICS - FULL STATIC MODULE",
         "children": [
           {
-            "label": "Demand & Supply Fundamentals",
+            "label": "🟡|Demand & Supply Fundamentals",
             "children": [
               {
                 "label": "🟡|Law of Demand: Inverse relationship (Price ↑, Demand ↓), ceteris paribus."
@@ -2762,7 +2675,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Elasticity Concepts (Static MCQs)",
+            "label": "🟡|Elasticity Concepts (Static MCQs)",
             "children": [
               {
                 "label": "🟡|Price Elasticity (Ed): Ed > 1 (Elastic/Luxury), Ed < 1 (Inelastic/Necessities), Ed = 1 (Unitary)."
@@ -2776,7 +2689,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Market Structures (FULL CLASSIFICATION)",
+            "label": "🟡|Market Structures (FULL CLASSIFICATION)",
             "children": [
               {
                 "label": "🟡|Perfect Competition: Many firms, Homogeneous product, Free entry/exit, Price Taker (Horizontal demand curve)."
@@ -2793,7 +2706,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Welfare Economics & Public Finance Terms",
+            "label": "🟡|Welfare Economics & Public Finance Terms",
             "children": [
               {
                 "label": "🟡|Gini Coefficient & Lorenz Curve: Measure income inequality; 0 = perfect equality, 1 = perfect inequality."
@@ -2808,10 +2721,10 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|Engel's Law: As income rises, proportion of income spent on food falls."
               },
               {
-                "label": "🟡|Okun's Law: Inverse relationship between unemployment and GDP (1% ↑ unemployment → ~2% ↓ GDP)."
+                "label": "🟡|Okun's law describes an empirical inverse relationship between unemployment and output growth; the numerical coefficient is economy- and period-specific, not a universal 1%→2% rule."
               },
               {
-                "label": "🟡|Phillips Curve: Short-run inverse relation between inflation and unemployment; long-run vertical at NAIRU."
+                "label": "🟡|Phillips curve: short-run trade-off/inverse association under some expectations and supply conditions; in the long run, the unemployment rate tends toward a natural-rate/NAIRU concept rather than a permanent inflation–unemployment trade-off."
               },
               {
                 "label": "🟡|Public Goods: Non-rival, non-excludable (e.g., national defence, street lighting). Merit goods: socially desirable but under-consumed (e.g., education)."
@@ -2843,10 +2756,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Important Static Committees (Aggregated)",
+        "label": "🟡|Important Static Committees (Aggregated)",
         "children": [
           {
-            "label": "Banking & Finance",
+            "label": "🟡|Banking & Finance",
             "children": [
               {
                 "label": "🟡|Narasimham I & II; Raghuram Rajan (2009); Nachiket Mor (2014 - Payments/SFBs); P.J. Nayak (2014); Urjit Patel (2014 - MPC); Tarapore (Convertibility)."
@@ -2854,7 +2767,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Fiscal & Taxation",
+            "label": "🟡|Fiscal & Taxation",
             "children": [
               {
                 "label": "🟡|Kelkar (FRBM Task Force); Vijay Kelkar (GST roll-out); Parthasarathi Shome (GAAR); TARC (Tax Administration Reform Commission)."
@@ -2862,7 +2775,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Agriculture & Poverty",
+            "label": "🟡|Agriculture & Poverty",
             "children": [
               {
                 "label": "🟡|Swaminathan Commission (recommended MSP at C2+50%); Abhijit Sen (long‑term food policy); Alagh, Lakdawala, Tendulkar, Rangarajan (Poverty lines)."
@@ -2870,7 +2783,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Additional High-Yield Committees",
+            "label": "🟡|Additional High-Yield Committees",
             "children": [
               {
                 "label": "🟡|Bimal Jalan Committee → RBI Economic Capital Framework; examined appropriate level/distribution of RBI reserves and risk buffers."
@@ -2893,10 +2806,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Census 2011 - STATIC HARD NUMBERS",
+        "label": "🟡|Census 2011 - STATIC HARD NUMBERS",
         "children": [
           {
-            "label": "Key Statistics (Prelims Favorites)",
+            "label": "🟡|Key Statistics (Prelims Favorites)",
             "children": [
               {
                 "label": "🟡|Total Population: 1,210.2 million."
@@ -2919,7 +2832,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Demographic Dividend",
+            "label": "🟡|Demographic Dividend",
             "children": [
               {
                 "label": "🟡|Median age ~28 years; ~64% working‑age population (15-64). Opportunity for growth contingent on education, skill, and job creation."
@@ -2927,7 +2840,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Census Profile — Static Essentials",
+            "label": "🟡|Census Profile — Static Essentials",
             "children": [
               {
                 "label": "🟡|Census 2011: population 121.09 crore; decadal growth 17.64%; population density 382 persons/km²."
@@ -2942,9 +2855,6 @@ export const RAW_D: RawSubjectNode[] = [
                 "label": "🟡|Highest population: Uttar Pradesh; lowest among States: Sikkim; Kerala had the highest sex ratio among States in Census 2011."
               },
               {
-                "label": "🟡|Census 2021 was postponed; its status/timetable is current-sensitive and should be updated from official notifications rather than hard-memorised as a permanent date."
-              },
-              {
                 "label": "🟡|Religion-wise Census 2011 tables are available as official census data; exact percentages are better retained as a reference table than as a core Economics memory burden."
               }
             ]
@@ -2953,10 +2863,10 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "SDGs & Environmental Economics (Static)",
+        "label": "🟡|SDGs & Environmental Economics (Static)",
         "children": [
           {
-            "label": "SDGs Overview",
+            "label": "🟡|SDGs Overview",
             "children": [
               {
                 "label": "🟡|Adopted: September 2015 (UN General Assembly). Target Year: 2030. Total Goals: 17. Parent Agenda: Agenda 2030."
@@ -2967,7 +2877,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Green Economy & Climate Finance",
+            "label": "🟡|Green Economy & Climate Finance",
             "children": [
               {
                 "label": "🟡|Green GDP: GDP adjusted for environmental costs (resource depletion, pollution). Carbon Tax: Tax on carbon emissions to incentivize reduction."
@@ -2978,7 +2888,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "International Climate Mechanisms",
+            "label": "🟡|International Climate Mechanisms",
             "children": [
               {
                 "label": "🟡|Kyoto Protocol (1997): CDM (Clean Development Mechanism) – developed countries invest in emission reduction projects in developing countries to earn carbon credits."
@@ -2992,7 +2902,7 @@ export const RAW_D: RawSubjectNode[] = [
             ]
           },
           {
-            "label": "Green Finance & Carbon Market Instruments — Static",
+            "label": "🟡|Green Finance & Carbon Market Instruments — Static",
             "children": [
               {
                 "label": "🟡|Sovereign Green Bonds: Government securities whose proceeds are earmarked for eligible green/public projects; India's first sovereign green bonds were issued in 2022-23."
@@ -3015,11 +2925,8 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Tax, Monetary & Fiscal Miscellaneous — Static",
+        "label": "🟡|Tax, Monetary & Fiscal Miscellaneous — Static",
         "children": [
-          {
-            "label": "🟡|Angel Tax: historical Section 56(2)(viib) tax on certain excess consideration received by closely held companies; the tax was abolished by the Union in 2024."
-          },
           {
             "label": "🟡|ESOP: Employee Stock Option Plan gives eligible employees a right to acquire shares at a predetermined exercise price; taxation can arise at exercise/perquisite stage and later on capital gains, subject to applicable law."
           },
@@ -3030,16 +2937,13 @@ export const RAW_D: RawSubjectNode[] = [
             "label": "🟡|State FRBM laws: States enacted their own fiscal-responsibility legislation, broadly modelled on fiscal-discipline principles and debt/deficit targets."
           },
           {
-            "label": "🟡|Ways & Means Advances: temporary RBI accommodation to governments for mismatches in cash flows; limits/interest conditions are fixed/revised periodically, so exact numeric limits are current-sensitive."
-          },
-          {
             "label": "🟡|India's general SDR allocation in the IMF's 2021 allocation was about SDR 12.57 billion; total allocation after the 2021 general allocation is about SDR 16.55 billion. Exact figures are reference-level rather than core recall."
           }
         ]
       },
       {
         "p": "pm2",
-        "label": "Taxation Fundamentals — Static Core",
+        "label": "🟡|Taxation Fundamentals — Static Core",
         "children": [
           {
             "label": "🔴|Canons of a good taxation system in the source: equity, certainty, economy, convenience, productivity/fiscal adequacy, flexibility and simplicity."
@@ -3066,7 +2970,7 @@ export const RAW_D: RawSubjectNode[] = [
       },
       {
         "p": "pm2",
-        "label": "Economics Numerical & Statement-Trap Formula Core",
+        "label": "🟡|Economics Numerical & Statement-Trap Formula Core",
         "children": [
           {
             "label": "🔴|GDP expenditure identity: Y = C + I + G + (X − M)."
@@ -3098,7 +3002,7 @@ export const RAW_D: RawSubjectNode[] = [
         ]
       },
       {
-        "label": "PYQ-Calibrated Core — Economics Concepts & Public Policy",
+        "label": "🟡|PYQ-Calibrated Core — Economics Concepts & Public Policy",
         "kind": "subsection",
         "children": [
           {
@@ -3121,6 +3025,54 @@ export const RAW_D: RawSubjectNode[] = [
           },
           {
             "label": "🟠|Census vs sample surveys: Census provides complete enumeration at fixed intervals, while sample surveys such as PLFS provide more frequent estimates using survey designs; they serve different statistical purposes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "XI",
+    "p": "pm2",
+    "label": "🟡|Economics — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "🟡|Static Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Keep permanent concepts, definitions, mechanisms, institutional architecture, historical policy evolution and classic UPSC distinctions here."
+          },
+          {
+            "label": "🟡|Do not store current rates, annual targets, current rankings, latest scheme coverage, latest thresholds, current Finance Commission weights, current fiscal paths or current implementation status in the static note."
+          },
+          {
+            "label": "🟡|Historical dates and launch years may stay when they identify a concept or institution; current-year statistics must be kept outside the static note."
+          },
+          {
+            "label": "🟠|When a current-affairs development changes a concept, update the separate Current Affairs layer rather than rewriting the static core."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-PRECISION",
+    "p": "pm2",
+    "label": "Economics — FINAL STATIC PRECISION CONTROL",
+    "children": [
+      {
+        "label": "Rules",
+        "children": [
+          {
+            "label": "🔴|Permanent core: definitions, mechanisms, formulas, institutions, historical policy evolution and classic UPSC distinctions."
+          },
+          {
+            "label": "🟡|Current base years, current rankings, current rates/ceilings, current scheme coverage, current Finance Commission awards, current targets and implementation status belong in the update layer."
+          },
+          {
+            "label": "🟡|Historical facts and launch years may remain when they identify a policy/institution; present-year numbers should not."
+          },
+          {
+            "label": "🟠|Use qualified language for empirical laws (Okun, Phillips, Kuznets, Laffer) rather than universal numerical claims."
           }
         ]
       }

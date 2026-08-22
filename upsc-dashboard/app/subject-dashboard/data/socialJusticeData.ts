@@ -4,10 +4,10 @@ export const RAW_D = [
   {
     "id": "I",
     "p": "pm",
-    "label": "Constitutional Philosophy & Social Justice Framework",
+    "label": "🟡|Constitutional Philosophy & Social Justice Framework",
     "children": [
       {
-        "label": "Preamble & Core Values",
+        "label": "🟡|Preamble & Core Values",
         "kind": "comparison",
         "children": [
           {
@@ -21,7 +21,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Fundamental Rights – Social Justice Core",
+        "label": "🟡|Fundamental Rights – Social Justice Core",
         "kind": "comparison",
         "children": [
           {
@@ -87,7 +87,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Directive Principles – Social Justice Mandate",
+        "label": "🟡|Directive Principles – Social Justice Mandate",
         "kind": "comparison",
         "children": [
           {
@@ -129,7 +129,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "MAINS MASTER – Rights + Welfare + Affirmative Action",
+        "label": "🟡|MAINS MASTER – Rights + Welfare + Affirmative Action",
         "kind": "comparison",
         "children": [
           {
@@ -151,7 +151,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Equality, Equity, Social Exclusion & Intersectionality",
+        "label": "🟡|PYQ MASTER – Equality, Equity, Social Exclusion & Intersectionality",
         "kind": "comparison",
         "children": [
           {
@@ -173,7 +173,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Capability Approach",
+        "label": "🟡|PYQ MASTER – Capability Approach",
         "kind": "comparison",
         "children": [
           {
@@ -191,7 +191,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Affirmative Action vs Reservation",
+        "label": "🟡|PYQ MASTER – Affirmative Action vs Reservation",
         "kind": "comparison",
         "children": [
           {
@@ -213,10 +213,10 @@ export const RAW_D = [
   {
     "id": "II",
     "p": "pm3",
-    "label": "Scheduled Castes (SCs) & Scheduled Tribes (STs)",
+    "label": "🟡|Scheduled Castes (SCs) & Scheduled Tribes (STs)",
     "children": [
       {
-        "label": "Constitutional Safeguards",
+        "label": "🟡|Constitutional Safeguards",
         "kind": "comparison",
         "children": [
           {
@@ -242,7 +242,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Major Laws",
+        "label": "🟡|Major Laws",
         "kind": "comparison",
         "children": [
           {
@@ -264,7 +264,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Tribal Self-Governance & Land/Forest Rights",
+        "label": "🟡|Tribal Self-Governance & Land/Forest Rights",
         "kind": "comparison",
         "children": [
           {
@@ -286,7 +286,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – SC/ST Problems",
+        "label": "🟡|PYQ MASTER – SC/ST Problems",
         "kind": "comparison",
         "children": [
           {
@@ -308,7 +308,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Reservation & Creamy-Layer Debate",
+        "label": "🟡|PYQ MASTER – Reservation & Creamy-Layer Debate",
         "kind": "comparison",
         "children": [
           {
@@ -326,7 +326,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Constitutional Commissions for Social Justice",
+        "label": "🟡|PYQ MASTER – Constitutional Commissions for Social Justice",
         "kind": "comparison",
         "children": [
           {
@@ -348,7 +348,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Tribal Development: Land, Consent & Governance",
+        "label": "🟡|PYQ MASTER – Tribal Development: Land, Consent & Governance",
         "kind": "comparison",
         "children": [
           {
@@ -370,7 +370,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Atrocities, Social Boycott & Access to Justice",
+        "label": "🟡|PYQ MASTER – Atrocities, Social Boycott & Access to Justice",
         "kind": "comparison",
         "children": [
           {
@@ -392,10 +392,10 @@ export const RAW_D = [
   {
     "id": "III",
     "p": "pm3",
-    "label": "Women & Gender Justice",
+    "label": "🟡|Women & Gender Justice",
     "children": [
       {
-        "label": "Constitutional & Legal Framework",
+        "label": "🟡|Constitutional & Legal Framework",
         "kind": "comparison",
         "children": [
           {
@@ -433,7 +433,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Schemes/Institutional Supports",
+        "label": "🟡|Key Schemes/Institutional Supports",
         "kind": "comparison",
         "children": [
           {
@@ -459,7 +459,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Women’s Social Capital & Empowerment",
+        "label": "🟡|PYQ MASTER – Women’s Social Capital & Empowerment",
         "kind": "comparison",
         "children": [
           {
@@ -477,7 +477,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Breaking Gender Inequality–Poverty–Malnutrition Cycle",
+        "label": "🟡|PYQ MASTER – Breaking Gender Inequality–Poverty–Malnutrition Cycle",
         "kind": "comparison",
         "children": [
           {
@@ -495,7 +495,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Changing Patriarchal Social Attitudes",
+        "label": "🟡|PYQ MASTER – Changing Patriarchal Social Attitudes",
         "kind": "comparison",
         "children": [
           {
@@ -509,7 +509,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Women in Higher Judiciary",
+        "label": "🟡|PYQ MASTER – Women in Higher Judiciary",
         "kind": "comparison",
         "children": [
           {
@@ -523,7 +523,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Women’s Economic Empowerment",
+        "label": "🟡|PYQ MASTER – Women’s Economic Empowerment",
         "kind": "comparison",
         "children": [
           {
@@ -541,7 +541,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Gender Budgeting & Mainstreaming",
+        "label": "🟡|PYQ MASTER – Gender Budgeting & Mainstreaming",
         "kind": "comparison",
         "children": [
           {
@@ -559,7 +559,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Political & Institutional Representation",
+        "label": "🟡|PYQ MASTER – Political & Institutional Representation",
         "kind": "comparison",
         "children": [
           {
@@ -577,10 +577,10 @@ export const RAW_D = [
   {
     "id": "IV",
     "p": "pm3",
-    "label": "Children & Child Development",
+    "label": "🟡|Children & Child Development",
     "children": [
       {
-        "label": "Legal Framework",
+        "label": "🟡|Legal Framework",
         "kind": "comparison",
         "children": [
           {
@@ -598,7 +598,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Nutrition & Early Childhood",
+        "label": "🟡|Nutrition & Early Childhood",
         "kind": "comparison",
         "children": [
           {
@@ -616,7 +616,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Child Protection & Human Development",
+        "label": "🟡|PYQ MASTER – Child Protection & Human Development",
         "kind": "comparison",
         "children": [
           {
@@ -634,7 +634,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Early Childhood & First 1000 Days",
+        "label": "🟡|PYQ MASTER – Early Childhood & First 1000 Days",
         "kind": "comparison",
         "children": [
           {
@@ -648,7 +648,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Child Labour & Protection",
+        "label": "🟡|PYQ MASTER – Child Labour & Protection",
         "kind": "comparison",
         "children": [
           {
@@ -670,10 +670,10 @@ export const RAW_D = [
   {
     "id": "V",
     "p": "pm3",
-    "label": "Minorities & Vulnerable Social Groups",
+    "label": "🟡|Minorities & Vulnerable Social Groups",
     "children": [
       {
-        "label": "Minority Rights",
+        "label": "🟡|Minority Rights",
         "kind": "comparison",
         "children": [
           {
@@ -687,7 +687,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Source-Listed Support Measures",
+        "label": "🟡|Source-Listed Support Measures",
         "kind": "comparison",
         "children": [
           {
@@ -705,7 +705,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Inclusive Social Justice",
+        "label": "🟡|PYQ MASTER – Inclusive Social Justice",
         "kind": "comparison",
         "children": [
           {
@@ -719,7 +719,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – National Minority Institutions",
+        "label": "🟡|PYQ MASTER – National Minority Institutions",
         "kind": "comparison",
         "children": [
           {
@@ -737,7 +737,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Transgender Persons & Gender-Diverse Groups",
+        "label": "🟡|PYQ MASTER – Transgender Persons & Gender-Diverse Groups",
         "kind": "comparison",
         "children": [
           {
@@ -759,10 +759,10 @@ export const RAW_D = [
   {
     "id": "VI",
     "p": "pm3",
-    "label": "Persons with Disabilities (PwD) & Elderly",
+    "label": "🟡|Persons with Disabilities (PwD) & Elderly",
     "children": [
       {
-        "label": "Disability Rights",
+        "label": "🟡|Disability Rights",
         "kind": "comparison",
         "children": [
           {
@@ -780,7 +780,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Elderly Welfare",
+        "label": "🟡|Elderly Welfare",
         "kind": "comparison",
         "children": [
           {
@@ -798,7 +798,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Geriatric & Inclusive Social Development",
+        "label": "🟡|PYQ MASTER – Geriatric & Inclusive Social Development",
         "kind": "comparison",
         "children": [
           {
@@ -812,7 +812,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Medical Model vs Social/Right-Based Model",
+        "label": "🟡|PYQ MASTER – Medical Model vs Social/Right-Based Model",
         "kind": "comparison",
         "children": [
           {
@@ -830,7 +830,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Reasonable Accommodation",
+        "label": "🟡|PYQ MASTER – Reasonable Accommodation",
         "kind": "comparison",
         "children": [
           {
@@ -844,7 +844,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Disability Employment & Participation",
+        "label": "🟡|PYQ MASTER – Disability Employment & Participation",
         "kind": "comparison",
         "children": [
           {
@@ -858,7 +858,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Elderly as a Social-Justice Issue",
+        "label": "🟡|PYQ MASTER – Elderly as a Social-Justice Issue",
         "kind": "comparison",
         "children": [
           {
@@ -876,10 +876,10 @@ export const RAW_D = [
   {
     "id": "VII",
     "p": "pm3",
-    "label": "Health & Social Development",
+    "label": "🟡|Health & Social Development",
     "children": [
       {
-        "label": "Health-System Framework",
+        "label": "🟡|Health-System Framework",
         "kind": "comparison",
         "children": [
           {
@@ -905,7 +905,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Ayushman Bharat & Digital Health",
+        "label": "🟡|Ayushman Bharat & Digital Health",
         "kind": "comparison",
         "children": [
           {
@@ -923,7 +923,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Community-Level Healthcare",
+        "label": "🟡|PYQ MASTER – Community-Level Healthcare",
         "kind": "comparison",
         "children": [
           {
@@ -941,7 +941,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Maternal Health",
+        "label": "🟡|PYQ MASTER – Maternal Health",
         "kind": "comparison",
         "children": [
           {
@@ -955,7 +955,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Health for All",
+        "label": "🟡|PYQ MASTER – Health for All",
         "kind": "comparison",
         "children": [
           {
@@ -969,7 +969,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Social Determinants of Health",
+        "label": "🟡|PYQ MASTER – Social Determinants of Health",
         "kind": "comparison",
         "children": [
           {
@@ -983,7 +983,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Out-of-Pocket Expenditure & Financial Protection",
+        "label": "🟡|PYQ MASTER – Out-of-Pocket Expenditure & Financial Protection",
         "kind": "comparison",
         "children": [
           {
@@ -1001,7 +1001,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Primary vs Secondary vs Tertiary Care",
+        "label": "🟡|PYQ MASTER – Primary vs Secondary vs Tertiary Care",
         "kind": "comparison",
         "children": [
           {
@@ -1015,7 +1015,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Public Health Infrastructure",
+        "label": "🟡|PYQ MASTER – Public Health Infrastructure",
         "kind": "comparison",
         "children": [
           {
@@ -1033,10 +1033,10 @@ export const RAW_D = [
   {
     "id": "VIII",
     "p": "pm3",
-    "label": "Education & Knowledge Equity",
+    "label": "🟡|Education & Knowledge Equity",
     "children": [
       {
-        "label": "Constitutional / Policy Framework",
+        "label": "🟡|Constitutional / Policy Framework",
         "kind": "comparison",
         "children": [
           {
@@ -1054,7 +1054,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "School Education",
+        "label": "🟡|School Education",
         "kind": "comparison",
         "children": [
           {
@@ -1072,7 +1072,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Higher Education",
+        "label": "🟡|Higher Education",
         "kind": "comparison",
         "children": [
           {
@@ -1090,7 +1090,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Online / Digital Learning",
+        "label": "🟡|Online / Digital Learning",
         "kind": "comparison",
         "children": [
           {
@@ -1108,7 +1108,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – NEP 2020 & SDG-4",
+        "label": "🟡|PYQ MASTER – NEP 2020 & SDG-4",
         "kind": "comparison",
         "children": [
           {
@@ -1122,7 +1122,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – RTE Static Traps",
+        "label": "🟡|PYQ MASTER – RTE Static Traps",
         "kind": "comparison",
         "children": [
           {
@@ -1140,7 +1140,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Learning Outcomes & Teacher Quality",
+        "label": "🟡|PYQ MASTER – Learning Outcomes & Teacher Quality",
         "kind": "comparison",
         "children": [
           {
@@ -1158,7 +1158,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Higher Education Governance",
+        "label": "🟡|PYQ MASTER – Higher Education Governance",
         "kind": "comparison",
         "children": [
           {
@@ -1180,10 +1180,10 @@ export const RAW_D = [
   {
     "id": "IX",
     "p": "pm3",
-    "label": "Human Resource Development & Skills",
+    "label": "🟡|Human Resource Development & Skills",
     "children": [
       {
-        "label": "Human Resource Framework",
+        "label": "🟡|Human Resource Framework",
         "kind": "comparison",
         "children": [
           {
@@ -1197,7 +1197,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Skill Institutions & Schemes",
+        "label": "🟡|Skill Institutions & Schemes",
         "kind": "comparison",
         "children": [
           {
@@ -1219,7 +1219,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Demographic Dividend",
+        "label": "🟡|PYQ MASTER – Demographic Dividend",
         "kind": "comparison",
         "children": [
           {
@@ -1233,7 +1233,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Skill Mismatch & Employability",
+        "label": "🟡|PYQ MASTER – Skill Mismatch & Employability",
         "kind": "comparison",
         "children": [
           {
@@ -1251,10 +1251,10 @@ export const RAW_D = [
   {
     "id": "X",
     "p": "pm3",
-    "label": "Poverty, Inequality & Social Security",
+    "label": "🟡|Poverty, Inequality & Social Security",
     "children": [
       {
-        "label": "Poverty Concepts",
+        "label": "🟡|Poverty Concepts",
         "kind": "comparison",
         "children": [
           {
@@ -1272,7 +1272,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Poverty Measurement – Core Static",
+        "label": "🟡|Poverty Measurement – Core Static",
         "kind": "comparison",
         "children": [
           {
@@ -1294,7 +1294,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Source-Listed Social Security",
+        "label": "🟡|Source-Listed Social Security",
         "kind": "comparison",
         "children": [
           {
@@ -1312,7 +1312,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2025 – Paradox/Vicious Cycle of Poverty",
+        "label": "🟡|PYQ 2025 – Paradox/Vicious Cycle of Poverty",
         "kind": "comparison",
         "children": [
           {
@@ -1330,7 +1330,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2015/2019 – Urban & Rural Poverty",
+        "label": "🟡|PYQ 2015/2019 – Urban & Rural Poverty",
         "kind": "comparison",
         "children": [
           {
@@ -1344,7 +1344,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Inequality vs Poverty",
+        "label": "🟡|PYQ MASTER – Inequality vs Poverty",
         "kind": "comparison",
         "children": [
           {
@@ -1362,7 +1362,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Social Security Architecture",
+        "label": "🟡|PYQ MASTER – Social Security Architecture",
         "kind": "comparison",
         "children": [
           {
@@ -1380,7 +1380,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Informal & Migrant Workers",
+        "label": "🟡|PYQ MASTER – Informal & Migrant Workers",
         "kind": "comparison",
         "children": [
           {
@@ -1398,7 +1398,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – National Social Assistance Programme",
+        "label": "🟡|PYQ MASTER – National Social Assistance Programme",
         "kind": "comparison",
         "children": [
           {
@@ -1416,7 +1416,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Portability of Social Protection",
+        "label": "🟡|PYQ MASTER – Portability of Social Protection",
         "kind": "comparison",
         "children": [
           {
@@ -1434,10 +1434,10 @@ export const RAW_D = [
   {
     "id": "XI",
     "p": "pm3",
-    "label": "Hunger, Nutrition & Food Security",
+    "label": "🟡|Hunger, Nutrition & Food Security",
     "children": [
       {
-        "label": "Food Security Framework",
+        "label": "🟡|Food Security Framework",
         "kind": "comparison",
         "children": [
           {
@@ -1459,7 +1459,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Malnutrition – Causes",
+        "label": "🟡|Malnutrition – Causes",
         "kind": "comparison",
         "children": [
           {
@@ -1473,7 +1473,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Poverty–Hunger Divergence",
+        "label": "🟡|PYQ MASTER – Poverty–Hunger Divergence",
         "kind": "comparison",
         "children": [
           {
@@ -1491,7 +1491,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Nutrition-Sensitive vs Nutrition-Specific Actions",
+        "label": "🟡|PYQ MASTER – Nutrition-Sensitive vs Nutrition-Specific Actions",
         "kind": "comparison",
         "children": [
           {
@@ -1509,7 +1509,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – NFSA Static Essentials",
+        "label": "🟡|PYQ MASTER – NFSA Static Essentials",
         "kind": "comparison",
         "children": [
           {
@@ -1523,7 +1523,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – NFSA Static Numbers & Architecture",
+        "label": "🟡|PYQ MASTER – NFSA Static Numbers & Architecture",
         "kind": "comparison",
         "children": [
           {
@@ -1541,10 +1541,10 @@ export const RAW_D = [
   {
     "id": "XII",
     "p": "pm3",
-    "label": "Self-Help Groups, Microfinance & Community Empowerment",
+    "label": "🟡|Self-Help Groups, Microfinance & Community Empowerment",
     "children": [
       {
-        "label": "SHG Basics",
+        "label": "🟡|SHG Basics",
         "kind": "comparison",
         "children": [
           {
@@ -1562,7 +1562,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – SHGs & Women's Empowerment",
+        "label": "🟡|PYQ MASTER – SHGs & Women's Empowerment",
         "kind": "comparison",
         "children": [
           {
@@ -1580,7 +1580,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – SHG Constraints",
+        "label": "🟡|PYQ MASTER – SHG Constraints",
         "kind": "comparison",
         "children": [
           {
@@ -1598,7 +1598,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Microfinance Governance",
+        "label": "🟡|PYQ MASTER – Microfinance Governance",
         "kind": "comparison",
         "children": [
           {
@@ -1612,7 +1612,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – SHG Federations & Community Institutions",
+        "label": "🟡|PYQ MASTER – SHG Federations & Community Institutions",
         "kind": "comparison",
         "children": [
           {
@@ -1626,7 +1626,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – SHGs vs Microfinance",
+        "label": "🟡|PYQ MASTER – SHGs vs Microfinance",
         "kind": "comparison",
         "children": [
           {
@@ -1644,10 +1644,10 @@ export const RAW_D = [
   {
     "id": "XIII",
     "p": "pm2",
-    "label": "Cross-Cutting Social Justice – PYQ Answer Framework",
+    "label": "🟡|Cross-Cutting Social Justice – PYQ Answer Framework",
     "children": [
       {
-        "label": "MASTER FRAMEWORK – Any Social Justice Question",
+        "label": "🟡|MASTER FRAMEWORK – Any Social Justice Question",
         "kind": "comparison",
         "children": [
           {
@@ -1689,7 +1689,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High-Yield PYQ Traps",
+        "label": "🟡|High-Yield PYQ Traps",
         "kind": "comparison",
         "children": [
           {
@@ -1719,25 +1719,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Dynamic Update Layer",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|Exact scheme budgets, coverage numbers, current poverty/nutrition statistics and programme names should be updated close to the exam.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Current court judgments on reservation, women’s rights, disability, welfare eligibility or abortion should be added only when directly relevant to the exam cycle.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Use current official data selectively: one credible figure/example is better than memorising many changing statistics.",
-            "kind": "bullet"
-          }
-        ]
-      },
-      {
-        "label": "PYQ MASTER – National Commissions Map",
+        "label": "🟡|PYQ MASTER – National Commissions Map",
         "kind": "comparison",
         "children": [
           {
@@ -1767,7 +1749,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Social Audit, Grievance Redress & Accountability",
+        "label": "🟡|PYQ MASTER – Social Audit, Grievance Redress & Accountability",
         "kind": "comparison",
         "children": [
           {
@@ -1785,7 +1767,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – DBT & Portability",
+        "label": "🟡|PYQ MASTER – DBT & Portability",
         "kind": "comparison",
         "children": [
           {
@@ -1803,7 +1785,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Street Vendors & Urban Informality",
+        "label": "🟡|PYQ MASTER – Street Vendors & Urban Informality",
         "kind": "comparison",
         "children": [
           {
@@ -1821,7 +1803,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Social Security for Gig & Platform Workers",
+        "label": "🟡|PYQ MASTER – Social Security for Gig & Platform Workers",
         "kind": "comparison",
         "children": [
           {
@@ -1839,7 +1821,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Migrant Workers & Portability",
+        "label": "🟡|PYQ MASTER – Migrant Workers & Portability",
         "kind": "comparison",
         "children": [
           {
@@ -1857,7 +1839,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – Urban Homelessness & Basic Services",
+        "label": "🟡|PYQ MASTER – Urban Homelessness & Basic Services",
         "kind": "comparison",
         "children": [
           {
@@ -1867,6 +1849,27 @@ export const RAW_D = [
           {
             "label": "🟠|Responses need shelter, rental/affordable housing, water/sanitation, health, identity/document support and livelihood integration—not shelter alone.",
             "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "XIV",
+    "p": "pm2",
+    "label": "🟡|Social Justice — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "🟡|Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Keep constitutional/legal architecture, social-justice concepts, major scheme purpose, institutional roles and PYQ frameworks."
+          },
+          {
+            "label": "🟡|Current scheme budgets, annual coverage, latest court outcomes and current statistical indicators belong in the update layer, not the static core."
+          },
+          {
+            "label": "🟡|Historical launch years may stay as identification facts; current implementation status should not."
           }
         ]
       }

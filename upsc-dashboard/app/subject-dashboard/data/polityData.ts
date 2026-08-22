@@ -2136,14 +2136,14 @@ export const RAW_D = [
 
 
 
-  {
+ {
     "id": "VII",
     "p": "pm3",
-    "label": "Directive Principles of State Policy (Art 36‑51) – Air‑1 Complete",
+    "label": "🟡|Directive Principles of State Policy (Art 36‑51) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Nature & General Provisions (Art 36‑37)",
+        "label": "🟡|Nature & General Provisions (Art 36‑37)",
         "kind": "subsection",
         "children": [
           {
@@ -2169,7 +2169,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Academic Classification of DPSPs",
+        "label": "🟡|Academic Classification of DPSPs",
         "kind": "subsection",
         "children": [
           {
@@ -2187,7 +2187,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Constitutional Amendments Related to DPSPs",
+        "label": "🟡|Key Constitutional Amendments Related to DPSPs",
         "kind": "amendment",
         "children": [
           {
@@ -2213,11 +2213,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Article‑wise DPSPs with Key Points, Cases & Traps",
+        "label": "🟡|Article‑wise DPSPs with Key Points, Cases & Traps",
         "kind": "subsection",
         "children": [
           {
-            "label": "Socialist Directives (Art 38 – 43B)",
+            "label": "🟡|Socialist Directives (Art 38 – 43B)",
             "kind": "subsection",
             "children": [
               {
@@ -2259,7 +2259,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Gandhian Directives (Art 40, 43 part, 46, 47, 48)",
+            "label": "🟡|Gandhian Directives (Art 40, 43 part, 46, 47, 48)",
             "kind": "subsection",
             "children": [
               {
@@ -2281,7 +2281,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Liberal‑Intellectual Directives (Art 44, 45, 48A, 49, 50, 51)",
+            "label": "🟡|Liberal‑Intellectual Directives (Art 44, 45, 48A, 49, 50, 51)",
             "kind": "subsection",
             "children": [
               {
@@ -2313,11 +2313,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Directives Outside Part IV (High‑Yield TRAP Zone)",
+        "label": "🟡|Directives Outside Part IV (High‑Yield TRAP Zone)",
         "kind": "memory",
         "children": [
           {
-            "label": "🔴|Art 335 (Part XVI): Claims of SCs and STs to services and posts shall be consistent with maintenance of efficiency of administration.\nBalances reservation with merit.\nIn M.\nNagaraj v.\nUOI (2006), SC held that Art 335 is relevant while deciding validity of reservation in promotion.\nTRAP (PYQ): Art 335 does NOT define 'efficiency of administration'; it only refers to maintaining it.",
+            "label": "🟡|Art 335 (Part XVI): Claims of SCs and STs to services and posts shall be consistent with maintenance of efficiency of administration.\nBalances reservation with merit.\nIn M.\nNagaraj v.\nUOI (2006), SC held that Art 335 is relevant while deciding validity of reservation in promotion.",
             "kind": "case"
           },
           {
@@ -2331,7 +2331,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "FR vs DPSP Conflict – Evolution & Current Position",
+        "label": "🟡|FR vs DPSP Conflict – Evolution & Current Position",
         "kind": "memory",
         "children": [
           {
@@ -2373,7 +2373,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "TRAP Compendium for Prelims (Quick Recall)",
+        "label": "🟡|TRAP Compendium for Prelims (Quick Recall)",
         "kind": "memory",
         "children": [
           {
@@ -2415,7 +2415,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Article Connections",
+        "label": "🟡|High‑Yield Article Connections",
         "kind": "subsection",
         "children": [
           {
@@ -2429,7 +2429,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "DPSP — Article Cluster Master Map",
+        "label": "🟡|DPSP — Article Cluster Master Map",
         "kind": "comparison",
         "children": [
           {
@@ -2463,15 +2463,15 @@ export const RAW_D = [
   {
     "id": "VIII",
     "p": "pm2",
-    "label": "Fundamental Duties (Art 51A) – Air‑1 Complete",
+    "label": "🟡|Fundamental Duties (Art 51A) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Origin & Evolution",
+        "label": "🟡|Origin & Evolution",
         "kind": "subsection",
         "children": [
           {
-            "label": "Swaran Singh Committee (1976) Recommendations",
+            "label": "🟡|Swaran Singh Committee (1976) Recommendations",
             "kind": "subsection",
             "children": [
               {
@@ -2489,7 +2489,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Constitutional Incorporation",
+            "label": "🟡|Constitutional Incorporation",
             "kind": "subsection",
             "children": [
               {
@@ -2505,7 +2505,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Features & Nature",
+        "label": "🟡|Key Features & Nature",
         "kind": "subsection",
         "children": [
           {
@@ -2527,11 +2527,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Complete List of 11 Duties with Nuances & Traps",
+        "label": "🟡|Complete List of 11 Duties with Nuances & Traps",
         "kind": "subsection",
         "children": [
           {
-            "label": "51A(a) – To abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem",
+            "label": "🟡|51A(a) – To abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem",
             "kind": "subsection",
             "children": [
               {
@@ -2545,7 +2545,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(b) – To cherish and follow the noble ideals which inspired our national struggle for freedom",
+            "label": "🟡|51A(b) – To cherish and follow the noble ideals which inspired our national struggle for freedom",
             "kind": "subsection",
             "children": [
               {
@@ -2555,17 +2555,17 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(c) – To uphold and protect the sovereignty, unity and integrity of India",
+            "label": "🟡|51A(c) – To uphold and protect the sovereignty, unity and integrity of India",
             "kind": "subsection",
             "children": [
               {
-                "label": "🟡|TRAP: Mere criticism or dissent is not automatically a violation of Art 51A(c). For current criminal-law references, use the Bharatiya Nyaya Sanhita, 2023 rather than the repealed IPC sedition provision.",
+                "label": "🟡|TRAP: Mere criticism or dissent is not automatically a violation of Art 51A(c). Penal consequences for incitement/sovereignty-related offences must be read from the law currently in force; do not freeze a repealed IPC sedition provision as current law.",
                 "kind": "trap"
               }
             ]
           },
           {
-            "label": "51A(d) – To defend the country and render national service when called upon to do so",
+            "label": "🟡|51A(d) – To defend the country and render national service when called upon to do so",
             "kind": "subsection",
             "children": [
               {
@@ -2575,7 +2575,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(e) – To promote harmony and the spirit of common brotherhood amongst all the people of India transcending religious, linguistic and regional or sectional diversities; to renounce practices derogatory to the dignity of women",
+            "label": "🟡|51A(e) – To promote harmony and the spirit of common brotherhood amongst all the people of India transcending religious, linguistic and regional or sectional diversities; to renounce practices derogatory to the dignity of women",
             "kind": "subsection",
             "children": [
               {
@@ -2585,7 +2585,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(f) – To value and preserve the rich heritage of our composite culture",
+            "label": "🟡|51A(f) – To value and preserve the rich heritage of our composite culture",
             "kind": "subsection",
             "children": [
               {
@@ -2595,7 +2595,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(g) – To protect and improve the natural environment including forests, lakes, rivers and wild life, and to have compassion for living creatures",
+            "label": "🟡|51A(g) – To protect and improve the natural environment including forests, lakes, rivers and wild life, and to have compassion for living creatures",
             "kind": "subsection",
             "children": [
               {
@@ -2609,7 +2609,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(h) – To develop the scientific temper, humanism and the spirit of inquiry and reform",
+            "label": "🟡|51A(h) – To develop the scientific temper, humanism and the spirit of inquiry and reform",
             "kind": "subsection",
             "children": [
               {
@@ -2619,7 +2619,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(i) – To safeguard public property and to abjure violence",
+            "label": "🟡|51A(i) – To safeguard public property and to abjure violence",
             "kind": "subsection",
             "children": [
               {
@@ -2629,7 +2629,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(j) – To strive towards excellence in all spheres of individual and collective activity so that the nation constantly rises to higher levels of endeavour and achievement",
+            "label": "🟡|51A(j) – To strive towards excellence in all spheres of individual and collective activity so that the nation constantly rises to higher levels of endeavour and achievement",
             "kind": "subsection",
             "children": [
               {
@@ -2639,7 +2639,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "51A(k) – [Added by 86th CAA 2002] Who is a parent or guardian to provide opportunities for education to his child or, as the case may be, ward between the age of six and fourteen years",
+            "label": "🟡|51A(k) – [Added by 86th CAA 2002] Who is a parent or guardian to provide opportunities for education to his child or, as the case may be, ward between the age of six and fourteen years",
             "kind": "case",
             "children": [
               {
@@ -2651,7 +2651,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Verma Committee (1999) & Legal Enforcement",
+        "label": "🟡|Verma Committee (1999) & Legal Enforcement",
         "kind": "subsection",
         "children": [
           {
@@ -2673,7 +2673,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Judicial Interpretation & Linkages",
+        "label": "🟡|Judicial Interpretation & Linkages",
         "kind": "subsection",
         "children": [
           {
@@ -2699,7 +2699,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Traps & Prelims Pearls",
+        "label": "🟡|High‑Yield Traps & Prelims Pearls",
         "kind": "subsection",
         "children": [
           {
@@ -2749,7 +2749,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Mnemonic for the 11 Duties (Air‑1 Quick Recall)",
+        "label": "🟡|Mnemonic for the 11 Duties (Air‑1 Quick Recall)",
         "kind": "memory",
         "children": [
           {
@@ -2799,7 +2799,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "FR vs DPSP vs Fundamental Duties — Quick Comparison",
+        "label": "🟡|FR vs DPSP vs Fundamental Duties — Quick Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -2817,7 +2817,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Fundamental Duties — Final Memory Map",
+        "label": "🟡|Fundamental Duties — Final Memory Map",
         "kind": "comparison",
         "children": [
           {
@@ -2843,15 +2843,15 @@ export const RAW_D = [
   {
     "id": "IX",
     "p": "pm3",
-    "label": "Amendment of the Constitution (Art 368)",
+    "label": "🟡|Amendment of the Constitution (Art 368)",
     "kind": "section",
     "children": [
       {
-        "label": "Article 368 Framework",
+        "label": "🟡|Article 368 Framework",
         "kind": "article",
         "children": [
           {
-            "label": "Power & General Principles",
+            "label": "🟡|Power & General Principles",
             "kind": "subsection",
             "children": [
               {
@@ -2861,7 +2861,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Legislative Procedure & Assent",
+            "label": "🟡|Legislative Procedure & Assent",
             "kind": "subsection",
             "children": [
               {
@@ -2893,11 +2893,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Amendments Outside Special Majority Framework",
+        "label": "🟡|Amendments Outside Special Majority Framework",
         "kind": "subsection",
         "children": [
           {
-            "label": "Provisions Amended Outside Art 368 (Simple Majority)",
+            "label": "🟡|Provisions Amended Outside Art 368 (Simple Majority)",
             "kind": "amendment",
             "children": [
               {
@@ -2907,7 +2907,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Federal Provisions (Special Majority + State Ratification)",
+            "label": "🟡|Federal Provisions (Special Majority + State Ratification)",
             "kind": "subsection",
             "children": [
               {
@@ -2919,7 +2919,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Three Modes of Constitutional Amendment — Prelims Core",
+        "label": "🟡|Three Modes of Constitutional Amendment — Prelims Core",
         "kind": "comparison",
         "children": [
           {
@@ -2937,7 +2937,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Amendment — Final Three-Method Matrix",
+        "label": "🟡|Amendment — Final Three-Method Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -2959,15 +2959,15 @@ export const RAW_D = [
   {
     "id": "X",
     "p": "pm2",
-    "label": "Basic Structure Doctrine",
+    "label": "🟡|Basic Structure Doctrine",
     "kind": "section",
     "children": [
       {
-        "label": "Evolution & Core Elements",
+        "label": "🟡|Evolution & Core Elements",
         "kind": "subsection",
         "children": [
           {
-            "label": "Chronology of Judgments",
+            "label": "🟡|Chronology of Judgments",
             "kind": "subsection",
             "children": [
               {
@@ -3001,7 +3001,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Components & Legal Status of Doctrine",
+            "label": "🟡|Components & Legal Status of Doctrine",
             "kind": "subsection",
             "children": [
               {
@@ -3017,7 +3017,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Basic Structure — Case Chronology Master",
+        "label": "🟡|Basic Structure — Case Chronology Master",
         "kind": "comparison",
         "children": [
           {
@@ -3041,7 +3041,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|Waman Rao / I.R. Coelho → Ninth Schedule laws after 24 April 1973 remain open to basic-structure review.",
+            "label": "🟡|Waman Rao / I.R. Coelho → Ninth Schedule laws after 24 April 1973 remain open to basic-structure review.",
             "kind": "bullet"
           },
           {
@@ -3055,15 +3055,15 @@ export const RAW_D = [
   {
     "id": "XI",
     "p": "pm2",
-    "label": "Parliamentary System",
+    "label": "🟡|Parliamentary System",
     "kind": "section",
     "children": [
       {
-        "label": "Core Principles & Features",
+        "label": "🟡|Core Principles & Features",
         "kind": "subsection",
         "children": [
           {
-            "label": "Executive-Legislature Relationship",
+            "label": "🟡|Executive-Legislature Relationship",
             "kind": "subsection",
             "children": [
               {
@@ -3071,13 +3071,13 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "🔴|Key Features:\n\n1.\nMajority party/coalition support in the Lok Sabha.\n2.\nCollective responsibility to the Lok Sabha under Art 75(3).\n3.\nDouble membership principle - ministers must be members of Parliament within six months.\n4.\nPolitical cohesion is a conventional feature, not a constitutional requirement.\n5.\nPrime Minister as the real leader of the executive.\n6.\nPossibility of dissolution of the lower House.\n7.\nSecrecy of cabinet proceedings.",
+                "label": "🟡|Key Features:\n\n1.\nMajority party/coalition support in the Lok Sabha.\n2.\nCollective responsibility to the Lok Sabha under Art 75(3).\n3.\nDouble membership principle - ministers must be members of Parliament within six months.\n4.\nPolitical cohesion is a conventional feature, not a constitutional requirement.\n5.\nPrime Minister as the real leader of the executive.\n6.\nPossibility of dissolution of the lower House.\n7.\nSecrecy of cabinet proceedings.",
                 "kind": "numbered"
               }
             ]
           },
           {
-            "label": "Constitutional Provisions (Art 74 & 75)",
+            "label": "🟡|Constitutional Provisions (Art 74 & 75)",
             "kind": "subsection",
             "children": [
               {
@@ -3097,11 +3097,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Comparisons & Discretion",
+        "label": "🟡|Comparisons & Discretion",
         "kind": "comparison",
         "children": [
           {
-            "label": "TRAP Comparison with UK",
+            "label": "🟡|TRAP Comparison with UK",
             "kind": "comparison",
             "children": [
               {
@@ -3123,7 +3123,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Presidential Discretion",
+            "label": "🟡|Presidential Discretion",
             "kind": "subsection",
             "children": [
               {
@@ -3135,7 +3135,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Collective Responsibility & Confidence — Core",
+        "label": "🟡|Collective Responsibility & Confidence — Core",
         "kind": "subsection",
         "children": [
           {
@@ -3143,33 +3143,11 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|A no-confidence motion tests the government's majority in the Lok Sabha; loss of majority normally requires resignation or an alternative government/dissolution process.",
+            "label": "🟡|A no-confidence motion tests the government's majority in the Lok Sabha; loss of majority normally requires resignation or an alternative government/dissolution process.",
             "kind": "bullet"
           },
           {
             "label": "🟡|Individual ministerial responsibility is distinct from collective responsibility: a minister may resign over an individual matter, while the Council stands or falls together on the House's confidence.",
-            "kind": "bullet"
-          }
-        ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchors — Parliament",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|Parliamentary sovereignty vs constitutional supremacy: India adopts constitutional supremacy with judicial review; parliamentary power is constitutionally limited.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Financial committees: PAC examines CAG reports; Estimates Committee examines budget estimates/economies; institutional accountability is a core Mains theme.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Presiding Officers: neutrality, anti-defection adjudication, Money Bill certification, legislative discipline and reforms to improve impartiality are recurring Mains themes.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Individual MP role: anti-defection, party whips, declining debate time and committee work are recurring explanations for the changing quality of parliamentary deliberation.",
             "kind": "bullet"
           }
         ]
@@ -3179,15 +3157,15 @@ export const RAW_D = [
   {
     "id": "XII",
     "p": "pm2",
-    "label": "Federal System",
+    "label": "🟡|Federal System",
     "kind": "section",
     "children": [
       {
-        "label": "Nature of Indian Federation",
+        "label": "🟡|Nature of Indian Federation",
         "kind": "subsection",
         "children": [
           {
-            "label": "Constitutional Definition & Basis",
+            "label": "🟡|Constitutional Definition & Basis",
             "kind": "subsection",
             "children": [
               {
@@ -3201,7 +3179,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Scholarly Perspectives",
+            "label": "🟡|Scholarly Perspectives",
             "kind": "subsection",
             "children": [
               {
@@ -3213,11 +3191,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Federal vs.\nUnitary Features",
+        "label": "🟡|Federal vs.\nUnitary Features",
         "kind": "subsection",
         "children": [
           {
-            "label": "Federal Features",
+            "label": "🟡|Federal Features",
             "kind": "subsection",
             "children": [
               {
@@ -3227,7 +3205,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Unitary/Non-Federal Features",
+            "label": "🟡|Unitary/Non-Federal Features",
             "kind": "subsection",
             "children": [
               {
@@ -3239,13 +3217,9 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Federalism — High-Yield Constitutional Mechanisms",
+        "label": "🟡|Federalism — High-Yield Constitutional Mechanisms",
         "kind": "subsection",
         "children": [
-          {
-            "label": "🟡|Legislative distribution: Union List, State List and Concurrent List under the Seventh Schedule; residuary legislative powers lie with Parliament (Art 248).",
-            "kind": "bullet"
-          },
           {
             "label": "🟡|Parliament can legislate on State List subjects in specified situations, including national interest via Rajya Sabha resolution (Art 249), during Emergency (Art 250), and with consent of two or more States (Art 252).",
             "kind": "bullet"
@@ -3265,15 +3239,15 @@ export const RAW_D = [
   {
     "id": "XIII",
     "p": "pm3",
-    "label": "Centre‑State Relations (Legislative, Administrative, Financial) – Air‑1 Complete",
+    "label": "🟡|Centre‑State Relations (Legislative, Administrative, Financial) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Legislative Relations (Art 245‑255)",
+        "label": "🟡|Legislative Relations (Art 245‑255)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Territorial Extent (Art 245)",
+            "label": "🟡|Territorial Extent (Art 245)",
             "kind": "subsection",
             "children": [
               {
@@ -3287,7 +3261,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Distribution of Legislative Subjects (Art 246 & 7th Schedule)",
+            "label": "🟡|Distribution of Legislative Subjects (Art 246 & 7th Schedule)",
             "kind": "subsection",
             "children": [
               {
@@ -3296,10 +3270,6 @@ export const RAW_D = [
               },
               {
                 "label": "🟡|State List: subjects primarily of state/local importance. State legislatures ordinarily have exclusive power, subject to constitutional exceptions under Arts 249, 250, 252, 253 and 356.\nTRAP: Do not depend on a fixed numerical count of State List entries.",
-                "kind": "bullet"
-              },
-              {
-                "label": "🟡|Concurrent List: both Parliament and State Legislatures can legislate; in case of repugnancy, Parliament's law generally prevails subject to Art 254.\nTRAP: Do not depend on a fixed numerical count of Concurrent List entries.",
                 "kind": "bullet"
               },
               {
@@ -3313,7 +3283,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Parliament’s Power to Legislate on State List – 5 Extraordinary Circumstances",
+            "label": "🟡|Parliament’s Power to Legislate on State List – 5 Extraordinary Circumstances",
             "kind": "subsection",
             "children": [
               {
@@ -3339,25 +3309,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Repugnancy in Concurrent List (Art 254)",
-            "kind": "subsection",
-            "children": [
-              {
-                "label": "🟡|If both Parliament and a State legislature make laws on a Concurrent subject, central law generally prevails.\nState law is inoperative to the extent of repugnancy with a valid Parliamentary law, subject to the Presidential-assent exception under Art 254(2).",
-                "kind": "bullet"
-              },
-              {
-                "label": "🟡|Exception: State law may prevail in that state if it was reserved for President’s assent and received it.\nHowever, Parliament can subsequently make a law on the same matter which overrides the state law (including the earlier reserved one).",
-                "kind": "exception"
-              },
-              {
-                "label": "🟡|TRAP: Presidential assent under Art 254(2) can allow the State law to prevail in that State despite earlier Parliamentary law, but Parliament can subsequently override it. Do not frame this as depending simply on repeal or 'occupation of the field'.",
-                "kind": "trap"
-              }
-            ]
-          },
-          {
-            "label": "Doctrine of Harmonious Construction",
+            "label": "🟡|Doctrine of Harmonious Construction",
             "kind": "subsection",
             "children": [
               {
@@ -3369,11 +3321,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Administrative Relations (Art 256‑263)",
+        "label": "🟡|Administrative Relations (Art 256‑263)",
         "kind": "subsection",
         "children": [
           {
-            "label": "General Obligations of States & Centre (Art 256‑257)",
+            "label": "🟡|General Obligations of States & Centre (Art 256‑257)",
             "kind": "subsection",
             "children": [
               {
@@ -3391,7 +3343,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Mutual Delegation (Art 258 & 258A)",
+            "label": "🟡|Mutual Delegation (Art 258 & 258A)",
             "kind": "subsection",
             "children": [
               {
@@ -3409,7 +3361,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "All‑India Services (Art 312)",
+            "label": "🟡|All‑India Services (Art 312)",
             "kind": "subsection",
             "children": [
               {
@@ -3423,7 +3375,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Inter‑State Council (Art 263)",
+            "label": "🟡|Inter‑State Council (Art 263)",
             "kind": "subsection",
             "children": [
               {
@@ -3445,7 +3397,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Other Key Articles",
+            "label": "🟡|Other Key Articles",
             "kind": "subsection",
             "children": [
               {
@@ -3459,7 +3411,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Failure of Constitutional Machinery in States (Art 365)",
+            "label": "🟡|Failure of Constitutional Machinery in States (Art 365)",
             "kind": "subsection",
             "children": [
               {
@@ -3471,7 +3423,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Doctrines of Interpretation in Centre‑State Legislation",
+        "label": "🟡|Doctrines of Interpretation in Centre‑State Legislation",
         "kind": "subsection",
         "children": [
           {
@@ -3497,17 +3449,13 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Financial Relations (Art 268‑293)",
+        "label": "🟡|Financial Relations (Art 268‑293)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Distribution of Taxing Powers",
+            "label": "🟡|Distribution of Taxing Powers",
             "kind": "subsection",
             "children": [
-              {
-                "label": "🟡|Parliament has exclusive power to levy taxes on subjects in Union List; States on State List.\nConcurrent List has NO major tax subjects (except stamp duties).",
-                "kind": "bullet"
-              },
               {
                 "label": "🟡|Residuary power to impose taxes (on matters not in any list) belongs to Parliament (Art 248).",
                 "kind": "bullet"
@@ -3515,7 +3463,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Types of Tax Distribution (Before & After GST)",
+            "label": "🟡|Types of Tax Distribution (Before & After GST)",
             "kind": "subsection",
             "children": [
               {
@@ -3541,11 +3489,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Grants‑in‑Aid",
+            "label": "🟡|Grants‑in‑Aid",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Statutory Grants (Art 275): Grants from Consolidated Fund of India to such States as Parliament may determine, based on Finance Commission recommendations.\nFor states in need, and for promoting welfare of Scheduled Areas/STs.",
+                "label": "🟡|Statutory Grants (Art 275): Grants from Consolidated Fund of India to such States as Parliament may determine, based on Finance Commission recommendations.\nFor states in need, and for promoting welfare of Scheduled Areas/STs.",
                 "kind": "bullet"
               },
               {
@@ -3555,11 +3503,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Borrowing Powers (Art 292‑293)",
+            "label": "🟡|Borrowing Powers (Art 292‑293)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Centre can borrow within India or abroad on the security of the Consolidated Fund of India, subject to legal/constitutional limits.",
+                "label": "🟡|Centre can borrow within India or abroad on the security of the Consolidated Fund of India, subject to legal/constitutional limits.",
                 "kind": "bullet"
               },
               {
@@ -3573,7 +3521,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Goods & Services Tax Council (Art 279A, inserted by 101st CAA 2016)",
+            "label": "🟡|Goods & Services Tax Council (Art 279A, inserted by 101st CAA 2016)",
             "kind": "amendment",
             "children": [
               {
@@ -3595,11 +3543,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Miscellaneous Financial Provisions",
+            "label": "🟡|Miscellaneous Financial Provisions",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Art 280: Finance Commission – constituted every 5 years.\nRecommends distribution of tax proceeds between Union and States, grants‑in‑aid, and measures to supplement resources of panchayats & municipalities.",
+                "label": "🟡|Art 280: Finance Commission – constituted every 5 years.\nRecommends distribution of tax proceeds between Union and States, grants‑in‑aid, and measures to supplement resources of panchayats & municipalities.",
                 "kind": "article"
               },
               {
@@ -3615,7 +3563,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Important Committees & Commissions on Centre‑State Relations",
+        "label": "🟡|Important Committees & Commissions on Centre‑State Relations",
         "kind": "subsection",
         "children": [
           {
@@ -3629,7 +3577,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield TRAP Compendium for Prelims",
+        "label": "🟡|High‑Yield TRAP Compendium for Prelims",
         "kind": "memory",
         "children": [
           {
@@ -3679,15 +3627,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Legislative Power Matrix",
+        "label": "🟡|High‑Yield Legislative Power Matrix",
         "kind": "subsection",
         "children": [
           {
-            "label": "🟡|Art 246: Normal distribution—Parliament on Union List, States on State List, both on Concurrent List.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🔴|Art 249: State List legislation in national interest via Rajya Sabha resolution (2/3 present and voting).",
+            "label": "🟡|Art 249: State List legislation in national interest via Rajya Sabha resolution (2/3 present and voting).",
             "kind": "bullet"
           },
           {
@@ -3699,21 +3643,17 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|Art 253: Parliament to implement international obligations even on State List matters.",
+            "label": "🟡|Art 253: Parliament to implement international obligations even on State List matters.",
             "kind": "bullet"
           },
           {
             "label": "🔴|Art 356: During President's Rule, Parliament can exercise the legislative powers of the State.",
             "kind": "bullet"
-          },
-          {
-            "label": "🟡|Art 254: Repugnancy on Concurrent List; Presidential assent can give temporary State-law priority in that State, subject to subsequent Parliamentary override.",
-            "kind": "bullet"
           }
         ]
       },
       {
-        "label": "Fiscal Federalism — High‑Yield Map",
+        "label": "🟡|Fiscal Federalism — High‑Yield Map",
         "kind": "subsection",
         "children": [
           {
@@ -3747,15 +3687,15 @@ export const RAW_D = [
   {
     "id": "XIV",
     "p": "pm2",
-    "label": "Inter‑State Relations (Art 261‑263, 301‑307) – Air‑1 Complete",
+    "label": "🟡|Inter‑State Relations (Art 261‑263, 301‑307) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Provisions for Coordination & Dispute Resolution",
+        "label": "🟡|Constitutional Provisions for Coordination & Dispute Resolution",
         "kind": "subsection",
         "children": [
           {
-            "label": "Full Faith and Credit (Art 261)",
+            "label": "🟡|Full Faith and Credit (Art 261)",
             "kind": "subsection",
             "children": [
               {
@@ -3777,7 +3717,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Inter‑State River Water Disputes (Art 262)",
+            "label": "🟡|Inter‑State River Water Disputes (Art 262)",
             "kind": "subsection",
             "children": [
               {
@@ -3807,7 +3747,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Inter‑State Council (Art 263)",
+            "label": "🟡|Inter‑State Council (Art 263)",
             "kind": "subsection",
             "children": [
               {
@@ -3835,7 +3775,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Zonal Councils (Statutory, States Reorganisation Act 1956)",
+        "label": "🟡|Zonal Councils (Statutory, States Reorganisation Act 1956)",
         "kind": "subsection",
         "children": [
           {
@@ -3869,11 +3809,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Freedom of Inter‑State Trade, Commerce & Intercourse (Part XIII, Art 301‑307)",
+        "label": "🟡|Freedom of Inter‑State Trade, Commerce & Intercourse (Part XIII, Art 301‑307)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Art 301: Subject to other provisions of this Part, trade, commerce and intercourse throughout the territory of India shall be free.",
+            "label": "🟡|Art 301: Subject to other provisions of this Part, trade, commerce and intercourse throughout the territory of India shall be free.",
             "kind": "article",
             "children": [
               {
@@ -3883,7 +3823,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Parliament’s Power to Restrict (Art 302)",
+            "label": "🟡|Parliament’s Power to Restrict (Art 302)",
             "kind": "subsection",
             "children": [
               {
@@ -3897,7 +3837,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Prohibition of Discrimination (Art 303)",
+            "label": "🟡|Prohibition of Discrimination (Art 303)",
             "kind": "subsection",
             "children": [
               {
@@ -3911,7 +3851,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "State’s Power to Restrict (Art 304)",
+            "label": "🟡|State’s Power to Restrict (Art 304)",
             "kind": "subsection",
             "children": [
               {
@@ -3929,7 +3869,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Saving of Existing Laws & Authority (Art 305, 307)",
+            "label": "🟡|Saving of Existing Laws & Authority (Art 305, 307)",
             "kind": "subsection",
             "children": [
               {
@@ -3945,7 +3885,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Comparisons & Traps",
+        "label": "🟡|High‑Yield Comparisons & Traps",
         "kind": "comparison",
         "children": [
           {
@@ -3987,7 +3927,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Inter‑State Institutions — One-Glance Comparison",
+        "label": "🟡|Inter‑State Institutions — One-Glance Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -4013,15 +3953,15 @@ export const RAW_D = [
   {
     "id": "XV",
     "p": "pm3",
-    "label": "Emergency Provisions (Art 352‑360) – Air‑1 Complete",
+    "label": "🟡|Emergency Provisions (Art 352‑360) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "National Emergency (Art 352)",
+        "label": "🟡|National Emergency (Art 352)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Grounds for Proclamation",
+            "label": "🟡|Grounds for Proclamation",
             "kind": "subsection",
             "children": [
               {
@@ -4035,7 +3975,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Procedure for Proclamation",
+            "label": "🟡|Procedure for Proclamation",
             "kind": "subsection",
             "children": [
               {
@@ -4053,7 +3993,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Duration and Renewal",
+            "label": "🟡|Duration and Renewal",
             "kind": "subsection",
             "children": [
               {
@@ -4067,7 +4007,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Revocation of National Emergency",
+            "label": "🟡|Revocation of National Emergency",
             "kind": "subsection",
             "children": [
               {
@@ -4081,7 +4021,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Effects of National Emergency",
+            "label": "🟡|Effects of National Emergency",
             "kind": "subsection",
             "children": [
               {
@@ -4099,7 +4039,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Art 358: Suspension of Article 19",
+            "label": "🟡|Art 358: Suspension of Article 19",
             "kind": "article",
             "children": [
               {
@@ -4117,7 +4057,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Art 359: Suspension of Right to Move Court for Enforcement of FRs",
+            "label": "🟡|Art 359: Suspension of Right to Move Court for Enforcement of FRs",
             "kind": "article",
             "children": [
               {
@@ -4143,7 +4083,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "History of National Emergencies",
+            "label": "🟡|History of National Emergencies",
             "kind": "subsection",
             "children": [
               {
@@ -4163,11 +4103,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "President's Rule / State Emergency (Art 356 & 365)",
+        "label": "🟡|President's Rule / State Emergency (Art 356 & 365)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Grounds for Proclamation",
+            "label": "🟡|Grounds for Proclamation",
             "kind": "subsection",
             "children": [
               {
@@ -4181,7 +4121,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Approval and Duration",
+            "label": "🟡|Approval and Duration",
             "kind": "subsection",
             "children": [
               {
@@ -4199,7 +4139,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Effects of President's Rule",
+            "label": "🟡|Effects of President's Rule",
             "kind": "subsection",
             "children": [
               {
@@ -4225,7 +4165,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Judicial Review of President's Rule – S.R.\nBommai v.\nUnion of India (1994)",
+            "label": "🟡|Judicial Review of President's Rule – S.R.\nBommai v.\nUnion of India (1994)",
             "kind": "case",
             "children": [
               {
@@ -4253,11 +4193,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Financial Emergency (Art 360)",
+        "label": "🟡|Financial Emergency (Art 360)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Grounds for Proclamation",
+            "label": "🟡|Grounds for Proclamation",
             "kind": "subsection",
             "children": [
               {
@@ -4267,7 +4207,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Approval and Duration",
+            "label": "🟡|Approval and Duration",
             "kind": "subsection",
             "children": [
               {
@@ -4285,7 +4225,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Effects of Financial Emergency",
+            "label": "🟡|Effects of Financial Emergency",
             "kind": "subsection",
             "children": [
               {
@@ -4309,11 +4249,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Comparison of the Three Emergencies",
+        "label": "🟡|Comparison of the Three Emergencies",
         "kind": "comparison",
         "children": [
           {
-            "label": "National Emergency vs President's Rule vs Financial Emergency",
+            "label": "🟡|National Emergency vs President's Rule vs Financial Emergency",
             "kind": "comparison",
             "children": [
               {
@@ -4345,7 +4285,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield TRAP Compendium",
+        "label": "🟡|High‑Yield TRAP Compendium",
         "kind": "memory",
         "children": [
           {
@@ -4391,7 +4331,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Emergency — High‑Yield Article Matrix",
+        "label": "🟡|Emergency — High‑Yield Article Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -4421,7 +4361,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Emergency — Key Judicial/Constitutional Safeguards",
+        "label": "🟡|Emergency — Key Judicial/Constitutional Safeguards",
         "kind": "subsection",
         "children": [
           {
@@ -4435,7 +4375,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Emergency — Final 5-Line Matrix",
+        "label": "🟡|Emergency — Final 5-Line Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -4465,19 +4405,19 @@ export const RAW_D = [
   {
     "id": "XVI",
     "p": "pm3",
-    "label": "President (Art 52-62, 72, 123)",
+    "label": "🟡|President (Art 52-62, 72, 123)",
     "kind": "section",
     "children": [
       {
-        "label": "Election & Qualifications",
+        "label": "🟡|Election & Qualifications",
         "kind": "subsection",
         "children": [
           {
-            "label": "Electoral College & Voting Mechanics",
+            "label": "🟡|Electoral College & Voting Mechanics",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Electoral College: Elected MPs (Lok Sabha + Rajya Sabha) + elected MLAs of the States + elected MLAs of Delhi and Puducherry.\nTRAP: Nominated MPs, nominated MLAs and all MLCs are excluded from voting. The Constitution's current electoral-college provision does not include J&K here.\nPYQ traps: Vacancy/dissolution of some State Assemblies does not postpone the Presidential election; an election declared void does not automatically invalidate all acts done by the President before the Supreme Court's decision.",
+                "label": "🟡|Electoral College: Elected MPs (Lok Sabha + Rajya Sabha) + elected MLAs of the States + elected MLAs of Delhi and Puducherry.\nTRAP: Nominated MPs, nominated MLAs and all MLCs are excluded from voting. The Constitution's current electoral-college provision does not include J&K here.",
                 "kind": "bullet"
               },
               {
@@ -4485,7 +4425,7 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "🔴|Value of each MLA's vote = (Population of State ÷ total number of elected MLAs of the State Assembly) × 1/1000.\nTRAP: For the Presidential election, the population basis remains the 1971 Census until the figures of the first Census after 2026 are published, under the constitutional freeze.",
+                "label": "🟡|Value of each MLA's vote = (Population of State ÷ total number of elected MLAs of the State Assembly) × 1/1000.\nTRAP: For the Presidential election, the population basis remains the 1971 Census until the figures of the first Census after 2026 are published, under the constitutional freeze.",
                 "kind": "amendment"
               },
               {
@@ -4495,7 +4435,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Eligibility",
+            "label": "🟡|Eligibility",
             "kind": "subsection",
             "children": [
               {
@@ -4507,11 +4447,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Conditions of Office & Removal",
+        "label": "🟡|Conditions of Office & Removal",
         "kind": "subsection",
         "children": [
           {
-            "label": "Oath, Term & Vacancy",
+            "label": "🟡|Oath, Term & Vacancy",
             "kind": "subsection",
             "children": [
               {
@@ -4529,7 +4469,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Impeachment (Art 61)",
+            "label": "🟡|Impeachment (Art 61)",
             "kind": "subsection",
             "children": [
               {
@@ -4549,11 +4489,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Executive & Legislative Powers",
+        "label": "🟡|Executive & Legislative Powers",
         "kind": "subsection",
         "children": [
           {
-            "label": "Ordinance Making Power (Art 123)",
+            "label": "🟡|Ordinance Making Power (Art 123)",
             "kind": "subsection",
             "children": [
               {
@@ -4579,7 +4519,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Veto & Discretionary Powers",
+            "label": "🟡|Veto & Discretionary Powers",
             "kind": "subsection",
             "children": [
               {
@@ -4619,11 +4559,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Judicial Powers",
+        "label": "🟡|Judicial Powers",
         "kind": "subsection",
         "children": [
           {
-            "label": "Pardoning Power (Art 72)",
+            "label": "🟡|Pardoning Power (Art 72)",
             "kind": "subsection",
             "children": [
               {
@@ -4643,7 +4583,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "President — Election vs Impeachment vs Vacancy Quick Map",
+        "label": "🟡|President — Election vs Impeachment vs Vacancy Quick Map",
         "kind": "comparison",
         "children": [
           {
@@ -4665,7 +4605,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "President — Veto Matrix",
+        "label": "🟡|President — Veto Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -4673,7 +4613,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|Money Bill: President may assent or withhold assent; cannot return it for reconsideration.",
+            "label": "🟡|Money Bill: President may assent or withhold assent; cannot return it for reconsideration.",
             "kind": "bullet"
           },
           {
@@ -4691,15 +4631,15 @@ export const RAW_D = [
   {
     "id": "XVII",
     "p": "pm",
-    "label": "Vice-President (Art 63-71)",
+    "label": "🟡|Vice-President (Art 63-71)",
     "kind": "section",
     "children": [
       {
-        "label": "Office of Vice-President",
+        "label": "🟡|Office of Vice-President",
         "kind": "subsection",
         "children": [
           {
-            "label": "Role & Election",
+            "label": "🟡|Role & Election",
             "kind": "subsection",
             "children": [
               {
@@ -4721,7 +4661,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Conditions of Office & Functions",
+            "label": "🟡|Conditions of Office & Functions",
             "kind": "subsection",
             "children": [
               {
@@ -4739,7 +4679,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Removal Procedure",
+            "label": "🟡|Removal Procedure",
             "kind": "subsection",
             "children": [
               {
@@ -4755,7 +4695,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Vice-President — Core Comparisons",
+        "label": "🟡|Vice-President — Core Comparisons",
         "kind": "comparison",
         "children": [
           {
@@ -4777,15 +4717,15 @@ export const RAW_D = [
   {
     "id": "XVIII",
     "p": "pm3",
-    "label": "Prime Minister & Central Council of Ministers",
+    "label": "🟡|Prime Minister & Central Council of Ministers",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Provisions",
+        "label": "🟡|Constitutional Provisions",
         "kind": "subsection",
         "children": [
           {
-            "label": "Articles 74, 75 & 78",
+            "label": "🟡|Articles 74, 75 & 78",
             "kind": "subsection",
             "children": [
               {
@@ -4805,11 +4745,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Composition & Functioning of CoM",
+        "label": "🟡|Composition & Functioning of CoM",
         "kind": "subsection",
         "children": [
           {
-            "label": "Size, Grades & Membership",
+            "label": "🟡|Size, Grades & Membership",
             "kind": "subsection",
             "children": [
               {
@@ -4827,7 +4767,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Responsibility & Cabinet Dynamics",
+            "label": "🟡|Responsibility & Cabinet Dynamics",
             "kind": "subsection",
             "children": [
               {
@@ -4847,7 +4787,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Prime Minister — Core Constitutional Map",
+        "label": "🟡|Prime Minister — Core Constitutional Map",
         "kind": "subsection",
         "children": [
           {
@@ -4873,15 +4813,15 @@ export const RAW_D = [
   {
     "id": "XIX",
     "p": "pm3",
-    "label": "Governor (Art 153-167)",
+    "label": "🟡|Governor (Art 153-167)",
     "kind": "section",
     "children": [
       {
-        "label": "Office of Governor",
+        "label": "🟡|Office of Governor",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointment & Tenure",
+            "label": "🟡|Appointment & Tenure",
             "kind": "subsection",
             "children": [
               {
@@ -4895,7 +4835,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Qualifications & Conventions",
+            "label": "🟡|Qualifications & Conventions",
             "kind": "subsection",
             "children": [
               {
@@ -4907,11 +4847,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Executive & Legislative Powers",
+        "label": "🟡|Executive & Legislative Powers",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointments & Legislature Management",
+            "label": "🟡|Appointments & Legislature Management",
             "kind": "subsection",
             "children": [
               {
@@ -4929,7 +4869,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Assent to Bills (Art 200) & Ordinances (Art 213)",
+            "label": "🟡|Assent to Bills (Art 200) & Ordinances (Art 213)",
             "kind": "subsection",
             "children": [
               {
@@ -4961,11 +4901,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Judicial & Discretionary Powers",
+        "label": "🟡|Judicial & Discretionary Powers",
         "kind": "subsection",
         "children": [
           {
-            "label": "Pardoning Power (Art 161)",
+            "label": "🟡|Pardoning Power (Art 161)",
             "kind": "subsection",
             "children": [
               {
@@ -4983,11 +4923,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Discretionary Powers (Art 163)",
+            "label": "🟡|Discretionary Powers (Art 163)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Constitution explicitly provides that Governor acts in his discretion in certain matters; discretion is wider than President's discretion",
+                "label": "🟡|Constitution explicitly provides that Governor acts in his discretion in certain matters; discretion is wider than President's discretion",
                 "kind": "bullet"
               },
               {
@@ -5003,7 +4943,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Governor — Assent, Discretion & Pardon Quick Map",
+        "label": "🟡|Governor — Assent, Discretion & Pardon Quick Map",
         "kind": "comparison",
         "children": [
           {
@@ -5019,7 +4959,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|Governor's discretion is constitutionally limited and context-specific; it is not a general personal veto over the elected State government.",
+            "label": "🟡|Governor's discretion is constitutionally limited and context-specific; it is not a general personal veto over the elected State government.",
             "kind": "bullet"
           }
         ]
@@ -5029,19 +4969,19 @@ export const RAW_D = [
   {
     "id": "XX",
     "p": "pm3",
-    "label": "Chief Minister & State Council of Ministers",
+    "label": "🟡|Chief Minister & State Council of Ministers",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Framework",
+        "label": "🟡|Constitutional Framework",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointment & Responsibilities (Art 163, 164, 167)",
+            "label": "🟡|Appointment & Responsibilities (Art 163, 164, 167)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Art 163: CoM to aid and advise Governor (binding except in matters where Governor acts in discretion)",
+                "label": "🟡|Art 163: CoM to aid and advise Governor (binding except in matters where Governor acts in discretion)",
                 "kind": "article"
               },
               {
@@ -5057,11 +4997,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Composition of State CoM",
+        "label": "🟡|Composition of State CoM",
         "kind": "subsection",
         "children": [
           {
-            "label": "Size & Special Provisions",
+            "label": "🟡|Size & Special Provisions",
             "kind": "subsection",
             "children": [
               {
@@ -5077,11 +5017,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "State Council of Ministers — Core Map",
+        "label": "🟡|State Council of Ministers — Core Map",
         "kind": "subsection",
         "children": [
           {
-            "label": "🔴|Art 163: CoM with CM at head aids and advises the Governor, except where the Constitution requires/permits the Governor to act in discretion.",
+            "label": "🟡|Art 163: CoM with CM at head aids and advises the Governor, except where the Constitution requires/permits the Governor to act in discretion.",
             "kind": "bullet"
           },
           {
@@ -5103,15 +5043,15 @@ export const RAW_D = [
   {
     "id": "XXI",
     "p": "pm3",
-    "label": "Parliament (Art 79‑122) – Air‑1 Complete",
+    "label": "🟡|Parliament (Art 79‑122) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Composition & Structure",
+        "label": "🟡|Composition & Structure",
         "kind": "subsection",
         "children": [
           {
-            "label": "Art 79: Parliament = President + Lok Sabha + Rajya Sabha",
+            "label": "🟡|Art 79: Parliament = President + Lok Sabha + Rajya Sabha",
             "kind": "article",
             "children": [
               {
@@ -5121,7 +5061,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Rajya Sabha (Council of States)",
+            "label": "🟡|Rajya Sabha (Council of States)",
             "kind": "subsection",
             "children": [
               {
@@ -5130,10 +5070,6 @@ export const RAW_D = [
               },
               {
                 "label": "🟡|Elected by elected members of State Legislative Assemblies via proportional representation (single transferable vote).\nTRAP: Elected members of UT Assemblies (Delhi, Puducherry) also vote.",
-                "kind": "bullet"
-              },
-              {
-                "label": "🟡|Current RS representation of UTs includes Delhi (3), Puducherry (1) and Jammu & Kashmir (4). Other UTs have no Rajya Sabha seats. Treat current seat allocations as revisable.",
                 "kind": "bullet"
               },
               {
@@ -5147,19 +5083,15 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Lok Sabha (House of the People)",
+            "label": "🟡|Lok Sabha (House of the People)",
             "kind": "subsection",
             "children": [
-              {
-                "label": "🟡|Constitutional maximum elected strength is 550 (530 from States + up to 20 from UTs); the current House has fewer seats under the existing delimitation framework.\nTerm 5 years from first meeting, extendable by Parliament by law by 1 year at a time during a National Emergency, but not beyond 6 months after the Emergency ceases.\n104th CAA 2020 ended the constitutional provision for Anglo‑Indian nominated seats.",
-                "kind": "amendment"
-              },
               {
                 "label": "🔴|Reservation of seats for SCs/STs in the Lok Sabha is subject to constitutional delimitation arrangements and was extended for another 10 years by the 104th CAA (to 2030).\nTRAP: Do not treat fixed seat counts such as 84/47 as permanently immutable; delimitation and reservation arrangements are constitutionally time-sensitive.",
                 "kind": "amendment"
               },
               {
-                "label": "🟡|Election: Direct, universal adult suffrage, first‑past‑the‑post system.\nPYQ: Winning candidate need not secure 50%+1 of votes; the candidate with the highest valid votes wins in FPTP.",
+                "label": "🟡|Election: Direct, universal adult suffrage, first‑past‑the‑post system.",
                 "kind": "bullet"
               },
               {
@@ -5171,11 +5103,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Membership & Disqualifications",
+        "label": "🟡|Membership & Disqualifications",
         "kind": "subsection",
         "children": [
           {
-            "label": "Qualifications (Art 84 & RPA 1951)",
+            "label": "🟡|Qualifications (Art 84 & RPA 1951)",
             "kind": "subsection",
             "children": [
               {
@@ -5189,7 +5121,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Disqualifications (Art 102)",
+            "label": "🟡|Disqualifications (Art 102)",
             "kind": "subsection",
             "children": [
               {
@@ -5207,7 +5139,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Office of Profit (Art 102/191)",
+            "label": "🟡|Office of Profit (Art 102/191)",
             "kind": "subsection",
             "children": [
               {
@@ -5229,7 +5161,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Anti‑Defection Law (10th Schedule, added by 52nd CAA 1985)",
+            "label": "🟡|Anti‑Defection Law (10th Schedule, added by 52nd CAA 1985)",
             "kind": "amendment",
             "children": [
               {
@@ -5253,11 +5185,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Presiding Officers & Key Functionaries",
+        "label": "🟡|Presiding Officers & Key Functionaries",
         "kind": "subsection",
         "children": [
           {
-            "label": "Speaker of Lok Sabha",
+            "label": "🟡|Speaker of Lok Sabha",
             "kind": "subsection",
             "children": [
               {
@@ -5275,7 +5207,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Deputy Speaker & Panel of Chairpersons",
+            "label": "🟡|Deputy Speaker & Panel of Chairpersons",
             "kind": "subsection",
             "children": [
               {
@@ -5289,7 +5221,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Rajya Sabha Presiding Officers",
+            "label": "🟡|Rajya Sabha Presiding Officers",
             "kind": "subsection",
             "children": [
               {
@@ -5307,7 +5239,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Other Functionaries",
+            "label": "🟡|Other Functionaries",
             "kind": "subsection",
             "children": [
               {
@@ -5327,11 +5259,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Sessions, Summoning & Prorogation",
+        "label": "🟡|Sessions, Summoning & Prorogation",
         "kind": "subsection",
         "children": [
           {
-            "label": "Sessions & Summoning",
+            "label": "🟡|Sessions & Summoning",
             "kind": "subsection",
             "children": [
               {
@@ -5341,7 +5273,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Adjournment & Adjournment Sine Die",
+            "label": "🟡|Adjournment & Adjournment Sine Die",
             "kind": "subsection",
             "children": [
               {
@@ -5355,7 +5287,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Prorogation",
+            "label": "🟡|Prorogation",
             "kind": "subsection",
             "children": [
               {
@@ -5365,7 +5297,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Dissolution",
+            "label": "🟡|Dissolution",
             "kind": "subsection",
             "children": [
               {
@@ -5379,7 +5311,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Lapsing Rules (Critical for Prelims)",
+            "label": "🟡|Lapsing Rules (Critical for Prelims)",
             "kind": "subsection",
             "children": [
               {
@@ -5393,7 +5325,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Quorum & Lame‑duck Session",
+            "label": "🟡|Quorum & Lame‑duck Session",
             "kind": "subsection",
             "children": [
               {
@@ -5409,21 +5341,21 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Legislative Procedures: Bills",
+        "label": "🟡|Legislative Procedures: Bills",
         "kind": "subsection",
         "children": [
           {
-            "label": "Ordinary Bill (Art 107‑108)",
+            "label": "🟡|Ordinary Bill (Art 107‑108)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Can originate in either House (except Money Bills).\nRequires simple majority.\n5 stages.\nDisagreement → Joint Sitting (Art 108) summoned by President, presided by Speaker (or Dy Speaker/Dy Chairman; NEVER Chairman RS).",
+                "label": "🟡|Can originate in either House (except Money Bills).\nRequires simple majority.\n5 stages.\nDisagreement → Joint Sitting (Art 108) summoned by President, presided by Speaker (or Dy Speaker/Dy Chairman; NEVER Chairman RS).",
                 "kind": "bullet"
               }
             ]
           },
           {
-            "label": "Money Bill (Art 110)",
+            "label": "🟡|Money Bill (Art 110)",
             "kind": "subsection",
             "children": [
               {
@@ -5437,7 +5369,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Financial Bills",
+            "label": "🟡|Financial Bills",
             "kind": "subsection",
             "children": [
               {
@@ -5451,7 +5383,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Constitutional Amendment Bill (Art 368)",
+            "label": "🟡|Constitutional Amendment Bill (Art 368)",
             "kind": "amendment",
             "children": [
               {
@@ -5461,7 +5393,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Joint Sitting (Art 108)",
+            "label": "🟡|Joint Sitting (Art 108)",
             "kind": "subsection",
             "children": [
               {
@@ -5477,11 +5409,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Financial Business & Budget",
+        "label": "🟡|Financial Business & Budget",
         "kind": "subsection",
         "children": [
           {
-            "label": "Annual Financial Statement (Art 112) – Budget",
+            "label": "🟡|Annual Financial Statement (Art 112) – Budget",
             "kind": "subsection",
             "children": [
               {
@@ -5495,7 +5427,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Charged Expenditure (Art 112(2))",
+            "label": "🟡|Charged Expenditure (Art 112(2))",
             "kind": "subsection",
             "children": [
               {
@@ -5505,7 +5437,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Types of Grants",
+            "label": "🟡|Types of Grants",
             "kind": "subsection",
             "children": [
               {
@@ -5539,17 +5471,17 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Consolidated Fund of India (Art 266)",
+            "label": "🟡|Consolidated Fund of India (Art 266)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Consolidated Fund of India: revenues received by the Government, loans raised by the Government and money received in repayment of loans.\nNo money can be withdrawn from the CFI except under appropriation made by law, subject to constitutionally charged expenditure.",
+                "label": "🟡|Consolidated Fund of India: revenues received by the Government, loans raised by the Government and money received in repayment of loans.\nNo money can be withdrawn from the CFI except under appropriation made by law, subject to constitutionally charged expenditure.",
                 "kind": "bullet"
               }
             ]
           },
           {
-            "label": "Public Account of India (Art 266)",
+            "label": "🟡|Public Account of India (Art 266)",
             "kind": "subsection",
             "children": [
               {
@@ -5557,33 +5489,23 @@ export const RAW_D = [
                 "kind": "bullet"
               }
             ]
-          },
-          {
-            "label": "Contingency Fund of India (Art 267)",
-            "kind": "subsection",
-            "children": [
-              {
-                "label": "🟡|Contingency Fund of India (Art 267): imprest placed at the President's disposal for urgent, unforeseen expenditure pending Parliamentary authorisation; the corpus is fixed by Parliament and is current-sensitive (it stood at ₹30,000 crore in the 2025-26 Budget documents).\nMust be recouped after ex-post-facto authorisation.",
-                "kind": "bullet"
-              }
-            ]
           }
         ]
       },
       {
-        "label": "Parliamentary Committees",
+        "label": "🟡|Parliamentary Committees",
         "kind": "subsection",
         "children": [
           {
-            "label": "Financial Committees",
+            "label": "🟡|Financial Committees",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Public Accounts Committee (PAC): 22 members (15 LS + 7 RS).\nTerm 1 year.\nExamines CAG reports.\nChairman from Opposition.\nMinister cannot be member.",
+                "label": "🟡|Public Accounts Committee (PAC): 22 members (15 LS + 7 RS).\nTerm 1 year.\nExamines CAG reports.\nChairman from Opposition.\nMinister cannot be member.",
                 "kind": "bullet"
               },
               {
-                "label": "🔴|Estimates Committee: 30 members; ALL from Lok Sabha only.\nExamines budget estimates and suggests economies.\nChairman from ruling party.\nMinister cannot be member.",
+                "label": "🟡|Estimates Committee: 30 members; ALL from Lok Sabha only.\nExamines budget estimates and suggests economies.\nChairman from ruling party.\nMinister cannot be member.",
                 "kind": "bullet"
               },
               {
@@ -5593,7 +5515,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Departmentally Related Standing Committees (DRSCs)",
+            "label": "🟡|Departmentally Related Standing Committees (DRSCs)",
             "kind": "subsection",
             "children": [
               {
@@ -5603,7 +5525,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Other Key Committees",
+            "label": "🟡|Other Key Committees",
             "kind": "subsection",
             "children": [
               {
@@ -5635,11 +5557,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Parliamentary Devices & Motions",
+        "label": "🟡|Parliamentary Devices & Motions",
         "kind": "subsection",
         "children": [
           {
-            "label": "Motions",
+            "label": "🟡|Motions",
             "kind": "subsection",
             "children": [
               {
@@ -5669,7 +5591,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Cut Motions (LS only, Demands for Grants)",
+            "label": "🟡|Cut Motions (LS only, Demands for Grants)",
             "kind": "subsection",
             "children": [
               {
@@ -5687,7 +5609,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Closure Motions",
+            "label": "🟡|Closure Motions",
             "kind": "subsection",
             "children": [
               {
@@ -5709,7 +5631,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Question Hour & Zero Hour",
+            "label": "🟡|Question Hour & Zero Hour",
             "kind": "subsection",
             "children": [
               {
@@ -5727,7 +5649,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Other Devices",
+            "label": "🟡|Other Devices",
             "kind": "subsection",
             "children": [
               {
@@ -5743,11 +5665,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Parliamentary Privileges (Art 105 & 194)",
+        "label": "🟡|Parliamentary Privileges (Art 105 & 194)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Individual Privileges of Members",
+            "label": "🟡|Individual Privileges of Members",
             "kind": "subsection",
             "children": [
               {
@@ -5765,7 +5687,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Collective Privileges",
+            "label": "🟡|Collective Privileges",
             "kind": "subsection",
             "children": [
               {
@@ -5783,11 +5705,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Privileges of Non‑Members",
+            "label": "🟡|Privileges of Non‑Members",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Attorney-General of India and Advocate-General of a State may participate in Parliamentary/State-legislature proceedings without voting and enjoy the privileges available for such participation as provided by the Constitution.",
+                "label": "🟡|Attorney-General of India and Advocate-General of a State may participate in Parliamentary/State-legislature proceedings without voting and enjoy the privileges available for such participation as provided by the Constitution.",
                 "kind": "bullet"
               },
               {
@@ -5799,11 +5721,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Doctrines & Judicial Interpretations",
+        "label": "🟡|Key Doctrines & Judicial Interpretations",
         "kind": "subsection",
         "children": [
           {
-            "label": "🔴|Speaker’s certificate on Money Bill conclusive (Art 110): No judicial review.\nBut recent challenge in Aadhaar Act case (Puttaswamy) saw SC uphold certificate; but minority view suggested limited review.",
+            "label": "🟡|Speaker's certification under Art 110(3) has constitutional significance but is not an absolute bar on judicial review; courts may examine constitutional infirmity, mala fides, perversity or material violation of mandatory requirements.",
             "kind": "bullet"
           },
           {
@@ -5829,7 +5751,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield TRAP Compendium",
+        "label": "🟡|High‑Yield TRAP Compendium",
         "kind": "memory",
         "children": [
           {
@@ -5895,7 +5817,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Parliament — Core House Comparison",
+        "label": "🟡|Parliament — Core House Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -5917,7 +5839,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Anti‑Defection — Final Memory Map",
+        "label": "🟡|Anti‑Defection — Final Memory Map",
         "kind": "comparison",
         "children": [
           {
@@ -5939,7 +5861,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Budget — High‑Yield Flow",
+        "label": "🟡|Budget — High‑Yield Flow",
         "kind": "comparison",
         "children": [
           {
@@ -5961,11 +5883,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Parliamentary Devices — High‑Yield Comparison",
+        "label": "🟡|Parliamentary Devices — High‑Yield Comparison",
         "kind": "comparison",
         "children": [
           {
-            "label": "🔴|No-Confidence Motion → only Lok Sabha → tests whether the Council of Ministers retains majority support.",
+            "label": "🟡|No-Confidence Motion → only Lok Sabha → tests whether the Council of Ministers retains majority support.",
             "kind": "bullet"
           },
           {
@@ -5991,7 +5913,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Parliament — Final High-Yield Matrix",
+        "label": "🟡|Parliament — Final High-Yield Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -6007,7 +5929,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|No-confidence motion → only Lok Sabha; tests Council of Ministers' majority.",
+            "label": "🟡|No-confidence motion → only Lok Sabha; tests Council of Ministers' majority.",
             "kind": "bullet"
           },
           {
@@ -6021,7 +5943,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Parliament — Final Bill Matrix",
+        "label": "🟡|Parliament — Final Bill Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -6047,25 +5969,21 @@ export const RAW_D = [
   {
     "id": "XXII",
     "p": "pm3",
-    "label": "State Legislature (Art 168‑212) – Air‑1 Complete",
+    "label": "🟡|State Legislature (Art 168‑212) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Framework",
+        "label": "🟡|Constitutional Framework",
         "kind": "subsection",
         "children": [
           {
             "label": "🟡|Art 168: For every State there shall be a Legislature consisting of the Governor and (a) one House, or (b) two Houses.\nUnicameral states have only Legislative Assembly; bicameral states have both.",
             "kind": "article"
-          },
-          {
-            "label": "🟡|Bicameral States (6 in the source's 2025 framing): Andhra Pradesh, Telangana, Uttar Pradesh, Bihar, Maharashtra and Karnataka.\nTRAP: The exact list is current-sensitive; creation/abolition of a Legislative Council follows Art 169.",
-            "kind": "bullet"
           }
         ]
       },
       {
-        "label": "Legislative Assembly (Vidhan Sabha)",
+        "label": "🟡|Legislative Assembly (Vidhan Sabha)",
         "kind": "subsection",
         "children": [
           {
@@ -6087,7 +6005,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Legislative Council (Vidhan Parishad) – Art 169, 171",
+        "label": "🟡|Legislative Council (Vidhan Parishad) – Art 169, 171",
         "kind": "subsection",
         "children": [
           {
@@ -6117,7 +6035,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Membership & Disqualifications",
+        "label": "🟡|Membership & Disqualifications",
         "kind": "subsection",
         "children": [
           {
@@ -6135,7 +6053,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Presiding Officers",
+        "label": "🟡|Presiding Officers",
         "kind": "subsection",
         "children": [
           {
@@ -6149,7 +6067,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Legislative Procedure & Bills",
+        "label": "🟡|Legislative Procedure & Bills",
         "kind": "subsection",
         "children": [
           {
@@ -6167,7 +6085,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Governor’s Assent & Reservation for President (Art 200, 201)",
+        "label": "🟡|Governor’s Assent & Reservation for President (Art 200, 201)",
         "kind": "subsection",
         "children": [
           {
@@ -6189,7 +6107,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Comparison: Parliament vs State Legislature (Key Differences)",
+        "label": "🟡|Comparison: Parliament vs State Legislature (Key Differences)",
         "kind": "comparison",
         "children": [
           {
@@ -6215,7 +6133,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Articles & High‑Yield Traps",
+        "label": "🟡|Key Articles & High‑Yield Traps",
         "kind": "subsection",
         "children": [
           {
@@ -6273,7 +6191,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Miscellaneous Points",
+        "label": "🟡|Miscellaneous Points",
         "kind": "subsection",
         "children": [
           {
@@ -6291,7 +6209,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "State Legislature — Assembly vs Council Final Map",
+        "label": "🟡|State Legislature — Assembly vs Council Final Map",
         "kind": "comparison",
         "children": [
           {
@@ -6313,7 +6231,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "State Legislature — Final High-Yield Matrix",
+        "label": "🟡|State Legislature — Final High-Yield Matrix",
         "kind": "comparison",
         "children": [
           {
@@ -6339,17 +6257,13 @@ export const RAW_D = [
   {
     "id": "XXIII",
     "p": "pm3",
-    "label": "Supreme Court (Art 124‑147) – Air‑1 Complete",
+    "label": "🟡|Supreme Court (Art 124‑147) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Composition, Seat & Strength",
+        "label": "🟡|Composition, Seat & Strength",
         "kind": "subsection",
         "children": [
-          {
-            "label": "🟡|Art 124: Supreme Court of India consists of Chief Justice of India (CJI) and such number of other judges as Parliament may by law prescribe.\nCurrently 34 judges (CJI + 33).\nParliament can increase strength.",
-            "kind": "article"
-          },
           {
             "label": "🟡|Seat: Delhi.\nCJI may, with approval of President, appoint any other place(s) as seat(s) – e.g., regional benches not yet established.",
             "kind": "fact"
@@ -6373,7 +6287,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Qualifications for Appointment (Art 124(3))",
+        "label": "🟡|Qualifications for Appointment (Art 124(3))",
         "kind": "subsection",
         "children": [
           {
@@ -6391,7 +6305,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Oath or Affirmation (Art 124(6))",
+        "label": "🟡|Oath or Affirmation (Art 124(6))",
         "kind": "subsection",
         "children": [
           {
@@ -6401,7 +6315,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Tenure & Removal of Judges",
+        "label": "🟡|Tenure & Removal of Judges",
         "kind": "subsection",
         "children": [
           {
@@ -6423,7 +6337,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Independence Safeguards",
+        "label": "🟡|Independence Safeguards",
         "kind": "subsection",
         "children": [
           {
@@ -6445,7 +6359,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Collegium System for Appointment & Transfer",
+        "label": "🟡|Collegium System for Appointment & Transfer",
         "kind": "subsection",
         "children": [
           {
@@ -6471,7 +6385,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Court of Record & Contempt Power (Art 129)",
+        "label": "🟡|Court of Record & Contempt Power (Art 129)",
         "kind": "subsection",
         "children": [
           {
@@ -6483,13 +6397,13 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|Contempt: civil contempt includes wilful disobedience of court orders; criminal contempt covers legally defined conduct that interferes with or tends to interfere with the administration of justice or lowers the authority of the court. Punishment is governed by the Contempt of Courts Act, 1971 and applicable judicial powers.\nPYQ: Supreme Court and High Courts have constitutional contempt power as courts of record; the Contempt of Courts Act, 1971 provides the statutory definitions of civil/criminal contempt; Parliament can legislate on contempt.",
+            "label": "🟡|Contempt: civil contempt includes wilful disobedience of court orders; criminal contempt covers legally defined conduct that interferes with or tends to interfere with the administration of justice or lowers the authority of the court. Punishment is governed by the Contempt of Courts Act, 1971 and applicable judicial powers.",
             "kind": "bullet"
           }
         ]
       },
       {
-        "label": "Jurisdictions of Supreme Court – Overview",
+        "label": "🟡|Jurisdictions of Supreme Court – Overview",
         "kind": "subsection",
         "children": [
           {
@@ -6499,7 +6413,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Original Jurisdiction (Art 131) – Exclusive Federal Disputes",
+        "label": "🟡|Original Jurisdiction (Art 131) – Exclusive Federal Disputes",
         "kind": "subsection",
         "children": [
           {
@@ -6517,7 +6431,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Writ Jurisdiction (Art 32) – ‘Heart and Soul’",
+        "label": "🟡|Writ Jurisdiction (Art 32) – ‘Heart and Soul’",
         "kind": "subsection",
         "children": [
           {
@@ -6535,7 +6449,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Appellate Jurisdiction",
+        "label": "🟡|Appellate Jurisdiction",
         "kind": "subsection",
         "children": [
           {
@@ -6561,7 +6475,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Advisory Jurisdiction (Art 143)",
+        "label": "🟡|Advisory Jurisdiction (Art 143)",
         "kind": "subsection",
         "children": [
           {
@@ -6583,11 +6497,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Review Jurisdiction (Art 137) & Curative Petition",
+        "label": "🟡|Review Jurisdiction (Art 137) & Curative Petition",
         "kind": "subsection",
         "children": [
           {
-            "label": "🔴|SC can review its own judgments under Art 137, subject to provisions of any law made by Parliament.\nReview petition: filed within the period prescribed by the Supreme Court Rules/limitation framework; do not hard-freeze a single 30-day figure without checking the applicable procedural rule.\nPYQ trap: High Courts also possess review powers under applicable statutes/procedural law; Art 137 is the Supreme Court's express constitutional review provision.",
+            "label": "🟡|SC can review its own judgments under Art 137, subject to provisions of any law made by Parliament.\nReview petition: filed within the period prescribed by the Supreme Court Rules/limitation framework; do not hard-freeze a single 30-day figure without checking the applicable procedural rule.",
             "kind": "bullet"
           },
           {
@@ -6597,7 +6511,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Inherent Powers (Art 142)",
+        "label": "🟡|Inherent Powers (Art 142)",
         "kind": "subsection",
         "children": [
           {
@@ -6611,7 +6525,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Miscellaneous Provisions & Traps",
+        "label": "🟡|Miscellaneous Provisions & Traps",
         "kind": "subsection",
         "children": [
           {
@@ -6637,13 +6551,9 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield TRAP Compendium for Prelims",
+        "label": "🟡|High‑Yield TRAP Compendium for Prelims",
         "kind": "memory",
         "children": [
-          {
-            "label": "🟡|CJI vs SC strength: Strength fixed by Parliament, not Constitution.\nCurrently 34.",
-            "kind": "comparison"
-          },
           {
             "label": "🟡|Acting CJI vs regular CJI appointment: Acting CJI appointed by President automatically (senior‑most), no separate consultation.",
             "kind": "comparison"
@@ -6699,7 +6609,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Supreme Court — Jurisdiction Master Map",
+        "label": "🟡|Supreme Court — Jurisdiction Master Map",
         "kind": "comparison",
         "children": [
           {
@@ -6727,59 +6637,23 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchors — Judiciary",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|Judicial independence = security of tenure + institutional autonomy + transparent appointments + adequate resources + insulation from executive/legislative pressure.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|PIL growth: relaxed locus standi, epistolary jurisdiction, judicial activism and access to justice expanded the role of courts; concerns include judicial overreach and institutional accountability.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Right to privacy under Art 21 is now part of a wider dignity/autonomy framework; modern questions also involve balancing privacy with compelling public interests and evidentiary needs.",
-            "kind": "bullet"
-          }
-        ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchor — Gender Justice",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|Constitutional framework: Arts 14, 15(3), 16, 21, 39(d), 42 and 51A(e) together support substantive gender equality, dignity and affirmative measures.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Key case-law direction: Vishaka (workplace sexual harassment), Anuj Garg (anti-paternalism/equality), Joseph Shine (decriminalisation of adultery) and related equality/dignity jurisprudence.",
-            "kind": "bullet"
-          }
-        ]
       }
     ]
   },
   {
     "id": "XXIV",
     "p": "pm2",
-    "label": "High Courts & Subordinate Courts (Art 214‑237) – Air‑1 Complete",
+    "label": "🟡|High Courts & Subordinate Courts (Art 214‑237) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "High Courts – Constitutional Framework (Part VI, Chapter V)",
+        "label": "🟡|High Courts – Constitutional Framework (Part VI, Chapter V)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Establishment & Composition",
+            "label": "🟡|Establishment & Composition",
             "kind": "subsection",
             "children": [
-              {
-                "label": "🟡|Art 214: There shall be a High Court for each State.\nArt 231: Parliament may by law establish a common High Court for two or more States or for two or more States and a Union Territory.\nCurrent number of High Courts is time-sensitive; keep the exact count in current affairs rather than freezing it permanently.\nOldest: Calcutta High Court (est.\n1862).",
-                "kind": "article"
-              },
               {
                 "label": "🟡|TRAP: Every High Court is established by the Constitution itself or by Parliament under Art 231; not by an ordinary executive order.",
                 "kind": "trap"
@@ -6795,7 +6669,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Appointment of High Court Judges (Art 217)",
+            "label": "🟡|Appointment of High Court Judges (Art 217)",
             "kind": "subsection",
             "children": [
               {
@@ -6817,7 +6691,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Qualifications (Art 217(2))",
+            "label": "🟡|Qualifications (Art 217(2))",
             "kind": "subsection",
             "children": [
               {
@@ -6839,7 +6713,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Oath & Affirmation (Art 219)",
+            "label": "🟡|Oath & Affirmation (Art 219)",
             "kind": "subsection",
             "children": [
               {
@@ -6849,7 +6723,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Tenure, Resignation & Removal",
+            "label": "🟡|Tenure, Resignation & Removal",
             "kind": "subsection",
             "children": [
               {
@@ -6867,11 +6741,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Salaries, Allowances & Independence",
+            "label": "🟡|Salaries, Allowances & Independence",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Salaries, allowances, and pension of HC judges are determined by Parliament from time to time.\nTRAP: Salary is charged on the Consolidated Fund of the State (not CFI), but pension is charged on the Consolidated Fund of India.\nThis is a major difference from SC judges, where both salary and pension are on CFI.",
+                "label": "🟡|Salaries, allowances, and pension of HC judges are determined by Parliament from time to time.\nTRAP: Salary is charged on the Consolidated Fund of the State (not CFI), but pension is charged on the Consolidated Fund of India.\nThis is a major difference from SC judges, where both salary and pension are on CFI.",
                 "kind": "comparison"
               },
               {
@@ -6885,7 +6759,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Transfer of Judges (Art 222)",
+            "label": "🟡|Transfer of Judges (Art 222)",
             "kind": "subsection",
             "children": [
               {
@@ -6899,7 +6773,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "High Court as Court of Record (Art 215)",
+            "label": "🟡|High Court as Court of Record (Art 215)",
             "kind": "subsection",
             "children": [
               {
@@ -6911,11 +6785,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Jurisdictions of High Court",
+        "label": "🟡|Jurisdictions of High Court",
         "kind": "subsection",
         "children": [
           {
-            "label": "Original Jurisdiction",
+            "label": "🟡|Original Jurisdiction",
             "kind": "subsection",
             "children": [
               {
@@ -6933,7 +6807,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Writ Jurisdiction (Art 226) – Wider than SC",
+            "label": "🟡|Writ Jurisdiction (Art 226) – Wider than SC",
             "kind": "subsection",
             "children": [
               {
@@ -6959,7 +6833,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Supervisory Jurisdiction (Art 227)",
+            "label": "🟡|Supervisory Jurisdiction (Art 227)",
             "kind": "subsection",
             "children": [
               {
@@ -6973,7 +6847,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Appellate Jurisdiction",
+            "label": "🟡|Appellate Jurisdiction",
             "kind": "subsection",
             "children": [
               {
@@ -6987,7 +6861,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Power of Judicial Review",
+            "label": "🟡|Power of Judicial Review",
             "kind": "subsection",
             "children": [
               {
@@ -6999,7 +6873,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Differences: Supreme Court vs High Court",
+        "label": "🟡|Key Differences: Supreme Court vs High Court",
         "kind": "comparison",
         "children": [
           {
@@ -7041,11 +6915,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Subordinate Judiciary (Part VI, Chapter VI – Art 233‑237)",
+        "label": "🟡|Subordinate Judiciary (Part VI, Chapter VI – Art 233‑237)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointment of District Judges (Art 233)",
+            "label": "🟡|Appointment of District Judges (Art 233)",
             "kind": "subsection",
             "children": [
               {
@@ -7063,7 +6937,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Recruitment of Other Judicial Officers (Art 234)",
+            "label": "🟡|Recruitment of Other Judicial Officers (Art 234)",
             "kind": "subsection",
             "children": [
               {
@@ -7077,7 +6951,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Control over Subordinate Courts (Art 235)",
+            "label": "🟡|Control over Subordinate Courts (Art 235)",
             "kind": "subsection",
             "children": [
               {
@@ -7095,7 +6969,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Separation of Judiciary from Executive (Art 50, DPSP)",
+            "label": "🟡|Separation of Judiciary from Executive (Art 50, DPSP)",
             "kind": "subsection",
             "children": [
               {
@@ -7107,7 +6981,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Specialized Subordinate Courts & Tribunals",
+        "label": "🟡|Specialized Subordinate Courts & Tribunals",
         "kind": "subsection",
         "children": [
           {
@@ -7119,19 +6993,15 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🟠|Lok Adalats: Statutory bodies under Legal Services Authorities Act 1987.\nThey have jurisdiction to settle disputes by conciliation/ compromise.\nTheir awards are deemed decrees of civil court, and no appeal lies.\nThey are not strictly ‘courts’ but alternative dispute resolution mechanisms.",
+            "label": "🟡|Lok Adalats: Statutory bodies under Legal Services Authorities Act 1987.\nThey have jurisdiction to settle disputes by conciliation/ compromise.\nTheir awards are deemed decrees of civil court, and no appeal lies.\nThey are not strictly ‘courts’ but alternative dispute resolution mechanisms.",
             "kind": "bullet"
           }
         ]
       },
       {
-        "label": "High‑Yield Traps & Quick Recall",
+        "label": "🟡|High‑Yield Traps & Quick Recall",
         "kind": "memory",
         "children": [
-          {
-            "label": "🟡|How many High Courts? 25.\nOldest? Calcutta HC (1862).\nLatest? Telangana HC (2019), Andhra Pradesh HC (2019) (though reorganizations keep happening).",
-            "kind": "bullet"
-          },
           {
             "label": "🟡|HC judge salary: State CF; pension: CFI (Union).",
             "kind": "bullet"
@@ -7179,7 +7049,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High Court vs Supreme Court — Core Comparison",
+        "label": "🟡|High Court vs Supreme Court — Core Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -7205,7 +7075,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High Court vs Supreme Court — Final Comparison",
+        "label": "🟡|High Court vs Supreme Court — Final Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -7235,15 +7105,15 @@ export const RAW_D = [
   {
     "id": "XXV",
     "p": "pm3",
-    "label": "Panchayati Raj (73rd CAA & 11th Schedule) – Air‑1 Complete",
+    "label": "🟡|Panchayati Raj (73rd CAA & 11th Schedule) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Historical Background & Committees",
+        "label": "🟡|Historical Background & Committees",
         "kind": "subsection",
         "children": [
           {
-            "label": "Balwantrai Mehta Committee (1957)",
+            "label": "🟡|Balwantrai Mehta Committee (1957)",
             "kind": "subsection",
             "children": [
               {
@@ -7253,7 +7123,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Ashok Mehta Committee (1977)",
+            "label": "🟡|Ashok Mehta Committee (1977)",
             "kind": "subsection",
             "children": [
               {
@@ -7263,7 +7133,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "G.V.K.\nRao Committee (1985)",
+            "label": "🟡|G.V.K.\nRao Committee (1985)",
             "kind": "subsection",
             "children": [
               {
@@ -7273,7 +7143,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "L.M.\nSinghvi Committee (1986)",
+            "label": "🟡|L.M.\nSinghvi Committee (1986)",
             "kind": "subsection",
             "children": [
               {
@@ -7283,7 +7153,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "P.K.\nThungon Committee (1988)",
+            "label": "🟡|P.K.\nThungon Committee (1988)",
             "kind": "subsection",
             "children": [
               {
@@ -7295,11 +7165,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Constitutional Provisions (Part IX – Articles 243 to 243O)",
+        "label": "🟡|Constitutional Provisions (Part IX – Articles 243 to 243O)",
         "kind": "subsection",
         "children": [
           {
-            "label": "73rd Amendment Act 1992",
+            "label": "🟡|73rd Amendment Act 1992",
             "kind": "amendment",
             "children": [
               {
@@ -7313,7 +7183,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Gram Sabha (Art 243A)",
+            "label": "🟡|Gram Sabha (Art 243A)",
             "kind": "subsection",
             "children": [
               {
@@ -7323,7 +7193,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Three‑tier system (Art 243B)",
+            "label": "🟡|Three‑tier system (Art 243B)",
             "kind": "subsection",
             "children": [
               {
@@ -7337,7 +7207,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Election of members & chairpersons (Art 243C & 243D)",
+            "label": "🟡|Election of members & chairpersons (Art 243C & 243D)",
             "kind": "subsection",
             "children": [
               {
@@ -7355,7 +7225,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Duration of Panchayats (Art 243E)",
+            "label": "🟡|Duration of Panchayats (Art 243E)",
             "kind": "subsection",
             "children": [
               {
@@ -7369,7 +7239,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Disqualifications (Art 243F)",
+            "label": "🟡|Disqualifications (Art 243F)",
             "kind": "subsection",
             "children": [
               {
@@ -7379,11 +7249,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "State Election Commission (Art 243K)",
+            "label": "🟡|State Election Commission (Art 243K)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Constitutional body.\nState Election Commissioner appointed by the Governor.\nRemoval only in the same manner and on the like grounds as a High Court Judge.\nConducts elections to panchayats and municipalities.",
+                "label": "🟡|Constitutional body.\nState Election Commissioner appointed by the Governor.\nRemoval only in the same manner and on the like grounds as a High Court Judge.\nConducts elections to panchayats and municipalities.",
                 "kind": "bullet"
               },
               {
@@ -7393,7 +7263,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "State Finance Commission (Art 243I)",
+            "label": "🟡|State Finance Commission (Art 243I)",
             "kind": "subsection",
             "children": [
               {
@@ -7403,7 +7273,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Audit of Accounts (Art 243J)",
+            "label": "🟡|Audit of Accounts (Art 243J)",
             "kind": "subsection",
             "children": [
               {
@@ -7413,7 +7283,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Bar to interference by courts (Art 243O)",
+            "label": "🟡|Bar to interference by courts (Art 243O)",
             "kind": "subsection",
             "children": [
               {
@@ -7425,7 +7295,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Compulsory vs Voluntary Provisions",
+        "label": "🟡|Compulsory vs Voluntary Provisions",
         "kind": "comparison",
         "children": [
           {
@@ -7439,7 +7309,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "11th Schedule – 29 Subjects",
+        "label": "🟡|11th Schedule – 29 Subjects",
         "kind": "subsection",
         "children": [
           {
@@ -7453,7 +7323,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PESA Act 1996 (Extension to Scheduled Areas)",
+        "label": "🟡|PESA Act 1996 (Extension to Scheduled Areas)",
         "kind": "subsection",
         "children": [
           {
@@ -7483,7 +7353,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "District Planning Committee (Art 243ZD) – Linkage with Municipalities",
+        "label": "🟡|District Planning Committee (Art 243ZD) – Linkage with Municipalities",
         "kind": "subsection",
         "children": [
           {
@@ -7501,7 +7371,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Important Judicial Pronouncements",
+        "label": "🟡|Important Judicial Pronouncements",
         "kind": "subsection",
         "children": [
           {
@@ -7515,7 +7385,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Traps & Quick Recall",
+        "label": "🟡|High‑Yield Traps & Quick Recall",
         "kind": "memory",
         "children": [
           {
@@ -7547,7 +7417,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|PESA: Fifth Schedule areas only; Gram Sabha has veto/consultation powers.",
+            "label": "🟡|PESA: Fifth Schedule areas only; Gram Sabha has veto/consultation powers.",
             "kind": "bullet"
           },
           {
@@ -7565,7 +7435,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Panchayati Raj — Final Prelims Map",
+        "label": "🟡|Panchayati Raj — Final Prelims Map",
         "kind": "comparison",
         "children": [
           {
@@ -7589,7 +7459,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|PESA → Fifth Schedule Scheduled Areas with modified Panchayati Raj framework.",
+            "label": "🟡|PESA → Fifth Schedule Scheduled Areas with modified Panchayati Raj framework.",
             "kind": "bullet"
           },
           {
@@ -7599,7 +7469,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "73rd Amendment — Final Memory Map",
+        "label": "🟡|73rd Amendment — Final Memory Map",
         "kind": "comparison",
         "children": [
           {
@@ -7619,25 +7489,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|SEC → elections; SFC → finances; PESA → Fifth Schedule Scheduled Areas.",
-            "kind": "bullet"
-          }
-        ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchors — Local Government",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|Decentralisation is not complete with constitutional status alone; effective self-government depends on the 3Fs—functions, funds and functionaries.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Women's reservation has increased descriptive representation, but substantive empowerment depends on capacity, social norms, proxy participation and control over resources.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Panchayat finances: own-source revenue, assigned/shared taxes, grants and State Finance Commission recommendations are the core static framework.",
+            "label": "🟡|SEC → elections; SFC → finances; PESA → Fifth Schedule Scheduled Areas.",
             "kind": "bullet"
           }
         ]
@@ -7647,15 +7499,15 @@ export const RAW_D = [
   {
     "id": "XXVI",
     "p": "pm2",
-    "label": "Municipalities (74th CAA & 12th Schedule) – Air‑1 Complete",
+    "label": "🟡|Municipalities (74th CAA & 12th Schedule) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Historical Background & Evolution",
+        "label": "🟡|Historical Background & Evolution",
         "kind": "subsection",
         "children": [
           {
-            "label": "Pre‑Constitutional Roots",
+            "label": "🟡|Pre‑Constitutional Roots",
             "kind": "subsection",
             "children": [
               {
@@ -7677,7 +7529,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Post‑Independence & Constitutional Silence",
+            "label": "🟡|Post‑Independence & Constitutional Silence",
             "kind": "subsection",
             "children": [
               {
@@ -7691,7 +7543,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "74th Constitution Amendment Act, 1992",
+            "label": "🟡|74th Constitution Amendment Act, 1992",
             "kind": "amendment",
             "children": [
               {
@@ -7711,11 +7563,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Definitions & Types of Municipalities (Art 243Q)",
+        "label": "🟡|Definitions & Types of Municipalities (Art 243Q)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Three types of Municipalities (mandatory classification by state legislature):",
+            "label": "🟡|Three types of Municipalities (mandatory classification by state legislature):",
             "kind": "subsection",
             "children": [
               {
@@ -7747,11 +7599,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Constitutional Provisions (Part IX‑A, Articles 243P to 243ZG)",
+        "label": "🟡|Constitutional Provisions (Part IX‑A, Articles 243P to 243ZG)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Composition of Municipalities (Art 243R)",
+            "label": "🟡|Composition of Municipalities (Art 243R)",
             "kind": "subsection",
             "children": [
               {
@@ -7765,7 +7617,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Reservation of Seats (Art 243T)",
+            "label": "🟡|Reservation of Seats (Art 243T)",
             "kind": "subsection",
             "children": [
               {
@@ -7787,7 +7639,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Duration of Municipalities (Art 243U)",
+            "label": "🟡|Duration of Municipalities (Art 243U)",
             "kind": "subsection",
             "children": [
               {
@@ -7801,7 +7653,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Disqualifications (Art 243V)",
+            "label": "🟡|Disqualifications (Art 243V)",
             "kind": "subsection",
             "children": [
               {
@@ -7811,7 +7663,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Powers, Authority, and Responsibilities (Art 243W)",
+            "label": "🟡|Powers, Authority, and Responsibilities (Art 243W)",
             "kind": "subsection",
             "children": [
               {
@@ -7825,7 +7677,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Financial Provisions (Art 243X)",
+            "label": "🟡|Financial Provisions (Art 243X)",
             "kind": "subsection",
             "children": [
               {
@@ -7839,7 +7691,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "State Finance Commission (Art 243Y)",
+            "label": "🟡|State Finance Commission (Art 243Y)",
             "kind": "subsection",
             "children": [
               {
@@ -7853,7 +7705,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Audit of Accounts (Art 243Z)",
+            "label": "🟡|Audit of Accounts (Art 243Z)",
             "kind": "subsection",
             "children": [
               {
@@ -7863,7 +7715,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Elections to Municipalities (Art 243ZA)",
+            "label": "🟡|Elections to Municipalities (Art 243ZA)",
             "kind": "subsection",
             "children": [
               {
@@ -7873,7 +7725,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Bar to interference by courts (Art 243ZG)",
+            "label": "🟡|Bar to interference by courts (Art 243ZG)",
             "kind": "subsection",
             "children": [
               {
@@ -7885,7 +7737,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "12th Schedule – 18 Subjects",
+        "label": "🟡|12th Schedule – 18 Subjects",
         "kind": "subsection",
         "children": [
           {
@@ -7899,11 +7751,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Ward Committees & Special Committees",
+        "label": "🟡|Ward Committees & Special Committees",
         "kind": "subsection",
         "children": [
           {
-            "label": "Ward Committees (Art 243S)",
+            "label": "🟡|Ward Committees (Art 243S)",
             "kind": "subsection",
             "children": [
               {
@@ -7921,7 +7773,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Metropolitan Planning Committee (Art 243ZE)",
+            "label": "🟡|Metropolitan Planning Committee (Art 243ZE)",
             "kind": "subsection",
             "children": [
               {
@@ -7945,7 +7797,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Differences: 73rd vs 74th Amendment",
+        "label": "🟡|Key Differences: 73rd vs 74th Amendment",
         "kind": "comparison",
         "children": [
           {
@@ -7979,7 +7831,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Important Judicial Interpretations",
+        "label": "🟡|Important Judicial Interpretations",
         "kind": "subsection",
         "children": [
           {
@@ -7997,7 +7849,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Traps & Quick Recall",
+        "label": "🟡|High‑Yield Traps & Quick Recall",
         "kind": "memory",
         "children": [
           {
@@ -8063,7 +7915,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Municipalities — Final Prelims Map",
+        "label": "🟡|Municipalities — Final Prelims Map",
         "kind": "comparison",
         "children": [
           {
@@ -8093,15 +7945,15 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "73rd vs 74th Amendment — Final Comparison",
+        "label": "🟡|73rd vs 74th Amendment — Final Comparison",
         "kind": "comparison",
         "children": [
           {
-            "label": "🟠|73rd → rural local government/Panchayats → Part IX → 11th Schedule (29).",
+            "label": "🟡|73rd → rural local government/Panchayats → Part IX → 11th Schedule (29).",
             "kind": "bullet"
           },
           {
-            "label": "🟠|74th → urban local government/Municipalities → Part IX-A → 12th Schedule (18).",
+            "label": "🟡|74th → urban local government/Municipalities → Part IX-A → 12th Schedule (18).",
             "kind": "bullet"
           },
           {
@@ -8109,13 +7961,13 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🟠|SEC and SFC provide common constitutional institutional machinery for both rural and urban local bodies.",
+            "label": "🟡|SEC and SFC provide common constitutional institutional machinery for both rural and urban local bodies.",
             "kind": "bullet"
           }
         ]
       },
       {
-        "label": "74th Amendment — Final Memory Map",
+        "label": "🟡|74th Amendment — Final Memory Map",
         "kind": "comparison",
         "children": [
           {
@@ -8135,35 +7987,21 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchors — Urban Local Bodies",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|74th CAA created the constitutional framework, but actual devolution of 18 functions under the Twelfth Schedule depends heavily on State laws and the 3Fs.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Urban local bodies face weak own-source revenue, overlapping agencies, limited staff capacity and dependence on State/Union transfers.",
-            "kind": "bullet"
-          }
-        ]
       }
     ]
   },
   {
     "id": "XXVII",
     "p": "ps",
-    "label": "Union Territories & Special Areas",
+    "label": "🟡|Union Territories & Special Areas",
     "kind": "section",
     "children": [
       {
-        "label": "Union Territories (Art 239-241)",
+        "label": "🟡|Union Territories (Art 239-241)",
         "kind": "subsection",
         "children": [
           {
-            "label": "General Administration & Legislature",
+            "label": "🟡|General Administration & Legislature",
             "kind": "subsection",
             "children": [
               {
@@ -8185,7 +8023,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Delhi (Art 239AA, 69th CAA 1991)",
+            "label": "🟡|Delhi (Art 239AA, 69th CAA 1991)",
             "kind": "amendment",
             "children": [
               {
@@ -8205,15 +8043,15 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Scheduled & Tribal Areas (Art 244)",
+        "label": "🟡|Scheduled & Tribal Areas (Art 244)",
         "kind": "subsection",
         "children": [
           {
-            "label": "5th Schedule Areas",
+            "label": "🟡|5th Schedule Areas",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Fifth Schedule applies to Scheduled Areas in the States listed by Presidential notification under Art 244(1).\nPresident declares Scheduled Areas; the Governor has special powers to make regulations for peace and good government in Scheduled Areas, subject to the constitutional approval framework.\nPYQ trap: Governor reports annually (or whenever required) to the President on administration of Scheduled Areas; the constitutional reporting chain is not to the Union Home Ministry by the Chief Minister.",
+                "label": "🟡|Fifth Schedule applies to Scheduled Areas in the States listed by Presidential notification under Art 244(1).\nPresident declares Scheduled Areas; the Governor has special powers to make regulations for peace and good government in Scheduled Areas, subject to the constitutional approval framework.",
                 "kind": "bullet"
               },
               {
@@ -8223,7 +8061,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "6th Schedule Areas",
+            "label": "🟡|6th Schedule Areas",
             "kind": "subsection",
             "children": [
               {
@@ -8237,7 +8075,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Legislative Applicability & Alterations (Trap Zone)",
+            "label": "🟡|Legislative Applicability & Alterations (Trap Zone)",
             "kind": "memory",
             "children": [
               {
@@ -8245,7 +8083,7 @@ export const RAW_D = [
                 "kind": "trap"
               },
               {
-                "label": "🔴|TRAP: Fifth Schedule Scheduled Areas are declared by the President; the Governor has specified powers within them.\nSixth Schedule autonomous-area boundaries can be altered under the Schedule's constitutional procedure.",
+                "label": "🟡|TRAP: Fifth Schedule Scheduled Areas are declared by the President; the Governor has specified powers within them.\nSixth Schedule autonomous-area boundaries can be altered under the Schedule's constitutional procedure.",
                 "kind": "trap"
               }
             ]
@@ -8253,7 +8091,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "UTs vs States — Final Prelims Map",
+        "label": "🟡|UTs vs States — Final Prelims Map",
         "kind": "comparison",
         "children": [
           {
@@ -8275,7 +8113,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "UTs & Special Areas — Final Map",
+        "label": "🟡|UTs & Special Areas — Final Map",
         "kind": "comparison",
         "children": [
           {
@@ -8291,7 +8129,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|Fifth Schedule → Scheduled Areas/STs; Sixth Schedule → autonomous tribal areas in Assam, Meghalaya, Tripura, Mizoram.",
+            "label": "🟡|Fifth Schedule → Scheduled Areas/STs; Sixth Schedule → autonomous tribal areas in Assam, Meghalaya, Tripura, Mizoram.",
             "kind": "bullet"
           }
         ]
@@ -8301,15 +8139,15 @@ export const RAW_D = [
   {
     "id": "XXVIII",
     "p": "psel",
-    "label": "Tribunals (Part XIV-A, Art 323A-323B)",
+    "label": "🟡|Tribunals (Part XIV-A, Art 323A-323B)",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Framework of Tribunals",
+        "label": "🟡|Constitutional Framework of Tribunals",
         "kind": "subsection",
         "children": [
           {
-            "label": "Articles 323A and 323B",
+            "label": "🟡|Articles 323A and 323B",
             "kind": "subsection",
             "children": [
               {
@@ -8327,7 +8165,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Judicial Review & Statutory Tribunals",
+            "label": "🟡|Judicial Review & Statutory Tribunals",
             "kind": "subsection",
             "children": [
               {
@@ -8335,7 +8173,7 @@ export const RAW_D = [
                 "kind": "case"
               },
               {
-                "label": "🟠|NGT is a statutory specialised tribunal under the National Green Tribunal Act, 2010 for specified environmental disputes.\nAppeals from NGT lie to the Supreme Court under the statute.",
+                "label": "🟡|NGT is a statutory specialised tribunal under the National Green Tribunal Act, 2010 for specified environmental disputes.\nAppeals from NGT lie to the Supreme Court under the statute.",
                 "kind": "case"
               },
               {
@@ -8347,7 +8185,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Tribunals — Final Comparison",
+        "label": "🟡|Tribunals — Final Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -8369,7 +8207,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Tribunals — Final Map",
+        "label": "🟡|Tribunals — Final Map",
         "kind": "comparison",
         "children": [
           {
@@ -8395,15 +8233,15 @@ export const RAW_D = [
   {
     "id": "XXIX",
     "p": "pm3",
-    "label": "Elections & Representation of People Act",
+    "label": "🟡|Elections & Representation of People Act",
     "kind": "section",
     "children": [
       {
-        "label": "Electoral Laws and Regulations",
+        "label": "🟡|Electoral Laws and Regulations",
         "kind": "subsection",
         "children": [
           {
-            "label": "Representation of People Acts",
+            "label": "🟡|Representation of People Acts",
             "kind": "subsection",
             "children": [
               {
@@ -8421,7 +8259,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Disqualifications & Electoral Violations",
+            "label": "🟡|Disqualifications & Electoral Violations",
             "kind": "subsection",
             "children": [
               {
@@ -8435,7 +8273,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Electoral Mechanisms & Guidelines",
+            "label": "🟡|Electoral Mechanisms & Guidelines",
             "kind": "subsection",
             "children": [
               {
@@ -8443,7 +8281,7 @@ export const RAW_D = [
                 "kind": "case"
               },
               {
-                "label": "🟠|Model Code of Conduct: Not statutory; executive/ECI guideline.\nComes into force from date of announcement of election schedule",
+                "label": "🟡|Model Code of Conduct: Not statutory; executive/ECI guideline.\nComes into force from date of announcement of election schedule",
                 "kind": "bullet"
               }
             ]
@@ -8451,11 +8289,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Delimitation of Constituencies",
+        "label": "🟡|Delimitation of Constituencies",
         "kind": "subsection",
         "children": [
           {
-            "label": "Delimitation Commission (Art 82)",
+            "label": "🟡|Delimitation Commission (Art 82)",
             "kind": "subsection",
             "children": [
               {
@@ -8479,7 +8317,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Election Law — Final Prelims Map",
+        "label": "🟡|Election Law — Final Prelims Map",
         "kind": "comparison",
         "children": [
           {
@@ -8501,7 +8339,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Election Law — Final Map",
+        "label": "🟡|Election Law — Final Map",
         "kind": "comparison",
         "children": [
           {
@@ -8521,41 +8359,23 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchors — Electoral Reforms",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|Recurring reform themes: simultaneous elections, criminalisation of politics, inner-party democracy, transparency in political finance, MCC reforms, EVM/VVPAT trust and strengthening ECI independence.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|One Nation–One Election is a reform proposal, not a constitutional fact; analyse benefits against federalism, accountability, logistics and mid-term dissolution issues.",
-            "kind": "bullet"
-          }
-        ]
       }
     ]
   },
   {
     "id": "XXX",
     "p": "pm3",
-    "label": "Constitutional Bodies (Art 76, 148, 280, 315‑323, 324, 338‑338B, 350B) – Air‑1 Complete",
+    "label": "🟡|Constitutional Bodies (Art 76, 148, 280, 315‑323, 324, 338‑338B, 350B) – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "Election Commission of India (Art 324)",
+        "label": "🟡|Election Commission of India (Art 324)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Composition & Appointment",
+            "label": "🟡|Composition & Appointment",
             "kind": "subsection",
             "children": [
-              {
-                "label": "🔴|Multi‑member body since 1989.\nCurrent statutory framework: ECI consists of the CEC and such number of Election Commissioners as may be appointed under the law; the 2023 Act establishes a selection committee comprising the Prime Minister, a Union Cabinet Minister nominated by the PM, and the Leader of Opposition in the Lok Sabha (or leader of the largest opposition party where applicable).",
-                "kind": "bullet"
-              },
               {
                 "label": "🔴|The 2023 Act changed the statutory appointment/selection framework; keep that statute distinct from the constitutional baseline in Art 324.",
                 "kind": "bullet"
@@ -8567,21 +8387,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Tenure & Conditions of Service",
-            "kind": "subsection",
-            "children": [
-              {
-                "label": "🟡|Under the current statutory framework, the CEC and Election Commissioners hold office for the period prescribed by the 2023 Act, subject to the statutory age ceiling; exact current tenure wording should be read from the latest official law.\nThey may resign by writing to the President.",
-                "kind": "bullet"
-              },
-              {
-                "label": "🟡|Conditions of service are governed by the constitutional/statutory framework.\nTRAP: Keep the exact current salary and service-equivalence details in current-affairs/static-update material rather than freezing old figures.",
-                "kind": "bullet"
-              }
-            ]
-          },
-          {
-            "label": "Removal",
+            "label": "🟡|Removal",
             "kind": "subsection",
             "children": [
               {
@@ -8595,7 +8401,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Powers & Functions",
+            "label": "🟡|Powers & Functions",
             "kind": "subsection",
             "children": [
               {
@@ -8621,7 +8427,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Independence Safeguards",
+            "label": "🟡|Independence Safeguards",
             "kind": "subsection",
             "children": [
               {
@@ -8633,11 +8439,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Comptroller and Auditor General – CAG (Art 148‑151)",
+        "label": "🟡|Comptroller and Auditor General – CAG (Art 148‑151)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointment & Tenure",
+            "label": "🟡|Appointment & Tenure",
             "kind": "subsection",
             "children": [
               {
@@ -8651,11 +8457,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Salary & Conditions",
+            "label": "🟡|Salary & Conditions",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Salary, allowances and pension of the CAG are charged on the Consolidated Fund of India and cannot be varied to disadvantage after appointment, subject to constitutional provisions.",
+                "label": "🟡|Salary, allowances and pension of the CAG are charged on the Consolidated Fund of India and cannot be varied to disadvantage after appointment, subject to constitutional provisions.",
                 "kind": "bullet"
               },
               {
@@ -8665,7 +8471,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Post‑Retirement Restrictions",
+            "label": "🟡|Post‑Retirement Restrictions",
             "kind": "subsection",
             "children": [
               {
@@ -8675,11 +8481,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Duties & Powers",
+            "label": "🟡|Duties & Powers",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Audits all expenditure from the Consolidated Fund of India, Consolidated Funds of each State, and Union Territory having a Legislative Assembly.\nAudits all transactions related to Contingency Funds and Public Accounts.",
+                "label": "🟡|Audits all expenditure from the Consolidated Fund of India, Consolidated Funds of each State, and Union Territory having a Legislative Assembly.\nAudits all transactions related to Contingency Funds and Public Accounts.",
                 "kind": "bullet"
               },
               {
@@ -8697,7 +8503,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Audit Reports",
+            "label": "🟡|Audit Reports",
             "kind": "subsection",
             "children": [
               {
@@ -8709,11 +8515,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Union Public Service Commission & State Public Service Commissions (Art 315‑323)",
+        "label": "🟡|Union Public Service Commission & State Public Service Commissions (Art 315‑323)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Composition & Appointment",
+            "label": "🟡|Composition & Appointment",
             "kind": "subsection",
             "children": [
               {
@@ -8727,7 +8533,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Tenure & Removal",
+            "label": "🟡|Tenure & Removal",
             "kind": "subsection",
             "children": [
               {
@@ -8745,7 +8551,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Post‑Retirement Restrictions",
+            "label": "🟡|Post‑Retirement Restrictions",
             "kind": "subsection",
             "children": [
               {
@@ -8755,7 +8561,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -8779,11 +8585,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Finance Commission (Art 280‑281)",
+        "label": "🟡|Finance Commission (Art 280‑281)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Constitution & Composition",
+            "label": "🟡|Constitution & Composition",
             "kind": "subsection",
             "children": [
               {
@@ -8797,7 +8603,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions & Recommendations",
+            "label": "🟡|Functions & Recommendations",
             "kind": "subsection",
             "children": [
               {
@@ -8815,7 +8621,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "15th Finance Commission (2021‑26)",
+            "label": "🟡|15th Finance Commission (2021‑26)",
             "kind": "subsection",
             "children": [
               {
@@ -8827,11 +8633,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Attorney General of India (Art 76)",
+        "label": "🟡|Attorney General of India (Art 76)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointment & Tenure",
+            "label": "🟡|Appointment & Tenure",
             "kind": "subsection",
             "children": [
               {
@@ -8845,7 +8651,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Rights & Limitations",
+            "label": "🟡|Rights & Limitations",
             "kind": "subsection",
             "children": [
               {
@@ -8863,7 +8669,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -8875,11 +8681,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Advocate General of State (Art 165)",
+        "label": "🟡|Advocate General of State (Art 165)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Appointment & Tenure",
+            "label": "🟡|Appointment & Tenure",
             "kind": "subsection",
             "children": [
               {
@@ -8889,7 +8695,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Rights & Limitations",
+            "label": "🟡|Rights & Limitations",
             "kind": "subsection",
             "children": [
               {
@@ -8905,11 +8711,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Commission for Scheduled Castes (Art 338)",
+        "label": "🟡|National Commission for Scheduled Castes (Art 338)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Constitutional Status & Composition",
+            "label": "🟡|Constitutional Status & Composition",
             "kind": "subsection",
             "children": [
               {
@@ -8919,7 +8725,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -8939,11 +8745,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Commission for Scheduled Tribes (Art 338A)",
+        "label": "🟡|National Commission for Scheduled Tribes (Art 338A)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Constitutional Status & Composition",
+            "label": "🟡|Constitutional Status & Composition",
             "kind": "subsection",
             "children": [
               {
@@ -8953,7 +8759,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -8965,11 +8771,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Commission for Backward Classes (Art 338B)",
+        "label": "🟡|National Commission for Backward Classes (Art 338B)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Constitutional Status & Composition",
+            "label": "🟡|Constitutional Status & Composition",
             "kind": "subsection",
             "children": [
               {
@@ -8979,7 +8785,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -8995,11 +8801,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Special Officer for Linguistic Minorities (Art 350B)",
+        "label": "🟡|Special Officer for Linguistic Minorities (Art 350B)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Constitutional Status",
+            "label": "🟡|Constitutional Status",
             "kind": "subsection",
             "children": [
               {
@@ -9015,11 +8821,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "GST Council (Art 279A, inserted by 101st CAA 2016)",
+        "label": "🟡|GST Council (Art 279A, inserted by 101st CAA 2016)",
         "kind": "amendment",
         "children": [
           {
-            "label": "Constitutional Status & Composition",
+            "label": "🟡|Constitutional Status & Composition",
             "kind": "subsection",
             "children": [
               {
@@ -9033,7 +8839,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9045,7 +8851,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield TRAP Compendium – Constitutional Bodies",
+        "label": "🟡|High‑Yield TRAP Compendium – Constitutional Bodies",
         "kind": "memory",
         "children": [
           {
@@ -9079,7 +8885,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Constitutional Bodies — Status Map",
+        "label": "🟡|Constitutional Bodies — Status Map",
         "kind": "comparison",
         "children": [
           {
@@ -9095,39 +8901,21 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
-      },
-      {
-        "label": "PYQ-Driven Mains Anchors — Accountability Bodies",
-        "kind": "comparison",
-        "children": [
-          {
-            "label": "🟡|CAG: audit is not limited to legality; propriety/value-for-money and legislative accountability are important dimensions, while CAG cannot substitute itself for executive policy-making.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Finance Commission: fiscal federalism, vertical/horizontal devolution and strengthening local-government finances are recurring Mains themes.",
-            "kind": "bullet"
-          },
-          {
-            "label": "🟡|Election Commission: independence, appointment/removal safeguards, MCC, electoral reforms, EVM/VVPAT confidence and party-symbol adjudication are recurring themes.",
-            "kind": "bullet"
-          }
-        ]
       }
     ]
   },
   {
     "id": "XXXI",
     "p": "pm2",
-    "label": "Non‑Constitutional & Statutory Bodies – Air‑1 Complete",
+    "label": "🟡|Non‑Constitutional & Statutory Bodies – Air‑1 Complete",
     "kind": "section",
     "children": [
       {
-        "label": "NITI Aayog (National Institution for Transforming India)",
+        "label": "🟡|NITI Aayog (National Institution for Transforming India)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Genesis & Nature",
+            "label": "🟡|Genesis & Nature",
             "kind": "subsection",
             "children": [
               {
@@ -9141,7 +8929,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition",
+            "label": "🟡|Composition",
             "kind": "subsection",
             "children": [
               {
@@ -9159,7 +8947,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9175,11 +8963,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Central Bureau of Investigation (CBI)",
+        "label": "🟡|Central Bureau of Investigation (CBI)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Legal Basis & Nature",
+            "label": "🟡|Legal Basis & Nature",
             "kind": "subsection",
             "children": [
               {
@@ -9193,7 +8981,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Appointment & Tenure (as per DSPE Act and 2021 Ordinance/Act)",
+            "label": "🟡|Appointment & Tenure (as per DSPE Act and 2021 Ordinance/Act)",
             "kind": "subsection",
             "children": [
               {
@@ -9215,7 +9003,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Supervision by CVC",
+            "label": "🟡|Supervision by CVC",
             "kind": "subsection",
             "children": [
               {
@@ -9227,11 +9015,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Human Rights Commission (NHRC)",
+        "label": "🟡|National Human Rights Commission (NHRC)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9241,7 +9029,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition (as amended in 2019)",
+            "label": "🟡|Composition (as amended in 2019)",
             "kind": "amendment",
             "children": [
               {
@@ -9259,7 +9047,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Appointment & Removal",
+            "label": "🟡|Appointment & Removal",
             "kind": "subsection",
             "children": [
               {
@@ -9273,7 +9061,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Powers & Functions",
+            "label": "🟡|Powers & Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9293,11 +9081,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Green Tribunal (NGT)",
+        "label": "🟡|National Green Tribunal (NGT)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9307,7 +9095,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition",
+            "label": "🟡|Composition",
             "kind": "subsection",
             "children": [
               {
@@ -9321,7 +9109,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Jurisdiction & Powers",
+            "label": "🟡|Jurisdiction & Powers",
             "kind": "subsection",
             "children": [
               {
@@ -9341,11 +9129,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Central Information Commission (CIC) & State Information Commissions (SICs)",
+        "label": "🟡|Central Information Commission (CIC) & State Information Commissions (SICs)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9355,7 +9143,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition",
+            "label": "🟡|Composition",
             "kind": "subsection",
             "children": [
               {
@@ -9369,7 +9157,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Powers & Functions",
+            "label": "🟡|Powers & Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9385,11 +9173,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Central Vigilance Commission (CVC)",
+        "label": "🟡|Central Vigilance Commission (CVC)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9399,7 +9187,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition",
+            "label": "🟡|Composition",
             "kind": "subsection",
             "children": [
               {
@@ -9413,7 +9201,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Functions",
+            "label": "🟡|Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9429,11 +9217,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Lokpal (Lokpal and Lokayuktas Act, 2013)",
+        "label": "🟡|Lokpal (Lokpal and Lokayuktas Act, 2013)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9443,7 +9231,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition",
+            "label": "🟡|Composition",
             "kind": "subsection",
             "children": [
               {
@@ -9457,7 +9245,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Jurisdiction",
+            "label": "🟡|Jurisdiction",
             "kind": "subsection",
             "children": [
               {
@@ -9477,11 +9265,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Lokayuktas (State Level)",
+        "label": "🟡|Lokayuktas (State Level)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9495,7 +9283,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Structure",
+            "label": "🟡|Structure",
             "kind": "subsection",
             "children": [
               {
@@ -9507,11 +9295,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Commission for Women (NCW)",
+        "label": "🟡|National Commission for Women (NCW)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9521,7 +9309,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition & Functions",
+            "label": "🟡|Composition & Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9541,11 +9329,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Commission for Minorities (NCM)",
+        "label": "🟡|National Commission for Minorities (NCM)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory Basis",
+            "label": "🟡|Statutory Basis",
             "kind": "subsection",
             "children": [
               {
@@ -9555,7 +9343,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Composition & Functions",
+            "label": "🟡|Composition & Functions",
             "kind": "subsection",
             "children": [
               {
@@ -9571,7 +9359,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Other Important Statutory Bodies (Quick Recall)",
+        "label": "🟡|Other Important Statutory Bodies (Quick Recall)",
         "kind": "memory",
         "children": [
           {
@@ -9579,7 +9367,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|National Legal Services Authority (NALSA): Statutory, under Legal Services Authorities Act 1987.\nChief Justice of India is Patron‑in‑Chief; senior‑most SC judge is Executive Chairman.",
+            "label": "🟡|National Legal Services Authority (NALSA): Statutory, under Legal Services Authorities Act 1987.\nChief Justice of India is Patron‑in‑Chief; senior‑most SC judge is Executive Chairman.",
             "kind": "bullet"
           },
           {
@@ -9587,7 +9375,7 @@ export const RAW_D = [
             "kind": "fact"
           },
           {
-            "label": "🟠|Competition Commission of India (CCI): Statutory, under Competition Act 2002.",
+            "label": "🟡|Competition Commission of India (CCI): Statutory, under Competition Act 2002.",
             "kind": "bullet"
           },
           {
@@ -9601,15 +9389,15 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High‑Yield Categorization TRAPs",
+        "label": "🟡|High‑Yield Categorization TRAPs",
         "kind": "subsection",
         "children": [
           {
-            "label": "Statutory vs Constitutional Bodies",
+            "label": "🟡|Statutory vs Constitutional Bodies",
             "kind": "comparison",
             "children": [
               {
-                "label": "🔴|Constitutional bodies: Created directly by the Constitution (ECI, UPSC, CAG, Finance Commission, NCSC/NCST/NCBC, GST Council, SEC, etc.).",
+                "label": "🟡|Constitutional bodies: Created directly by the Constitution (ECI, UPSC, CAG, Finance Commission, NCSC/NCST/NCBC, GST Council, SEC, etc.).",
                 "kind": "fact"
               },
               {
@@ -9623,7 +9411,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Key Differences",
+            "label": "🟡|Key Differences",
             "kind": "comparison",
             "children": [
               {
@@ -9631,7 +9419,7 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "🔴|NITI Aayog: Advisory, no fund allocation.\nPlanning Commission had fund allocation power.",
+                "label": "🟡|NITI Aayog: Advisory, no fund allocation.\nPlanning Commission had fund allocation power.",
                 "kind": "bullet"
               },
               {
@@ -9649,7 +9437,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Frequently Tested Articles/Laws",
+            "label": "🟡|Frequently Tested Articles/Laws",
             "kind": "subsection",
             "children": [
               {
@@ -9677,7 +9465,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Important Statutory vs Executive Bodies — Final Map",
+        "label": "🟡|Important Statutory vs Executive Bodies — Final Map",
         "kind": "comparison",
         "children": [
           {
@@ -9707,15 +9495,15 @@ export const RAW_D = [
   {
     "id": "XXXII",
     "p": "pm3",
-    "label": "The 12 Schedules",
+    "label": "🟡|The 12 Schedules",
     "kind": "section",
     "children": [
       {
-        "label": "Territories, Salaries & Oaths (Schedules 1-3)",
+        "label": "🟡|Territories, Salaries & Oaths (Schedules 1-3)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Territorial Extent & Emoluments",
+            "label": "🟡|Territorial Extent & Emoluments",
             "kind": "subsection",
             "children": [
               {
@@ -9729,7 +9517,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Oaths & Affirmations",
+            "label": "🟡|Oaths & Affirmations",
             "kind": "subsection",
             "children": [
               {
@@ -9741,11 +9529,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Representation & Tribal Areas (Schedules 4-6)",
+        "label": "🟡|Representation & Tribal Areas (Schedules 4-6)",
         "kind": "subsection",
         "children": [
           {
-            "label": "RS Seats & Scheduled Areas",
+            "label": "🟡|RS Seats & Scheduled Areas",
             "kind": "subsection",
             "children": [
               {
@@ -9753,13 +9541,13 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "🔴|5th: Administration and control of Scheduled Areas and Scheduled Tribes (10 states)",
+                "label": "🟡|5th: Administration and control of Scheduled Areas and Scheduled Tribes (10 states)",
                 "kind": "bullet"
               }
             ]
           },
           {
-            "label": "Specific Tribal Areas (AMTM)",
+            "label": "🟡|Specific Tribal Areas (AMTM)",
             "kind": "subsection",
             "children": [
               {
@@ -9771,17 +9559,13 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Legislative Powers & Languages (Schedules 7-8)",
+        "label": "🟡|Legislative Powers & Languages (Schedules 7-8)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Division of Powers & Official Languages",
+            "label": "🟡|Division of Powers & Official Languages",
             "kind": "subsection",
             "children": [
-              {
-                "label": "🟡|7th: Three Legislative Lists – Union List (~98 entries), State List (~59 entries), Concurrent List (~52 entries).\nTRAP: Numbers change with amendments; always cite approximately",
-                "kind": "amendment"
-              },
               {
                 "label": "🟡|8th: 22 Official Languages.\nTRAP: English/Bhojpuri/Rajasthani are NOT included.\nOriginal 14 (1950); Sindhi added by 21st CAA 1967; Konkani, Manipuri, Nepali added by 71st CAA 1992; Bodo, Dogri, Maithili, Santhali added by 92nd CAA 2003",
                 "kind": "amendment"
@@ -9791,11 +9575,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Land Reforms, Anti-Defection & Local Govt (Schedules 9-12)",
+        "label": "🟡|Land Reforms, Anti-Defection & Local Govt (Schedules 9-12)",
         "kind": "subsection",
         "children": [
           {
-            "label": "Judicial Review & Defection Laws",
+            "label": "🟡|Judicial Review & Defection Laws",
             "kind": "subsection",
             "children": [
               {
@@ -9809,7 +9593,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Local Self-Government",
+            "label": "🟡|Local Self-Government",
             "kind": "subsection",
             "children": [
               {
@@ -9825,7 +9609,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "12 Schedules — One-Glance Master Map",
+        "label": "🟡|12 Schedules — One-Glance Master Map",
         "kind": "comparison",
         "children": [
           {
@@ -9853,10 +9637,6 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🟡|7th → Union/State/Concurrent Lists.",
-            "kind": "bullet"
-          },
-          {
             "label": "🟡|8th → 22 Scheduled Languages.",
             "kind": "bullet"
           },
@@ -9879,7 +9659,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "12 Schedules — One-Glance Map",
+        "label": "🟡|12 Schedules — One-Glance Map",
         "kind": "comparison",
         "children": [
           {
@@ -9893,15 +9673,15 @@ export const RAW_D = [
   {
     "id": "XXXIII",
     "p": "pm3",
-    "label": "Anti-Defection Law (10th Schedule)",
+    "label": "🟡|Anti-Defection Law (10th Schedule)",
     "kind": "section",
     "children": [
       {
-        "label": "Genesis & Disqualification Grounds",
+        "label": "🟡|Genesis & Disqualification Grounds",
         "kind": "subsection",
         "children": [
           {
-            "label": "Origin & Recommendations",
+            "label": "🟡|Origin & Recommendations",
             "kind": "subsection",
             "children": [
               {
@@ -9911,7 +9691,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Specific Grounds for Disqualification",
+            "label": "🟡|Specific Grounds for Disqualification",
             "kind": "subsection",
             "children": [
               {
@@ -9935,11 +9715,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Exceptions, Adjudication & Exemptions",
+        "label": "🟡|Exceptions, Adjudication & Exemptions",
         "kind": "subsection",
         "children": [
           {
-            "label": "The Merger Exception",
+            "label": "🟡|The Merger Exception",
             "kind": "subsection",
             "children": [
               {
@@ -9949,7 +9729,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Judicial Review & Speaker's Role",
+            "label": "🟡|Judicial Review & Speaker's Role",
             "kind": "subsection",
             "children": [
               {
@@ -9963,7 +9743,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Election Exemptions (TRAP Zone)",
+            "label": "🟡|Election Exemptions (TRAP Zone)",
             "kind": "memory",
             "children": [
               {
@@ -9979,15 +9759,15 @@ export const RAW_D = [
   {
     "id": "XXXIV",
     "p": "pm2",
-    "label": "Special Provisions & Key Constitutional Amendments",
+    "label": "🟡|Special Provisions & Key Constitutional Amendments",
     "kind": "section",
     "children": [
       {
-        "label": "Special Provisions for Certain States (Art 371 Series)",
+        "label": "🟡|Special Provisions for Certain States (Art 371 Series)",
         "kind": "subsection",
         "children": [
           {
-            "label": "States from Maharashtra to Manipur (371 - 371C)",
+            "label": "🟡|States from Maharashtra to Manipur (371 - 371C)",
             "kind": "subsection",
             "children": [
               {
@@ -10009,7 +9789,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "States from Andhra Pradesh to Karnataka (371D - 371J)",
+            "label": "🟡|States from Andhra Pradesh to Karnataka (371D - 371J)",
             "kind": "subsection",
             "children": [
               {
@@ -10025,7 +9805,7 @@ export const RAW_D = [
                 "kind": "article"
               },
               {
-                "label": "🔴|Art 371H: Arunachal Pradesh – Governor's special responsibility for law & order; Governor acts in individual judgment (discretion)",
+                "label": "🟡|Art 371H: Arunachal Pradesh – Governor's special responsibility for law & order; Governor acts in individual judgment (discretion)",
                 "kind": "article"
               },
               {
@@ -10041,11 +9821,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Recent Landmark Reservations",
+        "label": "🟡|Recent Landmark Reservations",
         "kind": "subsection",
         "children": [
           {
-            "label": "Women's Reservation (106th CAA 2023 – Nari Shakti Vandan Adhiniyam)",
+            "label": "🟡|Women's Reservation (106th CAA 2023 – Nari Shakti Vandan Adhiniyam)",
             "kind": "amendment",
             "children": [
               {
@@ -10067,7 +9847,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "EWS Reservation (103rd CAA 2019)",
+            "label": "🟡|EWS Reservation (103rd CAA 2019)",
             "kind": "amendment",
             "children": [
               {
@@ -10091,11 +9871,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Amendments Quick Revision",
+        "label": "🟡|Key Amendments Quick Revision",
         "kind": "amendment",
         "children": [
           {
-            "label": "Amendments 1st to 44th (Foundational changes)",
+            "label": "🟡|Amendments 1st to 44th (Foundational changes)",
             "kind": "subsection",
             "children": [
               {
@@ -10129,7 +9909,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Amendments 52nd to 106th (Modern era)",
+            "label": "🟡|Amendments 52nd to 106th (Modern era)",
             "kind": "subsection",
             "children": [
               {
@@ -10185,7 +9965,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Art 371 Series — Final Recall",
+        "label": "🟡|Art 371 Series — Final Recall",
         "kind": "comparison",
         "children": [
           {
@@ -10235,15 +10015,15 @@ export const RAW_D = [
   {
     "id": "XXXV",
     "p": "pm3",
-    "label": "Official Language (Part XVII, Art 343-351)",
+    "label": "🟡|Official Language (Part XVII, Art 343-351)",
     "kind": "section",
     "children": [
       {
-        "label": "Official Language & Court Proceedings",
+        "label": "🟡|Official Language & Court Proceedings",
         "kind": "subsection",
         "children": [
           {
-            "label": "Union and Judiciary Languages (Art 343 & 348)",
+            "label": "🟡|Union and Judiciary Languages (Art 343 & 348)",
             "kind": "subsection",
             "children": [
               {
@@ -10263,11 +10043,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Special Directives and Linguistic Minorities",
+        "label": "🟡|Special Directives and Linguistic Minorities",
         "kind": "subsection",
         "children": [
           {
-            "label": "Public Grievances & Minority Protections (Art 350-350B)",
+            "label": "🟡|Public Grievances & Minority Protections (Art 350-350B)",
             "kind": "subsection",
             "children": [
               {
@@ -10285,16 +10065,12 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Promotion of Hindi & Classical Languages",
+            "label": "🟡|Promotion of Hindi & Classical Languages",
             "kind": "subsection",
             "children": [
               {
                 "label": "🟡|Art 351:\n\n1.\nDirects the Union to promote the spread of Hindi.\n2.\nDirects the Union to develop Hindi.\n3.\nRequires Hindi to draw upon forms, styles, and expressions from other Indian languages, especially classical sources.\n4.\nEnvisions Hindi as a medium of expression for the composite culture of India.",
                 "kind": "numbered"
-              },
-              {
-                "label": "🟡|Classical Language Status (11, as of 2026): Tamil, Sanskrit, Telugu, Kannada, Malayalam, Odia, Marathi, Pali, Prakrit, Assamese and Bengali.\nTRAP: Classical-language status is an executive classification, NOT a constitutional designation.",
-                "kind": "bullet"
               }
             ]
           }
@@ -10305,15 +10081,15 @@ export const RAW_D = [
   {
     "id": "XXXVI",
     "p": "pm",
-    "label": "Public Services (Art 308-323)",
+    "label": "🟡|Public Services (Art 308-323)",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Provisions & Safeguards",
+        "label": "🟡|Constitutional Provisions & Safeguards",
         "kind": "subsection",
         "children": [
           {
-            "label": "All-India Services & Doctrine of Pleasure",
+            "label": "🟡|All-India Services & Doctrine of Pleasure",
             "kind": "subsection",
             "children": [
               {
@@ -10327,7 +10103,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Article 311 Protections & Exceptions",
+            "label": "🟡|Article 311 Protections & Exceptions",
             "kind": "article",
             "children": [
               {
@@ -10347,15 +10123,15 @@ export const RAW_D = [
   {
     "id": "XXXVII",
     "p": "pm2",
-    "label": "Co-operative Societies (97th CAA)",
+    "label": "🟡|Co-operative Societies (97th CAA)",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional Framework & Judicial Review",
+        "label": "🟡|Constitutional Framework & Judicial Review",
         "kind": "subsection",
         "children": [
           {
-            "label": "97th Amendment Provisions",
+            "label": "🟡|97th Amendment Provisions",
             "kind": "amendment",
             "children": [
               {
@@ -10365,7 +10141,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Supreme Court Interventions & Current Status",
+            "label": "🟡|Supreme Court Interventions & Current Status",
             "kind": "subsection",
             "children": [
               {
@@ -10385,15 +10161,15 @@ export const RAW_D = [
   {
     "id": "XXXVIII",
     "p": "pm2",
-    "label": "Political Parties",
+    "label": "🟡|Political Parties",
     "kind": "section",
     "children": [
       {
-        "label": "Recognition Criteria (ECI)",
+        "label": "🟡|Recognition Criteria (ECI)",
         "kind": "subsection",
         "children": [
           {
-            "label": "National Party Status Conditions",
+            "label": "🟡|National Party Status Conditions",
             "kind": "subsection",
             "children": [
               {
@@ -10411,7 +10187,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "State Party Status Conditions",
+            "label": "🟡|State Party Status Conditions",
             "kind": "subsection",
             "children": [
               {
@@ -10423,21 +10199,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Current Status & Dispute Resolution",
+        "label": "🟡|Current Status & Dispute Resolution",
         "kind": "subsection",
         "children": [
           {
-            "label": "Recognized National Parties",
-            "kind": "subsection",
-            "children": [
-              {
-                "label": "🟡|Current Recognized National Parties (current status): treat this as current-affairs data and refresh from the latest ECI notification before the examination.: BJP, INC, BSP, CPI(M), National People's Party (NPP), Aam Aadmi Party (AAP).\nTRAP: AAP gained national party status 2023; NCP and Trinamool Congress lost national party status; verify before exam as ECI reviews periodically",
-                "kind": "bullet"
-              }
-            ]
-          },
-          {
-            "label": "Adjudication of Splits & Symbols",
+            "label": "🟡|Adjudication of Splits & Symbols",
             "kind": "subsection",
             "children": [
               {
@@ -10453,15 +10219,15 @@ export const RAW_D = [
   {
     "id": "XXXIX",
     "p": "pm3",
-    "label": "Landmark Judgments (Master List)",
+    "label": "🟡|Landmark Judgments (Master List)",
     "kind": "section",
     "children": [
       {
-        "label": "Fundamental Rights vs.\nAmendments & Basic Structure",
+        "label": "🟡|Fundamental Rights vs.\nAmendments & Basic Structure",
         "kind": "subsection",
         "children": [
           {
-            "label": "Early Conflicts & The Basic Structure Doctrine",
+            "label": "🟡|Early Conflicts & The Basic Structure Doctrine",
             "kind": "subsection",
             "children": [
               {
@@ -10487,7 +10253,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Evolution of Basic Structure & Judicial Review",
+            "label": "🟡|Evolution of Basic Structure & Judicial Review",
             "kind": "subsection",
             "children": [
               {
@@ -10511,15 +10277,15 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Expansion of Article 21 & Social Justice",
+        "label": "🟡|Expansion of Article 21 & Social Justice",
         "kind": "subsection",
         "children": [
           {
-            "label": "Right to Life, Privacy & Liberty",
+            "label": "🟡|Right to Life, Privacy & Liberty",
             "kind": "subsection",
             "children": [
               {
-                "label": "🔴|Maneka Gandhi (1978): 'Due Process' conceptually imported into Art 21; procedure established by law must be fair/just/reasonable; Art 14, 19, 21 form 'golden triangle'",
+                "label": "🟡|Maneka Gandhi (1978): 'Due Process' conceptually imported into Art 21; procedure established by law must be fair/just/reasonable; Art 14, 19, 21 form 'golden triangle'",
                 "kind": "case"
               },
               {
@@ -10531,7 +10297,7 @@ export const RAW_D = [
                 "kind": "case"
               },
               {
-                "label": "🔴|Puttaswamy (2017): Right to Privacy is an intrinsic part of Art 21 and is a FR; 9-judge bench (unanimous); overruled MP Sharma and Kharak Singh",
+                "label": "🟡|Puttaswamy (2017): Right to Privacy is an intrinsic part of Art 21 and is a FR; 9-judge bench (unanimous); overruled MP Sharma and Kharak Singh",
                 "kind": "bullet"
               },
               {
@@ -10545,7 +10311,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Reservations & Defection Limits",
+            "label": "🟡|Reservations & Defection Limits",
             "kind": "subsection",
             "children": [
               {
@@ -10569,15 +10335,15 @@ export const RAW_D = [
   {
     "id": "XL",
     "p": "pm2",
-    "label": "Philosophical Core & Political Theory",
+    "label": "🟡|Philosophical Core & Political Theory",
     "kind": "section",
     "children": [
       {
-        "label": "Foundational Constitutional Theories",
+        "label": "🟡|Foundational Constitutional Theories",
         "kind": "subsection",
         "children": [
           {
-            "label": "Rule of Law (A.V.\nDicey)",
+            "label": "🟡|Rule of Law (A.V.\nDicey)",
             "kind": "subsection",
             "children": [
               {
@@ -10591,7 +10357,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Separation of Powers & Secularism",
+            "label": "🟡|Separation of Powers & Secularism",
             "kind": "subsection",
             "children": [
               {
@@ -10611,25 +10377,15 @@ export const RAW_D = [
   {
     "id": "XLI",
     "p": "pm2",
-    "label": "Centre-State Relations: Key Commissions",
+    "label": "🟡|Centre-State Relations: Key Commissions",
     "kind": "section",
     "children": [
       {
-        "label": "Major Federal Commissions",
+        "label": "🟡|Major Federal Commissions",
         "kind": "subsection",
         "children": [
           {
-            "label": "Sarkaria Commission (1983)",
-            "kind": "subsection",
-            "children": [
-              {
-                "label": "🟡|Recommended: Sparing use of Art 356 (President's Rule); fixed tenure for Governors with consultation of CM before appointment; strong and effective Inter-State Council; Concurrent List legislation only after consulting states; Union should use Art 249 (RS resolution) sparingly",
-                "kind": "bullet"
-              }
-            ]
-          },
-          {
-            "label": "Punchhi Commission (2007)",
+            "label": "🟡|Punchhi Commission (2007)",
             "kind": "subsection",
             "children": [
               {
@@ -10641,11 +10397,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Administrative Reforms Commissions",
+        "label": "🟡|Administrative Reforms Commissions",
         "kind": "subsection",
         "children": [
           {
-            "label": "1st & 2nd ARC Reports",
+            "label": "🟡|1st & 2nd ARC Reports",
             "kind": "subsection",
             "children": [
               {
@@ -10665,15 +10421,15 @@ export const RAW_D = [
   {
     "id": "XLII",
     "p": "pm3",
-    "label": "Types of Majorities (Comprehensive Reference)",
+    "label": "🟡|Types of Majorities (Comprehensive Reference)",
     "kind": "section",
     "children": [
       {
-        "label": "Standard & Special Majorities",
+        "label": "🟡|Standard & Special Majorities",
         "kind": "subsection",
         "children": [
           {
-            "label": "Simple, Absolute & Effective Majorities",
+            "label": "🟡|Simple, Absolute & Effective Majorities",
             "kind": "subsection",
             "children": [
               {
@@ -10691,11 +10447,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Article 368 & Other Special Majorities",
+            "label": "🟡|Article 368 & Other Special Majorities",
             "kind": "article",
             "children": [
               {
-                "label": "🔴|Special Majority Type I (Art 368): Majority of TOTAL membership of each House AND 2/3rd of members present & voting in each House.\nUsed for: Most Constitutional amendments, Impeachment of President (2/3rd of TOTAL only, no absolute component), SC/HC Judge removal, CEC removal, National Emergency approval",
+                "label": "🟡|Special Majority Type I (Art 368): majority of the total membership of each House AND 2/3rd of members present and voting in each House. Used for most Constitutional amendments. TRAP: presidential impeachment is different—each House must pass the impeachment charge by a majority of 2/3rd of the total membership of that House; it is not the Art 368 special-majority formula.",
                 "kind": "amendment"
               },
               {
@@ -10711,11 +10467,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Consolidation & Exam TRAPs",
+        "label": "🟡|Consolidation & Exam TRAPs",
         "kind": "subsection",
         "children": [
           {
-            "label": "Master Summary of Majorities",
+            "label": "🟡|Master Summary of Majorities",
             "kind": "subsection",
             "children": [
               {
@@ -10727,7 +10483,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Majorities — Final Decision Tree",
+        "label": "🟡|Majorities — Final Decision Tree",
         "kind": "comparison",
         "children": [
           {
@@ -10753,7 +10509,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Majorities — Decision Tree",
+        "label": "🟡|Majorities — Decision Tree",
         "kind": "comparison",
         "children": [
           {
@@ -10783,15 +10539,15 @@ export const RAW_D = [
   {
     "id": "XLIII",
     "p": "pm2",
-    "label": "Rights Outside Part III",
+    "label": "🟡|Rights Outside Part III",
     "kind": "section",
     "children": [
       {
-        "label": "Constitutional & Statutory Rights",
+        "label": "🟡|Constitutional & Statutory Rights",
         "kind": "subsection",
         "children": [
           {
-            "label": "Right to Property & Trade",
+            "label": "🟡|Right to Property & Trade",
             "kind": "subsection",
             "children": [
               {
@@ -10805,7 +10561,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Right to Vote & Information",
+            "label": "🟡|Right to Vote & Information",
             "kind": "subsection",
             "children": [
               {
@@ -10821,7 +10577,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Rights Outside Part III — Final Classification",
+        "label": "🟡|Rights Outside Part III — Final Classification",
         "kind": "comparison",
         "children": [
           {
@@ -10847,15 +10603,15 @@ export const RAW_D = [
   {
     "id": "XLIV",
     "p": "pm3",
-    "label": "Doctrines & Legal Maxims in Constitutional Law",
+    "label": "🟡|Doctrines & Legal Maxims in Constitutional Law",
     "kind": "section",
     "children": [
       {
-        "label": "Interpretation & Federal Doctrines",
+        "label": "🟡|Interpretation & Federal Doctrines",
         "kind": "subsection",
         "children": [
           {
-            "label": "Eclipse, Severability & Harmonious Construction",
+            "label": "🟡|Eclipse, Severability & Harmonious Construction",
             "kind": "subsection",
             "children": [
               {
@@ -10873,7 +10629,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Federal Competence Doctrines",
+            "label": "🟡|Federal Competence Doctrines",
             "kind": "subsection",
             "children": [
               {
@@ -10901,11 +10657,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Judicial & Rights Doctrines",
+        "label": "🟡|Judicial & Rights Doctrines",
         "kind": "subsection",
         "children": [
           {
-            "label": "Overruling & Waiver Doctrines",
+            "label": "🟡|Overruling & Waiver Doctrines",
             "kind": "subsection",
             "children": [
               {
@@ -10925,15 +10681,15 @@ export const RAW_D = [
   {
     "id": "XLV",
     "p": "pm3",
-    "label": "Comparison: President vs Governor (Trap Chart)",
+    "label": "🟡|Comparison: President vs Governor (Trap Chart)",
     "kind": "section",
     "children": [
       {
-        "label": "Executive Powers & Roles Comparison",
+        "label": "🟡|Executive Powers & Roles Comparison",
         "kind": "comparison",
         "children": [
           {
-            "label": "Appointment, Removal & Emoluments",
+            "label": "🟡|Appointment, Removal & Emoluments",
             "kind": "subsection",
             "children": [
               {
@@ -10951,7 +10707,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Clemency & Legislative Powers",
+            "label": "🟡|Clemency & Legislative Powers",
             "kind": "subsection",
             "children": [
               {
@@ -10969,7 +10725,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Discretion & Advisory Capacities",
+            "label": "🟡|Discretion & Advisory Capacities",
             "kind": "subsection",
             "children": [
               {
@@ -10977,7 +10733,7 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "🔴|Discretion: President's discretion is very limited; Convention-based.\nGovernor's discretion is explicitly WIDER, given constitutional basis under Art 163(2)",
+                "label": "🟡|Discretion: President's discretion is very limited; Convention-based.\nGovernor's discretion is explicitly WIDER, given constitutional basis under Art 163(2)",
                 "kind": "bullet"
               }
             ]
@@ -10989,15 +10745,15 @@ export const RAW_D = [
   {
     "id": "XLVI",
     "p": "pm3",
-    "label": "Comparison: SC vs HC Writ Jurisdiction (Trap Zone)",
+    "label": "🟡|Comparison: SC vs HC Writ Jurisdiction (Trap Zone)",
     "kind": "section",
     "children": [
       {
-        "label": "Writ Jurisdiction Dynamics",
+        "label": "🟡|Writ Jurisdiction Dynamics",
         "kind": "subsection",
         "children": [
           {
-            "label": "Scope & Constitutional Status",
+            "label": "🟡|Scope & Constitutional Status",
             "kind": "subsection",
             "children": [
               {
@@ -11011,7 +10767,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Territorial Reach & Locus Considerations",
+            "label": "🟡|Territorial Reach & Locus Considerations",
             "kind": "subsection",
             "children": [
               {
@@ -11035,15 +10791,15 @@ export const RAW_D = [
   {
     "id": "XLVII",
     "p": "pm3",
-    "label": "Electoral Reforms & Right to Information",
+    "label": "🟡|Electoral Reforms & Right to Information",
     "kind": "section",
     "children": [
       {
-        "label": "Electoral Committees & Reforms",
+        "label": "🟡|Electoral Committees & Reforms",
         "kind": "subsection",
         "children": [
           {
-            "label": "Key Electoral Reform Committees",
+            "label": "🟡|Key Electoral Reform Committees",
             "kind": "subsection",
             "children": [
               {
@@ -11059,7 +10815,7 @@ export const RAW_D = [
                 "kind": "bullet"
               },
               {
-                "label": "🟠|Law Commission Report (1999): Recommended simultaneous elections for Parliament and State Assemblies ('One Nation One Poll')",
+                "label": "🟡|Law Commission Report (1999): Recommended simultaneous elections for Parliament and State Assemblies ('One Nation One Poll')",
                 "kind": "bullet"
               },
               {
@@ -11075,11 +10831,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Transparency & Dispute Resolution",
+        "label": "🟡|Transparency & Dispute Resolution",
         "kind": "subsection",
         "children": [
           {
-            "label": "Right to Information Act 2005",
+            "label": "🟡|Right to Information Act 2005",
             "kind": "subsection",
             "children": [
               {
@@ -11101,11 +10857,11 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Alternative Dispute Resolution (ADR)",
+            "label": "🟡|Alternative Dispute Resolution (ADR)",
             "kind": "subsection",
             "children": [
               {
-                "label": "🟠|Lok Adalats: Statutory (Legal Services Authorities Act 1987).\nAward deemed civil court decree; final and binding.\nTRAP: NO APPEAL against a Lok Adalat award in any court",
+                "label": "🟡|Lok Adalats: Statutory (Legal Services Authorities Act 1987).\nAward deemed civil court decree; final and binding.\nTRAP: NO APPEAL against a Lok Adalat award in any court",
                 "kind": "bullet"
               },
               {
@@ -11129,15 +10885,15 @@ export const RAW_D = [
   {
     "id": "XLVIII",
     "p": "pm2",
-    "label": "Prevention of Corruption & Accountability Laws",
+    "label": "🟡|Prevention of Corruption & Accountability Laws",
     "kind": "section",
     "children": [
       {
-        "label": "Anti-Corruption Statutory Framework",
+        "label": "🟡|Anti-Corruption Statutory Framework",
         "kind": "subsection",
         "children": [
           {
-            "label": "PCA & Benami Prohibition",
+            "label": "🟡|PCA & Benami Prohibition",
             "kind": "subsection",
             "children": [
               {
@@ -11151,7 +10907,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "PMLA & Investigating Agencies (CBI/ED)",
+            "label": "🟡|PMLA & Investigating Agencies (CBI/ED)",
             "kind": "subsection",
             "children": [
               {
@@ -11171,15 +10927,15 @@ export const RAW_D = [
   {
     "id": "XLIX",
     "p": "pm3",
-    "label": "Emergency Provisions Comparison (Master Trap Table)",
+    "label": "🟡|Emergency Provisions Comparison (Master Trap Table)",
     "kind": "section",
     "children": [
       {
-        "label": "Comparative Analysis of Emergencies",
+        "label": "🟡|Comparative Analysis of Emergencies",
         "kind": "subsection",
         "children": [
           {
-            "label": "National Emergency (Art 352) Dynamics",
+            "label": "🟡|National Emergency (Art 352) Dynamics",
             "kind": "subsection",
             "children": [
               {
@@ -11189,7 +10945,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "State & Financial Emergency Dynamics",
+            "label": "🟡|State & Financial Emergency Dynamics",
             "kind": "subsection",
             "children": [
               {
@@ -11209,15 +10965,15 @@ export const RAW_D = [
   {
     "id": "L",
     "p": "pm3",
-    "label": "Key Writs: Applicability & Exceptions (Trap Zone)",
+    "label": "🟡|Key Writs: Applicability & Exceptions (Trap Zone)",
     "kind": "section",
     "children": [
       {
-        "label": "The Five Prerogative Writs",
+        "label": "🟡|The Five Prerogative Writs",
         "kind": "numbered",
         "children": [
           {
-            "label": "Habeas Corpus & Mandamus",
+            "label": "🟡|Habeas Corpus & Mandamus",
             "kind": "subsection",
             "children": [
               {
@@ -11231,7 +10987,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Prohibition, Certiorari & Quo Warranto",
+            "label": "🟡|Prohibition, Certiorari & Quo Warranto",
             "kind": "subsection",
             "children": [
               {
@@ -11251,11 +11007,11 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Judicial Rules & Applicability TRAPs",
+        "label": "🟡|Judicial Rules & Applicability TRAPs",
         "kind": "subsection",
         "children": [
           {
-            "label": "Locus Standi & Res Judicata Exceptions",
+            "label": "🟡|Locus Standi & Res Judicata Exceptions",
             "kind": "subsection",
             "children": [
               {
@@ -11271,7 +11027,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Five Writs — Final Prelims Comparison",
+        "label": "🟡|Five Writs — Final Prelims Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -11297,7 +11053,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Five Writs — Final Comparison",
+        "label": "🟡|Five Writs — Final Comparison",
         "kind": "comparison",
         "children": [
           {
@@ -11327,15 +11083,15 @@ export const RAW_D = [
   {
     "id": "LI",
     "p": "pm2",
-    "label": "Important Constitutional Articles Quick Reference",
+    "label": "🟡|Important Constitutional Articles Quick Reference",
     "kind": "section",
     "children": [
       {
-        "label": "Master Index of Articles",
+        "label": "🟡|Master Index of Articles",
         "kind": "subsection",
         "children": [
           {
-            "label": "Part I to Part VA (Art 1 - 51A)",
+            "label": "🟡|Part I to Part VA (Art 1 - 51A)",
             "kind": "subsection",
             "children": [
               {
@@ -11345,7 +11101,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Part V: Union Executive & Judiciary (Art 52 - 151)",
+            "label": "🟡|Part V: Union Executive & Judiciary (Art 52 - 151)",
             "kind": "subsection",
             "children": [
               {
@@ -11359,7 +11115,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Part VI: State Executive & Legislature (Art 153 - 237)",
+            "label": "🟡|Part VI: State Executive & Legislature (Art 153 - 237)",
             "kind": "subsection",
             "children": [
               {
@@ -11373,7 +11129,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Local Govt, Territories & Federal Relations (Art 239 - 293)",
+            "label": "🟡|Local Govt, Territories & Federal Relations (Art 239 - 293)",
             "kind": "subsection",
             "children": [
               {
@@ -11391,7 +11147,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Services, Tribunals, Elections & Special Provisions (Art 300A - 371J)",
+            "label": "🟡|Services, Tribunals, Elections & Special Provisions (Art 300A - 371J)",
             "kind": "subsection",
             "children": [
               {
@@ -11415,6 +11171,30 @@ export const RAW_D = [
                 "kind": "amendment"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "XLX",
+    "p": "pm2",
+    "label": "🟡|Polity Chapters 7–51 — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "🟡|Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Freeze constitutional text, Articles, institutional architecture, classic doctrines, landmark judgments, parliamentary procedures, majorities, bodies and stable legal distinctions."
+          },
+          {
+            "label": "🟡|Current office-holders, current number of High Courts/judges, current recognised political parties, present State Legislative Council status, current seat allocations, current salary/tenure notifications and other status-sensitive facts belong in Current Affairs."
+          },
+          {
+            "label": "🟡|Do not memorise an absolute 'first/only/always' statement where constitutional text or Supreme Court jurisprudence makes it qualified."
+          },
+          {
+            "label": "🟠|Do not reopen the static note merely because a new coaching source contains an additional trap; reopen only for a genuine UPSC PYQ, verified factual correction or major constitutional/statutory change."
           }
         ]
       }

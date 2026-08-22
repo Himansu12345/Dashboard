@@ -959,16 +959,29 @@ export const RAW_D = [
         "kind": "comparison",
         "children": [
           {
-            "label": "🟡|Keep exact Census 2011 shares, current fertility, migration counts, urbanisation projections and other fast-changing statistics in a separate update layer.",
-            "kind": "bullet"
-          },
-          {
             "label": "🟡|For Mains, one authoritative statistic/example is usually enough; avoid overloading the static note with changing numbers.",
             "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "X",
+    "p": "pm2",
+    "label": "Society — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Freeze social-structure concepts, thinkers, social-change mechanisms, gender/family, population/migration, poverty/inequality, urbanisation, globalisation, communalism/regionalism/secularism and social issues."
           },
           {
-            "label": "🟡|Current schemes/examples should be refreshed separately from the permanent conceptual framework.",
-            "kind": "bullet"
+            "label": "🟡|Census percentages, current fertility/migration/urbanisation statistics, current scheme examples and latest survey data belong in Current Affairs/data revision."
+          },
+          {
+            "label": "🟡|Use current examples only when they materially improve an answer; do not keep rewriting the static note for every new survey release."
           }
         ]
       }

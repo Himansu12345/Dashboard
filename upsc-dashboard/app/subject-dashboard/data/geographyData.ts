@@ -1,7 +1,7 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D = [
- {
+   {
     "id": "I",
     "p": "pm",
     "label": "Physical Geography: Geomorphology & Earth’s Structure",
@@ -57,7 +57,7 @@ export const RAW_D = [
             "label": "Earth’s Motions",
             "children": [
               {
-                "label": "🔴|Rotation (West to East): Causes day/night, tides, Coriolis effect.\nVelocity max at equator, zero at poles."
+                "label": "🔴|Earth's rotation causes day/night and, through planetary angular motion, contributes to the Coriolis effect; tides are primarily caused by the gravitational pull of the Moon and Sun."
               },
               {
                 "label": "🔴|Revolution: Causes seasons with axial tilt (23.5°)."
@@ -83,7 +83,7 @@ export const RAW_D = [
             "label": "Structure of the Earth",
             "children": [
               {
-                "label": "🟡|Crust: Continental (SIAL, thick up to 70km, granitic, older) vs Oceanic (SIMA, thin ~5km, basaltic, younger)."
+                "label": "🟡|Continental crust is generally thicker and less dense than oceanic crust; continental crust is typically felsic/granitic in composition, while oceanic crust is basaltic/gabbroic. SIAL/SIMA are legacy shorthand and should not be treated as modern precise classifications."
               },
               {
                 "label": "🟡|Mantle: Upper mantle has Asthenosphere (plastic, magma source).\nLower mantle solid.\nLithosphere = Crust + uppermost solid mantle."
@@ -221,7 +221,7 @@ export const RAW_D = [
                 "label": "🟡|Focus (Hypocenter) vs Epicenter (surface above)."
               },
               {
-                "label": "🔴|Seismic waves: P-waves (fastest, through solid/liquid/gas), S-waves (only solids), L-waves (surface, slowest, most destructive)."
+                "label": "🔴|Seismic waves: P-waves are fastest and travel through solids, liquids and gases; S-waves travel only through solids; surface waves (Love/Rayleigh) travel along the surface and are generally the most damaging."
               },
               {
                 "label": "🔴|Shadow zones: S-waves beyond 105° → liquid outer core.\nP-wave shadow 105°–145°."
@@ -475,7 +475,7 @@ export const RAW_D = [
                 "label": "🟡|Mesosphere: Coldest (-100°C), meteors burn, mesopause."
               },
               {
-                "label": "🔴|Thermosphere (Ionosphere): Temperature rises, ionized layers reflect radio waves, auroras, ISS orbit."
+                "label": "🔴|Thermosphere: temperature generally rises with altitude because of absorption of high-energy solar radiation. The ionosphere overlaps portions of the thermosphere/mesosphere/exosphere and supports radio propagation; auroras occur mainly in the upper atmosphere. The ISS orbits in the thermosphere."
               },
               {
                 "label": "🟡|Exosphere: Outermost, merges into space, light gases escape."
@@ -711,7 +711,7 @@ export const RAW_D = [
             "label": "Group D: Cold Snow-forest (Microthermal)",
             "children": [
               {
-                "label": "🟡|Df (Humid Continental): Only NH, warm summers, severe winters, mixed forests."
+                "label": "🟡|Df (Humid Continental): Predominantly Northern Hemisphere; no dry season, warm to hot summers and cold winters; natural vegetation commonly includes mixed/deciduous-coniferous forests depending on subtype."
               },
               {
                 "label": "🟡|Dw (Subarctic/Taiga): 50°-70°N, largest biome, coniferous forests (pine, spruce, fir).\nLumbering."
@@ -1111,6 +1111,24 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
+      },
+      {
+        "label": "FINAL PYQ FREEZE — Ocean Currents & Fishing",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Ocean currents are driven by winds, pressure gradients, Coriolis force, temperature/salinity density differences, and basin/coastal configuration.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Coastal upwelling brings nutrient-rich deeper water toward the surface and supports high biological productivity and fisheries.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Cold eastern-boundary currents such as the Humboldt and Benguela are associated with major upwelling/fishing zones.",
+            "kind": "bullet"
+          }
+        ]
       }
     ]
   },
@@ -1144,7 +1162,7 @@ export const RAW_D = [
             "label": "Mountain Passes (High-Yield TRAP)",
             "children": [
               {
-                "label": "🟡|J&K/Ladakh: Zoji La (Srinagar-Leh), Banihal (Jawahar Tunnel), Khardung La (highest motorable), Aghil Pass (Ladakh-China)."
+                "label": "🟡|J&K/Ladakh: Zoji La (Srinagar-Leh), Banihal (Jammu–Srinagar), Khardung La (Ladakh) and Aghil Pass (Karakoram region) are important pass/location anchors. Avoid memorising disputed 'highest motorable' rankings as permanent facts."
               },
               {
                 "label": "🟡|Himachal: Shipki La (Sutlej entry), Bara Lacha La, Rohtang Pass."
@@ -1500,7 +1518,7 @@ export const RAW_D = [
                 "label": "🟡|Biosphere Reserves: 18.\nNilgiri (1st, 1986), Gulf of Mannar, Sundarbans, Agasthyamala.\n12 UNESCO MAB."
               },
               {
-                "label": "🟡|Ramsar Sites: 80+ (2024).\nChilika, Keoladeo (1st).\nMontreux Record: Keoladeo, Loktak; Chilika removed."
+                "label": "🟡|Ramsar static anchors: Chilika Lake and Keoladeo National Park were among India's first Ramsar sites (designated in 1981). Keoladeo and Loktak have appeared on the Montreux Record; Chilika was removed from it. Current site counts/designations belong in Current Affairs."
               }
             ]
           }
@@ -1718,7 +1736,7 @@ export const RAW_D = [
             "label": "Major Deserts",
             "children": [
               {
-                "label": "🟡|Hot: Sahara (largest hot), Atacama (driest non-polar, Humboldt Current), Kalahari, Great Australian."
+                "label": "🟡|Hot deserts: Sahara is the world's largest hot desert; Atacama is among the driest non-polar regions and is influenced by the cold Humboldt Current; Kalahari and Great Australian Desert are other major examples."
               },
               {
                 "label": "🟡|Cold: Antarctica (largest overall), Gobi (rain shadow Himalayas), Patagonia (rain shadow Andes)."
@@ -1865,7 +1883,7 @@ export const RAW_D = [
                 "label": "🔴|Reforms: e-NAM, contract farming, PM-KISAN, PM Fasal Bima Yojana, Soil Health Card, organic farming (PKVY)."
               },
               {
-                "label": "🟡|Farm Acts 2020 (repealed 2021): marketing freedom, debate on MSP vs market."
+                "label": "🟡|The three central farm laws enacted in 2020 sought to liberalise agricultural marketing, contract farming and stocking rules; they were repealed in 2021. Static focus: understand the policy debate around APMC, MSP, private markets and farm-gate trade."
               }
             ]
           }
@@ -1922,7 +1940,7 @@ export const RAW_D = [
                 "label": "🟡|Rare Earth Elements (REEs): 17 elements for electronics; China dominates mining & refinement."
               },
               {
-                "label": "🟡|Uranium: Kazakhstan (in-situ), Canada, Australia (largest reserves)."
+                "label": "🟡|Major uranium producers/resources include Kazakhstan, Canada and Australia; exact production/reserve rankings are dynamic and should remain outside permanent memorisation."
               }
             ]
           }
@@ -2116,7 +2134,7 @@ export const RAW_D = [
                 "label": "🔴|Push factors: rural poverty, unemployment, lack of amenities.\nPull factors: urban jobs, higher wages, better services."
               },
               {
-                "label": "🔴|Inter-state migration: Rural-to-Rural dominant (female marriage migration); Rural-to-Urban (male economic)."
+                "label": "🔴|According to Census 2011, rural-to-rural migration was a major stream, strongly influenced by marriage-related movement among women, while rural-to-urban migration was strongly associated with employment. Use this as a Census-2011 pattern rather than a timeless universal."
               }
             ]
           },
@@ -2147,7 +2165,7 @@ export const RAW_D = [
                 "label": "🔴|Largest ST population: MP > Maharashtra > Odisha."
               },
               {
-                "label": "🟡|Highest % ST: Lakshadweep (94.8%), Mizoram (94.4%), Nagaland, Meghalaya."
+                "label": "🟡|Census 2011: Lakshadweep and several north-eastern States had very high ST shares; exact percentages belong to the historical Census-2011 reference set."
               },
               {
                 "label": "🟡|TRAP: Punjab, Haryana, Chandigarh, Delhi, Puducherry have no notified STs."
@@ -2356,10 +2374,10 @@ export const RAW_D = [
             "label": "Ramsar Sites",
             "children": [
               {
-                "label": "🟡|80+ sites (2024), highest in South Asia.\nMaximum in Tamil Nadu, then UP."
+                "label": "🟡|Ramsar site state-wise counts and rankings are dynamic. For static Geography, focus on representative wetlands, ecological type, location and conservation significance."
               },
               {
-                "label": "🟡|Recent additions (2024): Ankasamudra, Aghanashini (Karnataka); Karaivetti, Longwood Shola (TN); Magadi Kere (Karnataka)."
+                "label": "🟡|Named wetland examples such as Ankasamudra, Aghanashini, Karaivetti, Longwood Shola and Magadi Kere may be used as identification examples; their designation status/count belongs in Current Affairs."
               },
               {
                 "label": "🟡|Montreux Record: Keoladeo NP, Loktak Lake.\nChilika removed 2002."
@@ -2681,6 +2699,30 @@ export const RAW_D = [
           {
             "label": "🔴|Geographical information technologies support disaster management, agriculture, urban planning, resource mapping, navigation and environmental monitoring.",
             "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-PRECISION",
+    "p": "pm2",
+    "label": "Geography — FINAL STATIC PRECISION CONTROL",
+    "children": [
+      {
+        "label": "Rules",
+        "children": [
+          {
+            "label": "🔴|Permanent core: physical processes, spatial patterns, Indian geography, map anchors, classic definitions and stable mechanisms."
+          },
+          {
+            "label": "🟡|Current counts/rankings (Ramsar sites, tiger numbers, elephant reserves, mineral production, port rankings, current demographics) belong in Current Affairs."
+          },
+          {
+            "label": "🟡|Historical Census 2011 figures may be retained when they are used as a fixed historical benchmark; label them clearly as Census-2011 facts."
+          },
+          {
+            "label": "🟠|Avoid disputed superlatives such as 'highest motorable', 'largest river island', 'deepest/oldest port' unless the criterion is explicitly defined."
           }
         ]
       }

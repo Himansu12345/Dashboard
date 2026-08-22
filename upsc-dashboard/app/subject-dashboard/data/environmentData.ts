@@ -4,10 +4,10 @@ export const RAW_D = [
   {
     "id": "I",
     "p": "pm2",
-    "label": "Ecology & Ecosystem Basics",
+    "label": "🟡|Ecology & Ecosystem Basics",
     "children": [
       {
-        "label": "Ecological Hierarchy",
+        "label": "🟡|Ecological Hierarchy",
         "kind": "comparison",
         "children": [
           {
@@ -29,7 +29,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Energy Flow & Productivity",
+        "label": "🟡|Energy Flow & Productivity",
         "kind": "comparison",
         "children": [
           {
@@ -51,7 +51,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Carrying Capacity & Resilience",
+        "label": "🟡|Carrying Capacity & Resilience",
         "kind": "comparison",
         "children": [
           {
@@ -73,7 +73,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Biogeochemical Cycles",
+        "label": "🟡|Biogeochemical Cycles",
         "kind": "comparison",
         "children": [
           {
@@ -99,10 +99,10 @@ export const RAW_D = [
   {
     "id": "II",
     "p": "pm2",
-    "label": "Biodiversity & Conservation",
+    "label": "🟡|Biodiversity & Conservation",
     "children": [
       {
-        "label": "Levels, Values & Patterns",
+        "label": "🟡|Levels, Values & Patterns",
         "kind": "comparison",
         "children": [
           {
@@ -124,7 +124,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Threats to Biodiversity",
+        "label": "🟡|Threats to Biodiversity",
         "kind": "comparison",
         "children": [
           {
@@ -146,7 +146,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "In-situ Conservation",
+        "label": "🟡|In-situ Conservation",
         "kind": "comparison",
         "children": [
           {
@@ -168,7 +168,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Ex-situ Conservation",
+        "label": "🟡|Ex-situ Conservation",
         "kind": "comparison",
         "children": [
           {
@@ -186,7 +186,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Biological Diversity Act & ABS",
+        "label": "🟡|Biological Diversity Act & ABS",
         "kind": "comparison",
         "children": [
           {
@@ -212,10 +212,10 @@ export const RAW_D = [
   {
     "id": "III",
     "p": "pm3",
-    "label": "Species, Protected Areas & Wetlands",
+    "label": "🟡|Species, Protected Areas & Wetlands",
     "children": [
       {
-        "label": "Species & Conservation Status",
+        "label": "🟡|Species & Conservation Status",
         "kind": "comparison",
         "children": [
           {
@@ -237,7 +237,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Indian Protected-Area Categories",
+        "label": "🟡|Indian Protected-Area Categories",
         "kind": "comparison",
         "children": [
           {
@@ -259,7 +259,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Wetlands & Ramsar",
+        "label": "🟡|Wetlands & Ramsar",
         "kind": "comparison",
         "children": [
           {
@@ -281,7 +281,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Wetland Conservation",
+        "label": "🟡|Wetland Conservation",
         "kind": "comparison",
         "children": [
           {
@@ -297,16 +297,34 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
+      },
+      {
+        "label": "🟡|FINAL PYQ — National Wetland Conservation Programme",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|National Wetland Conservation Programme (NWCP) was initiated in 1987 to provide policy guidance, support identified wetlands, monitoring and inventory-related functions.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Later wetland governance evolved through the Wetlands (Conservation and Management) Rules and integrated wetland-conservation approaches; learn NWCP as a historical programme rather than a current standalone umbrella label.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Core conservation logic remains: maintain hydrological regime, ecological character, water quality and sustainable community use.",
+            "kind": "bullet"
+          }
+        ]
       }
     ]
   },
   {
     "id": "IV",
     "p": "pm2",
-    "label": "Climate Change & Global Climate Governance",
+    "label": "🟡|Climate Change & Global Climate Governance",
     "children": [
       {
-        "label": "Climate Fundamentals",
+        "label": "🟡|Climate Fundamentals",
         "kind": "comparison",
         "children": [
           {
@@ -328,7 +346,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Paris Agreement & NDCs",
+        "label": "🟡|Paris Agreement & NDCs",
         "kind": "comparison",
         "children": [
           {
@@ -350,7 +368,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Kyoto Protocol, CDM & Carbon Markets",
+        "label": "🟡|Kyoto Protocol, CDM & Carbon Markets",
         "kind": "comparison",
         "children": [
           {
@@ -372,7 +390,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "COP26, Green Grid & International Solar Alliance",
+        "label": "🟡|COP26, Green Grid & International Solar Alliance",
         "kind": "comparison",
         "children": [
           {
@@ -394,7 +412,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Carbon Capture, Utilisation & Storage (CCUS)",
+        "label": "🟡|Carbon Capture, Utilisation & Storage (CCUS)",
         "kind": "comparison",
         "children": [
           {
@@ -416,7 +434,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "IPCC & Climate Science",
+        "label": "🟡|IPCC & Climate Science",
         "kind": "comparison",
         "children": [
           {
@@ -438,10 +456,10 @@ export const RAW_D = [
   {
     "id": "V",
     "p": "pm3",
-    "label": "Water, Groundwater & River Systems",
+    "label": "🟡|Water, Groundwater & River Systems",
     "children": [
       {
-        "label": "Groundwater Depletion",
+        "label": "🟡|Groundwater Depletion",
         "kind": "comparison",
         "children": [
           {
@@ -459,7 +477,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Groundwater Management",
+        "label": "🟡|Groundwater Management",
         "kind": "comparison",
         "children": [
           {
@@ -481,7 +499,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "River Pollution",
+        "label": "🟡|River Pollution",
         "kind": "comparison",
         "children": [
           {
@@ -499,7 +517,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Namami Gange / NMCG",
+        "label": "🟡|Namami Gange / NMCG",
         "kind": "comparison",
         "children": [
           {
@@ -517,7 +535,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "National Water Policy & Jal Security",
+        "label": "🟡|National Water Policy & Jal Security",
         "kind": "comparison",
         "children": [
           {
@@ -539,10 +557,10 @@ export const RAW_D = [
   {
     "id": "VI",
     "p": "pm3",
-    "label": "Air Pollution & Atmospheric Pollution",
+    "label": "🟡|Air Pollution & Atmospheric Pollution",
     "children": [
       {
-        "label": "Primary vs Secondary Pollutants",
+        "label": "🟡|Primary vs Secondary Pollutants",
         "kind": "comparison",
         "children": [
           {
@@ -560,7 +578,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Photochemical Smog",
+        "label": "🟡|Photochemical Smog",
         "kind": "comparison",
         "children": [
           {
@@ -582,7 +600,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "WHO Air-Quality Guidelines & NCAP",
+        "label": "🟡|WHO Air-Quality Guidelines & NCAP",
         "kind": "comparison",
         "children": [
           {
@@ -600,7 +618,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Thermal & Radioactive Pollution",
+        "label": "🟡|Thermal & Radioactive Pollution",
         "kind": "comparison",
         "children": [
           {
@@ -616,16 +634,52 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
+      },
+      {
+        "label": "🟡|FINAL PYQ — WHO AQGs 2021 vs 2005",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|WHO's 2021 global air-quality guidelines tightened several health-based recommendations: annual PM2.5 guideline moved from 10 to 5 µg/m³; 24-hour PM2.5 from 25 to 15; annual PM10 from 20 to 15; annual NO₂ from 40 to 10 µg/m³.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|The 2021 update reflects stronger evidence of health harm at lower pollutant concentrations; the guideline values are health-protection benchmarks, not automatically India's legally binding standards.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|India's response requires stronger source control, airshed management, public transport/clean fuels, industrial emission control, monitoring and health-oriented targets.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "🟡|FINAL PYQ — 1999 Gothenburg Protocol",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|Gothenburg Protocol (1999) addresses transboundary air pollution causing acidification, eutrophication and ground-level ozone.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|It set national emission ceilings for SO₂, NOx, VOCs and NH₃ for participating UNECE countries and uses source-specific emission-control measures.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|Trap: it is a regional air-pollution protocol under the Convention on Long-range Transboundary Air Pollution, not a global climate treaty.",
+            "kind": "bullet"
+          }
+        ]
       }
     ]
   },
   {
     "id": "VII",
     "p": "pm3",
-    "label": "Industrial, Mining, Marine & Coastal Pollution",
+    "label": "🟡|Industrial, Mining, Marine & Coastal Pollution",
     "children": [
       {
-        "label": "Mining as an Environmental Hazard",
+        "label": "🟡|Mining as an Environmental Hazard",
         "kind": "comparison",
         "children": [
           {
@@ -643,7 +697,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Go/No-Go & Ecologically Sensitive Mining",
+        "label": "🟡|Go/No-Go & Ecologically Sensitive Mining",
         "kind": "comparison",
         "children": [
           {
@@ -661,7 +715,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Sand Mining",
+        "label": "🟡|Sand Mining",
         "kind": "comparison",
         "children": [
           {
@@ -679,7 +733,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Oil Pollution & Marine Ecosystems",
+        "label": "🟡|Oil Pollution & Marine Ecosystems",
         "kind": "comparison",
         "children": [
           {
@@ -697,7 +751,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Coastal Regulation & Marine Resilience",
+        "label": "🟡|Coastal Regulation & Marine Resilience",
         "kind": "comparison",
         "children": [
           {
@@ -719,10 +773,10 @@ export const RAW_D = [
   {
     "id": "VIII",
     "p": "pm3",
-    "label": "Waste Management & Hazardous Waste",
+    "label": "🟡|Waste Management & Hazardous Waste",
     "children": [
       {
-        "label": "Solid Waste",
+        "label": "🟡|Solid Waste",
         "kind": "comparison",
         "children": [
           {
@@ -740,7 +794,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Hazardous Waste",
+        "label": "🟡|Hazardous Waste",
         "kind": "comparison",
         "children": [
           {
@@ -758,7 +812,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "E-Waste",
+        "label": "🟡|E-Waste",
         "kind": "comparison",
         "children": [
           {
@@ -776,7 +830,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Plastics & Circular Economy",
+        "label": "🟡|Plastics & Circular Economy",
         "kind": "comparison",
         "children": [
           {
@@ -798,10 +852,10 @@ export const RAW_D = [
   {
     "id": "IX",
     "p": "pm3",
-    "label": "EIA, Environmental Governance & Community Participation",
+    "label": "🟡|EIA, Environmental Governance & Community Participation",
     "children": [
       {
-        "label": "Environmental Impact Assessment",
+        "label": "🟡|Environmental Impact Assessment",
         "kind": "comparison",
         "children": [
           {
@@ -819,7 +873,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "EIA Notification 2006 vs Draft 2020",
+        "label": "🟡|EIA Notification 2006 vs Draft 2020",
         "kind": "comparison",
         "children": [
           {
@@ -837,7 +891,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Environmental NGOs & Activism",
+        "label": "🟡|Environmental NGOs & Activism",
         "kind": "comparison",
         "children": [
           {
@@ -855,7 +909,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Rehabilitation & Resettlement",
+        "label": "🟡|Rehabilitation & Resettlement",
         "kind": "comparison",
         "children": [
           {
@@ -873,7 +927,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Environmental Governance Principles",
+        "label": "🟡|Environmental Governance Principles",
         "kind": "comparison",
         "children": [
           {
@@ -895,10 +949,10 @@ export const RAW_D = [
   {
     "id": "X",
     "p": "pm3",
-    "label": "Indian Environmental Laws, Institutions & Conservation Governance",
+    "label": "🟡|Indian Environmental Laws, Institutions & Conservation Governance",
     "children": [
       {
-        "label": "Core Legal Architecture",
+        "label": "🟡|Core Legal Architecture",
         "kind": "comparison",
         "children": [
           {
@@ -920,7 +974,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Pollution-Control Institutions",
+        "label": "🟡|Pollution-Control Institutions",
         "kind": "comparison",
         "children": [
           {
@@ -938,7 +992,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Forest & Wildlife Governance",
+        "label": "🟡|Forest & Wildlife Governance",
         "kind": "comparison",
         "children": [
           {
@@ -954,16 +1008,52 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
+      },
+      {
+        "label": "🟡|FINAL PYQ — EIA 2006 vs Draft EIA 2020",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|EIA Notification 2006 created the operative prior-environmental-clearance framework with project categorisation, screening/scoping where applicable, public consultation and appraisal.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Draft EIA Notification 2020 proposed consolidation/modernisation and procedural changes, including revised project classifications and changes in public-consultation/compliance provisions.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|UPSC comparison should focus on the policy trade-off: faster/streamlined approvals vs transparency, public participation, cumulative-impact assessment and environmental safeguards.",
+            "kind": "bullet"
+          }
+        ]
+      },
+      {
+        "label": "🟡|FINAL PYQ — Pithead Coal-Thermal Pollution",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🟠|Pithead thermal plants reduce coal transport needs but can concentrate local environmental burdens around coal-mining/combustion landscapes.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Impacts include particulate/SO₂/NOx emissions, fly ash, ash-pond risks, thermal pollution, water consumption, mine-related land degradation and cumulative air pollution.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟠|Mitigation: high-efficiency/low-emission technology, flue-gas controls, ash utilisation, water recycling, continuous emission monitoring, mine reclamation and cumulative airshed assessment.",
+            "kind": "bullet"
+          }
+        ]
       }
     ]
   },
   {
     "id": "XI",
     "p": "pm2",
-    "label": "Renewable Energy, Bioenergy & Sustainable Development",
+    "label": "🟡|Renewable Energy, Bioenergy & Sustainable Development",
     "children": [
       {
-        "label": "Solar Energy",
+        "label": "🟡|Solar Energy",
         "kind": "comparison",
         "children": [
           {
@@ -981,7 +1071,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Wind Energy",
+        "label": "🟡|Wind Energy",
         "kind": "comparison",
         "children": [
           {
@@ -999,7 +1089,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Biofuels",
+        "label": "🟡|Biofuels",
         "kind": "comparison",
         "children": [
           {
@@ -1017,7 +1107,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "LED & Energy Efficiency",
+        "label": "🟡|LED & Energy Efficiency",
         "kind": "comparison",
         "children": [
           {
@@ -1035,7 +1125,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Nuclear Energy & Sustainable Development",
+        "label": "🟡|Nuclear Energy & Sustainable Development",
         "kind": "comparison",
         "children": [
           {
@@ -1049,7 +1139,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Sustainable Development",
+        "label": "🟡|Sustainable Development",
         "kind": "comparison",
         "children": [
           {
@@ -1065,16 +1155,34 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
+      },
+      {
+        "label": "🟡|FINAL PYQ — National LED Programme / UJALA",
+        "kind": "comparison",
+        "children": [
+          {
+            "label": "🔴|The national LED-based Domestic Efficient Lighting Programme was launched in 2015; it was branded UJALA in 2016 and implemented by EESL.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|LEDs reduce electricity demand for equivalent lighting output, lowering peak demand and associated generation/emissions.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🔴|UPSC link: energy efficiency complements renewable expansion by reducing the amount of new generation required.",
+            "kind": "bullet"
+          }
+        ]
       }
     ]
   },
   {
     "id": "XII",
     "p": "pm3",
-    "label": "International Environmental Conventions & Protocols",
+    "label": "🟡|International Environmental Conventions & Protocols",
     "children": [
       {
-        "label": "Climate Conventions",
+        "label": "🟡|Climate Conventions",
         "kind": "comparison",
         "children": [
           {
@@ -1092,7 +1200,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Ozone Layer",
+        "label": "🟡|Ozone Layer",
         "kind": "comparison",
         "children": [
           {
@@ -1110,7 +1218,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Biodiversity & Wetlands",
+        "label": "🟡|Biodiversity & Wetlands",
         "kind": "comparison",
         "children": [
           {
@@ -1132,7 +1240,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Marine Pollution & Chemicals",
+        "label": "🟡|Marine Pollution & Chemicals",
         "kind": "comparison",
         "children": [
           {
@@ -1154,7 +1262,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Desertification & Land",
+        "label": "🟡|Desertification & Land",
         "kind": "comparison",
         "children": [
           {
@@ -1172,10 +1280,10 @@ export const RAW_D = [
   {
     "id": "XIII",
     "p": "pm2",
-    "label": "India's Major Environmental Programmes & Initiatives",
+    "label": "🟡|India's Major Environmental Programmes & Initiatives",
     "children": [
       {
-        "label": "Climate & Energy Missions",
+        "label": "🟡|Climate & Energy Missions",
         "kind": "comparison",
         "children": [
           {
@@ -1193,7 +1301,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Water & River Initiatives",
+        "label": "🟡|Water & River Initiatives",
         "kind": "comparison",
         "children": [
           {
@@ -1211,7 +1319,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Air & Waste Initiatives",
+        "label": "🟡|Air & Waste Initiatives",
         "kind": "comparison",
         "children": [
           {
@@ -1229,7 +1337,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Biodiversity & Species Programmes",
+        "label": "🟡|Biodiversity & Species Programmes",
         "kind": "comparison",
         "children": [
           {
@@ -1247,10 +1355,10 @@ export const RAW_D = [
   {
     "id": "XIV",
     "p": "pm2",
-    "label": "Environment – PYQ Synthesis & High-Yield Traps",
+    "label": "🟡|Environment – PYQ Synthesis & High-Yield Traps",
     "children": [
       {
-        "label": "MASTER Mains Framework",
+        "label": "🟡|MASTER Mains Framework",
         "kind": "comparison",
         "children": [
           {
@@ -1296,7 +1404,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "High-Yield PYQ Traps",
+        "label": "🟡|High-Yield PYQ Traps",
         "kind": "comparison",
         "children": [
           {
@@ -1336,18 +1444,25 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "XV",
+    "p": "pm2",
+    "label": "🟡|Environment — FINAL STATIC FREEZE CONTROL",
+    "children": [
       {
-        "label": "Dynamic Update Layer",
-        "kind": "comparison",
+        "label": "🟡|Freeze Rules",
         "children": [
           {
-            "label": "🟡|Exact number of Ramsar sites, protected areas, renewable-capacity targets, current NDC implementation, programme budgets and current pollution targets should be updated near the exam.",
-            "kind": "bullet"
+            "label": "🔴|Keep permanent ecological concepts, laws, major programmes by purpose, treaty architecture and stable PYQ frameworks."
           },
           {
-            "label": "🟡|Use current government/official data selectively in answers; do not overload the static note with volatile figures.",
-            "kind": "bullet"
+            "label": "🟡|Current Ramsar-site counts, renewable-capacity figures, current NDC implementation, annual pollution targets and latest scheme budgets belong in Current Affairs."
+          },
+          {
+            "label": "🟡|Use historical programme launch years only when they identify the programme; do not confuse them with current status."
           }
         ]
       }

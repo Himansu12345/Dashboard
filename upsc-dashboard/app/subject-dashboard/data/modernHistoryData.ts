@@ -2,7 +2,6 @@
 
 export const RAW_D = [
   // =========================== CHAPTER 0 ===========================
- 
   {
     "id": "0",
     "p": "pm",
@@ -28,7 +27,7 @@ export const RAW_D = [
                 "label": "🟡|Granted the title 'Khafi Khan' to the historian Muhammad Hashim, who later called him 'Shah-i-Bekhabar' (Heedless King)."
               },
               {
-                "label": "🟠|Pursued negotiation as well as military action toward Sikh groups; died during the war of succession among his sons."
+                "label": "🟠|Pursued negotiation as well as military action toward Sikh groups; died in Lahore in 1712 after an illness. The succession struggle among his sons followed his death."
               },
               {
                 "label": "🟠|**Analysis**: His conciliatory policy temporarily stabilized the empire but failed to halt the rise of autonomous regional powers."
@@ -45,7 +44,7 @@ export const RAW_D = [
                 "label": "🔴|Abolished Jaziya (1712) to appease Hindu subjects and Rajput allies."
               },
               {
-                "label": "🔴|Introduced Ijaradari (revenue farming) system to improve state finances; this led to severe peasant exploitation."
+                "label": "🟠|Ijaradari (revenue farming) expanded as an important fiscal practice in the 18th century; it increased the role of revenue farmers and could intensify pressure on cultivators."
               },
               {
                 "label": "🟡|First Mughal emperor who patronized a woman courtier – Lal Kunwar, a dancing girl."
@@ -88,7 +87,7 @@ export const RAW_D = [
                 "label": "🔴|Invasion of Nadir Shah (Persian ruler): Defeated Mughals at the Battle of Karnal (Feb 13, 1739); entered Delhi and ordered a general massacre ('Qatl-e-Aam') killing lakhs."
               },
               {
-                "label": "🟡|Nadir Shah looted the Peacock Throne (Takht-i-Taus) and the Kohinoor diamond, along with immense wealth worth 70 crore rupees."
+                "label": "🟡|Nadir Shah carried away the Peacock Throne, the Koh-i-Noor and enormous treasure from Delhi; avoid memorising a disputed single monetary estimate."
               },
               {
                 "label": "🔴|Period saw the carving out of semi-independent regional states – Hyderabad (1724), Bengal (1717), Awadh (1722), and the Maratha expansion under Baji Rao I."
@@ -163,7 +162,7 @@ export const RAW_D = [
                 "label": "🔴|Rohilkhand: Established by Ali Muhammad Khan in the Ganga-Kumaon belt; later annexed by Awadh with British help in the Rohilla War (1774)."
               },
               {
-                "label": "🟡|Jats: Reached zenith under Suraj Mal (ruled 1756-63); built the fort of Bharatpur; known as the 'Plato of the Jat tribe'."
+                "label": "🟡|Jats: reached their political peak under Suraj Mal (1756–63); Bharatpur became their major centre and fortification base. The 'Plato of the Jats' label is a later epithet, not a core fact."
               },
               {
                 "label": "🔴|**Comparative Significance**: These states represented different political models – Maratha confederacy (decentralized), Sikh empire (centralized under Ranjit Singh), Mysore (modernizing autocracy)."
@@ -177,13 +176,13 @@ export const RAW_D = [
         "p": "psel",
         "children": [
           {
-            "label": "🔴|The decline of Mughals created a power vacuum that the British filled, using the subsidiary alliance and divide-and-rule policies."
+            "label": "🟠|The weakening of Mughal authority created a fragmented political field in which the Company used military power, diplomacy, revenue resources and alliances—including the later Subsidiary Alliance—to expand its influence."
           },
           {
             "label": "🟠|The rise of regional states (Marathas, Sikhs, Mysore) set the stage for Anglo-Indian conflicts (Anglo-Maratha, Anglo-Sikh, Anglo-Mysore Wars)."
           },
           {
-            "label": "🟠|The economic exploitation of Bengal (revenue farming, drain) began the process of de-industrialization and poverty that later nationalist leaders critiqued."
+            "label": "🟠|Colonial fiscal extraction, commercial restructuring and unequal trade in Bengal contributed to agrarian stress and economic transformation; later nationalist critics linked these developments to deindustrialisation and the drain of wealth."
           },
           {
             "label": "🟠|**Contemporary Relevance**: The fragmentation of power and subsequent colonization offers lessons in political unity, economic self-reliance, and strategic diplomacy."
@@ -195,7 +194,7 @@ export const RAW_D = [
         "kind": "comparison",
         "children": [
           {
-            "label": "🟡|Third Battle of Panipat (1761) significance → Panipat's strategic position on routes toward Delhi/north India and the stakes of control over the Mughal heartland made it a recurring imperial battleground.",
+            "label": "🟡|Third Battle of Panipat (1761) significance → Panipat's location on routes toward Delhi and the north-west made it a strategically important battlefield; control of the Delhi-centred political order increased its importance.",
             "kind": "bullet"
           },
           {
@@ -222,7 +221,7 @@ export const RAW_D = [
                 "label": "🟡|Vasco da Gama landed at Calicut (May 20, 1498), guided by Gujarati pilot Abdul Majid; received by Zamorin (Samuthiri)."
               },
               {
-                "label": "🟡|Bypassed Arab and Venetian trade monopolies; return journey yielded 60x profit. Second voyage (1502) established a factory at Cochin."
+                "label": "🟡|Vasco da Gama's voyages opened a direct sea route between Europe and India; the Portuguese quickly established trading and fortified posts on the Malabar coast. Avoid memorising precise profit multiples unless a PYQ requires them."
               },
               {
                 "label": "🔴|Pedro Álvares Cabral arrived in 1500, establishing the first Portuguese factory at Calicut (attacked later)."
@@ -236,10 +235,10 @@ export const RAW_D = [
             "label": "Estado da India & Naval Supremacy",
             "children": [
               {
-                "label": "🟠|First Viceroy Francisco de Almeida (1505-09) introduced the 'Blue Water Policy' – control of the sea rather than land fortresses; precursor to the Cartaz system."
+                "label": "🟠|Francisco de Almeida (1505–09) is associated with the 'Blue Water Policy', prioritising naval supremacy. The cartaz system was a related Portuguese maritime-control mechanism; do not present one as simply creating the other."
               },
               {
-                "label": "🟡|Cartaz System: A naval trade license forced upon all Indian ships; essentially a colonial protection racket enforced by heavy galleon artillery."
+                "label": "🟡|Cartaz System: a Portuguese pass/licence system imposed on shipping to regulate and control maritime trade; it was enforced through Portuguese naval power."
               },
               {
                 "label": "🟡|Capital shifted from Cochin to Goa in 1530 by Governor Nino da Cunha."
@@ -279,10 +278,10 @@ export const RAW_D = [
                 "label": "🔴|Technological Contributions: First Printing Press in India (Goa, 1556) by Jesuit priests; introduced scientific works on Indian medicinal plants (Garcia da Orta's 'Colóquios')."
               },
               {
-                "label": "🔴|Operation Vijay (1961): Indian Army liberated Goa, Daman, and Diu. First Europeans to come, last to leave."
+                "label": "🔴|Operation Vijay (1961): Indian armed forces ended Portuguese rule in Goa, Daman and Diu. The Portuguese were the first Europeans to establish a lasting colonial presence in India and the last European colonial power to leave."
               },
               {
-                "label": "🟠|**Historiography**: Portuguese colonialism is often seen as more brutal than the British due to religious persecution, but they also introduced valuable crops."
+                "label": "🟠|**Assessment**: Portuguese rule combined maritime-commercial expansion, religious institutions and episodes of coercion/persecution. Its legacy also included new crops, printing and cultural exchanges; comparisons with British rule should be made issue-by-issue rather than through a single ranking of 'brutality'."
               }
             ]
           }
@@ -345,10 +344,10 @@ export const RAW_D = [
                 "label": "🟡|William Hawkins (1608-11) visited Jahangir's court seeking permission; initially granted a factory at Surat, then revoked due to Portuguese pressure."
               },
               {
-                "label": "🔴|Captain Thomas Best defeated the Portuguese fleet at the Battle of Swally Hole (1612), impressing Jahangir and leading to permission for a permanent factory."
+                "label": "🔴|Captain Thomas Best defeated the Portuguese fleet at Swally (1612); the victory strengthened the English Company's position at the Mughal court and helped secure trading privileges."
               },
               {
-                "label": "🟠|**Significance**: The Battle of Swally Hole marked the first naval victory of the English over the Portuguese, paving the way for EIC's growth."
+                "label": "🟠|**Significance**: Swally demonstrated the English Company's growing naval capacity and helped weaken Portuguese maritime dominance on India's west coast, facilitating EIC expansion."
               }
             ]
           },
@@ -382,7 +381,7 @@ export const RAW_D = [
                 "label": "🟠|Issued by Mughal Emperor Farrukhsiyar; termed the 'Magna Carta of the Company' by historian Orme."
               },
               {
-                "label": "⚪|Granted duty-free trade in Bengal for an annual payment of 3,000 rupees; right to issue dastaks (passes) for goods."
+                "label": "🟡|Granted duty-free trade in Bengal for an annual payment of 3,000 rupees; right to issue dastaks (passes) for goods."
               },
               {
                 "label": "🟡|Allowed EIC to rent more villages around Calcutta (zamindari rights) and made EIC's Bombay mint coins legal tender across the Mughal empire."
@@ -609,7 +608,7 @@ export const RAW_D = [
                 "label": "🟡|**Third Anglo-Mysore War (1790–92)**: Tipu attacked Travancore (British ally). Cornwallis captured Bangalore and advanced on Seringapatam. Treaty of Seringapatam (1792): Tipu ceded half his territory (Malabar, Dindigul, Baramahal) and paid Rs. 3.3 crore indemnity; two sons taken as hostages."
               },
               {
-                "label": "🔴|**Fourth Anglo-Mysore War (1799)**: Wellesley demanded Tipu accept Subsidiary Alliance. Tipu refused; British forces under General Stuart and Arthur Wellesley stormed Seringapatam on May 4, 1799. Tipu died fighting; Wodeyar dynasty restored under Subsidiary Alliance."
+                "label": "🔴|**Fourth Anglo-Mysore War (1799)**: Tipu resisted British expansion and the demand for a subsidiary relationship; British-led forces captured Seringapatam on 4 May 1799. Tipu died in the fighting, and the Wodeyar dynasty was restored under British influence."
               },
               {
                 "label": "🟠|**Significance**: Tipu's death ended the last major Indian challenge to British supremacy in the south. His alliance with the French and modernization efforts made him a symbol of anti-colonial resistance."
@@ -757,10 +756,10 @@ export const RAW_D = [
             "label": "Sindh & Afghanistan",
             "children": [
               {
-                "label": "🔴|Annexation of Sindh (1843): General Charles Napier conquered Sindh after the Battles of Miani (Feb 1843) and Dabo (March 1843), violating the Treaty of Eternal Friendship (1809) with the Amirs of Sindh. Napier wired 'Peccavi' (I have sinned/Sind)."
+                "label": "🔴|Annexation of Sindh (1843): General Charles Napier defeated the Amirs' forces at Miani and Dabo and annexed Sindh. The annexation was controversial; the famous 'Peccavi' telegraph anecdote is best treated as a later story rather than a central fact."
               },
               {
-                "label": "🟠|**First Anglo-Afghan War (1839–42)**: Disastrous attempt to install puppet Shah Shuja under Lord Auckland; ended in a complete massacre of the retreating British army (only Dr. Brydon survived) in the Khyber Pass (Jan 1842)."
+                "label": "🟠|**First Anglo-Afghan War (1839–42)**: The British-backed restoration of Shah Shuja faced sustained Afghan resistance. The 1842 retreat from Kabul ended disastrously, with Dr. William Brydon famously reaching Jalalabad among the small number of survivors."
               },
               {
                 "label": "🔴|**Second Anglo-Afghan War (1878–80)**: Initiated by Lord Lytton's 'Forward Policy'; resulted in the Treaty of Gandamak (May 1879) – Britain gained control over Afghan foreign policy and the strategic districts of Kurram, Pishin, and Sibi."
@@ -883,7 +882,7 @@ export const RAW_D = [
             "label": "Warren Hastings (1772–1785)",
             "children": [
               {
-                "label": "🔴|First Governor-General of Bengal (via Regulating Act 1773)."
+                "label": "🔴|Warren Hastings became the first Governor-General of Bengal under the Regulating Act, 1773."
               },
               {
                 "label": "🔴|Abolished Dual Government in Bengal (1772); founded the Asiatic Society of Bengal (1784) with Sir William Jones."
@@ -1003,7 +1002,7 @@ export const RAW_D = [
                 "label": "🟡|Captured Bharatpur (1826) after a long siege."
               },
               {
-                "label": "🟠|**Significance**: Amherst's conquests expanded British territory eastwards but the Barrackpore mutiny highlighted sepoy grievances."
+                "label": "🟠|**Significance**: Amherst's tenure expanded British control in the east while the Barrackpore sepoy mutiny highlighted the sensitivity of military service conditions."
               }
             ]
           },
@@ -1011,22 +1010,22 @@ export const RAW_D = [
             "label": "Lord William Bentinck (1828–1835)",
             "children": [
               {
-                "label": "🔴|Became the First Governor-General of India via Charter Act 1833."
+                "label": "🔴|William Bentinck became the first Governor-General of India after the Charter Act, 1833 changed the office from Governor-General of Bengal."
               },
               {
                 "label": "🔴|Social reforms: Abolished Sati (Regulation XVII, 1829) with Ram Mohan Roy's support; suppressed female infanticide."
               },
               {
-                "label": "🔴|Suppressed the Thuggee cult using Colonel William Sleeman (Thuggee and Dacoity Suppression Acts, 1836–48)."
+                "label": "🔴|Thuggee suppression was intensified under William Bentinck with Colonel William Sleeman playing a central role; operations and related legal measures continued into the later 1830s and 1840s."
               },
               {
-                "label": "🔴|Passed English Education Act (1835) following Macaulay's Minute; established the first medical college at Calcutta (1835)."
+                "label": "🔴|Passed the English Education Act, 1835 following Macaulay's Minute; Medical College, Bengal was established in 1835 as a pioneering institution for Western medical education for Indians."
               },
               {
                 "label": "🟡|Banned human sacrifice and discouraged child marriage."
               },
               {
-                "label": "🟠|**Assessment**: Bentinck is remembered for his liberal reforms, though his economic policies (cutting salaries) were unpopular. He is credited with modernizing India."
+                "label": "🟠|**Assessment**: Bentinck combined social reform and administrative/economic retrenchment. His measures on sati, education and institutional change were important, though his revenue and expenditure policies also generated criticism."
               }
             ]
           },
@@ -1065,10 +1064,10 @@ export const RAW_D = [
                 "label": "🟡|Aggressive annexer using the Doctrine of Lapse and outright conquest (Punjab, Lower Burma)."
               },
               {
-                "label": "🔴|Father of Indian Railways: First passenger train (April 16, 1853) Bombay–Thane (34 km)."
+                "label": "🔴|Dalhousie's tenure saw the first passenger railway in India: Bombay to Thane, 16 April 1853. Avoid treating 'Father of Indian Railways' as a literal constitutional or official title."
               },
               {
-                "label": "🔴|Father of Indian Telegraph: First experimental line Calcutta–Diamond Harbour (1851); official line Calcutta–Agra (1854)."
+                "label": "🔴|Dalhousie's tenure saw major expansion of India's electric telegraph; an early line connected Calcutta and Diamond Harbour in 1851, followed by wider expansion including the Calcutta–Agra line."
               },
               {
                 "label": "🔴|Passed the Post Office Act (1854) introducing uniform postal rates and stamps; created a separate Public Works Department (PWD)."
@@ -1077,7 +1076,7 @@ export const RAW_D = [
                 "label": "🔴|Oversaw Wood's Dispatch (1854), drafted the Hindu Widow Remarriage Act (1856), and passed the Religious Disabilities Act (1850)."
               },
               {
-                "label": "🟠|**Assessment**: Dalhousie was a great modernizer but his annexations and arrogance alienated Indian rulers and contributed directly to the 1857 Revolt."
+                "label": "🟠|**Assessment**: Dalhousie's tenure combined major infrastructure and administrative changes with aggressive annexation; the resulting political alienation was one of several important background factors behind 1857."
               }
             ]
           }
@@ -1100,7 +1099,7 @@ export const RAW_D = [
                 "label": "🔴|Introduced the Portfolio System (1859); faced the 'White Mutiny' (1859) by European troops over the loss of allowances."
               },
               {
-                "label": "🔴|Withdrawn the Doctrine of Lapse; passed the Indian Penal Code (IPC) and Criminal Procedure Code (CrPC) in 1860."
+                "label": "🔴|The Crown government withdrew the Doctrine of Lapse after 1857. The Indian Penal Code was enacted in 1860; the Code of Criminal Procedure followed in 1861."
               },
               {
                 "label": "🟠|**Assessment**: Canning is often called 'Clemency Canning' for his moderate approach after the revolt. He set the foundation for crown rule."
@@ -1182,7 +1181,7 @@ export const RAW_D = [
             "label": "Lord Ripon (1880–1884)",
             "children": [
               {
-                "label": "🔴|Most popular liberal Viceroy; repealed the Vernacular Press Act (1882)."
+                "label": "🔴|Lord Ripon is remembered as a liberal Viceroy; he repealed the Vernacular Press Act in 1882."
               },
               {
                 "label": "🔴|Known as 'Father of Local Self‑Government' — Ripon's Resolution (1882) on local bodies with elected non‑official majorities."
@@ -1379,7 +1378,7 @@ export const RAW_D = [
                 "label": "🔴|August Offer (1940) promised Dominion Status after the war."
               },
               {
-                "label": "🔴|Crushed the Quit India Movement (1942); presided over the devastating Bengal Famine (1943)."
+                "label": "🔴|His tenure saw the repression of Quit India after its launch in 1942; the Bengal Famine of 1943 also unfolded during his final months as Viceroy, before Wavell succeeded him."
               },
               {
                 "label": "🟠|**Assessment**: Linlithgow's autocratic handling of the war and the famine deepened anti-British sentiment; his tenure is one of the most criticized."
@@ -2279,7 +2278,7 @@ export const RAW_D = [
                 "label": "🔴|Drafted by a committee headed by Motilal Nehru in response to Lord Birkenhead's challenge; the first major Indian effort to draft a constitutional framework."
               },
               {
-                "label": "🔴|Demanded 'Dominion Status' (which caused a rift with J.L. Nehru, Subhas Bose, and other younger leaders who wanted Purna Swaraj)."
+                "label": "🟠|The Nehru Report (1928) recommended Dominion Status as the constitutional objective, while younger nationalists including Jawaharlal Nehru and Subhas Bose pressed for complete independence; the debate contributed to the shift culminating in the Lahore Congress of 1929."
               },
               {
                 "label": "🟡|Strongly rejected separate electorates; instead proposed joint electorates with reserved seats for minorities."
@@ -3129,7 +3128,7 @@ export const RAW_D = [
                 "label": "🟠|Role of Samitis: Swadesh Bandhab Samiti (Ashwini Kumar Dutta) mobilised masses in Barisal; widespread participation of students and women."
               },
               {
-                "label": "🔴|Labour participation: First labour union, the Calcutta Printers' Union (1905), and strikes in foreign‑owned railways."
+                "label": "🟡|Labour participation: early worker associations and strikes expanded in several sectors; the Madras Labour Union (1918) is commonly treated as the first organised trade union in India, while earlier worker associations also existed."
               },
               {
                 "label": "🟠|**Significance**: The Swadeshi Movement marked the transition from moderate constitutionalism to mass agitation, and introduced boycott and swadeshi as enduring weapons."
@@ -3267,7 +3266,7 @@ export const RAW_D = [
             "label": "Key Conspiracies",
             "children": [
               {
-                "label": "🔴|Muzaffarpur Conspiracy (30 April 1908): Khudiram Bose and Prafulla Chaki threw a bomb at a carriage meant for the unpopular Judge Kingsford; two innocent British women were killed. Chaki shot himself; Bose was hanged on 11 August 1908 (aged 18)."
+                "label": "🔴|Muzaffarpur incident (30 April 1908): Khudiram Bose and Prafulla Chaki attacked a carriage believed to contain Judge Kingsford; two British women were killed by mistake. Chaki died by suicide while Khudiram Bose was executed in August 1908."
               },
               {
                 "label": "🔴|Alipore Bomb Case (1908–09): An illegal arms factory was discovered at Maniktala, Calcutta. Aurobindo Ghosh was tried but acquitted (defended brilliantly by C.R. Das); Barindra Ghosh was sentenced to the Andamans."
@@ -3540,7 +3539,7 @@ export const RAW_D = [
                 "label": "🟡|A peaceful crowd of about 20,000 gathered in the enclosed Jallianwala Bagh, Amritsar, on Baisakhi day to protest the arrest of local leaders Dr. Saifuddin Kitchlew and Dr. Satyapal."
               },
               {
-                "label": "🔴|Brigadier‑General Reginald Dyer blocked the only exit and ordered Gurkha and Baluchi troops to fire; 1,650 rounds were shot for about 10 minutes, killing nearly 1,000 people and wounding over 1,200 (official Hunter Commission figures)."
+                "label": "🟠|Brigadier‑General Reginald Dyer ordered troops to fire on the crowd; 1,650 rounds were fired. The Hunter Committee's official figure was 379 deaths, while Indian estimates were much higher; more than 1,000 were reported wounded."
               },
               {
                 "label": "🔴|Reactions: Rabindranath Tagore renounced his knighthood; Gandhi returned his Kaiser‑i‑Hind medal; Sir Shankaran Nair resigned from the Viceroy's Executive Council; S.N. Banerjea returned his title."
@@ -3673,7 +3672,7 @@ export const RAW_D = [
                 "label": "🔴|The Tilak Swaraj Fund, set up to finance the movement, was massively oversubscribed – the target of Rs. 1 crore was collected within a few months (actually exceeded)."
               },
               {
-                "label": "🟠|**Significance**: This was the first truly mass movement, mobilizing students, lawyers, peasants, and workers."
+                "label": "🟠|**Significance**: The movement marked a major expansion of anti-colonial mobilisation and drew in students, lawyers, peasants, workers and other social groups on a wider scale."
               }
             ]
           },
@@ -3681,7 +3680,7 @@ export const RAW_D = [
             "label": "Chauri Chaura & Withdrawal",
             "children": [
               {
-                "label": "⚪|Chauri Chaura incident (5 February 1922): A mob of about 3,000 peasants in Gorakhpur district, UP, set fire to a police station, burning 22 policemen alive (some sources say 23)."
+                "label": "🟡|Chauri Chaura incident (5 February 1922): A mob of about 3,000 peasants in Gorakhpur district, UP, set fire to a police station, burning 22 policemen alive (some sources say 23)."
               },
               {
                 "label": "🔴|A deeply disturbed Gandhi abruptly withdrew the entire NCM via the Bardoli Resolution of the Congress Working Committee on 12 February 1922."
@@ -3762,7 +3761,7 @@ export const RAW_D = [
                 "label": "🔴|Gandhi chose salt as the central symbol because it affected every class equally, bypassing communal divides."
               },
               {
-                "label": "⚪|Started from Sabarmati Ashram with 78 handpicked followers; walked 241 miles (390 km) over 24 days to the coastal village of Dandi."
+                "label": "🟡|Started from Sabarmati Ashram with 78 handpicked followers; walked 241 miles (390 km) over 24 days to the coastal village of Dandi."
               },
               {
                 "label": "🔴|Broke the salt law by boiling seawater at 6:30 AM on 6 April 1930, officially launching the Civil Disobedience Movement. Simultaneously, salt laws were broken across India."
@@ -3969,7 +3968,7 @@ export const RAW_D = [
                 "label": "🟠|Communist Party of India (CPI) boycotted QIM due to their 'People's War' line (supporting the USSR and Britain against Fascism); the Muslim League also opposed it, calling for a 'Divide and Quit'."
               },
               {
-                "label": "🟠|**Historiography**: The Quit India Movement is hailed as the final mass campaign that forced the British to quit India."
+                "label": "🟠|**Assessment**: Quit India was the last major nationwide mass movement led by the Congress before independence; it demonstrated the difficulty of restoring legitimacy to colonial rule, though the transfer of power also reflected post-war economic, political, military and international pressures."
               }
             ]
           },
@@ -4452,10 +4451,10 @@ export const RAW_D = [
             "label": "Key Organizations",
             "children": [
               {
-                "label": "🟠|All India Muslim League (1906): Founded in Dhaka after the Simla Deputation led by Aga Khan III, with Nawab Salimullah of Dhaka as its first president. Initially pledged loyalty to the British."
+                "label": "🟡|All-India Muslim League was founded at Dhaka in 1906; Nawab Salimullah was a key proposer/host, while Aga Khan III later served as its first honorary president. The early League professed loyalty to the British."
               },
               {
-                "label": "🔴|Hindu Mahasabha (1915): Founded by Madan Mohan Malaviya; later radicalised under V.D. Savarkar, who formulated the 'Hindutva' ideology in his book 'Hindutva: Who is a Hindu?' (1923)."
+                "label": "🟡|Hindu Mahasabha emerged as a Hindu political organisation in the 1910s; Madan Mohan Malaviya was among important early figures, while V.D. Savarkar later gave it a stronger ideological direction and articulated 'Hindutva' in 1923."
               },
               {
                 "label": "🟠|**Significance**: These organizations institutionalized communal identities and competed for political representation."
@@ -4980,7 +4979,7 @@ export const RAW_D = [
                 "label": "🔴|Madam Bhikaji Cama: Unfurled the first version of the Indian national flag at the International Socialist Conference in Stuttgart, Germany (1907)."
               },
               {
-                "label": "🔴|Sarala Devi Chaudhurani: Founded Bharat Stree Mahamandal (1910), India's first women's organisation."
+                "label": "🟡|Sarala Devi Chaudhurani founded Bharat Stree Mahamandal (1910), one of the earliest organisations with an all-India women's reform/education orientation."
               },
               {
                 "label": "🟠|**Significance**: These early women leaders broke societal barriers and became icons of resistance."
@@ -5240,6 +5239,186 @@ export const RAW_D = [
                 "label": "🟠|**Significance**: These thinkers provided diverse ideological alternatives—from Gandhian non-violence to Nehruvian socialism to Ambedkarite social justice—that shaped modern India."
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "p": "pm2",
+    "label": "Modern History — FINAL FREEZE CONTROL",
+    "children": [
+      {
+        "label": "Freeze Rules",
+        "children": [
+          {
+            "label": "🟠|Static chronology, institutions, movements, leaders and core analytical frameworks are frozen; do not add facts merely for completeness."
+          },
+          {
+            "label": "🟡|Current statistics, living political legacies and post-1947 developments belong in a separate update layer."
+          },
+          {
+            "label": "🟡|Where historians disagree on 'first', 'founder', 'most important' or responsibility, memorise the qualified formulation rather than a false certainty."
+          },
+          {
+            "label": "🟡|New PYQs may expand the coverage after the next UPSC cycle; until then, this is the static freeze."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PYQ-GAP",
+    "p": "pm2",
+    "label": "Modern History — FIRST PYQ GAP CHECK (2013–2025)",
+    "children": [
+      {
+        "label": "Verified Modern-India gaps from Prelims + Mains",
+        "children": [
+          {
+            "label": "🔴|Gandharva Mahavidyalaya: Vishnu Digambar Paluskar established the first Gandharva Mahavidyalaya at Lahore in 1901; UPSC tested its location in 2025."
+          },
+          {
+            "label": "🔴|Portuguese cultural/economic legacy: papaya, pineapple and guava are among crops/fruits introduced into India through the Portuguese Columbian-exchange network; UPSC tested this as a three-item association in 2025."
+          },
+          {
+            "label": "🔴|Chauri Chaura legal defence: Madan Mohan Malaviya and Krishna Kant defended persons arrested after the incident; UPSC tested the association in 2025."
+          },
+          {
+            "label": "🔴|Gandhi's upliftment of 'Harijans': after the Poona Pact (1932) and the ensuing change in the separate-electorate issue, Gandhi intensified the anti-untouchability programme, including the Harijan movement and Harijan Sevak Sangh."
+          },
+          {
+            "label": "🔴|'Sedition has become my religion' is associated with Gandhi's 1922 sedition trial; use it as a recognition-level quotation/context rather than as a broad political doctrine."
+          },
+          {
+            "label": "🟠|Indian Renaissance and national identity: social/religious reform, print culture, new education, vernacular public spheres and critique of colonialism helped develop a modern public consciousness that later fed nationalism."
+          },
+          {
+            "label": "🟠|Decline of Indian handicrafts: British tariff/discriminatory trade policy, machine-made imports, loss of patronage, raw-material changes and integration into a colonial export economy contributed; the Industrial Revolution amplified but did not act alone."
+          },
+          {
+            "label": "🟠|Constructive programme during Gandhian mass movements: khadi, spinning, Hindu-Muslim unity, removal of untouchability, village sanitation, prohibition, women’s participation and basic education strengthened the social base of nationalism."
+          },
+          {
+            "label": "🟠|Naval Mutiny/Royal Indian Navy Revolt (1946): unrest among ratings over conditions, racial discrimination and nationalist grievances spread across naval establishments; it signalled weakening imperial control and complemented wider post-war military/political pressures."
+          },
+          {
+            "label": "🟠|Constituent Assembly and Government of India Act 1935: provincial experience, federal/administrative structures, public-service arrangements and legislative practice under the 1935 Act supplied important institutional experience for constitution-making, though the Constitution was not a simple continuation of the Act."
+          },
+          {
+            "label": "🟠|Subhas Chandra Bose vs Gandhi: both sought independence, but differed sharply on methods, pace, relationship with the British war effort, militarisation and the role of mass/non-violent struggle; Bose favoured armed/international strategy through the INA."
+          },
+          {
+            "label": "🟠|'Many voices' in the Gandhian phase: revolutionaries, socialists, workers, peasants, women, Dalit leaders, tribal groups, business groups and regional leaders widened the social and ideological base of the nationalist movement."
+          },
+          {
+            "label": "🟠|Indian participation in anti-colonial movements abroad/foreigners in India's freedom struggle: Annie Besant, Sister Nivedita, C.F. Andrews, Madeleine Slade/Mira Behn, and others contributed in different ways; assess their role through networks, ideas, mobilisation and international publicity."
+          },
+          {
+            "label": "🟠|Mid-eighteenth-century fragmentation: decline of Mughal authority, autonomous successor states, Maratha expansion and regional political competition produced a fragmented political order that enabled European intervention."
+          },
+          {
+            "label": "🟠|Economic policies of the British: land revenue extraction, commercialisation, deindustrialisation, unequal trade, drain of wealth and infrastructure designed for imperial needs altered India's economy; distinguish fiscal extraction from the broader colonial transformation."
+          },
+          {
+            "label": "🟠|Moderates: their limitations included limited social base, faith in constitutional persuasion and dependence on British liberalism; their contribution included political education, economic critique, all-India public opinion and institutional foundations for later mass nationalism."
+          },
+          {
+            "label": "🟠|Dalhousie: annexationist policies, Doctrine of Lapse and Awadh annexation alienated princes and elites, while railways, telegraph, postal reforms and administrative centralisation modernised colonial infrastructure; this contradiction is a strong Mains theme."
+          },
+          {
+            "label": "🟡|Early nationalist organisation chain: Indian Association (1876) → INC (1885) → Moderates/Extremists → Swadeshi/Home Rule → Gandhian mass nationalism; use as a chronology skeleton."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-PYQ-CLOSURE",
+    "p": "pm2",
+    "label": "Modern History — FINAL 2013–2025 MAINS CLOSURE",
+    "children": [
+      {
+        "label": "Verified missing Mains frameworks",
+        "children": [
+          {
+            "label": "🟠|Mid-eighteenth-century fragmented polity: explain the weakening of Mughal authority, autonomous successor states, Maratha expansion and regional rivalry; connect fragmentation to European intervention without treating it as a single-cause explanation of British conquest."
+          },
+          {
+            "label": "🟠|Decline of traditional artisanal industries: colonial tariff policy, loss of court/patronage demand, machine-made imports, unequal trade and export-oriented raw-material patterns weakened handicrafts; effects included ruralisation of artisans and pressure on agrarian livelihoods."
+          },
+          {
+            "label": "🟠|Subhas Chandra Bose's approach: unlike Gandhi's non-violent mass strategy, Bose favoured immediate independence through militant struggle, international alliances and the INA; comparison should also note their shared anti-colonial objective."
+          },
+          {
+            "label": "🟠|American Revolution as an economic revolt against mercantilism: grievances included imperial trade restrictions, taxation without representation and challenges to Britain's mercantilist control; political and constitutional grievances transformed these economic tensions into revolution."
+          },
+          {
+            "label": "🟠|Lenin's New Economic Policy (1921): temporary retreat from War Communism through limited private trade and small-scale private enterprise while retaining state control of major sectors; useful for comparison with India's early post-independence mixed-economy approach, not as a direct policy copy."
+          },
+          {
+            "label": "🟠|Suez Crisis (1956): Nasser's nationalisation of the Suez Canal triggered the Anglo-French-Israeli intervention; US/USSR pressure forced withdrawal and exposed Britain's reduced capacity to act as an autonomous great power."
+          },
+          {
+            "label": "🟠|Great Depression: major policy responses included abandonment/adjustment of the gold standard, public works and fiscal expansion, banking/financial reforms, trade-policy shifts and stronger state intervention; responses differed by country."
+          },
+          {
+            "label": "🟠|Industrial Revolution in England: favourable coal/iron resources, agricultural change, capital accumulation, overseas markets, colonial networks, scientific/technical innovation, transport improvements and institutions helped make Britain the first industrialiser."
+          },
+          {
+            "label": "🟠|Civil-service ethos: professionalism combined with constitutional accountability, political neutrality, integrity, responsiveness and national/service orientation; colonial bureaucracy's traditions should be critically distinguished from the post-independence ideal."
+          },
+          {
+            "label": "🟡|Foreigners in India's freedom struggle: Annie Besant, C.F. Andrews, Sister Nivedita, Mira Behn and others contributed through political mobilisation, social work, education and international advocacy; identify role rather than memorising biographies."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-PYQ-CLOSURE-2",
+    "p": "pm2",
+    "label": "Modern History — FINAL FINAL PYQ CLOSURE",
+    "children": [
+      {
+        "label": "Indentured Labour — 2018 Mains",
+        "children": [
+          {
+            "label": "🟠|Indentured labour was recruited from India for overseas plantation economies under contracts involving long periods of labour and difficult conditions; drivers included poverty, debt, recruitment practices, loss of traditional livelihoods and demand for cheap plantation labour."
+          },
+          {
+            "label": "🟠|Indian diaspora communities in former indenture destinations often preserved cultural identity through language, religion, festivals, food, family networks, community institutions and adapted traditions; preservation varied by region and generation."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-AIR1-CONTROL",
+    "p": "pm2",
+    "label": "Modern History — FINAL AIR-1 STATIC CONTROL",
+    "children": [
+      {
+        "label": "How to treat this frozen note",
+        "children": [
+          {
+            "label": "🔴|Master the high-return chronology, Acts, movements, organisations, personalities and PYQ-tested associations through active recall."
+          },
+          {
+            "label": "🟠|Use analytical points for Mains answer construction; understand the relationship rather than memorising sentences verbatim."
+          },
+          {
+            "label": "🟡|Use recognition points for Prelims elimination and statement-based questions; do not spend equal revision time on every yellow point."
+          },
+          {
+            "label": "🟡|Keep Current Affairs, post-1947 changing statistics and living political/legal developments outside this static note."
+          },
+          {
+            "label": "🟠|When a historical claim uses 'first', 'only', 'largest', 'founder' or a disputed interpretation, prefer the qualified formulation preserved in this note rather than inventing certainty."
+          },
+          {
+            "label": "🟠|This is a broad Prelims + Mains master, not a word-for-word memorisation list. Its purpose is coverage with hierarchy."
           }
         ]
       }

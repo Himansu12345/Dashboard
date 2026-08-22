@@ -1,17 +1,17 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D = [
-  {
+   {
     "id": "I",
     "p": "pm",
-    "label": "Disaster – Concepts, Classification & Cycle",
+    "label": "🟡|Disaster – Concepts, Classification & Cycle",
     "children": [
       {
         "p": "pm2",
-        "label": "Basic Concepts & Definitions",
+        "label": "🟡|Basic Concepts & Definitions",
         "children": [
           {
-            "label": "Key Definitions (Disaster Management Act 2005)",
+            "label": "🟡|Key Definitions (Disaster Management Act 2005)",
             "children": [
               {
                 "label": "🔴|Disaster: a catastrophe, mishap, calamity or grave occurrence in any area, arising from natural or man‑made causes, or by accident or negligence which results in substantial loss of life or human suffering or damage to, and destruction of, property, or damage to, or degradation of, environment, and is of such a nature or magnitude as to be beyond the coping capacity of the community of the affected area."
@@ -22,7 +22,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Hazard, Vulnerability, Risk & Capacity",
+            "label": "🟡|Hazard, Vulnerability, Risk & Capacity",
             "children": [
               {
                 "label": "🔴|Hazard: a dangerous phenomenon, substance, human activity or condition that may cause loss of life, injury or other health impacts, property damage, loss of livelihoods and services, social and economic disruption, or environmental damage."
@@ -31,7 +31,7 @@ export const RAW_D = [
                 "label": "🔴|Vulnerability: the characteristics and circumstances of a community, system or asset that make it susceptible to the damaging effects of a hazard."
               },
               {
-                "label": "🔴|Risk = Hazard × Vulnerability / Capacity.\n(Risk is a function of hazard, exposure, vulnerability and capacity)."
+                "label": "🔴|Risk arises from the interaction of hazard, exposure and vulnerability; coping/adaptive capacity can reduce the resulting impact.\n(Risk is a function of hazard, exposure, vulnerability and capacity)."
               },
               {
                 "label": "🔴|Capacity: the combination of all the strengths, attributes and resources available within a community, society or organisation to manage and reduce disaster risks and strengthen resilience."
@@ -45,10 +45,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Classification of Disasters",
+        "label": "🟡|Classification of Disasters",
         "children": [
           {
-            "label": "Natural Disasters",
+            "label": "🟡|Natural Disasters",
             "children": [
               {
                 "label": "🔴|Geophysical: Earthquakes, Tsunamis, Volcanic eruptions, Landslides."
@@ -65,7 +65,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Man‑made / Anthropogenic Disasters",
+            "label": "🟡|Man‑made / Anthropogenic Disasters",
             "children": [
               {
                 "label": "🔴|Industrial: Chemical spills, gas leaks (Bhopal Gas Tragedy 1984), fires, explosions, nuclear/radiological emergencies."
@@ -88,10 +88,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Disaster Management Cycle",
+        "label": "🟡|Disaster Management Cycle",
         "children": [
           {
-            "label": "Phases",
+            "label": "🟡|Phases",
             "children": [
               {
                 "label": "🔴|Mitigation: long‑term measures to reduce or eliminate risk (structural: dams, embankments, cyclone shelters; non‑structural: land‑use zoning, building codes, risk mapping)."
@@ -108,7 +108,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Shift from Relief‑centric to Holistic Approach",
+            "label": "🟡|Shift from Relief‑centric to Holistic Approach",
             "children": [
               {
                 "label": "🟠|Pre‑2005: primarily relief and rescue, reactive.\nPost‑DM Act 2005: proactive, prevention‑mitigation, and mainstreaming DRR in development."
@@ -121,7 +121,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER — Vulnerability, Exposure, Risk & Capacity",
+        "label": "🟡|PYQ MASTER — Vulnerability, Exposure, Risk & Capacity",
         "kind": "comparison",
         "children": [
           {
@@ -147,7 +147,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER — Disaster Management Cycle",
+        "label": "🟡|PYQ MASTER — Disaster Management Cycle",
         "kind": "comparison",
         "children": [
           {
@@ -169,7 +169,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER — Reactive to Proactive Shift in India",
+        "label": "🟡|PYQ MASTER — Reactive to Proactive Shift in India",
         "kind": "comparison",
         "children": [
           {
@@ -191,7 +191,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2013 — Administrator's Priority Areas in Disaster Management",
+        "label": "🟡|PYQ 2013 — Administrator's Priority Areas in Disaster Management",
         "kind": "comparison",
         "children": [
           {
@@ -221,7 +221,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "MASTER 10-PART DISASTER-MANAGEMENT ANSWER FRAMEWORK",
+        "label": "🟡|MASTER 10-PART DISASTER-MANAGEMENT ANSWER FRAMEWORK",
         "kind": "comparison",
         "children": [
           {
@@ -229,7 +229,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🟠|2. Hazard + exposure + vulnerability",
+            "label": "🟠|2. Hazard + exposure + vulnerability; capacity influences the severity of realised impacts.",
             "kind": "bullet"
           },
           {
@@ -271,14 +271,14 @@ export const RAW_D = [
   {
     "id": "II",
     "p": "pm3",
-    "label": "India's Vulnerability Profile (Static Facts)",
+    "label": "🟡|India's Vulnerability Profile (Static Facts)",
     "children": [
       {
         "p": "pm2",
-        "label": "Geophysical & Climatic Vulnerability",
+        "label": "🟡|Geophysical & Climatic Vulnerability",
         "children": [
           {
-            "label": "Seismic Zones",
+            "label": "🟡|Seismic Zones",
             "children": [
               {
                 "label": "🔴|India divided into 4 seismic zones (II, III, IV, V) as per IS 1893.\nZone V: highest risk (entire NE, parts of J&K, Himachal, Uttarakhand, Rann of Kutch, Andaman & Nicobar).\nZone II: lowest."
@@ -289,7 +289,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Floods",
+            "label": "🟡|Floods",
             "children": [
               {
                 "label": "🟡|40 million hectares (12% of land area) prone to floods.\nGanga‑Brahmaputra basin most affected.\nAssam, Bihar, UP, West Bengal most flood‑prone."
@@ -300,7 +300,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Cyclones",
+            "label": "🟡|Cyclones",
             "children": [
               {
                 "label": "🟡|Entire 7,516 km coastline vulnerable.\nEast coast more prone (Bay of Bengal – 4:1 ratio with Arabian Sea).\n13 coastal states/UTs."
@@ -311,7 +311,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Droughts",
+            "label": "🟡|Droughts",
             "children": [
               {
                 "label": "🔴|68% of net sown area vulnerable to drought.\n35% area receives rainfall between 750‑1,125 mm, classified as drought‑prone.\nRegions: Rajasthan, Gujarat, Maharashtra, Karnataka, Telangana, Bundelkhand."
@@ -319,7 +319,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Landslides & Avalanches",
+            "label": "🟡|Landslides & Avalanches",
             "children": [
               {
                 "label": "🔴|About 15% of India's landmass prone to landslides (Himalayan region, Western Ghats, Nilgiris, North‑East)."
@@ -327,7 +327,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Other Hazards",
+            "label": "🟡|Other Hazards",
             "children": [
               {
                 "label": "🔴|Tsunami: 2004 Indian Ocean Tsunami (Sumatra earthquake) devastated Andaman & Nicobar and parts of Tamil Nadu, Kerala, Andhra Pradesh, Puducherry."
@@ -344,10 +344,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Man‑made & Industrial Vulnerability",
+        "label": "🟡|Man‑made & Industrial Vulnerability",
         "children": [
           {
-            "label": "Industrial & Chemical",
+            "label": "🟡|Industrial & Chemical",
             "children": [
               {
                 "label": "🟡|Over 1,861 Major Accident Hazard (MAH) units across India.\nChemical clusters in Gujarat, Maharashtra, Tamil Nadu.\nBhopal (1984) worst industrial disaster."
@@ -360,7 +360,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER — Types of Vulnerability",
+        "label": "🟡|PYQ MASTER — Types of Vulnerability",
         "kind": "comparison",
         "children": [
           {
@@ -386,7 +386,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2025 — Seawater Intrusion in Coastal Aquifers",
+        "label": "🟡|PYQ 2025 — Seawater Intrusion in Coastal Aquifers",
         "kind": "comparison",
         "children": [
           {
@@ -416,14 +416,14 @@ export const RAW_D = [
   {
     "id": "III",
     "p": "pm3",
-    "label": "Legal & Institutional Framework (India)",
+    "label": "🟡|Legal & Institutional Framework (India)",
     "children": [
       {
         "p": "pm3",
-        "label": "Disaster Management Act 2005 (DM Act)",
+        "label": "🟡|Disaster Management Act 2005 (DM Act)",
         "children": [
           {
-            "label": "Key Features",
+            "label": "🟡|Key Features",
             "children": [
               {
                 "label": "🟡|Enacted 23 Dec 2005; came into force Jan 2006.\nFirst comprehensive legal framework for DM in India."
@@ -437,7 +437,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "National & State Executive Committees",
+            "label": "🟡|National & State Executive Committees",
             "children": [
               {
                 "label": "🔴|National Executive Committee (NEC): chaired by Home Secretary, assists NDMA."
@@ -448,7 +448,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "National & State Disaster Response Forces",
+            "label": "🟡|National & State Disaster Response Forces",
             "children": [
               {
                 "label": "🔴|National Disaster Response Force (NDRF) constituted 2006; 15+ battalions, specialized for search, rescue, relief.\nState Disaster Response Forces (SDRFs) in states."
@@ -456,7 +456,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Plans",
+            "label": "🟡|Plans",
             "children": [
               {
                 "label": "🔴|National Plan, State Plans, District Plans for disaster management; reviewed annually."
@@ -467,10 +467,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "NDMA – Key Functions & Guidelines",
+        "label": "🟡|NDMA – Key Functions & Guidelines",
         "children": [
           {
-            "label": "NDMA",
+            "label": "🟡|NDMA",
             "children": [
               {
                 "label": "🔴|Lay down policies, plans and guidelines for DM.\nApprove National Plan.\nCoordinate enforcement and implementation."
@@ -484,10 +484,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "National Policy on Disaster Management (NPDM) 2009",
+        "label": "🟡|National Policy on Disaster Management (NPDM) 2009",
         "children": [
           {
-            "label": "Objectives",
+            "label": "🟡|Objectives",
             "children": [
               {
                 "label": "🟠|Promote a culture of prevention, preparedness and resilience at all levels.\nMainstreaming DM into development planning."
@@ -497,7 +497,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2020 — Government Measures Showing a Proactive Approach",
+        "label": "🟡|PYQ 2020 — Government Measures Showing a Proactive Approach",
         "kind": "comparison",
         "children": [
           {
@@ -527,14 +527,14 @@ export const RAW_D = [
   {
     "id": "IV",
     "p": "pm3",
-    "label": "International Frameworks (Sendai, UNISDR/UNDRR)",
+    "label": "🟡|International Frameworks (Sendai, UNISDR/UNDRR)",
     "children": [
       {
         "p": "pm2",
-        "label": "Pre‑Sendai: Hyogo Framework for Action (HFA) 2005‑2015",
+        "label": "🟡|Pre‑Sendai: Hyogo Framework for Action (HFA) 2005‑2015",
         "children": [
           {
-            "label": "Key Priorities",
+            "label": "🟡|Key Priorities",
             "children": [
               {
                 "label": "🟡|Make DRR a priority; know the risks; build understanding & awareness; reduce risk; be prepared and ready to act.\nCriticized for lack of measurable targets."
@@ -545,10 +545,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Sendai Framework for Disaster Risk Reduction 2015‑2030",
+        "label": "🟡|Sendai Framework for Disaster Risk Reduction 2015‑2030",
         "children": [
           {
-            "label": "Goal & Priorities",
+            "label": "🟡|Goal & Priorities",
             "children": [
               {
                 "label": "🟠|Goal: Prevent new and reduce existing disaster risk."
@@ -559,7 +559,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "7 Global Targets (to be achieved by 2030)",
+            "label": "🟡|7 Global Targets (to be achieved by 2030)",
             "children": [
               {
                 "label": "🟡|Reduce global disaster mortality per 100,000 (Target A).\nReduce number of affected people (B).\nReduce direct economic loss in relation to GDP (C).\nReduce damage to critical infrastructure and disruption of basic services (D).\nIncrease number of countries with national and local DRR strategies (E).\nEnhance international cooperation (F).\nIncrease availability and access to multi‑hazard early warning systems (G)."
@@ -570,7 +570,7 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Other Relevant International Initiatives",
+        "label": "🟡|Other Relevant International Initiatives",
         "children": [
           {
             "label": "🟡|UNDRR (formerly UNISDR) – coordinates DRR globally.\nGlobal Platform for DRR."
@@ -584,7 +584,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2018 — Sendai vs Hyogo Framework",
+        "label": "🟡|PYQ 2018 — Sendai vs Hyogo Framework",
         "kind": "comparison",
         "children": [
           {
@@ -610,14 +610,14 @@ export const RAW_D = [
   {
     "id": "V",
     "p": "pm3",
-    "label": "Specific Hazards, Impacts & Mitigation (India)",
+    "label": "🟡|Specific Hazards, Impacts & Mitigation (India)",
     "children": [
       {
         "p": "pm2",
-        "label": "Earthquake",
+        "label": "🟡|Earthquake",
         "children": [
           {
-            "label": "Mitigation",
+            "label": "🟡|Mitigation",
             "children": [
               {
                 "label": "🔴|Seismic micro‑zonation, building codes (BIS), retrofitting, public awareness, land‑use planning, early warning (not prediction).\nIndia's Earthquake Early Warning (EEW) system in pilot phase."
@@ -628,10 +628,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Floods",
+        "label": "🟡|Floods",
         "children": [
           {
-            "label": "Causes & Types",
+            "label": "🟡|Causes & Types",
             "children": [
               {
                 "label": "🔴|Riverine, flash floods, urban flooding, coastal flooding.\nExacerbated by encroachment on flood plains, siltation, climate change."
@@ -639,7 +639,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Mitigation",
+            "label": "🟡|Mitigation",
             "children": [
               {
                 "label": "🔴|Flood plain zoning, embankments/dams (structural), reservoirs, drainage improvement, afforestation, early warning (CWC/IMD), flood forecasting (FFMP).\nRashtriya Barh Aayog (1976, 1980)."
@@ -650,10 +650,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Cyclones",
+        "label": "🟡|Cyclones",
         "children": [
           {
-            "label": "Impact & Mitigation",
+            "label": "🟡|Impact & Mitigation",
             "children": [
               {
                 "label": "🟡|High winds, storm surge, heavy rainfall.\nMost deaths due to storm surge historically (e.g., 1999 Odisha super cyclone – ~10,000 deaths)."
@@ -667,10 +667,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Droughts",
+        "label": "🟡|Droughts",
         "children": [
           {
-            "label": "Types",
+            "label": "🟡|Types",
             "children": [
               {
                 "label": "🟡|Meteorological (deficit rainfall), Hydrological (low water in reservoirs/rivers), Agricultural (soil moisture insufficient for crops), Socio‑economic (affects supply‑demand)."
@@ -678,7 +678,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Mitigation",
+            "label": "🟡|Mitigation",
             "children": [
               {
                 "label": "🔴|Drought‑proofing: watershed development, rainwater harvesting, drought‑resistant crops, crop insurance (PMFBY), fodder banks, employment programmes (MGNREGA).\nNational Rainfed Area Authority (NRAA)."
@@ -689,10 +689,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Landslides",
+        "label": "🟡|Landslides",
         "children": [
           {
-            "label": "Causes & Mitigation",
+            "label": "🟡|Causes & Mitigation",
             "children": [
               {
                 "label": "🔴|Heavy rain, earthquakes, deforestation, road construction on slopes.\nMitigation: hazard mapping (NDMA guidelines), slope stabilisation, retaining walls, drainage, early warning."
@@ -703,10 +703,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Man‑made: Industrial, Chemical, Nuclear",
+        "label": "🟡|Man‑made: Industrial, Chemical, Nuclear",
         "children": [
           {
-            "label": "Key Legislation & Guidelines",
+            "label": "🟡|Key Legislation & Guidelines",
             "children": [
               {
                 "label": "🔴|Manufacture, Storage and Import of Hazardous Chemicals Rules 1989 (MSIHC).\nNDMA guidelines on Chemical (Industrial) Disasters, Nuclear and Radiological Emergencies."
@@ -717,7 +717,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Bhopal Gas Tragedy (1984)",
+            "label": "🟡|Bhopal Gas Tragedy (1984)",
             "children": [
               {
                 "label": "🟡|Methyl Isocyanate (MIC) leak at Union Carbide pesticide plant; world's worst industrial disaster.\nLed to Environment Protection Act 1986, MSIHC Rules, and eventually DM Act 2005."
@@ -728,10 +728,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Biological Disasters (Epidemics/Pandemics)",
+        "label": "🟡|Biological Disasters (Epidemics/Pandemics)",
         "children": [
           {
-            "label": "Management Framework",
+            "label": "🟡|Management Framework",
             "children": [
               {
                 "label": "🔴|NDMA guidelines on Biological Disasters 2008.\nIntegrated Disease Surveillance Programme (IDSP).\nEpidemic Diseases Act 1897 (amended 2020).\nNational Health Mission, Ayushman Bharat for response capacity."
@@ -741,7 +741,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2023 — Dam Failure: Causes & Preparedness",
+        "label": "🟡|PYQ 2023 — Dam Failure: Causes & Preparedness",
         "kind": "comparison",
         "children": [
           {
@@ -771,7 +771,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2022/2016 — Cloudburst: Mechanism, Risk & Mitigation",
+        "label": "🟡|PYQ 2022/2016 — Cloudburst: Mechanism, Risk & Mitigation",
         "kind": "comparison",
         "children": [
           {
@@ -789,15 +789,11 @@ export const RAW_D = [
           {
             "label": "🟠|Preparedness: dense automatic weather/rainfall monitoring, nowcasting, local warnings, drainage and slope management, no-build zones in high-risk channels, evacuation plans and community drills.",
             "kind": "bullet"
-          },
-          {
-            "label": "🟠|Recent examples to cite in answers should be updated with the latest official/current examples rather than hard-freezing old event names.",
-            "kind": "bullet"
           }
         ]
       },
       {
-        "label": "PYQ 2019 — Landslide Hazard Zonation Mapping",
+        "label": "🟡|PYQ 2019 — Landslide Hazard Zonation Mapping",
         "kind": "comparison",
         "children": [
           {
@@ -819,7 +815,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2017 — Tsunami: Causes, Effects, Preparedness",
+        "label": "🟡|PYQ 2017 — Tsunami: Causes, Effects, Preparedness",
         "kind": "comparison",
         "children": [
           {
@@ -845,7 +841,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2016 — Urban Floods: Causes & Preparedness",
+        "label": "🟡|PYQ 2016 — Urban Floods: Causes & Preparedness",
         "kind": "comparison",
         "children": [
           {
@@ -867,7 +863,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2015 — Earthquake Preparedness Gaps",
+        "label": "🟡|PYQ 2015 — Earthquake Preparedness Gaps",
         "kind": "comparison",
         "children": [
           {
@@ -889,7 +885,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2014 — Drought, ENSO & Preparedness",
+        "label": "🟡|PYQ 2014 — Drought, ENSO & Preparedness",
         "kind": "comparison",
         "children": [
           {
@@ -911,14 +907,14 @@ export const RAW_D = [
   {
     "id": "VI",
     "p": "pm",
-    "label": "Community‑Based Disaster Management (CBDM) & Role of Technology",
+    "label": "🟡|Community‑Based Disaster Management (CBDM) & Role of Technology",
     "children": [
       {
         "p": "pm2",
-        "label": "CBDM",
+        "label": "🟡|CBDM",
         "children": [
           {
-            "label": "Importance",
+            "label": "🟡|Importance",
             "children": [
               {
                 "label": "🔴|First responders are local community.\nBuilding local capacity, training, task forces.\nNDMA's Aapda Mitra scheme (volunteers)."
@@ -929,10 +925,10 @@ export const RAW_D = [
       },
       {
         "p": "pm2",
-        "label": "Role of Technology & Information Systems",
+        "label": "🟡|Role of Technology & Information Systems",
         "children": [
           {
-            "label": "Tools",
+            "label": "🟡|Tools",
             "children": [
               {
                 "label": "🔴|Satellite remote sensing (NRSC/ISRO) for risk mapping, damage assessment.\nGIS.\nEarly warning systems (INCOIS for tsunami, IMD for cyclone/weather)."
@@ -945,7 +941,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ SYNTHESIS — Community-Based Disaster Management",
+        "label": "🟡|PYQ SYNTHESIS — Community-Based Disaster Management",
         "kind": "comparison",
         "children": [
           {
@@ -958,6 +954,30 @@ export const RAW_D = [
           },
           {
             "label": "🟠|Technology is most effective when it closes the last-mile gap rather than replacing local preparedness.",
+            "kind": "bullet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "X",
+    "p": "pm2",
+    "label": "🟡|Disaster Management — FINAL STATIC FREEZE CONTROL",
+    "children": [
+      {
+        "label": "🟡|Freeze Rules",
+        "children": [
+          {
+            "label": "🔴|Freeze hazard concepts, risk/vulnerability/exposure, Disaster Management Act architecture, Sendai/Hyogo, preparedness/mitigation principles, major hazard mechanisms and standard institutional roles.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Recent disaster examples, current warning systems, latest schemes/projects, current statistics and event-specific case studies belong in Current Affairs.",
+            "kind": "bullet"
+          },
+          {
+            "label": "🟡|Risk is not a universal numerical equation in this note; always use the conceptual relationship among hazard, exposure, vulnerability and capacity.",
             "kind": "bullet"
           }
         ]

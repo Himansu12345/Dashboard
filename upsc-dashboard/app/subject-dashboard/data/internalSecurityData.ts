@@ -1,13 +1,13 @@
 import type { RawSubjectNode } from "../types";
 
 export const RAW_D = [
-{
+  {
     "id": "I",
     "p": "pm",
-    "label": "Internal Security – Concepts & Constitutional Framework",
+    "label": "🟡|Internal Security – Concepts & Constitutional Framework",
     "children": [
       {
-        "label": "Basic Concepts & Definitions",
+        "label": "🟡|Basic Concepts & Definitions",
         "kind": "comparison",
         "children": [
           {
@@ -37,7 +37,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Constitutional Framework",
+        "label": "🟡|Constitutional Framework",
         "kind": "comparison",
         "children": [
           {
@@ -63,7 +63,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Key Legal Architecture",
+        "label": "🟡|Key Legal Architecture",
         "kind": "comparison",
         "children": [
           {
@@ -75,7 +75,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "🔴|AFSPA 1958 → applies to notified 'disturbed areas' and grants specified powers to armed forces; use remains subject to statutory conditions and judicial scrutiny.",
+            "label": "🔴|AFSPA 1958 → a special law applicable to areas notified as 'disturbed areas'; it grants specified powers to armed forces subject to statutory conditions and judicial/judicially evolved safeguards.",
             "kind": "bullet"
           },
           {
@@ -89,7 +89,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ MASTER – National Security Doctrine / Strategy",
+        "label": "🟡|PYQ MASTER – National Security Doctrine / Strategy",
         "kind": "comparison",
         "children": [
           {
@@ -115,10 +115,10 @@ export const RAW_D = [
   {
     "id": "II",
     "p": "pm3",
-    "label": "Major Internal Security Threats – Left Wing Extremism (LWE) / Naxalism",
+    "label": "🟡|Major Internal Security Threats – Left Wing Extremism (LWE) / Naxalism",
     "children": [
       {
-        "label": "Origins, Ideology & Evolution",
+        "label": "🟡|Origins, Ideology & Evolution",
         "kind": "comparison",
         "children": [
           {
@@ -140,7 +140,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Geography & Human Impact",
+        "label": "🟡|Geography & Human Impact",
         "kind": "comparison",
         "children": [
           {
@@ -158,7 +158,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Drivers of LWE",
+        "label": "🟡|Drivers of LWE",
         "kind": "comparison",
         "children": [
           {
@@ -188,7 +188,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Government Response – Multidimensional",
+        "label": "🟡|Government Response – Multidimensional",
         "kind": "comparison",
         "children": [
           {
@@ -218,7 +218,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2013–2025 – High-Yield Mains Anchors",
+        "label": "🟡|PYQ 2013–2025 – High-Yield Mains Anchors",
         "kind": "comparison",
         "children": [
           {
@@ -244,10 +244,10 @@ export const RAW_D = [
   {
     "id": "III",
     "p": "pm3",
-    "label": "Major Internal Security Threats – North-East Insurgencies",
+    "label": "🟡|Major Internal Security Threats – North-East Insurgencies",
     "children": [
       {
-        "label": "Root Causes",
+        "label": "🟡|Root Causes",
         "kind": "comparison",
         "children": [
           {
@@ -277,7 +277,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Major Conflict Patterns",
+        "label": "🟡|Major Conflict Patterns",
         "kind": "comparison",
         "children": [
           {
@@ -299,7 +299,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Peace Accords & Constitutional Responses",
+        "label": "🟡|Peace Accords & Constitutional Responses",
         "kind": "comparison",
         "children": [
           {
@@ -321,7 +321,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2025 – Peace Process & Mapping",
+        "label": "🟡|PYQ 2025 – Peace Process & Mapping",
         "kind": "comparison",
         "children": [
           {
@@ -339,7 +339,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Development & Security Measures",
+        "label": "🟡|Development & Security Measures",
         "kind": "comparison",
         "children": [
           {
@@ -361,10 +361,10 @@ export const RAW_D = [
   {
     "id": "IV",
     "p": "pm2",
-    "label": "Terrorism, Radicalisation, Organised Crime & Terror Financing",
+    "label": "🟡|Terrorism, Radicalisation, Organised Crime & Terror Financing",
     "children": [
       {
-        "label": "Terrorism – Nature & Manifestation",
+        "label": "🟡|Terrorism – Nature & Manifestation",
         "kind": "comparison",
         "children": [
           {
@@ -382,7 +382,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Cross-Border Terrorism",
+        "label": "🟡|Cross-Border Terrorism",
         "kind": "comparison",
         "children": [
           {
@@ -400,7 +400,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Terror Financing",
+        "label": "🟡|Terror Financing",
         "kind": "comparison",
         "children": [
           {
@@ -418,7 +418,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Organised Crime–Terror Nexus",
+        "label": "🟡|Organised Crime–Terror Nexus",
         "kind": "comparison",
         "children": [
           {
@@ -436,7 +436,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Radicalisation & Over-Ground Workers",
+        "label": "🟡|Radicalisation & Over-Ground Workers",
         "kind": "comparison",
         "children": [
           {
@@ -454,7 +454,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ 2014–2025 – Counter-Terrorism Approach",
+        "label": "🟡|PYQ 2014–2025 – Counter-Terrorism Approach",
         "kind": "comparison",
         "children": [
           {
@@ -476,10 +476,10 @@ export const RAW_D = [
   {
     "id": "V",
     "p": "pm2",
-    "label": "Other Internal Security Challenges",
+    "label": "🟡|Other Internal Security Challenges",
     "children": [
       {
-        "label": "Communal Violence & Mob Violence",
+        "label": "🟡|Communal Violence & Mob Violence",
         "kind": "comparison",
         "children": [
           {
@@ -497,7 +497,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Organised Crime, Drugs & Human Trafficking",
+        "label": "🟡|Organised Crime, Drugs & Human Trafficking",
         "kind": "comparison",
         "children": [
           {
@@ -519,7 +519,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Illegal Immigration & Human Trafficking",
+        "label": "🟡|Illegal Immigration & Human Trafficking",
         "kind": "comparison",
         "children": [
           {
@@ -537,7 +537,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Money Laundering & Hawala",
+        "label": "🟡|Money Laundering & Hawala",
         "kind": "comparison",
         "children": [
           {
@@ -555,7 +555,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "PYQ Gap – New-Age Security Risks",
+        "label": "🟡|PYQ Gap – New-Age Security Risks",
         "kind": "comparison",
         "children": [
           {
@@ -573,10 +573,10 @@ export const RAW_D = [
   {
     "id": "VI",
     "p": "pm2",
-    "label": "Border Security & Coastal / Maritime Security",
+    "label": "🟡|Border Security & Coastal / Maritime Security",
     "children": [
       {
-        "label": "Land Border Challenges",
+        "label": "🟡|Land Border Challenges",
         "kind": "comparison",
         "children": [
           {
@@ -606,7 +606,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Border Guarding & Integrated Management",
+        "label": "🟡|Border Guarding & Integrated Management",
         "kind": "comparison",
         "children": [
           {
@@ -628,7 +628,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "BADP / Border Infrastructure & Management",
+        "label": "🟡|BADP / Border Infrastructure & Management",
         "kind": "comparison",
         "children": [
           {
@@ -646,7 +646,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "UAV / Drone Threat",
+        "label": "🟡|UAV / Drone Threat",
         "kind": "comparison",
         "children": [
           {
@@ -664,7 +664,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Coastal & Maritime Security",
+        "label": "🟡|Coastal & Maritime Security",
         "kind": "comparison",
         "children": [
           {
@@ -690,7 +690,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Airspace / Piracy / Strategic Maritime Links",
+        "label": "🟡|Airspace / Piracy / Strategic Maritime Links",
         "kind": "comparison",
         "children": [
           {
@@ -712,10 +712,10 @@ export const RAW_D = [
   {
     "id": "VII",
     "p": "pm3",
-    "label": "Cyber Security, Information Warfare & Emerging Technologies",
+    "label": "🟡|Cyber Security, Information Warfare & Emerging Technologies",
     "children": [
       {
-        "label": "Cyber Security – Core Concepts",
+        "label": "🟡|Cyber Security – Core Concepts",
         "kind": "comparison",
         "children": [
           {
@@ -733,7 +733,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Legal & Institutional Framework",
+        "label": "🟡|Legal & Institutional Framework",
         "kind": "comparison",
         "children": [
           {
@@ -751,7 +751,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Cyber PYQ Master – Strategy & Implementation",
+        "label": "🟡|Cyber PYQ Master – Strategy & Implementation",
         "kind": "comparison",
         "children": [
           {
@@ -769,7 +769,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Data Security & Privacy",
+        "label": "🟡|Data Security & Privacy",
         "kind": "comparison",
         "children": [
           {
@@ -787,7 +787,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Cyber Crime / Social Media / Information Warfare",
+        "label": "🟡|Cyber Crime / Social Media / Information Warfare",
         "kind": "comparison",
         "children": [
           {
@@ -805,7 +805,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "New-Age Threats",
+        "label": "🟡|New-Age Threats",
         "kind": "comparison",
         "children": [
           {
@@ -831,10 +831,10 @@ export const RAW_D = [
   {
     "id": "VIII",
     "p": "pm3",
-    "label": "Security Forces, Intelligence Agencies, Police & Conflict Resolution",
+    "label": "🟡|Security Forces, Intelligence Agencies, Police & Conflict Resolution",
     "children": [
       {
-        "label": "Security Forces – Roles",
+        "label": "🟡|Security Forces – Roles",
         "kind": "comparison",
         "children": [
           {
@@ -868,7 +868,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Intelligence & Investigative Architecture",
+        "label": "🟡|Intelligence & Investigative Architecture",
         "kind": "comparison",
         "children": [
           {
@@ -898,7 +898,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Police Reforms",
+        "label": "🟡|Police Reforms",
         "kind": "comparison",
         "children": [
           {
@@ -920,7 +920,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Jammu & Kashmir – Hearts & Minds",
+        "label": "🟡|Jammu & Kashmir – Hearts & Minds",
         "kind": "comparison",
         "children": [
           {
@@ -942,7 +942,7 @@ export const RAW_D = [
         ]
       },
       {
-        "label": "Conflict Resolution – General Framework",
+        "label": "🟡|Conflict Resolution – General Framework",
         "kind": "comparison",
         "children": [
           {
@@ -964,10 +964,10 @@ export const RAW_D = [
   {
     "id": "IX",
     "p": "pm2",
-    "label": "Internal Security – PYQ Traps & Dynamic Facts",
+    "label": "🟡|Internal Security – PYQ Traps & Dynamic Facts",
     "children": [
       {
-        "label": "High-Yield PYQ Traps",
+        "label": "🟡|High-Yield PYQ Traps",
         "kind": "comparison",
         "children": [
           {
@@ -991,21 +991,27 @@ export const RAW_D = [
             "kind": "bullet"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": "IX",
+    "p": "pm2",
+    "label": "🟡|Internal Security — FINAL STATIC FREEZE CONTROL",
+    "children": [
       {
-        "label": "Dynamic / Update Before Exam",
-        "kind": "comparison",
+        "label": "🟡|Freeze Rules",
         "children": [
           {
-            "label": "🟡|Exact affected-district numbers, border-fencing lengths, terror-death statistics and scheme-coverage figures should be updated from the latest official MHA/Ministry/agency data before Prelims/Mains.",
+            "label": "🔴|Freeze the permanent conceptual/legal/institutional framework: threats, constitutional provisions, laws, agencies, border architecture, cyber concepts, police reforms and stable strategic doctrines.",
             "kind": "bullet"
           },
           {
-            "label": "🟡|Names/statuses of peace accords, insurgent groups, ceasefires and active areas can change; preserve the conceptual framework and update only the dynamic facts.",
+            "label": "🟡|Current insurgent-group status, active conflict geography, peace-accord status, current affected-district counts, force deployments and current policy/strategy labels belong in Current Affairs.",
             "kind": "bullet"
           },
           {
-            "label": "🟡|Cyber Strategy/Policy labels and implementation status are current-sensitive; use the latest official status at the time of exam.",
+            "label": "🟡|Exact numerical border lengths, deaths, scheme coverage and current technology deployments should not be hard-frozen.",
             "kind": "bullet"
           }
         ]
