@@ -145,6 +145,7 @@ const timestampFormatter = new Intl.DateTimeFormat("en-IN", {
   hour: "numeric",
   minute: "2-digit",
 });
+const structuredLabelCache = new Map<string, React.ReactNode>();
 
 function normalizePriority(value?: string | null): PriorityKey | null {
   if (!value) return null;
@@ -930,13 +931,18 @@ function buildStructuredBlocks(label: string): StructuredBlock[] {
 /* -------------------------------------------------------------------------- */
 
 function renderStructuredLabel(label: string) {
+  const cached = structuredLabelCache.get(label);
+  if (cached) return cached;
+
   const blocks = buildStructuredBlocks(label);
 
   if (blocks.length === 0) {
-    return <div className="note-copy">{label}</div>;
+    const rendered = <div className="note-copy">{label}</div>;
+    structuredLabelCache.set(label, rendered);
+    return rendered;
   }
 
-  return (
+  const rendered = (
     <div className="note-copy">
       {blocks.map((block, index) => {
         switch (block.type) {
@@ -1092,6 +1098,9 @@ function renderStructuredLabel(label: string) {
       })}
     </div>
   );
+
+  structuredLabelCache.set(label, rendered);
+  return rendered;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -1215,7 +1224,7 @@ function TreeNodeComponent(props: TreeNodeProps) {
         .join("  |  ")
     : "";
 
-  const historyEntries: HistoryEntry[] = useMemo(() => {
+  const historyEntries: HistoryEntry[] = (() => {
     const entries: HistoryEntry[] = [];
 
     if (derivedRecord.completedAt) {
@@ -1237,7 +1246,7 @@ function TreeNodeComponent(props: TreeNodeProps) {
     }
 
     return entries.sort((a, b) => b.timestamp - a.timestamp);
-  }, [derivedRecord.completedAt, derivedRecord.revisions]);
+  })();
 
   const handleRowClick = (event: React.MouseEvent) => {
     const target = event.target as HTMLElement;
@@ -1466,7 +1475,6 @@ function arePropsEqual(prevProps: TreeNodeProps, nextProps: TreeNodeProps) {
 
   return (
     prevVersion === nextVersion &&
-    prevProps.treeRenderVersion === nextProps.treeRenderVersion &&
     prevProps.visibleUids.has(uid) === nextProps.visibleUids.has(uid) &&
     prevHasInsights === nextHasInsights
   );

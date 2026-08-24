@@ -268,6 +268,9 @@ const AUTO_MODE_START_LEAD_MS = 15 * 1000;
 
 const subjectTreeCache = new Map<string, any[]>();
 const targetMetadataCache = new Map<string, PlannerTopicTarget>();
+const subjectChapterCache = new Map<string, string[]>();
+const chapterTopicCache = new Map<string, string[]>();
+const exactPointCache = new Map<string, number>();
 
 function getSubjectTree(subject: string) {
   const cachedTree = subjectTreeCache.get(subject);
@@ -383,19 +386,30 @@ function computeMissionProgress(
 }
 
 function getChaptersForSubject(subject: string) {
+  const cachedChapters = subjectChapterCache.get(subject);
+  if (cachedChapters) return cachedChapters;
+
   const data = SUBJECT_DATA_REGISTRY[subject];
   if (!data) return [];
-  return data.map((n) => getLabel(n)).filter(Boolean);
+  const chapters = data.map((n) => getLabel(n)).filter(Boolean);
+  subjectChapterCache.set(subject, chapters);
+  return chapters;
 }
 
 function getTopicsForChapter(subject: string, chapterLabel: string) {
+  const cacheKey = `${subject}::${chapterLabel}`;
+  const cachedTopics = chapterTopicCache.get(cacheKey);
+  if (cachedTopics) return cachedTopics;
+
   const data = SUBJECT_DATA_REGISTRY[subject];
   if (!data) return [];
   const chapterNode = data.find((n) => getLabel(n) === chapterLabel);
   if (!chapterNode) return [];
-  return getChildren(chapterNode)
+  const topics = getChildren(chapterNode)
     .map((n: any) => getLabel(n))
     .filter(Boolean);
+  chapterTopicCache.set(cacheKey, topics);
+  return topics;
 }
 
 // Recursively counts leaf nodes (checkboxes) to generate exact point totals
@@ -404,6 +418,10 @@ function calculateExactPoints(
   chapterLabel: string,
   topicLabels: string[],
 ) {
+  const cacheKey = `${subject}::${chapterLabel}::${[...topicLabels].sort().join("|")}`;
+  const cachedPoints = exactPointCache.get(cacheKey);
+  if (typeof cachedPoints === "number") return cachedPoints;
+
   const data = SUBJECT_DATA_REGISTRY[subject];
   if (!data) return topicLabels.length * 5;
   const chapterNode = data.find((n) => getLabel(n) === chapterLabel);
@@ -427,7 +445,9 @@ function calculateExactPoints(
       total += 5;
     }
   });
-  return total > 0 ? total : 10;
+  const points = total > 0 ? total : 10;
+  exactPointCache.set(cacheKey, points);
+  return points;
 }
 
 function getMondayOfCurrentWeek() {
@@ -1859,6 +1879,7 @@ export default function WeeklyPlannerPanel() {
   const previousMissionStatusRef = useRef<Record<string, string>>({});
   const autoStartedMissionRef = useRef<string | null>(null);
   const persistedHydratedMissionSignatureRef = useRef<string>("");
+  const subjectProgressSignatureRef = useRef<string>("");
 
   const [builderData, setBuilderData] = useState<
     Record<string, DayBuilderState>
@@ -2015,6 +2036,7 @@ export default function WeeklyPlannerPanel() {
     );
 
     if (noteSubjects.length === 0) {
+      subjectProgressSignatureRef.current = "";
       setSubjectProgressMap({});
       return;
     }
@@ -2040,7 +2062,13 @@ export default function WeeklyPlannerPanel() {
         );
 
         if (subjectPairs.length === 0) {
-          if (!isCancelled) setSubjectProgressMap(fallbackProgress);
+          if (!isCancelled) {
+            const nextSignature = JSON.stringify(fallbackProgress);
+            if (subjectProgressSignatureRef.current !== nextSignature) {
+              subjectProgressSignatureRef.current = nextSignature;
+              setSubjectProgressMap(fallbackProgress);
+            }
+          }
           return;
         }
 
@@ -2070,6 +2098,10 @@ export default function WeeklyPlannerPanel() {
         const progressBySubject = Object.fromEntries(progressResults);
 
         if (!isCancelled) {
+          const nextSignature = JSON.stringify(progressBySubject);
+          if (subjectProgressSignatureRef.current === nextSignature) return;
+          subjectProgressSignatureRef.current = nextSignature;
+
           setSubjectProgressMap({
             ...fallbackProgress,
             ...progressBySubject,

@@ -138,6 +138,7 @@ function isMissionClosed(mission: any) {
 export default function Navbar() {
   const pathname = usePathname();
 
+  const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [isSubjectsOpen, setIsSubjectsOpen] = useState(false);
   const [selectedSection, setSelectedSection] =
     useState<SubjectSectionKey>("pre");
@@ -161,6 +162,8 @@ export default function Navbar() {
 
   useEffect(() => {
     setSelectedSection(getSectionForPath(pathname));
+    setIsMobileNavOpen(false);
+    setIsSubjectsOpen(false);
   }, [pathname]);
 
   useEffect(() => {
@@ -300,35 +303,61 @@ export default function Navbar() {
     };
   }, []);
 
+  const handleNavLinkClick = () => {
+    setIsMobileNavOpen(false);
+    setIsSubjectsOpen(false);
+  };
+
   return (
-    <header className="app-nav glass-panel">
+    <header
+      className={`app-nav glass-panel ${isMobileNavOpen ? "is-mobile-open" : ""}`}
+    >
       {/* <div className="app-title-wrap">
         <p className="app-eyebrow">Adaptive Practice Intelligence</p>
         <h1 className="app-title">UPSC Dashboard</h1>
       </div> */}
 
-      <nav className="app-nav-links" aria-label="Primary">
+      <button
+        type="button"
+        className="mobile-nav-toggle ripple-btn"
+        aria-label={isMobileNavOpen ? "Close navigation" : "Open navigation"}
+        aria-expanded={isMobileNavOpen}
+        aria-controls="primary-navigation"
+        onClick={() => setIsMobileNavOpen((value) => !value)}
+      >
+        <span className="mobile-nav-toggle-lines" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+        </span>
+      </button>
+
+      <nav id="primary-navigation" className="app-nav-links" aria-label="Primary">
         <Link
           href="/"
+          onClick={handleNavLinkClick}
           className={`nav-pill ripple-btn ${pathname === "/" ? "is-active" : ""}`}
         >
           Dashboard
         </Link>
         <Link
           href="/accuracy"
+          onClick={handleNavLinkClick}
           className={`nav-pill ripple-btn ${pathname === "/accuracy" ? "is-active" : ""}`}
         >
           Accuracy
         </Link>
         <Link
           href="/table"
+          onClick={handleNavLinkClick}
           className={`nav-pill ripple-btn ${pathname === "/table" ? "is-active" : ""}`}
         >
           Table
         </Link>
         <Link
           href="/planner"
-          className="flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-slate-400 hover:text-white hover:bg-white/[0.04] group"
+          onClick={handleNavLinkClick}
+          className="app-nav-mission-link flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-300 text-slate-400 hover:text-white hover:bg-white/[0.04] group"
         >
           {/* Tactical Target Icon */}
           <div className="flex items-center justify-center w-6 h-6 rounded-lg bg-white/[0.02] border border-white/[0.05] group-hover:border-blue-500/50 group-hover:bg-blue-500/10 transition-colors">
@@ -352,18 +381,21 @@ export default function Navbar() {
         </Link>
         <Link
           href="/mission-history"
+          onClick={handleNavLinkClick}
           className={`nav-pill ripple-btn ${pathname === "/mission-history" ? "is-active" : ""}`}
         >
           Mission History
         </Link>
         <Link
           href="/mcq-quiz"
+          onClick={handleNavLinkClick}
           className={`nav-pill ripple-btn ${pathname === "/mcq-quiz" ? "is-active" : ""}`}
         >
           MCQ Quiz
         </Link>
         <Link
           href="/report"
+          onClick={handleNavLinkClick}
           className={`nav-pill ripple-btn ${pathname === "/report" ? "is-active" : ""}`}
         >
           Report
@@ -415,7 +447,7 @@ export default function Navbar() {
                       <Link
                         key={subject.label}
                         href={subject.href}
-                        onClick={() => setIsSubjectsOpen(false)}
+                        onClick={handleNavLinkClick}
                         className={`prelims-subject-pill ripple-btn ${isActive ? "is-active" : ""}`}
                       >
                         {subject.label}

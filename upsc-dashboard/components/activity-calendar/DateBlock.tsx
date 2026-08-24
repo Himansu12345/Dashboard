@@ -13,7 +13,7 @@ interface DateBlockProps {
 
 function DateBlock({
   dateKey,
-  count,
+  count: _count,
   completion,
   isBlank,
   onSelectDate,
@@ -26,7 +26,7 @@ function DateBlock({
     <button
       type="button"
       className="heatmap-date-btn heatmap-block"
-      style={{ background: getMissionCompletionColor(completion) }}
+      style={{ background: getMissionCompletionColor(completion, dateKey) }}
       onClick={() => {
         if (dateKey) {
           onSelectDate(dateKey);

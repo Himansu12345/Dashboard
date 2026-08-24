@@ -93,6 +93,20 @@ function flattenNodes(nodes: SubjectNode[]): SubjectNode[] {
   ]);
 }
 
+function collectLeafUids(node: SubjectNode): string[] {
+  if (!node.children?.length) return [node.uid];
+  return node.children.flatMap(collectLeafUids);
+}
+
+function getRevisionCount(
+  uid: string,
+  completionTimes: SubjectCompletionTimes,
+) {
+  const record = completionTimes[uid];
+  if (!record || typeof record !== "object") return 0;
+  return Array.isArray(record.revisions) ? record.revisions.length : 0;
+}
+
 function buildChapterAttemptSummaries(
   chapterNodes: SubjectNode[],
   attempts: Awaited<ReturnType<typeof fetchAttempts>>,
@@ -647,6 +661,203 @@ function PlannerMissionTimerBanner({
         </div>
       </div>
     </div>
+  );
+}
+
+type TimeBlockBuilderProps = {
+  chapterNodes: SubjectNode[];
+  selectedUids: Set<string>;
+  checkedUids: Set<string>;
+  completionTimes: SubjectCompletionTimes;
+  blockMinutes: number;
+  onBlockMinutesChange: (value: number) => void;
+  onToggleTarget: (uid: string) => void;
+  onClear: () => void;
+  onExpandSelected: () => void;
+  onApplyComplete: () => void;
+  onApplyRevision: () => void;
+};
+
+function TimeBlockBuilder({
+  chapterNodes,
+  selectedUids,
+  checkedUids,
+  completionTimes,
+  blockMinutes,
+  onBlockMinutesChange,
+  onToggleTarget,
+  onClear,
+  onExpandSelected,
+  onApplyComplete,
+  onApplyRevision,
+}: TimeBlockBuilderProps) {
+  const leafUidsByNode = useMemo(() => {
+    const map = new Map<string, string[]>();
+    const visit = (node: SubjectNode): string[] => {
+      const leafUids = node.children?.length
+        ? node.children.flatMap(visit)
+        : [node.uid];
+      map.set(node.uid, leafUids);
+      return leafUids;
+    };
+
+    chapterNodes.forEach(visit);
+    return map;
+  }, [chapterNodes]);
+
+  const selectedNodes = useMemo(() => {
+    const allTargets = chapterNodes.flatMap((chapter) => [
+      chapter,
+      ...(chapter.children || []),
+    ]);
+    return allTargets.filter((node) => selectedUids.has(node.uid));
+  }, [chapterNodes, selectedUids]);
+
+  const selectedLeafUids = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          selectedNodes.flatMap((node) => leafUidsByNode.get(node.uid) || []),
+        ),
+      ),
+    [leafUidsByNode, selectedNodes],
+  );
+
+  const completedLeaves = selectedLeafUids.filter((uid) =>
+    checkedUids.has(uid),
+  ).length;
+  const revisedLeaves = selectedLeafUids.filter(
+    (uid) => getRevisionCount(uid, completionTimes) > 0,
+  ).length;
+  const hasSelection = selectedLeafUids.length > 0;
+
+  return (
+    <section className="time-block-builder hide-in-zen">
+      <div className="time-block-head">
+        <div>
+          <p className="time-block-kicker">One Time Block</p>
+          <h3 className="time-block-title">Build revise or complete set</h3>
+          <p className="time-block-note">
+            Select full chapters or exact topics from this subject, then apply
+            the whole block once.
+          </p>
+        </div>
+
+        <div className="time-block-metrics">
+          <div className="time-block-metric">
+            <span>Targets</span>
+            <strong>{selectedNodes.length}</strong>
+          </div>
+          <div className="time-block-metric">
+            <span>Points</span>
+            <strong>{selectedLeafUids.length}</strong>
+          </div>
+          <div className="time-block-metric">
+            <span>Done</span>
+            <strong>{completedLeaves}</strong>
+          </div>
+          <div className="time-block-metric">
+            <span>Revised</span>
+            <strong>{revisedLeaves}</strong>
+          </div>
+        </div>
+      </div>
+
+      <div className="time-block-toolbar">
+        <label className="time-block-duration">
+          <span>Minutes</span>
+          <input
+            type="number"
+            min={5}
+            max={300}
+            step={5}
+            value={blockMinutes}
+            onChange={(event) =>
+              onBlockMinutesChange(
+                Math.max(5, Math.min(300, Number(event.target.value) || 5)),
+              )
+            }
+          />
+        </label>
+
+        <div className="time-block-actions">
+          <button
+            type="button"
+            className="time-block-btn"
+            onClick={onExpandSelected}
+            disabled={!hasSelection}
+          >
+            Open selected
+          </button>
+          <button
+            type="button"
+            className="time-block-btn"
+            onClick={onClear}
+            disabled={!hasSelection}
+          >
+            Clear
+          </button>
+          <button
+            type="button"
+            className="time-block-btn complete"
+            onClick={onApplyComplete}
+            disabled={!hasSelection}
+          >
+            Complete block
+          </button>
+          <button
+            type="button"
+            className="time-block-btn revise"
+            onClick={onApplyRevision}
+            disabled={!hasSelection}
+          >
+            Revise block
+          </button>
+        </div>
+      </div>
+
+      <div className="time-block-grid">
+        {chapterNodes.map((chapter) => {
+          const chapterLeafCount = leafUidsByNode.get(chapter.uid)?.length || 0;
+
+          return (
+            <div key={chapter.uid} className="time-block-chapter">
+              <label className="time-block-option chapter">
+                <input
+                  type="checkbox"
+                  checked={selectedUids.has(chapter.uid)}
+                  onChange={() => onToggleTarget(chapter.uid)}
+                />
+                <span>
+                  <strong>{chapter.label}</strong>
+                  <small>{chapterLeafCount} points</small>
+                </span>
+              </label>
+
+              {chapter.children?.length ? (
+                <div className="time-block-topic-list">
+                  {chapter.children.map((topic) => (
+                    <label key={topic.uid} className="time-block-option topic">
+                      <input
+                        type="checkbox"
+                        checked={selectedUids.has(topic.uid)}
+                        onChange={() => onToggleTarget(topic.uid)}
+                      />
+                      <span>
+                        <strong>{topic.label}</strong>
+                        <small>
+                          {leafUidsByNode.get(topic.uid)?.length || 0} points
+                        </small>
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 
@@ -1208,6 +1419,10 @@ export function SubjectDashboard({
   const currentSubject =
     STORAGE_KEY_TO_SUBJECT[storageKeys.checked] || quizSubjectName || title;
   const collapseToExpandedUids = dashboard.collapseToExpandedUids;
+  const [timeBlockSelectedUids, setTimeBlockSelectedUids] = useState<
+    Set<string>
+  >(new Set());
+  const [timeBlockMinutes, setTimeBlockMinutes] = useState(60);
 
   const { insightsMap, addInsight, deleteInsight } = useInsightsVault(
     storageKeys.checked,
@@ -1221,6 +1436,77 @@ export function SubjectDashboard({
     () => buildParentUidMap(activeData),
     [activeData],
   );
+
+  const subjectNodeByUid = useMemo(() => {
+    return new Map(allNodes.map((node) => [node.uid, node] as const));
+  }, [allNodes]);
+
+  const timeBlockLeafUids = useMemo(() => {
+    const leafUids = new Set<string>();
+
+    timeBlockSelectedUids.forEach((uid) => {
+      const node = subjectNodeByUid.get(uid);
+      if (!node) return;
+      collectLeafUids(node).forEach((leafUid) => leafUids.add(leafUid));
+    });
+
+    return Array.from(leafUids);
+  }, [subjectNodeByUid, timeBlockSelectedUids]);
+
+  const timeBlockLabel = useMemo(
+    () => `${title} ${timeBlockMinutes} minute block`,
+    [timeBlockMinutes, title],
+  );
+
+  const toggleTimeBlockTarget = useCallback((uid: string) => {
+    setTimeBlockSelectedUids((prev) => {
+      const next = new Set(prev);
+      if (next.has(uid)) next.delete(uid);
+      else next.add(uid);
+      return next;
+    });
+  }, []);
+
+  const clearTimeBlockTargets = useCallback(() => {
+    setTimeBlockSelectedUids(new Set());
+  }, []);
+
+  const expandTimeBlockTargets = useCallback(() => {
+    const expandedUids = new Set<string>();
+
+    timeBlockSelectedUids.forEach((uid) => {
+      expandedUids.add(uid);
+      collectAncestorUids(uid, parentUidMap).forEach((ancestorUid) =>
+        expandedUids.add(ancestorUid),
+      );
+    });
+
+    collapseToExpandedUids(expandedUids);
+
+    window.setTimeout(() => {
+      const firstUid = timeBlockSelectedUids.values().next().value as
+        | string
+        | undefined;
+      if (!firstUid) return;
+      document
+        .getElementById(`subject-node-${firstUid}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 120);
+  }, [collapseToExpandedUids, parentUidMap, timeBlockSelectedUids]);
+
+  const applyTimeBlockComplete = useCallback(() => {
+    dashboard.completeMany(timeBlockLeafUids, {
+      source: "subject_time_block",
+      blockLabel: timeBlockLabel,
+    });
+  }, [dashboard, timeBlockLabel, timeBlockLeafUids]);
+
+  const applyTimeBlockRevision = useCallback(() => {
+    dashboard.reviseMany(timeBlockLeafUids, {
+      source: "subject_time_block",
+      blockLabel: timeBlockLabel,
+    });
+  }, [dashboard, timeBlockLabel, timeBlockLeafUids]);
 
   const handleOpenChapterStats = useCallback(
     (uid: string) => {
@@ -1779,6 +2065,19 @@ export function SubjectDashboard({
           onToggleStarFilter={() =>
             dashboard.setStarFilter(!dashboard.starFilter)
           }
+        />
+        <TimeBlockBuilder
+          chapterNodes={chapterNodes}
+          selectedUids={timeBlockSelectedUids}
+          checkedUids={dashboard.checkedUids}
+          completionTimes={dashboard.completionTimes}
+          blockMinutes={timeBlockMinutes}
+          onBlockMinutesChange={setTimeBlockMinutes}
+          onToggleTarget={toggleTimeBlockTarget}
+          onClear={clearTimeBlockTargets}
+          onExpandSelected={expandTimeBlockTargets}
+          onApplyComplete={applyTimeBlockComplete}
+          onApplyRevision={applyTimeBlockRevision}
         />
         {plannerTimerState && (
           <PlannerMissionTimerBanner

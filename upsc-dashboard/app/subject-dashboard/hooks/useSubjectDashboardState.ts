@@ -1385,6 +1385,148 @@ const visibleUids = useMemo(() => {
     ],
   );
 
+  const completeMany = useCallback(
+    (uids: string[], options?: { source?: string; blockLabel?: string }) => {
+      const uniqueUids = Array.from(new Set(uids)).filter(Boolean);
+      if (uniqueUids.length === 0) return;
+
+      const now = Date.now();
+      const currentCheckedUids = checkedUidsRef.current;
+      const currentCompletionTimes = completionTimesRef.current;
+      const currentStarredUids = starredUidsRef.current;
+
+      const events = uniqueUids.map((uid) => {
+        const previousChecked = currentCheckedUids.has(uid);
+        const previousCompletion = normalizeCompletionRecord(
+          currentCompletionTimes[uid],
+        );
+        const nextCompletion = previousCompletion ?? {
+          completedAt: now,
+          revisions: [],
+        };
+
+        return {
+          uid,
+          previousStatus: {
+            isChecked: previousChecked,
+            completedAt: previousCompletion?.completedAt,
+            revisedAt: previousCompletion?.revisedAt,
+            revisions: previousCompletion?.revisions ?? [],
+            isStarred: currentStarredUids.has(uid),
+          } satisfies ReportEventStatus,
+          newStatus: {
+            isChecked: true,
+            completedAt: nextCompletion.completedAt,
+            revisedAt: nextCompletion.revisedAt,
+            revisions: nextCompletion.revisions,
+            isStarred: currentStarredUids.has(uid),
+          } satisfies ReportEventStatus,
+        };
+      });
+
+      const nextChecked = new Set(currentCheckedUids);
+      uniqueUids.forEach((uid) => nextChecked.add(uid));
+      checkedUidsRef.current = nextChecked;
+      setCheckedUids(nextChecked);
+
+      const nextCompletionTimes = { ...currentCompletionTimes };
+      uniqueUids.forEach((uid) => {
+        const existing = normalizeCompletionRecord(nextCompletionTimes[uid]);
+        nextCompletionTimes[uid] = existing ?? {
+          completedAt: now,
+          revisions: [],
+        };
+      });
+      completionTimesRef.current = nextCompletionTimes;
+      setCompletionTimes(nextCompletionTimes);
+
+      events.forEach((event) => {
+        void reportSubjectEvent(
+          event.uid,
+          "note_complete",
+          event.previousStatus,
+          event.newStatus,
+          {
+            source: options?.source ?? "manual_time_block",
+            blockLabel: options?.blockLabel,
+            batchSize: uniqueUids.length,
+          },
+        );
+      });
+    },
+    [reportSubjectEvent, setCheckedUids, setCompletionTimes],
+  );
+
+  const reviseMany = useCallback(
+    (uids: string[], options?: { source?: string; blockLabel?: string }) => {
+      const uniqueUids = Array.from(new Set(uids)).filter(Boolean);
+      if (uniqueUids.length === 0) return;
+
+      const now = Date.now();
+      const currentCheckedUids = checkedUidsRef.current;
+      const currentCompletionTimes = completionTimesRef.current;
+      const currentStarredUids = starredUidsRef.current;
+
+      const nextChecked = new Set(currentCheckedUids);
+      const nextCompletionTimes = { ...currentCompletionTimes };
+
+      const events = uniqueUids.map((uid) => {
+        const previousChecked = currentCheckedUids.has(uid);
+        const previousCompletion = normalizeCompletionRecord(
+          currentCompletionTimes[uid],
+        );
+        const nextRecord: NormalizedCompletionRecord = {
+          completedAt: previousCompletion?.completedAt ?? now,
+          revisedAt: now,
+          revisions: [...(previousCompletion?.revisions ?? []), now],
+        };
+
+        nextChecked.add(uid);
+        nextCompletionTimes[uid] = nextRecord;
+
+        return {
+          uid,
+          revisionCount: nextRecord.revisions.length,
+          previousStatus: {
+            isChecked: previousChecked,
+            completedAt: previousCompletion?.completedAt,
+            revisedAt: previousCompletion?.revisedAt,
+            revisions: previousCompletion?.revisions ?? [],
+            isStarred: currentStarredUids.has(uid),
+          } satisfies ReportEventStatus,
+          newStatus: {
+            isChecked: true,
+            completedAt: nextRecord.completedAt,
+            revisedAt: nextRecord.revisedAt,
+            revisions: nextRecord.revisions,
+            isStarred: currentStarredUids.has(uid),
+          } satisfies ReportEventStatus,
+        };
+      });
+
+      checkedUidsRef.current = nextChecked;
+      completionTimesRef.current = nextCompletionTimes;
+      setCheckedUids(nextChecked);
+      setCompletionTimes(nextCompletionTimes);
+
+      events.forEach((event) => {
+        void reportSubjectEvent(
+          event.uid,
+          "note_revise",
+          event.previousStatus,
+          event.newStatus,
+          {
+            source: options?.source ?? "manual_time_block",
+            blockLabel: options?.blockLabel,
+            batchSize: uniqueUids.length,
+            revisionCount: event.revisionCount,
+          },
+        );
+      });
+    },
+    [reportSubjectEvent, setCheckedUids, setCompletionTimes],
+  );
+
   const toggleStar = useCallback(
     (uid: string) => {
       const currentCheckedUids = checkedUidsRef.current;
@@ -1457,6 +1599,8 @@ const visibleUids = useMemo(() => {
     treeRenderVersion,
     handleCheck,
     logRevision,
+    completeMany,
+    reviseMany,
     toggleCollapse,
     toggleNote,
     toggleStar,

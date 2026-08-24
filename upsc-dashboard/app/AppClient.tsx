@@ -25,12 +25,10 @@ import {
 } from "@/lib/api/revision";
 import { flushPendingAttemptQueue } from "@/lib/quiz/attemptQueue";
 import {
-  areRecordsEquivalent,
   buildQuestionDetailKey,
   withUpdatedQuestionNote,
 } from "@/app/appClientUtils";
 import { useAppDispatch, useAppSelector } from "@/store/hooks";
-import { setRecords as setRecordsAction } from "@/store/slices/recordsSlice";
 import {
   closeConsistencyPopup,
   closeSyllabusPopup,
@@ -108,7 +106,6 @@ type ToastState = {
 export default function AppClient() {
   const dispatch = useAppDispatch();
   const queryClient = useQueryClient();
-  const records = useAppSelector((state) => state.records.records);
   const isNotesPopupOpen = useAppSelector((state) => state.ui.isNotesPopupOpen);
   const isConsistencyPopupOpen = useAppSelector(
     (state) => state.ui.isConsistencyPopupOpen,
@@ -211,6 +208,7 @@ export default function AppClient() {
     () => attempts.map((attempt) => mapAttemptToPracticeRecord(attempt)),
     [attempts],
   );
+  const records = mappedRecords;
   const mappedDeletedRecords = useMemo(
     () =>
       recycleBinAttempts.map((attempt) => mapAttemptToPracticeRecord(attempt)),

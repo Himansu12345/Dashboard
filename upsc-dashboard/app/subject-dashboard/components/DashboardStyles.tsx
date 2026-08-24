@@ -651,6 +651,216 @@ export function DashboardStyles() {
       }
 
       /* ------------------------------------------------------------------ */
+      /* TIME BLOCK BUILDER                                                 */
+      /* ------------------------------------------------------------------ */
+
+      .time-block-builder {
+        margin: 0 0 18px;
+        border-radius: var(--radius-xl);
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        background: linear-gradient(
+          180deg,
+          rgba(24, 38, 61, 0.98) 0%,
+          rgba(17, 28, 47, 0.98) 100%
+        );
+        box-shadow: var(--shadow);
+        padding: 18px;
+      }
+
+      .time-block-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 18px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+      }
+
+      .time-block-kicker {
+        margin: 0 0 4px;
+        color: #34d399;
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .time-block-title {
+        margin: 0;
+        color: #f8fbff;
+        font-size: 1.28rem;
+        line-height: 1.2;
+        font-weight: 900;
+      }
+
+      .time-block-note {
+        margin: 6px 0 0;
+        max-width: 640px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.55;
+      }
+
+      .time-block-metrics {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(78px, 1fr));
+        gap: 10px;
+        min-width: min(430px, 100%);
+      }
+
+      .time-block-metric {
+        min-height: 62px;
+        border-radius: 14px;
+        border: 1px solid rgba(148, 163, 184, 0.14);
+        background: rgba(10, 18, 31, 0.42);
+        padding: 10px;
+      }
+
+      .time-block-metric span,
+      .time-block-duration span,
+      .time-block-option small {
+        display: block;
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 1.35;
+      }
+
+      .time-block-metric strong {
+        display: block;
+        margin-top: 4px;
+        color: #f8fbff;
+        font-size: 1.24rem;
+        line-height: 1;
+      }
+
+      .time-block-toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px 0;
+      }
+
+      .time-block-duration {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-height: 42px;
+        padding: 0 12px;
+        border-radius: 14px;
+        border: 1px solid rgba(148, 163, 184, 0.14);
+        background: rgba(10, 18, 31, 0.42);
+      }
+
+      .time-block-duration input {
+        width: 72px;
+        height: 32px;
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 10px;
+        background: rgba(15, 23, 42, 0.88);
+        color: #f8fbff;
+        padding: 0 8px;
+        font: inherit;
+        font-weight: 800;
+        outline: none;
+      }
+
+      .time-block-actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .time-block-btn {
+        min-height: 40px;
+        border-radius: 12px;
+        border: 1px solid rgba(148, 163, 184, 0.16);
+        background: rgba(49, 64, 92, 0.84);
+        color: #edf5ff;
+        padding: 0 13px;
+        font-weight: 800;
+        cursor: pointer;
+        transition:
+          transform 0.14s ease,
+          border-color 0.14s ease,
+          background 0.14s ease;
+      }
+
+      .time-block-btn:hover:not(:disabled) {
+        transform: translateY(-1px);
+        border-color: rgba(125, 211, 252, 0.28);
+        background: rgba(59, 77, 110, 0.94);
+      }
+
+      .time-block-btn:disabled {
+        opacity: 0.48;
+        cursor: not-allowed;
+      }
+
+      .time-block-btn.complete {
+        border-color: rgba(52, 211, 153, 0.3);
+        background: rgba(16, 120, 88, 0.64);
+      }
+
+      .time-block-btn.revise {
+        border-color: rgba(96, 165, 250, 0.32);
+        background: rgba(37, 99, 235, 0.58);
+      }
+
+      .time-block-grid {
+        max-height: 380px;
+        overflow: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        padding-right: 4px;
+      }
+
+      .time-block-chapter {
+        border-radius: 16px;
+        border: 1px solid rgba(148, 163, 184, 0.13);
+        background: rgba(10, 18, 31, 0.34);
+        padding: 12px;
+      }
+
+      .time-block-option {
+        display: grid;
+        grid-template-columns: 18px minmax(0, 1fr);
+        align-items: flex-start;
+        gap: 10px;
+        color: #e5eefc;
+        cursor: pointer;
+      }
+
+      .time-block-option input {
+        width: 16px;
+        height: 16px;
+        margin: 3px 0 0;
+        accent-color: #34d399;
+      }
+
+      .time-block-option strong {
+        display: block;
+        color: #f3f8ff;
+        font-size: 0.9rem;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
+      }
+
+      .time-block-option.chapter strong {
+        font-weight: 900;
+      }
+
+      .time-block-topic-list {
+        display: grid;
+        gap: 9px;
+        margin-top: 10px;
+        padding-left: 28px;
+      }
+
+      /* ------------------------------------------------------------------ */
       /* CHAPTER / NOTE / WRONG QUESTION MODALS                             */
       /* ------------------------------------------------------------------ */
 
@@ -1081,6 +1291,21 @@ export function DashboardStyles() {
         .chapter-stats-grid {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }
+
+        .time-block-head,
+        .time-block-toolbar {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .time-block-metrics {
+          min-width: 0;
+          width: 100%;
+        }
+
+        .time-block-actions {
+          justify-content: flex-start;
+        }
       }
 
       @media (max-width: 900px) {
@@ -1110,6 +1335,10 @@ export function DashboardStyles() {
         .chapter-stats-history-item {
           flex-direction: column;
         }
+
+        .time-block-grid {
+          grid-template-columns: 1fr;
+        }
       }
 
       @media (max-width: 720px) {
@@ -1121,6 +1350,29 @@ export function DashboardStyles() {
         .tree-shell {
           padding: 16px 12px;
           border-radius: 20px;
+        }
+
+        .time-block-builder {
+          padding: 14px 12px;
+          border-radius: 20px;
+        }
+
+        .time-block-metrics {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .time-block-duration,
+        .time-block-actions,
+        .time-block-btn {
+          width: 100%;
+        }
+
+        .time-block-btn {
+          justify-content: center;
+        }
+
+        .time-block-topic-list {
+          padding-left: 10px;
         }
 
         .tree-shell-title {
@@ -1148,12 +1400,135 @@ export function DashboardStyles() {
         .wrong-questions-modal,
         .note-manager-modal {
           width: calc(100vw - 16px);
+          max-height: calc(100dvh - 16px);
           padding: 16px;
           border-radius: 20px;
+          scrollbar-gutter: stable;
         }
 
         .chapter-stats-grid {
           grid-template-columns: 1fr;
+        }
+
+        .chapter-stats-overlay {
+          align-items: stretch;
+          padding:
+            max(8px, env(safe-area-inset-top))
+            max(8px, env(safe-area-inset-right))
+            max(8px, env(safe-area-inset-bottom))
+            max(8px, env(safe-area-inset-left));
+        }
+
+        .chapter-stats-head {
+          gap: 12px;
+          margin-bottom: 14px;
+        }
+
+        .chapter-stats-head-actions,
+        .note-manager-actions,
+        .note-manager-inline-actions {
+          width: 100%;
+          align-items: stretch;
+        }
+
+        .chapter-stats-close,
+        .note-manager-primary,
+        .note-manager-inline-btn,
+        .note-manager-tab {
+          min-width: 0;
+          min-height: 42px;
+          justify-content: center;
+          text-align: center;
+        }
+
+        .note-manager-tabs {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+          margin-bottom: 14px;
+        }
+
+        .note-manager-composer {
+          gap: 10px;
+          margin-bottom: 14px;
+        }
+
+        .note-manager-textarea {
+          min-height: 150px;
+          max-height: 44dvh;
+          padding: 12px;
+          font-size: 0.95rem;
+          line-height: 1.7;
+        }
+
+        .note-manager-actions .note-manager-primary,
+        .note-manager-actions .note-manager-inline-btn,
+        .note-manager-inline-actions .note-manager-inline-btn {
+          flex: 1 1 0;
+        }
+
+        .note-manager-list {
+          gap: 12px;
+        }
+
+        .note-manager-item {
+          padding: 12px;
+          border-radius: 16px;
+        }
+
+        .note-manager-item-head {
+          gap: 10px;
+          margin-bottom: 8px;
+        }
+
+        .note-manager-copy {
+          font-size: 0.94rem;
+          line-height: 1.78;
+          overflow-wrap: anywhere;
+        }
+      }
+
+      @media (max-width: 420px) {
+        .chapter-stats-modal,
+        .wrong-questions-modal,
+        .note-manager-modal {
+          width: calc(100vw - 10px);
+          max-height: calc(100dvh - 10px);
+          padding: 12px;
+          border-radius: 16px;
+        }
+
+        .chapter-stats-title {
+          font-size: 1.08rem;
+          line-height: 1.28;
+        }
+
+        .chapter-stats-subtitle {
+          font-size: 0.84rem;
+          line-height: 1.5;
+        }
+
+        .note-manager-tabs {
+          gap: 6px;
+        }
+
+        .note-manager-tab,
+        .note-manager-primary,
+        .note-manager-inline-btn {
+          min-height: 40px;
+          padding: 0 10px;
+          font-size: 0.84rem;
+        }
+
+        .note-manager-textarea {
+          min-height: 148px;
+          font-size: 0.94rem;
+          line-height: 1.72;
+        }
+
+        .note-manager-copy {
+          font-size: 0.92rem;
+          line-height: 1.76;
         }
       }
 

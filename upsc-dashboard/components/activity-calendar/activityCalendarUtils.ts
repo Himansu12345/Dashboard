@@ -68,8 +68,14 @@ export function getHeatColor(count: number): string {
 
 export function getMissionCompletionColor(
   completion: PlannerDayCompletion | null | undefined,
+  dateKey?: string,
 ): string {
-  if (!completion || completion.totalMissions <= 0) return "#141f35";
+  if (dateKey && ISO_DATE_PATTERN.test(dateKey)) {
+    const day = new Date(`${dateKey}T00:00:00`).getDay();
+    if (day === 0 || day === 6) return "#22c55e";
+  }
+
+  if (!completion || completion.totalMissions <= 0) return "#22c55e";
   
   // 🛡️ PRO FIX: Time-Guard checks if the day is in the future.
   // If it's a future day, it renders as grey/empty instead of Failed (Red)
