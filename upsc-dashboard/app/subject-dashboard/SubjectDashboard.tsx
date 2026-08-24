@@ -678,188 +678,188 @@ type TimeBlockBuilderProps = {
   onApplyRevision: () => void;
 };
 
-function TimeBlockBuilder({
-  chapterNodes,
-  selectedUids,
-  checkedUids,
-  completionTimes,
-  blockMinutes,
-  onBlockMinutesChange,
-  onToggleTarget,
-  onClear,
-  onExpandSelected,
-  onApplyComplete,
-  onApplyRevision,
-}: TimeBlockBuilderProps) {
-  const leafUidsByNode = useMemo(() => {
-    const map = new Map<string, string[]>();
-    const visit = (node: SubjectNode): string[] => {
-      const leafUids = node.children?.length
-        ? node.children.flatMap(visit)
-        : [node.uid];
-      map.set(node.uid, leafUids);
-      return leafUids;
-    };
+// function TimeBlockBuilder({
+//   chapterNodes,
+//   selectedUids,
+//   checkedUids,
+//   completionTimes,
+//   blockMinutes,
+//   onBlockMinutesChange,
+//   onToggleTarget,
+//   onClear,
+//   onExpandSelected,
+//   onApplyComplete,
+//   onApplyRevision,
+// }: TimeBlockBuilderProps) {
+//   const leafUidsByNode = useMemo(() => {
+//     const map = new Map<string, string[]>();
+//     const visit = (node: SubjectNode): string[] => {
+//       const leafUids = node.children?.length
+//         ? node.children.flatMap(visit)
+//         : [node.uid];
+//       map.set(node.uid, leafUids);
+//       return leafUids;
+//     };
 
-    chapterNodes.forEach(visit);
-    return map;
-  }, [chapterNodes]);
+//     chapterNodes.forEach(visit);
+//     return map;
+//   }, [chapterNodes]);
 
-  const selectedNodes = useMemo(() => {
-    const allTargets = chapterNodes.flatMap((chapter) => [
-      chapter,
-      ...(chapter.children || []),
-    ]);
-    return allTargets.filter((node) => selectedUids.has(node.uid));
-  }, [chapterNodes, selectedUids]);
+//   const selectedNodes = useMemo(() => {
+//     const allTargets = chapterNodes.flatMap((chapter) => [
+//       chapter,
+//       ...(chapter.children || []),
+//     ]);
+//     return allTargets.filter((node) => selectedUids.has(node.uid));
+//   }, [chapterNodes, selectedUids]);
 
-  const selectedLeafUids = useMemo(
-    () =>
-      Array.from(
-        new Set(
-          selectedNodes.flatMap((node) => leafUidsByNode.get(node.uid) || []),
-        ),
-      ),
-    [leafUidsByNode, selectedNodes],
-  );
+//   const selectedLeafUids = useMemo(
+//     () =>
+//       Array.from(
+//         new Set(
+//           selectedNodes.flatMap((node) => leafUidsByNode.get(node.uid) || []),
+//         ),
+//       ),
+//     [leafUidsByNode, selectedNodes],
+//   );
 
-  const completedLeaves = selectedLeafUids.filter((uid) =>
-    checkedUids.has(uid),
-  ).length;
-  const revisedLeaves = selectedLeafUids.filter(
-    (uid) => getRevisionCount(uid, completionTimes) > 0,
-  ).length;
-  const hasSelection = selectedLeafUids.length > 0;
+//   const completedLeaves = selectedLeafUids.filter((uid) =>
+//     checkedUids.has(uid),
+//   ).length;
+//   const revisedLeaves = selectedLeafUids.filter(
+//     (uid) => getRevisionCount(uid, completionTimes) > 0,
+//   ).length;
+//   const hasSelection = selectedLeafUids.length > 0;
 
-  return (
-    <section className="time-block-builder hide-in-zen">
-      <div className="time-block-head">
-        <div>
-          <p className="time-block-kicker">One Time Block</p>
-          <h3 className="time-block-title">Build revise or complete set</h3>
-          <p className="time-block-note">
-            Select full chapters or exact topics from this subject, then apply
-            the whole block once.
-          </p>
-        </div>
+//   return (
+//     // <section className="time-block-builder hide-in-zen">
+//     //   <div className="time-block-head">
+//     //     <div>
+//     //       <p className="time-block-kicker">One Time Block</p>
+//     //       <h3 className="time-block-title">Build revise or complete set</h3>
+//     //       <p className="time-block-note">
+//     //         Select full chapters or exact topics from this subject, then apply
+//     //         the whole block once.
+//     //       </p>
+//     //     </div>
 
-        <div className="time-block-metrics">
-          <div className="time-block-metric">
-            <span>Targets</span>
-            <strong>{selectedNodes.length}</strong>
-          </div>
-          <div className="time-block-metric">
-            <span>Points</span>
-            <strong>{selectedLeafUids.length}</strong>
-          </div>
-          <div className="time-block-metric">
-            <span>Done</span>
-            <strong>{completedLeaves}</strong>
-          </div>
-          <div className="time-block-metric">
-            <span>Revised</span>
-            <strong>{revisedLeaves}</strong>
-          </div>
-        </div>
-      </div>
+//     //     <div className="time-block-metrics">
+//     //       <div className="time-block-metric">
+//     //         <span>Targets</span>
+//     //         <strong>{selectedNodes.length}</strong>
+//     //       </div>
+//     //       <div className="time-block-metric">
+//     //         <span>Points</span>
+//     //         <strong>{selectedLeafUids.length}</strong>
+//     //       </div>
+//     //       <div className="time-block-metric">
+//     //         <span>Done</span>
+//     //         <strong>{completedLeaves}</strong>
+//     //       </div>
+//     //       <div className="time-block-metric">
+//     //         <span>Revised</span>
+//     //         <strong>{revisedLeaves}</strong>
+//     //       </div>
+//     //     </div>
+//     //   </div>
 
-      <div className="time-block-toolbar">
-        <label className="time-block-duration">
-          <span>Minutes</span>
-          <input
-            type="number"
-            min={5}
-            max={300}
-            step={5}
-            value={blockMinutes}
-            onChange={(event) =>
-              onBlockMinutesChange(
-                Math.max(5, Math.min(300, Number(event.target.value) || 5)),
-              )
-            }
-          />
-        </label>
+//     //   <div className="time-block-toolbar">
+//     //     <label className="time-block-duration">
+//     //       <span>Minutes</span>
+//     //       <input
+//     //         type="number"
+//     //         min={5}
+//     //         max={300}
+//     //         step={5}
+//     //         value={blockMinutes}
+//     //         onChange={(event) =>
+//     //           onBlockMinutesChange(
+//     //             Math.max(5, Math.min(300, Number(event.target.value) || 5)),
+//     //           )
+//     //         }
+//     //       />
+//     //     </label>
 
-        <div className="time-block-actions">
-          <button
-            type="button"
-            className="time-block-btn"
-            onClick={onExpandSelected}
-            disabled={!hasSelection}
-          >
-            Open selected
-          </button>
-          <button
-            type="button"
-            className="time-block-btn"
-            onClick={onClear}
-            disabled={!hasSelection}
-          >
-            Clear
-          </button>
-          <button
-            type="button"
-            className="time-block-btn complete"
-            onClick={onApplyComplete}
-            disabled={!hasSelection}
-          >
-            Complete block
-          </button>
-          <button
-            type="button"
-            className="time-block-btn revise"
-            onClick={onApplyRevision}
-            disabled={!hasSelection}
-          >
-            Revise block
-          </button>
-        </div>
-      </div>
+//     //     <div className="time-block-actions">
+//     //       <button
+//     //         type="button"
+//     //         className="time-block-btn"
+//     //         onClick={onExpandSelected}
+//     //         disabled={!hasSelection}
+//     //       >
+//     //         Open selected
+//     //       </button>
+//     //       <button
+//     //         type="button"
+//     //         className="time-block-btn"
+//     //         onClick={onClear}
+//     //         disabled={!hasSelection}
+//     //       >
+//     //         Clear
+//     //       </button>
+//     //       <button
+//     //         type="button"
+//     //         className="time-block-btn complete"
+//     //         onClick={onApplyComplete}
+//     //         disabled={!hasSelection}
+//     //       >
+//     //         Complete block
+//     //       </button>
+//     //       <button
+//     //         type="button"
+//     //         className="time-block-btn revise"
+//     //         onClick={onApplyRevision}
+//     //         disabled={!hasSelection}
+//     //       >
+//     //         Revise block
+//     //       </button>
+//     //     </div>
+//     //   </div>
 
-      <div className="time-block-grid">
-        {chapterNodes.map((chapter) => {
-          const chapterLeafCount = leafUidsByNode.get(chapter.uid)?.length || 0;
+//     //   <div className="time-block-grid">
+//     //     {chapterNodes.map((chapter) => {
+//     //       const chapterLeafCount = leafUidsByNode.get(chapter.uid)?.length || 0;
 
-          return (
-            <div key={chapter.uid} className="time-block-chapter">
-              <label className="time-block-option chapter">
-                <input
-                  type="checkbox"
-                  checked={selectedUids.has(chapter.uid)}
-                  onChange={() => onToggleTarget(chapter.uid)}
-                />
-                <span>
-                  <strong>{chapter.label}</strong>
-                  <small>{chapterLeafCount} points</small>
-                </span>
-              </label>
+//     //       return (
+//     //         <div key={chapter.uid} className="time-block-chapter">
+//     //           <label className="time-block-option chapter">
+//     //             <input
+//     //               type="checkbox"
+//     //               checked={selectedUids.has(chapter.uid)}
+//     //               onChange={() => onToggleTarget(chapter.uid)}
+//     //             />
+//     //             <span>
+//     //               <strong>{chapter.label}</strong>
+//     //               <small>{chapterLeafCount} points</small>
+//     //             </span>
+//     //           </label>
 
-              {chapter.children?.length ? (
-                <div className="time-block-topic-list">
-                  {chapter.children.map((topic) => (
-                    <label key={topic.uid} className="time-block-option topic">
-                      <input
-                        type="checkbox"
-                        checked={selectedUids.has(topic.uid)}
-                        onChange={() => onToggleTarget(topic.uid)}
-                      />
-                      <span>
-                        <strong>{topic.label}</strong>
-                        <small>
-                          {leafUidsByNode.get(topic.uid)?.length || 0} points
-                        </small>
-                      </span>
-                    </label>
-                  ))}
-                </div>
-              ) : null}
-            </div>
-          );
-        })}
-      </div>
-    </section>
-  );
-}
+//     //           {chapter.children?.length ? (
+//     //             <div className="time-block-topic-list">
+//     //               {chapter.children.map((topic) => (
+//     //                 <label key={topic.uid} className="time-block-option topic">
+//     //                   <input
+//     //                     type="checkbox"
+//     //                     checked={selectedUids.has(topic.uid)}
+//     //                     onChange={() => onToggleTarget(topic.uid)}
+//     //                   />
+//     //                   <span>
+//     //                     <strong>{topic.label}</strong>
+//     //                     <small>
+//     //                       {leafUidsByNode.get(topic.uid)?.length || 0} points
+//     //                     </small>
+//     //                   </span>
+//     //                 </label>
+//     //               ))}
+//     //             </div>
+//     //           ) : null}
+//     //         </div>
+//     //       );
+//     //     })}
+//     //   </div>
+//     // </section>
+//   );
+// }
 
 function SubjectNotesPopup({
   nodeLabel,
