@@ -664,19 +664,19 @@ function PlannerMissionTimerBanner({
   );
 }
 
-type TimeBlockBuilderProps = {
-  chapterNodes: SubjectNode[];
-  selectedUids: Set<string>;
-  checkedUids: Set<string>;
-  completionTimes: SubjectCompletionTimes;
-  blockMinutes: number;
-  onBlockMinutesChange: (value: number) => void;
-  onToggleTarget: (uid: string) => void;
-  onClear: () => void;
-  onExpandSelected: () => void;
-  onApplyComplete: () => void;
-  onApplyRevision: () => void;
-};
+// type TimeBlockBuilderProps = {
+//   chapterNodes: SubjectNode[];
+//   selectedUids: Set<string>;
+//   checkedUids: Set<string>;
+//   completionTimes: SubjectCompletionTimes;
+//   blockMinutes: number;
+//   onBlockMinutesChange: (value: number) => void;
+//   onToggleTarget: (uid: string) => void;
+//   onClear: () => void;
+//   onExpandSelected: () => void;
+//   onApplyComplete: () => void;
+//   onApplyRevision: () => void;
+// };
 
 // function TimeBlockBuilder({
 //   chapterNodes,
@@ -2066,7 +2066,7 @@ export function SubjectDashboard({
             dashboard.setStarFilter(!dashboard.starFilter)
           }
         />
-        <TimeBlockBuilder
+        {/* <TimeBlockBuilder
           chapterNodes={chapterNodes}
           selectedUids={timeBlockSelectedUids}
           checkedUids={dashboard.checkedUids}
@@ -2078,7 +2078,7 @@ export function SubjectDashboard({
           onExpandSelected={expandTimeBlockTargets}
           onApplyComplete={applyTimeBlockComplete}
           onApplyRevision={applyTimeBlockRevision}
-        />
+        /> */}
         {plannerTimerState && (
           <PlannerMissionTimerBanner
             timerState={plannerTimerState}
