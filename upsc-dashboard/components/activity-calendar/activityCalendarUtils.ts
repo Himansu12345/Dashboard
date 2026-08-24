@@ -29,6 +29,8 @@ export const MONTH_NAMES = [
 
 export const VISIBLE_MONTHS = 3;
 const ISO_DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
+const CALENDAR_START_YEAR = 2026;
+const CALENDAR_START_MONTH_INDEX = 7;
 
 type BreakdownKey = "subject" | "topic" | "difficulty";
 
@@ -42,13 +44,27 @@ interface BreakdownStats {
 
 type BreakdownRow = SubjectBreakdownRow | TopicBreakdownRow | DifficultyBreakdownRow;
 
-export function clampSliderIndex(index: number): number {
-  const maxIndex = MONTH_NAMES.length - VISIBLE_MONTHS;
+export interface CalendarMonth {
+  monthIndex: number;
+  dates: Date[];
+}
+
+function getFirstMonthIndexForYear(selectedYear: number): number {
+  return selectedYear === CALENDAR_START_YEAR ? CALENDAR_START_MONTH_INDEX : 0;
+}
+
+export function clampSliderIndex(index: number, monthCount: number = MONTH_NAMES.length): number {
+  const maxIndex = Math.max(0, monthCount - VISIBLE_MONTHS);
   return Math.max(0, Math.min(maxIndex, index));
 }
 
-export function getInitialSliderIndex(monthIndex: number): number {
-  return clampSliderIndex(monthIndex - 1);
+export function getInitialSliderIndex(
+  monthIndex: number,
+  selectedYear: number,
+  monthCount: number = MONTH_NAMES.length,
+): number {
+  const firstMonthIndex = getFirstMonthIndexForYear(selectedYear);
+  return clampSliderIndex(monthIndex - firstMonthIndex, monthCount);
 }
 
 export function formatDate(date: Date): string {
@@ -71,6 +87,10 @@ export function getMissionCompletionColor(
   dateKey?: string,
 ): string {
   if (dateKey && ISO_DATE_PATTERN.test(dateKey)) {
+    const today = new Date();
+    const todayKey = formatDate(today);
+    if (dateKey > todayKey) return "#141f35";
+
     const day = new Date(`${dateKey}T00:00:00`).getDay();
     if (day === 0 || day === 6) return "#22c55e";
   }
@@ -405,7 +425,7 @@ export function buildPlannerDayDetailsMap(
 
 export function buildYearDays(selectedYear: number): Date[] {
   const days: Date[] = [];
-  const startDate = new Date(selectedYear, 0, 1);
+  const startDate = new Date(selectedYear, getFirstMonthIndexForYear(selectedYear), 1);
   const endDate = new Date(selectedYear, 11, 31);
 
   for (let currentDate = new Date(startDate); currentDate <= endDate; currentDate.setDate(currentDate.getDate() + 1)) {
@@ -415,12 +435,18 @@ export function buildYearDays(selectedYear: number): Date[] {
   return days;
 }
 
-export function groupDaysByMonth(allDays: Date[]): Date[][] {
-  const groupedMonths: Date[][] = Array.from({ length: 12 }, () => []);
+export function groupDaysByMonth(allDays: Date[]): CalendarMonth[] {
+  const groupedMonthMap = new Map<number, Date[]>();
   allDays.forEach((date) => {
-    groupedMonths[date.getMonth()].push(date);
+    const monthIndex = date.getMonth();
+    const dates = groupedMonthMap.get(monthIndex) || [];
+    dates.push(date);
+    groupedMonthMap.set(monthIndex, dates);
   });
-  return groupedMonths;
+  return Array.from(groupedMonthMap.entries()).map(([monthIndex, dates]) => ({
+    monthIndex,
+    dates,
+  }));
 }
 
 function toBreakdownArray(

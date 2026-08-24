@@ -45,7 +45,7 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
   const { currentYear, currentMonthIndex } = getCurrentDateMeta();
   const [selectedYear, setSelectedYear] = useState<number>(currentYear);
   const [sliderIndex, setSliderIndex] = useState<number>(
-    getInitialSliderIndex(currentMonthIndex),
+    getInitialSliderIndex(currentMonthIndex, currentYear),
   );
   const [selectedDateKey, setSelectedDateKey] = useState<string | null>(null);
   const [plannerDays, setPlannerDays] = useState<unknown[]>([]);
@@ -67,6 +67,7 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
   );
   const allDays = useMemo(() => buildYearDays(selectedYear), [selectedYear]);
   const months = useMemo(() => groupDaysByMonth(allDays), [allDays]);
+  const monthCount = months.length;
   const totalSubmissions = useMemo(
     () => Object.values(dateCountMap).reduce((sum, value) => sum + value, 0),
     [dateCountMap],
@@ -103,7 +104,11 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
   );
 
   useEffect(() => {
-    const initialIndex = getInitialSliderIndex(currentMonthIndex);
+    const initialIndex = getInitialSliderIndex(
+      currentMonthIndex,
+      selectedYear,
+      monthCount,
+    );
     const frameId = window.requestAnimationFrame(() => {
       scrollToMonth(initialIndex, "auto");
     });
@@ -111,7 +116,7 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
     return () => {
       window.cancelAnimationFrame(frameId);
     };
-  }, [currentMonthIndex, scrollToMonth, selectedYear]);
+  }, [currentMonthIndex, monthCount, scrollToMonth, selectedYear]);
 
   const loadPlannerDays = useCallback(
     async (isCancelled: () => boolean) => {
@@ -173,24 +178,25 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
 
       const nearestIndex = clampSliderIndex(
         Math.round(viewport.scrollLeft / step),
+        monthCount,
       );
       setSliderIndex((previousIndex) =>
         previousIndex === nearestIndex ? previousIndex : nearestIndex,
       );
     });
-  }, []);
+  }, [monthCount]);
 
   const handleMoveSlider = useCallback(
     (direction: number) => {
       setSliderIndex((previousIndex) => {
-        const nextIndex = clampSliderIndex(previousIndex + direction);
+        const nextIndex = clampSliderIndex(previousIndex + direction, monthCount);
         if (nextIndex !== previousIndex) {
           scrollToMonth(nextIndex, "smooth");
         }
         return nextIndex;
       });
     },
-    [scrollToMonth],
+    [monthCount, scrollToMonth],
   );
 
   const handleSliderKeyDown = useCallback(
@@ -216,7 +222,13 @@ export default function ActivityCalendar({ records }: ActivityCalendarProps) {
     const year = Number(event.target.value);
     if (!Number.isFinite(year)) return;
 
-    const nextIndex = getInitialSliderIndex(currentMonthIndex);
+    const nextAllDays = buildYearDays(year);
+    const nextMonthCount = groupDaysByMonth(nextAllDays).length;
+    const nextIndex = getInitialSliderIndex(
+      currentMonthIndex,
+      year,
+      nextMonthCount,
+    );
 
     setSelectedYear(year);
     setSliderIndex(nextIndex);

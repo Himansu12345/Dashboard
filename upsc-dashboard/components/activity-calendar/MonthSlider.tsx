@@ -1,9 +1,9 @@
 import { useMemo, type KeyboardEvent, type MutableRefObject, type UIEvent } from "react";
 import MonthCard from "./MonthCard";
-import { MONTH_NAMES, VISIBLE_MONTHS } from "./activityCalendarUtils";
+import { MONTH_NAMES, VISIBLE_MONTHS, type CalendarMonth } from "./activityCalendarUtils";
 
 interface MonthSliderProps {
-  months: Date[][];
+  months: CalendarMonth[];
   monthRefs: MutableRefObject<Array<HTMLDivElement | null>>;
   sliderViewportRef: MutableRefObject<HTMLDivElement | null>;
   sliderIndex: number;
@@ -27,13 +27,16 @@ export default function MonthSlider({
     () =>
       safeMonths.map((monthDates, monthIndex) => (
         <div
-          key={MONTH_NAMES[monthIndex]}
+          key={MONTH_NAMES[monthDates.monthIndex]}
           className="month-slide"
           ref={(element) => {
             monthRefs.current[monthIndex] = element;
           }}
         >
-          <MonthCard monthName={MONTH_NAMES[monthIndex]} monthDates={monthDates} />
+          <MonthCard
+            monthName={MONTH_NAMES[monthDates.monthIndex]}
+            monthDates={monthDates.dates}
+          />
         </div>
       )),
     [monthRefs, safeMonths],
@@ -66,7 +69,7 @@ export default function MonthSlider({
         type="button"
         className="month-slider-btn ripple-btn"
         onClick={() => onMoveSlider(1)}
-        disabled={sliderIndex >= MONTH_NAMES.length - VISIBLE_MONTHS}
+        disabled={sliderIndex >= Math.max(0, safeMonths.length - VISIBLE_MONTHS)}
         aria-label="Show next month"
       >
         {">"}
