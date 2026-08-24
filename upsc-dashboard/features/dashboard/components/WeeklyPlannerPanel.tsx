@@ -894,8 +894,7 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
 
   // Note State
   const [noteSub, setNoteSub] = useState(subjects[0] || "");
-  const [noteChap, setNoteChap] = useState("");
-  const [noteTopics, setNoteTopics] = useState<string[]>([]);
+  const [noteChaps, setNoteChaps] = useState<string[]>([]); // 🛡️ PRO FIX: Array for multiple chapters  const [noteTopics, setNoteTopics] = useState<string[]>([]);
   const [noteMode, setNoteMode] = useState<"complete" | "revise">("complete");
   const [noteTimeBlock, setNoteTimeBlock] = useState("");
   const [noteSubjectCheckedUids, setNoteSubjectCheckedUids] = useState<
@@ -934,17 +933,26 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
   // True only when EVERY point of EVERY currently-selected topic is already ticked.
   // True only when EVERY point of EVERY currently-selected topic is already ticked.
   const areSelectedTopicsFullyCompleted = useMemo(() => {
-    if (!noteSub || !noteChap || noteTopics.length === 0) return false;
+    if (!noteSub || noteChaps.length === 0 || noteTopics.length === 0)
+      return false;
 
-    const leafUids = collectLeafUidsForTopics(noteSub, noteChap, noteTopics);
+    const leafUids = noteTopics.flatMap((item) => {
+      const [chap, topic] = item.split("|||");
+      return collectLeafUidsForTopics(noteSub, chap, [topic]);
+    });
     if (leafUids.length === 0) return false;
 
     return leafUids.every((uid) => noteSubjectCheckedUids.has(uid));
-  }, [noteSub, noteChap, noteTopics, noteSubjectCheckedUids]);
+  }, [noteSub, noteChaps, noteTopics, noteSubjectCheckedUids]);
 
   // 🧠 PRO FIX: Cross-Day In-Memory Check
   const areSelectedTopicsGloballyCompleted = useMemo(() => {
-    if (!noteSub || !noteChap || noteTopics.length === 0 || !globalData)
+    if (
+      !noteSub ||
+      noteChaps.length === 0 ||
+      noteTopics.length === 0 ||
+      !globalData
+    )
       return false;
     let isFound = false;
     Object.values(globalData).forEach((dayData: any) => {
@@ -952,17 +960,20 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
         if (
           note.mode === "complete" &&
           note.subject === noteSub &&
-          note.chapter === noteChap
+          noteChaps.includes(note.chapter)
         ) {
+          const relevantTopics = noteTopics
+            .filter((item) => item.startsWith(`${note.chapter}|||`))
+            .map((item) => item.split("|||")[1]);
           const intersection = note.topics.filter((t: string) =>
-            noteTopics.includes(t),
+            relevantTopics.includes(t),
           );
           if (intersection.length > 0) isFound = true;
         }
       });
     });
     return isFound;
-  }, [noteSub, noteChap, noteTopics, globalData]);
+  }, [noteSub, noteChaps, noteTopics, globalData]);
 
   // If the selection is already fully done, "Complete" mode is meaningless here —
   // auto-switch to "Revise" so progress is tracked off the real revision button data.
@@ -1108,37 +1119,56 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
   };
 
   const handleAddNote = () => {
-    if (!noteSub || !noteChap || noteTopics.length === 0 || !noteTimeBlock)
+    if (
+      !noteSub ||
+      noteChaps.length === 0 ||
+      noteTopics.length === 0 ||
+      !noteTimeBlock
+    )
       return;
 
     // 🛡️ PRO FIX: Allow Parallel Multi-Chapter Missions in the same Time Block
     if (isTimeBlockOccupied(noteTimeBlock)) {
       const allowParallel = window.confirm(
-        "⚡ PARALLEL MISSION: This time block already has a task.\n\nDo you want to stack this chapter into the SAME time block?",
+        "⚡ PARALLEL MISSION: This time block already has a task.\n\nDo you want to stack these missions into the SAME time block?",
       );
       if (!allowParallel) return;
     }
 
-    const exactPoints = calculateExactPoints(noteSub, noteChap, noteTopics);
     const [nStart, nEnd] = noteTimeBlock.split("-");
 
-    updateData({
-      ...data,
-      notes: [
-        ...data.notes,
-        {
-          id: Date.now().toString(),
+    // Group selected topics back into their respective chapters
+    const groupedTopics = noteTopics.reduce(
+      (acc, item) => {
+        const [chap, topic] = item.split("|||");
+        if (!acc[chap]) acc[chap] = [];
+        acc[chap].push(topic);
+        return acc;
+      },
+      {} as Record<string, string[]>,
+    );
+
+    const newNotes = Object.entries(groupedTopics).map(
+      ([chap, topics], idx) => {
+        const exactPoints = calculateExactPoints(noteSub, chap, topics);
+        return {
+          id: `${Date.now()}-${idx}`,
           mode: effectiveNoteMode,
           subject: noteSub,
-          chapter: noteChap,
-          topics: noteTopics,
+          chapter: chap,
+          topics: topics,
           totalPoints: exactPoints,
           plannedStart: nStart,
           plannedEnd: nEnd,
-        },
-      ],
+        };
+      },
+    );
+
+    updateData({
+      ...data,
+      notes: [...data.notes, ...newNotes],
     });
-    setNoteChap("");
+    setNoteChaps([]);
     setNoteTopics([]);
     setNoteMode("complete");
     setNoteTimeBlock("");
@@ -1230,7 +1260,7 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
                 value={noteSub}
                 onChange={(val: string) => {
                   setNoteSub(val);
-                  setNoteChap("");
+                  setNoteChaps([]);
                   setNoteTopics([]);
                 }}
                 options={subjects.map((s: any) => ({ label: s, value: s }))}
@@ -1238,19 +1268,27 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
             </div>
             <div className="flex-1 lg:w-[240px]">
               <label className="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">
-                Chapter
+                Chapters{" "}
+                <span className="text-blue-500/70 ml-1 font-bold">
+                  (Multiple)
+                </span>
               </label>
-              <BuilderDropdown
-                value={noteChap}
-                onChange={(val: string) => {
-                  setNoteChap(val);
-                  setNoteTopics([]);
+              <MultiSelectDropdown
+                selected={noteChaps}
+                onChange={(val: string[]) => {
+                  setNoteChaps(val);
+                  // Safely retain topics that belong to the currently selected chapters
+                  setNoteTopics((prev) =>
+                    prev.filter((t) =>
+                      val.some((c) => t.startsWith(`${c}|||`)),
+                    ),
+                  );
                 }}
                 options={getChaptersForSubject(noteSub).map((c: any) => ({
                   label: c,
                   value: c,
                 }))}
-                placeholder="Select Chapter"
+                placeholder="Select Chapters"
               />
             </div>
 
@@ -1264,11 +1302,16 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
               <MultiSelectDropdown
                 selected={noteTopics}
                 onChange={setNoteTopics}
-                options={getTopicsForChapter(noteSub, noteChap).map(
-                  (t: string) => ({ label: t, value: t }),
+                options={noteChaps.flatMap((chap) =>
+                  getTopicsForChapter(noteSub, chap).map((t: string) => ({
+                    label: `[${chap.substring(0, 15)}...] ${t}`,
+                    value: `${chap}|||${t}`,
+                  })),
                 )}
                 placeholder={
-                  noteChap ? "Select topics..." : "Select Chapter first"
+                  noteChaps.length > 0
+                    ? "Select topics..."
+                    : "Select Chapter first"
                 }
               />
             </div>
@@ -1406,8 +1449,10 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
                     <button
                       onClick={() => {
                         setNoteSub(n.subject);
-                        setNoteChap(n.chapter);
-                        setNoteTopics(n.topics);
+                        setNoteChaps([n.chapter]);
+                        setNoteTopics(
+                          n.topics.map((t: string) => `${n.chapter}|||${t}`),
+                        );
                         setNoteTimeBlock(`${n.plannedStart}-${n.plannedEnd}`);
                         setNoteMode(n.mode);
                         updateData({
