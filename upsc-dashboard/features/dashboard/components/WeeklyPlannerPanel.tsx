@@ -892,9 +892,9 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
     { label: "11:00 PM - 11:59 PM", value: "23:00-23:59" },
   ];
 
-  // Note State
   const [noteSub, setNoteSub] = useState(subjects[0] || "");
-  const [noteChaps, setNoteChaps] = useState<string[]>([]); // 🛡️ PRO FIX: Array for multiple chapters  const [noteTopics, setNoteTopics] = useState<string[]>([]);
+  const [noteChaps, setNoteChaps] = useState<string[]>([]);
+  const [noteTopics, setNoteTopics] = useState<string[]>([]);
   const [noteMode, setNoteMode] = useState<"complete" | "revise">("complete");
   const [noteTimeBlock, setNoteTimeBlock] = useState("");
   const [noteSubjectCheckedUids, setNoteSubjectCheckedUids] = useState<
@@ -936,7 +936,7 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
     if (!noteSub || noteChaps.length === 0 || noteTopics.length === 0)
       return false;
 
-    const leafUids = noteTopics.flatMap((item) => {
+    const leafUids = noteTopics.flatMap((item: string) => {
       const [chap, topic] = item.split("|||");
       return collectLeafUidsForTopics(noteSub, chap, [topic]);
     });
@@ -963,8 +963,8 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
           noteChaps.includes(note.chapter)
         ) {
           const relevantTopics = noteTopics
-            .filter((item) => item.startsWith(`${note.chapter}|||`))
-            .map((item) => item.split("|||")[1]);
+            .filter((item: string) => item.startsWith(`${note.chapter}|||`))
+            .map((item: string) => item.split("|||")[1]);
           const intersection = note.topics.filter((t: string) =>
             relevantTopics.includes(t),
           );
@@ -1137,9 +1137,8 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
 
     const [nStart, nEnd] = noteTimeBlock.split("-");
 
-    // Group selected topics back into their respective chapters
     const groupedTopics = noteTopics.reduce(
-      (acc, item) => {
+      (acc: Record<string, string[]>, item: string) => {
         const [chap, topic] = item.split("|||");
         if (!acc[chap]) acc[chap] = [];
         acc[chap].push(topic);
@@ -1302,7 +1301,7 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
               <MultiSelectDropdown
                 selected={noteTopics}
                 onChange={setNoteTopics}
-                options={noteChaps.flatMap((chap) =>
+                options={noteChaps.flatMap((chap: string) =>
                   getTopicsForChapter(noteSub, chap).map((t: string) => ({
                     label: `[${chap.substring(0, 15)}...] ${t}`,
                     value: `${chap}|||${t}`,
