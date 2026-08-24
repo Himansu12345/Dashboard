@@ -1111,12 +1111,12 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
     if (!noteSub || !noteChap || noteTopics.length === 0 || !noteTimeBlock)
       return;
 
-    // 🛡️ Collision Alert
+    // 🛡️ PRO FIX: Allow Parallel Multi-Chapter Missions in the same Time Block
     if (isTimeBlockOccupied(noteTimeBlock)) {
-      alert(
-        "⚠️ TIME COLLISION: This time block is already occupied by another task on this day! Please select a different time block or delete the existing task.",
+      const allowParallel = window.confirm(
+        "⚡ PARALLEL MISSION: This time block already has a task.\n\nDo you want to stack this chapter into the SAME time block?",
       );
-      return;
+      if (!allowParallel) return;
     }
 
     const exactPoints = calculateExactPoints(noteSub, noteChap, noteTopics);
@@ -1161,12 +1161,12 @@ function DayBlockBuilder({ day, data, updateData, subjects, globalData }: any) {
     )
       return;
 
-    // 🛡️ Collision Alert
+    // 🛡️ PRO FIX: Allow Parallel Multi-Chapter Missions in the same Time Block
     if (isTimeBlockOccupied(testTimeBlock)) {
-      alert(
-        "⚠️ TIME COLLISION: This time block is already occupied by another task on this day! Please select a different time block or delete the existing task.",
+      const allowParallel = window.confirm(
+        "⚡ PARALLEL MISSION: This time block already has a task.\n\nDo you want to stack this test into the SAME time block?",
       );
-      return;
+      if (!allowParallel) return;
     }
 
     const selectedMcqChapter = mcqChapterOptions.find(
