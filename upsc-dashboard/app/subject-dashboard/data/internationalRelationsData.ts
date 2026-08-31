@@ -1591,6 +1591,104 @@ export const RAW_D =[
     ]
   },
   {
+      "id": "FINAL-AUDIT-IR",
+      "p": "pm2",
+      "label": "🟡|FINAL 2027 STATIC AUDIT — IPMDA, BRICS, BRI & International Institutions",
+      "kind": "section",
+      "children": [
+        {
+          "label": "🟡|IPMDA — Indo-Pacific Partnership for Maritime Domain Awareness",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Launched by the Quad at the 2022 Tokyo Leaders' Summit. It is a technology/training initiative to enhance maritime domain awareness and transparency across partner regions in the Indo-Pacific.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🔴|Uses commercially available satellite radio-frequency and related maritime data to provide near-real-time information on vessel activity; supports partners in monitoring their waters and responding to illicit maritime activity, climate events and humanitarian challenges.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|India angle: links SAGAR/Indo-Pacific interests with maritime information-sharing and regional capacity-building; connect it with the Information Fusion Centre - Indian Ocean Region concept where relevant.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|TRAP: IPMDA is not a military alliance or collective-defence pact; it is a maritime awareness/technology-and-capacity initiative under the Quad.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|BRICS — Alternative/Plural Global Governance",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|BRICS seeks greater voice for emerging/developing economies in global governance through political coordination, development cooperation, financial institutions and South-South engagement.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Why it can be an alternative platform: representative-development critique of established institutions, New Development Bank, cooperation beyond traditional Western-led forums and agenda-setting by the Global South.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Limitations: divergent national interests, China-India strategic competition, uneven economic weight, institutional heterogeneity and tension between declaratory solidarity and coordinated outcomes.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|TRAP: 'Alternative' does not mean replacement; BRICS does not replace the UN, WTO, IMF or World Bank and operates alongside them.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|BRI — South Asia & India's Security/Regional Influence",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Strategic implications for India: connectivity and infrastructure can increase China's economic/geopolitical presence in the neighbourhood; dual-use infrastructure can create security sensitivities; India's major objection is sovereignty when projects touch disputed territory.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Possible effects: debt/financial dependence concerns, port/connectivity competition, altered regional trade routes, political leverage and pressure on India's neighbourhood diplomacy.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Indian response: strengthen own connectivity, Neighbourhood First, SAGAR/Indo-Pacific partnerships, Chabahar/INSTC/IMEC where relevant, diversify development partnerships and offer transparent, demand-driven alternatives.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|International Institutions — Final Static Mandate Map",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|UNSC → international peace and security; ICJ → disputes between States and advisory opinions; WTO → global trade rules; IMF → monetary/financial stability and balance-of-payments support; World Bank → long-term development finance; WHO → global health coordination/norms; UNESCO → education, science and culture; ILO → labour standards and social justice.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|Prelims rule: distinguish mandate, membership, binding nature and funding/decision structure before eliminating options; do not assume every UN-linked body is a principal organ of the UN.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Diaspora — Global Bridge to Economic/Knowledge/Strategic Leverage",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Economic → remittances, investment, entrepreneurship, skills, technology and market access; political → advocacy/bridge-building; soft power → culture, education and professional networks; strategic → crisis support and bilateral linkages.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Limits: diaspora is diverse, host-country laws/politics matter, lobbying can create perceptions of interference, and Indian diplomatic policy should not treat overseas Indians as a single political bloc.",
+              "kind": "bullet"
+            }
+          ]
+        }
+      ]
+    },
+  {
     "id": "XI",
     "p": "pm2",
     "label": "🟡|International Relations — FINAL STATIC FREEZE CONTROL",

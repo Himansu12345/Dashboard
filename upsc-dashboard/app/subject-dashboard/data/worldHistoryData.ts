@@ -1372,7 +1372,7 @@ export const RAW_D =  [
             "label": "🔴|1945: UN; 1947: Indian independence & Truman Doctrine.\n1949: NATO & Soviet atomic bomb.\n1955: Warsaw Pact & Bandung Conference.\n1962: Cuban Missile Crisis."
           },
           {
-            "label": "🔴|1989: Fall of Berlin Wall.\n1991: USSR dissolved; Maastricht Treaty.\n2001: 9/11 attacks (static cut-off)."
+            "label": "🔴|1989: Fall of Berlin Wall.\n1991: USSR dissolved.\n1992: Maastricht Treaty signed; it entered into force in 1993.\n2001: 9/11 attacks (kept only as a late-20th/early-21st-century chronology marker)."
           }
         ]
       },
@@ -1432,6 +1432,32 @@ export const RAW_D =  [
           {
             "label": "🟡|Post-1991 current geopolitical developments belong in International Relations/Current Affairs, not the static World History core."
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-STATIC-PATCH-2027",
+    "p": "pm",
+    "label": "FINAL STATIC PATCH — WORLD HISTORY PROTECTION (2027)",
+    "children": [
+      {
+        "label": "Chinese Revolution",
+        "children": [
+          {"label": "🟠|1911 Revolution: Qing collapse and establishment of a republic associated with Sun Yat-sen's nationalist movement; political instability and warlordism followed."},
+          {"label": "🟠|1949 Communist Revolution: CCP victory under Mao Zedong and establishment of the People's Republic of China; roots included peasant mobilisation, Japanese invasion, Nationalist weaknesses and Communist organisation."}
+        ]
+      },
+      {
+        "label": "Latin American Independence",
+        "children": [
+          {"label": "🟠|Early-19th-century independence movements drew on Enlightenment ideas, resentment against colonial mercantilism and peninsular privilege, and the weakening of Spain/Portugal after the Napoleonic upheavals; leaders included Simón Bolívar and José de San Martín."}
+        ]
+      },
+      {
+        "label": "Ottoman / West Asian Transformation",
+        "children": [
+          {"label": "🟠|Ottoman decline and reform involved military setbacks, nationalist movements, European intervention and internal administrative/economic pressures; reform efforts such as the Tanzimat attempted modernisation while territorial losses reshaped West Asia and southeastern Europe."}
         ]
       }
     ]

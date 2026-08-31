@@ -982,7 +982,7 @@ export const RAW_D = [
                 "label": "🟠|Originated in UK (1991).\nIn India adopted 1997.\nA document outlining service standards, grievance redressal, and accountability."
               },
               {
-                "label": "🔴|Challenges: poor design, lack of consultation, inadequate awareness, no legal backing (except Sevottam model)."
+                "label": "🔴|Challenges: poor design, lack of consultation, inadequate awareness and generally non-statutory status; service standards need consultation, monitoring and effective grievance redress."
               }
             ]
           },
@@ -1777,6 +1777,118 @@ export const RAW_D = [
       }
     ]
   },
+  {
+      "id": "FINAL-AUDIT-GOV",
+      "p": "pm2",
+      "label": "🟡|FINAL 2027 STATIC AUDIT — Governance, Participation, CAG, Trusts & ADR",
+      "kind": "section",
+      "children": [
+        {
+          "label": "🟡|Participatory & Collaborative Governance — Final Framework",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Participatory governance → citizens/communities/stakeholders influence agenda, design, implementation, monitoring and feedback; it improves legitimacy, contextual knowledge and accountability.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Risks: elite capture, token consultation, unequal voice, participation fatigue and conflict between local preferences and constitutional/public-interest goals.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Collaborative governance links State + civil society + private sector + community organisations to combine regulation, finance, expertise and local knowledge; clarify roles rather than blur accountability.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|CAG — Legality, Regularity & Propriety",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|CAG examines whether public expenditure is within legal authority and rules; propriety goes beyond bare legality to ask whether expenditure is justified, prudent, economical, faithful to policy/intent and not wasteful or against public interest.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Mains distinction: legality = 'was it authorised?'; propriety = 'was it proper, prudent and in public interest?'. CAG reports are laid before Parliament/State Legislature and examined through legislative committees; CAG does not itself impose executive punishment for every audit observation.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Public Charitable Trusts — Development & Inclusion",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Potential contributions: mobilise private philanthropy for education, health, disability, heritage, livelihoods and community services; reach groups/areas where State capacity is thin; support innovation and long-term social investment.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Governance safeguards: transparent trusteeship, audited finances, conflict-of-interest controls, beneficiary accountability, disclosure and measurable outcomes; tax/charitable status should not substitute for public accountability.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|Mains lens: public charitable trusts complement, not replace, the constitutional obligations and public-service functions of the State.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Lok Adalat vs Arbitration — Prelims + Mains Final Comparison",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Lok Adalat → statutory ADR mechanism under the Legal Services Authorities Act, 1987; settlement/compromise based; award is deemed a decree of civil court and ordinarily final with no appeal under the statutory scheme.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🔴|Arbitration → private/contractual adjudicatory ADR under the Arbitration and Conciliation Act, 1996; arbitrator renders an arbitral award; parties ordinarily choose/derive the tribunal from agreement and the award is challengeable only on statutory grounds.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|TRAP: Lok Adalat is not a conventional court trial, and arbitration is not the same as consensual settlement by Lok Adalat.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|e-Governance — Integration vs User-Centric Design",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Integration bias: governments may optimise databases, departmental interoperability and standardised workflows before understanding citizen journeys; this can make systems technically integrated but difficult to use.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|User-centric governance → simple interfaces, accessibility, assisted/offline channels, multilingual support, grievance redress, minimal data burden and iterative testing with users.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|Mains balance: integration is valuable for reducing duplication/fraud and enabling whole-of-government delivery, but integration must serve user outcomes rather than become an end in itself.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Civil Services — Generalist Structure: Advantage vs Limitation",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Advantages: broad policy perspective, coordination across departments, field adaptability, common administrative culture and mobility across roles.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Limitations: specialist-domain gaps, short tenures, generalist dominance over technical expertise, weak institutional memory in complex sectors and possible risk of proceduralism.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Reform lens: domain capacity + lateral/specialist expertise + training + evidence-based decision-making while retaining coordination and constitutional accountability.",
+              "kind": "bullet"
+            }
+          ]
+        }
+      ]
+    },
   {
     "id": "XII",
     "p": "psel",

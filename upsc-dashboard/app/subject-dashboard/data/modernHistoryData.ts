@@ -444,7 +444,7 @@ export const RAW_D = [
                 "label": "🔴|Francois Martin founded Pondicherry (1674), which became the French HQ; other key settlements: Chandernagore (1690), Mahe (1725), Karaikal (1739), Yanam (1723)."
               },
               {
-                "label": "🔴|Governor Dupleix (1742-54): Shifted focus from trade to territorial ambition; used European-trained Indian sepoys; introduced the concept of Subsidiary Alliance, later perfected by Wellesley."
+                "label": "🔴|Governor Dupleix (1742-54): Shifted focus from trade to territorial ambition; used European-trained Indian sepoys; pioneered/used the subsidiary-alliance idea; Lord Wellesley later systematised and extensively implemented the Subsidiary Alliance system."
               },
               {
                 "label": "🟠|**Significance**: The French were the only serious European rivals to the British in India, and their defeat established British supremacy."
@@ -3493,7 +3493,7 @@ export const RAW_D = [
             ]
           },
           {
-            "label": "Kheda Satyagraha (1918) – First Non‑Cooperation",
+            "label": "Kheda Satyagraha (1918) – Early Gandhian peasant satyagraha using revenue non-payment/non-cooperation",
             "children": [
               {
                 "label": "🟡|Gujarat peasants faced crop failure; according to the Revenue Code, if the yield was under one‑fourth of the normal produce, revenue should be remitted, but the government refused."
@@ -4346,7 +4346,7 @@ export const RAW_D = [
             "label": "19th Century Movements",
             "children": [
               {
-                "label": "🔴|Indigo Revolt (1859-60): Bengal. Led by Digambar Biswas and Bishnucharan Biswas. Intellectual support from Dinabandhu Mitra's play 'Nil Darpan' (1860). Forced the passage of the Indigo Act 1862."
+                "label": "🔴|Indigo Revolt (1859-60): Bengal. Led by Digambar Biswas and Bishnucharan Biswas. Intellectual support from Dinabandhu Mitra's play 'Nil Darpan' (1860). Contributed to the Indigo Act, 1860, which regulated indigo cultivation."
               },
               {
                 "label": "🔴|Pabna Agrarian Leagues (1870s): Bengal. Legal and peaceful rent resistance against abusive Zamindars. Resulted in the Bengal Tenancy Act (1885)."
@@ -4999,7 +4999,7 @@ export const RAW_D = [
                 "label": "🔴|Aruna Asaf Ali: The 'Grand Old Lady of the Independence Movement'; heroically hoisted the flag at Gowalia Tank during QIM and ran underground operations."
               },
               {
-                "label": "🔴|Pritilata Waddedar & Kalpana Datta: Key members of Surya Sen's Chittagong armoury raid; Pritilata consumed cyanide rather than surrender (1932)."
+                "label": "🔴|Pritilata Waddedar and Kalpana Datta were revolutionaries associated with Surya Sen's Chittagong group; the 1930 Chittagong Armoury Raid was a separate episode from Pritilata's 1932 leadership of the Pahartali European Club attack, after which she used cyanide to avoid capture."
               },
               {
                 "label": "🔴|Captain Lakshmi Sahgal: Commander of the INA's Rani of Jhansi Regiment and Minister in Bose's Azad Hind government."
@@ -5420,6 +5420,27 @@ export const RAW_D = [
           {
             "label": "🟠|This is a broad Prelims + Mains master, not a word-for-word memorisation list. Its purpose is coverage with hierarchy."
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-STATIC-PATCH-2027",
+    "p": "pm",
+    "label": "FINAL STATIC PATCH — PYQ GAPS & PRECISION (2027)",
+    "children": [
+      {
+        "label": "PYQ PATCH — Planned Economy & Regional Imbalance",
+        "children": [
+          {"label": "🟠|Post-independence India adopted planned economic development to mobilise scarce capital, build infrastructure and industrial capacity, pursue self-reliance, reduce inequality and promote balanced regional development."},
+          {"label": "🟠|Planning for regional balance used public investment, major projects and backward-region programmes; disparities persisted because infrastructure, skills, markets, investment and historical advantages remained uneven."},
+          {"label": "🟠|Mains chain: planned development → attempts at balanced growth → uneven returns/concentration → regional disparities → targeted regional policy + infrastructure + human capital + institutional capacity."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Early Post-Independence Consolidation",
+        "children": [
+          {"label": "🟠|Organise early consolidation under four heads: political integration and democratic institutions; planned economic reconstruction; expansion of education/public institutions; and an independent foreign-policy orientation including non-alignment."}
         ]
       }
     ]

@@ -921,7 +921,7 @@ export const RAW_D = [
             "kind": "bullet"
           },
           {
-            "label": "Sovereign: India can cede territory to a foreign state (Berubari case).",
+            "label": "TRAP: Parliament cannot cede Indian territory to a foreign State merely under Article 3; Berubari established that cession requires a Constitutional Amendment under Article 368.",
             "kind": "bullet"
           },
           {
@@ -2460,6 +2460,14 @@ export const RAW_D = [
       }
     ]
   },
+
+
+
+
+
+
+
+  
   {
     "id": "VIII",
     "p": "pm2",
@@ -11176,6 +11184,86 @@ export const RAW_D = [
       }
     ]
   },
+  {
+      "id": "FINAL-AUDIT-POLITY",
+      "p": "pm2",
+      "label": "🟡|FINAL 2027 STATIC AUDIT — Constitutional Morality, Judicial Legislation & Electoral Law",
+      "kind": "section",
+      "children": [
+        {
+          "label": "🟡|Constitutional Morality",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Meaning: fidelity to constitutional text, values and institutional limits; protects liberty, equality, dignity, fraternity, rule of law and democratic accountability rather than merely following prevailing social morality.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Mains use: apply it to public authorities, constitutional functionaries and citizens while balancing individual rights with legitimate constitutional objectives.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Case anchors: Manoj Narula (2014) linked constitutional morality with good governance; Government of NCT Delhi (2018) discussed constitutional morality; Navtej Singh Johar (2018) used it against majoritarian morality in rights adjudication; use case names only where relevant.",
+              "kind": "case"
+            },
+            {
+              "label": "🟡|TRAP: Constitutional morality is a guiding constitutional principle, not an unlimited licence for courts to substitute personal morality for enacted law or constitutional text.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Judicial Interpretation, Activism & Judicial Legislation — Final Distinction",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Judicial review → tests legislative/executive action against the Constitution. Judicial interpretation → clarifies constitutional/statutory meaning. Judicial activism → broader rights-oriented/structural intervention within adjudicatory power. 'Judicial legislation' is a criticism/description of judicially created norms in areas where legislation is absent; it is not a separately conferred constitutional power.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Gap-filling can be justified where law is silent and fundamental rights require protection, but courts should respect separation of powers and avoid occupying the legislature's policy domain.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Case anchors: Vishaka (1997) — guidelines in a legislative vacuum for workplace sexual harassment; D.K. Basu (1997) — custodial safeguards; use as examples of rights-protective gap-filling, not as unlimited legislative power.",
+              "kind": "case"
+            }
+          ]
+        },
+        {
+          "label": "🟡|RPA 1951 — Election Disputes & Corrupt Practices Final Closure",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Election petition → ordinarily challenged before the High Court under the RPA 1951; statutory grounds include improper acceptance/rejection of nomination, corrupt practices and other grounds specified by the Act. Election law is statutory, while ECI's constitutional role flows from Art 324.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🔴|Major corrupt-practice heads: bribery; undue influence; specified appeals to religion/race/caste/community/language and promotion of enmity; publication of false statements concerning a candidate's personal character/conduct; obtaining assistance of government servants for electoral advantage; treat this as a high-yield list, not an exhaustive statutory reproduction.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|TRAP: Right to vote is a constitutional right under Art 326 subject to constitutional/statutory conditions, not a Fundamental Right. Right to contest is statutory. Electoral-roll revision is an ECI function; citizenship disputes should be distinguished from routine roll revision and statutory scrutiny.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Lok Sabha Speaker — Neutrality Under Polarisation",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Neutrality requires fair recognition of opposition rights, disciplined scheduling, impartial rulings on procedure, protection of parliamentary privileges and reasoned handling of disqualification matters.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Institutional reforms for polarized Houses: strengthen conventions for bipartisan functioning, reasoned/transparent rulings, time-bound decisions where statute/judicial doctrine permits, and protect procedural autonomy from partisan pressure.",
+              "kind": "bullet"
+            }
+          ]
+        }
+      ]
+    },
   {
     "id": "XLX",
     "p": "pm2",

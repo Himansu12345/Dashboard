@@ -1654,13 +1654,13 @@ export const RAW_D = [
             "label": "🔴| Smritis: Narada Smriti (Gupta period), Parashara Smriti, Brihaspati Smriti, Katyayana Smriti."
           },
           {
-            "label": "🔴| TRAP: Higher caste speak Sanskrit; lower caste and women speak Prakrit."
+            "label": "🟡|TRAP / overgeneralisation: Do not equate Sanskrit exclusively with elites and Prakrit exclusively with lower castes or women; language use varied by period, genre, region and social context."
           },
           {
             "label": "🟠| Sudraka: Mrichchhakatika (Little Clay Cart). Vishakhadatta: Mudrarakshasa, Devichandraguptam."
           },
           {
-            "label": "🔴| TRAP: Aryabhatta regarded as Father of Algebra."
+            "label": "🟡|TRAP: Avoid calling Aryabhata the universal \"Father of Algebra\"; instead remember his major contributions to mathematics and astronomy, including place-value notation, approximation of pi, and astronomical calculations."
           },
           {
             "label": "🟠| Brahmagupta: Brahmasphutasiddhanta (use of zero, negative numbers)."
@@ -2638,6 +2638,25 @@ export const RAW_D = [
           {
             "label": "🟡|Early medieval art/architecture identification: Aihole and Pattadakal are Chalukyan centres; Mahabalipuram and Kanchipuram are strongly associated with Pallavas; Chola monumental temples are later and distinct."
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-STATIC-PATCH-2027",
+    "p": "pm",
+    "label": "FINAL STATIC PATCH — FACTUAL PRECISION (2027)",
+    "children": [
+      {
+        "label": "Language & Social Groups",
+        "children": [
+          {"label": "🟡|Do not use a rigid Sanskrit = elite / Prakrit = lower groups formula. Literary, inscriptional and spoken language varied across time, region, genre, patronage and community."}
+        ]
+      },
+      {
+        "label": "Aryabhata",
+        "children": [
+          {"label": "🟡|Remember Aryabhata for major mathematical and astronomical contributions rather than the non-standard title \"Father of Algebra\"."}
         ]
       }
     ]

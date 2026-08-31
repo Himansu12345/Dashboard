@@ -2727,5 +2727,59 @@ export const RAW_D = [
         ]
       }
     ]
+  },
+  {
+    "id": "FINAL-STATIC-PATCH-2027",
+    "p": "pm",
+    "label": "FINAL STATIC PATCH — PYQ GAPS & PRECISION (2027)",
+    "children": [
+      {
+        "label": "PYQ PATCH — Fujiwhara Effect",
+        "children": [
+          {"label": "🔴|Fujiwhara effect: binary interaction between two nearby tropical cyclones; when close enough, they rotate cyclonically around a common midpoint. The interaction can alter their tracks, merge them, or weaken/strengthen the systems depending on size, intensity and separation."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Loo, Foehn & Chinook",
+        "children": [
+          {"label": "🔴|Loo: hot, dry, gusty summer wind blowing from the west across the northern Indian plains, especially in May–June."},
+          {"label": "🔴|Foehn: warm, dry downslope wind on the leeward side of major mountain ranges, produced mainly by adiabatic compression during descent."},
+          {"label": "🔴|Chinook: regional name for Foehn-type warm, dry winds on the lee side of the Rocky Mountains in North America; can cause rapid warming."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Juno Mission",
+        "children": [
+          {"label": "🔴|NASA Juno: Jupiter orbiter launched in 2011 and inserted into Jupiter orbit in 2016. By studying Jupiter's core/gravity field, magnetic field, deep atmospheric composition including water and ammonia, and auroras, it helps explain Jupiter's origin and evolution and thereby the formation/evolution of the solar system."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Indo-Pacific Shift in Global Trade",
+        "children": [
+          {"label": "🟠|Long-term trade shift toward the Indo-Pacific: growth of Asian manufacturing and consumer markets, dense intra-Asian supply chains, containerisation and port expansion, and the strategic importance of sea lanes such as Malacca have shifted the centre of gravity of global maritime commerce eastward."},
+          {"label": "🟠|Geographical logic: concentration of production in East/Southeast Asia + major ports and chokepoints + Indian Ocean–Pacific connectivity explains the increasing Indo-Pacific weight in global trade. Treat changing trade shares and rankings as dynamic data."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Water Resources in South Asia",
+        "children": [
+          {"label": "🟠|South Asian transboundary-water issues arise from shared river basins, monsoon variability, upstream/downstream dependence, irrigation, hydropower, sediment and flood management. Examples include the Indus, Ganges, Brahmaputra and Teesta systems."},
+          {"label": "🟠|Water is simultaneously an economic asset (irrigation, drinking water, hydropower, navigation) and a geopolitical issue because upstream projects, seasonal flows and competing national priorities affect downstream security."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Tundra: Fragility + Economic Importance",
+        "children": [
+          {"label": "🟠|Ecological fragility: permafrost, slow biomass recovery, short growing season and high sensitivity to warming make tundra ecosystems vulnerable to disturbance."},
+          {"label": "🟠|Economic significance: Arctic/sub-Arctic tundra areas contain or connect to important hydrocarbon, mineral, fisheries and transport resources; extraction faces high infrastructure costs, permafrost risks, remoteness and environmental constraints."}
+        ]
+      },
+      {
+        "label": "FINAL CONTROL",
+        "children": [
+          {"label": "🟡|Current port rankings, current trade shares, current resource reserves and other changing numerical claims belong in the dynamic/current layer, not the static core."}
+        ]
+      }
+    ]
   }
 ] satisfies RawSubjectNode[];

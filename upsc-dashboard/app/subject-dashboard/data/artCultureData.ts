@@ -72,7 +72,7 @@ export const RAW_D = [
                 "label": "🟡|Ajanta Caves (Maharashtra, 2nd BC–6th AD): Buddhist, chaityas & viharas; exquisite frescoes depicting Jataka tales; earlier caves (Hinayana) lack Buddha images; later (Mahayana) have them."
               },
               {
-                "label": "🟡|Ellora Caves (Maharashtra, 6th–11th AD): 34 caves – Buddhist (1‑12), Hindu (13‑29), Jain (30‑34).\nKailasanatha Temple (Cave 16) – largest monolithic rock‑cut temple built by Rashtrakuta Krishna I."
+                "label": "🟡|Ellora Caves (Maharashtra, 6th–11th AD): 34 caves – Buddhist (1‑12), Hindu (13‑29), Jain (30‑34).\nKailasa Temple (Cave 16) – famous monolithic rock‑cut temple traditionally attributed to Rashtrakuta king Krishna I."
               },
               {
                 "label": "🟡|Elephanta Caves (Maharashtra): Shiva‑focused; Trimurti (three‑faced) Shiva panel; Portuguese inflicted damage."
@@ -130,7 +130,7 @@ export const RAW_D = [
                 "label": "🟡|Nayaka / Madurai: Meenakshi Temple (Madurai) – massive gopurams, thousand‑pillared halls."
               },
               {
-                "label": "🟡|Pala & Sena (Bengal): Terracotta temples; distinctive curved roof (char‑chala).\nBishnupur temples."
+                "label": "🟡|Bengal temple traditions: Pala/Sena-period architectural legacies differ from the later Malla-era terracotta temple tradition of Bishnupur; Bishnupur is especially associated with the Malla rulers and its distinctive brick/terracotta temples and curved-roof forms."
               }
             ]
           },
@@ -152,7 +152,7 @@ export const RAW_D = [
             "label": "MAINS: Architecture as Statecraft & Socio-Economic Power",
             "children": [
               {
-                "label": "🟠|Political Legitimation: Monumental structures (e.g., Brihadeshwara Temple by Rajaraja I, Kailasanatha Temple by Rashtrakutas) served as physical manifestations of imperial sovereignty, divine right, and political consolidation."
+                "label": "🟠|Political Legitimation: Monumental structures (e.g., Brihadeshwara Temple by Rajaraja I, Kailasa Temple at Ellora under Rashtrakuta patronage) served as physical manifestations of imperial sovereignty, sacred kingship, and political consolidation."
               },
               {
                 "label": "🟠|Socio-Economic Role of Temples: Temples operated as core economic institutions — controlling vast land grants (Devadana), acting as local banks, driving rural employment, and sustaining regional trade and craft guilds."
@@ -444,7 +444,7 @@ export const RAW_D = [
                 "label": "🔴|Chola Bronzes: Lost wax (Cire‑Perdue) technique; copper alloy with high tin content.\nNataraja (Dancing Shiva) – four hands, damru (creation), fire (destruction), Abhaya mudra, foot on dwarf (Apasmara).\nOther: Sivakami, Kali, Tiruvalluvar."
               },
               {
-                "label": "🟡|Vijayanagara: large stone monolithic sculptures (Gomateshwara at Sravanabelagola is earlier Hoysala, not Vijayanagara); Vijayanagara produced excellent bronzes and temple sculptures like Narasimha, Ganesha."
+                "label": "🟡|Vijayanagara: large stone monolithic sculptures (Gomateshwara/Bahubali at Shravanabelagola is associated with the Western Ganga period and was commissioned around 981 CE by Chavundaraya; do not label it Hoysala or Vijayanagara); Vijayanagara produced excellent bronzes and temple sculptures like Narasimha, Ganesha."
               }
             ]
           }
@@ -1502,6 +1502,25 @@ export const RAW_D = [
           {
             "label": "🟡|Avoid absolute 'first/oldest' art-history claims unless the criterion and evidence are clear."
           }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FINAL-STATIC-PATCH-2027",
+    "p": "pm",
+    "label": "FINAL STATIC PATCH — FACTUAL PRECISION (2027)",
+    "children": [
+      {
+        "label": "Gomateshwara / Bahubali",
+        "children": [
+          {"label": "🔴|Shravanabelagola: Gomateshwara/Bahubali is a Jain monolith associated with the Western Ganga period; commissioned around 981 CE by Chavundaraya under Rachamalla IV. Do not label it Hoysala or Vijayanagara."}
+        ]
+      },
+      {
+        "label": "Kailasa Naming Trap",
+        "children": [
+          {"label": "🟡|Kailasanatha Temple, Kanchipuram → Pallava; Kailasa Temple, Ellora (Cave 16) → Rashtrakuta patronage. Keep the names distinct."}
         ]
       }
     ]

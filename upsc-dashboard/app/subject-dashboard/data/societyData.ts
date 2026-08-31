@@ -986,5 +986,27 @@ export const RAW_D = [
         ]
       }
     ]
+  },
+  {
+    "id": "FINAL-STATIC-PATCH-2027",
+    "p": "pm",
+    "label": "FINAL STATIC PATCH — PYQ GAPS & PRECISION (2027)",
+    "children": [
+      {
+        "label": "PYQ PATCH — Disability & Inclusive Development",
+        "children": [
+          {"label": "🔴|Disability should be approached through inclusion and rights rather than charity alone: barriers arise from stigma, inaccessible physical/digital environments, exclusion from education/employment, and inadequate support/assistive technology."},
+          {"label": "🟠|Core framework: accessibility + universal design + reasonable accommodation + equal participation + targeted support + intersectionality (gender, age, poverty, geography)."},
+          {"label": "🟠|Mains angle: shift from a purely medical model toward a social/rights-based model in which social and institutional barriers convert impairment into exclusion."}
+        ]
+      },
+      {
+        "label": "PYQ PATCH — Government–NGO–Private Sector Collaboration",
+        "children": [
+          {"label": "🟠|Comparative advantage: government provides regulation, public finance, scale and accountability; NGOs contribute community trust, last-mile access and social mobilisation; private actors contribute technology, finance, innovation and managerial capacity."},
+          {"label": "🟠|Good partnership design requires clear roles, outcome-linked agreements, transparent procurement/contracts, community participation, data sharing, independent monitoring and accountability so efficiency does not undermine equity."}
+        ]
+      }
+    ]
   }
 ]

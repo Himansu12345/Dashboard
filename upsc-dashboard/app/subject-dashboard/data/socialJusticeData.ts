@@ -1855,6 +1855,118 @@ export const RAW_D = [
     ]
   },
   {
+      "id": "FINAL-AUDIT-SJ",
+      "p": "pm2",
+      "label": "🟡|FINAL 2027 STATIC AUDIT — Human Capital, Women, Tribal Policy & Rights-Based Welfare",
+      "kind": "section",
+      "children": [
+        {
+          "label": "🟡|Human Capital — Education, Health, Nutrition & Skills",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Human capital is built through quality education, health, nutrition, skills, employability and social protection; expenditure is not equivalent to human-capital formation unless access converts into capabilities and outcomes.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Common failure points: poor foundational learning, malnutrition, weak primary healthcare, skill mismatch, unequal access, regional disparities and weak education-industry linkages.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Mains lens: treat education and health simultaneously as rights/welfare obligations and as long-term productive investment in a knowledge-driven economy.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Women's Reservation — Local Bodies to Parliament",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|73rd/74th Amendments created a constitutional framework for reservation of not less than one-third of seats for women in Panchayats and Municipalities; States may provide higher reservation under their laws/frameworks.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🔴|106th Constitutional Amendment (2023) provides one-third reservation for women in the Lok Sabha, State Legislative Assemblies and the Delhi Legislative Assembly, with operation linked to the constitutionally specified census/delimitation process and a 15-year initial period.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Mains evaluation: descriptive presence is not enough; assess substantive voice, leadership, committee participation, freedom from proxy control, resources and intersectional representation.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Tribal Development Policy — Equity + Social Grounding",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|Core constitutional/policy logic: protect identity, land/forest/community rights and participation while enabling health, education, livelihoods, infrastructure and human development.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Good tribal policy should be place-based, participatory and sensitive to customary institutions; displacement, weak implementation, documentation barriers and one-size-fits-all schemes can undermine equity.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Use the PESA/Fifth Schedule/Sixth Schedule/Forest Rights Act architecture where relevant, but distinguish constitutional, statutory and programme-level mechanisms.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Rights-Based Welfare Under Low Public Investment / Fragmented Governance",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Rights-based welfare can establish entitlements and accountability, but effective realisation still needs institutions, frontline staff, finance, infrastructure, information, portability and grievance redress.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Fragmented/non-integrated governance creates duplication, exclusion and accountability gaps; minimum public investment constrains last-mile delivery even when legal rights exist.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Reform lens: converge schemes, strengthen local delivery systems, use interoperable records without excluding digitally weak users, and combine legal entitlement with outcome monitoring.",
+              "kind": "bullet"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Constitutional Commissions for Social Equality — Effectiveness",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🔴|NCSC → Art 338; NCST → Art 338A; NCBC → Art 338B. Their core functions include monitoring safeguards, investigating/looking into complaints and reporting/recommending measures within their constitutional/statutory framework.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|Institutional effectiveness depends on independence, investigative staff, timely access to records, state/department cooperation, follow-up on recommendations, awareness and parliamentary/public scrutiny.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟡|Mains trap: constitutional status does not automatically mean coercive enforcement power equivalent to a court; always assess actual statutory/constitutional powers and implementation capacity.",
+              "kind": "trap"
+            }
+          ]
+        },
+        {
+          "label": "🟡|Social Capital — Women's Empowerment & Community Action",
+          "kind": "comparison",
+          "children": [
+            {
+              "label": "🟠|Social capital = networks, trust, reciprocity, collective norms and relationships that enable cooperation and access to resources/institutions.",
+              "kind": "bullet"
+            },
+            {
+              "label": "🟠|For women, networks/collectives can provide information, mentoring, livelihood links, legal awareness, confidence, collective bargaining and political voice; benefits are weaker where norms or elite capture restrict access.",
+              "kind": "bullet"
+            }
+          ]
+        }
+      ]
+    },
+  {
     "id": "XIV",
     "p": "pm2",
     "label": "🟡|Social Justice — FINAL STATIC FREEZE CONTROL",
